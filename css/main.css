@@ -87,6 +87,1495 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+@font-face {
+  font-family: "Urban Jungle";
+  src: url("https://files.jcink.net/uploads/derse/Urbanjungledemo_ymAm.otf")
+    format("opentype");
+}
+
+:root {
+  font-size: 13px;
+}
+
+.werewolf {
+  color: var(--werewolf);
+}
+.witch {
+  color: var(--witch);
+}
+.vampire {
+  color: var(--vampire);
+}
+.human {
+  color: var(--human);
+}
+
+@keyframes alert-animation {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-3px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+@keyframes rainbow-demo {
+  0% {
+    background: #ef3339;
+  }
+  8.33% {
+    background: #f47b37;
+  }
+  16.66% {
+    background: #f2bc64;
+  }
+  24.99% {
+    background: #38ba5e;
+  }
+  33.32% {
+    background: #5079ba;
+  }
+  41.65% {
+    background: #7a5ea8;
+  }
+  49.98% {
+    background: #bd54a2;
+  }
+  58.31% {
+    background: #7a5ea8;
+  }
+  66.64% {
+    background: #5079ba;
+  }
+  74.97% {
+    background: #38ba5e;
+  }
+  83.30% {
+    background: #f2bc64;
+  }
+  91.63% {
+    background: #f47b37;
+  }
+  100% {
+    background: #ef3339;
+  }
+}
+
+@keyframes rainbow-demo2 {
+  0% {
+    fill: #ef3339;
+  }
+  8.33% {
+    fill: #f47b37;
+  }
+  16.66% {
+    fill: #f2bc64;
+  }
+  24.99% {
+    fill: #38ba5e;
+  }
+  33.32% {
+    fill: #5079ba;
+  }
+  41.65% {
+    fill: #7a5ea8;
+  }
+  49.98% {
+    fill: #bd54a2;
+  }
+  58.31% {
+    fill: #7a5ea8;
+  }
+  66.64% {
+    fill: #5079ba;
+  }
+  74.97% {
+    fill: #38ba5e;
+  }
+  83.30% {
+    fill: #f2bc64;
+  }
+  91.63% {
+    fill: #f47b37;
+  }
+  100% {
+    fill: #ef3339;
+  }
+}
+
+@keyframes rainbow-demo3 {
+  0% {
+    color: #ef3339;
+  }
+  8.33% {
+    color: #f47b37;
+  }
+  16.66% {
+    color: #f2bc64;
+  }
+  24.99% {
+    color: #38ba5e;
+  }
+  33.32% {
+    color: #5079ba;
+  }
+  41.65% {
+    color: #7a5ea8;
+  }
+  49.98% {
+    color: #bd54a2;
+  }
+  58.31% {
+    color: #7a5ea8;
+  }
+  66.64% {
+    color: #5079ba;
+  }
+  74.97% {
+    color: #38ba5e;
+  }
+  83.30% {
+    color: #f2bc64;
+  }
+  91.63% {
+    color: #f47b37;
+  }
+  100% {
+    color: #ef3339;
+  }
+}
+body {
+  background: url(https://i.ibb.co/p0fSzvL/image.png);
+  color: #eee;
+  margin: 0;
+  background-attachment: fixed;
+  font: 300 1rem/1.6 open sans;
+}
+body.sidebar-storage-true #omens-body #omens-sidebar #first-sidebar {
+  margin-left: -250px;
+}
+body a {
+  text-decoration: none;
+  color: var(--main-accent);
+}
+
+.ismod-0 {
+  display: none !important;
+}
+.ismod-1 {
+  display: revert !important;
+}
+.isadmin-0 {
+  display: none !important;
+}
+.isadmin-1 {
+  display: revert !important;
+}
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  cursor: pointer;
+}
+#omens-body input {
+  margin: 0;
+  background: #444;
+  border: 0;
+  font: 700 0.75rem/100% open sans;
+  padding: 7px;
+  border-radius: 5px;
+  color: #aaa;
+}
+#omens-body input[type="submit"] {
+  background: var(--main-accent);
+  font: 700 10px/100% open sans;
+  text-transform: uppercase;
+  color: #222;
+}
+
+#omens-body {
+  position: relative;
+  width: min-content;
+  margin: auto;
+  display: grid;
+  grid: min-content min-content min-content min-content / 250px auto min-content;
+  place-items: start;
+  place-content: start;
+  grid-template-areas:
+    "omens-top omens-top omens-top"
+    "omens-header omens-header omens-navi"
+    "omens-sidebar omens-main omens-navi"
+    "omens-sidebar omens-main omens-navi";
+}
+#omens-top {
+  grid-area: omens-top;
+  width: 100%;
+  z-index: 999;
+  background: #333;
+  border-bottom: 3px solid #eee;
+  box-shadow: 0px 2px 3px rgb(0 0 0 / 7%);
+  position: sticky;
+  top: 0;
+  display: flex;
+  place-items: center;
+  place-content: flex-end;
+  overflow: hidden;
+}
+#omens-body #omens-top #elevator-buttons {
+  margin-left: 15px;
+  display: grid;
+  gap: 5px;
+}
+#omens-body #omens-top #elevator-buttons div {
+  transition: 0.25s;
+  color: #555;
+}
+
+#omens-body #omens-top #elevator-buttons div:hover {
+  transition: 0.25s;
+  color: #777;
+  transform: scale(1.1);
+  cursor: crosshair;
+}
+
+#omens-body #omens-top #navstrip {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 5px;
+  font: 700 10px/70% montserrat;
+  letter-spacing: -1px;
+  letter-spacing: 0px;
+  text-transform: uppercase;
+  place-items: center;
+  color: #888;
+  flex-grow: 1;
+  margin-left: 10px;
+  min-height: 75px;
+}
+#omens-body #omens-top #navstrip div {
+  margin: 0 !important;
+}
+#omens-body #omens-top #navstrip a {
+  display: block;
+  color: #aaa;
+  text-transform: uppercase;
+  background: #363636;
+  padding: 10px;
+  border-radius: 5px;
+  transition: 0.5s;
+  max-width: 250px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+#omens-body #omens-top #navstrip a:hover {
+  color: #ccc;
+  transition: 0.5s;
+}
+#omens-body #omens-top #navstrip a:first-child {
+  color: #aaa;
+  background: var(--main-accent);
+  color: #222;
+  animation: 30s linear infinite rainbow-demo;
+}
+#omens-body #omens-top #navstrip a:first-child:hover {
+  opacity: 75%;
+}
+
+#omens-body.user-groupid-2 #omens-top #current-user,
+#omens-body.user-groupid-2 #omens-top .user-links {
+  display: none;
+}
+#omens-body #omens-top #current-user {
+  height: 100%;
+  width: 175px;
+  position: relative;
+  height: 75px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+#omens-body #omens-top #current-user:before {
+  content: "";
+  width: 200px;
+  height: 225px;
+  background: url(https://i.ibb.co/4gXCZdM/ouija-selector-v3.png);
+  background-size: contain;
+  position: absolute;
+  transform: rotate(322deg);
+  top: -50px;
+  right: -94px;
+  opacity: 6%;
+}
+#omens-body #omens-top #current-user .user-avi {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  background: var(--main-gradient);
+  animation: 30s linear infinite rainbow-demo;
+  overflow: hidden;
+  margin-left: 10px;
+  flex-shrink: 0;
+}
+#omens-body #omens-top #current-user .user-avi img {
+  display: block;
+  width: 50px;
+  height: 50px;
+  mix-blend-mode: lighten;
+}
+#omens-body #omens-top #current-user .user-name {
+  font: 700 10px/100% montserrat;
+  text-transform: uppercase;
+  color: #999;
+  text-align: right;
+  display: flex;
+  flex-flow: column nowrap;
+  position: relative;
+}
+#omens-body #omens-top #current-user .user-name b {
+  font: 800 18px/70% playfair display;
+  letter-spacing: 0px;
+  text-transform: lowercase;
+  color: var(--main-accent);
+  animation: 30s linear infinite rainbow-demo3;
+  word-spacing: 100vw;
+  margin-top: 3px;
+}
+#omens-body #omens-top #current-user #subaccounts_menu select.forminput {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: 0;
+  background: transparent;
+  font-size: 0;
+  border: 0;
+  appearance: none;
+  z-index: 1;
+
+  cursor: crosshair;
+}
+#omens-body #omens-top #current-user #subaccounts_menu option {
+  font: 700 10px montserrat;
+  background: #333;
+  color: #888;
+}
+
+#omens-body #omens-top .user-links {
+  display: flex;
+  gap: 20px;
+  margin: 0 25px;
+}
+#omens-body #omens-top .user-links a {
+  display: grid;
+  place-items: center;
+  place-content: center;
+  position: relative;
+}
+#omens-body #omens-top .user-links a i {
+  font-size: 22px;
+  transform: rotate(0deg);
+  color: #999;
+  transition: 0.25s;
+}
+#omens-body #omens-top .user-links a:hover i {
+  transform: rotate(10deg);
+  transition: 0.25s;
+  color: var(--main-accent);
+}
+#omens-body #omens-top .user-links .hasalerts- .alert-animation {
+  display: none;
+}
+#omens-body #omens-top .user-links .alert-animation {
+  position: absolute;
+  display: grid;
+  place-items: center;
+  place-content: center;
+  padding: 1px;
+  background: var(--main-accent);
+  z-index: 1;
+  bottom: 14px;
+  right: -5px;
+  color: #222;
+  font-size: 11px;
+  border-radius: 100%;
+  width: 10px;
+  height: 10px;
+  font: 900 7px montserrat;
+  animation: 1.33s linear infinite alert-animation;
+  border: 3px solid #333;
+}
+#omens-body #omens-top #login-register {
+  display: none;
+}
+#omens-body.user-groupid-2 #omens-top #login-register {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-right: 20px;
+  position: relative;
+}
+#omens-body.user-groupid-2 #omens-top #login-register:before,
+#omens-body #omens-top #current-user:after {
+  content: "";
+  position: absolute;
+  top: -171px;
+  right: -32px;
+  width: 760px;
+  height: 550px;
+  background: url(https://i.ibb.co/rQBTWcm/Character-Venti-Wish.png);
+  background-size: cover;
+  filter: grayscale(1);
+  opacity: 3%;
+  pointer-events: none;
+}
+#omens-body #omens-top #current-user:after {
+  right: -200px;
+}
+#omens-body.user-groupid-2 #omens-top #login-register .login-register-button {
+  font: 700 10px montserrat;
+  text-transform: uppercase;
+  background: var(--main-accent);
+  animation: 30s linear infinite rainbow-demo;
+  color: #222;
+  padding: 7px;
+  border-radius: 5px;
+  position: relative;
+}
+#omens-body #omens-top #login-register .login-register-shortcut {
+  position: relative;
+}
+#omens-body
+  #omens-top
+  #login-register
+  .login-register-shortcut
+  input[type="submit"] {
+  margin: 0 !important;
+  height: 28px;
+  background: #2a2a2a;
+  color: #aaa;
+}
+
+#omens-body #omens-header {
+  grid-area: omens-header;
+  width: 1175px;
+  min-width: 1000px;
+  background: #222;
+  display: grid;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+  height: 750px;
+}
+
+#omens-body #omens-header .omens-header-inner {
+  width: 1000px;
+  height: 750px;
+  display: flex;
+  position: relative;
+}
+#omens-body #omens-header:before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: url(https://i.ibb.co/zfqbhgy/aaaaaa.png);
+  opacity: 5%;
+  filter: invert(1);
+}
+
+#omens-body #omens-header #h-left-shape {
+  position: absolute;
+  height: 100%;
+  width: 360px;
+  left: 0;
+  background: var(--main-gradient);
+  clip-path: polygon(0 0, 80% 0%, 100% 100%, 0% 100%);
+  transition: 0.33s;
+  pointer-events: none;
+}
+#omens-body #omens-header #h-left-shape img {
+  width: 1750px;
+  position: absolute;
+  top: -400px;
+  right: -575px;
+  mix-blend-mode: multiply;
+  filter: blur(2px);
+  opacity: 10%;
+  transition: 0.5s;
+}
+#omens-body #omens-header #h-left-shape.staff {
+  margin-left: -50px;
+  opacity: 0;
+  transition: 0.25s;
+}
+#omens-body #omens-header #h-left-shape {
+  transition-delay: 1s;
+}
+#omens-body #omens-header .h-logo {
+  text-align: right;
+  position: absolute;
+  top: 50px;
+  left: 380px;
+  z-index: 9;
+  text-transform: uppercase;
+  display: flex;
+  flex-flow: column nowrap;
+  place-items: flex-end;
+  place-content: flex-end;
+}
+#omens-body #omens-header .h-logo span {
+  font: 400 75px/80% urban jungle;
+  color: #eee;
+  -webkit-text-stroke: 2px #eee;
+  letter-spacing: 2px;
+}
+#omens-body #omens-header .h-logo div {
+  font: 800 10px montserrat;
+  -webkit-text-stroke: 0;
+  letter-spacing: 0px;
+  padding: 5px;
+  animation: 30s rainbow-demo linear infinite;
+  border-radius: 5px;
+  position: relative;
+  margin-top: 10px;
+  color: #111;
+}
+
+#omens-body #h-image {
+  width: 700px;
+  height: 1500px;
+  position: absolute;
+  top: 0;
+  left: -300px;
+
+  pointer-events: none;
+  transition: 0.5s;
+  z-index: 1;
+  margin-left: -100px;
+  opacity: 0;
+}
+#omens-header #h-image .image-proper {
+  width: 900px;
+  height: 900px;
+  background: url(https://i.ibb.co/4SPjvDf/omens2banner-4.png);
+  background-size: cover;
+  position: absolute;
+  top: -45px;
+  z-index: 1;
+  filter: contrast(66%);
+  image-rendering: -webkit-optimize-contrast;
+}
+#omens-header #h-image .image-mask {
+  width: 900px;
+  height: 900px;
+  animation: 30s rainbow-demo linear infinite;
+  -webkit-mask-image: url(https://i.ibb.co/VMpHgzb/omens2bannermask.png);
+  -webkit-mask-size: cover;
+  mix-blend-mode: overlay;
+  opacity: 75%;
+  background: #fc5296;
+  position: absolute;
+  top: -45px;
+  /* left: -250px; */
+  z-index: 1;
+}
+
+#omens-header #h-blurb {
+  position: absolute;
+  font: 600 12px/20px open sans;
+  width: 332px;
+  text-align: left;
+  bottom: 151px;
+  right: 345px;
+  transition: 0.33s;
+  pointer-events: none;
+  margin-right: -50px;
+  opacity: 0;
+  z-index: 0;
+}
+#omens-header #h-image.intro {
+  opacity: 1;
+  z-index: 10;
+  margin-left: 00px;
+  transition: 0.5s;
+  transition-delay: 0.25s;
+}
+#omens-header #h-blurb.intro {
+  opacity: 1;
+  margin-right: 0px;
+  transition: 0.5s;
+  pointer-events: auto;
+  z-index: 9;
+  transition-delay: 0.66s;
+}
+#omens-header #h-blurb b {
+  font: 800 10px montserrat;
+  color: #111;
+  -webkit-text-stroke: 0;
+  letter-spacing: 0px;
+  padding: 2px 3px;
+  animation: 30s rainbow-demo linear infinite;
+  text-transform: uppercase;
+  border-radius: 3px;
+}
+
+#omens-header #h-blurb .blurb-shape {
+  shape-outside: url(https://i.ibb.co/nBCqjJ4/omens2banner-cutout.png);
+  float: left;
+  height: 375px;
+  width: 209px;
+}
+
+#omens-header #h-updates-contain {
+  width: 400px;
+  position: absolute;
+  top: 230px;
+  left: 290px;
+  transform: scale(0.9);
+  opacity: 0%;
+  transition: 0.33s;
+  pointer-events: none;
+}
+#omens-header #h-updates-contain h1 {
+  margin: 0;
+  font: 800 60px playfair display;
+  animation: 30s linear infinite rainbow-demo3;
+  /* font-style: italic; */
+  letter-spacing: -4px;
+  text-align: center;
+}
+#omens-header #h-updates-contain .h-updates-blurb {
+  -webkit-column-count: 2;
+  -webkit-column-gap: 50px;
+  -webkit-column-rule: solid 2px #2f2f2f;
+  font: 400 12px/20px open sans;
+  text-align: justify;
+  color: #ddd;
+  margin-top: 25px;
+}
+#omens-header #h-updates-contain .h-updates-blurb b {
+  font: 800 10px montserrat;
+  color: #111;
+  -webkit-text-stroke: 0;
+  letter-spacing: 0px;
+  padding: 5px;
+  animation: 30s rainbow-demo linear infinite;
+  text-transform: uppercase;
+  border-radius: 5px;
+  margin-right: 5px;
+}
+
+#omens-header #h-staffcensus-contain {
+  position: absolute;
+  top: 0;
+  left: -100px;
+  width: 825px;
+  height: 100%;
+  z-index: 0;
+  pointer-events: none;
+}
+#omens-header #h-staffcensus-contain .h-census {
+  position: absolute;
+  width: 375px;
+  top: 80px;
+  left: 150px;
+  display: flex;
+  flex-flow: row wrap;
+  place-items: center;
+  place-content: center;
+  margin-top: -50px;
+  opacity: 0;
+  pointer-events: none;
+  transition: 0.33s;
+}
+#omens-header #h-staffcensus-contain .h-census h1 {
+  margin: 0;
+  font: 800 50px/70% playfair display;
+  word-spacing: 100vw;
+  position: absolute;
+  top: 35px;
+  left: -75px;
+  color: #eee;
+  letter-spacing: -4px;
+  font-style: italic;
+  animation: 30s linear infinite rainbow-demo3;
+}
+#omens-header #h-staffcensus-contain .h-census h2 {
+  position: absolute;
+  margin: 0;
+  top: 25px;
+  left: -75px;
+  text-transform: uppercase;
+  font: 700 12px montserrat;
+  color: #333;
+  letter-spacing: 0px;
+}
+#omens-header #h-staffcensus-contain .h-census-list {
+  display: grid;
+  gap: 0;
+  grid: 1fr / 1fr 1fr 1fr 1fr;
+  margin-top: -15px;
+}
+
+#omens-header #h-staffcensus-contain .h-census-list div {
+  width: 75px;
+  height: 75px;
+  border-radius: 100%;
+  display: grid;
+  place-items: center;
+  place-content: center;
+  text-align: center;
+  font: 700 7px montserrat;
+  text-transform: uppercase;
+  overflow: hidden;
+  position: relative;
+  color: #222;
+}
+
+#omens-header #h-staffcensus-contain .h-census-list .census-humans {
+  background: var(--human);
+}
+#omens-header #h-staffcensus-contain .h-census-list .census-witches {
+  background: var(--witch);
+  transform: translateY(75px);
+}
+#omens-header #h-staffcensus-contain .h-census-list .census-werewolves {
+  background: var(--werewolf);
+}
+#omens-header #h-staffcensus-contain .h-census-list .census-vampires {
+  background: var(--vampire);
+  transform: translateY(75px);
+}
+#omens-header #h-staffcensus-contain .h-census-list div b {
+  font: 700 20px/100% poppins;
+  letter-spacing: -2px;
+  z-index: 1;
+  color: #222;
+}
+#omens-header #h-staffcensus-contain .h-census-list div span {
+  z-index: 1;
+}
+#omens-header #h-staffcensus-contain .h-census-list div i {
+  position: absolute;
+  font-size: 70px;
+  color: #eee;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 1px #eee;
+  opacity: 33%;
+}
+
+#omens-header #h-staffcensus-contain .h-staff {
+  display: flex;
+  gap: 25px;
+  flex-flow: row wrap;
+  height: 425px;
+  position: absolute;
+  width: 725px;
+  bottom: 50px;
+  left: 50px;
+  margin-bottom: -50px;
+  opacity: 0;
+  transition: 0.5s;
+  place-content: center;
+  place-items: center;
+}
+#omens-header #h-staffcensus-contain .h-staff h1 {
+  margin: 0;
+  position: absolute;
+  font: 900 80px/70% playfair display;
+  left: -57px;
+  bottom: -53px;
+  opacity: 3%;
+  color: #fff;
+  letter-spacing: -7px;
+  text-transform: uppercase;
+}
+#omens-header #h-staffcensus-contain .h-staff .staffer {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  border: 0px solid #ddd;
+  overflow: hidden;
+  position: relative;
+  mix-blend-mode: multiply;
+  display: grid;
+  place-items: center;
+  place-content: center;
+}
+#omens-header #h-staffcensus-contain .h-staff .staffer img {
+  width: 100%;
+  position: absolute;
+  display: block;
+  filter: grayscale(0) contrast(33%) blur(0px) brightness(66%);
+  transform: scale(1);
+  opacity: 33%;
+  transition: 0.25s;
+}
+#omens-header #h-staffcensus-contain .h-staff .staffer b {
+  font: 600 35px/120% playfair display;
+  letter-spacing: -2px;
+  font-style: italic;
+  color: soft-light;
+  z-index: 1;
+  mix-blend-mode: overlay;
+  display: block;
+  color: #eee;
+  text-transform: lowercase;
+  letter-spacing: -2px;
+}
+#omens-header #h-staffcensus-contain .h-staff .staffer span {
+  font: 700 8px/8px montserrat;
+  color: #eee;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  z-index: 1;
+  transition: 0.25s;
+  text-align: center;
+}
+#omens-header #h-staffcensus-contain .h-staff .staffer:hover span {
+  letter-spacing: 3px;
+  transition: 0.25s;
+}
+#omens-header #h-staffcensus-contain .h-staff .staffer:hover img {
+  filter: grayscale(0) contrast(33%) blur(3px) brightness(75%);
+  transform: scale(1.1);
+  opacity: 66%;
+  transition: 0.25s;
+}
+
+#omens-header #h-credits-contain #credits-proper {
+  position: absolute;
+  place-self: center;
+  width: 440px;
+  height: 550px;
+  border-radius: 100%;
+  left: 200px;
+  top: 250px;
+  -webkit-column-count: 2;
+  -webkit-column-gap: 50px;
+  -webkit-column-rule: solid 2px #3f3f3f;
+  font: 400 12px/20px open sans;
+  text-align: justify;
+  color: #ddd;
+  margin-top: 25px;
+  transform: scale(1.1);
+  opacity: 0;
+  transition: 0.5s;
+}
+#omens-header #h-credits-contain.credits #credits-proper {
+  transform: scale(1);
+  opacity: 100%;
+  transition: 0.5s;
+  transition-delay: 0.75s;
+}
+#omens-header #h-credits-contain #credits-proper a {
+  font: 900 12px open sans;
+  animation: 30s linear infinite rainbow-demo3;
+}
+#omens-header #h-credits-contain #credits-proper b {
+  font: 700 12px open sans;
+  color: #fff;
+  border-bottom: 2px solid #333;
+}
+#omens-header #h-credits-contain .h-credits-deco1 {
+  position: absolute;
+  font-size: 265px;
+  left: 120px;
+  top: 0px;
+  color: #eee;
+  z-index: 1;
+  -webkit-text-fill-color: #222;
+  -webkit-text-stroke: 2px #3f3f3f;
+  opacity: 100%;
+  transition: 0.33s;
+  opacity: 0;
+  transform: rotate(-7deg) translateX(-25px);
+}
+#omens-header #h-credits-contain.credits .h-credits-deco1 {
+  transition: 0.33s;
+  opacity: 1;
+  transform: rotate(-7deg) translateX(0px);
+  transition-delay: 1.25s;
+}
+#omens-header #h-credits-contain .credits-bubbles {
+  width: 440px;
+  position: absolute;
+  bottom: 663px;
+  left: 2px;
+  display: flex;
+  place-items: center;
+  place-content: center;
+  z-index: 2;
+  opacity: 0;
+  transform: translateX(-25px);
+  transition: 0.33s;
+}
+#omens-header #h-credits-contain.credits .credits-bubbles {
+  opacity: 1;
+  transform: translateX(0px);
+  transition: 0.33s;
+  transition-delay: 1.25s;
+}
+#omens-header #h-credits-contain .credits-bubbles div {
+  width: 40px;
+  height: 40px;
+  animation: 30s linear infinite rainbow-demo;
+  border-radius: 100%;
+  font: 800 7px montserrat;
+  text-transform: uppercase;
+  padding: 8px;
+  display: grid;
+  place-items: center;
+  place-content: center;
+  text-align: center;
+  color: #222;
+  margin: 0 -5px;
+  position: relative;
+}
+#omens-header #h-credits-contain .credits-bubbles .bubble-1 {
+  left: -17px;
+  top: 1px;
+}
+#omens-header #h-credits-contain .credits-bubbles .bubble-2 {
+  left: 4px;
+  top: -15px;
+}
+#omens-header #h-credits-contain .credits-bubbles .bubble-3 {
+  position: relative;
+  left: 30px;
+  top: -20px;
+}
+#omens-header #h-credits-contain .credits-bubbles .bubble-4 {
+  left: 50px;
+  top: -17px;
+}
+
+#header-ouija {
+  width: 240px;
+  height: 302px;
+  background-size: contain;
+  position: absolute;
+  background: url(https://i.ibb.co/17sshj3/Ouija-selector.png);
+  background-size: contain;
+  transform: rotate(0deg);
+  right: 104px;
+  top: -50px;
+  opacity: 100%;
+  z-index: 1;
+  filter: contrast(50%) brightness(40%);
+  transition: 0.5s;
+}
+#header-ouija img {
+  object-fit: contain;
+}
+
+#omens-header #moon {
+  position: absolute;
+  right: 150px;
+  margin-top: 40px;
+  z-index: 2;
+}
+#omens-header #moon-deco {
+  position: absolute;
+  bottom: -310px;
+  right: -55px;
+  align-self: center;
+  width: 560px;
+  height: 800px;
+  background: url(https://i.ibb.co/6Pn8Ch6/281.png);
+  filter: invert(50%);
+  background-size: cover;
+  opacity: 5%;
+  pointer-events: none;
+}
+
+#omens-header #moon-deco2 {
+  position: absolute;
+  bottom: 255px;
+  right: 110px;
+  align-self: center;
+  width: 227px;
+  height: 220px;
+  background: url(https://i.ibb.co/rsxSv0s/sigil2.png);
+  filter: invert(50%);
+  background-size: cover;
+  opacity: 25%;
+  pointer-events: none;
+}
+#omens-header .moonback {
+  fill: #1f1f1f;
+  stroke: #2f2f2f;
+  stroke-width: 0px;
+}
+#omens-header .moon {
+  animation: 30s rainbow-demo2 linear infinite;
+}
+.omens-logo-moon {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  overflow: visible;
+  align-self: center;
+}
+
+#omens-header .nav-button {
+  width: 74px;
+  height: 74px;
+  border: 2px solid #444;
+  border-radius: 100%;
+  display: grid;
+  place-items: center;
+  place-content: center;
+  font: 700 14px montserrat;
+  transition: 0.5s;
+  position: absolute;
+  z-index: 1;
+  background: rgba(255, 255, 255, 5%);
+  align-self: center;
+  right: 50px;
+}
+#omens-header .h-nav-intro {
+  right: 185px;
+  margin-top: -460px;
+}
+#omens-header .h-nav-updates {
+  margin-top: -244px;
+  right: -10px;
+}
+#omens-header .h-nav-staff {
+  margin-top: 290px;
+  right: -10px;
+}
+#omens-header .h-nav-credit {
+  margin-top: 484px;
+  right: 185px;
+}
+#omens-header .h-nav-link {
+  color: #eee;
+  cursor: pointer;
+}
+#omens-header .h-nav-link.active {
+  border-color: var(--main-accent);
+}
+
+#omens-header:after {
+  content: "";
+  position: absolute;
+  height: 1000px;
+  width: 1450px;
+  background: url(https://i.ibb.co/pQVb6tk/Character-Tartaglia-Wish.png);
+  position: absolute;
+  background-size: cover;
+  top: -250px;
+  left: 0px;
+  pointer-events: none;
+  filter: grayscale(100%) contrast(1.5);
+  transform: scaleX(-1);
+  opacity: 1%;
+  mix-blend-mode: screen;
+}
+
+#header-ouija.intro {
+  transform: rotate(0deg);
+  right: 104px;
+  top: -50px;
+}
+#header-ouija.staff {
+  transform: rotate(135deg);
+  top: 400px;
+  right: -122px;
+}
+#header-ouija.credits {
+  transform: rotate(180deg);
+  top: 510px;
+  right: 104px;
+}
+
+#omens-header #moon-deco.intro {
+  bottom: calc(-310px + 0px);
+  transition: 0.5s;
+}
+#omens-header #moon-deco.staff {
+  bottom: calc(-310px + 200px);
+  transition: 0.5s;
+}
+#omens-header #moon-deco.credits {
+  bottom: calc(-310px + 300px);
+  transition: 0.5s;
+}
+
+#header-ouija.updates {
+  transform: rotate(52deg);
+  top: 75px;
+  right: -125px;
+}
+#omens-header #moon-deco.updates {
+  bottom: calc(-310px + 100px);
+  transition: 0.5s;
+}
+#omens-body #omens-header #h-left-shape.updates img {
+  filter: blur(0px);
+  transform: scale(0.66) translateY(-510px) translateX(170px);
+  opacity: 66%;
+  transition: 0.66s;
+}
+#omens-header #h-updates-contain.updates {
+  transform: scale(1);
+  opacity: 100%;
+  transition: 0.5s;
+  transition-delay: 0.25s;
+  pointer-events: auto;
+  z-index: 9;
+}
+
+#omens-header #h-staffcensus-contain.staff {
+  pointer-events: auto;
+  z-index: 9;
+}
+#omens-header #h-staffcensus-contain.staff .h-census {
+  margin-top: 0;
+  opacity: 100%;
+  transition: 0.33s;
+  transition-delay: 0.25s;
+}
+#omens-header #h-staffcensus-contain.staff .h-staff {
+  margin-bottom: 0;
+  opacity: 100%;
+  transition: 0.33s;
+  transition-delay: 0.5s;
+}
+
+#omens-body #omens-header #h-left-shape.credits {
+  margin-left: -100px;
+  opacity: 1;
+  transition: 0.5s;
+  z-index: 9;
+  transition-delay: 0.5s;
+}
+
+#omens-body #omens-header #h-left-shape.credits img {
+  opacity: 0;
+  transition: 0.25s;
+}
+#omens-body #h-image.credits {
+  margin-left: 230px;
+  margin-top: -100px;
+  transform: scale(1.25);
+  opacity: 100%;
+  transition: 0.75s;
+  filter: grayscale(100%) blur(0px) invert(1);
+  opacity: 7%;
+}
+
+#omens-body #omens-sidebar {
+  grid-area: omens-sidebar;
+  width: 250px;
+  background: #1f1f1f;
+  height: calc(100vh - 78px);
+  position: sticky;
+  top: 78px;
+  overflow: hidden;
+  display: flex;
+  overflow: hidden;
+}
+#omens-body #omens-sidebar::after {
+  content: "";
+  position: absolute;
+  width: 1500px;
+  height: 780px;
+  background: url(https://i.ibb.co/Hx43c2Z/pnghut-new-york-city-cities-skylines-clip-art-news.png);
+  filter: grayscale(100%) invert(1);
+  opacity: 2%;
+  z-index: -1;
+  left: -690px;
+  bottom: -201px;
+}
+#omens-body .sidebar-container {
+  width: 200px;
+  height: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+  place-items: start;
+  place-content: start;
+  padding: 25px;
+  flex-shrink: 0;
+}
+#omens-body #omens-sidebar .sidebar-group {
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 2px;
+  width: 100%;
+}
+#omens-body #omens-sidebar .sidebar-group h1 {
+  margin: 10px 0;
+  font: 700 10px montserrat;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: var(--main-accent);
+  animation: 30s linear infinite rainbow-demo3;
+  display: flex;
+  justify-content: center;
+}
+#omens-body #omens-sidebar .sidebar-group h1 div {
+  border-bottom: 3px solid #252525;
+  padding: 0 0 5px 0;
+}
+#omens-body #omens-sidebar .sidebar-group a {
+  font: 700 10px open sans;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  transition: 0.25s;
+  color: #aaa;
+}
+#omens-body #omens-sidebar .sidebar-group a:hover {
+  color: #666;
+  transition: 0.25s;
+}
+#omens-body #omens-sidebar .sidebar-group a b {
+  font: 700 13px playfair display;
+  margin-right: 5px;
+  color: var(--main-accent);
+  animation: 30s linear infinite rainbow-demo3;
+  text-transform: lowercase;
+}
+#omens-body.user-groupid-2 #omens-sidebar .sidebar-group.group-4 {
+  display: none;
+}
+#omens-body #omens-sidebar .sidebar-group.group-3 {
+  display: none;
+}
+#omens-body.user-groupid-2 #omens-sidebar .sidebar-group.group-3 {
+  display: flex;
+}
+#omens-body #omens-sidebar #sidebar-toggle {
+  position: absolute;
+  bottom: -3px;
+  left: 3px;
+  font: 900 66px/80% playfair display;
+  letter-spacing: -1px;
+  transition: 0.25s;
+  animation: 30s linear infinite rainbow-demo3;
+  mix-blend-mode: color-dodge;
+  opacity: 33%;
+}
+#omens-body #omens-sidebar #second-sidebar {
+}
+#omens-body #omens-sidebar #sidebar-toggle:hover {
+  opacity: 75%;
+  cursor: crosshair;
+  transition: 0.25s;
+}
+
+/* guest breakpoints */
+@media (max-height: 575px) and (min-width: 600px) {
+  #omens-body.user-groupid-2 #first-sidebar .group-3 {
+    display: none !important;
+  }
+}
+@media (max-height: 465px) and (min-width: 600px) {
+  #omens-body.user-groupid-2 #first-sidebar .group-2 {
+    display: none !important;
+  }
+}
+
+/* user breakpoints */
+@media (max-height: 625px) and (min-width: 600px) {
+  #omens-body #first-sidebar .group-4 {
+    display: none !important;
+  }
+  #omens-body #second-sidebar .group-5 {
+    display: none !important;
+  }
+}
+@media (max-height: 465px) and (min-width: 600px) {
+  #omens-body #first-sidebar .group-2 {
+    display: none !important;
+  }
+}
+#first-sidebar.open-on-load,
+#first-sidebar.open {
+  margin-left: -250px;
+  transition: 0.25s;
+}
+#first-sidebar.closed {
+  margin-left: 0px !important;
+  transition: 0.25s;
+}
+
+#omens-main {
+  grid-area: omens-main;
+  height: 110vh;
+  width: 825px;
+  padding: 50px;
+}
+#omens-main .omens-category {
+  display: flex;
+  flex-flow: column nowrap;
+  place-items: flex-start;
+  gap: 10px;
+  margin: -50px -50px 0 -50px;
+  padding: 50px;
+  position: relative;
+}
+
+#omens-main .omens-category .category-title {
+  font: 700 60px/80% playfair display;
+  text-transform: lowercase;
+  letter-spacing: -3px;
+  animation: 30s linear infinite rainbow-demo3;
+  mix-blend-mode: color-dodge;
+  opacity: 66%;
+}
+#omens-main #cat-1.omens-category .category-desc {
+  padding: 7px;
+  background: rgba(0, 0, 0, 10%);
+  font: 700 10px open sans;
+  text-transform: uppercase;
+  color: #aaa;
+}
+
+#omens-main #cat-1.omens-category .category-desc:before {
+  content: "start your journey";
+}
+
+#omens-main #cat-1.omens-category {
+  display: none;
+}
+
+#omens-brochure {
+  overflow: hidden;
+  display: flex;
+  flex-flow: row nowrap;
+  position: relative;
+  height: 500px;
+  width: 100%;
+  justify-content: flex-end;
+  background: #222;
+}
+
+#omens-brochure #brochure-image {
+  width: 300px;
+  height: 500px;
+  background: #2f2f2f;
+  position: relative;
+  overflow: hidden;
+  opacity: 100%;
+}
+
+#omens-brochure #brochure-title {
+  font: 900 66px/70% playfair display;
+  text-align: right;
+  margin-right: -50px;
+  margin-top: 50px;
+  position: relative;
+  z-index: 1;
+  letter-spacing: -3px;
+  transition: 0.25s;
+}
+
+#omens-brochure #brochure-title a {
+  animation: 30s linear infinite rainbow-demo3;
+  cursor: crosshair;
+  opacity: 75%;
+  transition: 0.25s;
+}
+
+#omens-brochure #brochure-title a:hover {
+  opacity: 100%;
+  transition: 0.25s;
+}
+
+#omens-brochure #brochure-image img {
+  width: 800px;
+  position: absolute;
+  right: -450px;
+  top: -299px;
+  filter: grayscale(1) contrast(100%);
+  mix-blend-mode: luminosity;
+  opacity: 3%;
+}
+
+#omens-brochure #brochure-desc {
+  font: 400 12px/180% open sans;
+  position: absolute;
+  width: 185px;
+  top: 165px;
+  right: 325px;
+  text-align: right;
+  color: #eee;
+}
+
+#omens-brochure #omens-news {
+  position: absolute;
+  padding: 25px;
+  bottom: 0;
+  left: 0;
+  width: 475px;
+  background: rgba(0, 0, 0, 8%);
+  overflow: hidden;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+}
+
+#omens-brochure #omens-news .board-title {
+  font: 800 30px/100% playfair display;
+  animation: 30s linear infinite rainbow-demo3;
+  opacity: 66%;
+  margin-bottom: -10px;
+  position: relative;
+  z-index: 1;
+}
+
+#omens-brochure #omens-news .board-desc {
+  color: #888;
+  text-align: justify;
+  font: 700 10px open sans;
+  text-transform: uppercase;
+  position: relative;
+  padding: 10px;
+  backdrop-filter: blur(3px);
+  background: rgba(0, 0, 0, 10%);
+  width: 66%;
+}
+
+#omens-brochure #omens-news .board-poster-img {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  border-radius: 100%;
+  overflow: hidden;
+  background: #242424;
+  padding: 30px;
+  border: 3px dashed #2a2a2a;
+}
+
+#omens-brochure #omens-news .board-poster-img img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  filter: grayscale(1);
+  opacity: 10%;
+  border-radius: 100%;
+}
+
+#omens-brochure #omens-news .board-topic {
+  font: 700 10px/100% open sans;
+  /* letter-spacing: -.5px; */
+  text-transform: uppercase;
+}
+
+#omens-brochure #omens-news .board-poster {
+  font: 700 10px open sans;
+  text-transform: uppercase;
+  color: #aaa;
+}
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
