@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title></title>
+  <title><% TITLE %></title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -173,25 +173,10 @@
     </div>
   </header>
   <main id="omens-main">
-    <div class="omens-category" id="cat-1">
-      <div class="category-title">The Beginning</div>
-      <div class="category-desc"></div>
-      <div class="category-tarot"></div>
-    </div>
-    <div id="omens-beginning" class="forum-1 cat-1">
-      <div id="omens-brochure">
-        <div id="brochure-title"><a href="#">enter the<br>brochure</a></div>
-        <div id="brochure-image"><img src="https://i.ibb.co/HxMM91w/Character-Lisa-Portrait.png"></div>
-        <div id="brochure-desc">Welcome to Weeping Omens! All basic information, such as rules, plot, and so forth can be found here. Please make sure to read all necessary information as you prepare an account!</div>
-        <div id="omens-news">
-          <div class="board-poster-img"><img src="https://i.ibb.co/MkP6wq0/image.png"></div>
-          <div class="board-title">the newspaper</div>
-          <div class="board-desc">announcements, updates, event sign-ups, and so forth will be recorded here for your viewing.</div>
-        </div>
-      </div>
-    </div>
-    i'm a body. <br>look selkie actually knows jcink this time and isn' t gonna put the footer in the grid template areas
-  </main>
+	<% BOARD HEADER %>
+	<% BOARD %> 
+	<% COPYRIGHT %>
+ </main>
   <aside id="omens-sidebar">
     <div id="first-sidebar" class="sidebar-container">
       <div class="sidebar-group group-1">
