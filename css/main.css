@@ -255,7 +255,7 @@ body {
   color: #eee;
   margin: 0;
   background-attachment: fixed;
-  font: 300 1rem/1.6 open sans;
+  font: 400 1rem/1.6 open sans;
 }
 body.sidebar-storage-true #omens-body #omens-sidebar #first-sidebar {
   margin-left: -250px;
