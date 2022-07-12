@@ -673,7 +673,9 @@ input[type="submit"] {
   height: 900px;
   animation: 30s rainbow-demo linear infinite;
   -webkit-mask-image: url(https://i.ibb.co/VMpHgzb/omens2bannermask.png);
+  mask-image: url(https://i.ibb.co/VMpHgzb/omens2bannermask.png);
   -webkit-mask-size: cover;
+  mask-size: cover;
   mix-blend-mode: overlay;
   opacity: 75%;
   background: #fc5296;
@@ -743,7 +745,6 @@ input[type="submit"] {
   margin: 0;
   font: 800 60px playfair display;
   animation: 30s linear infinite rainbow-demo3;
-  /* font-style: italic; */
   letter-spacing: -4px;
   text-align: center;
 }
@@ -751,6 +752,9 @@ input[type="submit"] {
   -webkit-column-count: 2;
   -webkit-column-gap: 50px;
   -webkit-column-rule: solid 2px #2f2f2f;
+  column-count: 2;
+  column-rule: solid 2px #2f2f2f;
+  column-gap: 50px;
   font: 400 12px/20px open sans;
   text-align: justify;
   color: #ddd;
@@ -955,8 +959,11 @@ input[type="submit"] {
   left: 200px;
   top: 250px;
   -webkit-column-count: 2;
+  column-count: 2;
   -webkit-column-gap: 50px;
+  column-gap: 50px;
   -webkit-column-rule: solid 2px #3f3f3f;
+  column-rule: solid 2px #3f3f3f;
   font: 400 12px/20px open sans;
   text-align: justify;
   color: #ddd;
@@ -1363,8 +1370,7 @@ input[type="submit"] {
   mix-blend-mode: color-dodge;
   opacity: 33%;
 }
-#omens-body #omens-sidebar #second-sidebar {
-}
+
 #omens-body #omens-sidebar #sidebar-toggle:hover {
   opacity: 75%;
   cursor: crosshair;
