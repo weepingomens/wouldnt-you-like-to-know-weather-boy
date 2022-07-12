@@ -1423,6 +1423,7 @@ input[type="submit"] {
   width: 825px;
   padding: 50px;
 }
+/*
 #omens-main .omens-category {
   display: flex;
   flex-flow: column nowrap;
@@ -1576,7 +1577,6 @@ input[type="submit"] {
 
 #omens-brochure #omens-news .board-topic {
   font: 700 10px/100% open sans;
-  /* letter-spacing: -.5px; */
   text-transform: uppercase;
 }
 
@@ -1585,6 +1585,7 @@ input[type="submit"] {
   text-transform: uppercase;
   color: #aaa;
 }
+*/
 
 /* ==========================================================================
    Helper classes
