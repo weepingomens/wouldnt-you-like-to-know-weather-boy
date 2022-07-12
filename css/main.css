@@ -1624,7 +1624,20 @@ input[type="submit"] {
   align-items: center;
   text-align: center;
   color: var(--category-header);
-  margin:0 25px;
+  margin:25px;
+}
+
+.brochure-container {
+  width:100%;
+  height:300px;
+  border:1px solid red;
+}
+
+.brochure-side {
+  width:75px;
+  height:100%;
+  overflow:hidden;
+  background: #272727;
 }
 /*
 #omens-main .omens-category {
