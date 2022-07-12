@@ -8,4 +8,6 @@
   --pending: #aaa;
   --main-accent: #df6885;
   --main-gradient: linear-gradient(110deg, #df6885, #df6868);
+
+  --category-header:#2a2a2a;
 }
