@@ -1761,12 +1761,12 @@ input[type="submit"] {
 
 .board-quicklink-container {
   display: flex;
+  height: 150px;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  margin:50px 0;
-  padding:25px;
   position: relative;
+  margin: 25px 0;
 }
 
 .board-quicklink {
@@ -1788,7 +1788,7 @@ input[type="submit"] {
   line-height: 75px;
   text-align: left;
   letter-spacing: 0.1em;
-  color: rgba(0, 0, 0, 10%);
+  color: rgba(0, 0, 0, 15%);
 }
 /*
 #omens-main .omens-category {
