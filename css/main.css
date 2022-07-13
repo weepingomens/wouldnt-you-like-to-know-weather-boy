@@ -1613,13 +1613,13 @@ input[type="submit"] {
   overflow:hidden;
 }
 
-.category-header { 
+header.category { 
   display:flex;
   align-items:center;
 }
 
-.category-header:before,
-.category-header:after {
+header.category:before,
+header.category:after {
   content:'';
   flex-grow:1;
   height:2px;
@@ -1931,7 +1931,7 @@ header.communications:before {
   background-size: cover;
   opacity: 3%;
   transform: rotate(30deg);
-  top: -100px;
+  top: -250px;
   left: 180px;
   z-index:-1;
 }
