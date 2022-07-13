@@ -1864,6 +1864,49 @@ input[type="submit"] {
   top: -140px;
   left: -400px;
 }
+
+.character-links {
+  display: flex;
+  flex-flow: column nowrap;
+  flex-grow:1;
+  justify-content: space-around;
+  margin-left:25px;
+}
+
+.character-links a {
+  font-family: 'Playfair Display';
+  font-style: italic;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 100%;
+  display:flex;
+  align-items:center;
+  padding:0;
+  transition:.25s;
+  transition-delay:.33s;
+}
+
+.character-links a:before {
+  content:'';
+  height:2px;
+  background:rgba(255,255,255,5%);
+  flex-grow:1;
+  margin:0 25px;
+}
+
+.character-links a:hover {
+  padding-right:25px;
+  transition:.25s;
+}
+.character-links a:nth-of-type(odd) {
+  flex-flow:row-reverse wrap;
+}
+
+.character-links a:nth-of-type(odd):hover {
+  padding-right:0;
+  padding-left:25px;
+}
+
 /*
 #omens-main .omens-category {
   display: flex;
