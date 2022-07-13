@@ -1762,8 +1762,11 @@ input[type="submit"] {
 .board-quicklink-container {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
+  margin:50px 0;
+  padding:25px;
+  position: relative;
 }
 
 .board-quicklink {
@@ -1772,6 +1775,20 @@ input[type="submit"] {
   font-weight: 800;
   font-size: 32px;
   line-height: 100%;
+}
+
+.board-quicklink-container.residential-records:before {
+  content:'RESIDENTIAL RECORDS';
+  position: absolute;
+  right: 0px;
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 96px;
+  line-height: 75px;
+  text-align: left;
+  letter-spacing: 0.1em;
+  color: rgba(0, 0, 0, 10%);
 }
 /*
 #omens-main .omens-category {
