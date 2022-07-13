@@ -1817,6 +1817,7 @@ header.category:after {
   justify-content: center;
   position: relative;
   overflow: hidden;
+  transition:.25s;
 }
 .wanted-ads:before {
   content: '';
@@ -1854,8 +1855,12 @@ header.category:after {
   mix-blend-mode: overlay;
   position:relative;
   z-index:1;
+  transition:.25s;
 }
-
+.wanted-ads:hover a {
+  letter-spacing:0.1em;
+  transition:.25s;
+}
 .wanted-ads img {
   display: block;
   height: 800px;
