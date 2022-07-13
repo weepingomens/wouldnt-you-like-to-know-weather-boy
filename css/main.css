@@ -1895,7 +1895,7 @@ input[type="submit"] {
 }
 
 .character-links a:hover {
-  padding-right:25px;
+  padding-right:50px;
   transition:.25s;
 }
 .character-links a:nth-of-type(odd) {
@@ -1904,9 +1904,29 @@ input[type="submit"] {
 
 .character-links a:nth-of-type(odd):hover {
   padding-right:0;
-  padding-left:25px;
+  padding-left:50px;
 }
 
+header.communications {
+  font-family: 'Playfair Display', serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 96px;
+  line-height: 100%;
+  color: #151515;
+  letter-spacing: -0.1em;
+  width:100%;
+  text-align:center;
+  position: relative;
+}
+
+header.communications:before {
+  content:'';
+  position:absolute;
+  width:500px;
+  height:500px;
+  background:url(././src/img/Character_Dainsleif_Portrait.webp);
+}
 /*
 #omens-main .omens-category {
   display: flex;
