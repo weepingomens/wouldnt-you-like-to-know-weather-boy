@@ -1921,11 +1921,17 @@ header.communications {
 }
 
 header.communications:before {
-  content:'';
-  position:absolute;
-  width:500px;
-  height:500px;
-  background:url(././src/img/Character_Dainsleif_Portrait.webp);
+  content: '';
+  position: absolute;
+  width: 585px;
+  height: 815px;
+  background: url(../src/img/1b.png);
+  background-size: cover;
+  opacity: 3%;
+  transform: rotate(30deg);
+  top: -100px;
+  left: 180px;
+  z-index:-1;
 }
 /*
 #omens-main .omens-category {
