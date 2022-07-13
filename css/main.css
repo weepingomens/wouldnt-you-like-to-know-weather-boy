@@ -1758,6 +1758,21 @@ input[type="submit"] {
   font-weight:800;
   letter-spacing:2px;
 }
+
+.board-quicklink-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.board-quicklink {
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 100%;
+}
 /*
 #omens-main .omens-category {
   display: flex;
