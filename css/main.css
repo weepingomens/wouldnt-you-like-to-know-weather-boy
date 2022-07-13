@@ -1792,6 +1792,20 @@ header.category:after {
   color: rgba(0, 0, 0, 15%);
 }
 
+.board-quicklink-container.select-destination:before {
+  content:'SELECT YOUR DESTINATION';
+  position: absolute;
+  right: 0px;
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 96px;
+  line-height: 75px;
+  text-align: right;
+  letter-spacing: 0.1em;
+  color: rgba(0, 0, 0, 15%);
+}
+
 .character-container {
   display: flex;
   flex-flow: row nowrap;
