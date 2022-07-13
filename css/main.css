@@ -1542,6 +1542,7 @@ input[type="submit"] {
   animation: 30s linear infinite rainbow-demo3;
   text-transform: lowercase;
 }
+
 #omens-body.user-groupid-2 #omens-sidebar .sidebar-group.group-4 {
   display: none;
 }
@@ -1607,9 +1608,9 @@ input[type="submit"] {
 
 #omens-main {
   grid-area: omens-main;
-  height: 110vh;
   width: 825px;
   padding: 50px;
+  overflow:hidden;
 }
 
 .category-header { 
@@ -1918,6 +1919,7 @@ header.communications {
   width:100%;
   text-align:center;
   position: relative;
+  margin-bottom:-15px;
 }
 
 header.communications:before {
