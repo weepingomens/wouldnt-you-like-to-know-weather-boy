@@ -1644,6 +1644,7 @@ header.category:after {
   display:flex;
   position:relative;
   overflow:hidden;
+  margin-bottom:25px;
 }
 
 .brochure-side {
