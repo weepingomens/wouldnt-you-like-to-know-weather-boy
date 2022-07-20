@@ -1777,6 +1777,14 @@ header.category:after {
   font-weight: 800;
   font-size: 32px;
   line-height: 100%;
+  color:rgba(var(--main-accent-rgb),.7);
+  position:relative;
+  transition:.25s;
+}
+
+.board-quicklink:hover {
+  color:rgba(var(--main-accent-rgb),1);
+  transition:.25s;
 }
 
 .board-quicklink-container.residential-records:before {
