@@ -1668,7 +1668,7 @@ header.category:after {
 
 .brochure-desc {
   width:200px;
-  color:#bbb;
+  color:rgba(var(--main-accent-rgb),.5);
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: 500;

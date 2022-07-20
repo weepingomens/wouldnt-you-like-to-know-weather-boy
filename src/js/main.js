@@ -1,4 +1,28 @@
 /*
+using rgb values for the custom accent system allows for more freedom design-wise, 
+but using hex codes easier & more familiar to end users
+so we're gonna the --main-accent hex code over to rgb values and store them as variables  
+*/
+function hexToRgb(hex) {
+  var result = /^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i.exec(hex);
+  return result ? {
+    r: parseInt(result[1], 16),
+    g: parseInt(result[2], 16),
+    b: parseInt(result[3], 16)
+  } : null;
+}
+
+/* jcink will let us pull this in global variables so we'll deal with that later */
+let mainAccent = "#df6885";
+
+var mainAccentR = hexToRgb(mainAccent).r.toString();
+document.querySelector(":root").style.setProperty('--mainAccentR', mainAccentR);
+var mainAccentG = hexToRgb(mainAccent).g.toString();
+document.querySelector(":root").style.setProperty('--mainAccentG', mainAccentG);
+var mainAccentB = hexToRgb(mainAccent).b.toString();
+document.querySelector(":root").style.setProperty('--mainAccentB', mainAccentB);
+
+/*
 FOR THE LOVE OF GOD, REDO THIS SCRIPTING
 */
 $(function() {
