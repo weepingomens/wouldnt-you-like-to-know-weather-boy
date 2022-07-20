@@ -2136,8 +2136,8 @@ opacity: 25%;
   line-height: 150%;
   text-align: right;
   color: #333333;
-  margin-top: 7px;
-  width: 100px;
+  margin-top: 5px;
+  width: 105px;
   display: flex;
   justify-content: flex-end;
 }
@@ -2146,11 +2146,21 @@ opacity: 25%;
   width: 100px;
   height: 100px;
   background: #333333;
-  border: 10px solid #181818;
+  border: 10px solid #1c1c1c;
   position: absolute;
   overflow: hidden;
   top: 110px;
   left: 110px;
+  display:flex;
+  place-items:center;
+  place-content:center;
+}
+
+.forum-poster .last-poster {
+  width:75px;
+  height:75px;
+  background-size:cover;
+  filter:grayscale(100%) contrast(75%);
 }
 
 .forum-poster:after {
