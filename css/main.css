@@ -2243,6 +2243,35 @@ transition:.25s;
   color:rgba(var(--main-accent-rgb),1);
   transition:.25s;
 }
+
+.subforum-list {
+  width:100%;
+  margin-top:10px;
+}
+
+.subforums {
+  display:flex;
+  justify-content:center;
+  gap:10px;
+}
+
+.subforum-list .subforums a {
+  text-transform:uppercase;
+  font: 700 10px 'open sans', sans-serif;
+  color: #ccc;
+  padding: 0px 0px 3px;
+  transition: .25s;
+}
+
+.subforum-list .subforums a:before {
+  content:'#';
+  color: var(--main-accent);
+  transition: .25s;
+}
+
+.subforum-list .subforums a:hover {
+  color:#777;
+}
 /*
 #omens-main .omens-category {
   display: flex;
