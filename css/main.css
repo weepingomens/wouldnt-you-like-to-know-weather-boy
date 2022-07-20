@@ -2008,12 +2008,25 @@ header.communications:before {
   mix-blend-mode: overlay;
 }
 
-.comm-forum .comm-deco img {
+.comm-forum .comm-deco:after {
+  content:'';
+  width:1536px;
+  height:1870px;
+  background: url(../src/img/Character_Yoimiya_Portrait_waifu2x_art_noise3_scale_tta_1.png);
   position: absolute;
   top: -270px;
   left: -540px;
   opacity: 20%;
   mix-blend-mode: exclusion;
+}
+
+.comm-forum.forum-23 .comm-deco:after {
+  content: '';
+  width: 1175px;
+  background: url(../src/img/Character_Mona_Portrait.webp);
+  background-size: cover;
+  top: -20px;
+  left: -340px;
 }
 
 .comm-forum .last-poster {
