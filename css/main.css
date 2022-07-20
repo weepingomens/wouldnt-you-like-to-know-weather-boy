@@ -2086,6 +2086,8 @@ header.communications:before {
 .forum-row {
   position:relative;
   display:flex;
+  margin-bottom:25px;
+  flex-flow:row wrap;
 }
 
 .forum-deco {
@@ -2101,12 +2103,11 @@ header.communications:before {
   overflow: hidden;
 }
 
-.forum-8 .forum-image:before {
+.forum-image:before {
   content: '';
   position: absolute;
   width: 175px;
   height:175px;
-  background: url(../src/img/LLORONA_8.png);
   background-size: cover;
   left: -0px;
   top: -0px;
@@ -2116,7 +2117,7 @@ header.communications:before {
 opacity: 25%;
 }
 
-.forum-8 .forum-image:after {
+.forum-image:after {
   content: '';
   position: absolute;
   width: 414px;
@@ -2206,6 +2207,7 @@ transition:.25s;
 .forum-info .forum-name:after {
   content:'';
   height:2px;
+  margin-left:25px;
   background:var(--category-header);
   flex-grow:1;
 }
@@ -2222,7 +2224,6 @@ transition:.25s;
   padding: 0 25px;
   margin-top: 25px;
   margin-left: 15px;
-  max-width:75%;
 }
 .forum-info .last-poster-topic {
   font: 700 10px 'open sans', sans-serif;

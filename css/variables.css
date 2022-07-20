@@ -11,4 +11,14 @@
   --main-gradient: linear-gradient(110deg, #df6885, #df6868);
 
   --category-header:#2a2a2a;
+
+  --forum-8:url(../src/img/LLORONA_8.png);
+  --forum-9:url(../src/img/LLORONA_9.png);
+}
+
+.forum-8 .forum-image:before {
+  background-image: var(--forum-8);
+}
+.forum-9 .forum-image:before {
+  background-image: var(--forum-9);
 }
