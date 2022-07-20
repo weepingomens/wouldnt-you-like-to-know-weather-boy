@@ -1668,7 +1668,7 @@ header.category:after {
 
 .brochure-desc {
   width:200px;
-  color:rgba(var(--main-accent-rgb),.5);
+  color:#bbb;
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: 500;
@@ -1826,7 +1826,7 @@ header.category:after {
   width: 250px;
   height: 250px;
   border-radius: 100%;
-  background: var(--main-accent);
+  background: rgba(var(--main-accent-rgb),.7);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1841,7 +1841,7 @@ header.category:after {
   height: 200px;
   border-radius: 100%;
   background: #aaa;
-  opacity:25%;
+  opacity:10%;
   bottom: -50px;
   right: -60px;
 }
