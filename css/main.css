@@ -2085,6 +2085,7 @@ header.communications:before {
 
 .forum-row {
   position:relative;
+  display:flex;
 }
 
 .forum-deco {
@@ -2175,6 +2176,21 @@ opacity: 25%;
   opacity:7%;
   top:0;
   left:0px;
+}
+
+.forum-info {
+  width:calc(100% - 235px);
+}
+
+.forum-info .forum-desc {
+  font-family: 'Open Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 13px;
+line-height: 150%;
+border-left:2px solid var(--category-header);
+letter-spacing: 0.05em;
+padding:0 25px;
 }
 
 /*
