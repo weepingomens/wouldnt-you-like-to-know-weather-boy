@@ -2079,6 +2079,46 @@ header.communications:before {
   top: -50px;
   left: 10px;
 }
+
+/* END COMM FORUM ROW */
+/* START LLORONA FORUM ROW */
+
+.forum-image {
+  width: 175px;
+  height: 175px;
+  background:rgba(var(--main-accent-rgb),.5);
+  position: relative;
+  overflow: hidden;
+}
+
+.forum-8 .forum-image:before {
+  content: '';
+  position: absolute;
+  width: 175px;
+  height:175px;
+  background: url(../src/img/LLORONA_8.png);
+  background-size: cover;
+  left: -0px;
+  top: -0px;
+  opacity:100%;
+  filter:grayscale(1);
+  mix-blend-mode: exclusion;
+opacity: 25%;
+}
+
+.forum-8 .forum-image:after {
+  content: '';
+  position: absolute;
+  width: 414px;
+  height: 578px;
+  background: url(../src/img/1b.png);
+  background-size: cover;
+  transform: rotate(135deg);
+  left: -150px;
+  top: -200px;
+  opacity:5%;
+}
+
 /*
 #omens-main .omens-category {
   display: flex;
