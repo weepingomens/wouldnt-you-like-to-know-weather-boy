@@ -2083,6 +2083,15 @@ header.communications:before {
 /* END COMM FORUM ROW */
 /* START LLORONA FORUM ROW */
 
+.forum-row {
+  position:relative;
+}
+
+.forum-deco {
+  width: 235px;
+  height: 235px;
+}
+
 .forum-image {
   width: 175px;
   height: 175px;
@@ -2117,6 +2126,45 @@ opacity: 25%;
   left: -150px;
   top: -200px;
   opacity:5%;
+}
+
+.forum-statistics {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 150%;
+  text-align: right;
+  color: #333333;
+  margin-top: 7px;
+  width: 100px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.forum-poster {
+  width: 100px;
+  height: 100px;
+  background: #333333;
+  border: 10px solid #181818;
+  position: absolute;
+  overflow: hidden;
+  top: 110px;
+  left: 110px;
+}
+
+.forum-poster:after {
+  content:'';
+  background: url(../src/img/city-background.png);
+  width:500px;
+  height:100px;
+  background-size:cover;
+  position:absolute;
+  filter:grayscale(1);
+  mix-blend-mode: difference;
+  opacity:7%;
+  top:0;
+  left:0px;
 }
 
 /*
