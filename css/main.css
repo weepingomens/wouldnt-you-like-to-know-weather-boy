@@ -2314,6 +2314,7 @@ transition:.25s;
 
 .extras-container .archives {
   grid-area:extras-archives;
+  text-align:center;
 }
 
 .extras-container .affiliate {
@@ -2331,9 +2332,6 @@ transition:.25s;
 .extras-container .affiliate .affiliate-text {
   position:absolute;
   z-index:1;
-}
-
-.extras-container .affiliate .affiliate-text a {
   display:inline-block;
   text-align:center;
   font-family: 'Playfair Display', serif;
@@ -2346,6 +2344,7 @@ color: #BBBBBB;
 opacity:75%;
 mix-blend-mode: exclusion;
 transition:.25s;
+pointer-events:none;
 }
 
 .extras-container .affiliate .affiliate-text a:hover {
