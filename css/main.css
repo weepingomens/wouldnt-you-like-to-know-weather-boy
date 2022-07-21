@@ -2227,6 +2227,14 @@ transition:.25s;
   margin-top: 25px;
   margin-left: 15px;
 }
+.forum-info .forum-desc em {
+  display: inline-block;
+    font: 700 10px/70% montserrat;
+    text-transform: uppercase;
+    color: #ddd;
+    border-bottom: 2px solid var(--main-accent);
+    padding: 0px 0px 5px;
+}
 .forum-info .last-poster-topic {
   font: 700 10px 'open sans', sans-serif;
   color:#666;
