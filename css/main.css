@@ -2278,7 +2278,69 @@ transition:.25s;
   color:#aaa;
 }
 
+/* END LLORONA FORUM ROW */
+/* START EXTRAS FORUM ROW */
 
+.extras-container {
+  display: grid;
+  grid: min-content min-content / min-content auto min-content;
+  grid-template-areas:
+      "extras-first-link extras-affiliate extras-link-back"
+      "extras-archives extras-archives extras-archives";
+      justify-items: center;
+      align-content: center;
+      justify-content: center;
+      align-items: center;
+}
+.extras-container .first-link a,
+.extras-container .link-back a,
+.extras-container .archives a {
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  font-weight: 700;
+  font-size: 48px;
+  line-height:70%;
+  color:rgba(var(--main-accent-rgb),.5);
+  text-align:center;
+}
+.extras-container .first-link {
+  grid-area:extras-first-link;
+}
+
+.extras-container .affiliate {
+  grid-area: extras-affiliate;
+  width: 250px;
+  height: 350px;
+  padding: 0 50px;
+}
+
+.extras-container .link-back {
+  grid-area:extras-link-back;
+}
+
+.extras-container .archives {
+  grid-area:extras-archives;
+}
+
+.extras-container .affiliate-box {
+  width: 250px;
+height: 250px;
+background: rgba(var(--main-accent-rgb),.5);
+border-radius: 10px;
+transform: rotate(45deg);
+position:relative;
+overflow:hidden;
+}
+
+.extras-container .affiliate-box img {
+  position:absolute;
+  display:block;
+  top: -150px;
+    left: -300px;
+    opacity:7%;
+    mix-blend-mode: difference;
+    pointer-events:none;
+}
 /*
 #omens-main .omens-category {
   display: flex;
