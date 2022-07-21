@@ -2284,6 +2284,7 @@ transition:.25s;
 .extras-container {
   display: grid;
   grid: min-content min-content / min-content auto min-content;
+  gap:25px;
   grid-template-areas:
       "extras-first-link extras-affiliate extras-link-back"
       "extras-archives extras-archives extras-archives";
@@ -2305,6 +2306,14 @@ transition:.25s;
 }
 .extras-container .first-link {
   grid-area:extras-first-link;
+}
+
+.extras-container .link-back {
+  grid-area:extras-link-back;
+}
+
+.extras-container .archives {
+  grid-area:extras-archives;
 }
 
 .extras-container .affiliate {
@@ -2343,14 +2352,6 @@ transition:.25s;
   opacity:100%;
   letter-spacing: -0.0em;
   transition:.25s;
-}
-
-.extras-container .link-back {
-  grid-area:extras-link-back;
-}
-
-.extras-container .archives {
-  grid-area:extras-archives;
 }
 
 .extras-container .affiliate-box {
