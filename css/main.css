@@ -2312,6 +2312,42 @@ transition:.25s;
   width: 250px;
   height: 350px;
   padding: 0 50px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+.extras-container .affiliate .affiliate-text {
+  position:absolute;
+  z-index:1;
+}
+
+.extras-container .affiliate .affiliate-text:before {
+  content:'';
+  position:absolute;
+  width:350px;
+  height:350px;
+}
+
+.extras-container .affiliate .affiliate-text a {
+  display:inline-block;
+  text-align:center;
+  font-family: 'Playfair Display', serif;
+font-style: normal;
+font-weight: 900;
+font-size: 48px;
+line-height: 80%;
+letter-spacing: -0.05em;
+color: #BBBBBB;
+opacity:75%;
+mix-blend-mode: exclusion;
+transition:.25s;
+}
+
+.extras-container .affiliate .affiliate-text a:hover {
+  opacity:100%;
+  letter-spacing: -0.0em;
+  transition:.25s;
 }
 
 .extras-container .link-back {
