@@ -2444,6 +2444,14 @@ header.communications:before {
   line-height: 70%;
   color: rgba(var(--main-accent-rgb), .5);
   text-align: center;
+  transition:.25s;
+}
+
+.extras-container .first-link a:hover,
+.extras-container .link-back a:hover,
+.extras-container .archives a:hover {
+  color: rgba(var(--main-accent-rgb), .9);
+  transition:.25s;
 }
 
 .extras-container .first-link {
