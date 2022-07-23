@@ -441,7 +441,7 @@ body {
   color: #eee;
   margin: 0;
   background-attachment: fixed;
-  font: 400 1rem/1.6 open sans;
+  font: 400 1rem/1.6 'open sans', sans-serif;
 }
 
 body.sidebar-storage-true #omens-body #omens-sidebar #first-sidebar {
