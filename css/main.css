@@ -2382,6 +2382,7 @@ header.communications:before {
   border-bottom: 2px solid rgb(37, 37, 37);
   padding: 0px 0px 3px;
   transition: .25s;
+  text-transform: uppercase;
 }
 
 .forum-info .last-poster-topic a:hover {
