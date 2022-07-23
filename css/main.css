@@ -713,7 +713,7 @@ input[type="submit"] {
   color: var(--main-accent);
 }
 
-#omens-body #omens-top .user-links .hasalerts- .alert-animation {
+#omens-body #omens-top .user-links .hasalerts-0 .alert-animation {
   display: none;
 }
 
