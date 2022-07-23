@@ -1760,6 +1760,7 @@ header.category:after {
   text-align: center;
   color: var(--category-header);
   margin: 25px;
+  text-transform: lowercase;
 }
 
 .brochure-container {
