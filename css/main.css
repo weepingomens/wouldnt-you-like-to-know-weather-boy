@@ -1866,6 +1866,7 @@ header.category:after {
   line-height: 100%;
   text-align: right;
   color: #131313;
+  text-transform: lowercase;
 }
 
 .latest-announcement a:hover {
@@ -2558,6 +2559,8 @@ header.communications:before {
   mix-blend-mode: difference;
   pointer-events: none;
 }
+
+/* END FORUM ROWS */ 
 
 /*
 #omens-main .omens-category {
