@@ -2331,6 +2331,7 @@ header.communications:before {
   max-width: min-content;
   opacity: 70%;
   transition: .25s;
+  text-transform: lowercase;
 }
 
 .forum-info .forum-name a:hover {
