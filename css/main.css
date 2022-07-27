@@ -2683,6 +2683,24 @@ header.communications:before {
   line-height: 100%;
   color:#aaa;
 }
+
+#omens-footer .online-today {
+  font: 700 10px 'montserrat', sans-serif;
+  text-transform: uppercase;
+  color: #444;
+  position: relative;
+  width: 55%;
+}
+
+#omens-footer .online-today a span {
+  color: #444;
+  transition:.25s;
+}
+
+#omens-footer .online-today a:hover span {
+  color:var(--group);
+  transition:.25s;
+}
 /*
 #omens-main .omens-category {
   display: flex;

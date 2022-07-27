@@ -4,7 +4,7 @@
   --witch: #9f6fec;
   --human: #55ba8e;
   --staff: #e3b550;
-  --ooc-member: #e2cab8;
+  --member: #e2cab8;
   --pending: #aaa;
   --main-accent: #df6885;
   --main-accent-rgb: var(--mainAccentR), var(--mainAccentG), var(--mainAccentB);
@@ -24,9 +24,29 @@
 }
 
 .group-staff {
-  color:var(--staff);
+  --group:var(--staff);
+}
+
+.group-member {
+  --group:var(--member);
 }
 
 .group-vampire {
-  color:var(--vampire);
+  --group:var(--vampire);
+}
+
+.group-werewolf {
+  --group:var(--werewolf);
+}
+
+.group-witch {
+  --group:var(--witch);
+}
+
+.group-human {
+  --group:var(--human);
+}
+
+.group-pending {
+  --group:var(--pending);
 }
