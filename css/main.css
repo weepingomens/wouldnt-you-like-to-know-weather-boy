@@ -2628,7 +2628,7 @@ header.communications:before {
   font-style: normal;
   font-weight: 900;
   font-size: 96px;
-  line-height: 100%;
+  line-height: 70%;
   letter-spacing: -0.1em;
   color: #202020;
   position:absolute;
