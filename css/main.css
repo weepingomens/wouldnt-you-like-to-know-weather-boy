@@ -2728,7 +2728,7 @@ header.communications:before {
   font-weight: 800;
   font-size: 32px;
   line-height: 100%;
-  color:rgba(var(--main-accent-rgb), .75);
+  color:#444;
   display:flex;
   align-items:center;
   justify-content:center;
@@ -2737,7 +2737,7 @@ header.communications:before {
 }
 
 #omens-footer .footer-links a:hover {
-  color:rgba(var(--main-accent-rgb), 1);
+  color:#333;
   transition:.25s;
 }
 
