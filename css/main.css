@@ -2586,7 +2586,8 @@ header.communications:before {
   font-size: 96px;
   line-height: 100%;
   letter-spacing: -0.05em;
-  color: #151515
+  color: #151515;
+  margin-bottom: -25px;
 }
 
 #omens-footer .welcome-user {
@@ -2602,7 +2603,6 @@ header.communications:before {
   text-transform: uppercase;
   border-radius: 5px;
   position: relative;
-  top:-25px;
   left:25px;
 }
 
@@ -2610,6 +2610,7 @@ header.communications:before {
   position:relative;
   display:flex;
   align-items:center;
+  min-height: 200px;
 }
 
 #omens-footer .now-online em {
@@ -2647,7 +2648,7 @@ header.communications:before {
 }
 
 
-#omens-footer .now-online .online-list em {
+#omens-footer .now-online .online-list b {
   font-style: normal;
   font-family: 'Montserrat', sans-serif;
   font-weight: 300;
