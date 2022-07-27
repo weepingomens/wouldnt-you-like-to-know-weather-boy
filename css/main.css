@@ -2571,11 +2571,12 @@ header.communications:before {
   margin-top:150px;
 }
 .footer-jenshin img {
-  display:block;
-  position:absolute;
-  top:0;
-  right:0;
-  filter: grayscale(100%) contrast(66%);
+  display: block;
+  position: absolute;
+  top: -25px;
+  right: -275px;
+  filter: grayscale(100%) contrast(66%) brightness(66%);
+  pointer-events:none;
 }
 
 #omens-footer .city-records {
