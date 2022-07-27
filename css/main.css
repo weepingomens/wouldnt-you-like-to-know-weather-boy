@@ -2575,7 +2575,6 @@ header.communications:before {
 
 #omens-footer {
   position:relative;
-  margin-top:150px;
 }
 .footer-jenshin img {
   display: block;
@@ -2674,6 +2673,7 @@ header.communications:before {
   position:absolute;
   top: 100px;
   right: 225px;
+  z-index:1;
 }
 
 #omens-footer .board-totals div {
