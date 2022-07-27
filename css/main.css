@@ -2637,6 +2637,7 @@ header.communications:before {
 }
 
 #omens-footer .now-online .online-list a span {
+  color:var(--group);
   text-transform:lowercase;
   opacity:1;
   transition:.25s;
@@ -2652,6 +2653,7 @@ header.communications:before {
   font-style: normal;
   font-family: 'Montserrat', sans-serif;
   font-weight: 300;
+  color:#bbb;
 }
 
 #omens-footer .board-totals {
@@ -2700,6 +2702,31 @@ header.communications:before {
 #omens-footer .online-today a:hover span {
   color:var(--group);
   transition:.25s;
+}
+
+#omens-footer .footer-links {
+  display:flex;
+  gap:25px;
+}
+
+#omens-footer .footer-links a {
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 100%;
+  color:rgba(var(--main-accent-rgb), .75);
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  position:relative;
+}
+
+#omens-footer .footer-links a i {
+  position:absolute;
+  font-size:100px;
+  color:rgba(255, 255, 255, 5%);
+  z-index:-1;
 }
 /*
 #omens-main .omens-category {
