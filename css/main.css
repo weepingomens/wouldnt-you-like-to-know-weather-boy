@@ -1739,7 +1739,7 @@ input[type="submit"] {
 #omens-main {
   grid-area: omens-main;
   width: 825px;
-  padding: 50px;
+  padding: 50px 50px 0 50px;
 }
 
 header.category {
