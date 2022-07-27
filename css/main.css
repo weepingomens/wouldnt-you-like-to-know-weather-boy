@@ -2576,11 +2576,16 @@ header.communications:before {
 #omens-footer {
   position:relative;
 }
-.footer-jenshin img {
-  display: block;
+
+.footer-jenshin {
+  height: 700px;
+  overflow: hidden;
   position: absolute;
   top: -75px;
   right: -275px;
+}
+.footer-jenshin img {
+  display: block;
   filter: grayscale(100%) contrast(66%) brightness(66%);
   pointer-events:none;
 }
