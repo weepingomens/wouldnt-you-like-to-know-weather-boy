@@ -2610,7 +2610,7 @@ header.communications:before {
   position:relative;
   display:flex;
   align-items:center;
-  min-height: 200px;
+  min-height: 192px;
 }
 
 #omens-footer .now-online em {
@@ -2692,6 +2692,7 @@ header.communications:before {
   color: #444;
   position: relative;
   width: 55%;
+  margin-bottom:25px;
 }
 
 #omens-footer .online-today a span {
@@ -2720,13 +2721,20 @@ header.communications:before {
   align-items:center;
   justify-content:center;
   position:relative;
+  transition:.25s;
+}
+
+#omens-footer .footer-links a:hover {
+  color:rgba(var(--main-accent-rgb), 1);
+  transition:.25s;
 }
 
 #omens-footer .footer-links a i {
   position:absolute;
   font-size:100px;
-  color:rgba(255, 255, 255, 5%);
+  color:rgba(255, 255, 255, 3%);
   z-index:-1;
+  transform:rotate(6deg);
 }
 /*
 #omens-main .omens-category {
