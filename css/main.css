@@ -1733,7 +1733,6 @@ input[type="submit"] {
   grid-area: omens-main;
   width: 825px;
   padding: 50px;
-  overflow: hidden;
 }
 
 header.category {
