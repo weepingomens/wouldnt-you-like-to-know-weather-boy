@@ -2579,6 +2579,16 @@ header.communications:before {
   filter: grayscale(100%) contrast(66%);
 }
 
+#omens-footer .city-records {
+  font-family: 'Playfair Display', serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 96px;
+  line-height: 150%;
+  letter-spacing: -0.05em;
+  color: #151515
+}
+
 /*
 #omens-main .omens-category {
   display: flex;
