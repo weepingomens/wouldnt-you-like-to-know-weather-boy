@@ -2612,6 +2612,10 @@ header.communications:before {
   left:25px;
 }
 
+#omens-footer .welcome-user a {
+  color:initial;
+}
+
 #omens-footer .now-online {
   position:relative;
   display:flex;
