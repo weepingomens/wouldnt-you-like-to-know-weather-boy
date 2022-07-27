@@ -2613,7 +2613,7 @@ header.communications:before {
 }
 
 #omens-footer .welcome-user a {
-  color:initial;
+  color:inherit;
 }
 
 #omens-footer .now-online {
