@@ -2584,7 +2584,7 @@ header.communications:before {
   font-style: normal;
   font-weight: 700;
   font-size: 96px;
-  line-height: 150%;
+  line-height: 100%;
   letter-spacing: -0.05em;
   color: #151515
 }
@@ -2602,10 +2602,56 @@ header.communications:before {
   text-transform: uppercase;
   border-radius: 5px;
   position: relative;
-  top: -45px;
-  left: 25px;
+  top:-25px;
+  left:25px;
 }
 
+#omens-footer .now-online {
+  position:relative;
+  display:flex;
+  align-items:center;
+}
+
+#omens-footer .now-online em {
+  font-family: 'Playfair Display', serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 96px;
+  line-height: 100%;
+  letter-spacing: -0.1em;
+  color: #202020;
+  position:absolute;
+}
+
+#omens-footer .now-online .online-list {
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 100%;
+  color: #4B4B4B;
+  width: 50%;
+  position:relative;
+  z-index:1;
+}
+
+#omens-footer .now-online .online-list a span {
+  text-transform:lowercase;
+  opacity:1;
+  transition:.25s;
+}
+
+#omens-footer .now-online .online-list a:hover span {
+  opacity:.75;
+  transition:.33s;
+}
+
+
+#omens-footer .now-online .online-list em {
+  font-style: normal;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+}
 /*
 #omens-main .omens-category {
   display: flex;

@@ -3,7 +3,7 @@
   --vampire: #e4394e;
   --witch: #9f6fec;
   --human: #55ba8e;
-  --staff-member: #e3b550;
+  --staff: #e3b550;
   --ooc-member: #e2cab8;
   --pending: #aaa;
   --main-accent: #df6885;
@@ -21,4 +21,12 @@
 }
 .forum-9 .forum-image:before {
   background-image: var(--forum-9);
+}
+
+.group-staff {
+  color:var(--staff);
+}
+
+.group-vampire {
+  color:var(--vampire);
 }
