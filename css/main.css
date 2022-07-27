@@ -2653,6 +2653,28 @@ header.communications:before {
   font-family: 'Montserrat', sans-serif;
   font-weight: 300;
 }
+
+#omens-footer .board-totals {
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 100%;
+  color:#333;
+  text-align:right;
+  position:absolute;
+  top:0;
+  right:0;
+}
+
+#omens-footer .board-totals em {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 100%;
+  color:#aaa;
+}
 /*
 #omens-main .omens-category {
   display: flex;
