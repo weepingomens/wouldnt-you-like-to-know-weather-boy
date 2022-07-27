@@ -2632,6 +2632,7 @@ header.communications:before {
   letter-spacing: -0.1em;
   color: #202020;
   position:absolute;
+  pointer-events:none;
 }
 
 #omens-footer .now-online .online-list {
