@@ -2663,8 +2663,16 @@ header.communications:before {
   color:#333;
   text-align:right;
   position:absolute;
-  top:0;
-  right:0;
+  top: 100px;
+  right: 225px;
+}
+
+#omens-footer .board-totals div {
+  position:relative;
+}
+
+#omens-footer .board-totals .posts {
+  right:-25px;
 }
 
 #omens-footer .board-totals em {
