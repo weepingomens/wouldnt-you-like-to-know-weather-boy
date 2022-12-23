@@ -3,6 +3,8 @@
   --vampire: #e4394e;
   --witch: #9f6fec;
   --human: #55ba8e;
+  --npc: #51A1C4;
+  --rip: #6B6C72;
   --staff: #e3b550;
   --member: #e2cab8;
   --pending: #aaa;
@@ -49,4 +51,12 @@
 
 .group-pending {
   --group:var(--pending);
+}
+
+.group-npc {
+  --group:var(--npc);
+}
+
+.group-rip {
+  --group:var(--rip);
 }
