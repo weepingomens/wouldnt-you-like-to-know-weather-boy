@@ -1920,6 +1920,7 @@ header.category:after {
 .board-quicklink:hover {
   color: rgba(var(--main-accent-rgb), 1);
   transition: .25s;
+  cursor: pointer;
 }
 
 .board-quicklink-container.residential-records:before {
