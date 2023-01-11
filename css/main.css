@@ -2584,6 +2584,7 @@ header.communications:before {
   position: absolute;
   top: -75px;
   right: -275px;
+  pointer-events:none;
 }
 .footer-jenshin img {
   display: block;
