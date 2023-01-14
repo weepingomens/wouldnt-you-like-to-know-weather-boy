@@ -56,7 +56,8 @@
   --group:var(--human);
 }
 
-.group-pending {
+.group-pending,
+.group-3 {
   --group:var(--pending);
 }
 
