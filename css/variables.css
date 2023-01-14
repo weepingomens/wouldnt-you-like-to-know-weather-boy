@@ -66,6 +66,7 @@
   --group:var(--npc);
 }
 
-.group-rip {
+.group-rip,
+.group-19 {
   --group:var(--rip);
 }
