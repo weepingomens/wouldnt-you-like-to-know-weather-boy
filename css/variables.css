@@ -51,7 +51,8 @@
   --group:var(--witch);
 }
 
-.group-human {
+.group-human,
+.group-7 {
   --group:var(--human);
 }
 
