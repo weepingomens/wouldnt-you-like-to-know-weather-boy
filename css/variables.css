@@ -61,7 +61,8 @@
   --group:var(--pending);
 }
 
-.group-npc {
+.group-npc,
+.group-20 {
   --group:var(--npc);
 }
 
