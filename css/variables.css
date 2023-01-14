@@ -36,7 +36,8 @@
   --group:var(--member);
 }
 
-.group-vampire {
+.group-vampire,
+.group-9 {
   --group:var(--vampire);
 }
 
