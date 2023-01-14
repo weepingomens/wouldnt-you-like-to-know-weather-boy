@@ -8,6 +8,7 @@
   --staff: #e3b550;
   --member: #e2cab8;
   --pending: #aaa;
+  --archived: #666;
   --main-accent: #df6885;
   --main-accent-rgb: var(--mainAccentR), var(--mainAccentG), var(--mainAccentB);
   --main-gradient: linear-gradient(110deg, #df6885, #df6868);
