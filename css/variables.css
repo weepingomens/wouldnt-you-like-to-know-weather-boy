@@ -46,7 +46,8 @@
   --group:var(--werewolf);
 }
 
-.group-witch {
+.group-witch,
+.group-8 {
   --group:var(--witch);
 }
 
