@@ -38,7 +38,8 @@
   --group:var(--vampire);
 }
 
-.group-werewolf {
+.group-werewolf,
+.group-14 {
   --group:var(--werewolf);
 }
 
