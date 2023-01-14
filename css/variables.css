@@ -26,7 +26,8 @@
   background-image: var(--forum-9);
 }
 
-.group-staff {
+.group-staff,
+.group-6 {
   --group:var(--staff);
 }
 
