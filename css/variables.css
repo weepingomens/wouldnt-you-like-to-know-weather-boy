@@ -31,7 +31,8 @@
   --group:var(--staff);
 }
 
-.group-member {
+.group-member,
+.group-10 {
   --group:var(--member);
 }
 
