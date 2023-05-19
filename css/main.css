@@ -2801,6 +2801,13 @@ header.communications:before {
   color: rgba(var(--main-accent-rgb), 1);
 }
 
+.topic-container .topic-title span {
+  max-width: 700px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
 .topic-container .topic-title:after {
   content:'';
   height:2px;
