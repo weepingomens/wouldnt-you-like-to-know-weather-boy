@@ -453,6 +453,21 @@ textarea {
   text-transform: uppercase;
   text-align: center;
   margin: 0;
+  position:relative;
+  overflow:hidden;
+}
+
+.maintitle:after {
+  content: '';
+  position: absolute;
+  width: 711px;
+  height: 700px;
+  background-size: cover;
+  background-image: url(../src/img/10b.png);
+  pointer-events: none;
+  z-index: -1;
+  opacity: 1%;
+  transform: rotate(20deg);
 }
 /* END JCINK STYLING */
 
