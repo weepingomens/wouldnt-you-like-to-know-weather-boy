@@ -2794,6 +2794,7 @@ header.communications:before {
   display:flex;
   align-items:center;
   width:100%;
+  text-transform:lowercase;
 }
 
 .topic-container .topic-title:hover {
