@@ -482,6 +482,11 @@ textarea {
   transition: .25s;
   text-transform: lowercase;
 }
+
+.button-large:hover {
+  color: rgba(var(--main-accent-rgb), 1);
+  transition: .25s;
+}
 /* END JCINK STYLING */
 
 body {
