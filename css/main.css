@@ -592,7 +592,7 @@ textarea {
   display: inline-block;
   letter-spacing: 0;
   font: 700 0.6rem 'open sans',sans-serif;
-  padding: 5px;
+  padding: 0 25px;
   color: #1c1c1c;
   letter-spacing: 0.2rem;
   border-radius: 5px;
