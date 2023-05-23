@@ -569,11 +569,6 @@ textarea {
     color: #aaa;
     font: 700 0.6rem 'open sans',sans-serif;
 }
-.maintitle.topic-header {
-background: rgba(var(--main-accent-rgb), .7);
-    margin-top: -140px;
-    margin-bottom: 100px;
-}
 /* END JCINK STYLING */
 
 body {
