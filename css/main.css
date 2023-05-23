@@ -590,12 +590,12 @@ textarea {
 
 .maintitle .topic-desc {
   display: inline-block;
-    letter-spacing: 0;
-    font: 700 0.6rem 'open sans',sans-serif;
-    padding: 5px;
-    background: #1c1c1c;
-    color: #aaa;
-    border-radius: 5px;
+  letter-spacing: 0;
+  font: 700 0.6rem 'open sans',sans-serif;
+  padding: 5px;
+  color: #1c1c1c;
+  letter-spacing: 0.2rem;
+  border-radius: 5px;
 }
 
 /* END JCINK STYLING */
