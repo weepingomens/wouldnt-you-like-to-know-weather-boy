@@ -3244,22 +3244,24 @@ header.communications:before {
   border: 2px solid rgba(255,255,255,3%);
   border-top:0;
   display: grid;
-  grid: min-content 1000px / min-content auto;
+  grid: min-content 1000px / auto min-content;
   grid-template-areas:
-      "post-row-user-icon post-row-permalink"
-      "post-row-user-icon post-row-post-body";
+      "post-row-permalink post-row-user-icon"
+      "post-row-post-body post-row-user-icon";
 }
 
 .post-row .user-icon {
   grid-area:post-row-user-icon;
-  border-right: 2px solid rgba(255,255,255,3%);
+  border-left: 2px solid rgba(255,255,255,3%);
 }
 
 .post-row .user-icon img {
-  margin:10px;
-  width:25px;
+  padding:10px;
+  width:50px;
   position:sticky;
-  top:88px;
+  top:78px;
+  border-bottom: 2px solid rgba(255,255,255,3%);
+  display:block;
 }
 
 .post-row .permalink {
