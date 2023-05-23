@@ -3092,6 +3092,16 @@ header.communications:before {
   position:relative;
 }
 
+.post-row .user-name:before {
+  content:'';
+  position:absolute;
+  pointer-events:none;
+  content: "\E909";
+  font-family: "game-icons";
+  font-size:300px;
+  color:rgba(255,255,255,2%);
+}
+
 .post-row a.user-profile { 
   font: 700 48px 'playfair display',serif;
   text-transform: uppercase;
@@ -3102,9 +3112,38 @@ header.communications:before {
   display:inline-flex;
 }
 
+.post-row .user-quote {
+  font: italic 700 24px "playfair display", serif;
+  text-transform: lowercase;
+  color: #aaa;
+}
+
 .post-row .user-position {
   font: 700 0.6rem 'open sans',sans-serif;
   text-transform: uppercase;
+}
+
+.post-row .user-details {
+  position: relative;
+  display: flex;
+  flex-flow: row wrap;
+  gap: 15px 5px;
+  font: 700 0.8rem 'open sans',sans-serif;
+  text-transform: uppercase;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  border-top: 2px solid rgba(255,255,255,3%);
+  padding-top: 20px;
+}
+
+.post-row .user-details em {
+  font-style:normal;
+  background:var(--custom);
+  padding:5px;
+  border-radius:3px;
+  color:#1c1c1c;
+  margin:0 5px;
 }
 
 .post-row .user-small-info {
