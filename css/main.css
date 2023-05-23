@@ -3106,10 +3106,16 @@ header.communications:before {
   font: 700 48px 'playfair display',serif;
   text-transform: uppercase;
   text-align: center;
-  color: #555;
   letter-spacing: -.075em;
   position:relative;
   display:inline-flex;
+  color:rgba(var(--main-accent-rgb), .7);
+  transition:.25s;
+}
+
+.post-row a.user-profile:hover {
+  color:rgba(var(--main-accent-rgb), 1);
+  transition:.25s;
 }
 
 .post-row .user-quote {
@@ -3218,7 +3224,7 @@ header.communications:before {
 .post-row .user-hover {
   grid-area: post-row-user-hover;
   border: 2px solid rgba(255,255,255,3%);
-  border-width: 0 2px 2px;
+  border-width: 2px 0 2px 2px;
   width: 220px;
 }
 
