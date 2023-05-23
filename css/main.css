@@ -2644,6 +2644,15 @@ header.communications:before {
   width: 100%;
   margin: 0;
 }
+
+.subform-row:nth-of-type(even) .forum-info .forum-name {
+  flex-flow:row-reverse;
+}
+
+.subform-row:nth-of-type(even) .forum-info .forum-name:after {
+  margin-left:0;
+  margin-right:25px;
+}
 /* END FORUM ROWS */ 
 /* START BOARD STATISTICS */
 
