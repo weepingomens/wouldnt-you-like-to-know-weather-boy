@@ -503,6 +503,7 @@ textarea {
   padding: 5px 10px;
   background: rgba(255, 255, 255, 2%);
   border-radius: 3px;
+  font: 1em/100% 'open sans',sans-serif;
 }
 
 .pagination_page {
@@ -510,6 +511,7 @@ textarea {
   background: rgba(var(--main-accent-rgb), .7);
   border-radius: 3px;
   transition:.25s;
+  font: 1em/100% 'open sans',sans-serif;
 }
 
 .pagination_page:hover {
