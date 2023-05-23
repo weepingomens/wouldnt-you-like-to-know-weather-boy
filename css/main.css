@@ -577,12 +577,12 @@ input[type="submit"] {
     "omens-sidebar omens-main omens-navi";
 }
 
-#omens-body:after {
+#omens-body:before {
   content: '';
   position: fixed;
   top: 0;
   right: 0;
-  background: rgba(var(--main-accent-rgb),.05);
+  background: rgba(255,255,255,3%);
   height: 100%;
   width: calc( (100vw - 1192px) / 2);
 }
