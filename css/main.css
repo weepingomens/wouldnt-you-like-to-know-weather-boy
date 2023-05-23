@@ -3074,7 +3074,7 @@ header.communications:before {
 .post-row {
   display: grid;
   margin: 50px 0;
-  grid: 1fr 1fr / 1fr 1fr;
+  grid: min-content min-content / min-content auto;
   grid-template-areas:
       "post-row-user-name post-row-user-name"
       "post-row-user-hover post-row-post"
