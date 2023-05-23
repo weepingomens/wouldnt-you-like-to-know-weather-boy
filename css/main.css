@@ -3085,7 +3085,7 @@ header.communications:before {
   flex-direction: column;
 }
 
-.post-row .user-name a { 
+.post-row a.user-profile { 
   font: 700 48px 'playfair display',serif;
   text-transform: uppercase;
   text-align: center;
@@ -3105,8 +3105,6 @@ header.communications:before {
   width: 50px;
   height: 50px;
   border: 2px solid rgba(255,255,255,3%);
-  top: -28px;
-  left: -28px;
   background: #1c1c1c;
   display: flex;
   align-items: center;
@@ -3120,8 +3118,31 @@ header.communications:before {
   color: rgba(255,255,255,15%);
 }
 
+.post-row a.user-small-info:before {
+  color:rgba(var(--main-accent-rgb), .7);
+  transition:.25s;
+}
+
+.post-row a.user-small-info:hover:before {
+  color:rgba(var(--main-accent-rgb), 1);
+  transition:.25s;
+}
+
+.post-row .user-small-info.group {
+  top: -28px;
+  left: -28px;
+}
 .post-row .user-small-info.group:before {
   content: "\E909";
+}
+
+.post-row .user-small-info.threads {
+  top: -28px;
+  right: -28px;
+}
+.post-row .user-small-info.threads:before {
+  content: "\EB27";
+  font-size:30px;
 }
 
 /* END POST ROW */
