@@ -3071,12 +3071,32 @@ header.communications:before {
 /* END TOPIC ROW */
 /* START POST ROW */
 
-.user-name { 
+.post-row {
+  border: 2px solid rgba(255,255,255,3%);
+  padding: 25px;
+  margin: 50px 0;
+}
+
+.post-row .user-name {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.post-row .user-name a { 
   font: 700 48px 'playfair display',serif;
   text-transform: uppercase;
   text-align: center;
   color: #555;
   letter-spacing: -.075em;
+  position:relative;
+  display:inline-flex;
+}
+
+.post-row .user-position {
+  font: 700 0.6rem 'open sans',sans-serif;
+  text-transform: uppercase;
 }
 
 /* END POST ROW */
