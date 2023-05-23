@@ -454,11 +454,9 @@ textarea {
   text-align: center;
   position: relative;
   overflow: hidden;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   padding: 50px 0;
   background: rgba(var(--main-accent-rgb), .5);
+  text-align:left;
 }
 
 .maintitle:after {
@@ -476,6 +474,11 @@ textarea {
 
 .topic-header {
   margin: 0 -50px;
+  text-align:center;
+  display: flex;
+  flex-flow:row wrap;
+  align-items: center;
+  justify-content: center;
 }
 
 .button-large {
@@ -572,6 +575,12 @@ textarea {
     color: #aaa;
     font: 700 0.6rem 'open sans',sans-serif;
 }
+
+.topic-title-space {
+  display:none;
+}
+
+
 /* END JCINK STYLING */
 
 body {
