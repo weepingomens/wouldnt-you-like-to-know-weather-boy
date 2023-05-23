@@ -3109,6 +3109,7 @@ header.communications:before {
 
 .post-row .user-small-info {
   position: absolute;
+  z-index: 1;
   width: 50px;
   height: 50px;
   border: 2px solid rgba(255,255,255,3%);
