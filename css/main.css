@@ -582,6 +582,12 @@ textarea {
   display:none;
 }
 
+.maintitle .topic-title {
+  text-transform: lowercase;
+  font: italic 800 32px/100% 'playfair display',serif;
+  letter-spacing:0;
+}
+
 .maintitle .topic-desc {
   display: inline-block;
     letter-spacing: 0;
