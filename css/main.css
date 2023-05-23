@@ -2859,8 +2859,8 @@ header.communications:before {
   color: rgba(255,255,255,3%);
 }
 
-.topic-container.pinned:before {
-  content: '\ebf5';
+.topic-container.announcement:before {
+  content: '\eaad';
   font-family: 'cappuccicons';
   transform: rotate(-10deg);
   font-style: normal;
