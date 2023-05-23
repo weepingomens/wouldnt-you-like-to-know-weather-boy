@@ -2859,6 +2859,17 @@ header.communications:before {
   color: rgba(255,255,255,3%);
 }
 
+.topic-container.pinned:before {
+  content: '\ebf5';
+  font-family: 'cappuccicons';
+  transform: rotate(-10deg);
+  font-style: normal;
+  position: absolute;
+  top: -45px;
+  font-size: 100px;
+  color: rgba(255,255,255,3%);
+}
+
 .topic-container .topic-title:hover {
   color: rgba(var(--main-accent-rgb), 1);
 }
