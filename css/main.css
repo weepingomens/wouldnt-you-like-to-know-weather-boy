@@ -2633,6 +2633,17 @@ header.communications:before {
 }
 
 /* END EXTRAS FORUM ROW */
+/* START SUBFORUMS */
+.subform-row .forum-info {
+  width: 100%;
+}
+
+.subform-row .forum-info .forum-name {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin: 0;
+}
 /* END FORUM ROWS */ 
 /* START BOARD STATISTICS */
 
