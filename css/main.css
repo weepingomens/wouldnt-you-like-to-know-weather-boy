@@ -2847,6 +2847,10 @@ header.communications:before {
   text-transform:lowercase;
 }
 
+.topic-container.announcement .topic-title:before {
+  content:'';
+}
+
 .topic-container .topic-title:hover {
   color: rgba(var(--main-accent-rgb), 1);
 }
