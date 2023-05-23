@@ -530,6 +530,29 @@ textarea {
   color:rgba(var(--main-accent-rgb), 1);
   transition:.25s;
 }
+
+.forminput {
+  padding: 5px;
+  font: 700 0.6rem 'open sans',sans-serif;
+  background: #262626;
+  border: 0;
+  text-transform: uppercase;
+  color: #aaa;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.darkrow2 {
+  display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px 5px;
+    padding: 10px;
+    text-transform: uppercase;
+    color: #aaa;
+    font: 700 0.6rem 'open sans',sans-serif;
+}
 /* END JCINK STYLING */
 
 body {
