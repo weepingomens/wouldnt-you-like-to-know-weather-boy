@@ -507,13 +507,13 @@ textarea {
 }
 
 .pagination_page {
-  background: rgba(var(--main-accent-rgb), .7);
+  color: rgba(var(--main-accent-rgb), .7);
   transition:.25s;
   font: italic 800 32px/100% 'playfair display',serif;
 }
 
 .pagination_page:hover {
-  background: rgba(var(--main-accent-rgb), 1);
+  color: rgba(var(--main-accent-rgb), 1);
   transition:.25s;
 }
 
