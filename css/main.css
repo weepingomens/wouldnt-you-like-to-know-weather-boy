@@ -532,6 +532,20 @@ textarea {
   transition:.25s;
 }
 
+.pagination_first,
+.pagination_last {
+  font: italic 800 32px/100% 'playfair display',serif;
+    text-transform: lowercase;
+    color: rgba(var(--main-accent-rgb), .7);
+    transition: .25s;
+}
+
+.pagination_first:hover,
+.pagination_last:hover {
+  color: rgba(var(--main-accent-rgb), 1);
+  transition:.25s;
+}
+
 .forminput {
   padding: 5px;
   font: 700 0.6rem 'open sans',sans-serif;
