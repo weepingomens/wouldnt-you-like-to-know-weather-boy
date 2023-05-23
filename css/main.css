@@ -2640,6 +2640,15 @@ header.communications:before {
   margin:25px 0;
 }
 
+.subform-row:first-of-type {
+  margin-top:0;
+}
+
+.subform-row:last-of-type {
+  margin-bottom:0;
+}
+
+
 .subform-row .forum-info {
   width: 100%;
 }
