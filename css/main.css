@@ -578,7 +578,13 @@ input[type="submit"] {
 }
 
 #omens-body:after {
-  content:'';
+  content: '';
+  position: fixed;
+  top: 0;
+  right: 0;
+  background: rgba(var(--main-accent-rgb),.05);
+  height: 100%;
+  width: calc( (100vw - 1192px) / 2);
 }
 
 #omens-top {
