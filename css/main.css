@@ -461,7 +461,22 @@ textarea {
     flex-flow: row wrap;
 }
 
-.maintitle:after {
+.main-title:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 700px;
+  background-size: cover;
+  background-image: url(../src/img/city-background.png);
+  pointer-events: none;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  opacity: 7%;
+  filter: grayscale(1);
+}
+
+.topic-header.maintitle:after {
   content: '';
   position: absolute;
   width: 711px;
