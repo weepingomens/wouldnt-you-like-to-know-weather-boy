@@ -486,6 +486,7 @@ textarea {
   position: relative;
   transition: .25s;
   text-transform: lowercase;
+  margin:0 10px;
 }
 
 .button-large:hover {
