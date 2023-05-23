@@ -802,7 +802,7 @@ input[type="submit"] {
   border-radius: 100%;
   width: 10px;
   height: 10px;
-  font: 900 7px montserrat;
+  font-size:0;
   animation: 1.33s linear infinite alert-animation;
   border: 3px solid #333;
 }
