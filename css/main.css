@@ -3239,14 +3239,29 @@ header.communications:before {
   top: 88px;
 }
 
-.post-row .user-icon {
-  width:75px;
-}
-
 .post-row .post-proper {
   grid-area: post-row-post;
   border: 2px solid rgba(255,255,255,3%);
   border-width: 0 2px 2px 0;
+  display: grid;
+  grid: min-content min-content / 75px auto;
+  grid-template-areas:
+      "post-row-user-icon post-row-permalink"
+      "post-row-user-icon post-row-post-body";
+}
+
+.post-row .user-icon {
+  grid-area:post-row-user-icon;
+  width:75px;
+}
+
+.post-row .permalink {
+  grid-area:post-row-permalink;
+}
+
+.post-row .post-container {
+  grid-area:post-row-post-body;
+  width:75px;
 }
 
 .post-row .user-footer {
