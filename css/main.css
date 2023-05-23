@@ -2655,6 +2655,9 @@ header.communications:before {
   max-width:initial;
 }
 
+.subform-row .forum-info .last-poster-topic a {
+  color:var(--main-accent);
+}
 /* END FORUM ROWS */ 
 /* START BOARD STATISTICS */
 
