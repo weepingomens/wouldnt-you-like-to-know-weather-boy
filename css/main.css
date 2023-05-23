@@ -2644,6 +2644,7 @@ header.communications:before {
   height: 700px;
   overflow: hidden;
   position: absolute;
+  z-index: 999;
   top: -75px;
   right: -275px;
   pointer-events:none;
