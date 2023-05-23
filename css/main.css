@@ -1662,7 +1662,7 @@ input[type="submit"] {
   position: absolute;
   width: 1500px;
   height: 780px;
-  background: url(https://i.ibb.co/Hx43c2Z/pnghut-new-york-city-cities-skylines-clip-art-news.png);
+  background: url(../src/img/transparent-city.png);
   filter: grayscale(100%) invert(1);
   opacity: 2%;
   z-index: -1;
