@@ -500,9 +500,7 @@ textarea {
   font-size: 0;
 }
 .pagination_current {
-  padding: 5px 10px;
-  background: rgba(255, 255, 255, 2%);
-  border-radius: 3px;
+  color: rgba(255, 255, 255, 10%);
   font: italic 800 32px/100% 'playfair display',serif;
 }
 
