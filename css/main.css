@@ -3242,9 +3242,9 @@ header.communications:before {
 .post-row .post-proper {
   grid-area: post-row-post;
   border: 2px solid rgba(255,255,255,3%);
-  border-width: 0 2px 2px 0;
+  border-top:0;
   display: grid;
-  grid: min-content min-content / 75px auto;
+  grid: min-content 1000px / min-content auto;
   grid-template-areas:
       "post-row-user-icon post-row-permalink"
       "post-row-user-icon post-row-post-body";
@@ -3252,16 +3252,30 @@ header.communications:before {
 
 .post-row .user-icon {
   grid-area:post-row-user-icon;
-  width:75px;
+  border-right: 2px solid rgba(255,255,255,3%);
+}
+
+.post-row .user-icon img {
+  margin:10px;
+  width:25px;
+  position:sticky;
+  top:88px;
 }
 
 .post-row .permalink {
   grid-area:post-row-permalink;
+  font: 700 0.6rem "open sans", sans-serif;
+    text-transform: uppercase;
+    padding:10px;
+    border-bottom: 2px solid rgba(255,255,255,3%);
+    display:flex;
+    align-items:center;
+    gap:5px;
 }
 
 .post-row .post-container {
   grid-area:post-row-post-body;
-  width:75px;
+  padding:50px;
 }
 
 .post-row .user-footer {
