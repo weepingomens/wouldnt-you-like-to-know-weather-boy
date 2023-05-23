@@ -498,8 +498,8 @@ textarea {
   display: flex;
   align-items: center;
   font-size: 0;
-  gap: 5px;
 }
+
 .pagination_current {
   color: rgba(255, 255, 255, 10%);
   font: italic 800 32px/100% 'playfair display',serif;
@@ -514,6 +514,10 @@ textarea {
 .pagination_page:hover {
   color: rgba(var(--main-accent-rgb), 1);
   transition:.25s;
+}
+
+.pagination_pagetxt {
+  margin-right:10px;
 }
 
 .pagination_pagetxt a {
