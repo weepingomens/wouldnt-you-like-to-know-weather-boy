@@ -3074,7 +3074,7 @@ header.communications:before {
 .post-row {
   display: grid;
   margin: 50px 0;
-  grid: min-content min-content / min-content auto;
+  grid: min-content min-content / 224px auto;
   grid-template-areas:
       "post-row-user-name post-row-user-name"
       "post-row-user-hover post-row-post"
@@ -3194,7 +3194,9 @@ header.communications:before {
 }
 
 .post-row .post-proper {
-  grid-area:post-row-post;
+  grid-area: post-row-post;
+  border: 2px solid rgba(255,255,255,3%);
+  border-width: 0 2px 2px 0;
 }
 
 .post-row .user-footer {
