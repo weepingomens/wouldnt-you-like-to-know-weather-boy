@@ -3069,6 +3069,17 @@ header.communications:before {
   filter:grayscale(1);
 }
 /* END TOPIC ROW */
+/* START POST ROW */
+
+.user-name { 
+  font: 700 48px 'playfair display',serif;
+  text-transform: uppercase;
+  text-align: center;
+  color: #555;
+  letter-spacing: -.075em;
+}
+
+/* END POST ROW */
 /*
 #omens-main .omens-category {
   display: flex;
