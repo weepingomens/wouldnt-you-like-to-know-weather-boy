@@ -3150,8 +3150,21 @@ header.communications:before {
   left: -28px;
 }
 .post-row .user-small-info.threads:before {
-  content: "\EBAB";
+  content: "\eb81";
+  font-family:'cappuccicons';
   font-size:30px;
+}
+
+.post-row .user-small-info.messages {
+  top: -17px;
+  width: 30px;
+  height: 30px;
+}
+
+.post-row .user-small-info.messages:before {
+  content: "\ea88";
+  font-family:'cappuccicons';
+  font-size:14px;
 }
 
 /* END POST ROW */
