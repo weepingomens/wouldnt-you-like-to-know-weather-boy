@@ -3075,6 +3075,7 @@ header.communications:before {
   border: 2px solid rgba(255,255,255,3%);
   padding: 25px;
   margin: 50px 0;
+  position:relative;
 }
 
 .post-row .user-name {
@@ -3097,6 +3098,30 @@ header.communications:before {
 .post-row .user-position {
   font: 700 0.6rem 'open sans',sans-serif;
   text-transform: uppercase;
+}
+
+.post-row .user-small-info {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  border: 2px solid rgba(255,255,255,3%);
+  top: -28px;
+  left: -28px;
+  background: #1c1c1c;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+}
+
+.post-row .user-small-info:before {
+  font-family: "game-icons";
+  font-size: 40px;
+  color: rgba(255,255,255,15%);
+}
+
+.post-row .user-small-info.group:before {
+  content: "\E909";
 }
 
 /* END POST ROW */
