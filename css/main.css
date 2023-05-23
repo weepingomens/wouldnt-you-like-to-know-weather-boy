@@ -2830,6 +2830,7 @@ header.communications:before {
       'topic-list-desc topic-list-icon';
   margin: 25px 0;
   justify-items: start;
+  position:relative;
 }
 .topic-container .topic-title {
   grid-area:topic-list-title;
@@ -2847,8 +2848,12 @@ header.communications:before {
   text-transform:lowercase;
 }
 
-.topic-container.announcement .topic-title:before {
-  content:'';
+.topic-container.announcement:before {
+  content: '\ea8f';
+  font-family: 'cappuccicons';
+  font-style: normal;
+  position: absolute;
+  font-size: 50px;
 }
 
 .topic-container .topic-title:hover {
