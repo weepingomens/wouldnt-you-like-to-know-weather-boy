@@ -577,6 +577,10 @@ input[type="submit"] {
     "omens-sidebar omens-main omens-navi";
 }
 
+#omens-body:after {
+  content:'';
+}
+
 #omens-top {
   grid-area: omens-top;
   width: 100%;
