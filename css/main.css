@@ -475,7 +475,7 @@ textarea {
 }
 
 .topic-header {
-  margin: 0 -50px;
+  margin: 0;
   text-align:center;
   display: flex;
   flex-flow:row wrap;
