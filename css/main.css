@@ -2849,8 +2849,9 @@ header.communications:before {
 }
 
 .topic-container.announcement:before {
-  content: '\ebf5';
+  content: '\eaad';
   font-family: 'cappuccicons';
+  transform: rotate(-10deg);
   font-style: normal;
   position: absolute;
   top: -45px;
