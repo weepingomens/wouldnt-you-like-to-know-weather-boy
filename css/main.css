@@ -3073,6 +3073,7 @@ header.communications:before {
 
 .post-row {
   display: grid;
+  margin: 50px 0;
   grid: 1fr 1fr / 1fr 1fr;
   grid-template-areas:
       "post-row-user-name post-row-user-name"
@@ -3088,7 +3089,6 @@ header.communications:before {
   flex-direction: column;
   border: 2px solid rgba(255,255,255,3%);
   padding: 25px;
-  margin: 50px 0;
   position:relative;
 }
 
@@ -3175,7 +3175,18 @@ header.communications:before {
 }
 
 .post-row .user-hover {
-  grid-area:post-row-user-hover;
+  grid-area: post-row-user-hover;
+  border: 2px solid rgba(255,255,255,3%);
+  border-width: 0 2px 2px;
+}
+
+.post-row .user-hover .hover-background {
+  width: 200px;
+  height: 400px;
+  background: url(../src/img/default_hover.png);
+  background-size: contain;
+  margin: 10px;
+  border-radius: 3px;
 }
 
 .post-row .post-proper {
