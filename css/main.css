@@ -2849,11 +2849,13 @@ header.communications:before {
 }
 
 .topic-container.announcement:before {
-  content: '\ea8f';
+  content: '\ebf5';
   font-family: 'cappuccicons';
   font-style: normal;
   position: absolute;
-  font-size: 50px;
+  top: -45px;
+  font-size: 100px;
+  color: rgba(255,255,255,3%);
 }
 
 .topic-container .topic-title:hover {
