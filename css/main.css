@@ -2645,6 +2645,10 @@ header.communications:before {
   margin: 0;
 }
 
+.subform-row .forum-info .forum-name a {
+  max-width:initial;
+}
+
 .subform-row:nth-of-type(even) .forum-info .forum-name {
   flex-flow:row-reverse;
 }
