@@ -3136,12 +3136,21 @@ header.communications:before {
   content: "\E909";
 }
 
-.post-row .user-small-info.threads {
+.post-row .user-small-info.posts {
   top: -28px;
   right: -28px;
 }
-.post-row .user-small-info.threads:before {
+.post-row .user-small-info.posts:before {
   content: "\EB27";
+  font-size:30px;
+}
+
+.post-row .user-small-info.threads {
+  bottom: -28px;
+  left: -28px;
+}
+.post-row .user-small-info.threads:before {
+  content: "\EBAB";
   font-size:30px;
 }
 
