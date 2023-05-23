@@ -503,15 +503,13 @@ textarea {
   padding: 5px 10px;
   background: rgba(255, 255, 255, 2%);
   border-radius: 3px;
-  font: 1em/100% 'open sans',sans-serif;
+  font: italic 800 32px/100% 'playfair display',serif;
 }
 
 .pagination_page {
-  padding: 5px 10px;
   background: rgba(var(--main-accent-rgb), .7);
-  border-radius: 3px;
   transition:.25s;
-  font: 1em/100% 'open sans',sans-serif;
+  font: italic 800 32px/100% 'playfair display',serif;
 }
 
 .pagination_page:hover {
