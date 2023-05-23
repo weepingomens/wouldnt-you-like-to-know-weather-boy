@@ -494,10 +494,19 @@ textarea {
   transition: .25s;
 }
 
+.pagination {
+  display: flex;
+  align-items: center;
+  font-size: 0;
+}
 .pagination_current {
   padding: 5px 10px;
   background: rgba(255, 255, 255, 2%);
   border-radius: 3px;
+}
+
+.pagination_page {
+  background: rgba(255, 255, 255, 2%);
 }
 
 .pagination_pagetxt a {
