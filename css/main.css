@@ -498,6 +498,7 @@ textarea {
   display: flex;
   align-items: center;
   font-size: 0;
+  gap:5px;
 }
 
 .pagination_current {
