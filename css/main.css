@@ -454,9 +454,11 @@ textarea {
   text-align: center;
   position: relative;
   overflow: hidden;
-  padding: 50px 0;
+  padding: 50px;
   background: rgba(var(--main-accent-rgb), .5);
   text-align:left;
+  display: flex;
+    flex-flow: row wrap;
 }
 
 .maintitle:after {
@@ -580,6 +582,15 @@ textarea {
   display:none;
 }
 
+.maintitle .topic-desc {
+  display: inline-block;
+    letter-spacing: 0;
+    font: 700 0.6rem 'open sans',sans-serif;
+    padding: 5px;
+    background: #1c1c1c;
+    color: #aaa;
+    border-radius: 5px;
+}
 
 /* END JCINK STYLING */
 
