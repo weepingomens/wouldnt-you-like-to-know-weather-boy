@@ -3077,7 +3077,7 @@ header.communications:before {
   grid: min-content min-content / 224px auto;
   grid-template-areas:
       "post-row-user-hover post-row-user-name"
-      "post-row-user-post post-row-post"
+      "post-row-post post-row-post"
       "post-row-user-footer post-row-user-footer";
 }
 
@@ -3201,7 +3201,7 @@ header.communications:before {
 
 .post-row .user-small-info.threads {
   bottom: -28px;
-  left: -28px;
+  right: -28px;
 }
 .post-row .user-small-info.threads:before {
   content: "\eb81";
@@ -3237,6 +3237,10 @@ header.communications:before {
   border-radius: 3px;
   position: sticky;
   top: 88px;
+}
+
+.post-row .user-icon {
+  width:75px;
 }
 
 .post-row .post-proper {
