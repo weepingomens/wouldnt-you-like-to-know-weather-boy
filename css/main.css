@@ -3178,6 +3178,7 @@ header.communications:before {
   grid-area: post-row-user-hover;
   border: 2px solid rgba(255,255,255,3%);
   border-width: 0 2px 2px;
+  width: 220px;
 }
 
 .post-row .user-hover .hover-background {
@@ -3187,6 +3188,8 @@ header.communications:before {
   background-size: contain;
   margin: 10px;
   border-radius: 3px;
+  position: sticky;
+  top: 88px;
 }
 
 .post-row .post-proper {
