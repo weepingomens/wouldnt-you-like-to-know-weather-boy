@@ -659,6 +659,7 @@ textarea {
 #omens-body #posting-form #topic-desc input {
   font: 400 1rem/1.6 'open sans', sans-serif;
   text-transform: revert;
+  width:100%;
 }
 
 #omens-body #posting-form #topic-desc input {
