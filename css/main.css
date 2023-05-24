@@ -581,6 +581,10 @@ textarea {
   cursor: pointer;
 }
 
+.forminput option {
+  font-weight:700;
+}
+
 .darkrow2 {
   display: flex;
     justify-content: center;
