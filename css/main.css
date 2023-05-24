@@ -3136,7 +3136,7 @@ header.communications:before {
   position: relative;
   display: flex;
   flex-flow: row wrap;
-  gap: 15px 5px;
+  gap: 10px;
   font: 500 0.8rem 'open sans',sans-serif;
   text-transform: uppercase;
   align-items: center;
@@ -3154,6 +3154,7 @@ header.communications:before {
   border-radius:3px;
   color:#1c1c1c;
   margin:0 5px;
+  display:inline-block;
 }
 
 .post-row .user-small-info {
@@ -3255,6 +3256,21 @@ header.communications:before {
 .post-row .user-icon {
   grid-area:post-row-user-icon;
   border-left: 2px solid rgba(255,255,255,3%);
+  display:flex;
+  flex-flow:column nowrap;
+  align-items:center;
+}
+
+.post-row .user-icon span {
+  position: sticky;
+  top: 175px;
+  width: 10px;
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  text-transform: uppercase;
+  font: 700 0.6rem/100% "open sans", sans-serif;
+  display: flex;
+  margin: 25px 0;
 }
 
 .post-row .user-icon img {
