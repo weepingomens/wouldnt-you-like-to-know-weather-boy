@@ -613,6 +613,10 @@ textarea {
   border-radius: 5px;
 }
 
+.postlinksbar {
+  display:none;
+}
+
 /* END JCINK STYLING */
 
 body {
