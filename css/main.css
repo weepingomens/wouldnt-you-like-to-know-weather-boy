@@ -3341,6 +3341,7 @@ header.communications:before {
     display:flex;
     align-items:center;
     gap:5px;
+    height:10px;
 }
 
 .post-row .post-container {
