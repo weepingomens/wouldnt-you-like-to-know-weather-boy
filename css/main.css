@@ -3200,6 +3200,10 @@ header.communications:before {
   display:inline-block;
 }
 
+.post-row .user-details div strike {
+  color: #555;
+}
+
 .post-row .user-small-info {
   position: absolute;
   z-index: 1;
