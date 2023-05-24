@@ -627,6 +627,14 @@ textarea {
   font-weight:700;
 }
 
+#topic_open .maintitle {
+  display:block;
+}
+
+#topic_open .maintitle a {
+  color: #1c1c1c;
+}
+
 /* END JCINK STYLING */
 
 body {
