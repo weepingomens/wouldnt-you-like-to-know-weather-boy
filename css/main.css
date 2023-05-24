@@ -3364,6 +3364,7 @@ header.communications:before {
   color: #1c1c1c;
   letter-spacing: 0.2rem;
   text-transform:uppercase;
+  z-index:1;
 }
 
 .post-row .ooc-details .big-image {
