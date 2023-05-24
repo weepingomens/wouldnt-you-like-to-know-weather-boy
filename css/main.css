@@ -570,7 +570,7 @@ textarea {
   transition:.25s;
 }
 
-.forminput {
+.forminput, .codebuttons {
   padding: 5px;
   font: 700 0.6rem 'open sans',sans-serif;
   background: #262626;
