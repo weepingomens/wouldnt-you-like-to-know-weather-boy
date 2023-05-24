@@ -13,22 +13,23 @@
   --main-accent-rgb: var(--mainAccentR), var(--mainAccentG), var(--mainAccentB);
   --main-gradient: linear-gradient(110deg, #df6885, #df6868);
 
-  --category-header:#2a2a2a;
+  --category-header: #2a2a2a;
 
-  --forum-8:url(../src/img/LLORONA_8.png);
-  --forum-9:url(../src/img/LLORONA_9.png);
+  --forum-8: url(../src/img/LLORONA_8.png);
+  --forum-9: url(../src/img/LLORONA_9.png);
 }
 
 .forum-8 .forum-image:before {
   background-image: var(--forum-8);
 }
+
 .forum-9 .forum-image:before {
   background-image: var(--forum-9);
 }
 
 .group-staff,
 .group-6 {
-  --group:var(--staff);
+  --group: var(--staff);
 }
 
 .group-icon-6:before {
@@ -38,7 +39,7 @@
 
 .group-member,
 .group-10 {
-  --group:var(--member);
+  --group: var(--member);
 }
 
 .group-icon-10:before {
@@ -48,7 +49,7 @@
 
 .group-vampire,
 .group-9 {
-  --group:var(--vampire);
+  --group: var(--vampire);
 }
 
 .group-icon-9:before {
@@ -58,7 +59,7 @@
 
 .group-werewolf,
 .group-14 {
-  --group:var(--werewolf);
+  --group: var(--werewolf);
 }
 
 .group-icon-14:before {
@@ -68,7 +69,7 @@
 
 .group-witch,
 .group-8 {
-  --group:var(--witch);
+  --group: var(--witch);
 }
 
 .group-icon-8:before {
@@ -78,7 +79,7 @@
 
 .group-human,
 .group-7 {
-  --group:var(--human);
+  --group: var(--human);
 }
 
 .group-icon-7:before {
@@ -88,7 +89,7 @@
 
 .group-pending,
 .group-3 {
-  --group:var(--pending);
+  --group: var(--pending);
 }
 
 .group-icon-3:before {
@@ -98,7 +99,7 @@
 
 .group-npc,
 .group-20 {
-  --group:var(--npc);
+  --group: var(--npc);
 }
 
 .group-icon-20:before {
@@ -108,7 +109,7 @@
 
 .group-rip,
 .group-19 {
-  --group:var(--rip);
+  --group: var(--rip);
 }
 
 .group-icon-19:before {
