@@ -3184,6 +3184,9 @@ header.communications:before {
 
 .post-row .user-details {
   position: relative;
+  margin:0;
+  padding:0;
+  list-style-type: none;
   display: flex;
   flex-flow: row wrap;
   gap: 10px;
@@ -3196,6 +3199,8 @@ header.communications:before {
   padding-top: 20px;
   color:#aaa;
 }
+
+
 
 .post-row .user-details em {
   font-style:normal;
