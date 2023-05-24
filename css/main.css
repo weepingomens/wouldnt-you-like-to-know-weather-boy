@@ -3114,7 +3114,6 @@ header.communications:before {
 }
 
 .post-row .user-name .font-icon:before {
-  position:absolute;
   pointer-events:none;
   font-size:300px;
   color:rgba(255,255,255,2%);
