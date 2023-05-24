@@ -648,6 +648,12 @@ textarea {
     text-transform: uppercase;
 }
 
+#posting-form .pformstrip {
+  font: 700 0.6rem 'open sans',sans-serif;
+  text-transform: uppercase;
+  padding: 10px;
+}
+
 /* END JCINK STYLING */
 
 body {
