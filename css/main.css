@@ -3330,7 +3330,7 @@ header.communications:before {
   display:block;
 }
 
-.post-row .user-icon div {
+.post-row .user-icon .contain {
   position:sticky;
   top:78px;
   display:flex;
