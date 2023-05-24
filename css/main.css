@@ -644,10 +644,7 @@ textarea {
 }
 
 #posting-form .pformleft {
-  font: 400 0.6rem 'open sans',sans-serif;
-  text-transform: uppercase;
-  display: block;
-  width: 100px;
+  font-size:0;
 }
 
 #posting-form .pformstrip {
@@ -666,6 +663,11 @@ textarea {
 
 #posting-form #post-options .pformleft {
   writing-mode: vertical-rl;
+}
+
+#posting-form #code-buttons .pformleft {
+  display: revert;
+  vertical-align: middle;
 }
 
 /* END JCINK STYLING */
