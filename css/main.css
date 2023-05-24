@@ -3247,9 +3247,6 @@ header.communications:before {
   top: -28px;
   left: -28px;
 }
-.post-row .user-small-info.group:before {
-  content: "\E909";
-}
 
 .post-row .user-small-info.posts {
   top: -28px;
