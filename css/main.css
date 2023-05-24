@@ -3105,6 +3105,40 @@ header.communications:before {
   color:rgba(255,255,255,2%);
 }
 
+.post-row .user-name .threat-level {
+  position: absolute;
+  width: calc(100% - 100px);
+  bottom: 20px;
+  display: flex;
+  align-items: center;
+  margin: 0 25px;
+}
+
+.post-row .user-name .threat-level:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 10px;
+  background: #151515;
+  z-index: 1;
+  border-radius: 5px;
+}
+
+.post-row .user-name .threat-level .threat-bar {
+  height: 10px;
+    background: var(--custom);
+    position: relative;
+    z-index: 1;
+    border-radius: 5px;
+}
+
+.post-row .user-name .threat-level:after {
+  content: 'THREAT LEVEL';
+  position: absolute;
+  font: 700 64px/100% 'playfair display',serif;
+  color:rgba(255,255,255,10%);
+}
+
 .post-row a.user-profile { 
   font: 700 48px 'playfair display',serif;
   text-transform: uppercase;
