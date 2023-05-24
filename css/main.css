@@ -3073,7 +3073,7 @@ header.communications:before {
 
 .post-row {
   display: grid;
-  margin: 50px 0;
+  margin:-50px 0 50px 0;
   grid: min-content min-content min-content min-content / 224px auto;
   grid-template-areas:
       "post-row-user-hover post-row-user-name"
@@ -3082,6 +3082,14 @@ header.communications:before {
       "post-row-user-footer post-row-user-footer";
 }
 
+/* bootleg 'first of type' for a CSS selector */
+.post-row:not(.post-row ~ .post-row) {
+  margin-top:50px;
+}
+
+.post-row:not(.post-row ~ .post-row) .post-proper {
+  border-bottom:0;
+} 
 .post-row .user-name {
   grid-area:post-row-user-name;
   display: flex;
