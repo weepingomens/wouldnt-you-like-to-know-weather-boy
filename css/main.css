@@ -672,6 +672,14 @@ textarea {
     text-transform: uppercase;
 }
 
+#posting-form #enter-your-post textarea {
+  width: calc(100% - 50px);
+  background: rgba(255,255,255,10%);
+  border: 0;
+  color: #aaa;
+  padding: 25px;
+  border-radius: 3px;
+}
 /* END JCINK STYLING */
 
 body {
