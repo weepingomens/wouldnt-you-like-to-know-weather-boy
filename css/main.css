@@ -643,6 +643,11 @@ textarea {
   text-transform: uppercase;
 }
 
+#posting-form .pformleft {
+  font: 400 0.6rem 'open sans',sans-serif;
+    text-transform: uppercase;
+}
+
 /* END JCINK STYLING */
 
 body {
