@@ -648,6 +648,9 @@ textarea {
 
 #posting-form .maintitle {
   display:revert;
+  text-transform: lowercase;
+  font: italic 900 48px/100% 'playfair display',serif;
+  letter-spacing: 0;
 }
 
 #omens-body #posting-form input {
