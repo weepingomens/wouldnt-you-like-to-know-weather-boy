@@ -3334,6 +3334,7 @@ header.communications:before {
   background-size:cover;
   display:block;
   filter:grayscale(1);
+  margin:5px;
 }
 
 .post-row .user-icon .contain {
