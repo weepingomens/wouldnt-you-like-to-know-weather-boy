@@ -46,6 +46,11 @@
   --group:var(--werewolf);
 }
 
+.group-icon-14:before {
+  font-family: "game-icons";
+  content: "\E3F9";
+}
+
 .group-witch,
 .group-8 {
   --group:var(--witch);
