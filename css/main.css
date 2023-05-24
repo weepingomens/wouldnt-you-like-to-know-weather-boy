@@ -458,7 +458,7 @@ textarea {
   background: rgba(var(--main-accent-rgb), .5);
   text-align:left;
   display: flex;
-    flex-flow: row wrap;
+    flex-flow: column nowrap;
 }
 
 .main-title:after {
