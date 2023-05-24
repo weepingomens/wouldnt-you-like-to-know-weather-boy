@@ -636,7 +636,7 @@ textarea {
 }
 
 #posting-form .maintitle {
-  display:block;
+  display:revert;
 }
 
 /* END JCINK STYLING */
