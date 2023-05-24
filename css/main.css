@@ -3111,6 +3111,7 @@ header.communications:before {
 
 .post-row .user-name .font-icon {
   position:absolute;
+  pointer-events:none;
 }
 
 .post-row .user-name .font-icon:before {
