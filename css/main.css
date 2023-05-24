@@ -713,6 +713,14 @@ textarea {
   border-radius: 3px;
 }
 
+#posting-form #enter-your-post .pformleft {
+  position: absolute;
+  right: 0;
+  margin-top: -40px;
+  text-transform: uppercase;
+  font: 400 0.6rem 'open sans',sans-serif;
+}
+
 #posting-form #editpost_custombuttons {
   display: flex;
   flex-flow: row wrap;
