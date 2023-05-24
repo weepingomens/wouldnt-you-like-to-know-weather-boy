@@ -71,6 +71,11 @@
   --group:var(--witch);
 }
 
+.group-icon-8:before {
+  font-family: "game-icons";
+  content: "\E08E";
+}
+
 .group-human,
 .group-7 {
   --group:var(--human);
