@@ -41,6 +41,11 @@
   --group:var(--member);
 }
 
+.group-icon-10:before {
+  font-family: "game-icons";
+  content: "\E159";
+}
+
 .group-vampire,
 .group-9 {
   --group:var(--vampire);
