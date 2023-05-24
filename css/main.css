@@ -3006,7 +3006,7 @@ header.communications:before {
   text-transform:lowercase;
 }
 
-.topic-container .topic-title input {
+#omens-body .topic-container .topic-title input {
   margin-left:25px;
 }
 
