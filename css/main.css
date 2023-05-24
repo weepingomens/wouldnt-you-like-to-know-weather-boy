@@ -713,6 +713,10 @@ textarea {
   border-radius: 3px;
 }
 
+#posting-form #post-as-header, #posting-form #post-as {
+  text-align:center;
+}
+
 #posting-form #enter-your-post .pformleft {
   position: absolute;
   right: 0;
