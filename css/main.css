@@ -655,6 +655,10 @@ textarea {
   background: rgba(255,255,255,10%);
 }
 
+#omens-body #posting-form input[type="submit"] {
+  background: var(--main-accent);
+}
+
 #omens-body #posting-form #topic-title input,
 #omens-body #posting-form #topic-desc input {
   font: 400 1rem/1.6 'open sans', sans-serif;
