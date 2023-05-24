@@ -3167,7 +3167,7 @@ header.communications:before {
 }
 
 .topic-container .topic-title span {
-  max-width: 700px;
+  max-width: 670px;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
