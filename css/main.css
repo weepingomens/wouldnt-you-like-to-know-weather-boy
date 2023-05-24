@@ -677,7 +677,8 @@ textarea {
     text-transform: uppercase;
 }
 
-#posting-form #enter-your-post textarea {
+#posting-form #enter-your-post textarea,
+.quick-edit textarea {
   width: calc(100% - 50px);
   background: rgba(255,255,255,10%);
   border: 0;
