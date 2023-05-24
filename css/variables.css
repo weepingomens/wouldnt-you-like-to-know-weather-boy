@@ -91,6 +91,11 @@
   --group:var(--pending);
 }
 
+.group-icon-3:before {
+  font-family: "game-icons";
+  content: "\E75A";
+}
+
 .group-npc,
 .group-20 {
   --group:var(--npc);
