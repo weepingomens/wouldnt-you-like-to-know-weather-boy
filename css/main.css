@@ -717,6 +717,10 @@ textarea {
   text-align:center;
 }
 
+#posting-form #post_as_menu {
+  cursor:pointer;
+}
+
 #posting-form #enter-your-post .pformleft {
   position: absolute;
   right: 0;
