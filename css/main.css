@@ -3108,7 +3108,7 @@ header.communications:before {
   position:relative;
 }
 
-.post-row .user-name:before {
+.post-row .user-name .font-icon:before {
   content:'';
   position:absolute;
   pointer-events:none;
