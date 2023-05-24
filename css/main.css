@@ -641,6 +641,7 @@ textarea {
 
 #omens-body #posting-form input {
   text-transform: uppercase;
+  background: rgba(255,255,255,10%);
 }
 
 #posting-form .pformleft {
