@@ -110,3 +110,8 @@
 .group-19 {
   --group:var(--rip);
 }
+
+.group-icon-19:before {
+  font-family: "game-icons";
+  content: "\E54E";
+}
