@@ -31,6 +31,11 @@
   --group:var(--staff);
 }
 
+.group-icon-6:before {
+  font-family: "game-icons";
+  content: "\E15A";
+}
+
 .group-member,
 .group-10 {
   --group:var(--member);
