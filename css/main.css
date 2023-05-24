@@ -3328,6 +3328,7 @@ header.communications:before {
   height:50px;
   background-size:cover;
   display:block;
+  filter:grayscale(1);
 }
 
 .post-row .user-icon .contain {
@@ -3397,8 +3398,7 @@ header.communications:before {
   align-items: center;
   justify-content: center;
   text-align: center;
-  display: flex;
-  flex-flow: row wrap;
+  flex-flow: column nowrap;
   border: 2px solid rgba(255, 255, 255, 3%);
   padding: 10px;
   border-top: 0;
