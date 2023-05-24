@@ -660,6 +660,10 @@ textarea {
   display:none;
 }
 
+#posting-form tr {
+  vertical-align: baseline;
+}
+
 /* END JCINK STYLING */
 
 body {
