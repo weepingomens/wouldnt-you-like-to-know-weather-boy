@@ -3425,9 +3425,10 @@ header.communications:before {
   border:5px solid #1c1c1c;
 }
 
-.post-row .relationship .icon img {
+.post-row .relationship .icon div {
   width:100%;
   height:100%;
+  background-size:cover;
   display:block;
   border-radius:100%;
   filter:grayscale(100%);
