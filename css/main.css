@@ -617,6 +617,16 @@ textarea {
   display:none;
 }
 
+.activeuserstrip {
+  font: 700 0.6rem "open sans", sans-serif;
+    text-transform: uppercase;
+    color: #aaa;
+}
+
+.activeuserstrip b {
+  font-weight:700;
+}
+
 /* END JCINK STYLING */
 
 body {
