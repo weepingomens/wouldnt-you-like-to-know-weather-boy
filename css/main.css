@@ -666,8 +666,10 @@ textarea {
 }
 
 #posting-form #code-buttons .pformleft {
-  display: revert;
-  vertical-align: middle;
+  font: 400 0.6rem 'open sans',sans-serif;
+    position: absolute;
+    right: 50px;
+    text-transform: uppercase;
 }
 
 /* END JCINK STYLING */
