@@ -66,6 +66,11 @@
   --group:var(--human);
 }
 
+.group-icon-7:before {
+  font-family: "game-icons";
+  content: "\E909";
+}
+
 .group-pending,
 .group-3 {
   --group:var(--pending);
