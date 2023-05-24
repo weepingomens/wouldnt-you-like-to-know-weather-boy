@@ -646,12 +646,8 @@ textarea {
 #posting-form .pformleft {
   font: 400 0.6rem 'open sans',sans-serif;
   text-transform: uppercase;
-  display: flex;
-  flex-wrap: wrap;
+  display: block;
   width: 100px;
-  flex-direction: column;
-  align-content: center;
-  justify-content: center;
 }
 
 #posting-form .pformstrip {
