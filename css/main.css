@@ -3085,6 +3085,7 @@ header.communications:before {
       "post-row-post post-row-post"
       "post-row-user-footer post-row-user-footer";
       --custom:var(--group);
+      --relationshipAccent:var(--custom);
 }
 
 /* bootleg 'first of type' for a CSS selector */
