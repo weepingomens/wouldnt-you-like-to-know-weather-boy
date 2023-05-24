@@ -660,7 +660,7 @@ textarea {
   padding: 10px;
 }
 
-#posting-form #post-icon-options, #posting-form #upload-files {
+#posting-form #post-icon-options, #posting-form #upload-files, #posting-form #upload-files-header {
   display:none;
 }
 
