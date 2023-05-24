@@ -3244,7 +3244,7 @@ header.communications:before {
   border: 2px solid rgba(255,255,255,3%);
   border-top:0;
   display: grid;
-  grid: min-content 1000px / auto min-content;
+  grid: min-content min-content / auto min-content;
   grid-template-areas:
       "post-row-permalink post-row-user-icon"
       "post-row-post-body post-row-user-icon";
@@ -3285,15 +3285,61 @@ header.communications:before {
 }
 
 .post-row .ooc-details {
-  width:100%;
+  width:50%;
   height:75px;
   background:var(--custom);
   position:absolute;
   bottom:0;
+  right:0;
   display:flex;
   align-items:center;
   justify-content:center;
   text-align:center;
+}
+
+.post-row .relationship {
+  width:50%;
+  height:75px;
+  position:absolute;
+  bottom:0;
+  left:0;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  text-align:center;
+  display:flex;
+  flex-flow:row wrap;
+}
+
+.post-row .relationship .line-1 {
+  font: italic 700 24px/100% "playfair display", serif;
+    text-transform: lowercase;
+}
+
+.post-row .relationship .line-2 {
+  font: 700 0.6rem/100% "open sans", sans-serif;
+  text-transform: uppercase;
+}
+
+.post-row .relationship .icon {
+  width:50px;
+  height:50px;
+  border-radius:100%;
+  background:var(--custom);
+  flex-shrink:0;
+  position:absolute;
+  right:-30px;
+  border:5px solid #1c1c1c;
+}
+
+.post-row .relationship .icon img {
+  width:100%;
+  height:100%;
+  display:block;
+  border-radius:100%;
+  filter:grayscale(100%);
+  opacity:25%;
+  pointer-events:none;
 }
 
 .post-row .ooc-details span {
