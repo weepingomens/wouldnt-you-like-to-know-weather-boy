@@ -645,13 +645,20 @@ textarea {
 
 #posting-form .pformleft {
   font: 400 0.6rem 'open sans',sans-serif;
-    text-transform: uppercase;
+  text-transform: uppercase;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100px;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
 }
 
 #posting-form .pformstrip {
   font: 700 0.6rem 'open sans',sans-serif;
   text-transform: uppercase;
   padding: 10px;
+  display: flex;
 }
 
 #posting-form #post-icon-options, #posting-form #upload-files {
