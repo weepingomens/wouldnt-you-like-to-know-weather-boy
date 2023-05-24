@@ -681,6 +681,12 @@ textarea {
   padding: 25px;
   border-radius: 3px;
 }
+
+#posting-form #editpost_custombuttons {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 5px;
+}
 /* END JCINK STYLING */
 
 body {
