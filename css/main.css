@@ -580,6 +580,10 @@ textarea {
   border-radius: 3px;
 }
 
+.codebuttons {
+  cursor:pointer;
+}
+
 .forminput option {
   font-weight:700;
 }
