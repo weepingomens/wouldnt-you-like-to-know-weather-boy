@@ -3382,6 +3382,7 @@ header.communications:before {
   height: 100%;
   background-size: cover;
   filter: grayscale(100%) contrast(50%);
+  mix-blend-mode:overlay;
   opacity: 25%;
   position:absolute;
   pointer-events:none;
