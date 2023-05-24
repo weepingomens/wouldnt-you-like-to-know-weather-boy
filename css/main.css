@@ -635,6 +635,10 @@ textarea {
   color: #1c1c1c;
 }
 
+#posting-form .maintitle {
+  display:block;
+}
+
 /* END JCINK STYLING */
 
 body {
