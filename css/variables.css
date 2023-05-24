@@ -101,6 +101,11 @@
   --group:var(--npc);
 }
 
+.group-icon-20:before {
+  font-family: "game-icons";
+  content: "\E157";
+}
+
 .group-rip,
 .group-19 {
   --group:var(--rip);
