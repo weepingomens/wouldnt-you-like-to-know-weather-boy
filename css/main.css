@@ -3178,6 +3178,7 @@ header.communications:before {
   margin-top: 10px;
   border-top: 2px solid rgba(255,255,255,3%);
   padding-top: 20px;
+  color:#aaa;
 }
 
 .post-row .user-details em {
@@ -3290,9 +3291,6 @@ header.communications:before {
 .post-row .user-icon {
   grid-area:post-row-user-icon;
   border-left: 2px solid rgba(255,255,255,3%);
-  display:flex;
-  flex-flow:column nowrap;
-  align-items:center;
 }
 
 .post-row .user-icon span {
@@ -3310,10 +3308,16 @@ header.communications:before {
 .post-row .user-icon img {
   padding:10px;
   width:50px;
-  position:sticky;
-  top:78px;
   border-bottom: 2px solid rgba(255,255,255,3%);
   display:block;
+}
+
+.post-row .user-icon div {
+  position:sticky;
+  top:78px;
+  display:flex;
+  flex-flow:column nowrap;
+  align-items:center;
 }
 
 .post-row .permalink {
