@@ -809,6 +809,11 @@ input[type="submit"] {
   color: #aaa;
 }
 
+#omens-body input[type="text"] {
+  text-transform: none;
+    font: 700 0.6rem 'open sans',sans-serif;
+}
+
 #omens-body input[type="submit"] {
   background: var(--main-accent);
   font: 700 10px/100% open sans;
