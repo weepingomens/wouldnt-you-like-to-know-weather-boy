@@ -3074,9 +3074,10 @@ header.communications:before {
 .post-row {
   display: grid;
   margin: 50px 0;
-  grid: min-content min-content / 224px auto;
+  grid: min-content min-content min-content min-content / 224px auto;
   grid-template-areas:
       "post-row-user-hover post-row-user-name"
+      "post-row-ship post-row-ooc"
       "post-row-post post-row-post"
       "post-row-user-footer post-row-user-footer";
 }
@@ -3088,6 +3089,8 @@ header.communications:before {
   justify-content: center;
   flex-direction: column;
   border: 2px solid rgba(255,255,255,3%);
+  border-bottom:0;
+  border-left:0;
   padding: 25px;
   position:relative;
 }
@@ -3224,7 +3227,6 @@ header.communications:before {
 .post-row .user-hover {
   grid-area: post-row-user-hover;
   border: 2px solid rgba(255,255,255,3%);
-  border-width: 2px 0 2px 2px;
   width: 220px;
 }
 
@@ -3285,30 +3287,47 @@ header.communications:before {
 }
 
 .post-row .ooc-details {
-  width:50%;
-  height:75px;
+  grid-area:post-row-ooc;
+  width:100%;
   background:var(--custom);
-  position:absolute;
-  bottom:0;
-  right:0;
+  position:relative;
   display:flex;
   align-items:center;
   justify-content:center;
   text-align:center;
 }
 
-.post-row .relationship {
-  width:50%;
-  height:75px;
+.post-row .ooc-details span {
+  font: 700 0.6rem 'open sans',sans-serif;
+  color: #1c1c1c;
+  letter-spacing: 0.2rem;
+  text-transform:uppercase;
+}
+
+.post-row .ooc-details .big-image {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  filter: grayscale(100%) contrast(50%);
+  opacity: 25%;
   position:absolute;
-  bottom:0;
-  left:0;
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  text-align:center;
-  display:flex;
-  flex-flow:row wrap;
+  pointer-events:none;
+  top:0;
+}
+
+.post-row .relationship {
+  grid-area: post-row-ship;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  flex-flow: row wrap;
+  border: 2px solid rgba(255, 255, 255, 3%);
+  padding: 10px;
+  border-top: 0;
+  gap: 10px;
 }
 
 .post-row .relationship .line-1 {
@@ -3328,7 +3347,7 @@ header.communications:before {
   background:var(--custom);
   flex-shrink:0;
   position:absolute;
-  right:-30px;
+  top:-44px;
   border:5px solid #1c1c1c;
 }
 
@@ -3340,24 +3359,6 @@ header.communications:before {
   filter:grayscale(100%);
   opacity:25%;
   pointer-events:none;
-}
-
-.post-row .ooc-details span {
-  font: 700 0.6rem 'open sans',sans-serif;
-  color: #1c1c1c;
-  letter-spacing: 0.2rem;
-  text-transform:uppercase;
-}
-
-.post-row .ooc-details .big-image {
-  width: 100%;
-  height: 100%;
-  background-size: cover;
-  filter: grayscale(100%) contrast(50%);
-  opacity: 25%;
-  position:absolute;
-  pointer-events:none;
-  top:0;
 }
 
 /* END POST ROW */
