@@ -639,6 +639,10 @@ textarea {
   color: #1c1c1c;
 }
 
+#posting-form {
+  position: relative;
+}
+
 #posting-form .maintitle {
   display:revert;
 }
@@ -672,9 +676,13 @@ textarea {
 
 #posting-form #code-buttons .pformleft {
   font: 400 0.6rem 'open sans',sans-serif;
-    position: absolute;
-    right: 50px;
-    text-transform: uppercase;
+  position: absolute;
+  right: 25px;
+  text-transform: uppercase;
+  top: 25px;
+  display: flex;
+  gap: 5px;
+  color: #1c1c1c;
 }
 
 #posting-form #enter-your-post textarea,
@@ -716,6 +724,10 @@ body a {
   text-decoration: none;
   color: var(--main-accent);
 
+}
+
+[type="checkbox"], [type="radio"] {
+  filter: grayscale(1);
 }
 
 .link-hover {
