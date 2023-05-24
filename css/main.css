@@ -664,6 +664,10 @@ textarea {
   vertical-align: baseline;
 }
 
+#posting-form #post-options .pformleft {
+  writing-mode: vertical-rl;
+}
+
 /* END JCINK STYLING */
 
 body {
