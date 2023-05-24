@@ -687,6 +687,12 @@ textarea {
   flex-flow: row wrap;
   gap: 5px;
 }
+
+#posting-form #bbcode-buttons {
+  display: flex;
+    flex-flow: row wrap;
+    gap: 5px;
+}
 /* END JCINK STYLING */
 
 body {
