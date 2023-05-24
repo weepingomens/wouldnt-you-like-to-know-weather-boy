@@ -654,6 +654,10 @@ textarea {
   padding: 10px;
 }
 
+#posting-form #post-icon-options, #posting-form #upload-files {
+  display:none;
+}
+
 /* END JCINK STYLING */
 
 body {
