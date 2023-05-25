@@ -3863,6 +3863,7 @@ a.user-small-info:hover:before {
   --900x300: url(https://i.ibb.co/NLSdbdX/image.png);
   --200x400: url(https://i.ibb.co/w6xYy2x/image.png);
   --custom: #fd513f;
+  margin-bottom:50px;
 }
 
 #main-profile section {
@@ -4013,6 +4014,12 @@ a.user-small-info:hover:before {
   border: 2px solid rgba(255, 255, 255, 3%);
   border-width:0 2px 2px;
   padding:25px;
+  width:calc(100% - 50px);
+  height: calc(100vh - 230px);
+}
+
+#main-profile section.content.simple-tabs {
+  background:transparent;
 }
 
 /* END MAIN PROFILE CONTENT */
