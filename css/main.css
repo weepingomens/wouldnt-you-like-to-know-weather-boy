@@ -3363,7 +3363,7 @@ header.communications:before {
   text-align: center;
 }
 
-.post-row .user-position {
+.user-position {
   font: 700 0.6rem 'open sans', sans-serif;
   text-transform: uppercase;
 }
