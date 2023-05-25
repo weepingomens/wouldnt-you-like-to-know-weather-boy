@@ -3850,6 +3850,12 @@ header.communications:before {
 /* END SITE STORE TEMPLATE */
 
 /* END ALL POST TEMPLATES */
+/* BEGIN MAIN PROFILE */
+#main-profile {
+  display:grid;
+  gap:10px;
+}
+/* END MAIN PROFILE */
 /*
 #omens-main .omens-category {
   display: flex;
