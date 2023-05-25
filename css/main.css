@@ -3859,6 +3859,10 @@ a.user-small-info:hover:before {
   --custom: #fd513f;
 }
 
+#main-profile section {
+  position:relative;
+}
+
 #main-profile section.header {
   width: calc(100% - 50px);
   height: 175px;
