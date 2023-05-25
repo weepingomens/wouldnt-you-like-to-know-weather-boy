@@ -606,7 +606,7 @@ textarea {
 
 .maintitle .topic-title {
   text-transform: lowercase;
-  font: italic 900 48px/100% 'playfair display', serif;
+  font: italic 900 48px/120% 'playfair display', serif;
   letter-spacing: 0;
 }
 
@@ -3684,7 +3684,7 @@ header.communications:before {
 
 .staff-template.simple-tabs {
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: row;
 }
 
 .staff-template .simple-tabs__list {
@@ -3694,6 +3694,7 @@ header.communications:before {
   position: sticky;
   top: 100px;
   align-self: flex-start;
+  text-align: right;
 }
 
 .staff-template .simple-tabs__list-item > span {
