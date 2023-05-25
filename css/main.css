@@ -3854,6 +3854,15 @@ header.communications:before {
 #main-profile {
   display:grid;
   gap:10px;
+  --900x300: url(https://i.ibb.co/NLSdbdX/image.png);
+  --200x400: url(https://i.ibb.co/w6xYy2x/image.png);
+  --custom: #fd513f;
+}
+
+#main-profile section.header {
+  width:900px;
+  height:300px;
+  background:var(--900x300);
 }
 /* END MAIN PROFILE */
 /*
