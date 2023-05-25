@@ -29,7 +29,7 @@ html {
 
 ::-moz-selection {
   background: var(--main-accent);
-  color:#111;
+  color: #111;
   text-shadow: none;
 }
 
@@ -747,26 +747,27 @@ textarea {
 }
 
 #post-preview b {
-  color:var(--custom);
+  color: var(--custom);
 }
 
 .code-top {
-  text-align:center;
+  text-align: center;
 }
 
 .code-title {
-  font: 700 24px/100% 'playfair display',serif;
+  font: 700 24px/100% 'playfair display', serif;
   text-transform: lowercase;
   color: var(--main-accent);
 }
+
 .code-highlight {
-  font: 600 0.7rem/100% 'open sans',sans-serif;
-    text-transform: uppercase;
-    color: #aaa;
+  font: 600 0.7rem/100% 'open sans', sans-serif;
+  text-transform: uppercase;
+  color: #aaa;
 }
 
 .code-highlight:hover {
-  cursor:crosshair;
+  cursor: crosshair;
 }
 
 .staff-template .code-title {
@@ -775,17 +776,18 @@ textarea {
 
 .code-scroll {
   padding: 25px;
-  background: rgba(255,255,255,3%);
+  background: rgba(255, 255, 255, 3%);
   font-size: .9rem;
 }
 
 #CODE-WRAP {
-  padding:25px 0;
+  padding: 25px 0;
 }
 
 .cp {
-  font-family: 'cappuccicons'!important;
+  font-family: 'cappuccicons' !important;
 }
+
 /* END JCINK STYLING */
 
 body {
@@ -3555,14 +3557,14 @@ a.user-small-info:hover:before {
 }
 
 .post-row .post-container h1 {
-  margin:0;
-  padding:0;
-  font:800 70px/100% 'Playfair Display',serif;
-  text-transform:uppercase;
+  margin: 0;
+  padding: 0;
+  font: 800 70px/100% 'Playfair Display', serif;
+  text-transform: uppercase;
   letter-spacing: 0.33em;
-  display:flex;
-  justify-content:center;
-  color:rgba(255,255,255,5%);
+  display: flex;
+  justify-content: center;
+  color: rgba(255, 255, 255, 5%);
 }
 
 .post-row .user-footer {
@@ -3655,41 +3657,41 @@ a.user-small-info:hover:before {
  * ====================================================== */
 
 .simple-tabs {
-    background-color: #fff;
-    margin: 0 auto;
-    padding: 10px;
+  background-color: #fff;
+  margin: 0 auto;
+  padding: 10px;
 }
 
 
 .simple-tabs__list {
-    background-color: #f1f1f1;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+  background-color: #f1f1f1;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 .simple-tabs__list::before,
 .simple-tabs__list::after {
-    content: '';
-    display: table;
+  content: '';
+  display: table;
 }
 
 .simple-tabs__list::after {
-    clear: both;
+  clear: both;
 }
 
 .simple-tabs__list-item {
-    border-bottom: 1px solid transparent;
-    cursor: pointer;
-    float: left;
+  border-bottom: 1px solid transparent;
+  cursor: pointer;
+  float: left;
 }
 
-.simple-tabs__list-item > span {
-    color: #000;
-    display: block;
-    font: 14px Verdana, Arial, sans-serif;
-    padding: 8px 12px;
-    white-space: nowrap;
+.simple-tabs__list-item>span {
+  color: #000;
+  display: block;
+  font: 14px Verdana, Arial, sans-serif;
+  padding: 8px 12px;
+  white-space: nowrap;
 }
 
 /*
@@ -3711,7 +3713,7 @@ a.user-small-info:hover:before {
 /* Tab Content
  * ====================================================== */
 
- .simple-tabs__content {
+.simple-tabs__content {
   display: none;
 }
 
@@ -3735,35 +3737,35 @@ a.user-small-info:hover:before {
   text-align: left;
 }
 
-.staff-template .simple-tabs__list-item > span {
-  font:italic 800 32px/100% 'Playfair Display',serif;
-  text-transform:lowercase;
+.staff-template .simple-tabs__list-item>span {
+  font: italic 800 32px/100% 'Playfair Display', serif;
+  text-transform: lowercase;
   color: rgba(var(--main-accent-rgb), .5);
-  transition:.25s;
+  transition: .25s;
 }
 
-.staff-template.grimoire .simple-tabs__list-item > span {
-  font: italic 800 18px/100% 'Playfair Display',serif;
+.staff-template.grimoire .simple-tabs__list-item>span {
+  font: italic 800 18px/100% 'Playfair Display', serif;
 }
 
 .staff-template .simple-tabs__content {
   max-height: calc(100vh - 300px);
-  min-height:400px;
-    overflow: auto;
+  min-height: 400px;
+  overflow: auto;
 }
 
-.staff-template .simple-tabs__list-item > span:hover,
-.staff-template .simple-tabs__list-item:focus > span,
-.staff-template .simple-tabs__list-item--active > span  {
-  cursor:crosshair;
+.staff-template .simple-tabs__list-item>span:hover,
+.staff-template .simple-tabs__list-item:focus>span,
+.staff-template .simple-tabs__list-item--active>span {
+  cursor: crosshair;
   color: rgba(var(--main-accent-rgb), 1);
-  transition:.25s;
+  transition: .25s;
 }
 
 .staff-template.simple-tabs,
 .staff-template .simple-tabs__list {
-  background:transparent;
-  padding:0;
+  background: transparent;
+  padding: 0;
 }
 
 .staff-template .simple-tabs__content {
@@ -3775,25 +3777,25 @@ a.user-small-info:hover:before {
 }
 
 .staff-template .simple-tabs__content p {
-  margin:0;
+  margin: 0;
 }
 
 .staff-template b,
 .staff-template strong {
-  color:var(--main-accent);
+  color: var(--main-accent);
 }
 
 .staff-template a {
-  font-weight:600;
+  font-weight: 600;
 }
 
 .staff-template h2 {
   margin: 0;
   text-align: center;
-  font: italic 800 48px/100% 'Playfair Display',serif;
+  font: italic 800 48px/100% 'Playfair Display', serif;
   letter-spacing: -0.05em;
   color: #eee;
-  border-bottom: 2px solid rgba(255,255,255,5%);
+  border-bottom: 2px solid rgba(255, 255, 255, 5%);
   margin-bottom: 10px;
   padding-bottom: 10px;
   text-transform: lowercase;
@@ -3802,9 +3804,9 @@ a.user-small-info:hover:before {
 .staff-template h3 {
   margin: 25px 0;
   text-align: center;
-  font: 800 25px/100% 'Playfair Display',serif;
+  font: 800 25px/100% 'Playfair Display', serif;
   text-transform: uppercase;
-  color: rgba(255,255,255,15%);
+  color: rgba(255, 255, 255, 15%);
 }
 
 .staff-template ul {
@@ -3814,73 +3816,74 @@ a.user-small-info:hover:before {
 }
 
 .staff-template .simple-tabs__content ul {
-  display:grid;
-  gap:25px;
+  display: grid;
+  gap: 25px;
 }
 
 .staff-template blockquote {
   margin: 0;
   padding: 25px;
-  border: 2px solid rgba(255,255,255,3%);
+  border: 2px solid rgba(255, 255, 255, 3%);
 }
 
-.staff-template  .simple-tabs__content ul.long-list {
+.staff-template .simple-tabs__content ul.long-list {
   gap: 5px;
-  font: 600 0.7rem/100% 'open sans',sans-serif;
+  font: 600 0.7rem/100% 'open sans', sans-serif;
   text-transform: uppercase;
 }
 
-.staff-template  .simple-tabs__content .long-list li {
-  border-bottom: 2px solid rgba(255,255,255,6%);
+.staff-template .simple-tabs__content .long-list li {
+  border-bottom: 2px solid rgba(255, 255, 255, 6%);
   margin-bottom: 5px;
   padding-bottom: 10px;
 }
 
-.staff-template  .simple-tabs__content ul.long-list ul li {
-  border:0;
-  margin:0;
-  padding:0;
+.staff-template .simple-tabs__content ul.long-list ul li {
+  border: 0;
+  margin: 0;
+  padding: 0;
 }
 
-.staff-template  .simple-tabs__content ul.long-list ul {
-  gap:5px;
+.staff-template .simple-tabs__content ul.long-list ul {
+  gap: 5px;
   margin-top: 5px;
 }
 
 .staff-template u {
   text-decoration: none;
-  border-bottom: 2px solid rgba(255,255,255,10%);
+  border-bottom: 2px solid rgba(255, 255, 255, 10%);
 }
+
 /* END SITE STORE TEMPLATE */
 
 /* END ALL POST TEMPLATES */
 /* BEGIN MAIN PROFILE */
 #main-profile {
-  display:grid;
+  display: grid;
   --900x300: url(https://i.ibb.co/NLSdbdX/image.png);
   --200x400: url(https://i.ibb.co/w6xYy2x/image.png);
   --custom: #fd513f;
 }
 
 #main-profile section {
-  position:relative;
+  position: relative;
 }
 
 #main-profile section.header {
   width: calc(100% - 50px);
   height: 175px;
   background-color: var(--custom);
-  position:relative;
+  position: relative;
   text-transform: lowercase;
-  display:flex;
-  flex-flow:column nowrap;
-  justify-content:center;
-  padding-left:50px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  padding-left: 50px;
 }
 
 #main-profile section.header h1 {
-  margin:0;
-  padding:0;
+  margin: 0;
+  padding: 0;
   font: italic 900 48px/100% 'playfair display', serif;
   color: #1c1c1c;
 }
@@ -3889,50 +3892,50 @@ a.user-small-info:hover:before {
   font: 700 0.6rem 'open sans', sans-serif;
   color: #1c1c1c;
   letter-spacing: 0.2rem;
-  text-transform:uppercase;
+  text-transform: uppercase;
 }
 
 #main-profile section.header h1,
 #main-profile section.header span {
-  position:relative;
-  z-index:1;
+  position: relative;
+  z-index: 1;
 }
 
 #main-profile section.header:after {
   content: '';
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background-size: cover;
-    background-image: var(--900x300);
-    pointer-events: none;
-    z-index: 0;
-    top: 0;
-    left: 0;
-    opacity: 7%;
-    filter: grayscale(1);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-image: var(--900x300);
+  pointer-events: none;
+  z-index: 0;
+  top: 0;
+  left: 0;
+  opacity: 7%;
+  filter: grayscale(1);
 }
 
 #main-profile section.basics {
   display: flex;
   align-items: center;
-  justify-content:center;
-  border:2px solid rgba(255, 255, 255, 3%);
+  justify-content: center;
+  border: 2px solid rgba(255, 255, 255, 3%);
 }
 
 #main-profile section.basics .hover {
   width: 200px;
   height: 400px;
   background-size: contain;
-  padding:10px;
-  border:2px solid rgba(255, 255, 255, 3%);
-  border-width:0 0 0 2px;
-  flex-shrink:0;
+  padding: 10px;
+  border: 2px solid rgba(255, 255, 255, 3%);
+  border-width: 0 0 0 2px;
+  flex-shrink: 0;
 }
 
 #main-profile section.basics .hover img {
-  width:100%;
-  height:100%;
+  width: 100%;
+  height: 100%;
 }
 
 #main-profile section.basics .basic-info {
@@ -3942,39 +3945,38 @@ a.user-small-info:hover:before {
   justify-content: center;
   flex-direction: column;
   flex-wrap: nowrap;
-  position:relative;
-  height:100%;
+  position: relative;
+  height: 100%;
 }
 
 #main-profile .user-details {
   margin: 0 50px 10px;
   padding-bottom: 10px;
-  border-top:0;
+  border-top: 0;
   border-bottom: 2px solid rgba(255, 255, 255, 3%);
 }
 
 .post-row .ooc,
 #main-profile .ooc {
-	display:none;
+  display: none;
 }
 
 .post-row.group-6 .ic,
 .post-row.group-10 .ic,
 #main-profile.group-6 .ic,
 #main-profile.group-10 .ic {
-	display:none;
+  display: none;
 }
 
 .post-row.group-6 .ooc,
-.post-row.group-10 .ooc
-#main-profile.group-6 .ooc,
+.post-row.group-10 .ooc #main-profile.group-6 .ooc,
 #main-profile.group-10 .ooc {
-	display:initial;
+  display: initial;
 }
 
 #main-profile .user-quote {
-  margin:0 50px;
-  color:#ccc;
+  margin: 0 50px;
+  color: #ccc;
 }
 
 #main-profile .font-icon {
@@ -3990,9 +3992,10 @@ a.user-small-info:hover:before {
 
 #main-profile .threat-level {
   position: relative;
-  bottom:0;
+  bottom: 0;
   margin-top: 25px;
 }
+
 /* END MAIN PROFILE */
 /*
 #omens-main .omens-category {
