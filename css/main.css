@@ -3747,6 +3747,7 @@ header.communications:before {
   font: 800 25px/100% 'Playfair Display',serif;
   text-transform: uppercase;
   color: rgba(255,255,255,15%);
+  margin-bottom:10px;
 }
 
 .staff-template ul {
