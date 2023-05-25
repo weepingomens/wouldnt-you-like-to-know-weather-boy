@@ -3836,6 +3836,11 @@ header.communications:before {
   margin:0;
   padding:0;
 }
+
+.staff-template  .simple-tabs__content ul.long-list ul {
+  gap:5px;
+}
+
 .staff-template u {
   text-decoration: none;
   border-bottom: 2px solid rgba(255,255,255,10%);
