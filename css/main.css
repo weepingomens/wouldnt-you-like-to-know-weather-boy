@@ -3982,7 +3982,7 @@ a.user-small-info:hover:before {
 
 #main-profile .font-icon:before {
   pointer-events: none;
-  font-size: 500px;
+  font-size: 400px;
   color: rgba(255, 255, 255, 2%);
 }
 /* END MAIN PROFILE */
