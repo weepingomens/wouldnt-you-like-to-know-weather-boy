@@ -3740,6 +3740,11 @@ header.communications:before {
   font: italic 800 18px/100% 'Playfair Display',serif;
 }
 
+.staff-template.grimoire .simple-tabs__content {
+  max-height: calc(100vh - 300px);
+    overflow: auto;
+}
+
 .staff-template .simple-tabs__list-item > span:hover,
 .staff-template .simple-tabs__list-item:focus > span,
 .staff-template .simple-tabs__list-item--active > span  {
