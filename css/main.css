@@ -3763,10 +3763,11 @@ header.communications:before {
 }
 
 .staff-template .simple-tabs__content {
-  padding: 25px;
-  background:rgba(255, 255, 255, 2%);
-  text-align:justify;
-  border-radius:3px;
+  background: rgba(255, 255, 255, 2%);
+  text-align: justify;
+  border-radius: 3px;
+  border: 25px solid transparent;
+  padding-right: 25px;
 }
 
 .staff-template .simple-tabs__content p {
