@@ -3831,7 +3831,7 @@ header.communications:before {
   padding-bottom: 10px;
 }
 
-.staff-template  .simple-tabs__content .long-list ol li {
+.staff-template  .simple-tabs__content .long-list ul ul li {
   border:0;
   margin:0;
   padding:0;
