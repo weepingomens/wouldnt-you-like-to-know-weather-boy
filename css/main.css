@@ -3512,6 +3512,17 @@ header.communications:before {
   padding: 50px;
 }
 
+.post-row .post-container h1 {
+  margin:0;
+  padding:0;
+  font:800 70px/100% 'Playfair Display',serif;
+  text-transform:uppercase;
+  letter-spacing: 0.33em;
+  display:flex;
+  justify-content:center;
+  color:rgba(255,255,255,5%);
+}
+
 .post-row .user-footer {
   grid-area: post-row-user-footer;
 }
@@ -3700,6 +3711,15 @@ header.communications:before {
 .staff-template .simple-tabs__list {
   background:transparent;
   padding:0;
+}
+
+.staff-template .simple-tabs__content {
+  padding: 25px;
+  background:rgba(255, 255, 255, 2%);
+}
+
+.staff-template .simple-tabs__content p {
+  margin:0;
 }
 /* END SITE STORE TEMPLATE */
 
