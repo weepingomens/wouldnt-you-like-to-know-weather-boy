@@ -3718,7 +3718,7 @@ header.communications:before {
 
 .staff-template.simple-tabs {
   display: flex;
-  flex-direction: row;
+  flex-direction: row-reverse;
 }
 
 .staff-template .simple-tabs__list {
@@ -3728,7 +3728,7 @@ header.communications:before {
   position: sticky;
   top: 100px;
   align-self: flex-start;
-  text-align: right;
+  text-align: left;
 }
 
 .staff-template .simple-tabs__list-item > span {
