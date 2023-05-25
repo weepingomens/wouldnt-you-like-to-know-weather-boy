@@ -3356,7 +3356,7 @@ header.communications:before {
   transition: .25s;
 }
 
-.post-row .user-quote {
+.user-quote {
   font: italic 700 24px "playfair display", serif;
   text-transform: lowercase;
   color: #aaa;
