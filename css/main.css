@@ -3736,6 +3736,10 @@ header.communications:before {
   transition:.25s;
 }
 
+.staff-template.grimoire .simple-tabs__list-item > span {
+  font: italic 800 18px/100% 'Playfair Display',serif;
+}
+
 .staff-template .simple-tabs__list-item > span:hover,
 .staff-template .simple-tabs__list-item:focus > span,
 .staff-template .simple-tabs__list-item--active > span  {
