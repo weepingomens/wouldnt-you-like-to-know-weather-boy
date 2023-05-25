@@ -748,6 +748,34 @@ textarea {
   color:var(--custom);
 }
 
+.code-top {
+  text-align:center;
+}
+
+.code-title {
+  font: 700 24px/100% 'playfair display',serif;
+  text-transform: lowercase;
+  color: var(--main-accent);
+}
+.code-highlight {
+  font: 600 0.7rem/100% 'open sans',sans-serif;
+    text-transform: uppercase;
+    color: #aaa;
+}
+
+.code-highlight:hover {
+  cursor:crosshair;
+}
+
+.staff-template .code-title {
+  color: var(--main-accent);
+}
+
+.code-scroll {
+  padding: 25px;
+  background: rgba(255,255,255,3%);
+  font-size: .9rem;
+}
 /* END JCINK STYLING */
 
 body {
