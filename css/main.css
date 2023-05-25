@@ -3731,7 +3731,7 @@ header.communications:before {
 
 .staff-template b,
 .staff-template strong {
-  color:var(--custom);
+  color:var(--main-accent);
 }
 
 .staff-template h2 {
