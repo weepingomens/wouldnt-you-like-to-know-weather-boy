@@ -3368,7 +3368,7 @@ header.communications:before {
   text-transform: uppercase;
 }
 
-.post-row .user-details {
+.user-details {
   position: relative;
   margin: 0;
   padding: 0;
@@ -3388,7 +3388,7 @@ header.communications:before {
 
 
 
-.post-row .user-details em {
+.user-details em {
   font-style: normal;
   font-weight: 700;
   background: var(--custom);
@@ -3399,8 +3399,8 @@ header.communications:before {
   display: inline-block;
 }
 
-.post-row .user-details div strike,
-.post-row .user-details div s {
+.user-details div strike,
+.user-details div s {
   color: #555;
 }
 
