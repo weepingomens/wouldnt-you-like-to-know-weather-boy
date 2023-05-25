@@ -3909,6 +3909,12 @@ a.user-small-info:hover:before {
     opacity: 7%;
     filter: grayscale(1);
 }
+
+#main-profile section.basics {
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
 /* END MAIN PROFILE */
 /*
 #omens-main .omens-category {
