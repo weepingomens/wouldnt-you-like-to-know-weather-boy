@@ -3923,6 +3923,7 @@ a.user-small-info:hover:before {
   padding:10px;
   border:2px solid rgba(255, 255, 255, 3%);
   border-width:0 0 0 2px;
+  flex-shrink:0;
 }
 
 #main-profile section.basics .hover img {
