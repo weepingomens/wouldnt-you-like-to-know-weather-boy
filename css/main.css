@@ -3911,9 +3911,23 @@ a.user-small-info:hover:before {
 }
 
 #main-profile section.basics {
-  display:flex;
-  align-items:center;
-  justify-content:center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#main-profile section.basics .hover {
+  width: 200px;
+  height: 400px;
+  background-size: contain;
+  padding:10px;
+  border:2px solid rgba(255, 255, 255, 3%);
+  border-width:0 2px 2px 2px;
+}
+
+#main-profile section.basics .hover img {
+  width:100%;
+  height:100%;
 }
 /* END MAIN PROFILE */
 /*
