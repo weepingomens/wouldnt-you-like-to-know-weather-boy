@@ -3942,6 +3942,25 @@ a.user-small-info:hover:before {
 #main-profile .user-details {
   margin:0 50px;
 }
+
+.post-row .ooc,
+#main-profile .ooc {
+	display:none;
+}
+
+.post-row.group-6 .ic,
+.post-row.group-10 .ic,
+#main-profile.group-6 .ic,
+#main-profile.group-10 .ic {
+	display:none;
+}
+
+.post-row.group-6 .ooc,
+.post-row.group-10 .ooc
+#main-profile.group-6 .ooc,
+#main-profile.group-10 .ooc {
+	display:initial;
+}
 /* END MAIN PROFILE */
 /*
 #omens-main .omens-category {
