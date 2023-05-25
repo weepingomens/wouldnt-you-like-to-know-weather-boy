@@ -744,6 +744,10 @@ textarea {
   gap: 5px;
 }
 
+#post-preview b {
+  color:var(--custom);
+}
+
 /* END JCINK STYLING */
 
 body {
