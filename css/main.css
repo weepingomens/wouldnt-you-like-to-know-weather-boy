@@ -776,6 +776,10 @@ textarea {
   background: rgba(255,255,255,3%);
   font-size: .9rem;
 }
+
+#CODE-WRAP {
+  padding:25px 0;
+}
 /* END JCINK STYLING */
 
 body {
