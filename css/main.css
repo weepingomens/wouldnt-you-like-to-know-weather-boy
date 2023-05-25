@@ -3742,6 +3742,7 @@ header.communications:before {
 
 .staff-template.grimoire .simple-tabs__content {
   max-height: calc(100vh - 300px);
+  min-height:400px;
     overflow: auto;
 }
 
