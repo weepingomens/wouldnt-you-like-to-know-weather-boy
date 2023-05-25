@@ -782,6 +782,10 @@ textarea {
 #CODE-WRAP {
   padding:25px 0;
 }
+
+.cp {
+  font-family: 'cappuccicons'!important;
+}
 /* END JCINK STYLING */
 
 body {
@@ -3969,6 +3973,17 @@ a.user-small-info:hover:before {
 #main-profile .user-quote {
   margin:0 50px;
   color:#ccc;
+}
+
+#main-profile .font-icon {
+  position: absolute;
+  pointer-events: none;
+}
+
+#main-profile .font-icon:before {
+  pointer-events: none;
+  font-size: 500px;
+  color: rgba(255, 255, 255, 2%);
 }
 /* END MAIN PROFILE */
 /*
