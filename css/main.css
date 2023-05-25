@@ -3742,7 +3742,7 @@ header.communications:before {
   font: italic 800 18px/100% 'Playfair Display',serif;
 }
 
-.staff-template .simple-tabs__content {
+.staff-template.grimoire .simple-tabs__content {
   max-height: calc(100vh - 300px);
   min-height:400px;
     overflow: auto;
