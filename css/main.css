@@ -3716,6 +3716,8 @@ header.communications:before {
 .staff-template .simple-tabs__content {
   padding: 25px;
   background:rgba(255, 255, 255, 2%);
+  text-align:justify;
+  border-radius:3px;
 }
 
 .staff-template .simple-tabs__content p {
