@@ -3993,7 +3993,12 @@ a.user-small-info:hover:before {
 #main-profile .threat-level {
   position: relative;
   bottom: 0;
-  margin-top: 25px;
+  margin-bottom: 10px;
+}
+
+#main-profile .threat-level:after {
+  width:100%;
+  text-align:center;
 }
 
 #main-profile section.content {
