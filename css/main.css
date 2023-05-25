@@ -3869,6 +3869,8 @@ a.user-small-info:hover:before {
   position: relative;
 }
 
+/* START MAIN PROFILE HEADER */
+
 #main-profile section.header {
   width: calc(100% - 50px);
   height: 175px;
@@ -3915,6 +3917,9 @@ a.user-small-info:hover:before {
   opacity: 7%;
   filter: grayscale(1);
 }
+
+/* END MAIN PROFILE HEADER */
+/* START MAIN PROFILE BASICS */
 
 #main-profile section.basics {
   display: flex;
@@ -4001,12 +4006,16 @@ a.user-small-info:hover:before {
   text-align:center;
 }
 
+/* END MAIN PROFILE BASICS */
+/* START MAIN PROFILE CONTENT */
+
 #main-profile section.content {
   border: 2px solid rgba(255, 255, 255, 3%);
   border-width:0 2px 2px;
   padding:25px;
 }
 
+/* END MAIN PROFILE CONTENT */
 /* END MAIN PROFILE */
 /*
 #omens-main .omens-category {
