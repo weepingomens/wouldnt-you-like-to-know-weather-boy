@@ -29,6 +29,7 @@ html {
 
 ::-moz-selection {
   background: var(--main-accent);
+  color:#111;
   text-shadow: none;
 }
 
