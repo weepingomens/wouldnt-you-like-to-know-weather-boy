@@ -32,6 +32,10 @@
   --group: var(--staff);
 }
 
+a.mgroup-6 {
+  color:var(--staff);
+}
+
 .group-icon-6:before {
   font-family: "game-icons";
   content: "\E15A";
@@ -40,6 +44,10 @@
 .group-member,
 .group-10 {
   --group: var(--member);
+}
+
+a.mgroup-10 {
+  color:var(--member);
 }
 
 .group-icon-10:before {
@@ -52,6 +60,10 @@
   --group: var(--vampire);
 }
 
+a.mgroup-9 {
+  color:var(--vampire);
+}
+
 .group-icon-9:before {
   font-family: "game-icons";
   content: "\E0E2";
@@ -60,6 +72,10 @@
 .group-werewolf,
 .group-14 {
   --group: var(--werewolf);
+}
+
+a.mgroup-14 {
+  color:var(--werewolf);
 }
 
 .group-icon-14:before {
@@ -72,6 +88,10 @@
   --group: var(--witch);
 }
 
+a.mgroup-8 {
+  color:var(--witch);
+}
+
 .group-icon-8:before {
   font-family: "game-icons";
   content: "\E08E";
@@ -80,6 +100,10 @@
 .group-human,
 .group-7 {
   --group: var(--human);
+}
+
+a.mgroup-7 {
+  color:var(--human);
 }
 
 .group-icon-7:before {
@@ -92,6 +116,10 @@
   --group: var(--pending);
 }
 
+a.mgroup-3 {
+  color:var(--pending);
+}
+
 .group-icon-3:before {
   font-family: "game-icons";
   content: "\E75A";
@@ -102,6 +130,10 @@
   --group: var(--npc);
 }
 
+a.mgroup-20 {
+  color:var(--npc);
+}
+
 .group-icon-20:before {
   font-family: "game-icons";
   content: "\E157";
@@ -110,6 +142,10 @@
 .group-rip,
 .group-19 {
   --group: var(--rip);
+}
+
+a.mgroup-19 {
+  color:var(--rip);
 }
 
 .group-icon-19:before {
