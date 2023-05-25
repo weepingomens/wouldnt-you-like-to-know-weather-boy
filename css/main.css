@@ -3669,12 +3669,16 @@ header.communications:before {
 
 .staff-template.simple-tabs {
   display: flex;
+  flex-direction: row-reverse;
 }
 
 .staff-template .simple-tabs__list {
   display: flex;
   flex-wrap: nowrap;
   flex-direction: column;
+  position: sticky;
+  top: 100px;
+  align-self: flex-start;
 }
 
 .staff-template .simple-tabs__list-item > span {
@@ -3692,6 +3696,11 @@ header.communications:before {
   transition:.25s;
 }
 
+.staff-template.simple-tabs,
+.staff-template .simple-tabs__list {
+  background:transparent;
+  padding:0;
+}
 /* END SITE STORE TEMPLATE */
 
 /* END ALL POST TEMPLATES */
