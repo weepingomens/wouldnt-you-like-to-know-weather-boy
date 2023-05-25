@@ -3933,6 +3933,10 @@ a.user-small-info:hover:before {
 
 #main-profile section.basics .basic-info {
   flex-grow:1;
+  display:flex;
+  flex-flow:row wrap;
+  align-items:center;
+  justify-content:center;
 }
 /* END MAIN PROFILE */
 /*
