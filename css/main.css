@@ -3860,8 +3860,8 @@ header.communications:before {
 }
 
 #main-profile section.header {
-  width:825px;
-  height:150px;
+  width: calc(100% - 50px);
+  height: 175px;
   background-color: var(--custom);
   position:relative;
   text-transform: lowercase;
@@ -3902,7 +3902,7 @@ header.communications:before {
     z-index: 0;
     top: 0;
     left: 0;
-    opacity: 25%;
+    opacity: 7%;
     filter: grayscale(1);
 }
 /* END MAIN PROFILE */
