@@ -966,7 +966,7 @@ input[type="submit"] {
   width: 50px;
   height: 50px;
   border-radius: 100%;
-  background: var(--main-gradient);
+  background: var(--main-accent);
   animation: 30s linear infinite rainbow-demo;
   overflow: hidden;
   margin-left: 10px;
