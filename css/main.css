@@ -3239,10 +3239,11 @@ header.communications:before {
   margin-top: 50px;
 }
 
+/*
 .post-row:not(.post-row ~ .post-row) .post-proper {
   border-bottom: 0;
 }
-
+ */
 .post-row .user-name {
   grid-area: post-row-user-name;
   display: flex;
