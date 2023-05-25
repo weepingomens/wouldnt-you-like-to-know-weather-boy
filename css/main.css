@@ -3732,7 +3732,7 @@ header.communications:before {
 .staff-template .simple-tabs__list-item > span {
   font:italic 800 32px/100% 'Playfair Display',serif;
   text-transform:lowercase;
-  color: rgba(var(--main-accent-rgb), .7);
+  color: rgba(var(--main-accent-rgb), .5);
   transition:.25s;
 }
 
