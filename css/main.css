@@ -3912,7 +3912,8 @@ a.user-small-info:hover:before {
 #main-profile section.basics {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content:center;
+  border:2px solid rgba(255, 255, 255, 3%);
 }
 
 #main-profile section.basics .hover {
@@ -3921,12 +3922,16 @@ a.user-small-info:hover:before {
   background-size: contain;
   padding:10px;
   border:2px solid rgba(255, 255, 255, 3%);
-  border-width:0 2px 2px 2px;
+  border-width:0 0 0 2px;
 }
 
 #main-profile section.basics .hover img {
   width:100%;
   height:100%;
+}
+
+#main-profile section.basics .basic-info {
+  flex-grow:1;
 }
 /* END MAIN PROFILE */
 /*
