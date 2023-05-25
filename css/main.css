@@ -3943,6 +3943,7 @@ a.user-small-info:hover:before {
   flex-direction: column;
   flex-wrap: nowrap;
   position:relative;
+  height:100%;
 }
 
 #main-profile .user-details {
@@ -3985,6 +3986,12 @@ a.user-small-info:hover:before {
   pointer-events: none;
   font-size: 400px;
   color: rgba(255, 255, 255, 2%);
+}
+
+#main-profile .threat-level {
+  position: relative;
+  bottom:0;
+  margin-top: 25px;
 }
 /* END MAIN PROFILE */
 /*
