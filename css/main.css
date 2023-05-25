@@ -3770,13 +3770,13 @@ header.communications:before {
   border: 2px solid rgba(255,255,255,3%);
 }
 
-.staff-template .long-list {
+.staff-template  .simple-tabs__content .long-list {
   gap: 5px;
   font: 600 0.7rem/100% 'open sans',sans-serif;
   text-transform: uppercase;
 }
 
-.staff-template .long-list li {
+.staff-template  .simple-tabs__content .long-list li {
   border-bottom: 2px solid rgba(255,255,255,6%);
   margin-bottom: 5px;
   padding-bottom: 10px;
