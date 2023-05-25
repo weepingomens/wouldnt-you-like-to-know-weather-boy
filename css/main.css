@@ -708,7 +708,8 @@ textarea {
 }
 
 #posting-form #enter-your-post textarea,
-.quick-edit textarea {
+.quick-edit textarea,
+#qr_open textarea {
   width: calc(100% - 50px);
   background: rgba(255, 255, 255, 10%);
   border: 0;
