@@ -3721,6 +3721,11 @@ header.communications:before {
 .staff-template .simple-tabs__content p {
   margin:0;
 }
+
+.staff-template b,
+.staff-template strong {
+  color:var(--custom);
+}
 /* END SITE STORE TEMPLATE */
 
 /* END ALL POST TEMPLATES */
