@@ -3730,13 +3730,13 @@ header.communications:before {
 .staff-template h2 {
   margin: 0;
   text-align: center;
-  font: 800 48px/100% 'Playfair Display',serif;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-  color: rgba(255,255,255,5%);
+  font: italic 800 48px/100% 'Playfair Display',serif;
+  letter-spacing: -0.05em;
+  color: #eee;
   border-bottom: 2px solid rgba(255,255,255,5%);
   margin-bottom: 10px;
   padding-bottom: 10px;
+  text-transform: lowercase;
 }
 /* END SITE STORE TEMPLATE */
 
