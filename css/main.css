@@ -3996,6 +3996,12 @@ a.user-small-info:hover:before {
   margin-top: 25px;
 }
 
+#main-profile section.content {
+  border: 2px solid rgba(255, 255, 255, 3%);
+  border-width:0 2px 2px;
+  padding:25px;
+}
+
 /* END MAIN PROFILE */
 /*
 #omens-main .omens-category {
