@@ -13,14 +13,14 @@ function hexToRgb(hex) {
 }
 
 /* jcink will let us pull this in global variables so we'll deal with that later */
-let mainAccent = "#df6885";
+/* let mainAccent = "#df6885";
 
 var mainAccentR = hexToRgb(mainAccent).r.toString();
 document.querySelector(":root").style.setProperty('--mainAccentR', mainAccentR);
 var mainAccentG = hexToRgb(mainAccent).g.toString();
 document.querySelector(":root").style.setProperty('--mainAccentG', mainAccentG);
 var mainAccentB = hexToRgb(mainAccent).b.toString();
-document.querySelector(":root").style.setProperty('--mainAccentB', mainAccentB);
+document.querySelector(":root").style.setProperty('--mainAccentB', mainAccentB); */
 
 /*
 FOR THE LOVE OF GOD, REDO THIS SCRIPTING
