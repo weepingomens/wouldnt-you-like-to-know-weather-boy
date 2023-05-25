@@ -3765,6 +3765,18 @@ header.communications:before {
   padding: 25px;
   border: 2px solid rgba(255,255,255,3%);
 }
+
+.staff-template .long-list {
+  gap: 5px;
+  font: 600 0.7rem/100% 'open sans',sans-serif;
+  text-transform: uppercase;
+}
+
+.staff-template .long-list li {
+  border-bottom: 2px solid rgba(255,255,255,6%);
+  margin-bottom: 5px;
+  padding-bottom: 10px;
+}
 /* END SITE STORE TEMPLATE */
 
 /* END ALL POST TEMPLATES */
