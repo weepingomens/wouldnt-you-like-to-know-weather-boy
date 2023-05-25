@@ -3923,13 +3923,18 @@ a.user-small-info:hover:before {
 /* START MAIN PROFILE BASICS */
 
 #main-profile section.basics {
-  display: flex;
+  display: grid;
+  grid: min-content min-content / auto min-content;
+  grid-template-areas:
+      "mp-basics-info mp-basics-hover"
+      "mp-basics-info mp-basics-ship";
   align-items: center;
   justify-content: center;
   border: 2px solid rgba(255, 255, 255, 3%);
 }
 
 #main-profile section.basics .hover {
+  grid-area:mp-basics-hover;
   width: 200px;
   height: 400px;
   background-size: contain;
@@ -3945,6 +3950,7 @@ a.user-small-info:hover:before {
 }
 
 #main-profile section.basics .basic-info {
+  grid-area:mp-basics-info;
   flex-grow: 1;
   display: flex;
   align-items: center;
@@ -4005,6 +4011,10 @@ a.user-small-info:hover:before {
 #main-profile .threat-level:after {
   width:100%;
   text-align:center;
+}
+
+#main-profile .relationship {
+  grid-area:mp-basics-ship;
 }
 
 /* END MAIN PROFILE BASICS */
