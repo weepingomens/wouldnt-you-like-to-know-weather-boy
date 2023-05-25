@@ -3770,7 +3770,7 @@ header.communications:before {
   border: 2px solid rgba(255,255,255,3%);
 }
 
-.staff-template  .simple-tabs__content .long-list {
+.staff-template  .simple-tabs__content ul.long-list {
   gap: 5px;
   font: 600 0.7rem/100% 'open sans',sans-serif;
   text-transform: uppercase;
