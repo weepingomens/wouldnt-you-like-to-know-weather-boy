@@ -3942,6 +3942,7 @@ a.user-small-info:hover:before {
   justify-content: center;
   flex-direction: column;
   flex-wrap: nowrap;
+  position:relative;
 }
 
 #main-profile .user-details {
