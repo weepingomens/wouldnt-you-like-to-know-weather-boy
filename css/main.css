@@ -3853,7 +3853,6 @@ a.user-small-info:hover:before {
 /* BEGIN MAIN PROFILE */
 #main-profile {
   display:grid;
-  gap:10px;
   --900x300: url(https://i.ibb.co/NLSdbdX/image.png);
   --200x400: url(https://i.ibb.co/w6xYy2x/image.png);
   --custom: #fd513f;
