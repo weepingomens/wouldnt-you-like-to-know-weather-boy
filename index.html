@@ -260,7 +260,24 @@
           <div id="pid_13057">
             <!-- THE POST -->
             <div class="postcolor">
-              aaaaaaaa.
+              <div class="simple-tabs">
+                <ul class="simple-tabs__list">
+                    <li class="simple-tabs__list-item simple-tabs__list-item--active">
+                        <span>Tab 1</span>
+                    </li>
+                    <li class="simple-tabs__list-item">
+                        <span>Tab 2</span>
+                    </li>
+                </ul>
+            
+                <div class="simple-tabs__content simple-tabs__content--active">
+                    <p>Tab 1 content here</p>
+                </div>
+            
+                <div class="simple-tabs__content">
+                    <p>Tab 2 content here</p>
+                </div>
+            </div>
             </div>
             <!-- THE POST -->
           </div>
@@ -352,6 +369,32 @@
     ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
   </script>
   <script src="https://www.google-analytics.com/analytics.js" async></script>
+  <script>
+    $(function() {
+        // Simple Tabs
+        (function simpleTabs() {
+            var currentTab = 0;
+    
+            function openTab(clickedTab) {
+                var $thisTab = $('.simple-tabs__list-item').index(clickedTab);
+    
+                $('.simple-tabs__list-item').removeClass('simple-tabs__list-item--active');
+                $('.simple-tabs__list-item:eq(' + $thisTab + ')').addClass('simple-tabs__list-item--active');
+                $('.simple-tabs__content').hide();
+                $('.simple-tabs__content:eq(' + $thisTab + ')').show();
+    
+                currentTab = $thisTab;
+            }
+    
+            $('.simple-tabs__list-item').click(function() { 
+                openTab($(this));
+                return false; 
+            });
+            
+            $('.simple-tabs__list-item:eq(' + currentTab + ')').click();
+        })();
+    });
+    </script>
 </body>
 
 </html>

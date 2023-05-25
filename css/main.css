@@ -3594,6 +3594,78 @@ header.communications:before {
 }
 
 /* END POST ROW */
+/* START ALL POST TEMPLATES (SCREAMS) */
+/* START SITE STORE TEMPLATE */
+
+/* ======================================================
+ * Simple Tabs
+ * ====================================================== */
+
+.simple-tabs {
+    background-color: #fff;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+
+.simple-tabs__list {
+    background-color: #f1f1f1;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.simple-tabs__list::before,
+.simple-tabs__list::after {
+    content: '';
+    display: table;
+}
+
+.simple-tabs__list::after {
+    clear: both;
+}
+
+.simple-tabs__list-item {
+    border-bottom: 1px solid transparent;
+    cursor: pointer;
+    float: left;
+}
+
+.simple-tabs__list-item > span {
+    color: #000;
+    display: block;
+    font: 14px Verdana, Arial, sans-serif;
+    padding: 8px 12px;
+    white-space: nowrap;
+}
+
+.simple-tabs__list-item:hover,
+.simple-tabs__list-item:focus,
+.simple-tabs__list-item--active {
+    border-bottom-color: #00f;
+}
+
+.simple-tabs__list-item:hover > span,
+.simple-tabs__list-item:focus > span,
+.simple-tabs__list-item--active > span {
+    color: #00f;
+}
+
+
+/* Tab Content
+ * ====================================================== */
+
+ .simple-tabs__content {
+  display: none;
+}
+
+.simple-tabs__content--active {
+  display: block;
+}
+
+/* END SITE STORE TEMPLATE */
+
+/* END ALL POST TEMPLATES */
 /*
 #omens-main .omens-category {
   display: flex;
