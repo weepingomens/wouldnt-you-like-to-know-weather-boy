@@ -3938,6 +3938,10 @@ a.user-small-info:hover:before {
   align-items:center;
   justify-content:center;
 }
+
+#main-profile .user-details {
+  margin:0 50px;
+}
 /* END MAIN PROFILE */
 /*
 #omens-main .omens-category {
