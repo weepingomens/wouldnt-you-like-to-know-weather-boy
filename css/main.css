@@ -3604,6 +3604,9 @@ a.user-small-info:hover:before {
 
 .post-row .relationship {
   grid-area: post-row-ship;
+}
+
+.relationship {
   position: relative;
   display: flex;
   align-items: center;
@@ -3616,17 +3619,17 @@ a.user-small-info:hover:before {
   gap: 10px;
 }
 
-.post-row .relationship .line-1 {
+.relationship .line-1 {
   font: italic 700 24px/100% "playfair display", serif;
   text-transform: lowercase;
 }
 
-.post-row .relationship .line-2 {
+.relationship .line-2 {
   font: 700 0.6rem/100% "open sans", sans-serif;
   text-transform: uppercase;
 }
 
-.post-row .relationship .icon {
+.relationship .icon {
   width: 50px;
   height: 50px;
   border-radius: 100%;
@@ -3637,7 +3640,7 @@ a.user-small-info:hover:before {
   border: 5px solid #1c1c1c;
 }
 
-.post-row .relationship .icon div {
+.relationship .icon div {
   width: 100%;
   height: 100%;
   background-size: cover;
