@@ -3865,11 +3865,30 @@ header.communications:before {
   background-color: var(--custom);
   position:relative;
   text-transform: lowercase;
+  display:flex;
+  flex-flow:column nowrap;
+  justify-content:center;
+  padding-left:50px;
+}
+
+#main-profile section.header h1 {
+  margin:0;
+  padding:0;
   font: italic 900 48px/100% 'playfair display', serif;
   color: #1c1c1c;
-  display:flex;
-  align-items:center;
-  padding-left:50px;
+}
+
+#main-profile section.header span {
+  font: 700 0.6rem 'open sans', sans-serif;
+  color: #1c1c1c;
+  letter-spacing: 0.2rem;
+  text-transform:uppercase;
+}
+
+#main-profile section.header h1,
+#main-profile section.header span {
+  position:relative;
+  z-index:1;
 }
 
 #main-profile section.header:after {
