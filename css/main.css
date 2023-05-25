@@ -3404,7 +3404,7 @@ header.communications:before {
   color: #555;
 }
 
-.post-row .user-small-info {
+.user-small-info {
   position: absolute;
   z-index: 1;
   width: 50px;
@@ -3417,55 +3417,55 @@ header.communications:before {
   border-radius: 100%;
 }
 
-.post-row .user-small-info:before {
+.user-small-info:before {
   font-family: "game-icons";
   font-size: 40px;
   color: rgba(255, 255, 255, 15%);
 }
 
-.post-row a.user-small-info:before {
+a.user-small-info:before {
   color: rgba(var(--main-accent-rgb), .7);
   transition: .25s;
 }
 
-.post-row a.user-small-info:hover:before {
+a.user-small-info:hover:before {
   color: rgba(var(--main-accent-rgb), 1);
   transition: .25s;
 }
 
-.post-row .user-small-info.group {
+.user-small-info.group {
   top: -28px;
   left: -28px;
 }
 
-.post-row .user-small-info.posts {
+.user-small-info.posts {
   top: -28px;
   right: -28px;
 }
 
-.post-row .user-small-info.posts:before {
+.user-small-info.posts:before {
   content: "\EB27";
   font-size: 30px;
 }
 
-.post-row .user-small-info.threads {
+.user-small-info.threads {
   bottom: -28px;
   right: -28px;
 }
 
-.post-row .user-small-info.threads:before {
+.user-small-info.threads:before {
   content: "\eb81";
   font-family: 'cappuccicons';
   font-size: 30px;
 }
 
-.post-row .user-small-info.messages {
+.user-small-info.messages {
   top: -17px;
   width: 30px;
   height: 30px;
 }
 
-.post-row .user-small-info.messages:before {
+.user-small-info.messages:before {
   content: "\ea88";
   font-family: 'cappuccicons';
   font-size: 14px;
