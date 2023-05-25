@@ -3734,6 +3734,10 @@ header.communications:before {
   color:var(--main-accent);
 }
 
+.staff-template a {
+  font-weight:600;
+}
+
 .staff-template h2 {
   margin: 0;
   text-align: center;
