@@ -3840,6 +3840,7 @@ header.communications:before {
 
 .staff-template  .simple-tabs__content ul.long-list ul {
   gap:5px;
+  margin-top: 5px;
 }
 
 .staff-template u {
