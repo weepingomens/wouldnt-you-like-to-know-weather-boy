@@ -3310,7 +3310,7 @@ header.communications:before {
   color: rgba(255, 255, 255, 2%);
 }
 
-.post-row .user-name .threat-level {
+.threat-level {
   position: absolute;
   width: calc(100% - 100px);
   bottom: 20px;
@@ -3319,7 +3319,7 @@ header.communications:before {
   margin: 0 25px;
 }
 
-.post-row .user-name .threat-level:before {
+.threat-level:before {
   content: "";
   position: absolute;
   width: 100%;
@@ -3329,7 +3329,7 @@ header.communications:before {
   border-radius: 5px;
 }
 
-.post-row .user-name .threat-level .threat-bar {
+.threat-level .threat-bar {
   height: 10px;
   background: var(--custom);
   position: relative;
@@ -3337,7 +3337,7 @@ header.communications:before {
   border-radius: 5px;
 }
 
-.post-row .user-name .threat-level:after {
+.threat-level:after {
   content: 'THREAT LEVEL';
   position: absolute;
   font: 700 64px/100% 'playfair display', serif;
