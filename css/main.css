@@ -3759,6 +3759,12 @@ header.communications:before {
   display:grid;
   gap:25px;
 }
+
+.staff-template blockquote {
+  margin: 0;
+  padding: 25px;
+  border: 2px solid rgba(255,255,255,3%);
+}
 /* END SITE STORE TEMPLATE */
 
 /* END ALL POST TEMPLATES */
