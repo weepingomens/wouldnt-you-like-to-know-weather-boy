@@ -3726,6 +3726,18 @@ header.communications:before {
 .staff-template strong {
   color:var(--custom);
 }
+
+.staff-template h2 {
+  margin: 0;
+  text-align: center;
+  font: 800 48px/100% 'Playfair Display',serif;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: rgba(255,255,255,5%);
+  border-bottom: 2px solid rgba(255,255,255,5%);
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
 /* END SITE STORE TEMPLATE */
 
 /* END ALL POST TEMPLATES */
