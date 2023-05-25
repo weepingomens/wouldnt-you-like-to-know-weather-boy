@@ -3663,6 +3663,17 @@ header.communications:before {
   display: block;
 }
 
+
+.staff-template.simple-tabs {
+  display: flex;
+}
+
+.staff-template .simple-tabs__list {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+}
+
 /* END SITE STORE TEMPLATE */
 
 /* END ALL POST TEMPLATES */

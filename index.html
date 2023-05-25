@@ -255,29 +255,51 @@
           <a href="javascript:void(0);" onclick="SKIFS.quickEdit.edit('6','1446','13057')"><span
               class="button-small">Edit</span></a> <a
             href="https://weepingomens.jcink.net/index.php?act=Post&amp;CODE=06&amp;f=6&amp;t=1446&amp;p=13057"><span
-              class="button-small">Quote</span></a> </div>
+              class="button-small">Quote</span></a>
+        </div>
         <div class="post-container">
           <div id="pid_13057">
             <!-- THE POST -->
             <div class="postcolor">
-              <div class="simple-tabs">
+              <div class="simple-tabs staff-template">
                 <ul class="simple-tabs__list">
-                    <li class="simple-tabs__list-item simple-tabs__list-item--active">
-                        <span>Tab 1</span>
-                    </li>
-                    <li class="simple-tabs__list-item">
-                        <span>Tab 2</span>
-                    </li>
+                  <li class="simple-tabs__list-item simple-tabs__list-item--active">
+                    <span>Tab 1</span>
+                  </li>
+                  <li class="simple-tabs__list-item">
+                    <span>Tab 2</span>
+                  </li>
+                  <li class="simple-tabs__list-item">
+                    <span>Tab 3</span>
+                  </li>
+                  <li class="simple-tabs__list-item">
+                    <span>Tab 4</span>
+                  </li>
+                  <li class="simple-tabs__list-item">
+                    <span>Tab 5</span>
+                  </li>
                 </ul>
-            
+
                 <div class="simple-tabs__content simple-tabs__content--active">
-                    <p>Tab 1 content here</p>
+                  <p>Tab 1 content here</p>
                 </div>
-            
+
                 <div class="simple-tabs__content">
-                    <p>Tab 2 content here</p>
+                  <p>Tab 2 content here</p>
                 </div>
-            </div>
+
+                <div class="simple-tabs__content">
+                  <p>Tab 3 content here</p>
+                </div>
+
+                <div class="simple-tabs__content">
+                  <p>Tab 4 content here</p>
+                </div>
+
+                <div class="simple-tabs__content">
+                  <p>Tab 5 content here</p>
+                </div>
+              </div>
             </div>
             <!-- THE POST -->
           </div>
@@ -370,31 +392,31 @@
   </script>
   <script src="https://www.google-analytics.com/analytics.js" async></script>
   <script>
-    $(function() {
-        // Simple Tabs
-        (function simpleTabs() {
-            var currentTab = 0;
-    
-            function openTab(clickedTab) {
-                var $thisTab = $('.simple-tabs__list-item').index(clickedTab);
-    
-                $('.simple-tabs__list-item').removeClass('simple-tabs__list-item--active');
-                $('.simple-tabs__list-item:eq(' + $thisTab + ')').addClass('simple-tabs__list-item--active');
-                $('.simple-tabs__content').hide();
-                $('.simple-tabs__content:eq(' + $thisTab + ')').show();
-    
-                currentTab = $thisTab;
-            }
-    
-            $('.simple-tabs__list-item').click(function() { 
-                openTab($(this));
-                return false; 
-            });
-            
-            $('.simple-tabs__list-item:eq(' + currentTab + ')').click();
-        })();
+    $(function () {
+      // Simple Tabs
+      (function simpleTabs() {
+        var currentTab = 0;
+
+        function openTab(clickedTab) {
+          var $thisTab = $('.simple-tabs__list-item').index(clickedTab);
+
+          $('.simple-tabs__list-item').removeClass('simple-tabs__list-item--active');
+          $('.simple-tabs__list-item:eq(' + $thisTab + ')').addClass('simple-tabs__list-item--active');
+          $('.simple-tabs__content').hide();
+          $('.simple-tabs__content:eq(' + $thisTab + ')').show();
+
+          currentTab = $thisTab;
+        }
+
+        $('.simple-tabs__list-item').click(function () {
+          openTab($(this));
+          return false;
+        });
+
+        $('.simple-tabs__list-item:eq(' + currentTab + ')').click();
+      })();
     });
-    </script>
+  </script>
 </body>
 
 </html>
