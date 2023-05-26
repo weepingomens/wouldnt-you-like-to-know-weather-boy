@@ -4462,6 +4462,8 @@ a.user-small-info:hover:before {
   background:var(--custom);
   height:50px;
   position:relative;
+  display:grid;
+  align-items:center;
 }
 
 #main-profile section.ooc-info:after {
@@ -4478,6 +4480,17 @@ a.user-small-info:hover:before {
   opacity: 75%;
   background-position: bottom;
   mix-blend-mode: exclusion;
+}
+
+#main-profile section.ooc-info ul {
+  margin:0;
+  padding:0;
+  list-style-type:none;
+  display:flex;
+  flex-flow:row wrap;
+  gap:10px;
+  position:relative;
+  z-index:1;
 }
 
 /* END MAIN PROFILE OOC */
