@@ -4149,7 +4149,8 @@ a.user-small-info:hover:before {
   text-decoration-color: var(--custom);
 }
 
-#main-profile section.content strike {
+#main-profile section.content strike,
+#main-profile section.content s {
   color:#444;
 }
 
