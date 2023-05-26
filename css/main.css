@@ -4406,7 +4406,7 @@ a.user-small-info:hover:before {
 
 #main-profile section.content .simple-tabs__content ul li:before {
   content:'# ';
-  color:#555;
+  color:rgba(255,255,255,25%);
 }
 /* END MAIN PROFILE CONTENT */
 /* END MAIN PROFILE */
