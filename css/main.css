@@ -4477,9 +4477,9 @@ a.user-small-info:hover:before {
   z-index: 0;
   top: 0;
   left: 0;
-  opacity: 75%;
+  opacity: 7%;
   background-position: bottom;
-  mix-blend-mode: exclusion;
+  filter:grayscale(1);
 }
 
 #main-profile section.ooc-info ul {
@@ -4491,6 +4491,7 @@ a.user-small-info:hover:before {
   gap:10px;
   position:relative;
   z-index:1;
+  justify-content: space-evenly;
 }
 
 #main-profile section.ooc-info li {
