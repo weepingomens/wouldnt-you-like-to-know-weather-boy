@@ -4657,6 +4657,7 @@ a.user-small-info:hover:before {
   gap: 10px;
   height: 275px;
   overflow: auto;
+  align-content: start;
 }
 
 #main-profile #historywrap {
@@ -4699,6 +4700,11 @@ a.user-small-info:hover:before {
 
 #main-profile #historywrap .tracker-item {
   margin:0;
+}
+
+#main-profile #fizztrackercredits {
+  text-align:right;
+  text-transform:uppercase;
 }
 
 /* END MAIN PROFILE TRACKER */
