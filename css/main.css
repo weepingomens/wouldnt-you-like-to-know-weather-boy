@@ -4078,6 +4078,14 @@ a.user-small-info:hover:before {
   width:70ch;
 }
 
+#main-profile section.content .header {
+  display: block;
+    font: 800 70px/100% 'Playfair Display', serif;
+    text-transform: uppercase;
+    letter-spacing: .33em;
+    color: rgba(255,255,255,5%);
+    margin-bottom: 25px;
+}
 /* END MAIN PROFILE CONTENT */
 /* END MAIN PROFILE */
 /*
