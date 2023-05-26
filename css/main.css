@@ -4135,6 +4135,10 @@ a.user-small-info:hover:before {
   line-height:1.6rem;
 }
 
+#main-profile section.content i {
+  color:#777;
+}
+
 /* END MAIN PROFILE CONTENT */
 /* END MAIN PROFILE */
 /*
