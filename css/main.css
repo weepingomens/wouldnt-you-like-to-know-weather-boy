@@ -3981,12 +3981,19 @@ a.user-small-info:hover:before {
 .post-row.group-6 .ic,
 .post-row.group-10 .ic,
 #main-profile.group-6 .ic,
-#main-profile.group-10 .ic {
+#main-profile.group-6 section.content,
+#main-profile.group-6 .threat-level,
+#main-profile.group-6 section.ooc-info ul,
+#main-profile.group-10 .ic,
+#main-profile.group-10 section.content,
+#main-profile.group-10 .threat-level,
+#main-profile.group-10 section.ooc-info ul {
   display: none;
 }
 
 .post-row.group-6 .ooc,
-.post-row.group-10 .ooc #main-profile.group-6 .ooc,
+.post-row.group-10 .ooc,
+#main-profile.group-6 .ooc,
 #main-profile.group-10 .ooc {
   display: initial;
 }
