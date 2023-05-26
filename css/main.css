@@ -792,7 +792,7 @@ textarea {
 /* END JCINK STYLING */
 
 body {
-  background: url(https://i.ibb.co/p0fSzvL/image.png);
+  background: url(../src/img/background.png);
   color: #ccc;
   margin: 0;
   background-attachment: fixed;
