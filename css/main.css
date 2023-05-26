@@ -4460,10 +4460,10 @@ a.user-small-info:hover:before {
 
 #main-profile section.ooc-info {
   background:var(--custom);
-  height:50px;
   position:relative;
   display:grid;
   align-items:center;
+  padding:25px;
 }
 
 #main-profile section.ooc-info:after {
@@ -4491,6 +4491,13 @@ a.user-small-info:hover:before {
   gap:10px;
   position:relative;
   z-index:1;
+}
+
+#main-profile section.ooc-info li {
+  font: 700 0.6rem 'open sans', sans-serif;
+  color: #1c1c1c;
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
 }
 
 /* END MAIN PROFILE OOC */
