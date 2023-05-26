@@ -22,6 +22,24 @@ document.querySelector(":root").style.setProperty('--mainAccentG', mainAccentG);
 var mainAccentB = hexToRgb(mainAccent).b.toString();
 document.querySelector(":root").style.setProperty('--mainAccentB', mainAccentB); */
 
+
+// censor stuff
+let mainProfileCensorToggle = document.querySelector('cw-toggle');
+let mainProfileCensor = document.querySelectorAll('censor');
+document.querySelectorAll('censor').forEach(x=>x.classList.add('omenscensorshowcontent'));
+document.querySelectorAll('cw-toggle').forEach(x=>x.classList.add('omensbuttonhidecontent'));
+
+function censorToggle(cwButtonElement, censorElement) {
+	cwButtonElement.toggle('omensbuttonshowcontent');
+	censorElement.forEach(x=>x.classList.toggle('omensbuttonhidecontent'));
+};
+$(function(){
+  $('cw-toggle').click(function() {
+$(this).toggleClass('omensbuttonhidecontent omensbuttonshowcontent');
+$('censor').toggleClass('omenscensorshowcontent omenscensorhidecontent');
+  }); 
+});
+
 /*
 FOR THE LOVE OF GOD, REDO THIS SCRIPTING
 */
