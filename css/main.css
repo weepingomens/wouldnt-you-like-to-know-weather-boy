@@ -4049,6 +4049,7 @@ a.user-small-info:hover:before {
     font:700 .7rem/100% 'open sans',sans-serif;
     text-transform:uppercase;
     border-radius:100%;
+    color:#eee;
 }
 
 #main-profile .simple-tabs__list {
@@ -4062,7 +4063,7 @@ a.user-small-info:hover:before {
 #main-profile .simple-tabs__list-item:focus>span,
 #main-profile .simple-tabs__list-item--active>span {
   cursor: crosshair;
-  border-color: var(--custom);
+  border-color: rgba(var(--main-accent-rgb), .5);
   transition: .25s;
 }
 
