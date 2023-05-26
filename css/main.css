@@ -4128,6 +4128,13 @@ a.user-small-info:hover:before {
     color: var(--custom);
 }
 
+#main-profile section.content b {
+  color:var(--custom);
+  font-weight:700;
+  font-size:1.1rem;
+  line-height:1.6rem;
+}
+
 /* END MAIN PROFILE CONTENT */
 /* END MAIN PROFILE */
 /*
