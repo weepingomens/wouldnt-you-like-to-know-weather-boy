@@ -4096,10 +4096,6 @@ a.user-small-info:hover:before {
   margin-bottom: 25px;
 }
 
-#main-profile section.content div {
-  max-height:100vh;
-}
-
 #main-profile section.content h1 {
   font: italic 900 48px 'playfair display', serif;
   text-transform: lowercase;
