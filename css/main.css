@@ -4157,6 +4157,12 @@ a.user-small-info:hover:before {
   font-weight:500;
 }
 
+#main-profile section.content blockquote {
+  margin:25px 0;
+  padding:25px;
+  border:2px solid rgba(255,255,255,3%);
+}
+
 /* END MAIN PROFILE CONTENT */
 /* END MAIN PROFILE */
 /*
