@@ -4167,13 +4167,10 @@ a.user-small-info:hover:before {
 #main-profile section.content cw,
 #main-profile section.content cw-toggle {
   display: grid;
-  justify-items: center;
   font-size: .75rem;
-  width: 75%;
   font-weight: 500;
-  margin:auto;
-  pointer-events:none;
-  color:rgba(255,255,255,33%);
+  pointer-events: none;
+  color: rgba(255,255,255,33%);
 }
 
 #main-profile section.content cw:before,
