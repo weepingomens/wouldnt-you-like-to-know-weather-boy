@@ -4031,7 +4031,7 @@ a.user-small-info:hover:before {
   border-width:0 2px 2px;
   padding:25px;
   width:calc(100% - 50px);
-  height: calc(100vh - 230px);
+/*  height: calc(100vh - 230px); */
 }
 
 #main-profile .simple-tabs {
@@ -4061,6 +4061,9 @@ a.user-small-info:hover:before {
   flex-direction: column;
   flex-grow: 1;
   align-items: center;
+  position: sticky;
+  top: 105px;
+  align-self: flex-start;
 }
 
 #main-profile .simple-tabs__list-item>span:hover,
