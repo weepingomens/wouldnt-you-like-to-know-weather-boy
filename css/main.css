@@ -4261,6 +4261,7 @@ a.user-small-info:hover:before {
 #main-profile section.content vampire h1,
 #main-profile section.content hunter h1 {
   display:grid;
+  line-height:100%;
 }
 
 #main-profile section.content acedia h1:after,
