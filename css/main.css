@@ -4037,7 +4037,7 @@ a.user-small-info:hover:before {
 
 #main-profile section.content {
   border: 2px solid rgba(255, 255, 255, 3%);
-  border-width: 0 2px 2px;
+  border-width: 0 0 2px;
   padding: 25px;
   width: calc(100% - 54px);
   /*  height: calc(100vh - 230px); */
