@@ -4171,7 +4171,8 @@ a.user-small-info:hover:before {
 #main-profile section.content ira,
 #main-profile section.content luxuria,
 #main-profile section.content superbia,
-#main-profile section.content werewolf {
+#main-profile section.content werewolf,
+#main-profile section.content vampire {
   position: relative;
   display: flex;
   flex-flow: column nowrap;
@@ -4211,7 +4212,8 @@ a.user-small-info:hover:before {
 #main-profile section.content ira h1,
 #main-profile section.content luxuria h1,
 #main-profile section.content superbia h1,
-#main-profile section.content werewolf h1 {
+#main-profile section.content werewolf h1,
+#main-profile section.content vampire h1 {
   display:grid;
 }
 
@@ -4295,7 +4297,8 @@ a.user-small-info:hover:before {
   background-image: url(https://files.jcink.net/uploads2/selkieskintest/pridesvg.svg);
 }
 
-#main-profile section.content werewolf:after {
+#main-profile section.content werewolf:after,
+#main-profile section.content vampire:after {
   position: absolute;
   width: 300px;
   height: 300px;
@@ -4340,9 +4343,30 @@ a.user-small-info:hover:before {
   content: " build while transformed";
 }
 
+#main-profile section.content vampire h2:before {
+  content: "of ";
+}
+
+#main-profile section.content vampire h2:after {
+  content: "'s bloodline";
+}
+
+#main-profile section.content vampire h3:before {
+  content: 'turned ';
+}
+
+#main-profile section.content vampire h3:after {
+  content: ' ago';
+}
+
 #main-profile section.content werewolf:after {
   font-family: "game-icons";
   content: "\E3F9";
+}
+
+#main-profile section.content vampire:after {
+  font-family: "game-icons";
+  content: "\E0E2";
 }
 /* END MAIN PROFILE CONTENT */
 /* END MAIN PROFILE */
