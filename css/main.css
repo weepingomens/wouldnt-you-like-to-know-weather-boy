@@ -4420,6 +4420,9 @@ a.user-small-info:hover:before {
   background: rgba(var(--main-accent-rgb), 1);
   color: #1c1c1c;
   padding: 5px;
+  font: 700 0.8rem 'open sans', sans-serif;
+  text-transform:uppercase;
+  border-radius:3px;
 }
 /* END MAIN PROFILE CONTENT */
 /* END MAIN PROFILE */
