@@ -4577,7 +4577,7 @@ a.user-small-info:hover:before {
 /* END MAIN PROFILE OOC */
 /* START MAIN PROFILE TRACKER */
 
-#main-profile .simple-tabs__content.archive {
+#main-profile .archive-grid {
   display:grid;
   grid-template-areas:"mp-tracker-active mp-tracker-active"
   "mp-tracker-comms mp-tracker-au"
