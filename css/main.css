@@ -4067,6 +4067,10 @@ a.user-small-info:hover:before {
   transition: .25s;
 }
 
+#main-profile .simple-tabs__content {
+  width:70ch;
+}
+
 /* END MAIN PROFILE CONTENT */
 /* END MAIN PROFILE */
 /*
