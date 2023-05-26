@@ -4163,7 +4163,7 @@ a.user-small-info:hover:before {
   border:2px solid rgba(255,255,255,3%);
 }
 
-
+#main-profile section.content acedia,
 #main-profile section.content superbia {
   position: relative;
   display: flex;
@@ -4177,6 +4177,7 @@ a.user-small-info:hover:before {
   shape-outside: circle(60%);
 }
 
+#main-profile section.content acedia:after,
 #main-profile section.content superbia:after {
   content: "";
   position: absolute;
@@ -4191,10 +4192,12 @@ a.user-small-info:hover:before {
   pointer-events:none;
 }
 
+#main-profile section.content acedia h1,
 #main-profile section.content superbia h1 {
   display:grid;
 }
 
+#main-profile section.content acedia h1:after,
 #main-profile section.content superbia h1:after {
   margin:10px 0 5px;
   font: 700 0.6rem 'open sans', sans-serif;
@@ -4203,8 +4206,13 @@ a.user-small-info:hover:before {
   text-transform: uppercase;
 }
 
+#main-profile section.content acedia h2,
 #main-profile section.content superbia h2 {
   color: rgba(255,255,255,66%);
+}
+
+#main-profile section.content acedia h1:after {
+  content: "granted by belphegor, prince of sloth";
 }
 
 #main-profile section.content superbia h1:after {
@@ -4213,6 +4221,10 @@ a.user-small-info:hover:before {
 
 #main-profile section.content superbia:after {
   background-image: url(https://files.jcink.net/uploads2/selkieskintest/pridesvg.svg);
+}
+
+#main-profile section.content acedia:after {
+  background-image: url(https://files.jcink.net/uploads2/selkieskintest/slothsvg.svg);
 }
 /* END MAIN PROFILE CONTENT */
 /* END MAIN PROFILE */
