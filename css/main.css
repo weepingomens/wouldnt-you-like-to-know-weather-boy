@@ -4655,7 +4655,7 @@ a.user-small-info:hover:before {
 #main-profile #altwrap {
   display: grid;
   gap: 10px;
-  height: 275px;
+  max-height: 275px;
   overflow: auto;
   align-content: start;
 }
