@@ -4164,22 +4164,25 @@ a.user-small-info:hover:before {
   border:2px solid rgba(255,255,255,3%);
 }
 
+#main-profile section.content cw,
 #main-profile section.content cw-toggle {
   display: grid;
   justify-items: center;
   text-align: center;
-  font-size: .9rem;
+  font-size: .75rem;
   width: 75%;
   font-weight: 500;
   margin:auto;
   pointer-events:none;
+  color:rgba(255,255,255,33%);
 }
 
+#main-profile section.content cw:before,
 #main-profile section.content cw-toggle:before {
   content: "this biography contains";
   font: 800 24px/100% 'Playfair Display', serif;
   text-transform:uppercase;
-  color: rgba(255,255,255,33%);
+  color: rgba(255,255,255,50%);
 }
 
 #main-profile section.content cw-toggle:after {
