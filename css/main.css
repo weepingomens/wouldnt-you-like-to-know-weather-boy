@@ -4089,7 +4089,7 @@ a.user-small-info:hover:before {
 }
 
 #main-profile section.content h1 {
-  font: italic 900 48px/100% 'playfair display', serif;
+  font: italic 900 48px 'playfair display', serif;
   text-transform:lowercase;
   color:var(--custom);
   margin:0;
