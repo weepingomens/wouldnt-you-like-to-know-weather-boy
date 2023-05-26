@@ -4163,6 +4163,57 @@ a.user-small-info:hover:before {
   border:2px solid rgba(255,255,255,3%);
 }
 
+
+#main-profile section.content superbia {
+  position: relative;
+  display: flex;
+  flex-flow: column nowrap;
+  place-items: center;
+  place-content: center;
+  text-align: center;
+  height: 300px;
+  width: 50%;
+  float: right;
+  shape-outside: circle(60%);
+}
+
+#main-profile section.content superbia:after {
+  content: "";
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+  opacity: 5%;
+  transform: rotate(10deg);
+  z-index: 0;
+  filter: invert(1);
+  pointer-events:none;
+}
+
+#main-profile section.content superbia h1 {
+  display:grid;
+}
+
+#main-profile section.content superbia h1:after {
+  margin:10px 0 5px;
+  font: 700 0.6rem 'open sans', sans-serif;
+  color: rgba(255,255,255,33%);
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+}
+
+#main-profile section.content superbia h2 {
+  color: rgba(255,255,255,66%);
+}
+
+#main-profile section.content superbia h1:after {
+  content: "granted by lucifer, prince of pride";
+}
+
+#main-profile section.content superbia:after {
+  background-image: url(https://files.jcink.net/uploads2/selkieskintest/pridesvg.svg);
+}
 /* END MAIN PROFILE CONTENT */
 /* END MAIN PROFILE */
 /*
