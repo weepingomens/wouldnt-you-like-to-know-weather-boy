@@ -4152,6 +4152,10 @@ a.user-small-info:hover:before {
   font-weight:500;
 }
 
+#main-profile section.content a {
+  font-weight:500;
+}
+
 /* END MAIN PROFILE CONTENT */
 /* END MAIN PROFILE */
 /*
