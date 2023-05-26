@@ -4133,10 +4133,18 @@ a.user-small-info:hover:before {
   font-weight:700;
   font-size:1.1rem;
   line-height:1.6rem;
+  letter-spacing: -0.01em;
 }
 
 #main-profile section.content i {
   color:#777;
+}
+
+#main-profile section.content u {
+  font-style: italic;
+  color: #fff;
+  text-underline-offset: 0.3rem;
+  text-decoration-color: var(--custom);
 }
 
 /* END MAIN PROFILE CONTENT */
