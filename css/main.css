@@ -4657,7 +4657,7 @@ a.user-small-info:hover:before {
   
 } 
 
-#main-profile .tracker-contain .head {
+#main-profile .archive .head {
   content:'active threads';
   display:block;
   margin: 0;
