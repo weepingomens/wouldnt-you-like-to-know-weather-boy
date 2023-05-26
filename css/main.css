@@ -4456,6 +4456,14 @@ a.user-small-info:hover:before {
   color: rgba(var(--main-accent-rgb), 1);
 }
 /* END MAIN PROFILE CONTENT */
+/* START MAIN PROFILE OOC */
+
+#main-profile section.ooc-info {
+  background:var(--custom);
+  height:50px;
+}
+
+/* END MAIN PROFILE OOC */
 /* END MAIN PROFILE */
 /*
 #omens-main .omens-category {
