@@ -4170,7 +4170,8 @@ a.user-small-info:hover:before {
 #main-profile section.content invidia,
 #main-profile section.content ira,
 #main-profile section.content luxuria,
-#main-profile section.content superbia {
+#main-profile section.content superbia,
+#main-profile section.content werewolf {
   position: relative;
   display: flex;
   flex-flow: column nowrap;
@@ -4209,7 +4210,8 @@ a.user-small-info:hover:before {
 #main-profile section.content invidia h1,
 #main-profile section.content ira h1,
 #main-profile section.content luxuria h1,
-#main-profile section.content superbia h1 {
+#main-profile section.content superbia h1,
+#main-profile section.content werewolf h1 {
   display:grid;
 }
 
@@ -4291,6 +4293,56 @@ a.user-small-info:hover:before {
 
 #main-profile section.content superbia:after {
   background-image: url(https://files.jcink.net/uploads2/selkieskintest/pridesvg.svg);
+}
+
+#main-profile section.content werewolf:after {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+  transform: rotate(10deg);
+  z-index: 0;
+  pointer-events: none;
+  font-size: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgba(255,255,255,5%);
+}
+
+#main-profile section.content werewolf h2,
+#main-profile section.content werewolf h3,
+#main-profile section.content werewolf h4 {
+  margin: 0;
+    padding: 0;
+    font: 700 0.6rem 'open sans', sans-serif;
+    color: rgba(255,255,255,20%);
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+    -webkit-text-stroke: 0;
+    max-width:80%;
+}
+
+#main-profile section.content werewolf h2:before {
+  content: "stands ";
+}
+
+#main-profile section.content werewolf h2:after {
+  content: " tall";
+}
+
+#main-profile section.content werewolf h3:after {
+  content: " pelt color";
+}
+
+#main-profile section.content werewolf h4:after {
+  content: " build while transformed";
+}
+
+#main-profile section.content werewolf:after {
+  font-family: "game-icons";
+  content: "\E3F9";
 }
 /* END MAIN PROFILE CONTENT */
 /* END MAIN PROFILE */
