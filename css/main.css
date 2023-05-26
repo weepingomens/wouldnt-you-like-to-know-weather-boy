@@ -4578,10 +4578,12 @@ a.user-small-info:hover:before {
 /* START MAIN PROFILE TRACKER */
 
 #main-profile .archive-grid {
-  display:grid;
-  grid-template-areas:"mp-tracker-active mp-tracker-active"
-  "mp-tracker-comms mp-tracker-au"
-  "mp-tracker-past mp-tracker-past";
+  display: grid;
+  grid: min-content min-content min-content / 1fr 1fr;
+  grid-template-areas:
+      "mp-tracker-active mp-tracker-active"
+      "mp-tracker-comms mp-tracker-au"
+      "mp-tracker-past mp-tracker-past";
   gap: 25px;
 }
 
