@@ -4599,6 +4599,12 @@ a.user-small-info:hover:before {
   transition:.25s;
 }
 
+#main-profile section.content #commwrap .tracker-item a,
+#main-profile section.content #altwrap .tracker-item a {
+  font: 800 24px/100% 'Playfair Display', serif;
+  text-transform: uppercase;
+}
+
 #main-profile section.content .tracker-desc,
 #main-profile section.content .tracker-lastpost,
 #main-profile section.content .tracker-lastpost b {
@@ -4669,6 +4675,12 @@ a.user-small-info:hover:before {
   margin-bottom: 25px;
   padding-bottom: 10px;
   text-transform: lowercase;
+}
+
+#main-profile .archive .comm-contain .head,
+#main-profile .archive .alt-contain .head {
+  font-size:32px;
+  color:#888;
 }
 
 #main-profile .comm-contain {
