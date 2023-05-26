@@ -3864,9 +3864,6 @@ a.user-small-info:hover:before {
 /* BEGIN MAIN PROFILE */
 #main-profile {
   display: grid;
-  --900x300: url(https://i.ibb.co/NLSdbdX/image.png);
-  --200x400: url(https://i.ibb.co/w6xYy2x/image.png);
-  --custom: #fd513f;
   margin-bottom: 50px;
 }
 
