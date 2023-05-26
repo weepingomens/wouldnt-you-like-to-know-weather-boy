@@ -4408,6 +4408,19 @@ a.user-small-info:hover:before {
   content:'# ';
   color:rgba(255,255,255,25%);
 }
+
+#main-profile section.content .quicklinks {
+  display:flex;
+  flex-flow:row wrap;
+  gap:10px;
+  margin-top:25px;
+}
+
+#main-profile section.content .quicklinks a {
+  background: rgba(var(--main-accent-rgb), 1);
+  color: #1c1c1c;
+  padding: 5px;
+}
 /* END MAIN PROFILE CONTENT */
 /* END MAIN PROFILE */
 /*
