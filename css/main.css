@@ -3864,7 +3864,7 @@ a.user-small-info:hover:before {
 /* BEGIN MAIN PROFILE */
 #main-profile {
   display: grid;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
 }
 
 #main-profile section {
