@@ -4112,6 +4112,10 @@ a.user-small-info:hover:before {
   color: rgba(255, 255, 255, 25%);
 }
 
+#main-profile section.content h2 u {
+  font-style:normal;
+}
+
 #main-profile section.content h3 {
   margin: 0;
   padding: 0;
