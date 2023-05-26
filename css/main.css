@@ -4601,7 +4601,7 @@ a.user-small-info:hover:before {
 
 #main-profile section.content #commwrap .tracker-item a,
 #main-profile section.content #altwrap .tracker-item a {
-  font: 800 24px/100% 'Playfair Display', serif;
+  font: 800 24px/70% 'Playfair Display', serif;
   text-transform: uppercase;
 }
 
