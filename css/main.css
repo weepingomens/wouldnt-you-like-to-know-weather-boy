@@ -994,7 +994,7 @@ input[type="submit"] {
   content: "";
   width: 200px;
   height: 225px;
-  background: url(https://i.ibb.co/4gXCZdM/ouija-selector-v3.png);
+  background: url(../src/img/ouija-selector-v3.png);
   background-size: contain;
   position: absolute;
   transform: rotate(322deg);
