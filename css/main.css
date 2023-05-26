@@ -4168,7 +4168,6 @@ a.user-small-info:hover:before {
 #main-profile section.content cw-toggle {
   display: grid;
   justify-items: center;
-  text-align: center;
   font-size: .75rem;
   width: 75%;
   font-weight: 500;
