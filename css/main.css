@@ -4651,6 +4651,12 @@ a.user-small-info:hover:before {
   overflow: auto;
 }
 
+#main-profile #historywrap {
+  display: grid;
+  gap: 10px;
+  
+} 
+
 #main-profile .tracker-contain .head {
   content:'active threads';
   display:block;
@@ -4675,6 +4681,10 @@ a.user-small-info:hover:before {
 
 #main-profile .history-contain {
   grid-area:mp-tracker-past;
+}
+
+#main-profile #historywrap .tracker-item {
+  margin:0;
 }
 
 /* END MAIN PROFILE TRACKER */
