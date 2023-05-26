@@ -4019,6 +4019,8 @@ a.user-small-info:hover:before {
 
 #main-profile .relationship {
   grid-area:mp-basics-ship;
+  border: 2px solid rgba(255, 255, 255, 3%);
+    border-width: 2px 0 0 2px;
 }
 
 /* END MAIN PROFILE BASICS */
@@ -4032,8 +4034,36 @@ a.user-small-info:hover:before {
   height: calc(100vh - 230px);
 }
 
-#main-profile section.content.simple-tabs {
+#main-profile .simple-tabs {
   background:transparent;
+}
+
+#main-profile .simple-tabs__list-item > span {
+  border: 2px solid rgba(255,255,255,3%);
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:0;
+    font:700 .7rem/100% 'open sans',sans-serif;
+    text-transform:uppercase;
+    border-radius:100%;
+}
+
+#main-profile .simple-tabs__list {
+  background: transparent;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+#main-profile .simple-tabs__list-item>span:hover,
+#main-profile .simple-tabs__list-item:focus>span,
+#main-profile .simple-tabs__list-item--active>span {
+  cursor: crosshair;
+  border-color: var(--custom);
+  transition: .25s;
 }
 
 /* END MAIN PROFILE CONTENT */
