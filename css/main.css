@@ -4164,7 +4164,7 @@ a.user-small-info:hover:before {
 }
 
 #main-profile section.content acedia,
-#main-profile section.content avarica,
+#main-profile section.content avaricia,
 #main-profile section.content superbia {
   position: relative;
   display: flex;
@@ -4179,7 +4179,7 @@ a.user-small-info:hover:before {
 }
 
 #main-profile section.content acedia:after,
-#main-profile section.content avarica:after,
+#main-profile section.content avaricia:after,
 #main-profile section.content superbia:after {
   content: "";
   position: absolute;
@@ -4195,13 +4195,13 @@ a.user-small-info:hover:before {
 }
 
 #main-profile section.content acedia h1,
-#main-profile section.content avarica h1,
+#main-profile section.content avaricia h1,
 #main-profile section.content superbia h1 {
   display:grid;
 }
 
 #main-profile section.content acedia h1:after,
-#main-profile section.content avarica h1:after,
+#main-profile section.content avaricia h1:after,
 #main-profile section.content superbia h1:after {
   margin:10px 0 5px;
   font: 700 0.6rem 'open sans', sans-serif;
@@ -4211,7 +4211,7 @@ a.user-small-info:hover:before {
 }
 
 #main-profile section.content acedia h2,
-#main-profile section.content avarica h2,
+#main-profile section.content avaricia h2,
 #main-profile section.content superbia h2 {
   color: rgba(255,255,255,66%);
 }
@@ -4220,7 +4220,7 @@ a.user-small-info:hover:before {
   content: "granted by belphegor, prince of sloth";
 }
 
-#main-profile section.content avarica h1:after {
+#main-profile section.content avaricia h1:after {
   content: "granted by mammon, prince of greed";
 }
 
@@ -4232,7 +4232,7 @@ a.user-small-info:hover:before {
   background-image: url(https://files.jcink.net/uploads2/selkieskintest/slothsvg.svg);
 }
 
-#main-profile section.content avarica:after {
+#main-profile section.content avaricia:after {
   background-image: url(https://files.jcink.net/uploads2/selkieskintest/greedsvg.svg);
 }
 
