@@ -4094,6 +4094,14 @@ a.user-small-info:hover:before {
   padding:0;
 }
 
+#main-profile section.content h2 {
+  margin:0;
+  padding:0;
+  font: 800 30px/100% 'Playfair Display', serif;
+    text-transform: uppercase;
+    color:rgba(255,255,255,25%);
+}
+
 #main-profile section.content h3 {
   margin:0;
   padding:0;
