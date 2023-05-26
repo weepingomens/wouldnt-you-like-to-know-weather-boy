@@ -4522,13 +4522,11 @@ a.user-small-info:hover:before {
   pointer-events:none;
 }
 
-#main-profile section.content .art-credits span {
-  font: 700 0.7rem/100% 'open sans',sans-serif;
-}
-
+#main-profile section.content .art-credits span,
 #main-profile section.content .art-credits span a {
   font: 700 0.7rem/100% 'open sans',sans-serif;
 }
+
 /* END MAIN PROFILE CONTENT */
 /* START MAIN PROFILE OOC */
 
