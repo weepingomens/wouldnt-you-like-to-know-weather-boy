@@ -4582,6 +4582,7 @@ a.user-small-info:hover:before {
   grid-template-areas:"mp-tracker-active mp-tracker-active"
   "mp-tracker-comms mp-tracker-au"
   "mp-tracker-past mp-tracker-past";
+  gap: 25px;
 }
 
 #main-profile section.content .tracker-item a {
@@ -4641,7 +4642,9 @@ a.user-small-info:hover:before {
   grid-area: mp-tracker-active;
 }
 
-#main-profile #trackerwrap {
+#main-profile #trackerwrap,
+#main-profile #commwrap,
+#main-profile #altwrap {
   display: grid;
   gap: 10px;
   height: 275px;
@@ -4662,15 +4665,15 @@ a.user-small-info:hover:before {
   text-transform: lowercase;
 }
 
-#main-profile #commwrap {
+#main-profile .comm-contain {
   grid-area:mp-tracker-comms;
 }
 
-#main-profile #altwrap {
+#main-profile .alt-contain {
   grid-area:mp-tracker-au;
 }
 
-#main-profile #historywrap {
+#main-profile .history-contain {
   grid-area:mp-tracker-past;
 }
 
