@@ -409,7 +409,7 @@ Curabitur tempor sit amet nisi a tincidunt. Nullam posuere fringilla nisi, nec s
         }
 
         $('.simple-tabs__list-item').click(function () {
-          document.querySelector("section.content").scrollTop = 0;
+          document.querySelector("#main-profile section.ooc-info").scrollIntoView();
           openTab($(this));
           return false;
         });
