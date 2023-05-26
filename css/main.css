@@ -4165,9 +4165,14 @@ a.user-small-info:hover:before {
 }
 
 #main-profile section.content cw-toggle {
-  display:grid;
+  display: grid;
   justify-items: center;
-  text-align:center;
+  text-align: center;
+  font-size: .9rem;
+  width: 75%;
+  font-weight: 500;
+  margin:auto;
+  pointer-events:none;
 }
 
 #main-profile section.content cw-toggle:before {
@@ -4178,15 +4183,30 @@ a.user-small-info:hover:before {
 }
 
 #main-profile section.content cw-toggle:after {
-  content: 'click to hide sensitive content';
   font: italic 800 32px/100% 'Playfair Display', serif;
   text-transform: lowercase;
-  color: var(--custom);
+  color: rgba(255,255,255,25%);
   transition: .25s;
+  pointer-events:auto;
 }
 
 #main-profile section.content cw-toggle:hover:after {
   cursor:crosshair;
+  color: rgba(var(--main-accent-rgb), .9);
+  transition: .25s;
+}
+
+#main-profile section.content cw-toggle.omensbuttonhidecontent:after {
+  content: 'click to hide sensitive content';
+}
+
+#main-profile section.content cw-toggle.omensbuttonshowcontent:after {
+  content: 'click to show sensitive content';
+}
+
+#main-profile section.content censor.omenscensorhidecontent {
+  color: transparent;
+  background: #111;
 }
 
 #main-profile section.content acedia,
