@@ -4575,6 +4575,32 @@ a.user-small-info:hover:before {
 }
 
 /* END MAIN PROFILE OOC */
+/* START MAIN PROFILE TRACKER */
+
+#main-profile .simple-tabs__content.archive {
+  display:grid;
+  grid-template-areas:"mp-tracker-active mp-tracker-active"
+  "mp-tracker-comms mp-tracker-au"
+  "mp-tracker-past mp-tracker-past";
+}
+
+#trackerwrap {
+  grid-area:mp-tracker-active;
+}
+
+#commwrap {
+  grid-area:mp-tracker-comms;
+}
+
+#altwrap {
+  grid-area:mp-tracker-au;
+}
+
+#historywrap {
+  grid-area:mp-tracker-past;
+}
+
+/* END MAIN PROFILE TRACKER */
 /* END MAIN PROFILE */
 /*
 #omens-main .omens-category {
