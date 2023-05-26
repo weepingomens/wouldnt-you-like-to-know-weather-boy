@@ -4147,6 +4147,11 @@ a.user-small-info:hover:before {
   text-decoration-color: var(--custom);
 }
 
+#main-profile section.content strike {
+  color:#444;
+  font-weight:500;
+}
+
 /* END MAIN PROFILE CONTENT */
 /* END MAIN PROFILE */
 /*
