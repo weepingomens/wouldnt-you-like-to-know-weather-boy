@@ -366,6 +366,7 @@
         }
 
         $('.simple-tabs__list-item').click(function () {
+          document.querySelector("section.content").scrollTop = 0;
           openTab($(this));
           return false;
         });
