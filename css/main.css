@@ -4625,6 +4625,7 @@ a.user-small-info:hover:before {
   padding-bottom: 10px;
   position: relative;
   margin-right: 25px;
+  overflow: hidden;
 }
 
 #main-profile .status.myturn {
@@ -4635,7 +4636,7 @@ a.user-small-info:hover:before {
 }
 
 #main-profile .status.myturn i {
-  color: rgba(255, 255, 255, 15%);
+  color: rgba(255, 255, 255, 4%);
 }
 
 #main-profile section.content .tracker-item .status.myturn+a {
