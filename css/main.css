@@ -4586,14 +4586,14 @@ a.user-small-info:hover:before {
 
 #main-profile section.content .tracker-item a {
   font: italic 800 32px/100% 'Playfair Display', serif;
-  color: rgba(var(--main-accent-rgb), 1);
+  color: rgba(var(--main-accent-rgb), .5);
   text-transform: lowercase;
   transition:.25s;
 }
 
 #main-profile section.content .tracker-item a:hover {
   font: italic 800 32px/100% 'Playfair Display', serif;
-  color: rgba(var(--main-accent-rgb), .7);
+  color: rgba(var(--main-accent-rgb), 1);
   text-transform: lowercase;
   transition:.25s;
 }
@@ -4615,29 +4615,40 @@ a.user-small-info:hover:before {
   border-bottom: 2px solid rgba(255, 255, 255, 5%);
   padding-bottom:10px;
   position:relative;
+  margin-right: 25px;
 }
 
 #main-profile .status.myturn {
   display: block;
   position: absolute;
   right: 0;
-  font-size: 50px;
-
+  font-size: 85px;
 }
 
 #main-profile .status.myturn i {
   color:rgba(255,255,255,15%);
 }
 
-#main-profile #trackerwrap {
+#main-profile section.content .tracker-item .status.myturn+a {
+  color: rgba(var(--main-accent-rgb), 1);
+}
+
+#main-profile section.content .tracker-item .status.myturn+a:hover {
+  color: rgba(var(--main-accent-rgb), .5);
+}
+
+#main-profile .tracker-contain {
   grid-area: mp-tracker-active;
+}
+
+#main-profile #trackerwrap {
   display: grid;
   gap: 10px;
-  height: 350px;
+  height: 275px;
   overflow: auto;
 }
 
-#main-profile #trackerwrap:before {
+#main-profile .tracker-contain .head {
   content:'active threads';
   display:block;
   margin: 0;
@@ -4646,7 +4657,7 @@ a.user-small-info:hover:before {
   letter-spacing: -0.05em;
   color: #eee;
   border-bottom: 2px solid rgba(255, 255, 255, 5%);
-  margin-bottom: 10px;
+  margin-bottom: 25px;
   padding-bottom: 10px;
   text-transform: lowercase;
 }
