@@ -4123,7 +4123,7 @@ a.user-small-info:hover:before {
 #main-profile section.content h5 {
   margin: 0;
     padding: 0;
-    font: 700 30px/100% 'Crimson Text',sans-serif;
+    font: 700 40px/100% 'Crimson Text',sans-serif;
     text-transform: lowercase;
     color: var(--custom);
 }
