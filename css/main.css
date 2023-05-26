@@ -4082,7 +4082,7 @@ a.user-small-info:hover:before {
   display: block;
     font: 800 70px/100% 'Playfair Display', serif;
     text-transform: uppercase;
-    letter-spacing: .33em;
+    letter-spacing: .05em;
     color: rgba(255,255,255,5%);
     margin-bottom: 25px;
 }
