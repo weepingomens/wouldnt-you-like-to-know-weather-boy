@@ -4409,7 +4409,27 @@ a.user-small-info:hover:before {
   color:rgba(255,255,255,25%);
 }
 
+#main-profile .misc-grid {
+  display:grid;
+  grid-template-areas:"mp-misc-header mp-misc-header"
+  "mp-misc-tropes mp-misc-tropes"
+  "mp-misc-body mp-misc-links";
+}
+
+#main-profile section.content .misc .header {
+  grid-area:mp-misc-header;
+}
+
+#main-profile section.content .misc .tropes {
+  grid-area:mp-misc-tropes;
+}
+
+#main-profile section.content .misc .misc-body {
+  grid-area:mp-misc-body;
+}
+
 #main-profile section.content .quicklinks {
+  grid-area:mp-misc-links;
   display:flex;
   flex-flow:row wrap;
   gap:10px;
