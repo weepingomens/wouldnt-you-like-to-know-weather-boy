@@ -4202,7 +4202,7 @@ a.user-small-info:hover:before {
   margin:10px 0 5px;
   font: 700 0.6rem 'open sans', sans-serif;
   color: rgba(255,255,255,33%);
-  letter-spacing: 0.2rem;
+  letter-spacing: 0.1rem;
   text-transform: uppercase;
 }
 
