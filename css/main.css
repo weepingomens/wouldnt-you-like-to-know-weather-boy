@@ -4503,6 +4503,7 @@ a.user-small-info:hover:before {
 
 #main-profile section.content .art-credits {
   grid-area:mp-misc-art;
+  text-transform:uppercase;
 }
 /* END MAIN PROFILE CONTENT */
 /* START MAIN PROFILE OOC */
