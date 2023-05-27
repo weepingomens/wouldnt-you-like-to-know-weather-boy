@@ -4024,6 +4024,7 @@ a.user-small-info:hover:before {
   grid-area: mp-basics-ship;
   border: 2px solid rgba(255, 255, 255, 3%);
   border-width: 2px 0 0 2px;
+  width: calc(100% - 22px);
 }
 
 #main-profile.no-ship section.basics {
