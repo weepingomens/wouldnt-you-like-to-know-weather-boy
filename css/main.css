@@ -3990,10 +3990,13 @@ a.user-small-info:hover:before {
 .post-row.group-6 .ooc,
 .post-row.group-10 .ooc,
 #main-profile.group-6 .ooc,
-#main-profile.group-10 .ooc,
+#main-profile.group-10 .ooc {
+  display: initial;
+}
+
 #main-profile.group-6 section.ooc-info ul.ooc,
 #main-profile.group-10 section.ooc-info ul.ooc {
-  display: initial;
+  display:flex;
 }
 
 .post-row.group-6 .ooc.subaccounts,
