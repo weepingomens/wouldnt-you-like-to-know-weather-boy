@@ -3639,6 +3639,7 @@ a.user-small-info:hover:before {
   position: absolute;
   top: -44px;
   border: 5px solid #1c1c1c;
+  --relationshipAccent:var(--custom);
 }
 
 .relationship .icon div {
@@ -4024,10 +4025,6 @@ a.user-small-info:hover:before {
   grid-area: mp-basics-ship;
   border: 2px solid rgba(255, 255, 255, 3%);
   border-width: 2px 0 0 2px;
-}
-
-#main-profile .relationship .icon {
-  background: var(--custom);
 }
 
 /* END MAIN PROFILE BASICS */
