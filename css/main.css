@@ -4634,7 +4634,8 @@ a.user-small-info:hover:before {
   justify-content: space-evenly;
 }
 
-#main-profile section.ooc-info li {
+#main-profile section.ooc-info li,
+#main-profile section.ooc-info a {
   font: 700 0.6rem 'open sans', sans-serif;
   color: #1c1c1c;
   letter-spacing: 0.2rem;
