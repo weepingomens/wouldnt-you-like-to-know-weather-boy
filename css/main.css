@@ -4652,6 +4652,7 @@ a.user-small-info:hover:before {
 }
 
 #main-profile.no-alt-threads .archive-grid {
+  grid: min-content min-content min-content / 100%;
   grid-template-areas:
   "mp-tracker-active mp-tracker-active"
   "mp-tracker-comms mp-tracker-comms"
@@ -4659,6 +4660,7 @@ a.user-small-info:hover:before {
 }
 
 #main-profile.no-comm-threads .archive-grid {
+  grid: min-content min-content min-content / 100%;
   grid-template-areas:
   "mp-tracker-active mp-tracker-active"
   "mp-tracker-au mp-tracker-au"
