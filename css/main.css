@@ -4659,12 +4659,20 @@ a.user-small-info:hover:before {
   "mp-tracker-past mp-tracker-past";
 }
 
+#main-profile.no-alt-threads .alt-contain {
+  display:none;
+}
+
 #main-profile.no-comm-threads .archive-grid {
   grid: min-content min-content min-content / 100%;
   grid-template-areas:
   "mp-tracker-active mp-tracker-active"
   "mp-tracker-au mp-tracker-au"
   "mp-tracker-past mp-tracker-past";
+}
+
+#main-profile.no-comm-threads .comm-contain {
+  display:none;
 }
 
 #main-profile section.content .tracker-item a {
