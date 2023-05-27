@@ -4675,6 +4675,14 @@ a.user-small-info:hover:before {
   display:none;
 }
 
+#main-profile.no-current-threads .tracker-contain {
+  display:none;
+}
+
+#main-profile.no-complete-threads .history-contain {
+  display:none;
+}
+
 #main-profile section.content .tracker-item a {
   font: italic 800 32px/100% 'Playfair Display', serif;
   color: rgba(var(--main-accent-rgb), .5);
