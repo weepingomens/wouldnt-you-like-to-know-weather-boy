@@ -4541,12 +4541,20 @@ a.user-small-info:hover:before {
   text-transform: uppercase;
   position: relative;
   min-height: 70px;
-  display: flex;
   align-items: center;
 }
 
 #main-profile section.content .art-credits {
   grid-area: mp-misc-art;
+  display: flex;
+}
+
+#main-profile section.content .spells {
+  display:none;
+}
+
+#main-profile.group-8 section.content .spells {
+  display:flex;
 }
 
 #main-profile section.content .art-credits em,
