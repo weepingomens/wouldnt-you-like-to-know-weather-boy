@@ -4480,7 +4480,7 @@ a.user-small-info:hover:before {
   grid-template-areas:
     "mp-misc-header mp-misc-header"
     "mp-misc-tropes mp-misc-tropes"
-    "mp-misc-links mp-misc-body"
+    "mp-misc-body mp-misc-links"
     "mp-misc-art mp-misc-art";
   align-items: start;
   gap: 25px;
@@ -4505,8 +4505,7 @@ a.user-small-info:hover:before {
   flex-flow: row wrap;
   gap: 10px;
   width: 200px;
-  text-align: right;
-  justify-content: flex-end;
+  text-align: left;
   position: sticky;
   top: 95px;
 }
