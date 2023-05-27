@@ -3773,7 +3773,6 @@ a.user-small-info:hover:before {
 }
 
 .staff-template .simple-tabs__content {
-  text-align: justify;
   border-radius: 3px;
   border: 25px solid transparent;
   padding-right: 25px;
