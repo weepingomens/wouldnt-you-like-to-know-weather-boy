@@ -3989,7 +3989,9 @@ a.user-small-info:hover:before {
 .post-row.group-6 .ooc,
 .post-row.group-10 .ooc,
 #main-profile.group-6 .ooc,
-#main-profile.group-10 .ooc {
+#main-profile.group-10 .ooc,
+#main-profile.group-6 section.ooc-info ul.ooc,
+#main-profile.group-10 section.ooc-info ul.ooc {
   display: initial;
 }
 
