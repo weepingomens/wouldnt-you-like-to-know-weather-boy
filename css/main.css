@@ -4048,6 +4048,8 @@ a.user-small-info:hover:before {
   display:none;
 }
 
+.fizzyelf-inherit-classes { height:0; display:none; }
+
 /* END MAIN PROFILE BASICS */
 /* START MAIN PROFILE CONTENT */
 
