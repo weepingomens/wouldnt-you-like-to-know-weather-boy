@@ -3993,6 +3993,14 @@ a.user-small-info:hover:before {
   display: initial;
 }
 
+.post-row.group-6 .ooc.subaccounts,
+.post-row.group-10 .ooc.subaccounts,
+#main-profile.group-6 .ooc.subaccounts,
+#main-profile.group-10 .ooc.subaccounts {
+  display: flex;
+  align-items: center;
+}
+
 #main-profile .user-quote {
   margin: 0 50px;
   color: #ccc;
