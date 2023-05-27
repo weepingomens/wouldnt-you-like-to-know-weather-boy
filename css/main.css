@@ -3969,7 +3969,8 @@ a.user-small-info:hover:before {
 }
 
 .post-row .ooc,
-#main-profile .ooc {
+#main-profile .ooc,
+#main-profile section.ooc-info ul.ooc {
   display: none;
 }
 
