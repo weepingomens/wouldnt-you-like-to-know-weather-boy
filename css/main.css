@@ -4252,6 +4252,19 @@ a.user-small-info:hover:before {
   shape-outside: circle(60%);
 }
 
+#main-profile section.content acedia br,
+#main-profile section.content avaricia br,
+#main-profile section.content gula br,
+#main-profile section.content invidia br,
+#main-profile section.content ira br,
+#main-profile section.content luxuria br,
+#main-profile section.content superbia br,
+#main-profile section.content werewolf br,
+#main-profile section.content vampire br,
+#main-profile section.content hunter br {
+  display:none;
+}
+
 #main-profile section.content acedia:after,
 #main-profile section.content avaricia:after,
 #main-profile section.content gula:after,
