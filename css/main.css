@@ -4092,7 +4092,7 @@ a.user-small-info:hover:before {
 #main-profile .simple-tabs__list-item:focus>span,
 #main-profile .simple-tabs__list-item--active>span {
   cursor: crosshair;
-  border-color: rgba(var(--main-accent-rgb), .5);
+  border-color: rgba(var(--main-accent-rgb), 1);
   transition: .25s;
 }
 
