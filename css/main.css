@@ -4658,6 +4658,13 @@ a.user-small-info:hover:before {
   "mp-tracker-past mp-tracker-past";
 }
 
+#main-profile.no-comm-threads .archive-grid {
+  grid-template-areas:
+  "mp-tracker-active mp-tracker-active"
+  "mp-tracker-au mp-tracker-au"
+  "mp-tracker-past mp-tracker-past";
+}
+
 #main-profile section.content .tracker-item a {
   font: italic 800 32px/100% 'Playfair Display', serif;
   color: rgba(var(--main-accent-rgb), .5);
