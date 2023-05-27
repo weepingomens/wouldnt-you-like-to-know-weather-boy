@@ -1955,7 +1955,7 @@ input[type="submit"] {
   width: 250px;
   background: #1f1f1f;
   height: calc(100vh - 78px);
-  position: sticky;
+  position: fixed;
   top: 78px;
   overflow: hidden;
   display: flex;
