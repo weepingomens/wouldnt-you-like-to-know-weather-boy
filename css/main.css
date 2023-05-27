@@ -4553,6 +4553,13 @@ a.user-small-info:hover:before {
   display:none;
 }
 
+#main-profile section.content .spells span {
+  display: flex;
+  gap: 5px 10px;
+  flex-flow: row wrap;
+  color: #eee;
+}
+
 #main-profile.group-8 section.content .spells {
   display:flex;
 }
