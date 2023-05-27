@@ -4069,7 +4069,7 @@ a.user-small-info:hover:before {
   gap: 25px;
   flex-direction: column;
   flex-grow: 1;
-  align-items: center;
+  align-items: flex-end;
   position: sticky;
   top: 105px;
   align-self: flex-start;
