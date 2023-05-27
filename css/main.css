@@ -4109,7 +4109,8 @@ a.user-small-info:hover:before {
   padding: 0;
 }
 
-#main-profile section.content h2 {
+#main-profile section.content h2,
+#main-profile section.content werewolf h3 {
   margin: 0;
   padding: 0;
   font: 800 30px/100% 'Playfair Display', serif;
@@ -4305,7 +4306,8 @@ a.user-small-info:hover:before {
 #main-profile section.content invidia h2,
 #main-profile section.content ira h2,
 #main-profile section.content luxuria h2,
-#main-profile section.content superbia h2 {
+#main-profile section.content superbia h2,
+#main-profile section.content werewolf h3 {
   color: rgba(255, 255, 255, 66%);
 }
 
@@ -4384,7 +4386,6 @@ a.user-small-info:hover:before {
 }
 
 #main-profile section.content werewolf h2,
-#main-profile section.content werewolf h3,
 #main-profile section.content werewolf h4 {
   margin: 0;
   padding: 0;
