@@ -4536,8 +4536,8 @@ a.user-small-info:hover:before {
   color: rgba(var(--main-accent-rgb), 1);
 }
 
-#main-profile section.content .art-credits {
-  grid-area: mp-misc-art;
+#main-profile section.content .art-credits,
+#main-profile section.content .spells {
   text-transform: uppercase;
   position: relative;
   min-height: 70px;
@@ -4545,7 +4545,12 @@ a.user-small-info:hover:before {
   align-items: center;
 }
 
-#main-profile section.content .art-credits em {
+#main-profile section.content .art-credits {
+  grid-area: mp-misc-art;
+}
+
+#main-profile section.content .art-credits em,
+#main-profile section.content .spells em {
   display: block;
   font: 800 70px/100% 'Playfair Display', serif;
   text-transform: uppercase;
@@ -4558,7 +4563,9 @@ a.user-small-info:hover:before {
 }
 
 #main-profile section.content .art-credits span,
-#main-profile section.content .art-credits span a {
+#main-profile section.content .art-credits span a,
+#main-profile section.content .spells span,
+#main-profile section.content .spells span a {
   font: 700 0.7rem/100% 'open sans', sans-serif;
 }
 
