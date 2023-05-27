@@ -3406,8 +3406,8 @@ header.communications:before {
   display: inline-block;
 }
 
-.user-details div strike,
-.user-details div s {
+.user-details .field strike,
+.user-details .field s {
   color: #555;
 }
 
