@@ -4221,6 +4221,10 @@ a.user-small-info:hover:before {
   transition: .25s;
 }
 
+#main-profile.group-3 .simple-tabs__list-item.archives {
+  display:none;
+}
+
 #main-profile .simple-tabs__content {
   width: 70ch;
 }
