@@ -1166,6 +1166,7 @@ input[type="submit"] {
   font: 700 0.6rem/100% 'open sans',sans-serif;
   background: #333;
   color: #888;
+  text-transform:uppercase;
 }
 
 #omens-body #omens-top .user-links {
