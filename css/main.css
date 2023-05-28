@@ -492,7 +492,7 @@ textarea {
 }
 
 .topic-header {
-  margin: 0;
+  margin: 50px 0 0;
   text-align: center;
   display: flex;
   flex-flow: row wrap;
