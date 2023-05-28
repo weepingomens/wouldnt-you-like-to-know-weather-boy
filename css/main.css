@@ -857,6 +857,18 @@ textarea {
   color: rgba(255, 255, 255, 20%);
   width: 500px;
 }
+
+#HeaderRequired,
+#HeaderOptional {
+  font: italic 800 48px/100% 'Playfair Display', serif;
+  letter-spacing: -0.05em;
+  color: #eee;
+  border-bottom: 2px solid rgba(255, 255, 255, 5%);
+  margin: 10px 0;
+  padding-bottom: 10px;
+  text-transform: lowercase;
+  width: 500px;
+}
 /* END JCINK STYLING */
 
 body {
