@@ -807,6 +807,13 @@ textarea {
   display: block;
 }
 
+#ucpcontent .maintitle {
+  font: italic 900 48px 'playfair display', serif;
+  color: #1c1c1c;
+  text-transform:lowercase;
+  letter-spacing:0;
+}
+
 #ucpcontent tr {
   width: 540px;
   display: grid;
