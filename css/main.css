@@ -806,7 +806,8 @@ textarea {
   display: block;
 }
 
-#ucpcontent .maintitle {
+#ucpcontent .maintitle,
+#ucpmenu .maintitle {
   font: italic 900 48px 'playfair display', serif;
   color: #1c1c1c;
   text-transform:lowercase;
