@@ -873,6 +873,18 @@ textarea {
   text-transform: lowercase;
   width: 500px;
 }
+
+#ucpcontent #autofill {
+  background: var(--main-accent);
+    font: 700 0.6rem/100% 'open sans',sans-serif;
+    text-transform: uppercase;
+    color: #222;
+    width: auto;
+    padding: 7px;
+    border: 0;
+    border-radius: 3px;
+    margin: 10px 0;
+}
 /* END JCINK STYLING */
 
 body {
