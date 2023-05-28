@@ -837,7 +837,7 @@ textarea {
   padding:25px;
 }
 
-#ucpcontent .forminput textarea {
+#ucpcontent .forminput {
   resize: auto;
 }
 
