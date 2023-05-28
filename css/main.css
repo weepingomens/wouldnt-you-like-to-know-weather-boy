@@ -2166,6 +2166,10 @@ input[type="submit"] {
   position:relative;
 }
 
+/* fuck it */
+#omens-main br {
+  display:none;
+}
 header.category {
   display: flex;
   align-items: center;
