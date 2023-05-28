@@ -791,7 +791,6 @@ textarea {
 
 
 .pformleft {
-  width: 25%;
   font: 400 0.9rem/2 'open sans', sans-serif;
 }
 
@@ -817,6 +816,7 @@ textarea {
 
 #ucpcontent tr {
   width: 540px;
+  display: grid;
 }
 
 #ucpcontent .forminput,
