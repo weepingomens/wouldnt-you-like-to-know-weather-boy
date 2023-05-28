@@ -799,6 +799,7 @@ textarea {
 
 #ucpmenu {
   width:20%;
+  position:absolute;
 }
 
 #ucpcontent {
