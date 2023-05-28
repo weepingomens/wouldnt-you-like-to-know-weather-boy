@@ -892,6 +892,13 @@ textarea {
   cursor:crosshair;
 }
 
+#ucpcontent option {
+  background: #222;
+  color: #888;
+  text-transform: uppercase;
+  font: 600 0.8rem/2 'open sans', sans-serif;
+}
+
 /* END JCINK STYLING */
 
 body {
@@ -1161,8 +1168,7 @@ input[type="submit"] {
   cursor: crosshair;
 }
 
-#omens-body #omens-top #current-user #subaccounts_menu option,
-#ucpcontent option {
+#omens-body #omens-top #current-user #subaccounts_menu option {
   font: 700 0.6rem/100% 'open sans',sans-serif;
   background: #333;
   color: #888;
