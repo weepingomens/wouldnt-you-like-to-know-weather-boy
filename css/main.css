@@ -1159,8 +1159,9 @@ input[type="submit"] {
   cursor: crosshair;
 }
 
-#omens-body #omens-top #current-user #subaccounts_menu option {
-  font: 700 10px montserrat;
+#omens-body #omens-top #current-user #subaccounts_menu option,
+#ucpcontent option {
+  font: 700 0.6rem/100% 'open sans',sans-serif;
   background: #333;
   color: #888;
 }
