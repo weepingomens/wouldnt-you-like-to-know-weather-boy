@@ -803,7 +803,8 @@ textarea {
 }
 
 #ucpcontent {
-  width:20%;
+  width: 540px;
+  display: block;
 }
 
 /* END JCINK STYLING */
