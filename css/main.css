@@ -816,7 +816,7 @@ textarea {
 }
 
 #ucpcontent tr {
-  width: 540px;
+  width: 60ch;
   display: grid;
 }
 
