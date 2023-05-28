@@ -789,6 +789,23 @@ textarea {
   font-family: 'cappuccicons' !important;
 }
 
+
+.pformleft {
+  width:20%;
+}
+
+.pformright {
+  width:20%;
+}
+
+#ucpmenu {
+  width:20%;
+}
+
+#ucpcontent {
+  width:20%;
+}
+
 /* END JCINK STYLING */
 
 body {
