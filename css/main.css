@@ -2219,7 +2219,8 @@ input[type="submit"] {
 #omens-main #omens-footer br,
 #omens-main .extras-container br,
 #omens-main .comm-forum br,
-#omens-main #ucpmenu br {
+#omens-main #ucpmenu br
+#omens-main #board-message br {
   display:block;
 }
 
