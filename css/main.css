@@ -842,7 +842,7 @@ textarea {
 }
 
 #omens-body #ucpcontent input[type="text"],
-#ucpcontent select {
+#omens-body #ucpcontent select {
   padding:10px;
   font: 400 0.8rem/2 'open sans', sans-serif;
   letter-spacing: 0.1em;
