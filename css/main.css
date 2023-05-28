@@ -3012,7 +3012,7 @@ header.communications:before {
 /* END EXTRAS FORUM ROW */
 /* START SUBFORUMS */
 .subform-row {
-  margin: 25px 0;
+  margin: 50px 0;
 }
 
 .subform-row:first-of-type {
