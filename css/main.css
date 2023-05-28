@@ -832,7 +832,8 @@ textarea {
   padding:25px;
 }
 
-#ucpcontent input[type="text"] {
+#ucpcontent input[type="text"],
+#ucpcontent select {
   padding:10px;
 }
 
