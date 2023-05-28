@@ -2168,10 +2168,10 @@ input[type="submit"] {
 
 #omens-main .post-row br, 
 #omens-main #main-profile br,
-#omens-footer br,
-.extras-container br,
-.comm-forum br,
-#ucpmenu br {
+#omens-main #omens-footer br,
+#omens-main .extras-container br,
+#omens-main .comm-forum br,
+#omens-main #ucpmenu br {
   display:block;
 }
 
