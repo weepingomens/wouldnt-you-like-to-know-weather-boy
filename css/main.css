@@ -800,6 +800,7 @@ textarea {
 #ucpmenu {
   position: absolute;
   right: 50px;
+  top: 264px;
 }
 
 #ucpcontent {
