@@ -114,6 +114,9 @@ a.mgroup-7 {
 .group-pending,
 .group-3 {
   --group: var(--pending);
+  --mainAccentR: 170;
+  --mainAccentG: 170;
+  --mainAccentB: 170;
 }
 
 a.mgroup-3 {
