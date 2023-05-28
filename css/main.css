@@ -790,11 +790,11 @@ textarea {
 }
 
 
-.pformleft {
+#ucpcontent .pformleft {
   font: 400 0.9rem/2 'open sans', sans-serif;
 }
 
-.pformright {
+#ucpcontent .pformright {
 }
 
 #ucpmenu {
