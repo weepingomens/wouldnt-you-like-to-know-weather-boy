@@ -850,6 +850,13 @@ textarea {
 #ucpcontent #field-interests {
   display:none;
 }
+
+.pformstrip.ProfileHeader {
+  font: 800 25px/100% 'Playfair Display', serif;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 20%);
+  width: 500px;
+}
 /* END JCINK STYLING */
 
 body {
