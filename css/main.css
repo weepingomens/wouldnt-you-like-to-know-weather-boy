@@ -794,6 +794,10 @@ textarea {
   font: 400 0.9rem/2 'open sans', sans-serif;
 }
 
+#ucpcontent .pformleft label {
+  color:#eee;
+}
+
 #ucpcontent .pformright {
 }
 
