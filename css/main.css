@@ -885,6 +885,11 @@ textarea {
     border-radius: 3px;
     margin: 10px 0;
 }
+
+#ucpcontent #autofill:hover {
+  cursor:crosshair;
+}
+
 /* END JCINK STYLING */
 
 body {
