@@ -837,6 +837,10 @@ textarea {
   padding:25px;
 }
 
+#ucpcontent .forminput textarea {
+  resize: auto;
+}
+
 #omens-body #ucpcontent input[type="text"],
 #ucpcontent select {
   padding:10px;
