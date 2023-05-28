@@ -828,6 +828,12 @@ textarea {
   padding:10px;
 }
 
+#ucpcontent #field-birthday,
+#ucpcontent #field-website,
+#ucpcontent #field-location,
+#ucpcontent #field-interests {
+  display:none;
+}
 /* END JCINK STYLING */
 
 body {
