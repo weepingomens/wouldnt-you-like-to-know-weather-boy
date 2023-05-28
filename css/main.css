@@ -2166,6 +2166,11 @@ input[type="submit"] {
   position:relative;
 }
 
+#omens-main .post-row br, 
+#omens-main #main-profile br {
+  display:block;
+}
+
 /* fuck it */
 #omens-main br {
   display:none;
