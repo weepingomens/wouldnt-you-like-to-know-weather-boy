@@ -3890,6 +3890,7 @@ a.user-small-info:hover:before {
   max-height: calc(100vh - 300px);
   min-height: 400px;
   overflow: auto;
+  width:100%;
 }
 
 .staff-template .simple-tabs__list-item>span:hover,
