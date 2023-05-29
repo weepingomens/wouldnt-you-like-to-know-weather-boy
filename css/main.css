@@ -899,6 +899,10 @@ textarea {
   font: 600 0.8rem/2 'open sans', sans-serif;
 }
 
+.quick-edit {
+  margin: 50px;
+}
+
 /* END JCINK STYLING */
 
 body {
