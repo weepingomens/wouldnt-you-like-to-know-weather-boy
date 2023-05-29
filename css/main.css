@@ -4120,15 +4120,15 @@ a.user-small-info:hover:before {
   display: none;
 }
 
-.post-row.group-6 .ooc,
-.post-row.group-10 .ooc,
-#main-profile.group-6 .ooc,
-#main-profile.group-10 .ooc,
 #main-profile.group-6 section.content.ooc,
 #main-profile.group-10 section.content.ooc {
   display: initial;
 }
 
+.post-row.group-6 .ooc,
+.post-row.group-10 .ooc,
+#main-profile.group-6 .ooc,
+#main-profile.group-10 .ooc,
 #main-profile.group-6 section.ooc-info ul.ooc,
 #main-profile.group-10 section.ooc-info ul.ooc {
   display:flex;
