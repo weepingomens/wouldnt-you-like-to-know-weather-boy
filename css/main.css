@@ -4217,6 +4217,7 @@ a.user-small-info:hover:before {
     border-radius: 100%;
     width: 75px;
     height: 75px;
+    overflow: hidden;
 } 
 
 .omens-wanted-1.omens-wanted-1-multi .want-img img {
