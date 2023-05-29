@@ -4650,6 +4650,17 @@ a.user-small-info:hover:before {
   gap: 25px;
 }
 
+#main-profile .misc-grid.no-quicklinks {
+  grid-template-areas:
+    "mp-misc-header mp-misc-header"
+    "mp-misc-tropes mp-misc-tropes"
+    "mp-misc-body mp-misc-body";
+}
+
+#main-profile .misc-grid.no-quicklinks .quicklinks {
+  display:none;
+}
+
 #main-profile section.content .misc .header {
   grid-area: mp-misc-header;
   margin-bottom: 0;
