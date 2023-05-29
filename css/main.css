@@ -4186,6 +4186,13 @@ a.user-small-info:hover:before {
 }
 
 /* END WANTED TEMPLATE SOLO */
+/* START WANTED TEMPLATE MULTI */
+.omens-wanted-1.omens-wanted-1-multi {
+  display:flex;
+  flex-flow:column nowrap;
+  gap:50px;
+}
+/* END WANTED TEMPLATE MULTI */
 /* END WANTED TEMPLATES */
 
 /* END ALL POST TEMPLATES */
