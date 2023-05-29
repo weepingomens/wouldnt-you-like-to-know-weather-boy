@@ -4200,6 +4200,53 @@ a.user-small-info:hover:before {
   flex-flow:column nowrap;
   gap:50px;
 }
+
+.omens-wanted-1-multi .want-character {
+  display: grid;
+  grid: min-content min-content min-content / 74px auto;
+  grid-template-areas:
+      "multi-1-img multi-1-char"
+      "multi-1-img multi-1-details"
+      "multi-1-desc multi-1-desc";
+}
+
+.omens-wanted-1-multi .want-img {
+  grid-area: multi-1-img;
+    margin: 0px;
+    border-radius: 100%;
+    border: 3px solid #444;
+    width: 60px;
+    height: 60px;
+} 
+
+.omens-wanted-1-multi .want-character h1 {
+  grid-area: multi-1-char;
+  margin: 0px;
+  text-transform: uppercase;
+  align-self: end;
+}
+
+.omens-wanted-1-multi .want-character .want-details {
+  grid-area: multi-1-details;
+  text-transform: uppercase;
+  align-self: start;
+  background: #eee;
+  color: #222;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.omens-wanted-1-multi .want-character .want-char-desc {
+  grid-area: multi-1-desc;
+    width: calc(100% - 50px);
+    border-radius: 10px;
+    margin-top: 10px;
+    text-align: justify;
+    max-height: 75px;
+    overflow: auto;
+    padding-right: 10px;
+}
+
 /* END WANTED TEMPLATE MULTI */
 /* END WANTED TEMPLATES */
 
