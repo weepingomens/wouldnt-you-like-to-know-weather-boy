@@ -4145,11 +4145,11 @@ a.user-small-info:hover:before {
 
 .post-row .post-container .omens-wanted-1 h1 {
   font: 800 25px/100% 'Playfair Display', serif;
-  color: rgba(255, 255, 255, 10%);
+  color: rgba(255, 255, 255, 25%);
   letter-spacing:0;
-  display:grid;
   justify-content: start;
-  margin-bottom:10px;
+  margin-bottom: 10px;
+  gap:10px;
 }
 
 .post-row .post-container .omens-wanted-1 h1 b {
