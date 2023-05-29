@@ -3521,7 +3521,9 @@ header.communications:before {
   color: #aaa;
 }
 
-
+.user-details li {
+  text-align:center;
+}
 
 .user-details em {
   font-style: normal;
