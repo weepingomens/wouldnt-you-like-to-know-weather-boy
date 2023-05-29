@@ -661,6 +661,11 @@ textarea {
   color: #1c1c1c;
 }
 
+#omens-body #posting-form input.codebuttons:hover,
+#omens-body #posting-form input.formatbuttons:hover {
+  cursor:crosshair;
+}
+
 #omens-body #posting-form input[type="submit"] {
   background: var(--main-accent);
 }
