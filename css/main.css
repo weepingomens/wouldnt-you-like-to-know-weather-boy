@@ -4693,6 +4693,7 @@ a.user-small-info:hover:before {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  margin: 25px 0 0;
 }
 
 #main-profile section.content .art-credits {
