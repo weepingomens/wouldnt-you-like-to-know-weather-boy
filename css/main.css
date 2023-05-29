@@ -4341,8 +4341,8 @@ a.user-small-info:hover:before {
   border: 2px solid rgba(255, 255, 255, 3%);
 }
 
-#omens-page-brochure section.content cw,
-#omens-page-brochure section.content cw-toggle,
+#omens-page-brochure cw,
+#omens-page-brochure cw-toggle,
 #main-profile section.content cw,
 #main-profile section.content cw-toggle {
   display: grid;
