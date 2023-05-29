@@ -3991,7 +3991,6 @@ a.user-small-info:hover:before {
 #main-profile {
   display: grid;
   margin-bottom: 20px;
-  line-height: 1.6rem;
 }
 
 #main-profile section {
