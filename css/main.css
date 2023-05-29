@@ -3957,7 +3957,7 @@ a.user-small-info:hover:before {
   text-align: center;
   font: 800 25px/100% 'Playfair Display', serif;
   text-transform: uppercase;
-  color: rgba(255, 255, 255, 15%);
+  color: rgba(255, 255, 255, 25%);
 }
 
 .staff-template ul {
