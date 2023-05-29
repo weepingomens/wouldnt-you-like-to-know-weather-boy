@@ -762,9 +762,9 @@ textarea {
 }
 
 .code-highlight {
-  font: 600 0.7rem/100% 'open sans', sans-serif;
+  font: 700 0.7rem/100% 'open sans', sans-serif;
   text-transform: uppercase;
-  color: #aaa;
+  color: var(--main-accent);
 }
 
 .code-highlight:hover {
@@ -772,7 +772,7 @@ textarea {
 }
 
 .staff-template .code-title {
-  color: var(--main-accent);
+  color: #eee;
 }
 
 .code-scroll {
