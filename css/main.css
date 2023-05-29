@@ -675,6 +675,8 @@ textarea {
   font: 400 1rem/1.6 'open sans', sans-serif;
   text-transform: revert;
   width: 100%;
+  background: rgba(255, 255, 255, 10%);
+  color:#aaa;
 }
 
 #omens-body #posting-form #topic-desc input {
