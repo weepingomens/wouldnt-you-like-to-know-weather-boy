@@ -3931,7 +3931,7 @@ a.user-small-info:hover:before {
   text-decoration: underline;
   text-decoration-style: dotted;
   text-underline-offset: 0.2rem;
-  text-decoration-color: rgba(255,255,255,8%);
+  text-decoration-color: rgba(255,255,255,15%);
   font-weight: 700;
   text-decoration-thickness: 0.1rem;
 }
