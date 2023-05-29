@@ -4762,6 +4762,10 @@ a.user-small-info:hover:before {
   display:none;
 }
 
+#main-profile section.content .fix-height {
+  height: 300px;
+}
+
 /* END MAIN PROFILE CONTENT */
 /* START MAIN PROFILE OOC */
 
