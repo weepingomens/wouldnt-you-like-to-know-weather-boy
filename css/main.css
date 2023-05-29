@@ -4045,6 +4045,10 @@ a.user-small-info:hover:before {
   margin-top:0;
 }
 
+.staff-template blockquote + #CODE-WRAP {
+  margin-top: -25px;
+}
+
 /* END SITE STORE TEMPLATE */
 
 /* END ALL POST TEMPLATES */
