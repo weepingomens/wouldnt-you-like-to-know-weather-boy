@@ -3868,6 +3868,11 @@ a.user-small-info:hover:before {
   flex-direction: row-reverse;
 }
 
+.staff-template {
+  width:70ch;
+  margin:auto;
+}
+
 .staff-template .simple-tabs__list {
   display: flex;
   flex-wrap: nowrap;
