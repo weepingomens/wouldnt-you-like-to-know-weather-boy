@@ -4645,8 +4645,7 @@ a.user-small-info:hover:before {
   grid-template-areas:
     "mp-misc-header mp-misc-header"
     "mp-misc-tropes mp-misc-tropes"
-    "mp-misc-body mp-misc-links"
-    "mp-misc-art mp-misc-art";
+    "mp-misc-body mp-misc-links";
   align-items: start;
   gap: 25px;
 }
@@ -4696,7 +4695,6 @@ a.user-small-info:hover:before {
 }
 
 #main-profile section.content .art-credits {
-  grid-area: mp-misc-art;
   display: flex;
 }
 
