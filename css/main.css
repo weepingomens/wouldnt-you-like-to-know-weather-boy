@@ -4150,6 +4150,7 @@ a.user-small-info:hover:before {
   justify-content: start;
   margin-bottom: 10px;
   gap:10px;
+  flex-flow:row wrap;
 }
 
 .post-row .post-container .omens-wanted-1 h1 b {
