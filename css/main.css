@@ -4758,6 +4758,10 @@ a.user-small-info:hover:before {
   font: 700 0.7rem/100% 'open sans', sans-serif;
 }
 
+#main-profile.group-3 .archive {
+  display:none;
+}
+
 /* END MAIN PROFILE CONTENT */
 /* START MAIN PROFILE OOC */
 
