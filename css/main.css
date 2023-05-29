@@ -3972,7 +3972,7 @@ a.user-small-info:hover:before {
 }
 
 .staff-template blockquote {
-  margin: 0;
+  margin: 50px 0;
   padding: 25px;
   border: 2px solid rgba(255, 255, 255, 3%);
 }
@@ -4011,13 +4011,34 @@ a.user-small-info:hover:before {
   color: rgba(255, 255, 255, 15%);
 }
 
-.post-row .post-container .staff-template h4 {
+.post-row .post-container .staff-template h4,
+.staff-template .countdown_row {
   margin: 0;
   padding: 0;
   font: 700 0.6rem 'open sans', sans-serif;
   color: rgba(255, 255, 255, 20%);
   letter-spacing: 0.2rem;
   text-transform: uppercase;
+}
+
+.staff-template .countdown_row {
+  display:flex;
+  justify-content: space-evenly;
+  text-align:center;
+} 
+
+.staff-template #eventCountdown {
+  display:grid;
+  gap:25px;
+}
+
+.staff-template .countdown_amount {
+  font: italic 800 48px/1.5 'playfair display', serif;
+  color: rgba(255, 255, 255, 75%);
+}
+
+.staff-template .countdown_section {
+  color: rgba(255, 255, 255, 50%);
 }
 
 /* END SITE STORE TEMPLATE */

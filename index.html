@@ -754,6 +754,22 @@ if ( '#df8368' !== '' ) {
             <div class="permalink">5 minutes ago - <a name="entry25577" href="https://weepingomens.jcink.net/index.php?showtopic=2989&amp;view=findpost&amp;p=25577">PERMALINK</a> <a href="javascript:void(0);" onclick="SKIFS.quickEdit.edit('4','2989','25577')"><span class="button-small">Edit</span></a> <a href="https://weepingomens.jcink.net/index.php?act=Post&amp;CODE=06&amp;f=4&amp;t=2989&amp;p=25577"><span class="button-small">Quote</span></a>  </div>
             <div class="post-container">
   <div id="pid_25577"><!-- THE POST 25577 --><div class="postcolor"> 
+    <script>
+      /* date format is (year, mth - 1, day, hr, min, sec)
+      ex #1 end 2021 dec 21 at 7:45pm = (2021, 12-1, 21, 19, 45) 
+      ex #2 end 2021 dec 22 @ midnight = (2021, 12-1, 22) - don't need to include 0 values, basically
+      timezone to base countdown on is set at gmt-6
+      current limitation is that there can't be two countdowns on the same page, yell at selkie if this is needed and she'll put in a proper workaround */
+      
+      eventEnd = new Date(2023, 5-1, 22);
+      </script>
+      
+      <script>
+      // HOTFIX BC SELKIE IS TIRED
+      $(function () {
+      $('#eventCountdown').countdown({until: eventEnd, format: 'ywDHM', timezone: -6, description: 'until event concludes', alwaysExpire:1, expiryText: '<div class="countdown_row countdown_descr countdown_expiry">event has concluded!</div>', });
+      });
+      </script>
                 <div class="staff-template">
                     <h2>IT'S TIME FOR A NEW FESTIVAL!</h2>
                     <h4>HAPPY VALENTINE'S 2023, SAN LLORONA!</h4>
@@ -769,6 +785,7 @@ One thing's for certain, this year's fair is not one to miss.
   The fair will run from the course of <b>February 14-18 IC-ly</b>, while its proper duration <b>OOC-ly will be from February 14-March 5</b>, giving everyone a total of <b>three OOC weeks</b> to play around with what the fair has to offer to their hearts' content. Like with all events, participation and completion of threads (within the OOC duration) will net people <b>100PTS</b>. To participate in this event, simply make a thread in <b>Red Tail Gardens</b> and label it with an <b>[e]</b> to differentiate it from other threads in site. 
   <br><br>
   As said earlier, there are <b>many different things you could potentially do in the fair</b>, with a handful of them listed in the nifty program below. Check it out for prompts, shenanigans, mischief, or even fuel for other material! Of course, members are also free to play with the fair to their liking. Let's make the most of this year's Valentine's Day, yeah, San Llorona?</blockquote>
+  <blockquote><div id="eventCountdown"></div></blockquote>
   <!--c1--><table border="0" align="center" width="95%" cellpadding="0" cellspacing="1" id="CODE-WRAP" class="nicole-code"><tbody><tr><td><div class="code-top"><div class="code-title">Code <span class="code-toggle" style="display: none;">• toggle height</span></div> <div class="code-highlight">click here to highlight code</div></div></td></tr><tr><td id="CODE"><div class="code-scroll"><!--ec1-->But the rain! The constant, unending rain!<!--c2--></div></td></tr></tbody></table><!--ec2-->
                 </div>
    </div><!-- THE POST --></div>
@@ -1339,6 +1356,7 @@ $('table.nicole-code .code-highlight').click(function() {
 
 // END CODE AREA SCRIPT
 </script>
+<script type="text/javascript" src="https://files.jcink.net/html/jquery.countdown.min.js"></script>
 </div>
 </body>
 
