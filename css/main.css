@@ -4185,7 +4185,7 @@ a.user-small-info:hover:before {
   border-radius: 100%;
 }
 
-.omens-wanted-1 .want-description img {
+.post-row .post-container .omens-wanted-1 .want-description img {
   width: initial;
   height: initial;
   max-width: 100%;
@@ -4193,6 +4193,7 @@ a.user-small-info:hover:before {
   padding: 0;
   border-radius: 0;
 }
+
 /* END WANTED TEMPLATE SOLO */
 /* START WANTED TEMPLATE MULTI */
 .omens-wanted-1.omens-wanted-1-multi {
