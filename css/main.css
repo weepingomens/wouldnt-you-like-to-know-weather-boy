@@ -4068,6 +4068,123 @@ a.user-small-info:hover:before {
 /* START WANTED TEMPLATES */
 /* START WANTED TEMPLATE SOLO */
 
+.omens-wanted-1 {
+  display:grid;
+  align-items: center;
+  grid: min-content min-content min-content / 154px auto;
+  grid-template-areas:
+  "want-title want-title"
+  "want-image want-basics"
+  "want-desc want-desc";
+  gap: 25px 50px;
+  padding-bottom: 50px;
+  margin: 0 auto;
+  border-bottom: 10px solid var(--custom);
+}
+
+.omens-wanted-1 .want-svg,
+.omens-wanted-1 #want-path {
+  display:none;
+}
+
+.omens-wanted-1 .want-title {
+  background-color: var(--custom);
+  position: relative;
+  text-transform: lowercase;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  width:calc(100% - 100px);
+  padding:50px;
+}
+
+.omens-wanted-1 .want-title:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-image: url(https://weepingomens.github.io/wouldnt-you-like-to-know-weather-boy/src/img/city-background.png);
+  pointer-events: none;
+  z-index: 0;
+  top: 0;
+  left: 0;
+  opacity: 7%;
+  filter: grayscale(1);
+}
+
+.omens-wanted-1 .want-title {
+  grid-area:want-title;
+  font: italic 900 48px 'playfair display', serif;
+  color: #1c1c1c;
+}
+
+.omens-wanted-1 .want-title span {
+  font: 700 0.6rem 'open sans', sans-serif;
+  color: #1c1c1c;
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+}
+
+.post-row .post-container .omens-wanted-1 .want-basics {
+  grid-area:want-basics;
+  font: 700 0.6rem/2 'open sans',sans-serif;
+  text-transform:uppercase;
+}
+
+.post-row .post-container .omens-wanted-1 .want-basics b {
+  font-weight:700;
+  color:#eee;
+  text-decoration: underline;
+    text-decoration-style: dotted;
+    text-underline-offset: 0.2rem;
+    text-decoration-color: rgba(255,255,255,15%);
+    letter-spacing:.05rem;
+    text-decoration-thickness: 0.1rem;
+}
+
+.post-row .post-container .omens-wanted-1 h1 {
+  font: 800 25px/100% 'Playfair Display', serif;
+  color: rgba(255, 255, 255, 10%);
+  letter-spacing:0;
+  display:grid;
+  justify-content: start;
+  margin-bottom:10px;
+}
+
+.post-row .post-container .omens-wanted-1 h1 b {
+  font-weight:800;
+  color:var(--custom);
+}
+
+.post-row .post-container .omens-wanted-1 .want-description {
+  grid-area:want-desc;
+  width: 50ch;
+    margin: 0 auto;
+    border: 2px solid rgba(255,255,255,3%);
+    padding: 50px;
+}
+
+.post-row .post-container .omens-wanted-1 .want-description b {
+  color:var(--custom);
+  text-decoration: underline;
+  text-decoration-style: solid;
+  text-underline-offset: 0.2rem;
+  text-decoration-color: rgba(255,255,255,5%);
+  text-decoration-thickness: 0.1rem;
+  font-family:'Montserrat',sans-serif;
+}
+
+.post-row .post-container .omens-wanted-1 img {
+  width:100px;
+  height:100px;
+  grid-area:want-image;
+  border: 2px solid rgba(255,255,255,3%);
+  padding:25px;
+  border-right-color: var(--custom);
+  border-radius: 100%;
+}
+
 /* END WANTED TEMPLATE SOLO */
 /* END WANTED TEMPLATES */
 
