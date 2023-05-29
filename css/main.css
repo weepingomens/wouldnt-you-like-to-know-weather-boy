@@ -3903,7 +3903,7 @@ a.user-small-info:hover:before {
   transition: .25s;
 }
 
-.staff-template.grimoire .simple-tabs__list-item>span {
+.staff-template.small-tabs .simple-tabs__list-item>span {
   font: italic 800 18px/100% 'Playfair Display', serif;
 }
 
