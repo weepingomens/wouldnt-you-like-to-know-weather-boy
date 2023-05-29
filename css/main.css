@@ -4763,7 +4763,7 @@ a.user-small-info:hover:before {
 }
 
 #main-profile section.content .fix-height {
-  height: 300px;
+  height: 300px!important;
 }
 
 /* END MAIN PROFILE CONTENT */
