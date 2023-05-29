@@ -782,7 +782,7 @@ textarea {
 }
 
 .code-scroll {
-  border:25px transparent;
+  border:25px solid transparent;
   background: rgba(255, 255, 255, 3%);
   font-size: .9rem;
   padding-right:25px;
