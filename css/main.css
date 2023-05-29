@@ -4238,10 +4238,7 @@ a.user-small-info:hover:before {
   grid-area: multi-1-details;
   text-transform: uppercase;
   align-self: start;
-  background: #eee;
-  color: #222;
-  padding: 5px;
-  border-radius: 5px;
+  font: 700 0.6rem 'open sans', sans-serif;
 }
 
 .omens-wanted-1-multi .want-character .want-char-desc {
