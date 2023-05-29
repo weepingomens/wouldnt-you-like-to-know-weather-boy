@@ -4214,10 +4214,17 @@ a.user-small-info:hover:before {
   grid-area: multi-1-img;
     margin: 0px;
     border-radius: 100%;
-    border: 3px solid #444;
-    width: 60px;
-    height: 60px;
+    width: 75px;
+    height: 75px;
 } 
+
+.omens-wanted-1-multi .want-img img {
+  padding: 0;
+  border: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 0;
+}
 
 .omens-wanted-1-multi .want-character h1 {
   grid-area: multi-1-char;
