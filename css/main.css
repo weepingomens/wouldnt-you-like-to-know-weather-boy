@@ -3920,7 +3920,7 @@ a.user-small-info:hover:before {
 .staff-template strong {
   color: #ddd;
   text-decoration: underline;
-  text-decoration-style: solid;
+  text-decoration-style: dotted;
   text-underline-offset: 0.2rem;
   text-decoration-color: rgba(255,255,255,8%);
   font-weight: 700;
