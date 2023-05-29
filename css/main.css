@@ -4690,8 +4690,9 @@ a.user-small-info:hover:before {
 #main-profile section.content .spells {
   text-transform: uppercase;
   position: relative;
-  min-height: 70px;
-  align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 #main-profile section.content .art-credits {
@@ -4716,14 +4717,9 @@ a.user-small-info:hover:before {
 #main-profile section.content .art-credits em,
 #main-profile section.content .spells em {
   display: block;
-  font: 800 70px/100% 'Playfair Display', serif;
+  font: 800 30px/100% 'Playfair Display', serif;
   text-transform: uppercase;
-  letter-spacing: .01em;
-  color: rgba(255, 255, 255, 5%);
-  position: absolute;
-  left: 0;
-  margin-top: -5px;
-  pointer-events: none;
+  color: rgba(255, 255, 255, 25%);
 }
 
 #main-profile section.content .art-credits span,
