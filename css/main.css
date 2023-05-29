@@ -4662,6 +4662,7 @@ a.user-small-info:hover:before {
 
 #main-profile section.content .misc .misc-body {
   grid-area: mp-misc-body;
+  line-height: 1.625rem;
 }
 
 #main-profile section.content .quicklinks {
