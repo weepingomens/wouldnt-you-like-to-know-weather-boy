@@ -782,9 +782,12 @@ textarea {
 }
 
 .code-scroll {
-  padding: 25px;
+  border:25px transparent;
   background: rgba(255, 255, 255, 3%);
   font-size: .9rem;
+  padding-right:25px;
+  max-height:250px;
+  overflow:auto;
 }
 
 #CODE-WRAP {
