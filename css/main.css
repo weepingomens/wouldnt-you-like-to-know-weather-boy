@@ -3522,7 +3522,9 @@ header.communications:before {
 }
 
 .user-details li {
-  text-align:center;
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
 .user-details em {
@@ -3532,7 +3534,6 @@ header.communications:before {
   padding: 5px;
   border-radius: 3px;
   color: #1c1c1c;
-  margin: 0 5px;
   display: inline-block;
 }
 
