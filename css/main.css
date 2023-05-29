@@ -4175,7 +4175,7 @@ a.user-small-info:hover:before {
   text-decoration-thickness: 0.1rem;
 }
 
-.post-row .post-container .omens-wanted-1 img {
+.omens-wanted-1 img {
   width:100px;
   height:100px;
   grid-area:want-image;
@@ -4185,7 +4185,7 @@ a.user-small-info:hover:before {
   border-radius: 100%;
 }
 
-.post-row .post-container .omens-wanted-1 .want-description img {
+.omens-wanted-1 .want-description img {
   width: initial;
   height: initial;
   max-width: 100%;
@@ -4219,7 +4219,7 @@ a.user-small-info:hover:before {
     height: 75px;
 } 
 
-.omens-wanted-1-multi .want-img img {
+.omens-wanted-1.omens-wanted-1-multi .want-img img {
   padding: 0;
   border: 0;
   width: 100%;
