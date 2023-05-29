@@ -4354,7 +4354,7 @@ a.user-small-info:hover:before {
 }
 
 #omens-page-brochure cw,
-#omens-page-brochure section.content cw-toggle,
+#omens-page-brochure cw-toggle,
 #main-profile section.content cw,
 #main-profile section.content cw-toggle {
   display: grid;
