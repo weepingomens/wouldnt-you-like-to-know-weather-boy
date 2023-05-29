@@ -4709,6 +4709,7 @@ a.user-small-info:hover:before {
   gap: 5px 10px;
   flex-flow: row wrap;
   color: #eee;
+  margin-top:10px;
 }
 
 #main-profile.group-8 section.content .spells {
