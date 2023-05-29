@@ -4671,6 +4671,12 @@ a.user-small-info:hover:before {
   display:none;
 }
 
+#main-profile .misc-grid.no-tropes.no-quicklinks {
+  grid-template-areas:
+  "mp-misc-header mp-misc-header"
+  "mp-misc-body mp-misc-body";
+}
+
 #main-profile section.content .misc .header {
   grid-area: mp-misc-header;
   margin-bottom: 0;
