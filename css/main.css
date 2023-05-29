@@ -4341,6 +4341,8 @@ a.user-small-info:hover:before {
   border: 2px solid rgba(255, 255, 255, 3%);
 }
 
+#omens-page-brochure section.content cw,
+#omens-page-brochure section.content cw-toggle,
 #main-profile section.content cw,
 #main-profile section.content cw-toggle {
   display: grid;
@@ -4350,6 +4352,8 @@ a.user-small-info:hover:before {
   color: rgba(255, 255, 255, 33%);
 }
 
+#omens-page-brochure cw:before,
+#omens-page-brochure cw-toggle:before,
 #main-profile section.content cw:before,
 #main-profile section.content cw-toggle:before {
   content: "this biography contains";
@@ -4358,6 +4362,7 @@ a.user-small-info:hover:before {
   color: rgba(255, 255, 255, 50%);
 }
 
+#omens-page-brochure cw-toggle:after,
 #main-profile section.content cw-toggle:after {
   font: italic 800 32px/100% 'Playfair Display', serif;
   text-transform: lowercase;
@@ -4366,20 +4371,24 @@ a.user-small-info:hover:before {
   pointer-events: auto;
 }
 
+#omens-page-brochure cw-toggle:hover:after,
 #main-profile section.content cw-toggle:hover:after {
   cursor: crosshair;
   color: rgba(var(--main-accent-rgb), .9);
   transition: .25s;
 }
 
+#omens-page-brochure cw-toggle.omensbuttonhidecontent:after,
 #main-profile section.content cw-toggle.omensbuttonhidecontent:after {
   content: 'click to hide sensitive content';
 }
 
+#omens-page-brochure cw-toggle.omensbuttonshowcontent:after,
 #main-profile section.content cw-toggle.omensbuttonshowcontent:after {
   content: 'click to show sensitive content';
 }
 
+#omens-page-brochure censor.omenscensorhidecontent,
 #main-profile section.content censor.omenscensorhidecontent {
   color: transparent;
   background: #111;
