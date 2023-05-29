@@ -4195,7 +4195,7 @@ a.user-small-info:hover:before {
 #main-profile .simple-tabs {
   background: transparent;
   display: flex;
-  flex-flow: row-reverse nowrap;
+  flex-direction: column;
 }
 
 #main-profile .simple-tabs__list-item>span {
@@ -4221,7 +4221,8 @@ a.user-small-info:hover:before {
   align-items: flex-end;
   position: sticky;
   top: 105px;
-  align-self: flex-start;
+  align-self: flex-end;
+  height: 0;
 }
 
 #main-profile .simple-tabs__list-item>span:hover,
@@ -4238,6 +4239,8 @@ a.user-small-info:hover:before {
 
 #main-profile .simple-tabs__content {
   width: 70ch;
+  display:block;
+  scroll-margin-top: 78px; /* height of nav bar */
 }
 
 #main-profile section.content .header {
@@ -4246,7 +4249,7 @@ a.user-small-info:hover:before {
   text-transform: uppercase;
   letter-spacing: .01em;
   color: rgba(255, 255, 255, 5%);
-  margin-bottom: 25px;
+  margin:25px 0;
 }
 
 #main-profile section.content h1 {

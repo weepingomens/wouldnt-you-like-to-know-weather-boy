@@ -17,12 +17,9 @@
   <link rel="apple-touch-icon" href="/">
   <!-- Place favicon.ico in the root directory -->
 
-  <link rel="stylesheet" href="https://weepingomens.github.io/
-wouldnt-you-like-to-know-weather-boy/css/normalize.css">
-  <link rel="stylesheet" href="https://weepingomens.github.io/
-wouldnt-you-like-to-know-weather-boy/css/variables.css">
-  <link rel="stylesheet" href="https://weepingomens.github.io/
-wouldnt-you-like-to-know-weather-boy/css/main.css">
+  <link rel="stylesheet" href="/css/normalize.css">
+  <link rel="stylesheet" href="/css/variables.css">
+  <link rel="stylesheet" href="/css/main.css">
 
   <meta name="theme-color" content="#222">
 
@@ -1121,13 +1118,11 @@ FillTracker(`JACK ROSENBACH`, trackerParams);
           var $thisTab = $('.simple-tabs__list-item').index(clickedTab);
           $('.simple-tabs__list-item').removeClass('simple-tabs__list-item--active');
           $('.simple-tabs__list-item:eq(' + $thisTab + ')').addClass('simple-tabs__list-item--active');
-          $('.simple-tabs__content').hide();
-          $('.simple-tabs__content:eq(' + $thisTab + ')').show();
+          $('.simple-tabs__content:eq(' + $thisTab + ')').get(0).scrollIntoView();
           currentTab = $thisTab;
         }
 
         $('.simple-tabs__list-item').click(function () {
-document.querySelector("#main-profile section.ooc-info").scrollIntoView();
           openTab($(this));
           return false;
         });
