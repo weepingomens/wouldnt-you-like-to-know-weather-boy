@@ -5020,8 +5020,8 @@ a.user-small-info:hover:before {
 /* START PHONE TEMPLATE 1 */
 
 .omens-phone1-phone {
-  width: 270px;
-  height: 530px;
+  width: 320px;
+  height: 575px;
   background:rgba(255,255,255,3%);
   margin: auto;
   display: flex;
@@ -5083,8 +5083,8 @@ a.user-small-info:hover:before {
 }
 
 .omens-phone1-phone2 {
-  width: 250px;
-  height: 400px;
+  width: 300px;
+  height: 450px;
   display: flex;
   flex-flow: column nowrap;
   align-items: center;
@@ -5180,7 +5180,6 @@ a.user-small-info:hover:before {
   place-items: flex-end;
   place-content: flex-start;
   gap: 10px;
-  height: 317px;
   overflow: auto;
   text-align: center;
   position: relative;
@@ -5291,7 +5290,7 @@ a.user-small-info:hover:before {
   font-size: 10px;
   width: 10px;
   height: 10px;
-  color: #111;
+  color: #1c1c1c;
   cursor: pointer;
   flex-shrink:0;
 }
@@ -5318,24 +5317,23 @@ a.user-small-info:hover:before {
   background: var(--custom);
   position: absolute;
   height: 0px;
-  right: 10px;
-  bottom: 15px;
+  right: 20px;
+  bottom: 30px;
   color: transparent;
   pointer-events: none;
   width: 0px;
 }
 
 .omens-phone1-phone react:before {
-  width: 20px;
-  height: 20px;
   position: absolute;
   background: var(--custom);
   border-radius: 100%;
-  color: #222;
+  color: #1c1c1c;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 12px;
+  font-size: 25px;
+  padding: 5px;
 }
 
 .omens-phone1-phonecall {

@@ -41,14 +41,7 @@ $('censor').toggleClass('omenscensorshowcontent omenscensorhidecontent');
 });
 
 
-// for reaction in phone templates
 
-$( "react:contains('heart')" ).addClass("fas fa-heart");
-$( "react:contains('haha')" ).addClass("fas fa-laugh-squint");
-$( "react:contains('thumbsup')" ).addClass("fas fa-thumbs-up");
-$( "react:contains('thumbsdown')" ).addClass("fas fa-thumbs-down");
-$( "react:contains('exclamation')" ).addClass("fas fa-exclamation");
-$( "react:contains('question')" ).addClass("fas fa-question");
 
 /*
 FOR THE LOVE OF GOD, REDO THIS SCRIPTING
