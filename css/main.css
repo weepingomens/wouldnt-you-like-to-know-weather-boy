@@ -4371,6 +4371,9 @@ a.user-small-info:hover:before {
   margin-top:50px;
 }
 
+.omens-development-1.omens-development-1-lyrics header + lyrics {
+  margin-top:50px;
+}
 /* END DEVELOPMENT LYRIC TEMPLATE */
 /* START DEV PLAYLIST TEMPLATE */
 
@@ -4422,6 +4425,7 @@ a.user-small-info:hover:before {
 .omens-development-1.omens-development-1-playlist iframe {
   margin: 25px 50px;
 }
+
 /* END DEV PLAYLIST TEMPLATE */
 /* START DEV DRABBLE TEMPLATE */
 .omens-development-1 drabble {
