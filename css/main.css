@@ -4271,6 +4271,10 @@ a.user-small-info:hover:before {
   padding-bottom:50px;
 }
 
+.omens-development-1 br {
+  display:none;
+}
+
 .omens-development-1 header {
   background-color: var(--custom);
   position: relative;
