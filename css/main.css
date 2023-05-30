@@ -4880,9 +4880,10 @@ a.user-small-info:hover:before {
 }
 
 .omens-twit-1 .twit-contain .tweet {
-  padding: 25px;
-  border:2px solid rgba(255,255,255,3%);
+  border: 2px solid rgba(255,255,255,3%);
   position: relative;
+  border-width: 0 0 0 2px;
+  padding: 0 0 0 25px;
 }
 
 .omens-twit-1 .twit-contain .tweet b {
