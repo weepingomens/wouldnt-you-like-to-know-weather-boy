@@ -4457,6 +4457,8 @@ a.user-small-info:hover:before {
     text-underline-offset: 0.2rem;
     text-decoration-color: var(--custom);
     text-decoration-thickness: 0.1rem;
+    color:#eee;
+    font-weight:500;
 }
 
 /* END DEV DRABBLE TEMPLATE */
