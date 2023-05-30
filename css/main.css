@@ -5012,7 +5012,8 @@ a.user-small-info:hover:before {
 }
 
 #omens-main .post-row .omens-phone-template msg br,
-#omens-main .post-row .omens-phone-template received br {
+#omens-main .post-row .omens-phone-template received br,
+#omens-main .post-row .omens-phone-template speech br {
   display:block;
 }
 
@@ -5344,22 +5345,20 @@ a.user-small-info:hover:before {
   height: 100%;
   place-items: center;
   place-content: center;
-  font: 500 12px/15px roboto;
-  color: #eee;
 }
 
 .omens-phone1-phonecall.omens-phone-convo speech {
-  max-height: 75px;
+  max-height: 92px;
   overflow: auto;
   margin: 15px;
   border: 10px solid var(--custom);
-  text-align: justify;
-  text-align-last: center;
+  text-align:center;
   background: var(--custom);
-  color: #222;
+  color: #1c1c1c;
   border-radius: 5px;
-  top: 252px;
+  bottom: 0;
   position: absolute;
+  font: 600 0.9rem 'open sans',sans-serif;
 }
 
 .omens-phone1-phonecall.omens-phone-convo tagged:after {
@@ -5368,7 +5367,7 @@ a.user-small-info:hover:before {
   width: 20px;
   height: 20px;
   background: var(--custom);
-  top: 180px;
+  top: 200px;
   left: 0;
   clip-path: polygon(50% 25%, 0% 100%, 100% 100%);
 }
@@ -5377,11 +5376,6 @@ a.user-small-info:hover:before {
   width: 150px;
   height: 150px;
   z-index: 1;
-}
-
-.omens-phone1-phonecall.omens-phone-convo speech br {
-  display: revert;
-
 }
 
 .omens-phone1-phonecall.omens-phone-convo speech::-webkit-scrollbar {
@@ -5419,15 +5413,16 @@ a.user-small-info:hover:before {
   top: 25px;
   display: grid;
   text-align: center;
-  font: 400 24px raleway;
+  font: italic 900 2rem 'playfair display', serif;
   place-items: center;
 }
 
 .omens-phone1-phonecall tagged:before {
   content: 'outgoing call to';
-  font: 900 10px roboto;
+  letter-spacing: 0.2rem;
+  font: 700 0.6rem 'open sans', sans-serif;
   text-transform: uppercase;
-  color: #555;
+  color: rgba(255,255,255,20%);
 }
 
 .omens-phone1-phonecall tagged a {
