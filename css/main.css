@@ -4328,6 +4328,18 @@ a.user-small-info:hover:before {
   margin:5px;
 }
 /* END DEVELOPMENT MOODBOARD TEMPLATE */
+/* START DEVELOPMENT QUOTE TEMPLATE */
+.omens-development-1 quotebox {
+  font: italic 700 2rem 'playfair display',serif;
+  padding: 50px;
+}
+
+.omens-development-1 cite {
+  font: 700 0.6rem 'open sans', sans-serif;
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+}
+/* END DEVELOPMENT QUOTE TEMPLATE */
 /* END DEVELOPMENT TEMPLATES */
 /* END ALL POST TEMPLATES */
 /* BEGIN MAIN PROFILE */
