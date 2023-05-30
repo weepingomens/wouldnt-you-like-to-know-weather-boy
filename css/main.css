@@ -4358,6 +4358,7 @@ a.user-small-info:hover:before {
   text-transform:lowercase;
 }
 
+#omens-main .post-row .omens-development-1 quotebox br,
 #omens-main .post-row .omens-development-1 lyrics br {
   display:block;
 }
