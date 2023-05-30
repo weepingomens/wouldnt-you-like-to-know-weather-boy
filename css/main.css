@@ -4373,6 +4373,10 @@ a.user-small-info:hover:before {
 /* END DEVELOPMENT LYRIC TEMPLATE */
 /* START DEV PLAYLIST TEMPLATE */
 
+.omens-development-1.omens-development-1-playlist {
+  gap:25px;
+}
+
 .omens-development-1.omens-development-1-playlist h1:before {
   content: "view this playlist";
 }
