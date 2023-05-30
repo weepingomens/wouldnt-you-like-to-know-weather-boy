@@ -4373,9 +4373,22 @@ a.user-small-info:hover:before {
 /* END DEVELOPMENT LYRIC TEMPLATE */
 /* START DEV PLAYLIST TEMPLATE */
 
+.omens-development-1.omens-development-1-playlist h1:before {
+  content: "view this playlist";
+}
+
 .omens-development-1.omens-development-1-playlist a {
-  display:flex;
+  display:block;
   width:100%;
+  margin: 0 50px;
+}
+
+.omens-development-1.omens-development-1-playlist song {
+  display: grid;
+}
+
+.omens-development-1.omens-development-1-playlist song b {
+  font: italic 700 2rem 'playfair display',serif;
 }
 
 /* END DEV PLAYLIST TEMPLATE */
