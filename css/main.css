@@ -4358,6 +4358,7 @@ a.user-small-info:hover:before {
   text-transform: lowercase;
   font: italic 500 1rem/2 'open sans', sans-serif;
   letter-spacing: .05rem;
+  color: #eee;
 }
 
 #omens-main .post-row .omens-development-1 quotebox br,
