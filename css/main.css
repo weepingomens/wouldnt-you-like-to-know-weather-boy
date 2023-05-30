@@ -5555,10 +5555,12 @@ a.user-small-info:hover:before {
   position: absolute;
   top: 0;
   left: 0;
-  color: #ddd;
+  color: rgba(255,255,255,80%);
   gap: 5px;
   padding: 5px 10px;
-  font: 700 10px montserrat;
+  font: 700 0.6rem 'open sans', sans-serif;
+  letter-spacing: 0.05rem;
+  text-transform: uppercase;
   z-index: 1;
 }
 
@@ -5585,7 +5587,7 @@ a.user-small-info:hover:before {
   width: 33%;
   margin-left: -10%;
   height: 2px;
-  background: #1f1f1f;
+  background: rgba(255,255,255,15%);
 }
 
 .omens-phone-2 .phone-contain .phone-deco:after {
@@ -5593,7 +5595,7 @@ a.user-small-info:hover:before {
   position: absolute;
   width: 7px;
   height: 7px;
-  background: #1f1f1f;
+  background: rgba(255,255,255,15%);
   border-radius: 100%;
   margin-left: 50%;
 }
@@ -5617,56 +5619,46 @@ a.user-small-info:hover:before {
 }
 
 .omens-phone-2 .phone-contain .phone-messages::-webkit-scrollbar-thumb {
-  background: #ddd;
+  background: rgba(255,255,255,80%);
   border-radius: 5px;
 }
 
 .omens-phone-2 .phone-contain .phone-messages tagged {
   display: block;
-  font: 400 20px montserrat;
+  font: italic 900 2rem/1 'playfair display', serif;
   font-style: italic;
-  color: #ddd;
+  color: rgba(255,255,255,80%);
   align-self: flex-end;
   text-align: right;
   flex-grow: 1;
   max-width: 90%;
 }
 
-.phone-messages br {
-  display: none;
-}
-
-.phone-messages msg br,
-.phone-messages received br {
-  display: block;
-}
-
 .omens-phone-2 .phone-contain .phone-messages msg,
 .omens-phone-2 .phone-contain .phone-messages received {
-  font: 500 11px montserrat;
   max-width: 75%;
-  text-align: justify;
+  font: 600 0.8rem 'open sans',sans-serif;
 }
 
 .omens-phone-2 .phone-contain .phone-messages msg {
   background: var(--custom);
   padding: 10px;
   border-radius: 5px;
-  color: #111;
+  color: #1c1c1c;
   align-self: flex-end;
   justify-self: flex-end;
   position: relative;
-  text-align-last: right;
 }
 
 .omens-phone-2 .phone-contain .phone-messages received {
-  background: rgba(0, 0, 0, 25%);
+  background: rgba(0, 0, 0, 33%);
   padding: 8px;
   border-radius: 7px;
-  color: #ddd;
+  color: rgba(255,255,255,80%);
   align-self: flex-start;
   margin-left: 5px;
   position: relative;
+  font-weight:400;
 }
 
 .omens-phone-2 .phone-contain .phone-messages msg img,
@@ -5681,13 +5673,13 @@ a.user-small-info:hover:before {
   position: absolute;
   color: transparent;
   opacity: 33%;
-  bottom: -10px;
-  right: -23px;
+  bottom: 10px;
+  right: -10px;
   transform: rotate(-20deg);
 }
 
 .omens-phone-2 .phone-contain .phone-messages received react:before {
-  color: #eee;
+  color: rgba(255,255,255,80%);
   font-size: 25px;
   display: block;
 }
@@ -5723,12 +5715,12 @@ a.user-small-info:hover:before {
 }
 
 .omens-phone-2 .phone-contain .phone-deco3 .phone-messagebox {
-  background: rgba(0, 0, 0, 25%);
+  background: rgba(0, 0, 0, 33%);
   padding: 8px 25px;
   border-radius: 25px;
-  color: #ddd;
+  color: rgba(255,255,255,80%);
   align-self: flex-start;
-  border: 2px solid #ddd;
+  border: 2px solid rgba(255,255,255,80%);
   font: 700 8px montserrat;
   text-transform: uppercase;
   height: 14px;
@@ -5737,7 +5729,7 @@ a.user-small-info:hover:before {
 }
 
 .omens-phone-2 .phone-contain .phone-deco3 .phone-messagebox div {
-  border-right: 2px solid #ddd;
+  border-right: 2px solid rgba(255,255,255,80%);
   animation: omens-phone1-typing-blink 1.5s 1.5s step-end infinite;
 }
 
@@ -5753,9 +5745,9 @@ a.user-small-info:hover:before {
   place-items: center;
   place-content: center;
   padding: 10px;
-  border: 2px solid #ddd;
+  border: 2px solid rgba(255,255,255,80%);
   border-radius: 100%;
-  color: #ddd;
+  color: rgba(255,255,255,80%);
   font-size: 16px;
 }
 
@@ -5776,45 +5768,51 @@ a.user-small-info:hover:before {
   display: none;
 }
 
+.omens-phone-2 .phone-contain .phone-callscreen tagged:before,
 .omens-phone-2 .phone-contain .phone-dialscreen tagged:before {
+  display:block;
   content: "now calling...";
-  font: 700 8px/8px montserrat;
+  letter-spacing: 0.2rem;
+  font: 700 0.6rem 'open sans', sans-serif;
   text-transform: uppercase;
-  position: absolute;
-  right: 0;
-  top: -10px;
-  opacity: 50%;
+  letter-spacing: 0.2rem;
+  color: rgba(255,255,255,50%);
 }
 
-.omens-phone-2 .phone-contain .phone-dialscreen tagged, .omens-phone-2 .phone-contain .phone-dialscreen tagged2 {
-  font: 400 20px montserrat;
-  font-style: italic;
-  color: #ddd;
+.omens-phone-2 .phone-contain .phone-dialscreen tagged,
+.omens-phone-2 .phone-contain .phone-dialscreen tagged2,
+.omens-phone-2 .phone-contain .phone-callscreen tagged {
+  font: italic 900 2rem/1 'playfair display', serif;
+  color: rgba(255,255,255,80%);
   text-align: right;
   position: relative;
-  margin-top: 10px;
-  min-width: 75%;
+  z-index:1;
+  width: 100%;
+  display:block;
 }
 
 .omens-phone-2 .phone-contain .phone-dialdeco {
   display: grid;
   grid: min-content min-content / min-content min-content min-content;
   gap: 10px;
+  position:absolute;
 }
 
 .omens-phone-2 .phone-contain .phone-dialdeco ion-icon {
   padding: 10px;
   background: rgba(255, 255, 255, 20%);
   border-radius: 100%;
-  color: #eee;
+  color: rgba(255,255,255,80%);
   font-size: 30px;
 }
 
 .omens-phone-2 .phone-contain .phone-dialdeco2 {
   font-size: 40px;
-  color: #eee;
+  color: rgba(255,255,255,80%);
   transform: rotate(135deg);
   animation: 1.5s phone-button-float linear infinite;
+  position: absolute;
+  bottom: 10px;
 }
 
 .omens-phone-2 .phone-contain .phone-callscreen {
@@ -5824,7 +5822,7 @@ a.user-small-info:hover:before {
   height: 410px;
   overflow: auto;
   display: grid;
-  grid: auto min-content min-content/1fr;
+  grid: min-content min-content auto min-content / 1fr;
   place-items: start center;
   gap: 10px;
   position: relative;
@@ -5844,23 +5842,10 @@ a.user-small-info:hover:before {
 
 .omens-phone-2 .phone-contain .phone-callscreen tagged:before {
   content: "speaking to...";
-  font: 700 8px/8px montserrat;
-  text-transform: uppercase;
-  position: absolute;
-  right: 0;
-  top: -10px;
-  opacity: 50%;
 }
 
 .omens-phone-2 .phone-contain .phone-callscreen tagged {
-  font: 400 20px montserrat;
-  font-style: italic;
-  color: #ddd;
-  text-align: right;
-  position: relative;
-  margin-top: 10px;
   order: 1;
-  min-width: 75%;
 }
 
 .omens-phone-2 .phone-contain .phone-callscreen .phone-icon,
@@ -5881,7 +5866,7 @@ a.user-small-info:hover:before {
 .omens-phone-2 .phone-contain .phone-calldeco {
   align-self: end;
   font-size: 40px;
-  color: #eee;
+  color: rgba(255,255,255,80%);
   transform: rotate(135deg);
   order: 4;
 }
@@ -5891,10 +5876,10 @@ a.user-small-info:hover:before {
   border: 10px solid transparent;
   padding: 0px 5px;
   border-radius: 7px;
-  color: #ddd;
-  font: 500 12px montserrat;
+  color: rgba(255,255,255,75%);
+  font: 600 0.8rem 'open sans',sans-serif;
   text-align: center;
-  max-height: 130px;
+  max-height: 90px;
   overflow: auto;
   position: relative;
   z-index: 2;
@@ -5906,12 +5891,12 @@ a.user-small-info:hover:before {
 }
 
 .omens-phone-2 .phone-contain .phone-callscreen speech i {
-  color: #fff;
+  color: rgba(255,255,255,80%);
   font-weight: 600;
 }
 
 .omens-phone-2 .phone-contain .phone-callscreen speech::-webkit-scrollbar-thumb {
-  background: #eee;
+  background: rgba(255,255,255,80%);
   border-radius: 5px;
 }
 
