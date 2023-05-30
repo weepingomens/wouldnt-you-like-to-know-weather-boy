@@ -4214,8 +4214,7 @@ a.user-small-info:hover:before {
   gap: 0 25px;
   border-bottom: 2px solid rgba(255,255,255,3%);
   padding-bottom: 25px;
-  width: calc(100% - 100px);
-  margin: 0 50px;
+  width:100%;
 }
 
 .omens-wanted-1-multi .want-img {
