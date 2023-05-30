@@ -4977,9 +4977,9 @@ a.user-small-info:hover:before {
   position: absolute;
   bottom: -75px;
   right: -25px;
-  color: #eee;
+  color: rgba(255,255,255,25%);
   pointer-events: none;
-  opacity: 5%;
+  mix-blend-mode: color;
   font-size: 250px;
 }
 /* END SM TWITTER REPLY */
