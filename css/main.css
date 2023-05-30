@@ -4385,6 +4385,7 @@ a.user-small-info:hover:before {
   display:block;
   width:100%;
   margin: 0 50px;
+  text-align: center;
 }
 
 .omens-development-1.omens-development-1-playlist song {
@@ -4393,6 +4394,14 @@ a.user-small-info:hover:before {
 
 .omens-development-1.omens-development-1-playlist song b {
   font: italic 700 2rem 'playfair display',serif;
+}
+
+.omens-development-1.omens-development-1-playlist song cite {
+  color: rgba(255,255,255,25%);
+}
+
+.omens-development-1.omens-development-1-playlist a:hover song {
+  letter-spacing:0.05em;
 }
 
 .omens-development-1.omens-development-1-playlist h1 {
