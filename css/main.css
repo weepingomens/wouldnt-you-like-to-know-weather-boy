@@ -4266,9 +4266,9 @@ a.user-small-info:hover:before {
   display:flex;
   flex-flow:row wrap;
   justify-content: center;
-  margin:0 50px;
+  margin:0 40px;
   border-bottom: 10px solid var(--custom);
-  padding-bottom:5px;
+  padding-bottom:50px;
 }
 
 .omens-development-1 header {
@@ -4287,7 +4287,7 @@ a.user-small-info:hover:before {
 }
 
 .omens-development-1.omens-development-1-moodboard header {
-  margin-bottom:5px;
+  margin-bottom: 50px;
 }
 
 .omens-development-1 header:before {
