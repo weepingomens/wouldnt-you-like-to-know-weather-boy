@@ -4873,7 +4873,7 @@ a.user-small-info:hover:before {
 .omens-twit-1 .twit-contain {
   padding: 50px;
   display: grid;
-  gap: 10px;
+  gap: 25px;
 }
 
 .omens-twit-1 .twit-contain .tweet {
@@ -4921,6 +4921,7 @@ a.user-small-info:hover:before {
 /* END SM TWITTER */
 /* START SM TWITTER REPLY */
 .omens-twit-2 {
+  margin: 35px;
   padding: 25px;
   position: relative;
   overflow: hidden;
