@@ -4331,6 +4331,10 @@ a.user-small-info:hover:before {
   padding: 50px;
 }
 
+.omens-development-1 quotebox br {
+  display:block;
+}
+
 .omens-development-1 cite {
   font: 700 0.6rem 'open sans', sans-serif;
   letter-spacing: 0.2rem;
