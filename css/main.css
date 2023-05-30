@@ -764,9 +764,10 @@ textarea {
 }
 
 .code-title {
-  font: 700 24px/100% 'playfair display', serif;
-  text-transform: lowercase;
-  color: var(--main-accent);
+  font: 700 2rem/1 'playfair display', serif;
+  color: rgba(255,255,255,33%);
+  text-transform: uppercase;
+  letter-spacing: .05rem;
 }
 
 .code-highlight {
@@ -790,6 +791,7 @@ textarea {
   padding-right:25px;
   max-height:250px;
   overflow:auto;
+  word-break: break-all;
 }
 
 #CODE-WRAP {
