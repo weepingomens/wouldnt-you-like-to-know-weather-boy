@@ -4338,6 +4338,7 @@ a.user-small-info:hover:before {
   font: 700 0.6rem 'open sans', sans-serif;
   letter-spacing: 0.2rem;
   text-transform: uppercase;
+  height: 100%;
 }
 /* END DEVELOPMENT QUOTE TEMPLATE */
 /* END DEVELOPMENT TEMPLATES */
