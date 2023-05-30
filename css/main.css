@@ -4664,7 +4664,9 @@ a.user-small-info:hover:before {
 
 .omens-insta-2 #insta-tags {
   display: flex;
-  flex-flow: row-wrap;
+  font: 700 0.6rem 'open sans', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
   gap: 10px;
   justify-content: center;
   margin: 35px;
