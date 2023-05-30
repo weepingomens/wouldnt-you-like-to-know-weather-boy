@@ -4500,8 +4500,9 @@ a.user-small-info:hover:before {
   position: absolute;
   top: 0px;
   right: 0px;
-  color: rgba(255,255,255,15%);
+  color: rgba(255,255,255,25%);
   pointer-events: none;
+  mix-blend-mode: color;
 }
 
 .omens-insta-1 .insta-title .insta-deco i {
@@ -4916,6 +4917,74 @@ a.user-small-info:hover:before {
 }
 
 /* END SM TWITTER */
+/* START SM TWITTER REPLY */
+.omens-twit-2 {
+  margin: 35px;
+  padding: 25px;
+  background: #222;
+  border-radius: 5px;
+  position: relative;
+  overflow: hidden;
+}
+
+.omens-twit-2 b {
+  display: block;
+  font: 700 24px montserrat;
+  color: var(--custom);
+  margin-bottom: 10px;
+  display: flex;
+  position: relative;
+  z-index: 1;
+}
+
+.omens-twit-2 b span {
+  display: block;
+  font: 500 24px montserrat;
+  color: #666;
+  margin-left: 10px;
+}
+
+#retweet.omens-twit-2 .twit-retweet, #reply.omens-twit-2 .twit-retweet {
+  color: var(--custom);
+  font: 700 20px roboto;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+
+#retweet.omens-twit-2 .twit-retweet i, #reply.omens-twit-2 .twit-retweet i {
+  margin-right: 10px;
+}
+
+.omens-twit-2 .tweet {
+  font: 500 15px roboto;
+  color: #aaa;
+  background: #333;
+  padding: 25px;
+  border-radius: 5px;
+  position: relative;
+  z-index: 1;
+}
+
+.omens-twit-2 .tweet img {
+  display: block;
+  margin: 20px auto 0px;
+  border-radius: 5px;
+  max-width: 500px;
+}
+
+.omens-twit-2 #tweet-deco {
+  position: absolute;
+  bottom: -75px;
+  right: -25px;
+  color: #eee;
+  pointer-events: none;
+  opacity: 5%;
+  font-size: 250px;
+}
+/* END SM TWITTER REPLY */
 /* END SM TEMPLATES */
 /* END ALL POST TEMPLATES */
 /* BEGIN MAIN PROFILE */
