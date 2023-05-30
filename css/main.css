@@ -4355,6 +4355,7 @@ a.user-small-info:hover:before {
   padding: 25px;
   width: calc(100% - 50px);
   margin: 0 50px;
+  text-transform:lowercase;
 }
 
 .omens-development-1 lyrics br {
