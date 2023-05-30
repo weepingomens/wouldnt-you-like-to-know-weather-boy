@@ -4161,7 +4161,7 @@ a.user-small-info:hover:before {
 .post-row .post-container .omens-wanted-1 .want-description {
   grid-area:want-desc;
   width: 50ch;
-    margin: 0 auto;
+    margin: 25px auto 0;
     border: 2px solid rgba(255,255,255,3%);
     padding: 50px;
 }
