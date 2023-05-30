@@ -4262,6 +4262,67 @@ a.user-small-info:hover:before {
 /* START DEVELOPMENT TEMPLATES */
 /* START DEVELOPMENT MOODBOARD TEMPLATE */
 
+.omens-development-1 {
+  display:flex;
+  flex-flow:row wrap;
+  justify-content: center;
+  margin:0 50px;
+  border-bottom: 10px solid var(--custom);
+  padding-bottom:5px;
+}
+
+.omens-development-1 header {
+  background-color: var(--custom);
+  position: relative;
+  text-transform: lowercase;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  width:calc(100% - 100px);
+  padding:50px;
+}
+
+.omens-development-1.omens-development-1-moodboard {
+  margin:0 75px;
+}
+
+.omens-development-1.omens-development-1-moodboard header {
+  margin-bottom:5px;
+}
+
+.omens-development-1 header:before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-image: url(https://weepingomens.github.io/wouldnt-you-like-to-know-weather-boy/src/img/city-background.png);
+  pointer-events: none;
+  z-index: 0;
+  top: 0;
+  left: 0;
+  opacity: 7%;
+  filter: grayscale(1);
+}
+
+.omens-development-1 header b {
+  font: italic 900 48px 'playfair display', serif;
+  color: #1c1c1c;
+}
+
+.omens-development-1 header span {
+  font: 700 0.6rem 'open sans', sans-serif;
+  color: #1c1c1c;
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+}
+
+.omens-development-1 footer img {
+  display:none;
+}
+.omens-development-1 img {
+  margin:5px;
+}
 /* END DEVELOPMENT MOODBOARD TEMPLATE */
 /* END DEVELOPMENT TEMPLATES */
 /* END ALL POST TEMPLATES */
