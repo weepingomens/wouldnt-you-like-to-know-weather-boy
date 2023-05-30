@@ -4346,7 +4346,7 @@ a.user-small-info:hover:before {
 /* START DEVELOPMENT LYRIC TEMPLATE */
 
 .omens-development-1 iframe {
-  margin: 50px;
+  margin: 50px 50px 0;
     filter: grayscale(1);
 }
 
