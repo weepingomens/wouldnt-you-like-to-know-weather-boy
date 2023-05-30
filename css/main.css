@@ -5477,6 +5477,445 @@ a.user-small-info:hover:before {
 }
 
 /* END PHONE TEMPLATE 1 */
+/* START PHONE TEMPLATE 2 */
+
+.omens-phone-template.omens-phone-2 {
+  width: 230px;
+  margin: 0 auto;
+}
+
+.omens-phone-2 {
+  padding: 10px;
+  background: #111;
+  border-radius: 20px;
+  position: relative;
+  border: 2px solid var(--custom);
+}
+
+.omens-phone-2 .phone-power:before {
+  content: "";
+  position: absolute;
+  width: 3px;
+  height: 33px;
+  background: var(--custom);
+  top: 15%;
+  right: -5px;
+  border-radius: 0 5px 5px 0;
+}
+
+.omens-phone-2 .phone-power:after {
+  content: "";
+  position: absolute;
+  width: 3px;
+  height: 75px;
+  background: var(--custom);
+  top: 25%;
+  right: -5px;
+  border-radius: 0 5px 5px 0;
+}
+
+.omens-phone-2 .phone-contain {
+  width: 230px;
+  height: 450px;
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+  display: grid;
+  place-content: start;
+  place-items: start center;
+  background-color: var(--custom);
+  background-image: linear-gradient(135deg,
+      rgba(0, 0, 0, 50%) 0%,
+      rgba(0, 0, 0, 50%) 100%);
+}
+
+.omens-phone-2 .phone-background,
+.omens-phone-2 .phone-background-override {
+  width: 230px;
+  height: 450px;
+  background-size: cover;
+  border-radius: 10px;
+  position: absolute;
+  display: block;
+  mix-blend-mode: luminosity;
+  opacity: 33%;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.omens-phone-2 .phone-contain .phone-deco {
+  position: relative;
+  z-index: 1;
+}
+
+.omens-phone-2 .phone-contain .phone-deco2 {
+  display: flex;
+  flex-flow: row wrap;
+  width: calc(100% - 20px);
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #ddd;
+  gap: 5px;
+  padding: 5px 10px;
+  font: 700 10px montserrat;
+  z-index: 1;
+}
+
+.omens-phone-2 .phone-contain .phone-deco2 .phone-time {
+  margin-left: 0;
+  flex-grow: 1;
+  text-align: right;
+}
+
+.omens-phone-2 .phone-contain .phone-deco {
+  position: absolute;
+  width: 50%;
+  background: #111;
+  height: 20px;
+  border-radius: 0 0 10px 10px;
+  display: grid;
+  place-items: center;
+  place-content: center;
+}
+
+.omens-phone-2 .phone-contain .phone-deco:before {
+  content: "";
+  position: absolute;
+  width: 33%;
+  margin-left: -10%;
+  height: 2px;
+  background: #1f1f1f;
+}
+
+.omens-phone-2 .phone-contain .phone-deco:after {
+  content: "";
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  background: #1f1f1f;
+  border-radius: 100%;
+  margin-left: 50%;
+}
+
+.omens-phone-2 .phone-contain .phone-messages {
+  margin-top: 20px;
+  margin-right: 10px;
+  padding: 10px;
+  width: 200px;
+  height: 355px;
+  overflow: auto;
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 10px;
+  position: relative;
+  z-index: 1;
+}
+
+.omens-phone-2 .phone-contain .phone-messages::-webkit-scrollbar {
+  width: 10px;
+}
+
+.omens-phone-2 .phone-contain .phone-messages::-webkit-scrollbar-thumb {
+  background: #ddd;
+  border-radius: 5px;
+}
+
+.omens-phone-2 .phone-contain .phone-messages tagged {
+  display: block;
+  font: 400 20px montserrat;
+  font-style: italic;
+  color: #ddd;
+  align-self: flex-end;
+  text-align: right;
+  flex-grow: 1;
+  max-width: 90%;
+}
+
+.phone-messages br {
+  display: none;
+}
+
+.phone-messages msg br,
+.phone-messages received br {
+  display: block;
+}
+
+.omens-phone-2 .phone-contain .phone-messages msg,
+.omens-phone-2 .phone-contain .phone-messages received {
+  font: 500 11px montserrat;
+  max-width: 75%;
+  text-align: justify;
+}
+
+.omens-phone-2 .phone-contain .phone-messages msg {
+  background: var(--custom);
+  padding: 10px;
+  border-radius: 5px;
+  color: #111;
+  align-self: flex-end;
+  justify-self: flex-end;
+  position: relative;
+  text-align-last: right;
+}
+
+.omens-phone-2 .phone-contain .phone-messages received {
+  background: rgba(0, 0, 0, 25%);
+  padding: 8px;
+  border-radius: 7px;
+  color: #ddd;
+  align-self: flex-start;
+  margin-left: 5px;
+  position: relative;
+}
+
+.omens-phone-2 .phone-contain .phone-messages msg img,
+.omens-phone-2 .phone-contain .phone-messages received img {
+  display: block;
+  max-width: 100%;
+  border-radius: 0px;
+}
+
+.omens-phone-2 .phone-contain .phone-messages received react {
+  font-size: 0;
+  position: absolute;
+  color: transparent;
+  opacity: 33%;
+  bottom: -10px;
+  right: -23px;
+  transform: rotate(-20deg);
+}
+
+.omens-phone-2 .phone-contain .phone-messages received react:before {
+  color: #eee;
+  font-size: 25px;
+  display: block;
+}
+
+.omens-phone-2 .phone-contain .phone-messages msg:not(.no-user-icon):last-of-type {
+  margin-right: 40px;
+  max-width: calc(75% - 40px);
+}
+
+.omens-phone-2 .phone-contain .phone-messages .phone-icon,
+.omens-phone-2 .phone-contain .phone-messages .phone-icon-override {
+  position: absolute;
+  z-index: 2;
+  width: 33px;
+  height: 33px;
+  right: -40px;
+  top: 0;
+  border-radius: 100%;
+  border: 0;
+}
+
+.omens-phone-2 .phone-contain .phone-messages .phone-icon img,
+.omens-phone-2 .phone-contain .phone-messages .phone-icon-override img {
+  border-radius: 100%;
+}
+
+.omens-phone-2 .phone-contain .phone-deco3 {
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 10px;
+  position: relative;
+  margin-top: 10px;
+}
+
+.omens-phone-2 .phone-contain .phone-deco3 .phone-messagebox {
+  background: rgba(0, 0, 0, 25%);
+  padding: 8px 25px;
+  border-radius: 25px;
+  color: #ddd;
+  align-self: flex-start;
+  border: 2px solid #ddd;
+  font: 700 8px montserrat;
+  text-transform: uppercase;
+  height: 14px;
+  display: grid;
+  align-items: center;
+}
+
+.omens-phone-2 .phone-contain .phone-deco3 .phone-messagebox div {
+  border-right: 2px solid #ddd;
+  animation: omens-phone1-typing-blink 1.5s 1.5s step-end infinite;
+}
+
+.omens-phone-2:hover .phone-contain .phone-deco3 .phone-messagebox div {
+  animation-play-state: paused;
+}
+
+.omens-phone-2 .phone-contain .phone-deco3 .phone-messagesend {
+  background: rgba(255, 255, 255, 10%);
+  width: 10px;
+  height: 10px;
+  display: grid;
+  place-items: center;
+  place-content: center;
+  padding: 10px;
+  border: 2px solid #ddd;
+  border-radius: 100%;
+  color: #ddd;
+  font-size: 16px;
+}
+
+.omens-phone-2 .phone-contain .phone-dialscreen {
+  margin-top: 20px;
+  padding: 10px;
+  width: 210px;
+  height: 410px;
+  overflow: auto;
+  display: grid;
+  grid: min-content auto min-content/1fr;
+  place-items: center;
+  gap: 10px;
+  position: relative;
+}
+
+.omens-phone-2 .phone-contain .phone-dialscreen br {
+  display: none;
+}
+
+.omens-phone-2 .phone-contain .phone-dialscreen tagged:before {
+  content: "now calling...";
+  font: 700 8px/8px montserrat;
+  text-transform: uppercase;
+  position: absolute;
+  right: 0;
+  top: -10px;
+  opacity: 50%;
+}
+
+.omens-phone-2 .phone-contain .phone-dialscreen tagged, .omens-phone-2 .phone-contain .phone-dialscreen tagged2 {
+  font: 400 20px montserrat;
+  font-style: italic;
+  color: #ddd;
+  text-align: right;
+  position: relative;
+  margin-top: 10px;
+  min-width: 75%;
+}
+
+.omens-phone-2 .phone-contain .phone-dialdeco {
+  display: grid;
+  grid: min-content min-content / min-content min-content min-content;
+  gap: 10px;
+}
+
+.omens-phone-2 .phone-contain .phone-dialdeco ion-icon {
+  padding: 10px;
+  background: rgba(255, 255, 255, 20%);
+  border-radius: 100%;
+  color: #eee;
+  font-size: 30px;
+}
+
+.omens-phone-2 .phone-contain .phone-dialdeco2 {
+  font-size: 40px;
+  color: #eee;
+  transform: rotate(135deg);
+  animation: 1.5s phone-button-float linear infinite;
+}
+
+.omens-phone-2 .phone-contain .phone-callscreen {
+  margin-top: 20px;
+  padding: 10px;
+  width: 210px;
+  height: 410px;
+  overflow: auto;
+  display: grid;
+  grid: auto min-content min-content/1fr;
+  place-items: start center;
+  gap: 10px;
+  position: relative;
+}
+
+.omens-phone-2 .phone-contain .phone-callscreen br {
+  display: none;
+}
+
+.omens-phone-2 .phone-contain .phone-callscreen speech {
+  display: block;
+}
+
+.omens-phone-2 .phone-contain .phone-callscreen speech br {
+  display: block;
+}
+
+.omens-phone-2 .phone-contain .phone-callscreen tagged:before {
+  content: "speaking to...";
+  font: 700 8px/8px montserrat;
+  text-transform: uppercase;
+  position: absolute;
+  right: 0;
+  top: -10px;
+  opacity: 50%;
+}
+
+.omens-phone-2 .phone-contain .phone-callscreen tagged {
+  font: 400 20px montserrat;
+  font-style: italic;
+  color: #ddd;
+  text-align: right;
+  position: relative;
+  margin-top: 10px;
+  order: 1;
+  min-width: 75%;
+}
+
+.omens-phone-2 .phone-contain .phone-callscreen .phone-icon,
+.omens-phone-2 .phone-contain .phone-callscreen .phone-icon-override {
+  order: 2;
+}
+
+.omens-phone-2 .phone-contain .phone-callscreen .phone-icon img,
+.omens-phone-2 .phone-contain .phone-callscreen .phone-icon-override img {
+  display: block;
+  position: relative;
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+  z-index: 2;
+}
+
+.omens-phone-2 .phone-contain .phone-calldeco {
+  align-self: end;
+  font-size: 40px;
+  color: #eee;
+  transform: rotate(135deg);
+  order: 4;
+}
+
+.omens-phone-2 .phone-contain .phone-callscreen speech {
+  background: rgba(0, 0, 0, 33%);
+  border: 10px solid transparent;
+  padding: 0px 5px;
+  border-radius: 7px;
+  color: #ddd;
+  font: 500 12px montserrat;
+  text-align: center;
+  max-height: 130px;
+  overflow: auto;
+  position: relative;
+  z-index: 2;
+  order: 3;
+}
+
+.omens-phone-2 .phone-contain .phone-callscreen speech::-webkit-scrollbar {
+  width: 7px;
+}
+
+.omens-phone-2 .phone-contain .phone-callscreen speech i {
+  color: #fff;
+  font-weight: 600;
+}
+
+.omens-phone-2 .phone-contain .phone-callscreen speech::-webkit-scrollbar-thumb {
+  background: #eee;
+  border-radius: 5px;
+}
+
+/* END PHONE TEMPLATE 2 */
 /* END PHONE TEMPLATES */
 /* END ALL POST TEMPLATES */
 /* BEGIN MAIN PROFILE */
