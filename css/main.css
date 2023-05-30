@@ -4880,34 +4880,33 @@ a.user-small-info:hover:before {
 }
 
 .omens-twit-1 .twit-contain .tweet b {
-  display: block;
-  font: 700 16px montserrat;
+  font: italic 700 2rem/1 'playfair display',serif;
   color: var(--custom);
-  margin-bottom: 10px;
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
 }
 
 .omens-twit-1 .twit-contain .tweet b span {
-  font: 500 16px montserrat;
-  color: #666;
+  color: rgba(255,255,255,25%);
+  font: 700 0.6rem 'open sans', sans-serif;
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
 }
 
 .omens-twit-1 .twit-contain .tweet div {
-  font: 500 13px roboto;
-  color: #aaa;
-  align-self: start;
-  text-align: justify;
+  margin-top:10px;
 }
 
 .omens-twit-1 .twit-contain .tweet div img {
   display: block;
-  margin: 10px auto 0px;
-  border-radius: 5px;
-  max-width: 450px;
+  margin: 10px auto 0;
+  max-width: 100%;
 }
 
 .omens-twit-1 #retweet.tweet .twit-retweet {
   color: var(--custom);
-  font: 700 15px roboto;
+  font-weight:700;
   text-transform: uppercase;
   text-align: center;
 }
