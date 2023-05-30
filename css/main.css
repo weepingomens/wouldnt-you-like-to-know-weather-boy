@@ -4422,6 +4422,39 @@ a.user-small-info:hover:before {
   margin: 25px 50px;
 }
 /* END DEV PLAYLIST TEMPLATE */
+/* START DEV DRABBLE TEMPLATE */
+.omens-development-1 drabble {
+  margin: 50px;
+  border: 2px solid rgba(255,255,255,3%);
+  padding: 25px;
+}
+
+.omens-development-1 drabble br {
+  display:block;
+}
+
+.omens-development-1 drabble i {
+  color:#eee;
+}
+
+.omens-development-1 drabble b {
+  color:var(--custom);
+  text-decoration: underline;
+    text-decoration-style: solid;
+    text-underline-offset: 0.2rem;
+    text-decoration-color: rgba(255,255,255,5%);
+    text-decoration-thickness: 0.1rem;
+}
+
+.omens-development-1 drabble u {
+  text-decoration: underline;
+    text-decoration-style: solid;
+    text-underline-offset: 0.2rem;
+    text-decoration-color: var(--custom);
+    text-decoration-thickness: 0.1rem;
+}
+
+/* END DEV DRABBLE TEMPLATE */
 /* END DEVELOPMENT TEMPLATES */
 /* END ALL POST TEMPLATES */
 /* BEGIN MAIN PROFILE */
