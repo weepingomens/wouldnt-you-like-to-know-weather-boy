@@ -4463,9 +4463,8 @@ a.user-small-info:hover:before {
 /* START SM PROFILE */
 
 .omens-insta-1 {
-  border-radius: 5px;
+  border-bottom: 10px solid var(--custom);
   position: relative;
-
 }
 
 .omens-insta-1 .insta-title {
@@ -4608,6 +4607,8 @@ a.user-small-info:hover:before {
 
 .omens-insta-2 {
   position:relative;
+  border-bottom: 10px solid var(--custom);
+    padding-bottom: 25px;
 }
 
 .omens-insta-2 .insta-title {
@@ -4748,9 +4749,9 @@ a.user-small-info:hover:before {
 /* START SM TWITTER */
 .omens-twit-1 {
   margin: 35px;
-  border-radius: 5px;
   position: relative;
   overflow: hidden;
+  border-bottom: 10px solid var(--custom);
 }
 
 .omens-twit-1 .twit-header {
@@ -4859,9 +4860,9 @@ a.user-small-info:hover:before {
   position: absolute;
   bottom: -25px;
   right: 0px;
-  color: #eee;
+  color: rgba(255,255,255,25%);
   pointer-events: none;
-  opacity: 15%;
+  mix-blend-mode: color;
 }
 
 .omens-twit-1 .twit-header .twit-deco i {
@@ -4919,36 +4920,36 @@ a.user-small-info:hover:before {
 /* END SM TWITTER */
 /* START SM TWITTER REPLY */
 .omens-twit-2 {
-  margin: 35px;
   padding: 25px;
-  background: #222;
-  border-radius: 5px;
   position: relative;
   overflow: hidden;
+  border-bottom:10px solid var(--custom);
 }
 
 .omens-twit-2 b {
   display: block;
-  font: 700 24px montserrat;
+  font: italic 900 2rem 'playfair display', serif;
   color: var(--custom);
   margin-bottom: 10px;
   display: flex;
+  align-items: baseline;
+  gap:10px;
   position: relative;
   z-index: 1;
 }
 
 .omens-twit-2 b span {
-  display: block;
-  font: 500 24px montserrat;
-  color: #666;
-  margin-left: 10px;
+  color: rgba(255,255,255,25%);
+  font: 700 0.6rem 'open sans', sans-serif;
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
 }
 
 #retweet.omens-twit-2 .twit-retweet, #reply.omens-twit-2 .twit-retweet {
-  color: var(--custom);
-  font: 700 20px roboto;
+  color: rgba(255,255,255,25%);
+  font: italic 900 2rem/1 'playfair display', serif;
   margin-bottom: 10px;
-  text-transform: uppercase;
+  text-transform: lowercase;
   text-align: center;
   position: relative;
   z-index: 1;
@@ -4959,20 +4960,17 @@ a.user-small-info:hover:before {
 }
 
 .omens-twit-2 .tweet {
-  font: 500 15px roboto;
-  color: #aaa;
-  background: #333;
   padding: 25px;
-  border-radius: 5px;
+  border: 2px solid rgba(255,255,255,3%);
   position: relative;
   z-index: 1;
 }
 
 .omens-twit-2 .tweet img {
   display: block;
-  margin: 20px auto 0px;
+  margin: 20px auto 0;
   border-radius: 5px;
-  max-width: 500px;
+  max-width: 100%;
 }
 
 .omens-twit-2 #tweet-deco {
