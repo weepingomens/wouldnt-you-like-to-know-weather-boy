@@ -4329,6 +4329,7 @@ a.user-small-info:hover:before {
 .omens-development-1 quotebox {
   font: italic 700 2rem 'playfair display',serif;
   padding: 50px;
+  text-transform:lowercase;
 }
 
 .omens-development-1 quotebox br {
