@@ -4391,6 +4391,7 @@ a.user-small-info:hover:before {
 
 .omens-development-1.omens-development-1-playlist song {
   display: grid;
+  transition:.25s;
 }
 
 .omens-development-1.omens-development-1-playlist song b {
@@ -4403,6 +4404,7 @@ a.user-small-info:hover:before {
 
 .omens-development-1.omens-development-1-playlist a:hover song {
   letter-spacing:0.05em;
+  transition:.25s;
 }
 
 .omens-development-1.omens-development-1-playlist h1 {
