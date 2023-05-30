@@ -4292,7 +4292,6 @@ a.user-small-info:hover:before {
   position: absolute;
   width: 100%;
   height: 100%;
-  background-size: cover;
   background-image: url(https://weepingomens.github.io/wouldnt-you-like-to-know-weather-boy/src/img/city-background.png);
   pointer-events: none;
   z-index: 0;
@@ -4460,6 +4459,292 @@ a.user-small-info:hover:before {
 
 /* END DEV DRABBLE TEMPLATE */
 /* END DEVELOPMENT TEMPLATES */
+/* START SM TEMPLATES */
+/* START SM PROFILE */
+
+.omens-insta-1 {
+  border-radius: 5px;
+  position: relative;
+
+}
+
+.omens-insta-1 .insta-title {
+  background: var(--custom);
+  padding: 50px;
+  display: grid;
+  gap: 10px 25px;
+  grid: auto 13px min-content / min-content auto;
+  grid-template-areas: "insta-1-icon insta-1-name"
+    "insta-1-icon insta-1-deets"
+    "insta-1-icon insta-1-desc";
+    position:relative;
+    justify-items: start;
+}
+
+.omens-insta-1 .insta-title:after {
+  content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-image: url(https://weepingomens.github.io/wouldnt-you-like-to-know-weather-boy/src/img/city-background.png);
+    pointer-events: none;
+    z-index: 0;
+    top: 0;
+    left: 0;
+    opacity: 7%;
+    filter: grayscale(1);
+}
+
+.omens-insta-1 .insta-title .insta-deco {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  color: rgba(255,255,255,15%);
+  pointer-events: none;
+}
+
+.omens-insta-1 .insta-title .insta-deco i {
+  font-size: 250px;
+}
+
+.omens-insta-1 .insta-title img {
+  grid-area: insta-1-icon;
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+  padding: 10px;
+  background: #1c1c1c;
+  position:relative;
+  z-index:1;
+}
+
+.omens-insta-1 .insta-title h1 {
+  grid-area: insta-1-name;
+  margin: 0px;
+  align-self: end;
+  z-index: 1;
+  display: flex;
+  text-align:left;
+  color: #1c1c1c;
+  letter-spacing: 0;
+  font: italic 900 2rem 'playfair display', serif;
+  text-transform: lowercase;
+}
+
+.omens-insta-1 .insta-title .insta-list {
+  grid-area: insta-1-deets;
+  display: flex;
+  flex-flow: row wrap;
+  gap: 10px;
+  z-index: 1;
+  align-content: center;
+}
+
+.omens-insta-1 .insta-title .insta-list span {
+  font: 700 0.6rem 'open sans', sans-serif;
+  color: #1c1c1c;
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+}
+
+.omens-insta-1 .insta-title .insta-desc {
+  grid-area: insta-1-desc;
+  align-self: start;
+  color: #1c1c1c;
+  z-index: 1;
+  font: 700 0.9rem 'open sans',sans-serif;
+}
+
+.omens-insta-1 h1 #verified-check {
+  margin-right: 10px;
+  color: #eee;
+}
+
+.omens-insta-1 .insta-body {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 10px;
+  padding: 50px;
+  justify-content: center;
+}
+
+.omens-insta-1 .insta-body .insta-image {
+  width: 150px;
+  height: 150px;
+  background-size: cover;
+  border-radius: 5px;
+}
+
+.omens-insta-1 .insta-body .insta-image:hover span {
+  opacity: 1;
+  transition: .25s;
+}
+
+.omens-insta-1 .insta-body .insta-image span {
+  display: inline-grid;
+  place-items: center;
+  place-content: center;
+  width: 100%;
+  height: 100%;
+  background: var(--custom);
+  mix-blend-mode: multiply;
+  font: 700 0.6rem 'open sans', sans-serif;
+  text-transform: uppercase;
+  color: #1c1c1c;
+  letter-spacing: 0.2rem;
+  transition: .25s;
+  opacity: 0;
+}
+
+.omens-insta-1 .insta-body .insta-image span i {
+  display: inline;
+  font-style:normal;
+}
+
+/* END SM PROFILE */
+/* START SM UPLOAD */
+
+.omens-insta-2 {
+  position:relative;
+}
+
+.omens-insta-2 .insta-title {
+  background: var(--custom);
+  padding: 50px;
+    position:relative;
+    justify-items: start;
+    font: italic 900 2rem 'playfair display', serif;
+    color: #1c1c1c;
+}
+
+.omens-insta-2 .insta-title:after,
+.omens-insta-2 .insta-likes:after {
+  content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url(https://weepingomens.github.io/wouldnt-you-like-to-know-weather-boy/src/img/city-background.png);
+    pointer-events: none;
+    z-index: 0;
+    top: 0;
+    left: 0;
+    opacity: 7%;
+    filter: grayscale(1);
+}
+
+.omens-insta-2 .insta-image {
+  width: 500px;
+  height: 500px;
+  background-size: cover;
+  margin: 50px auto;
+}
+
+.omens-insta-2 .insta-title #insta-deco {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  font-size: 250px;
+  color: rgba(255,255,255,15%);
+  z-index: -1;
+  pointer-events: none;
+}
+
+.omens-insta-2 .insta-desc {
+  margin:50px auto;
+  border:2px solid rgba(255,255,255,3%);
+  padding:25px;
+}
+
+.omens-insta-2 #insta-tags {
+  display: flex;
+  flex-flow: row-wrap;
+  gap: 10px;
+  justify-content: center;
+  margin: 35px;
+}
+
+.omens-insta-2 #insta-tags span {
+  padding: 5px 10px;
+  background: #333;
+  color: #aaa;
+  font: 700 10px roboto;
+  text-transform: uppercase;
+  border-radius: 5px;
+}
+
+.omens-insta-2 #insta-tags span:before {
+  content: "# ";
+  color: var(--custom);
+}
+
+.omens-insta-2 .insta-comment {
+  display: grid;
+  grid: min-content min-content/ min-content auto;
+  align-items: center;
+  grid-template-areas:
+      "insta-1-comment-icon insta-1-comment-user"
+      "insta-1-comment-icon insta-1-comment-comment";
+      gap: 0 25px;
+      margin: 0 50px 10px;
+}
+
+.omens-insta-2 .insta-comment img {
+  grid-area: insta-1-comment-icon;
+  width: 50px;
+  height: 50px;
+  align-self: center;
+  border-radius: 100%;
+}
+
+.omens-insta-2 .insta-comment h1 {
+  grid-area: insta-1-comment-user;
+  margin: 0px;
+  font: italic 900 2rem/1 'playfair display', serif;
+  text-transform:lowercase;
+  display:block;
+  letter-spacing:0;
+  color: rgba(255, 255, 255, 20%);
+}
+
+.omens-insta-2 .insta-comment h1 span {
+  display: block;
+  font: 700 0.6rem 'open sans', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  border:0;
+}
+
+.omens-insta-2 .insta-comment h1 span a {
+  color: #555;
+}
+
+.omens-insta-2 .insta-comment span {
+  grid-area: insta-1-comment-comment;
+  border: 2px solid rgba(255,255,255,3%);
+  padding:10px;
+}
+
+.omens-insta-2 .insta-likes {
+  display: inline-block;
+  padding: 10px;
+  background: var(--custom);
+  color:#1c1c1c;
+  position: absolute;
+  font: 700 0.6rem 'open sans', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  right:15px;
+  margin-top:-15px;
+}
+
+.omens-insta-2 .insta-likes i {
+  color: var(--custom);
+  margin-right: 10px;
+}
+
+/* END SM UPLOAD */
+/* END SM TEMPLATES */
 /* END ALL POST TEMPLATES */
 /* BEGIN MAIN PROFILE */
 #main-profile {
