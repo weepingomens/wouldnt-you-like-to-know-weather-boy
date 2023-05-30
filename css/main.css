@@ -4322,6 +4322,7 @@ a.user-small-info:hover:before {
 }
 .omens-development-1 img {
   margin:5px;
+  max-width:100%;
 }
 /* END DEVELOPMENT MOODBOARD TEMPLATE */
 /* START DEVELOPMENT QUOTE TEMPLATE */
