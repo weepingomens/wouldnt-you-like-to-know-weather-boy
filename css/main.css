@@ -4378,7 +4378,7 @@ a.user-small-info:hover:before {
 }
 
 .omens-development-1.omens-development-1-playlist h1:before {
-  content: "view this playlist";
+  content: "click to view this playlist";
 }
 
 .omens-development-1.omens-development-1-playlist a {
@@ -4393,6 +4393,17 @@ a.user-small-info:hover:before {
 
 .omens-development-1.omens-development-1-playlist song b {
   font: italic 700 2rem 'playfair display',serif;
+}
+
+.omens-development-1.omens-development-1-playlist h1 {
+  margin: 0;
+  padding: 0;
+  font: 800 2rem/100% 'Playfair Display', serif;
+  text-transform: uppercase;
+  letter-spacing: -0.05em;
+  display: flex;
+  justify-content: center;
+  color: rgba(255, 255, 255, 15%);
 }
 
 /* END DEV PLAYLIST TEMPLATE */
