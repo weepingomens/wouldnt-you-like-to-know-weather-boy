@@ -4427,7 +4427,8 @@ a.user-small-info:hover:before {
 .omens-development-1 drabble {
   margin: 50px 50px 0;
   border: 2px solid rgba(255,255,255,3%);
-  padding: 25px;
+  padding: 0 25px;
+  border-width: 0 2px;
 }
 
 #omens-main .post-row .omens-development-1 drabble br {
