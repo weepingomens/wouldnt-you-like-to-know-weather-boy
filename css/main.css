@@ -4355,7 +4355,9 @@ a.user-small-info:hover:before {
   padding: 25px;
   width: calc(100% - 50px);
   margin: 0 50px;
-  text-transform:lowercase;
+  text-transform: lowercase;
+  font: italic 500 1rem/2 'open sans', sans-serif;
+  letter-spacing: .05rem;
 }
 
 #omens-main .post-row .omens-development-1 quotebox br,
