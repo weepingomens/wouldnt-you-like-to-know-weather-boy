@@ -4266,7 +4266,7 @@ a.user-small-info:hover:before {
   display:flex;
   flex-flow:row wrap;
   justify-content: center;
-  margin:0 40px;
+  margin: 50px;
   border-bottom: 10px solid var(--custom);
   padding-bottom:50px;
 }
