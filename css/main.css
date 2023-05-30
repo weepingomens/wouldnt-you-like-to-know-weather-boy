@@ -4424,7 +4424,7 @@ a.user-small-info:hover:before {
 /* END DEV PLAYLIST TEMPLATE */
 /* START DEV DRABBLE TEMPLATE */
 .omens-development-1 drabble {
-  margin: 50px;
+  margin: 50px 50px 0;
   border: 2px solid rgba(255,255,255,3%);
   padding: 25px;
 }
