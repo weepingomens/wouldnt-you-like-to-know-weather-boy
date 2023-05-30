@@ -4355,7 +4355,7 @@ a.user-small-info:hover:before {
   border: 2px solid rgba(255,255,255,3%);
   padding: 25px;
   width: calc(100% - 50px);
-  margin: 0 50px;
+  margin: 50px 50px 0;
   text-transform: lowercase;
   font: italic 500 1rem/2 'open sans', sans-serif;
   letter-spacing: .05rem;
