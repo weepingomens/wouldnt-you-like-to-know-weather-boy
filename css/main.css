@@ -4271,7 +4271,7 @@ a.user-small-info:hover:before {
   padding-bottom:50px;
 }
 
-.omens-development-1 br {
+#omens-main .post-row .omens-development-1 br {
   display:none;
 }
 
