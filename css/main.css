@@ -4965,10 +4965,11 @@ a.user-small-info:hover:before {
 }
 
 .omens-twit-2 .tweet {
-  padding: 25px;
+  padding: 0 25px;
   border: 2px solid rgba(255,255,255,3%);
   position: relative;
   z-index: 1;
+  border-width: 0 0 0 2px;
 }
 
 .omens-twit-2 .tweet img {
