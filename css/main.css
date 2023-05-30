@@ -4778,7 +4778,7 @@ a.user-small-info:hover:before {
     z-index: 0;
     top: 0;
     left: 0;
-    opacity: 7%;
+    opacity: 4%;
     filter: grayscale(1);
 }
 
