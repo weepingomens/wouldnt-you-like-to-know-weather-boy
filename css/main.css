@@ -4166,7 +4166,8 @@ a.user-small-info:hover:before {
     padding: 50px;
 }
 
-.post-row .post-container .omens-wanted-1 .want-description b {
+.post-row .post-container .omens-wanted-1 .want-description b,
+.post-row .post-container .omens-wanted-1-multi .want-character .want-char-desc b {
   color:var(--custom);
   text-decoration: underline;
   text-decoration-style: solid;
