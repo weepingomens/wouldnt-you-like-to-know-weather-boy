@@ -4744,6 +4744,179 @@ a.user-small-info:hover:before {
 }
 
 /* END SM UPLOAD */
+/* START SM TWITTER */
+.omens-twit-1 {
+  margin: 35px;
+  border-radius: 5px;
+  position: relative;
+  overflow: hidden;
+}
+
+.omens-twit-1 .twit-header {
+  display: grid;
+  grid: min-content min-content min-content min-content min-content / 1fr;
+  grid-template-areas: "twit-1-header"
+    "twit-1-icon"
+    "twit-1-display"
+    "twit-1-user"
+    "twit-1-desc"
+    "twit-1-follow";
+  background: var(--custom);
+  gap: 10px;
+  overflow: hidden;
+  padding: 25px;
+  position: relative;
+}
+
+.omens-twit-1 .twit-header:before {
+  content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url(https://weepingomens.github.io/wouldnt-you-like-to-know-weather-boy/src/img/city-background.png);
+    pointer-events: none;
+    z-index: 0;
+    top: 0;
+    left: 0;
+    opacity: 7%;
+    filter: grayscale(1);
+}
+
+.omens-twit-1 .twit-bigimg {
+  margin: -25px;
+  grid-area: twit-1-header;
+  width: 600px;
+  height: 200px;
+  background-color: var(--custom);
+  position:relative;
+}
+
+.omens-twit-1 .twit-icon {
+  grid-area: twit-1-icon;
+}
+
+.omens-twit-1 .twit-icon img {
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+  padding: 10px;
+  background: #1c1c1c;
+  margin-top: -75px;
+  margin-left: 25px;
+  position:relative;
+}
+
+.post-row .post-container .omens-twit-1 h1 {
+  margin: 0px;
+  grid-area: twit-1-display;
+  font: italic 900 2rem 'playfair display', serif;
+  text-transform:lowercase;
+  letter-spacing:0;
+  color:#1c1c1c;
+  display:block;
+  position:relative;
+}
+
+.omens-twit-1 h1 #verified-check {
+  margin-right: 10px;
+  color: #fff;
+}
+
+.omens-twit-1 .twit-username {
+  grid-area: twit-1-user;
+  font: 700 0.6rem 'open sans', sans-serif;
+  color: #1c1c1c;
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+  position:relative;
+}
+
+.omens-twit-1 .twit-desc {
+  grid-area: twit-1-desc;
+  align-self: start;
+  color: #1c1c1c;
+  font: 700 0.9rem 'open sans',sans-serif;
+  z-index: 1;
+  position: relative;
+}
+
+.omens-twit-1 .twit-follow {
+  grid-area: twit-1-follow;
+  display:flex;
+  gap:25px;
+}
+
+.omens-twit-1 .twit-follow span {
+  font: 700 0.6rem 'open sans', sans-serif;
+  color: #1c1c1c;
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+  position:relative;
+}
+
+.omens-twit-1 .twit-header .twit-deco {
+  position: absolute;
+  bottom: -25px;
+  right: 0px;
+  color: #eee;
+  pointer-events: none;
+  opacity: 15%;
+}
+
+.omens-twit-1 .twit-header .twit-deco i {
+  font-size: 250px;
+}
+
+.omens-twit-1 .twit-contain {
+  padding: 50px;
+  display: grid;
+  gap: 10px;
+}
+
+.omens-twit-1 .twit-contain .tweet {
+  padding: 25px;
+  border:2px solid rgba(255,255,255,3%);
+  position: relative;
+}
+
+.omens-twit-1 .twit-contain .tweet b {
+  display: block;
+  font: 700 16px montserrat;
+  color: var(--custom);
+  margin-bottom: 10px;
+}
+
+.omens-twit-1 .twit-contain .tweet b span {
+  font: 500 16px montserrat;
+  color: #666;
+}
+
+.omens-twit-1 .twit-contain .tweet div {
+  font: 500 13px roboto;
+  color: #aaa;
+  align-self: start;
+  text-align: justify;
+}
+
+.omens-twit-1 .twit-contain .tweet div img {
+  display: block;
+  margin: 10px auto 0px;
+  border-radius: 5px;
+  max-width: 450px;
+}
+
+.omens-twit-1 #retweet.tweet .twit-retweet {
+  color: var(--custom);
+  font: 700 15px roboto;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.omens-twit-1 #retweet.tweet .twit-retweet i {
+  margin-right: 10px;
+}
+
+/* END SM TWITTER */
 /* END SM TEMPLATES */
 /* END ALL POST TEMPLATES */
 /* BEGIN MAIN PROFILE */
