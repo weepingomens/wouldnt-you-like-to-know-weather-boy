@@ -4342,6 +4342,30 @@ a.user-small-info:hover:before {
   height: 100%;
 }
 /* END DEVELOPMENT QUOTE TEMPLATE */
+/* START DEVELOPMENT LYRIC TEMPLATE */
+
+.omens-development-1 iframe {
+  margin: 50px;
+    filter: grayscale(1);
+}
+
+.omens-development-1 lyrics {
+  text-align: left;
+  border: 2px solid rgba(255,255,255,3%);
+  padding: 25px;
+  width: calc(100% - 50px);
+  margin: 0 50px;
+}
+
+.omens-development-1 lyrics br {
+  display:block;
+}
+
+.omens-development-1.omens-development-1-lyrics cite {
+  margin-top:50px;
+}
+
+/* END DEVELOPMENT LYRIC TEMPLATE */
 /* END DEVELOPMENT TEMPLATES */
 /* END ALL POST TEMPLATES */
 /* BEGIN MAIN PROFILE */
