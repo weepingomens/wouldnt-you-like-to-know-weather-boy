@@ -6914,9 +6914,10 @@ a.user-small-info:hover:before {
 
 .omens-post-1 {
   padding: 50px;
-  width:50ch;
-  margin:0 auto;
-  background:rgba(255,255,255,2%);
+  width: 50ch;
+  margin: 0 auto;
+  background: rgba(255,255,255,2%);
+  border-left: 2px solid rgba(255, 255, 255, 3%);
 }
 
 .omens-post-1 .post-icon, .omens-post-1 .post-icon-override {
@@ -6936,31 +6937,29 @@ a.user-small-info:hover:before {
 }
 
 .omens-post-1 .lyric-1, .omens-post-1 .lyric-1-override {
-  font: italic 900 2rem/1 'playfair display', serif;
+  font: var(--med-header);
+  line-height:1;
   color: var(--custom);
   text-align: left;
   margin-top: 5px;
 }
 
 .omens-post-1 .lyric-2, .omens-post-1 .lyric-2-override {
-  font: 800 11px raleway;
+  font: var(--small-header);
   text-transform: uppercase;
-  color: #666;
+  color:rgba(255,255,255,15%);
   text-align: left;
   margin-bottom: 5px;
 }
 
 .omens-post-1 .post-body b {
   color: var(--custom);
-  font: 700 14px/18px montserrat;
-}
-
-.omens-post-1 .post-body b i, .omens-post-1 .post-body span i {
-  color: var(--custom);
 }
 
 .omens-post-1 .post-body span {
   color: var(--custom);
+  font-weight:400;
+  letter-spacing:.05rem;
 }
 
 .omens-post-1 .post-body i {
@@ -6976,12 +6975,13 @@ a.user-small-info:hover:before {
 }
 
 .omens-post-1 .post-body tagged a {
-  font: 700 12px montserrat;
+  font: var(--small-header);
+  letter-spacing:.05rem;
   display: block;
   padding: 10px;
   background: var(--custom);
   text-transform: uppercase;
-  color: #222 !important;
+  color: #1c1c1c;
   border-radius: 5px;
   margin-top: 25px;
   text-decoration: none;
