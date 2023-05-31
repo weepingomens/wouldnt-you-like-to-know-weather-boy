@@ -6873,16 +6873,12 @@ a.user-small-info:hover:before {
 }
 
 .omens-phone-4.omens-phone-call .phone-callscreen speech::-webkit-scrollbar {
-  width: 15px;
+  width: 10px;
 }
 
 .omens-phone-4.omens-phone-call .phone-callscreen speech::-webkit-scrollbar-thumb {
   background: #eee;
-  border-top: 10px solid #222;
-  border-bottom: 10px solid #222;
-  border-radius: 10px;
-  border-left: 7px solid #222;
-  border-right: 7px solid #222;
+  border-radius:25px;
 }
 
 .omens-phone-4.omens-phone-call .phone-callscreen speech::-webkit-scrollbar-track {
