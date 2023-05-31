@@ -7224,7 +7224,8 @@ a.user-small-info:hover:before {
   grid-template-areas:
     "post-6-lyrics post-6-lyrics"
     "post-6-image post-6-body";
-  gap: 40px 0px;
+  gap: 50px 0px;
+  padding-bottom: 50px;
 }
 
 .omens-post-6 .post-image-1:nth-of-type(even), .omens-post-6 .post-image-1-override:nth-of-type(even) {
@@ -7309,44 +7310,39 @@ a.user-small-info:hover:before {
   height: 75px;
   border-radius: 100%;
   padding: 10px;
-  background: #1c1c1c;
+  background: var(--background);
   filter: grayscale(100%);
   margin-left: 5px;
 }
 
 .omens-post-6 .post-lyrics .lyric-1, .omens-post-6 .post-lyrics .lyric-1-override {
   grid-area: post-6-lyric-1;
-  font: 900 40px/100% montserrat;
-  text-transform: uppercase;
-  letter-spacing: -2px;
-  color: #eee;
+  font: italic 900 3rem/1 'playfair display', serif;
+  text-transform: lowercase;
+  color: var(--background);
   position: relative;
 }
 
 .omens-post-6 .post-lyrics .lyric-2, .omens-post-6 .post-lyrics .lyric-2-override {
   grid-area: post-6-lyric-2;
-  font: 700 8px montserrat;
+  font: var(--small-header);
   text-transform: uppercase;
-  background: #222;
-  color: #eee;
-  letter-spacing: 1px;
+  color: var(--background);
+  letter-spacing: 0.2rem;
   position: relative;
-  padding: 10px;
-  border-radius: 5px;
+  margin-top:10px;
+  line-height:1;
 }
 
 .omens-post-6 .post-body {
   grid-area: post-6-body;
-  background: #222;
-  margin-right: 40px;
+  background: rgba(255,255,255,3%);
+  margin-right: 50px;
   margin-left: 40px;
-  color: #aaa;
-  font: 400 13px/18px roboto, arial, sans-serif;
-  text-align: justify;
   border-radius: 5px;
-  height: 360px;
+  height: calc(400px - 50px);
   overflow: auto;
-  border: 20px solid #222;
+  border: 25px solid transparent;
   padding-right: 10px;
   position: relative;
   min-width: 270px;
@@ -7363,7 +7359,7 @@ a.user-small-info:hover:before {
 }
 
 .omens-post-6 .post-body::-webkit-scrollbar-track {
-  background: #1f1f1f;
+  background: rgba(0,0,0,15%);
   border-radius: 5px;
 }
 
@@ -7372,33 +7368,23 @@ a.user-small-info:hover:before {
 }
 
 .omens-post-6 .post-body b {
-  font: 600 14px/15px poppins;
-  color: var(--custom);
-}
-
-.omens-post-6 .post-body b i {
   color: var(--custom);
 }
 
 .omens-post-6 .post-body u {
-  font: 700 12px/15px roboto;
   text-decoration: none;
   background: var(--custom);
-  padding: 2px 5px;
-  color: #eee;
+  padding: 0 5px;
+  border-radius:5px;
+  color: #1c1c1c;
+  font-weight:600;
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
 }
 
 .omens-post-6 .post-body span {
   color: var(--custom);
-}
-
-.omens-post-6 .post-body span i {
-  color: var(--custom);
-}
-
-.omens-post-6 .post-body a {
-  font: 600 13px/16px roboto;
-  font-style: italic;
+  font-weight:500;
 }
 
 .omens-post-6 .post-body tagged {
@@ -7410,12 +7396,12 @@ a.user-small-info:hover:before {
 .omens-post-6 .post-body tagged a {
   display: block;
   padding: 10px;
-  background: #161616;
+  background: rgba(0,0,0,20%);
   border-radius: 5px;
   text-align: center;
-  font: 700 8px montserrat;
+  font: var(--small-header);
   color: #eee;
-  letter-spacing: 1px;
+  letter-spacing: 0.2rem;
   text-decoration: none;
   text-transform: uppercase;
 }
