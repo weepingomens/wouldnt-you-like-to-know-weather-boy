@@ -7319,10 +7319,9 @@ a.user-small-info:hover:before {
 /* START [POST6] TEMPLATE */
 
 .omens-post-6 {
-  background:rgba(0,0,0,7%);
+  border:var(--default-border);
   display: grid;
   position: relative;
-  overflow: hidden;
   border-radius: 5px;
   place-items: start;
   place-content: start;
@@ -7336,8 +7335,8 @@ a.user-small-info:hover:before {
 
 .omens-post-6 .post-image-1:nth-of-type(even), .omens-post-6 .post-image-1-override:nth-of-type(even) {
   position: absolute;
-  bottom: 0px;
-  left: 0px;
+  bottom: -2px;
+  left: -2px;
   overflow: hidden;
   border-bottom-left-radius: 5px;
   clip-path: polygon(0 0, 85% 0, 70% 100%, 0% 100%);
@@ -7375,6 +7374,7 @@ a.user-small-info:hover:before {
 
 .omens-post-6 .post-lyrics {
   grid-area: post-6-lyrics;
+  margin:-2px;
   display: flex;
   place-items: center;
   place-content: center;
