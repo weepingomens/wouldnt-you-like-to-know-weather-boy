@@ -7694,6 +7694,150 @@ a.user-small-info:hover:before {
 
 
 /* END [POST7] TEMPLATE */
+/* START [POST8] TEMPLATE */
+
+.omens-post-8 {
+  margin: 25px;
+  background: #222;
+  overflow: hidden;
+  display: flex;
+  flex-flow: row wrap;
+  place-items: stretch start;
+  place-content: start;
+}
+
+.omens-post-8 .post-icon-contain {
+  grid-area: post-8-icon;
+  display: grid;
+  place-items: center;
+  place-content: center;
+  background: #181818;
+  flex-grow: 1;
+  min-height: 150px;
+}
+
+.omens-post-8 .post-icon img, .omens-post-8 .post-icon-override img {
+  width: 75px;
+  height: 75px;
+  border-radius: 100%;
+  padding: 10px;
+  border: 5px solid #222;
+  border-right: 5px solid var(--custom);
+}
+
+.omens-post-8 .post-image-2, .omens-post-8 .post-image-2-override {
+  width: 470px;
+  grid-area: post-8-bigimg;
+  overflow: hidden;
+  filter: grayscale(100%) brightness(133%) contrast(66%);
+}
+
+.omens-post-8 .post-image-2 img {
+  display: block;
+}
+
+.omens-post-8 .post-lyrics {
+  grid-area: post-8-lyrics;
+  position: relative;
+  padding: 50px;
+  overflow: hidden;
+  background: var(--custom);
+  display: flex;
+  width: 100%;
+}
+
+.omens-post-8 .lyric-1, .omens-post-8 .lyric-1-override {
+  font: 800 45px/100% montserrat;
+  letter-spacing: -3px;
+  color: #222;
+  position: relative;
+}
+
+.omens-post-8 .lyric-2, .omens-post-8 .lyric-2-override {
+  position: absolute;
+  bottom: 35px;
+  font: 700 10px montserrat;
+  text-transform: uppercase;
+  background: #222;
+  color: #eee;
+  padding: 7px;
+  display: inline-block;
+  z-index: 1;
+}
+
+.omens-post-8 .post-lyrics:before {
+  content: "";
+  position: absolute;
+  bottom: -410px;
+  right: 0px;
+  width: 950px;
+  height: 1000px;
+  background: url(https://i.ibb.co/Hx43c2Z/pnghut-new-york-city-cities-skylines-clip-art-news.png);
+  filter: grayscale(100%) contrast(150%) invert(1);
+  opacity: 4%;
+  pointer-events: none;
+}
+
+.omens-post-8 .post-body {
+  grid-area: post-8-body;
+  padding: 25px;
+  font: 400 13px/18px roboto, arial, sans-serif;
+  text-align: justify;
+  color: #ccc;
+}
+
+.omens-post-8 .post-body div {
+  border-left: 5px solid #333;
+  border-right: 5px solid #333;
+  padding: 0 25px;
+}
+
+.omens-post-8 .post-body b {
+  font: 600 12px/18px montserrat;
+  color: var(--custom);
+}
+
+.omens-post-8 .post-body b i,
+.omens-post-8 .post-body span i,
+.omens-post-8 .post-body u i {
+  color: revert;
+  font: revert;
+}
+
+.omens-post-8 .post-body span {
+  color: var(--custom);
+}
+
+.omens-post-8 .post-body i {
+  font: italic 400 12px/18px montserrat;
+  color: #eee;
+}
+
+.omens-post-8 .post-body u {
+  text-decoration: none;
+  border-bottom: 2px solid var(--custom);
+  color: #fff;
+}
+
+.omens-post-8 .post-body tagged {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10px;
+  text-align: right;
+  font: 700 10px montserrat;
+  flex-flow: row wrap;
+  text-transform: uppercase;
+  gap: 10px;
+}
+
+.omens-post-8 .post-body tagged a {
+  color: #222;
+  font: revert;
+  background: var(--custom);
+  padding: 7px;
+}
+
+/* END [POST8] TEMPLATE */
 /* END [POST] TEMPLATES */
 /* END ALL POST TEMPLATES */
 /* BEGIN MAIN PROFILE */
