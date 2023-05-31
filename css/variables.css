@@ -18,6 +18,8 @@
   --small-header: 700 0.6rem 'open sans', sans-serif;
   --med-header: italic 900 2rem 'playfair display', serif;
 
+  --default-border: 2px solid rgba(255, 255, 255, 3%);
+
   --forum-8: url(../src/img/LLORONA_8.png);
   --forum-9: url(../src/img/LLORONA_9.png);
 }
