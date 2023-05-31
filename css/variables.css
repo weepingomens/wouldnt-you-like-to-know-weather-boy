@@ -34,7 +34,8 @@
 }
 
 .group-staff,
-.group-6 {
+.group-6,
+.mgroup-6 {
   --group: var(--staff);
 }
 
@@ -48,7 +49,8 @@ a.mgroup-6 {
 }
 
 .group-member,
-.group-10 {
+.group-10,
+.mgroup-10 {
   --group: var(--member);
 }
 
@@ -62,7 +64,8 @@ a.mgroup-10 {
 }
 
 .group-vampire,
-.group-9 {
+.group-9,
+.mgroup-9 {
   --group: var(--vampire);
 }
 
@@ -76,7 +79,8 @@ a.mgroup-9 {
 }
 
 .group-werewolf,
-.group-14 {
+.group-14,
+.mgroup-14 {
   --group: var(--werewolf);
 }
 
@@ -90,7 +94,8 @@ a.mgroup-14 {
 }
 
 .group-witch,
-.group-8 {
+.group-8,
+.mgroup-8 {
   --group: var(--witch);
 }
 
@@ -104,7 +109,8 @@ a.mgroup-8 {
 }
 
 .group-human,
-.group-7 {
+.group-7,
+.mgroup-7 {
   --group: var(--human);
 }
 
@@ -118,7 +124,8 @@ a.mgroup-7 {
 }
 
 .group-pending,
-.group-3 {
+.group-3,
+.mgroup-3 {
   --group: var(--pending);
   --main-accent-rgb:rgb(170,170,170);
 }
@@ -133,7 +140,8 @@ a.mgroup-3 {
 }
 
 .group-npc,
-.group-20 {
+.group-20,
+.mgroup-20 {
   --group: var(--npc);
 }
 
@@ -147,7 +155,8 @@ a.mgroup-20 {
 }
 
 .group-rip,
-.group-19 {
+.group-19,
+.mgroup-19 {
   --group: var(--rip);
 }
 
