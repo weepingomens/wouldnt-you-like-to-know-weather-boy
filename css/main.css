@@ -7110,36 +7110,40 @@ a.user-small-info:hover:before {
 
 .omens-post-3 {
   display: grid;
-  margin: 50px;
   padding: 25px;
-  background: #1a1a1a;
+  background:rgba(255,255,255,2%);
   place-items: start;
   place-content: start;
   grid: min-content min-content min-content / min-content auto;
-  gap: 0px;
+  gap: 10px;
   grid-template-areas: "post-3-lyric post-3-lyric"
     "post-3-image post-3-body"
     "post-3-lyric2 post-3-lyric2";
-  border-radius: 5px;
 }
 
 .omens-post-3 .lyric-1, .omens-post-3 .lyric-1-override {
   grid-area: post-3-lyric;
-  font: 700 8px montserrat;
+}
+
+.omens-post-3 .lyric-2, .omens-post-3 .lyric-2-override {
+  grid-area: post-3-lyric2;
+}
+
+.omens-post-3 .lyric-1, .omens-post-3 .lyric-1-override,
+.omens-post-3 .lyric-2, .omens-post-3 .lyric-2-override {
+  font: var(--small-header);
   border-radius: 5px;
-  letter-spacing: 1px;
+  letter-spacing: .2rem;
   padding: 10px;
-  color: #222;
+  color: #1c1c1c;
   background: var(--custom);
   text-transform: uppercase;
   width: calc(100% - 20px);
   text-align: center;
-  margin-bottom: 10px;
 }
 
 .omens-post-3 .post-image-1, .omens-post-3 .post-image-1-override {
   grid-area: post-3-image;
-  margin-right: 10px;
 }
 
 .omens-post-3 .post-image-1 img, .omens-post-3 .post-image-1-override img {
@@ -7151,22 +7155,19 @@ a.user-small-info:hover:before {
 
 .omens-post-3 .post-body {
   grid-area: post-3-body;
-  border: 20px solid #222;
+  border: 20px solid transparent;
   padding-right: 10px;
-  font: 400 13px/18px roboto, arial, sans-serif;
-  color: #aaa;
-  background: #222;
-  text-align: justify;
+  background: rgba(255,255,255,2%);
   border-radius: 5px;
   overflow: auto;
   max-height: 360px;
   min-width: 280px;
+  font-size:.9rem;
+  line-height:1.5rem;
 }
 
 .omens-post-3 .post-body b {
-  font: 700 14px/15px montserrat;
   color: var(--custom);
-  padding: 2.5px;
 }
 
 .omens-post-3 .post-body b i, .omens-post-3 .post-body span i {
@@ -7178,33 +7179,14 @@ a.user-small-info:hover:before {
 }
 
 .omens-post-3 .post-body i {
-  color: #ccc;
+  font-weight:500;
 }
 
-.omens-post-3 .post-body::-webkit-scrollbar {
-  width: 10px;
-}
-
-.omens-post-3 .post-body::-webkit-scrollbar-thumb {
-  background: var(--custom);
-}
-
-.omens-post-3 .post-body::-webkit-scrollbar-track {
-  background: #333;
-}
-
-.omens-post-3 .lyric-2, .omens-post-3 .lyric-2-override {
-  grid-area: post-3-lyric2;
-  font: 700 8px montserrat;
-  border-radius: 5px;
-  letter-spacing: 1px;
-  padding: 10px;
-  color: #222;
-  background: var(--custom);
-  text-transform: uppercase;
-  width: calc(100% - 20px);
-  text-align: center;
-  margin-top: 10px;
+.omens-post-3 .post-body u {
+  text-decoration-thickness: 0.1rem;
+  text-underline-offset: 0.25rem;
+  text-decoration-color: rgba(255,255,255,10%);
+  color: #eee;
 }
 
 .omens-post-3 .post-body tagged {
@@ -7217,12 +7199,12 @@ a.user-small-info:hover:before {
 .omens-post-3 .post-body tagged a {
   border-radius: 5px;
   text-transform: lowercase;
-  padding: 10px;
-  background: var(--custom);
-  color: #222;
-  font: 700 8px montserrat;
+  padding: 5px;
+  background: var(--group);
+  color: #1c1c1c;
+  font: var(--small-header);
   text-transform: uppercase;
-  letter-spacing: 1px;
+  letter-spacing: .2rem;
 }
 
 /* END [POST3] TEMPLATE */
