@@ -7553,24 +7553,27 @@ a.user-small-info:hover:before {
 
 .omens-post-7 .post-lyrics .lyric-1, .omens-post-7 .post-lyrics .lyric-1-override {
   grid-area: post-7-lyric-1;
-  width: calc(100% - 50px);
+  width: calc(100% - 20px);
   text-align: center;
+  border-radius:5px;
+  background:rgba(0,0,0,25%);
+  letter-spacing: 0.1rem;
+  color:#eee;
+  padding:5px 10px;
   font: var(--small-header);
   text-transform: uppercase;
-  color: #eee;
-  background: rgba(0,0,0,85%);
-  padding: 10px 25px;
-  align-self: start;
+  align-self: end;
+  z-index:1;
+  margin-bottom:10px;
 }
 
 .omens-post-7 .post-lyrics .lyric-2, .omens-post-7 .post-lyrics .lyric-2-override {
   grid-area: post-7-lyric-2;
   width: 100%;
-  font: 900 2.5rem/.8 'playfair display', serif;
+  font: italic 900 2.5rem/.8 'playfair display', serif;
   text-transform: lowercase;
   color: rgba(0,0,0,85%);
-  text-align: justify;
-  text-align-last: right;
+  text-align: right;
   position: relative;
   align-self: start;
 }
@@ -7599,14 +7602,14 @@ a.user-small-info:hover:before {
 .omens-post-7 .post-lyrics:before {
   content: "";
   position: absolute;
-  bottom: -480px;
-  right: 0px;
-  width: 950px;
-  height: 1000px;
-  background: url(https://i.ibb.co/Hx43c2Z/pnghut-new-york-city-cities-skylines-clip-art-news.png);
-  filter: grayscale(100%) contrast(150%);
-  opacity: 5%;
+  width: 100%;
+  height: 700px;
+  background-image: url(../src/img/city-background.png);
   pointer-events: none;
+  top: 0px;
+  left: 0px;
+  opacity: 7%;
+  filter: grayscale(1);
 }
 
 .omens-post-7 .post-body {
