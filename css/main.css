@@ -7168,6 +7168,8 @@ a.user-small-info:hover:before {
 
 .omens-post-3 .post-body b {
   color: var(--custom);
+  line-height: 1.5rem;
+  font-size: 1rem;
 }
 
 .omens-post-3 .post-body b i, .omens-post-3 .post-body span i {
