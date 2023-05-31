@@ -7114,14 +7114,16 @@ a.user-small-info:hover:before {
 .omens-post-3 {
   display: grid;
   padding: 25px;
-  background:rgba(255,255,255,2%);
+  border: var(--default-border);
+  border-radius: 3px;
   place-items: start;
   place-content: start;
   grid: min-content min-content min-content / min-content auto;
   gap: 10px;
-  grid-template-areas: "post-3-lyric post-3-lyric"
-    "post-3-image post-3-body"
-    "post-3-lyric2 post-3-lyric2";
+  grid-template-areas:
+      "post-3-lyric post-3-lyric"
+      "post-3-image post-3-body"
+      "post-3-lyric2 post-3-lyric2";
 }
 
 .omens-post-3 .lyric-1, .omens-post-3 .lyric-1-override {
