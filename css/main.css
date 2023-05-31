@@ -6890,6 +6890,7 @@ a.user-small-info:hover:before {
 /* START UNIVERSAL [POST] STYLING */
 .postcolor .omens-post-template {
   max-width: 100%;
+  word-break: break-word;
 }
 
 .post-image-1 img, .post-image-1-override img {
