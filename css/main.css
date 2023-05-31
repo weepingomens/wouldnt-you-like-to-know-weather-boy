@@ -7513,6 +7513,194 @@ a.user-small-info:hover:before {
 }
 
 /* END [POST6] TEMPLATE */
+/* START [POST7] TEMPLATE */
+
+.omens-post-7 {
+  background: #191919;
+  width: 500px;
+  margin: 30px auto;
+  padding: 25px;
+  border-left: 5px solid var(--custom);
+}
+
+.omens-post-7 .post-image-2, .omens-post-7 .post-image-2-override {
+  width: 500px;
+  height: 150px;
+  overflow: hidden;
+  background-color: var(--custom);
+}
+
+.omens-post-7 .post-image-2 img, .omens-post-7 .post-image-2-override img {
+  width: 500px;
+  display: block;
+  filter: grayscale(100%);
+  mix-blend-mode: multiply;
+}
+
+.omens-post-7 .post-lyrics {
+  display: grid;
+  width: calc(100% - 50px);
+  place-items: center start;
+  place-content: start stretch;
+  grid: min-content min-content / auto min-content;
+  grid-template-areas:
+    "post-7-lyric-1 post-7-icon"
+    "post-7-lyric-2 post-7-icon";
+  padding: 25px;
+  position: relative;
+  overflow: hidden;
+  background: #eee;
+}
+
+.omens-post-7 .post-lyrics .lyric-1, .omens-post-7 .post-lyrics .lyric-1-override {
+  grid-area: post-7-lyric-1;
+  width: calc(100% - 50px);
+  text-align: center;
+  font: 700 8px montserrat;
+  text-transform: uppercase;
+  color: #eee;
+  background: #222;
+  padding: 10px 25px;
+  border-radius: 5px;
+  align-self: start;
+}
+
+.omens-post-7 .post-lyrics .lyric-2, .omens-post-7 .post-lyrics .lyric-2-override {
+  grid-area: post-7-lyric-2;
+  width: 100%;
+  font: 900 40px/80% playfair display;
+  text-transform: lowercase;
+  color: #222;
+  text-align: justify;
+  text-align-last: right;
+  position: relative;
+  align-self: start;
+}
+
+.omens-post-7 .post-lyrics .post-icon, .omens-post-7 .post-lyrics .post-icon-override {
+  grid-area: post-7-icon;
+  display: block;
+  outline: 5px solid #fff;
+  margin: 5px;
+  border: 10px solid #f4f4f4;
+  width: 100px;
+  height: 100px;
+  margin-left: 30px;
+  position: relative;
+  background: var(--custom);
+}
+
+.omens-post-7 .post-lyrics .post-icon img, .omens-post-7 .post-lyrics .post-icon-override img {
+  width: 100px;
+  display: block;
+  height: 100px;
+  filter: grayscale(100%);
+  mix-blend-mode: multiply;
+}
+
+.omens-post-7 .post-lyrics:before {
+  content: "";
+  position: absolute;
+  bottom: -480px;
+  right: 0px;
+  width: 950px;
+  height: 1000px;
+  background: url(https://i.ibb.co/Hx43c2Z/pnghut-new-york-city-cities-skylines-clip-art-news.png);
+  filter: grayscale(100%) contrast(150%);
+  opacity: 5%;
+  pointer-events: none;
+}
+
+.omens-post-7 .post-body {
+  border: 50px solid #222;
+  background: #222;
+  font: 400 13px/18px roboto, arial, sans-serif;
+  text-align: justify;
+  color: #aaa;
+  position: relative;
+  max-height: 400px;
+  padding-right: 10px;
+  overflow: auto;
+}
+
+.omens-post-7 .post-body b {
+  font: 600 15px/18px 'eczar';
+  color: var(--custom);
+}
+
+.omens-post-7 .post-body i {
+  color: #eee;
+}
+
+.omens-post-7 span {
+  color: var(--custom);
+  letter-spacing: .5px;
+}
+
+.omens-post-7 .post-body b i {
+  color: revert;
+}
+
+.omens-post-7 .post-body span i {
+  color: revert;
+}
+
+.omens-post-7 .post-body u {
+  padding: 1px 5px;
+  background: var(--custom);
+  color: #222;
+  text-decoration: none;
+  font: 600 11px/18px roboto;
+}
+
+.omens-post-7 .post-body u i {
+  color: revert;
+}
+
+.omens-post-7 .post-body u b {
+  color: #eee;
+  font-weight: 900;
+}
+
+.omens-post-7 .post-body a {
+  font-weight: 600;
+  font-style: italic;
+}
+
+.omens-post-7 .post-body tagged {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-top: 25px;
+}
+
+.omens-post-7 .post-body tagged a {
+  font: 900 16px/100% playfair display;
+  text-transform: lowercase;
+  padding: 10px;
+  background: var(--custom);
+  color: #222;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.omens-post-7 .post-body::-webkit-scrollbar {
+  width: 7px;
+  border-radius: 5px;
+}
+
+.omens-post-7 .post-body::-webkit-scrollbar-thumb {
+  background: #ccc;
+  border-radius: 5px;
+}
+
+.omens-post-7 .post-body::-webkit-scrollbar-track {
+  border-radius: 5px;
+}
+
+
+/* END [POST7] TEMPLATE */
 /* END [POST] TEMPLATES */
 /* END ALL POST TEMPLATES */
 /* BEGIN MAIN PROFILE */
