@@ -6913,34 +6913,30 @@ a.user-small-info:hover:before {
 /* START [POST1] TEMPLATE */
 
 .omens-post-1 {
-  padding: 45px 50px 50px 50px;
-  margin: 50px;
-  background: #222;
-  border-radius: 5px;
-  font: 500 13px/17px roboto, sans-serif;
-  color: #ccc;
-  text-align: justify;
+  padding: 50px;
+  width:50ch;
+  margin:0 auto;
+  background:rgba(255,255,255,2%);
 }
 
 .omens-post-1 .post-icon, .omens-post-1 .post-icon-override {
   display: block;
   float: left;
-  margin-top: 10px;
+  margin-right:35px;
+  margin-bottom:10px;
 }
 
 .omens-post-1 .post-icon img, .omens-post-1 .post-icon-override img {
   display: block;
-  width: 100px;
-  height: 100px;
-  margin: 0px 30px 10px 5px;
+  width: 75px;
+  height: 75px;
   padding: 10px;
-  background: #2f2f2f;
-  outline: 5px solid #3f3f3f;
   image-rendering: -webkit-optimize-contrast;
+  border:2px solid rgba(255, 255, 255, 3%);
 }
 
 .omens-post-1 .lyric-1, .omens-post-1 .lyric-1-override {
-  font: 700 24px montserrat;
+  font: italic 900 2rem/1 'playfair display', serif;
   color: var(--custom);
   text-align: left;
   margin-top: 5px;
