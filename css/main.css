@@ -6963,8 +6963,16 @@ a.user-small-info:hover:before {
   letter-spacing:.05rem;
 }
 
-.omens-post-1 .post-body i {
+.omens-post-1 .post-body i,
+.omens-post-1 .post-body u {
   color: #eee;
+}
+
+.omens-post-1 .post-body u {
+  text-decoration-color: var(--custom);
+  text-decoration-thickness: 0.05rem;
+  text-underline-offset: 0.2rem;
+  letter-spacing:.033rem;
 }
 
 .omens-post-1 .post-body tagged {
@@ -6972,25 +6980,22 @@ a.user-small-info:hover:before {
   place-content: center;
   width: 100%;
   flex-wrap: wrap;
-  gap: 0 25px;
+  gap: 10px 25px;
+  margin-top: 25px;
 }
 
 .omens-post-1 .post-body tagged a {
   font: var(--small-header);
   letter-spacing:.05rem;
   display: block;
-  padding: 10px;
-  background: var(--custom);
   text-transform: uppercase;
-  color: #1c1c1c;
-  border-radius: 5px;
-  margin-top: 25px;
   text-decoration: none;
 }
 
 .omens-post-1 .post-body tagged a:before {
   content: "# ";
   font-weight: 800;
+  color:revert;
 }
 
 /* END [POST1] TEMPLATE */
