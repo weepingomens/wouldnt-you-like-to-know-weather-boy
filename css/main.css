@@ -7783,7 +7783,7 @@ a.user-small-info:hover:before {
   padding: 25px;
 }
 
-.omens-post-8 .post-body div {
+.omens-post-8 .post-body > div:first-of-type {
   border:var(--default-border);
   border-width:0 2px;
   padding: 0 25px;
