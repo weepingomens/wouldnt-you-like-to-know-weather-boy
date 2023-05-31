@@ -6923,9 +6923,9 @@ a.user-small-info:hover:before {
 
 .omens-post-1 .post-icon, .omens-post-1 .post-icon-override {
   display: block;
-  float: left;
-  margin-right:35px;
-  margin-bottom:10px;
+  float: right;
+  margin-left: 25px;
+  margin-bottom: 10px;
 }
 
 .omens-post-1 .post-icon img, .omens-post-1 .post-icon-override img {
