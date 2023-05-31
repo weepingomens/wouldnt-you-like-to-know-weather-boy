@@ -7029,39 +7029,29 @@ a.user-small-info:hover:before {
 }
 
 .omens-post-2 .lyric-1, .omens-post-2 .lyric-1-override {
-  font: 700 48px/100% crimson text;
-  letter-spacing: -2px;
+  font: var(--med-header);
   color: #fff;
   position: relative;
   z-index: 1;
 }
 
 .omens-post-2 .lyric-2, .omens-post-2 .lyric-2-override {
-  font: 900 10px roboto;
+  font: var(--small-header);
+  letter-spacing:.1rem;
   text-transform: uppercase;
   position: relative;
   z-index: 1;
   color: #fff;
-  letter-spacing: 2px;
 }
 
 .omens-post-2 .post-body {
   border-right: 5px solid var(--custom);
-  margin: -5px -5px -5px -5px;
-  text-align: justify;
-  padding: 25px 25px;
+  padding: 25px;
   background: #1a1a1a;
-  font: 400 13px/17px roboto, arial, sans-serif;
-  color: #aaa;
   min-height: 75px;
 }
 
 .omens-post-2 .post-body b {
-  font: 900 14px/17px roboto;
-  color: var(--custom);
-}
-
-.omens-post-2 .post-body b i, .omens-post-2 .post-body span i {
   color: var(--custom);
 }
 
@@ -7070,16 +7060,16 @@ a.user-small-info:hover:before {
 }
 
 .omens-post-2 .post-body i {
-  color: #ccc;
+  color: #ddd;
 }
 
 .omens-post-2 .post-body .post-icon, .omens-post-2 .post-body .post-icon-override {
   width: 50px;
   height: 50px;
   float: right;
-  border: 7px solid #333;
-  outline: 3px solid #444;
-  margin: 6px 6px 10px 20px;
+  border: 2px solid rgba(255, 255, 255, 3%);
+  margin:0 10px 10px 10px;
+  padding:10px;
 }
 
 .omens-post-2 .post-body .post-icon img, .omens-post-2 .post-body .post-icon-override img {
@@ -7098,7 +7088,8 @@ a.user-small-info:hover:before {
 .omens-post-2 .post-body tagged a {
   padding: 5px 10px;
   background: var(--custom);
-  font: 800 10px roboto;
+  font: var(--small-header);
+  letter-spacing:.1rem;
   border-radius: 5px;
   text-decoration: none;
   text-transform: uppercase;
