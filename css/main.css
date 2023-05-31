@@ -6910,7 +6910,93 @@ a.user-small-info:hover:before {
   color: inherit !important;
 }
 /* END UNIVERSAL [POST] STYLING */
+/* START [POST1] TEMPLATE */
 
+.omens-post-1 {
+  padding: 45px 50px 50px 50px;
+  margin: 50px;
+  background: #222;
+  border-radius: 5px;
+  font: 500 13px/17px roboto, sans-serif;
+  color: #ccc;
+  text-align: justify;
+}
+
+.omens-post-1 .post-icon, .omens-post-1 .post-icon-override {
+  display: block;
+  float: left;
+  margin-top: 10px;
+}
+
+.omens-post-1 .post-icon img, .omens-post-1 .post-icon-override img {
+  display: block;
+  width: 100px;
+  height: 100px;
+  margin: 0px 30px 10px 5px;
+  padding: 10px;
+  background: #2f2f2f;
+  outline: 5px solid #3f3f3f;
+  image-rendering: -webkit-optimize-contrast;
+}
+
+.omens-post-1 .lyric-1, .omens-post-1 .lyric-1-override {
+  font: 700 24px montserrat;
+  color: var(--custom);
+  text-align: left;
+  margin-top: 5px;
+}
+
+.omens-post-1 .lyric-2, .omens-post-1 .lyric-2-override {
+  font: 800 11px raleway;
+  text-transform: uppercase;
+  color: #666;
+  text-align: left;
+  margin-bottom: 5px;
+}
+
+.omens-post-1 .post-body b {
+  color: var(--custom);
+  font: 700 14px/18px montserrat;
+}
+
+.omens-post-1 .post-body b i, .omens-post-1 .post-body span i {
+  color: var(--custom);
+}
+
+.omens-post-1 .post-body span {
+  color: var(--custom);
+}
+
+.omens-post-1 .post-body i {
+  color: #eee;
+}
+
+.omens-post-1 .post-body tagged {
+  display: flex;
+  place-content: center;
+  width: 100%;
+  flex-wrap: wrap;
+  gap: 0 25px;
+}
+
+.omens-post-1 .post-body tagged a {
+  font: 700 12px montserrat;
+  display: block;
+  padding: 10px;
+  background: var(--custom);
+  text-transform: uppercase;
+  color: #222 !important;
+  border-radius: 5px;
+  margin-top: 25px;
+  text-decoration: none;
+}
+
+.omens-post-1 .post-body tagged a:before {
+  content: "# ";
+  font-weight: 800;
+}
+
+/* END [POST1] TEMPLATE */
 /* END [POST] TEMPLATES */
 /* END ALL POST TEMPLATES */
 /* BEGIN MAIN PROFILE */
