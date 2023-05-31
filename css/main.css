@@ -663,7 +663,7 @@ textarea {
 
 #omens-body #posting-form input.codebuttons:hover,
 #omens-body #posting-form input.formatbuttons:hover {
-  cursor:crosshair;
+  cursor: crosshair;
 }
 
 #omens-body #posting-form input[type="submit"] {
@@ -676,7 +676,7 @@ textarea {
   text-transform: revert;
   width: 100%;
   background: rgba(255, 255, 255, 10%);
-  color:#aaa;
+  color: #aaa;
 }
 
 #omens-body #posting-form #topic-desc input {
@@ -765,7 +765,7 @@ textarea {
 
 .code-title {
   font: 700 2rem/1 'playfair display', serif;
-  color: rgba(255,255,255,33%);
+  color: rgba(255, 255, 255, 33%);
   text-transform: uppercase;
   letter-spacing: .05rem;
 }
@@ -785,12 +785,12 @@ textarea {
 }
 
 .code-scroll {
-  border:25px solid transparent;
+  border: 25px solid transparent;
   background: rgba(255, 255, 255, 3%);
   font-size: .9rem;
-  padding-right:25px;
-  max-height:250px;
-  overflow:auto;
+  padding-right: 25px;
+  max-height: 250px;
+  overflow: auto;
   word-break: break-all;
 }
 
@@ -808,7 +808,7 @@ textarea {
 }
 
 #ucpcontent .pformleft label {
-  color:#eee;
+  color: #eee;
 }
 
 #ucpmenu {
@@ -825,8 +825,8 @@ textarea {
 #ucpmenu .maintitle {
   font: italic 900 48px 'playfair display', serif;
   color: #1c1c1c;
-  text-transform:lowercase;
-  letter-spacing:0;
+  text-transform: lowercase;
+  letter-spacing: 0;
 }
 
 #ucpcontent tr {
@@ -839,12 +839,12 @@ textarea {
   width: calc(100% - 50px);
   text-transform: none;
   font: 400 1rem/2 'open sans', sans-serif;
-  background: rgba(255,255,255,4%);
-  color:#ccc;
+  background: rgba(255, 255, 255, 4%);
+  color: #ccc;
 }
 
 #ucpcontent .forminput {
-  padding:25px;
+  padding: 25px;
 }
 
 #ucpcontent .forminput {
@@ -853,7 +853,7 @@ textarea {
 
 #omens-body #ucpcontent input[type="text"],
 #omens-body #ucpcontent select {
-  padding:10px;
+  padding: 10px;
   font: 400 0.8rem/2 'open sans', sans-serif;
   letter-spacing: 0.1em;
 }
@@ -862,7 +862,7 @@ textarea {
 #ucpcontent #field-website,
 #ucpcontent #field-location,
 #ucpcontent #field-interests {
-  display:none;
+  display: none;
 }
 
 .pformstrip.ProfileHeader {
@@ -878,8 +878,8 @@ textarea {
   letter-spacing: -0.05em;
   color: #eee;
   text-decoration: underline;
-    text-decoration-color: rgba(255, 255, 255, 5%);
-    text-underline-offset: 7px;
+  text-decoration-color: rgba(255, 255, 255, 5%);
+  text-underline-offset: 7px;
   margin: 10px 0;
   padding-bottom: 10px;
   text-transform: lowercase;
@@ -888,18 +888,18 @@ textarea {
 
 #ucpcontent #autofill {
   background: var(--main-accent);
-    font: 700 0.6rem/100% 'open sans',sans-serif;
-    text-transform: uppercase;
-    color: #222;
-    width: auto;
-    padding: 7px;
-    border: 0;
-    border-radius: 3px;
-    margin: 10px 0;
+  font: 700 0.6rem/100% 'open sans', sans-serif;
+  text-transform: uppercase;
+  color: #222;
+  width: auto;
+  padding: 7px;
+  border: 0;
+  border-radius: 3px;
+  margin: 10px 0;
 }
 
 #ucpcontent #autofill:hover {
-  cursor:crosshair;
+  cursor: crosshair;
 }
 
 #ucpcontent option {
@@ -986,7 +986,7 @@ input[type="submit"] {
 
 #omens-body input[type="submit"] {
   background: var(--main-accent);
-  font: 700 0.6rem/100% 'open sans',sans-serif;
+  font: 700 0.6rem/100% 'open sans', sans-serif;
   text-transform: uppercase;
   color: #222;
   width: auto;
@@ -1015,7 +1015,7 @@ input[type="submit"] {
   right: 0;
   background: rgba(255, 255, 255, 3%);
   height: 100%;
-  width: calc( (100% - 1175px) / 2);
+  width: calc((100% - 1175px) / 2);
 }
 
 #omens-top {
@@ -1183,10 +1183,10 @@ input[type="submit"] {
 }
 
 #omens-body #omens-top #current-user #subaccounts_menu option {
-  font: 700 0.6rem/100% 'open sans',sans-serif;
+  font: 700 0.6rem/100% 'open sans', sans-serif;
   background: #333;
   color: #888;
-  text-transform:uppercase;
+  text-transform: uppercase;
 }
 
 #omens-body #omens-top .user-links {
@@ -2137,7 +2137,7 @@ input[type="submit"] {
 }
 
 #omens-body #omens-sidebar .sidebar-group a {
-  font: 700 .6rem/2 'open sans',sans-serif;
+  font: 700 .6rem/2 'open sans', sans-serif;
   text-transform: uppercase;
   display: flex;
   align-items: center;
@@ -2234,10 +2234,10 @@ input[type="submit"] {
   grid-area: omens-main;
   width: 825px;
   padding: 50px 50px 0 50px;
-  position:relative;
+  position: relative;
 }
 
-#omens-main .post-row br, 
+#omens-main .post-row br,
 #omens-main #main-profile br,
 #omens-main #omens-footer br,
 #omens-main .extras-container br,
@@ -2245,13 +2245,14 @@ input[type="submit"] {
 #omens-main #ucpmenu br,
 #omens-main #board-message br,
 #omens-main #omens-page-brochure br {
-  display:block;
+  display: block;
 }
 
 /* fuck it */
 #omens-main br {
-  display:none;
+  display: none;
 }
+
 header.category {
   display: flex;
   align-items: center;
@@ -3705,7 +3706,7 @@ a.user-small-info:hover:before {
 }
 
 .post-row .post-container .postcolor {
-  margin:0 50px 50px;
+  margin: 0 50px 50px;
 }
 
 .post-row .post-container h1 {
@@ -3883,8 +3884,8 @@ a.user-small-info:hover:before {
 }
 
 .staff-template {
-  width:70ch;
-  margin:auto;
+  width: 70ch;
+  margin: auto;
 }
 
 .staff-template .simple-tabs__list {
@@ -3912,7 +3913,7 @@ a.user-small-info:hover:before {
   max-height: calc(100vh - 300px);
   min-height: 400px;
   overflow: auto;
-  width:100%;
+  width: 100%;
 }
 
 .staff-template .simple-tabs__list-item>span:hover,
@@ -3945,7 +3946,7 @@ a.user-small-info:hover:before {
   text-decoration: underline;
   text-decoration-style: dotted;
   text-underline-offset: 0.2rem;
-  text-decoration-color: rgba(255,255,255,15%);
+  text-decoration-color: rgba(255, 255, 255, 15%);
   font-weight: 700;
   text-decoration-thickness: 0.1rem;
 }
@@ -4036,14 +4037,14 @@ a.user-small-info:hover:before {
 }
 
 .staff-template .countdown_row {
-  display:flex;
+  display: flex;
   justify-content: space-evenly;
-  text-align:center;
-} 
+  text-align: center;
+}
 
 .staff-template #eventCountdown {
-  display:grid;
-  gap:25px;
+  display: grid;
+  gap: 25px;
 }
 
 .staff-template .countdown_amount {
@@ -4055,11 +4056,11 @@ a.user-small-info:hover:before {
   color: rgba(255, 255, 255, 50%);
 }
 
-.staff-template h3 + blockquote {
-  margin-top:0;
+.staff-template h3+blockquote {
+  margin-top: 0;
 }
 
-.staff-template blockquote + #CODE-WRAP {
+.staff-template blockquote+#CODE-WRAP {
   margin-top: -25px;
 }
 
@@ -4068,13 +4069,13 @@ a.user-small-info:hover:before {
 /* START WANTED TEMPLATE SOLO */
 
 .omens-wanted-1 {
-  display:grid;
+  display: grid;
   align-items: center;
   grid: min-content min-content min-content / 154px auto;
   grid-template-areas:
-  "want-title want-title"
-  "want-image want-basics"
-  "want-desc want-desc";
+    "want-title want-title"
+    "want-image want-basics"
+    "want-desc want-desc";
   gap: 25px 50px;
   padding-bottom: 50px;
   margin: 0 auto;
@@ -4083,7 +4084,7 @@ a.user-small-info:hover:before {
 
 .omens-wanted-1 .want-svg,
 .omens-wanted-1 #want-path {
-  display:none;
+  display: none;
 }
 
 .omens-wanted-1 .want-title {
@@ -4093,8 +4094,8 @@ a.user-small-info:hover:before {
   display: flex;
   flex-flow: column nowrap;
   justify-content: center;
-  width:calc(100% - 100px);
-  padding:50px;
+  width: calc(100% - 100px);
+  padding: 50px;
 }
 
 .omens-wanted-1 .want-title:after {
@@ -4113,7 +4114,7 @@ a.user-small-info:hover:before {
 }
 
 .omens-wanted-1 .want-title {
-  grid-area:want-title;
+  grid-area: want-title;
   font: italic 900 48px 'playfair display', serif;
   color: #1c1c1c;
 }
@@ -4126,61 +4127,61 @@ a.user-small-info:hover:before {
 }
 
 .post-row .post-container .omens-wanted-1 .want-basics {
-  grid-area:want-basics;
-  font: 700 0.6rem/2 'open sans',sans-serif;
-  text-transform:uppercase;
+  grid-area: want-basics;
+  font: 700 0.6rem/2 'open sans', sans-serif;
+  text-transform: uppercase;
 }
 
 .post-row .post-container .omens-wanted-1 .want-basics b {
-  font-weight:700;
-  color:#eee;
+  font-weight: 700;
+  color: #eee;
   text-decoration: underline;
-    text-decoration-style: dotted;
-    text-underline-offset: 0.2rem;
-    text-decoration-color: rgba(255,255,255,15%);
-    letter-spacing:.05rem;
-    text-decoration-thickness: 0.1rem;
+  text-decoration-style: dotted;
+  text-underline-offset: 0.2rem;
+  text-decoration-color: rgba(255, 255, 255, 15%);
+  letter-spacing: .05rem;
+  text-decoration-thickness: 0.1rem;
 }
 
 .post-row .post-container .omens-wanted-1 h1 {
   font: 800 25px/100% 'Playfair Display', serif;
   color: rgba(255, 255, 255, 25%);
-  letter-spacing:0;
+  letter-spacing: 0;
   justify-content: start;
   margin-bottom: 10px;
-  gap:10px;
-  flex-flow:row wrap;
+  gap: 10px;
+  flex-flow: row wrap;
 }
 
 .post-row .post-container .omens-wanted-1 h1 b {
-  font-weight:800;
-  color:var(--custom);
+  font-weight: 800;
+  color: var(--custom);
 }
 
 .post-row .post-container .omens-wanted-1 .want-description {
-  grid-area:want-desc;
+  grid-area: want-desc;
   width: 50ch;
-    margin: 25px auto 0;
-    border: 2px solid rgba(255,255,255,3%);
-    padding: 50px;
+  margin: 25px auto 0;
+  border: 2px solid rgba(255, 255, 255, 3%);
+  padding: 50px;
 }
 
 .post-row .post-container .omens-wanted-1 .want-description b,
 .post-row .post-container .omens-wanted-1-multi .want-character .want-char-desc b {
-  color:var(--custom);
+  color: var(--custom);
   text-decoration: underline;
   text-decoration-style: solid;
   text-underline-offset: 0.2rem;
-  text-decoration-color: rgba(255,255,255,5%);
+  text-decoration-color: rgba(255, 255, 255, 5%);
   text-decoration-thickness: 0.1rem;
 }
 
 .omens-wanted-1 img {
-  width:100px;
-  height:100px;
-  grid-area:want-image;
-  border: 2px solid rgba(255,255,255,3%);
-  padding:25px;
+  width: 100px;
+  height: 100px;
+  grid-area: want-image;
+  border: 2px solid rgba(255, 255, 255, 3%);
+  padding: 25px;
   border-right-color: var(--custom);
   border-radius: 100%;
 }
@@ -4197,9 +4198,9 @@ a.user-small-info:hover:before {
 /* END WANTED TEMPLATE SOLO */
 /* START WANTED TEMPLATE MULTI */
 .omens-wanted-1.omens-wanted-1-multi {
-  display:flex;
-  flex-flow:column nowrap;
-  gap:25px;
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 25px;
   align-items: flex-start;
 }
 
@@ -4207,11 +4208,11 @@ a.user-small-info:hover:before {
   display: grid;
   grid: min-content min-content min-content / 74px auto;
   grid-template-areas:
-      "multi-1-img multi-1-char"
-      "multi-1-img multi-1-details"
-      "multi-1-desc multi-1-desc";
+    "multi-1-img multi-1-char"
+    "multi-1-img multi-1-details"
+    "multi-1-desc multi-1-desc";
   gap: 0 25px;
-  border-bottom: 2px solid rgba(255,255,255,3%);
+  border-bottom: 2px solid rgba(255, 255, 255, 3%);
   padding-bottom: 25px;
   width: calc(100% - 100px);
   margin: 0 50px;
@@ -4219,12 +4220,12 @@ a.user-small-info:hover:before {
 
 .omens-wanted-1-multi .want-img {
   grid-area: multi-1-img;
-    margin: 0px;
-    border-radius: 100%;
-    width: 75px;
-    height: 75px;
-    overflow: hidden;
-} 
+  margin: 0px;
+  border-radius: 100%;
+  width: 75px;
+  height: 75px;
+  overflow: hidden;
+}
 
 .omens-wanted-1.omens-wanted-1-multi .want-img img {
   padding: 0;
@@ -4253,7 +4254,7 @@ a.user-small-info:hover:before {
   width: calc(100% - 50px);
   margin-top: 25px;
   text-align: left;
-  border: 2px solid rgba(255,255,255,3%);
+  border: 2px solid rgba(255, 255, 255, 3%);
   padding: 25px;
 }
 
@@ -4263,16 +4264,16 @@ a.user-small-info:hover:before {
 /* START DEVELOPMENT MOODBOARD TEMPLATE */
 
 .omens-development-1 {
-  display:flex;
-  flex-flow:row wrap;
+  display: flex;
+  flex-flow: row wrap;
   justify-content: center;
   margin: 50px;
   border-bottom: 10px solid var(--custom);
-  padding-bottom:50px;
+  padding-bottom: 50px;
 }
 
 #omens-main .post-row .omens-development-1 br {
-  display:none;
+  display: none;
 }
 
 .omens-development-1 header {
@@ -4282,8 +4283,8 @@ a.user-small-info:hover:before {
   display: flex;
   flex-flow: column nowrap;
   justify-content: center;
-  width:calc(100% - 100px);
-  padding:50px;
+  width: calc(100% - 100px);
+  padding: 50px;
 }
 
 .omens-development-1.omens-development-1-moodboard header {
@@ -4317,22 +4318,24 @@ a.user-small-info:hover:before {
 }
 
 .omens-development-1 footer img {
-  display:none;
+  display: none;
 }
+
 .omens-development-1 img {
-  margin:5px;
+  margin: 5px;
   max-width: calc(100% - 100px);
 }
+
 /* END DEVELOPMENT MOODBOARD TEMPLATE */
 /* START DEVELOPMENT QUOTE TEMPLATE */
 .omens-development-1 quotebox {
-  font: italic 700 2rem 'playfair display',serif;
+  font: italic 700 2rem 'playfair display', serif;
   padding: 50px;
-  text-transform:lowercase;
+  text-transform: lowercase;
 }
 
 .omens-development-1 quotebox br {
-  display:block;
+  display: block;
 }
 
 .omens-development-1 cite {
@@ -4341,17 +4344,18 @@ a.user-small-info:hover:before {
   text-transform: uppercase;
   height: 100%;
 }
+
 /* END DEVELOPMENT QUOTE TEMPLATE */
 /* START DEVELOPMENT LYRIC TEMPLATE */
 
 .omens-development-1 iframe {
   margin: 50px 50px 0;
-    filter: grayscale(1);
+  filter: grayscale(1);
 }
 
 .omens-development-1 lyrics {
   text-align: left;
-  border: 2px solid rgba(255,255,255,3%);
+  border: 2px solid rgba(255, 255, 255, 3%);
   padding: 25px;
   width: calc(100% - 50px);
   margin: 50px 50px 0;
@@ -4363,22 +4367,23 @@ a.user-small-info:hover:before {
 
 #omens-main .post-row .omens-development-1 quotebox br,
 #omens-main .post-row .omens-development-1 lyrics br {
-  display:block;
+  display: block;
 }
 
 .omens-development-1.omens-development-1-lyrics cite {
-  margin-top:50px;
+  margin-top: 50px;
 }
 
-.omens-development-1.omens-development-1-lyrics header + lyrics {
-  margin-top:50px;
+.omens-development-1.omens-development-1-lyrics header+lyrics {
+  margin-top: 50px;
 }
+
 /* END DEVELOPMENT LYRIC TEMPLATE */
 /* START DEV PLAYLIST TEMPLATE */
 
 .omens-development-1.omens-development-1-playlist {
-  gap:25px;
-  padding-bottom:25px;
+  gap: 25px;
+  padding-bottom: 25px;
 }
 
 .omens-development-1.omens-development-1-playlist h1:before {
@@ -4386,28 +4391,28 @@ a.user-small-info:hover:before {
 }
 
 .omens-development-1.omens-development-1-playlist a {
-  display:block;
-  width:100%;
+  display: block;
+  width: 100%;
   margin: 0 50px;
   text-align: center;
 }
 
 .omens-development-1.omens-development-1-playlist song {
   display: grid;
-  transition:.25s;
+  transition: .25s;
 }
 
 .omens-development-1.omens-development-1-playlist song b {
-  font: italic 700 2rem 'playfair display',serif;
+  font: italic 700 2rem 'playfair display', serif;
 }
 
 .omens-development-1.omens-development-1-playlist song cite {
-  color: rgba(255,255,255,25%);
+  color: rgba(255, 255, 255, 25%);
 }
 
 .omens-development-1.omens-development-1-playlist a:hover song {
-  letter-spacing:0.05em;
-  transition:.25s;
+  letter-spacing: 0.05em;
+  transition: .25s;
 }
 
 .omens-development-1.omens-development-1-playlist h1 {
@@ -4429,36 +4434,36 @@ a.user-small-info:hover:before {
 /* START DEV DRABBLE TEMPLATE */
 .omens-development-1 drabble {
   margin: 50px 50px 0;
-  border: 2px solid rgba(255,255,255,3%);
+  border: 2px solid rgba(255, 255, 255, 3%);
   padding: 0 25px;
   border-width: 0 2px;
 }
 
 #omens-main .post-row .omens-development-1 drabble br {
-  display:block;
+  display: block;
 }
 
 .omens-development-1 drabble i {
-  color:#eee;
+  color: #eee;
 }
 
 .omens-development-1 drabble b {
-  color:var(--custom);
+  color: var(--custom);
   text-decoration: underline;
-    text-decoration-style: solid;
-    text-underline-offset: 0.2rem;
-    text-decoration-color: rgba(255,255,255,5%);
-    text-decoration-thickness: 0.1rem;
+  text-decoration-style: solid;
+  text-underline-offset: 0.2rem;
+  text-decoration-color: rgba(255, 255, 255, 5%);
+  text-decoration-thickness: 0.1rem;
 }
 
 .omens-development-1 drabble u {
   text-decoration: underline;
-    text-decoration-style: solid;
-    text-underline-offset: 0.2rem;
-    text-decoration-color: var(--custom);
-    text-decoration-thickness: 0.1rem;
-    color:#eee;
-    font-weight:500;
+  text-decoration-style: solid;
+  text-underline-offset: 0.2rem;
+  text-decoration-color: var(--custom);
+  text-decoration-thickness: 0.1rem;
+  color: #eee;
+  font-weight: 500;
 }
 
 /* END DEV DRABBLE TEMPLATE */
@@ -4480,30 +4485,30 @@ a.user-small-info:hover:before {
   grid-template-areas: "insta-1-icon insta-1-name"
     "insta-1-icon insta-1-deets"
     "insta-1-icon insta-1-desc";
-    position:relative;
-    justify-items: start;
+  position: relative;
+  justify-items: start;
 }
 
 .omens-insta-1 .insta-title:after {
   content: '';
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background-size: cover;
-    background-image: url(https://weepingomens.github.io/wouldnt-you-like-to-know-weather-boy/src/img/city-background.png);
-    pointer-events: none;
-    z-index: 0;
-    top: 0;
-    left: 0;
-    opacity: 7%;
-    filter: grayscale(1);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-image: url(https://weepingomens.github.io/wouldnt-you-like-to-know-weather-boy/src/img/city-background.png);
+  pointer-events: none;
+  z-index: 0;
+  top: 0;
+  left: 0;
+  opacity: 7%;
+  filter: grayscale(1);
 }
 
 .omens-insta-1 .insta-title .insta-deco {
   position: absolute;
   top: 0px;
   right: 0px;
-  color: rgba(255,255,255,25%);
+  color: rgba(255, 255, 255, 25%);
   pointer-events: none;
   mix-blend-mode: color;
 }
@@ -4519,8 +4524,8 @@ a.user-small-info:hover:before {
   border-radius: 100%;
   padding: 10px;
   background: #1c1c1c;
-  position:relative;
-  z-index:1;
+  position: relative;
+  z-index: 1;
 }
 
 .omens-insta-1 .insta-title h1 {
@@ -4529,7 +4534,7 @@ a.user-small-info:hover:before {
   align-self: end;
   z-index: 1;
   display: flex;
-  text-align:left;
+  text-align: left;
   color: #1c1c1c;
   letter-spacing: 0;
   font: italic 900 2rem 'playfair display', serif;
@@ -4557,7 +4562,7 @@ a.user-small-info:hover:before {
   align-self: start;
   color: #1c1c1c;
   z-index: 1;
-  font: 700 0.9rem 'open sans',sans-serif;
+  font: 700 0.9rem 'open sans', sans-serif;
 }
 
 .omens-insta-1 h1 #verified-check {
@@ -4603,40 +4608,40 @@ a.user-small-info:hover:before {
 
 .omens-insta-1 .insta-body .insta-image span i {
   display: inline;
-  font-style:normal;
+  font-style: normal;
 }
 
 /* END SM PROFILE */
 /* START SM UPLOAD */
 
 .omens-insta-2 {
-  position:relative;
+  position: relative;
   border-bottom: 10px solid var(--custom);
-    padding-bottom: 25px;
+  padding-bottom: 25px;
 }
 
 .omens-insta-2 .insta-title {
   background: var(--custom);
   padding: 50px;
-    position:relative;
-    justify-items: start;
-    font: italic 900 2rem 'playfair display', serif;
-    color: #1c1c1c;
+  position: relative;
+  justify-items: start;
+  font: italic 900 2rem 'playfair display', serif;
+  color: #1c1c1c;
 }
 
 .omens-insta-2 .insta-title:after,
 .omens-insta-2 .insta-likes:after {
   content: '';
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background-image: url(https://weepingomens.github.io/wouldnt-you-like-to-know-weather-boy/src/img/city-background.png);
-    pointer-events: none;
-    z-index: 0;
-    top: 0;
-    left: 0;
-    opacity: 7%;
-    filter: grayscale(1);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url(https://weepingomens.github.io/wouldnt-you-like-to-know-weather-boy/src/img/city-background.png);
+  pointer-events: none;
+  z-index: 0;
+  top: 0;
+  left: 0;
+  opacity: 7%;
+  filter: grayscale(1);
 }
 
 .omens-insta-2 .insta-image {
@@ -4651,15 +4656,15 @@ a.user-small-info:hover:before {
   top: 0px;
   right: 0px;
   font-size: 250px;
-  color: rgba(255,255,255,15%);
+  color: rgba(255, 255, 255, 15%);
   z-index: -1;
   pointer-events: none;
 }
 
 .omens-insta-2 .insta-desc {
-  margin:50px auto;
-  border:2px solid rgba(255,255,255,3%);
-  padding:25px;
+  margin: 50px auto;
+  border: 2px solid rgba(255, 255, 255, 3%);
+  padding: 25px;
 }
 
 .omens-insta-2 #insta-tags {
@@ -4691,10 +4696,10 @@ a.user-small-info:hover:before {
   grid: min-content min-content/ min-content auto;
   align-items: center;
   grid-template-areas:
-      "insta-1-comment-icon insta-1-comment-user"
-      "insta-1-comment-icon insta-1-comment-comment";
-      gap: 0 25px;
-      margin: 0 50px 10px;
+    "insta-1-comment-icon insta-1-comment-user"
+    "insta-1-comment-icon insta-1-comment-comment";
+  gap: 0 25px;
+  margin: 0 50px 10px;
 }
 
 .omens-insta-2 .insta-comment img {
@@ -4709,9 +4714,9 @@ a.user-small-info:hover:before {
   grid-area: insta-1-comment-user;
   margin: 0px;
   font: italic 900 2rem/1 'playfair display', serif;
-  text-transform:lowercase;
-  display:block;
-  letter-spacing:0;
+  text-transform: lowercase;
+  display: block;
+  letter-spacing: 0;
   color: rgba(255, 255, 255, 20%);
 }
 
@@ -4720,7 +4725,7 @@ a.user-small-info:hover:before {
   font: 700 0.6rem 'open sans', sans-serif;
   text-transform: uppercase;
   letter-spacing: 0.2rem;
-  border:0;
+  border: 0;
 }
 
 .omens-insta-2 .insta-comment h1 span a {
@@ -4729,21 +4734,21 @@ a.user-small-info:hover:before {
 
 .omens-insta-2 .insta-comment span {
   grid-area: insta-1-comment-comment;
-  border: 2px solid rgba(255,255,255,3%);
-  padding:10px;
+  border: 2px solid rgba(255, 255, 255, 3%);
+  padding: 10px;
 }
 
 .omens-insta-2 .insta-likes {
   display: inline-block;
   padding: 10px;
   background: var(--custom);
-  color:#1c1c1c;
+  color: #1c1c1c;
   position: absolute;
   font: 700 0.6rem 'open sans', sans-serif;
   text-transform: uppercase;
   letter-spacing: 0.2rem;
-  right:15px;
-  margin-top:-15px;
+  right: 15px;
+  margin-top: -15px;
 }
 
 .omens-insta-2 .insta-likes i {
@@ -4778,16 +4783,16 @@ a.user-small-info:hover:before {
 
 .omens-twit-1 .twit-header:before {
   content: '';
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background-image: url(https://weepingomens.github.io/wouldnt-you-like-to-know-weather-boy/src/img/city-background.png);
-    pointer-events: none;
-    z-index: 0;
-    top: 0;
-    left: 0;
-    opacity: 4%;
-    filter: grayscale(1);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url(https://weepingomens.github.io/wouldnt-you-like-to-know-weather-boy/src/img/city-background.png);
+  pointer-events: none;
+  z-index: 0;
+  top: 0;
+  left: 0;
+  opacity: 4%;
+  filter: grayscale(1);
 }
 
 .omens-twit-1 .twit-bigimg {
@@ -4796,7 +4801,7 @@ a.user-small-info:hover:before {
   width: 600px;
   height: 200px;
   background-color: var(--custom);
-  position:relative;
+  position: relative;
 }
 
 .omens-twit-1 .twit-icon {
@@ -4811,18 +4816,18 @@ a.user-small-info:hover:before {
   background: #1c1c1c;
   margin-top: -75px;
   margin-left: 25px;
-  position:relative;
+  position: relative;
 }
 
 .post-row .post-container .omens-twit-1 h1 {
   margin: 0px;
   grid-area: twit-1-display;
   font: italic 900 2rem 'playfair display', serif;
-  text-transform:lowercase;
-  letter-spacing:0;
-  color:#1c1c1c;
-  display:block;
-  position:relative;
+  text-transform: lowercase;
+  letter-spacing: 0;
+  color: #1c1c1c;
+  display: block;
+  position: relative;
 }
 
 .omens-twit-1 h1 #verified-check {
@@ -4836,22 +4841,22 @@ a.user-small-info:hover:before {
   color: #1c1c1c;
   letter-spacing: 0.2rem;
   text-transform: uppercase;
-  position:relative;
+  position: relative;
 }
 
 .omens-twit-1 .twit-desc {
   grid-area: twit-1-desc;
   align-self: start;
   color: #1c1c1c;
-  font: 700 0.9rem 'open sans',sans-serif;
+  font: 700 0.9rem 'open sans', sans-serif;
   z-index: 1;
   position: relative;
 }
 
 .omens-twit-1 .twit-follow {
   grid-area: twit-1-follow;
-  display:flex;
-  gap:25px;
+  display: flex;
+  gap: 25px;
 }
 
 .omens-twit-1 .twit-follow span {
@@ -4859,14 +4864,14 @@ a.user-small-info:hover:before {
   color: #1c1c1c;
   letter-spacing: 0.2rem;
   text-transform: uppercase;
-  position:relative;
+  position: relative;
 }
 
 .omens-twit-1 .twit-header .twit-deco {
   position: absolute;
   bottom: -25px;
   right: 0px;
-  color: rgba(255,255,255,25%);
+  color: rgba(255, 255, 255, 25%);
   pointer-events: none;
   mix-blend-mode: color;
 }
@@ -4882,14 +4887,14 @@ a.user-small-info:hover:before {
 }
 
 .omens-twit-1 .twit-contain .tweet {
-  border: 2px solid rgba(255,255,255,3%);
+  border: 2px solid rgba(255, 255, 255, 3%);
   position: relative;
   border-width: 0 0 0 2px;
   padding: 0 0 0 25px;
 }
 
 .omens-twit-1 .twit-contain .tweet b {
-  font: italic 700 2rem/1 'playfair display',serif;
+  font: italic 700 2rem/1 'playfair display', serif;
   color: var(--custom);
   display: flex;
   align-items: baseline;
@@ -4897,14 +4902,14 @@ a.user-small-info:hover:before {
 }
 
 .omens-twit-1 .twit-contain .tweet b span {
-  color: rgba(255,255,255,25%);
+  color: rgba(255, 255, 255, 25%);
   font: 700 0.6rem 'open sans', sans-serif;
   letter-spacing: 0.2rem;
   text-transform: uppercase;
 }
 
 .omens-twit-1 .twit-contain .tweet div {
-  margin-top:10px;
+  margin-top: 10px;
 }
 
 .omens-twit-1 .twit-contain .tweet div img {
@@ -4915,7 +4920,7 @@ a.user-small-info:hover:before {
 
 .omens-twit-1 #retweet.tweet .twit-retweet {
   color: var(--custom);
-  font-weight:700;
+  font-weight: 700;
   text-transform: uppercase;
   text-align: center;
 }
@@ -4931,7 +4936,7 @@ a.user-small-info:hover:before {
   padding: 25px;
   position: relative;
   overflow: hidden;
-  border-bottom:10px solid var(--custom);
+  border-bottom: 10px solid var(--custom);
 }
 
 .omens-twit-2 b {
@@ -4941,20 +4946,20 @@ a.user-small-info:hover:before {
   margin-bottom: 10px;
   display: flex;
   align-items: baseline;
-  gap:10px;
+  gap: 10px;
   position: relative;
   z-index: 1;
 }
 
 .omens-twit-2 b span {
-  color: rgba(255,255,255,25%);
+  color: rgba(255, 255, 255, 25%);
   font: 700 0.6rem 'open sans', sans-serif;
   letter-spacing: 0.2rem;
   text-transform: uppercase;
 }
 
 #retweet.omens-twit-2 .twit-retweet, #reply.omens-twit-2 .twit-retweet {
-  color: rgba(255,255,255,25%);
+  color: rgba(255, 255, 255, 25%);
   font: italic 900 2rem/1 'playfair display', serif;
   margin-bottom: 10px;
   text-transform: lowercase;
@@ -4969,7 +4974,7 @@ a.user-small-info:hover:before {
 
 .omens-twit-2 .tweet {
   padding: 0 25px;
-  border: 2px solid rgba(255,255,255,3%);
+  border: 2px solid rgba(255, 255, 255, 3%);
   position: relative;
   z-index: 1;
   border-width: 0 0 0 2px;
@@ -4986,11 +4991,12 @@ a.user-small-info:hover:before {
   position: absolute;
   bottom: -75px;
   right: -25px;
-  color: rgba(255,255,255,25%);
+  color: rgba(255, 255, 255, 25%);
   pointer-events: none;
   mix-blend-mode: color;
   font-size: 250px;
 }
+
 /* END SM TWITTER REPLY */
 /* END SM TEMPLATES */
 /* START PHONE TEMPLATES */
@@ -5008,14 +5014,14 @@ a.user-small-info:hover:before {
 }
 
 #omens-main .post-row .omens-phone-template br {
-  display:none;
+  display: none;
 }
 
 #omens-main .post-row .omens-phone-template msg br,
 #omens-main .post-row .omens-phone-template received br,
 #omens-main .post-row .omens-phone-template speech br,
 #omens-main .post-row .omens-phone-template speech2 br {
-  display:block;
+  display: block;
 }
 
 /* END UNIVERSAL PHONE STYLING */
@@ -5024,7 +5030,7 @@ a.user-small-info:hover:before {
 .omens-phone1-phone {
   width: 320px;
   height: 575px;
-  background:rgba(255,255,255,3%);
+  background: rgba(255, 255, 255, 3%);
   margin: auto;
   display: flex;
   align-items: center;
@@ -5072,7 +5078,7 @@ a.user-small-info:hover:before {
   content: "";
   width: 5px;
   height: 75px;
-  background:rgba(255,255,255,10%);
+  background: rgba(255, 255, 255, 10%);
   position: absolute;
   top: 100px;
   right: -5px;
@@ -5093,7 +5099,7 @@ a.user-small-info:hover:before {
   justify-content: flex-start;
   position: relative;
   overflow: hidden;
-  background:rgba(255,255,255,10%);
+  background: rgba(255, 255, 255, 10%);
   border-radius: 5px;
 }
 
@@ -5103,7 +5109,7 @@ a.user-small-info:hover:before {
   width: 40px;
   height: 40px;
   bottom: 10px;
-  background:rgba(255,255,255,10%);
+  background: rgba(255, 255, 255, 10%);
   z-index: 9;
   align-self: flex-start;
   border-radius: 100%;
@@ -5124,7 +5130,7 @@ a.user-small-info:hover:before {
   position: absolute;
   width: 9px;
   height: 9px;
-  background:rgba(255,255,255,10%);
+  background: rgba(255, 255, 255, 10%);
   border-radius: 100%;
   left: 0px;
 }
@@ -5135,7 +5141,7 @@ a.user-small-info:hover:before {
   height: 7px;
   border-radius: 10px;
   width: 75px;
-  background:rgba(255,255,255,10%);
+  background: rgba(255, 255, 255, 10%);
 }
 
 .omens-phone1-phone-deco {
@@ -5145,7 +5151,7 @@ a.user-small-info:hover:before {
   align-items: center;
   width: calc(100% - 20px);
   padding: 5px 10px;
-  background: rgba(0,0,0,33%);
+  background: rgba(0, 0, 0, 33%);
   font: 700 0.6rem 'open sans', sans-serif;
   letter-spacing: 0.2rem;
   text-transform: uppercase;
@@ -5197,8 +5203,8 @@ a.user-small-info:hover:before {
   color: #1c1c1c;
   position: relative;
   z-index: 1;
-  text-align:left;
-  font: 600 0.9rem 'open sans',sans-serif;
+  text-align: left;
+  font: 600 0.9rem 'open sans', sans-serif;
 }
 
 .omens-phone1-phone-messages msg br, .omens-phone1-phone-messages received br {
@@ -5217,9 +5223,9 @@ a.user-small-info:hover:before {
 .omens-phone1-phone-messages received {
   align-self: flex-start;
   border-radius: 0px 10px 10px 10px;
-  background: rgba(255,255,255,3%);
+  background: rgba(255, 255, 255, 3%);
   color: #eee;
-  font-weight:400;
+  font-weight: 400;
 }
 
 .omens-phone1-phone-deco2 {
@@ -5230,7 +5236,7 @@ a.user-small-info:hover:before {
 }
 
 .omens-phone1-enter-message {
-  background: rgba(255,255,255,3%);
+  background: rgba(255, 255, 255, 3%);
   width: 100%;
   text-align: center;
   height: 10px;
@@ -5294,7 +5300,7 @@ a.user-small-info:hover:before {
   height: 10px;
   color: #1c1c1c;
   cursor: pointer;
-  flex-shrink:0;
+  flex-shrink: 0;
 }
 
 .omens-phone1-phone-messages::-webkit-scrollbar {
@@ -5353,13 +5359,13 @@ a.user-small-info:hover:before {
   overflow: auto;
   margin: 15px;
   border: 10px solid var(--custom);
-  text-align:center;
+  text-align: center;
   background: var(--custom);
   color: #1c1c1c;
   border-radius: 5px;
   bottom: 0;
   position: absolute;
-  font: 600 0.9rem 'open sans',sans-serif;
+  font: 600 0.9rem 'open sans', sans-serif;
 }
 
 .omens-phone1-phonecall.omens-phone-convo tagged:after {
@@ -5423,7 +5429,7 @@ a.user-small-info:hover:before {
   letter-spacing: 0.2rem;
   font: 700 0.6rem 'open sans', sans-serif;
   text-transform: uppercase;
-  color: rgba(255,255,255,20%);
+  color: rgba(255, 255, 255, 20%);
 }
 
 .omens-phone1-phonecall tagged a {
@@ -5556,7 +5562,7 @@ a.user-small-info:hover:before {
   position: absolute;
   top: 0;
   left: 0;
-  color: rgba(255,255,255,80%);
+  color: rgba(255, 255, 255, 80%);
   gap: 5px;
   padding: 5px 10px;
   font: 700 0.6rem 'open sans', sans-serif;
@@ -5588,7 +5594,7 @@ a.user-small-info:hover:before {
   width: 33%;
   margin-left: -10%;
   height: 2px;
-  background: rgba(255,255,255,15%);
+  background: rgba(255, 255, 255, 15%);
 }
 
 .omens-phone-2 .phone-contain .phone-deco:after {
@@ -5596,7 +5602,7 @@ a.user-small-info:hover:before {
   position: absolute;
   width: 7px;
   height: 7px;
-  background: rgba(255,255,255,15%);
+  background: rgba(255, 255, 255, 15%);
   border-radius: 100%;
   margin-left: 50%;
 }
@@ -5620,7 +5626,7 @@ a.user-small-info:hover:before {
 }
 
 .omens-phone-2 .phone-contain .phone-messages::-webkit-scrollbar-thumb {
-  background: rgba(255,255,255,80%);
+  background: rgba(255, 255, 255, 80%);
   border-radius: 5px;
 }
 
@@ -5628,7 +5634,7 @@ a.user-small-info:hover:before {
   display: block;
   font: italic 900 2rem/1 'playfair display', serif;
   font-style: italic;
-  color: rgba(255,255,255,80%);
+  color: rgba(255, 255, 255, 80%);
   align-self: flex-end;
   text-align: right;
   flex-grow: 1;
@@ -5638,7 +5644,7 @@ a.user-small-info:hover:before {
 .omens-phone-2 .phone-contain .phone-messages msg,
 .omens-phone-2 .phone-contain .phone-messages received {
   max-width: 75%;
-  font: 600 0.8rem 'open sans',sans-serif;
+  font: 600 0.8rem 'open sans', sans-serif;
 }
 
 .omens-phone-2 .phone-contain .phone-messages msg {
@@ -5655,11 +5661,11 @@ a.user-small-info:hover:before {
   background: rgba(0, 0, 0, 33%);
   padding: 8px;
   border-radius: 7px;
-  color: rgba(255,255,255,80%);
+  color: rgba(255, 255, 255, 80%);
   align-self: flex-start;
   margin-left: 5px;
   position: relative;
-  font-weight:400;
+  font-weight: 400;
 }
 
 .omens-phone-2 .phone-contain .phone-messages msg img,
@@ -5680,7 +5686,7 @@ a.user-small-info:hover:before {
 }
 
 .omens-phone-2 .phone-contain .phone-messages received react:before {
-  color: rgba(255,255,255,80%);
+  color: rgba(255, 255, 255, 80%);
   font-size: 25px;
   display: block;
 }
@@ -5719,9 +5725,9 @@ a.user-small-info:hover:before {
   background: rgba(0, 0, 0, 33%);
   padding: 8px 25px;
   border-radius: 25px;
-  color: rgba(255,255,255,80%);
+  color: rgba(255, 255, 255, 80%);
   align-self: flex-start;
-  border: 2px solid rgba(255,255,255,80%);
+  border: 2px solid rgba(255, 255, 255, 80%);
   font: 700 0.6rem 'open sans', sans-serif;
   text-transform: uppercase;
   height: 14px;
@@ -5730,7 +5736,7 @@ a.user-small-info:hover:before {
 }
 
 .omens-phone-2 .phone-contain .phone-deco3 .phone-messagebox div {
-  border-right: 2px solid rgba(255,255,255,80%);
+  border-right: 2px solid rgba(255, 255, 255, 80%);
   animation: omens-phone1-typing-blink 1.5s 1.5s step-end infinite;
 }
 
@@ -5746,9 +5752,9 @@ a.user-small-info:hover:before {
   place-items: center;
   place-content: center;
   padding: 10px;
-  border: 2px solid rgba(255,255,255,80%);
+  border: 2px solid rgba(255, 255, 255, 80%);
   border-radius: 100%;
-  color: rgba(255,255,255,80%);
+  color: rgba(255, 255, 255, 80%);
   font-size: 16px;
 }
 
@@ -5771,45 +5777,45 @@ a.user-small-info:hover:before {
 
 .omens-phone-2 .phone-contain .phone-callscreen tagged:before,
 .omens-phone-2 .phone-contain .phone-dialscreen tagged:before {
-  display:block;
+  display: block;
   content: "now calling...";
   letter-spacing: 0.2rem;
   font: 700 0.6rem 'open sans', sans-serif;
   text-transform: uppercase;
   letter-spacing: 0.2rem;
-  color: rgba(255,255,255,50%);
+  color: rgba(255, 255, 255, 50%);
 }
 
 .omens-phone-2 .phone-contain .phone-dialscreen tagged,
 .omens-phone-2 .phone-contain .phone-dialscreen tagged2,
 .omens-phone-2 .phone-contain .phone-callscreen tagged {
   font: italic 900 2rem/1 'playfair display', serif;
-  color: rgba(255,255,255,80%);
+  color: rgba(255, 255, 255, 80%);
   text-align: right;
   position: relative;
-  z-index:1;
+  z-index: 1;
   width: 100%;
-  display:block;
+  display: block;
 }
 
 .omens-phone-2 .phone-contain .phone-dialdeco {
   display: grid;
   grid: min-content min-content / min-content min-content min-content;
   gap: 10px;
-  position:absolute;
+  position: absolute;
 }
 
 .omens-phone-2 .phone-contain .phone-dialdeco ion-icon {
   padding: 10px;
   background: rgba(255, 255, 255, 20%);
   border-radius: 100%;
-  color: rgba(255,255,255,80%);
+  color: rgba(255, 255, 255, 80%);
   font-size: 30px;
 }
 
 .omens-phone-2 .phone-contain .phone-dialdeco2 {
   font-size: 40px;
-  color: rgba(255,255,255,80%);
+  color: rgba(255, 255, 255, 80%);
   transform: rotate(135deg);
   animation: 1.5s phone-button-float linear infinite;
   position: absolute;
@@ -5867,7 +5873,7 @@ a.user-small-info:hover:before {
 .omens-phone-2 .phone-contain .phone-calldeco {
   align-self: end;
   font-size: 40px;
-  color: rgba(255,255,255,80%);
+  color: rgba(255, 255, 255, 80%);
   transform: rotate(135deg);
   order: 4;
 }
@@ -5877,8 +5883,8 @@ a.user-small-info:hover:before {
   border: 10px solid transparent;
   padding: 0px 5px;
   border-radius: 7px;
-  color: rgba(255,255,255,75%);
-  font: 600 0.8rem 'open sans',sans-serif;
+  color: rgba(255, 255, 255, 75%);
+  font: 600 0.8rem 'open sans', sans-serif;
   text-align: center;
   max-height: 90px;
   overflow: auto;
@@ -5892,12 +5898,12 @@ a.user-small-info:hover:before {
 }
 
 .omens-phone-2 .phone-contain .phone-callscreen speech i {
-  color: rgba(255,255,255,80%);
+  color: rgba(255, 255, 255, 80%);
   font-weight: 600;
 }
 
 .omens-phone-2 .phone-contain .phone-callscreen speech::-webkit-scrollbar-thumb {
-  background: rgba(255,255,255,80%);
+  background: rgba(255, 255, 255, 80%);
   border-radius: 5px;
 }
 
@@ -5906,7 +5912,7 @@ a.user-small-info:hover:before {
 
 .omens-phone-3 {
   padding: 7px;
-  background: rgba(255,255,255,3%);
+  background: rgba(255, 255, 255, 3%);
   margin: 25px auto;
   border-radius: 25px;
   position: relative;
@@ -5918,7 +5924,7 @@ a.user-small-info:hover:before {
   height: 50px;
   width: 5px;
   position: absolute;
-  background: rgba(255,255,255,3%);
+  background: rgba(255, 255, 255, 3%);
   top: 20%;
   left: -5px;
   border-radius: 15px 0 0 15px;
@@ -5929,7 +5935,7 @@ a.user-small-info:hover:before {
   height: 50px;
   width: 5px;
   position: absolute;
-  background: rgba(255,255,255,3%);
+  background: rgba(255, 255, 255, 3%);
   top: 31%;
   left: -5px;
   border-radius: 15px 0 0 15px;
@@ -5939,7 +5945,7 @@ a.user-small-info:hover:before {
   height: 35px;
   width: 7px;
   position: absolute;
-  background: rgba(255,255,255,3%);
+  background: rgba(255, 255, 255, 3%);
   top: 25%;
   right: -7px;
   border-radius: 0 15px 15px 0;
@@ -6007,7 +6013,7 @@ a.user-small-info:hover:before {
   padding: 10px;
   background: #333;
   border-radius: 20px 20px 20px 20px;
-  font: 400 0.9rem 'open sans',sans-serif;
+  font: 400 0.9rem 'open sans', sans-serif;
   text-align: center;
   display: flex;
   justify-content: center;
@@ -6158,12 +6164,12 @@ a.user-small-info:hover:before {
   margin: 5px 0;
   max-width: 75%;
   position: relative;
-  font:400 0.9rem 'open sans',sans-serif;
+  font: 400 0.9rem 'open sans', sans-serif;
 }
 
 .omens-phone-3 .phone-contain .phone-messages received {
-  background:rgba(0,0,0,15%);
-  color:rgba(255,255,255,33%);
+  background: rgba(0, 0, 0, 15%);
+  color: rgba(255, 255, 255, 33%);
   position: relative;
   align-self: flex-start;
   border-radius: 10px 20px 20px 20px;
@@ -6188,7 +6194,7 @@ a.user-small-info:hover:before {
 }
 
 .omens-phone-3 .phone-contain .phone-messages msg {
-  background-color: rgba(255,255,255,4%);
+  background-color: rgba(255, 255, 255, 4%);
   align-self: flex-end;
   border-radius: 20px 10px 20px 20px;
 }
@@ -6365,12 +6371,13 @@ a.user-small-info:hover:before {
   font: 500 10px poppins;
   letter-spacing: 0px;
 }
+
 /* END PHONE TEMPLATE 3 */
 /* START PHONE TEMPLATE 4 */
 
 .omens-phone-4 {
   padding: 10px;
-  background:rgba(0,0,0,25%);
+  background: rgba(0, 0, 0, 25%);
   margin: 25px auto;
   border-radius: 25px;
   position: relative;
@@ -6392,7 +6399,7 @@ a.user-small-info:hover:before {
   top: -15px;
   position: relative;
   margin: auto;
-  background: rgba(0,0,0,25%);
+  background: rgba(0, 0, 0, 25%);
 }
 
 .omens-phone-4 .phone-deco1 .phone-speaker {
@@ -6405,7 +6412,7 @@ a.user-small-info:hover:before {
   content: "";
   height: 7px;
   width: 7px;
-  background: rgba(0,0,0,25%);
+  background: rgba(0, 0, 0, 25%);
   border-radius: 100%;
   position: absolute;
   top: 0;
@@ -6418,7 +6425,7 @@ a.user-small-info:hover:before {
   border-radius: 5px;
   width: calc(100% - 15px);
   position: absolute;
-  background: rgba(0,0,0,25%);
+  background: rgba(0, 0, 0, 25%);
   top: 0;
   right: 0;
 }
@@ -6449,7 +6456,7 @@ a.user-small-info:hover:before {
   position: relative;
   width: 33px;
   height: 33px;
-  background: rgba(0,0,0,20%);
+  background: rgba(0, 0, 0, 20%);
   border-radius: 100%;
 }
 
@@ -6461,7 +6468,7 @@ a.user-small-info:hover:before {
   width: 7px;
   top: 20%;
   border-radius: 0 10px 10px 0;
-  background: rgba(0,0,0,25%);
+  background: rgba(0, 0, 0, 25%);
   border-left: 0;
 }
 
@@ -6475,7 +6482,7 @@ a.user-small-info:hover:before {
 
 .omens-phone-4 .phone-l-buttons div {
   position: absolute;
-  background: rgba(0,0,0,25%);
+  background: rgba(0, 0, 0, 25%);
   border-right: 0;
   border-radius: 5px 0 0 5px;
 }
@@ -6526,7 +6533,7 @@ a.user-small-info:hover:before {
   background: rgba(34, 34, 34, 75%);
   padding: 5px;
   font: 700 0.6rem "open sans", sans-serif;
-  text-transform:uppercase;
+  text-transform: uppercase;
   display: flex;
   gap: 5px;
   color: #eee;
@@ -6564,7 +6571,7 @@ a.user-small-info:hover:before {
   width: 30px;
   height: 30px;
   float: left;
-  border: 5px solid rgba(0,0,0,25%);
+  border: 5px solid rgba(0, 0, 0, 25%);
   border-radius: 10px;
   transform: rotate(-45deg);
   filter: grayscale(100%);
@@ -6599,7 +6606,7 @@ a.user-small-info:hover:before {
   border-radius: 25px 25px 5px 25px;
   background: rgba(0, 0, 0, 33%);
   backdrop-filter: blur(2px);
-  font: 400 0.9rem 'open sans',sans-serif;
+  font: 400 0.9rem 'open sans', sans-serif;
   align-self: flex-end;
   margin-right: 10px;
 }
@@ -6627,7 +6634,7 @@ a.user-small-info:hover:before {
 
 .omens-phone-4.omens-phone-text .phone-contain .phone-input received {
   background: var(--custom);
-  font: 600 0.9rem 'open sans',sans-serif;
+  font: 600 0.9rem 'open sans', sans-serif;
   color: #1c1c1c;
   border-radius: 5px 25px 25px 25px;
   margin-left: 10px;
@@ -6731,7 +6738,7 @@ a.user-small-info:hover:before {
   width: 30px;
   height: 30px;
   float: left;
-  border: 5px solid rgba(0,0,0,25%);
+  border: 5px solid rgba(0, 0, 0, 25%);
   border-radius: 10px;
   transform: rotate(-45deg);
   filter: grayscale(100%);
@@ -6753,7 +6760,7 @@ a.user-small-info:hover:before {
   display: grid;
   grid: 1fr 1fr 1fr / 1fr 1fr 1fr;
   gap: 5px;
-  margin-top:10px;
+  margin-top: 10px;
 }
 
 .omens-phone-4.omens-phone-dial .phone-keypad div {
@@ -6766,7 +6773,7 @@ a.user-small-info:hover:before {
   background: rgba(255, 255, 255, 5%);
   backdrop-filter: blur(2px);
   border-radius: 15px;
-  font:300 1rem/1 'open sans', sans-serif;
+  font: 300 1rem/1 'open sans', sans-serif;
   color: #eee;
 }
 
@@ -6858,13 +6865,13 @@ a.user-small-info:hover:before {
   background: rgba(0, 0, 0, 33%);
   border: 10px solid transparent;
   backdrop-filter: blur(2px);
-  font: 400 0.8rem 'open sans',sans-serif;
+  font: 400 0.8rem 'open sans', sans-serif;
   border-radius: 10px;
   max-height: 75px;
   overflow: auto;
   overflow-x: hidden;
   text-align: center;
-  margin-bottom:10px;
+  margin-bottom: 10px;
 }
 
 .omens-phone-4.omens-phone-call .phone-callscreen speech::-webkit-scrollbar {
@@ -7028,7 +7035,7 @@ a.user-small-info:hover:before {
 #main-profile.group-10 .ooc,
 #main-profile.group-6 section.ooc-info ul.ooc,
 #main-profile.group-10 section.ooc-info ul.ooc {
-  display:flex;
+  display: flex;
 }
 
 .post-row.group-6 .ooc.subaccounts,
@@ -7075,15 +7082,18 @@ a.user-small-info:hover:before {
 
 #main-profile.no-ship section.basics {
   grid-template-areas:
-  "mp-basics-info mp-basics-hover"
-  "mp-basics-info mp-basics-hover";
+    "mp-basics-info mp-basics-hover"
+    "mp-basics-info mp-basics-hover";
 }
 
 #main-profile.no-ship section.basics .relationship {
-  display:none;
+  display: none;
 }
 
-.fizzyelf-inherit-classes { height:0; display:none; }
+.fizzyelf-inherit-classes {
+  height: 0;
+  display: none;
+}
 
 /* END MAIN PROFILE BASICS */
 /* START MAIN PROFILE CONTENT */
@@ -7138,13 +7148,14 @@ a.user-small-info:hover:before {
 }
 
 #main-profile.group-3 .simple-tabs__list-item.archives {
-  display:none;
+  display: none;
 }
 
 #main-profile .simple-tabs__content {
   width: 70ch;
-  display:block;
-  scroll-margin-top: 78px; /* height of nav bar */
+  display: block;
+  scroll-margin-top: 78px;
+  /* height of nav bar */
 }
 
 #main-profile section.content .header {
@@ -7153,7 +7164,7 @@ a.user-small-info:hover:before {
   text-transform: uppercase;
   letter-spacing: .01em;
   color: rgba(255, 255, 255, 5%);
-  margin:25px 0;
+  margin: 25px 0;
 }
 
 #main-profile section.content h1 {
@@ -7178,7 +7189,7 @@ a.user-small-info:hover:before {
 }
 
 #main-profile section.content h2 u {
-  font-style:normal;
+  font-style: normal;
 }
 
 #main-profile section.content h3 {
@@ -7326,7 +7337,7 @@ a.user-small-info:hover:before {
 #omens-main #main-profile section.content werewolf br,
 #omens-main #main-profile section.content vampire br,
 #omens-main #main-profile section.content hunter br {
-  display:none;
+  display: none;
 }
 
 #main-profile section.content acedia:after,
@@ -7571,23 +7582,23 @@ a.user-small-info:hover:before {
 }
 
 #main-profile .misc-grid.no-quicklinks .quicklinks {
-  display:none;
+  display: none;
 }
 
 #main-profile .misc-grid.no-tropes {
   grid-template-areas:
-  "mp-misc-header mp-misc-header"
-  "mp-misc-body mp-misc-links";
+    "mp-misc-header mp-misc-header"
+    "mp-misc-body mp-misc-links";
 }
 
 #main-profile .misc-grid.no-tropes .tropes {
-  display:none;
+  display: none;
 }
 
 #main-profile .misc-grid.no-tropes.no-quicklinks {
   grid-template-areas:
-  "mp-misc-header mp-misc-header"
-  "mp-misc-body mp-misc-body";
+    "mp-misc-header mp-misc-header"
+    "mp-misc-body mp-misc-body";
 }
 
 #main-profile section.content .misc .header {
@@ -7641,7 +7652,7 @@ a.user-small-info:hover:before {
 }
 
 #main-profile section.content .spells {
-  display:none;
+  display: none;
 }
 
 #main-profile section.content .spells span {
@@ -7649,11 +7660,11 @@ a.user-small-info:hover:before {
   gap: 5px 10px;
   flex-flow: row wrap;
   color: #eee;
-  margin-top:10px;
+  margin-top: 10px;
 }
 
 #main-profile.group-8 section.content .spells {
-  display:flex;
+  display: flex;
 }
 
 #main-profile section.content .art-credits em,
@@ -7672,11 +7683,11 @@ a.user-small-info:hover:before {
 }
 
 #main-profile.group-3 .archive {
-  display:none;
+  display: none;
 }
 
 #main-profile section.content .fix-height {
-  height: 300px!important;
+  height: 300px !important;
 }
 
 /* END MAIN PROFILE CONTENT */
@@ -7742,33 +7753,33 @@ a.user-small-info:hover:before {
 #main-profile.no-alt-threads .archive-grid {
   grid: min-content min-content min-content / 100%;
   grid-template-areas:
-  "mp-tracker-active mp-tracker-active"
-  "mp-tracker-comms mp-tracker-comms"
-  "mp-tracker-past mp-tracker-past";
+    "mp-tracker-active mp-tracker-active"
+    "mp-tracker-comms mp-tracker-comms"
+    "mp-tracker-past mp-tracker-past";
 }
 
 #main-profile.no-alt-threads .alt-contain {
-  display:none;
+  display: none;
 }
 
 #main-profile.no-comm-threads .archive-grid {
   grid: min-content min-content min-content / 100%;
   grid-template-areas:
-  "mp-tracker-active mp-tracker-active"
-  "mp-tracker-au mp-tracker-au"
-  "mp-tracker-past mp-tracker-past";
+    "mp-tracker-active mp-tracker-active"
+    "mp-tracker-au mp-tracker-au"
+    "mp-tracker-past mp-tracker-past";
 }
 
 #main-profile.no-comm-threads .comm-contain {
-  display:none;
+  display: none;
 }
 
 #main-profile.no-current-threads .tracker-contain {
-  display:none;
+  display: none;
 }
 
 #main-profile.no-complete-threads .history-contain {
-  display:none;
+  display: none;
 }
 
 #main-profile section.content .tracker-item a {
