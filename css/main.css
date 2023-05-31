@@ -7697,13 +7697,13 @@ a.user-small-info:hover:before {
 /* START [POST8] TEMPLATE */
 
 .omens-post-8 {
-  margin: 25px;
-  background: #222;
   overflow: hidden;
   display: flex;
   flex-flow: row wrap;
   place-items: stretch start;
   place-content: start;
+  width: 620px;
+  margin:auto;
 }
 
 .omens-post-8 .post-icon-contain {
@@ -7711,7 +7711,7 @@ a.user-small-info:hover:before {
   display: grid;
   place-items: center;
   place-content: center;
-  background: #181818;
+  background:rgba(0,0,0,10%);
   flex-grow: 1;
   min-height: 150px;
 }
@@ -7721,8 +7721,8 @@ a.user-small-info:hover:before {
   height: 75px;
   border-radius: 100%;
   padding: 10px;
-  border: 5px solid #222;
-  border-right: 5px solid var(--custom);
+  border:var(--default-border);
+  border-right: 2px solid var(--custom);
 }
 
 .omens-post-8 .post-image-2, .omens-post-8 .post-image-2-override {
