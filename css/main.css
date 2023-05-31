@@ -6948,6 +6948,7 @@ a.user-small-info:hover:before {
   font: var(--small-header);
   text-transform: uppercase;
   color:rgba(255,255,255,15%);
+  letter-spacing: 0.2rem;
   text-align: left;
   margin-bottom: 5px;
 }
