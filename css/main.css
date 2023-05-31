@@ -6886,6 +6886,32 @@ a.user-small-info:hover:before {
 
 /* END PHONE TEMPLATE 4 */
 /* END PHONE TEMPLATES */
+/* BEGIN [POST] TEMPLATES */
+/* START UNIVERSAL [POST] STYLING */
+.postcolor .omens-post-template {
+  max-width: 100%;
+}
+
+.post-image-1 img, .post-image-1-override img {
+  max-width: 200px;
+  height: inherit;
+  image-rendering: -webkit-optimize-contrast;
+}
+
+.post-image-2, .post-image-2-override {
+  max-width: 100%;
+}
+
+.post-image-2 img, .post-image-2-override img {
+  max-width: inherit;
+}
+
+.omens-post-template .post-body b i, .omens-post-template .post-body span i {
+  color: inherit !important;
+}
+/* END UNIVERSAL [POST] STYLING */
+
+/* END [POST] TEMPLATES */
 /* END ALL POST TEMPLATES */
 /* BEGIN MAIN PROFILE */
 #main-profile {
