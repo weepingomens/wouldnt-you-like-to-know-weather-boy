@@ -7001,9 +7001,10 @@ a.user-small-info:hover:before {
 /* END [POST1] TEMPLATE */
 /* START [POST2] TEMPLATE */
 .omens-post-2 {
-  margin: 25px 60px;
-  background: #222;
+  background:rgba(255,255,255,2%);
   padding: 25px;
+  width: min-content;
+    margin: 0 auto;
 }
 
 .omens-post-2 .post-image-2, .omens-post-2 .post-image-2-override {
@@ -7015,13 +7016,14 @@ a.user-small-info:hover:before {
   text-align: center;
   position: relative;
   background: var(--custom);
-  border: 10px solid #333;
-  outline: 5px solid #444;
+  outline: var(--default-border);
+  outline-offset:10px;
   overflow: hidden;
-  margin-bottom: 30px;
+  margin: 12px 12px 37px;
 }
 
 .omens-post-2 .post-image-2 img, .omens-post-2 .post-image-2-override img {
+  display:block;
   filter: grayscale(100%);
   position: absolute;
   opacity: 100%;
@@ -7047,8 +7049,9 @@ a.user-small-info:hover:before {
 .omens-post-2 .post-body {
   border-right: 5px solid var(--custom);
   padding: 25px;
-  background: #1a1a1a;
+  background: rgba(0,0,0,15%);
   min-height: 75px;
+  width: 470px;
 }
 
 .omens-post-2 .post-body b {
@@ -7063,12 +7066,19 @@ a.user-small-info:hover:before {
   color: #ddd;
 }
 
+.omens-post-2 .post-body u {
+  text-decoration-color: var(--custom);
+  text-decoration-thickness: 0.1rem;
+  text-underline-offset: 0.2rem;
+  font-weight:500;
+}
+
 .omens-post-2 .post-body .post-icon, .omens-post-2 .post-body .post-icon-override {
   width: 50px;
   height: 50px;
   float: right;
-  border: 2px solid rgba(255, 255, 255, 3%);
-  margin:0 10px 10px 10px;
+  border: var(--default-border);
+  margin: 0 0 10px 25px;
   padding:10px;
 }
 
@@ -7087,13 +7097,12 @@ a.user-small-info:hover:before {
 
 .omens-post-2 .post-body tagged a {
   padding: 5px 10px;
-  background: var(--custom);
   font: var(--small-header);
-  letter-spacing:.1rem;
-  border-radius: 5px;
+  letter-spacing: .2rem;
   text-decoration: none;
   text-transform: uppercase;
-  color: #111;
+  color: #eee;
+  border-left: 2px solid var(--group);
 }
 
 /* END [POST2] TEMPLATE */
