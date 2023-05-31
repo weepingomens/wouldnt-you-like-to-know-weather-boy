@@ -6955,6 +6955,7 @@ a.user-small-info:hover:before {
 .omens-post-1 .post-body b {
   color: var(--custom);
   font-size: 1.2rem;
+  line-height:100%;
 }
 
 .omens-post-1 .post-body span {
