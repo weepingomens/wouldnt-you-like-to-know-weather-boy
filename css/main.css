@@ -7829,6 +7829,173 @@ a.user-small-info:hover:before {
 }
 
 /* END [POST8] TEMPLATE */
+/* START [POST9] TEMPLATE */
+
+.omens-post-9 {
+  margin: 40px;
+  background: #171717;
+  display: grid;
+  grid: min-content min-content / min-content auto;
+  grid-template-areas:
+    "post-9-icon post-9-lyrics"
+    "post-9-body post-9-body";
+  place-items: stretch;
+  place-content: stretch;
+  border-radius: 10px;
+  overflow: hidden;
+  border: 20px solid #191919;
+}
+
+.omens-post-9 .post-lyrics {
+  grid-area: post-9-lyrics;
+  position: relative;
+  padding: 50px;
+  background: var(--custom);
+  display: grid;
+  place-items: start;
+  place-content: center;
+  border-top-right-radius: 5px;
+  min-width: 50px;
+}
+
+.omens-post-9 .post-icon-contain:before {
+  content: "";
+  position: absolute;
+  bottom: -480px;
+  right: 0px;
+  width: 950px;
+  height: 1000px;
+  background: url(https://i.ibb.co/Hx43c2Z/pnghut-new-york-city-cities-skylines-clip-art-news.png);
+  filter: grayscale(100%) contrast(150%);
+  opacity: 3%;
+  pointer-events: none;
+}
+
+.omens-post-9 .lyric-2, .omens-post-9 .lyric-2-override {
+  font: 800 20px/100% poppins;
+  text-transform: uppercase;
+  color: #111;
+  border-left: 5px solid #eee;
+  padding-left: 25px;
+}
+
+.omens-post-9 .lyric-1, .omens-post-9 .lyric-1-override {
+  font: 700 10px/100% montserrat;
+  color: #eee;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+.omens-post-9 .post-icon-contain {
+  grid-area: post-9-icon;
+  width: 200px;
+  background: #111;
+  display: grid;
+  place-items: center;
+  place-content: center;
+  position: relative;
+  overflow: hidden;
+  border-top-left-radius: 5px;
+}
+
+.omens-post-9 .post-icon, .omens-post-9 .post-icon-override {
+  position: relatve;
+  z-index: 1;
+}
+
+.omens-post-9 .post-icon img, .omens-post-9 .post-icon-override img {
+  display: block;
+  width: 75px;
+  height: 75px;
+  padding: 5px;
+  background: #eee;
+  border: 10px solid var(--custom);
+  border-radius: 100%;
+}
+
+.omens-post-9 .post-body {
+  grid-area: post-9-body;
+  border: 25px solid #222;
+  background: #222;
+  font: 400 13px/18px roboto, arial, sans-serif;
+  color: #aaa;
+  text-align: justify;
+  height: 505px;
+  overflow: auto;
+  padding-right: 15px;
+  border-radius: 0px 0px 5px 5px;
+}
+
+.omens-post-9 .post-body b {
+  font: 500 15px/18px montserrat;
+  color: var(--custom);
+}
+
+.omens-post-9 .post-body span {
+  color: var(--custom);
+}
+
+.omens-post-9 .post-body i {
+  font-weight: 600;
+}
+
+.omens-post-9 .post-body u {
+  border-bottom: 1px solid var(--custom);
+  text-decoration: none;
+  color: #ddd;
+}
+
+.omens-post-9 .post-body tagged {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 10px;
+}
+
+.omens-post-9 .post-body tagged a {
+  display: block;
+  font: 700 10px/100% montserrat;
+  color: #151515;
+  text-transform: lowercase;
+  border-left: 5px solid #eee;
+  background: var(--custom);
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.omens-post-9 .post-body::-webkit-scrollbar {
+  width: 10px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.omens-post-9 .post-body::-webkit-scrollbar-thumb {
+  background: #eee;
+  border-radius: 5px;
+}
+
+.omens-post-9 .post-body::-webkit-scrollbar-track {
+  background: #1c1c1c;
+  border-radius: 5px;
+}
+
+.omens-post-9 .post-image-1, .omens-post-9 .post-image-1-override {
+  display: block;
+  padding: 5px;
+  background: #333;
+  border: 20px solid var(--custom);
+  float: right;
+  margin-left: 25px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+
+.omens-post-9 .post-image-1 img, .omens-post-9 .post-image-1-override img {
+  display: block;
+  width: 200px;
+  height: 400px;
+}
+
+/* END [POST9] TEMPLATE */
 /* END [POST] TEMPLATES */
 /* END ALL POST TEMPLATES */
 /* BEGIN MAIN PROFILE */
