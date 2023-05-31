@@ -7106,6 +7106,126 @@ a.user-small-info:hover:before {
 }
 
 /* END [POST2] TEMPLATE */
+/* START [POST3] TEMPLATE */
+
+.omens-post-3 {
+  display: grid;
+  margin: 50px;
+  padding: 25px;
+  background: #1a1a1a;
+  place-items: start;
+  place-content: start;
+  grid: min-content min-content min-content / min-content auto;
+  gap: 0px;
+  grid-template-areas: "post-3-lyric post-3-lyric"
+    "post-3-image post-3-body"
+    "post-3-lyric2 post-3-lyric2";
+  border-radius: 5px;
+}
+
+.omens-post-3 .lyric-1, .omens-post-3 .lyric-1-override {
+  grid-area: post-3-lyric;
+  font: 700 8px montserrat;
+  border-radius: 5px;
+  letter-spacing: 1px;
+  padding: 10px;
+  color: #222;
+  background: var(--custom);
+  text-transform: uppercase;
+  width: calc(100% - 20px);
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.omens-post-3 .post-image-1, .omens-post-3 .post-image-1-override {
+  grid-area: post-3-image;
+  margin-right: 10px;
+}
+
+.omens-post-3 .post-image-1 img, .omens-post-3 .post-image-1-override img {
+  width: 200px;
+  height: 400px;
+  border-radius: 5px;
+  display: block;
+}
+
+.omens-post-3 .post-body {
+  grid-area: post-3-body;
+  border: 20px solid #222;
+  padding-right: 10px;
+  font: 400 13px/18px roboto, arial, sans-serif;
+  color: #aaa;
+  background: #222;
+  text-align: justify;
+  border-radius: 5px;
+  overflow: auto;
+  max-height: 360px;
+  min-width: 280px;
+}
+
+.omens-post-3 .post-body b {
+  font: 700 14px/15px montserrat;
+  color: var(--custom);
+  padding: 2.5px;
+}
+
+.omens-post-3 .post-body b i, .omens-post-3 .post-body span i {
+  color: var(--custom);
+}
+
+.omens-post-3 .post-body span {
+  color: var(--custom);
+}
+
+.omens-post-3 .post-body i {
+  color: #ccc;
+}
+
+.omens-post-3 .post-body::-webkit-scrollbar {
+  width: 10px;
+}
+
+.omens-post-3 .post-body::-webkit-scrollbar-thumb {
+  background: var(--custom);
+}
+
+.omens-post-3 .post-body::-webkit-scrollbar-track {
+  background: #333;
+}
+
+.omens-post-3 .lyric-2, .omens-post-3 .lyric-2-override {
+  grid-area: post-3-lyric2;
+  font: 700 8px montserrat;
+  border-radius: 5px;
+  letter-spacing: 1px;
+  padding: 10px;
+  color: #222;
+  background: var(--custom);
+  text-transform: uppercase;
+  width: calc(100% - 20px);
+  text-align: center;
+  margin-top: 10px;
+}
+
+.omens-post-3 .post-body tagged {
+  display: flex;
+  margin-top: 25px;
+  margin-right: 10px;
+  justify-content: flex-end;
+}
+
+.omens-post-3 .post-body tagged a {
+  border-radius: 5px;
+  text-transform: lowercase;
+  padding: 10px;
+  background: var(--custom);
+  color: #222;
+  font: 700 8px montserrat;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* END [POST3] TEMPLATE */
 /* END [POST] TEMPLATES */
 /* END ALL POST TEMPLATES */
 /* BEGIN MAIN PROFILE */
