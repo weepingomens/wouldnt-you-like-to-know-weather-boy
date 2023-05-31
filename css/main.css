@@ -7213,15 +7213,14 @@ a.user-small-info:hover:before {
 /* START [POST6] TEMPLATE */
 
 .omens-post-6 {
-  margin: 25px;
-  background: #1a1a1a;
+  background:rgba(0,0,0,7%);
   display: grid;
   position: relative;
   overflow: hidden;
   border-radius: 5px;
   place-items: start;
   place-content: start;
-  grid: min-content 440px / min-content auto;
+  grid: min-content auto / min-content auto;
   grid-template-areas:
     "post-6-lyrics post-6-lyrics"
     "post-6-image post-6-body";
@@ -7269,7 +7268,6 @@ a.user-small-info:hover:before {
 
 .omens-post-6 .post-lyrics {
   grid-area: post-6-lyrics;
-  width: 520px;
   display: flex;
   place-items: center;
   place-content: center;
@@ -7289,13 +7287,13 @@ a.user-small-info:hover:before {
 .omens-post-6 .post-lyrics:before {
   content: "";
   position: absolute;
-  bottom: -350px;
-  right: -20px;
-  width: 950px;
-  height: 1000px;
-  background: url(https://i.ibb.co/Hx43c2Z/pnghut-new-york-city-cities-skylines-clip-art-news.png);
-  filter: grayscale(100%) contrast(150%);
-  opacity: 4%;
+  top:0;
+  left:0;
+  width: 100%;
+  height: 100%;
+  background: url(../src/img/city-background.png);
+  opacity: 7%;
+  filter: grayscale(1);
 }
 
 .omens-post-6 .post-lyrics .post-icon, .omens-post-6 .post-lyrics .post-icon-override {
@@ -7311,7 +7309,7 @@ a.user-small-info:hover:before {
   height: 75px;
   border-radius: 100%;
   padding: 10px;
-  background: #222;
+  background: #1c1c1c;
   filter: grayscale(100%);
   margin-left: 5px;
 }
