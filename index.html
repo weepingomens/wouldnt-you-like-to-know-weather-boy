@@ -479,1211 +479,1353 @@ if ( phoneIcon !== '') {
     </div>
   </header> -->
   <main id="omens-main">
-	<script language='JavaScript' type="text/javascript">
-<!--
-function buddy_pop() { window.open('index.php?act=buddy&s=','BrowserBuddy','width=250,height=500,resizable=yes,scrollbars=yes'); }
-function chat_pop(cw,ch)  { window.open('index.php?s=&act=chat&pop=1','Chat','width='+cw+',height='+ch+',resizable=yes,scrollbars=yes'); }
-function multi_page_jump( url_bit, total_posts, per_page )
-{
-pages = 1; cur_st = parseInt("6"); cur_page  = 1;
-if ( total_posts % per_page == 0 ) { pages = total_posts / per_page; }
- else { pages = Math.ceil( total_posts / per_page ); }
-msg = "Please enter a page number to jump to between 1 and" + " " + pages;
-if ( cur_st > 0 ) { cur_page = cur_st / per_page; cur_page = cur_page -1; }
-show_page = 1;
-if ( cur_page < pages )  { show_page = cur_page + 1; }
-if ( cur_page >= pages ) { show_page = cur_page - 1; }
- else { show_page = cur_page + 1; }
-userPage = prompt( msg, show_page );
-if ( userPage > 0  ) {
-	if ( userPage < 1 )     {    userPage = 1;  }
-	if ( userPage > pages ) { userPage = pages; }
-	if ( userPage == 1 )    {     start = 0;    }
-	else { start = (userPage - 1) * per_page; }
-	window.location = url_bit + "&st=" + start;
-}
-}
-
-Collapse="<img alt='Collapse' title='Collapse' src='https://files.jcink.net/themes/default/cat-collapse.png' />"
-Expand="<img alt='Expand' title='Expand' src='https://files.jcink.net/themes/default/cat-expand.png' />"
-
-
-
-//-->
-</script>
-
-<!--IBF.BANNER-->
-<div id='logostrip'>
-  <a href='https://weepingomens.jcink.net/index.php?' title='Board Home'><img width='207' height='57' src="style_images/1/spacer.gif" /><!-- You can insert a logo image here in place of the white spacer --></a>
-</div>
-<!-- IE6/Win TABLE FIX -->
-<table  width="100%" cellspacing="6" id="submenu">
-<tr>
- <td><a href='index.php'>Home</a><!--IBF.RULES--></td>
-
- <td align="right">
-
- <img src="https://files.jcink.net/style_images/1/atb_help.gif" border="0" alt="" />&nbsp;<a href='https://weepingomens.jcink.net/index.php?act=Help'>Help</a>&nbsp; &nbsp;&nbsp;<img src="https://files.jcink.net/style_images/1/atb_search.gif" border="0" alt="" />&nbsp;<a href='https://weepingomens.jcink.net/index.php?act=Search&amp;f=33'>Search</a>&nbsp; &nbsp;&nbsp;<img src="https://files.jcink.net/style_images/1/atb_members.gif" border="0" alt="" />&nbsp;<a href='https://weepingomens.jcink.net/index.php?act=Members'>Members</a>&nbsp; &nbsp;&nbsp;<img src="https://files.jcink.net/style_images/1/atb_calendar.gif" border="0" alt="" />&nbsp;<a href='https://weepingomens.jcink.net/index.php?act=calendar'>Calendar</a>&nbsp; &nbsp;&nbsp; <img src="https://files.jcink.net/style_images/1/shop.png" border="0" alt="" />&nbsp;<a href='?act=store'>Shop</a>&nbsp; &nbsp;&nbsp;<img src='https://files.jcink.net/style_images/1/atb_shoutbox.gif' border='0' />&nbsp;<a href='https://weepingomens.jcink.net/index.php?&act=Shoutbox'>Shoutbox</a>
-
-   <!--IBF.CHATLINK-->
-   <!--IBF.TSLLINK--> 
- </td>
-
-
-</tr>
-</table>
-
-<div align='center'>
-
-<!-- Ad Removal / Premium Board -->
-
-</div>
-
-
-<span id='sub_bar' style="display:none;"> &middot; <span id='subaccounts_menu'>
-<form action='https://weepingomens.jcink.net/index.php?&act=Login&CODE=01&CookieDate=1' name='subswitch' method='POST'>
-<input type='hidden' name='auth_key' value='267c49d879fa4618a35b4f2d43cccc8b'>
-<input type='hidden' name='UserName' value='subacct'>
-<input type='hidden' name='PassWord' value='subacct'>
-<input type='hidden' name='referer' value='showtopic=1182&st=6' />
-<select class='forminput' name='sub_id' onchange='this.form.submit()'>
-<option value='------------' selected='selected'>Switch Account</option>
-<option value='25'>&nbsp;&nbsp;&raquo; ATTIE BELMONT </option><option value='40'>&nbsp;&nbsp;&raquo; CASSANDRA CASSIDY </option><option value='116'>&nbsp;&nbsp;&raquo; JACK ROSENBACH </option><option value='105'>&nbsp;&nbsp;&raquo; JULIET SANTORO </option><option value='271'>&nbsp;&nbsp;&raquo; LOTTIE WINTERBOURNE </option><option value='690'>&nbsp;&nbsp;&raquo; ROMAN MARTINEZ </option><option value='635'>&nbsp;&nbsp;&raquo; annabelle rosenbach </option><option value='265'>&nbsp;&nbsp;&raquo; celkie is a prison </option><option value='95'>&nbsp;&nbsp;&raquo; fuckhands mcmike </option>
-</select>
-</form>
-</span></span>
-<table width="100%" id="userlinks" cellspacing="6">
-   <tr>
-    <td><strong>Logged in as:  <a href='https://weepingomens.jcink.net/index.php?showuser=20' id='logged-in-as'>selkie</a></strong> ( <a href='https://weepingomens.jcink.net/index.php?act=Login&amp;CODE=03&amp;key=267c49d879fa4618a35b4f2d43cccc8b' id='log-out'>Log Out</a><span id='subacct_link'> &middot; <a href='javascript:void(0);'  onclick="document.getElementById('subacct_link').innerHTML=document.getElementById('sub_bar').innerHTML;">Switch Account</a></span>&nbsp;&middot; <b><a href='https://weepingomens.jcink.net/admin.php' id='admin-link' target='_blank'>Admin CP</a></b> &middot; <b><a href='https://weepingomens.jcink.net/index.php?act=modcp' id='modcp-link'>Mod CP</a></b>   )</td>
-    <td align='right'>
-      <b><a href='https://weepingomens.jcink.net/index.php?act=UserCP&amp;CODE=00' title='Edit my settings, such as signature, avatar and more...' id='my-controls'>My Controls</a></b> &middot; <a href='https://weepingomens.jcink.net/index.php?act=Msg&amp;CODE=01' id='x-new-messages'>0 New Messages</a>
-      &middot; <a href='https://weepingomens.jcink.net/index.php?act=Search&amp;CODE=getnew' id='view-new-posts'>View New Posts</a> &middot; <a href='javascript:load_alerts();' title='Alerts' class='alerts-indicator alerts-new' id='alerts-indicator'><strong>Alerts (1)</strong></a> 
-	  
-	 <div id='recent-alerts' style='display: none;'>
-	<div class='tableborder'>
-		<div class="pformstrip"> Recent Alerts <div style="float: right;"><a href="javascript:document.getElementById('recent-alerts').style.display='none';void(0);">[x]</a></div></div>
-			<span id='recent-alerts-data'></span>
-			<div class='pformstrip' style='text-align: center;'>
-				<a href='https://weepingomens.jcink.net/index.php?act=UserCP&CODE=alerts' title='View All Alerts'>View All Alerts</a> &middot; <a  href='javascript:read_alerts();'  title='Mark All Read'>Mark All Read</a>
-			</div>
-		</div>
-	</div>
-	
-	  &middot; <a href="javascript:window.open('index.php?showuser=20&CODE=friends','Friends','width=620,height=460,resizable=yes,scrollbars=yes');void(0);" id='my-friends'>My Friends</a><br />	  
-	 </td>
-   </tr>
-  </table>
-  <script>
-
-function read_alerts() {
-	$('#recent-alerts').slideToggle('slow');
-	$.get( "index.php?recent_alerts=1&read=1", function( data ) {
-		$( "#recent_alerts_data" ).html( data );
-	});
-	$( ".alerts-indicator" ).html( "Alerts (0)");
-}
-
-
-function load_alerts() {
-
-		alert_link = $('.alerts-indicator').position().left-350;
-		
-		$('#recent-alerts').css({
-			left: alert_link + "px",
-		});
-		
-		if($('#recent-alerts').is(':visible')) {
-			$('#recent-alerts').slideToggle('slow');
-		} else {
-			$.get( "index.php?recent_alerts=1", function( data ) {
-				$( "#recent-alerts-data" ).html( data );
-			});
-			$("#recent-alerts").slideToggle('slow');
-		}
-}
-	
-</script>
-
-<style>
-  #recent-alerts {
-	position: absolute; 
-	width:400px;
-	z-index: 999;
-	text-align: left;
+    <script language="JavaScript" type="text/javascript">
+  <!--
+  function buddy_pop() { window.open('index.php?act=buddy&s=','BrowserBuddy','width=250,height=500,resizable=yes,scrollbars=yes'); }
+  function chat_pop(cw,ch)  { window.open('index.php?s=&act=chat&pop=1','Chat','width='+cw+',height='+ch+',resizable=yes,scrollbars=yes'); }
+  function multi_page_jump( url_bit, total_posts, per_page )
+  {
+  pages = 1; cur_st = parseInt(""); cur_page  = 1;
+  if ( total_posts % per_page == 0 ) { pages = total_posts / per_page; }
+   else { pages = Math.ceil( total_posts / per_page ); }
+  msg = "Please enter a page number to jump to between 1 and" + " " + pages;
+  if ( cur_st > 0 ) { cur_page = cur_st / per_page; cur_page = cur_page -1; }
+  show_page = 1;
+  if ( cur_page < pages )  { show_page = cur_page + 1; }
+  if ( cur_page >= pages ) { show_page = cur_page - 1; }
+   else { show_page = cur_page + 1; }
+  userPage = prompt( msg, show_page );
+  if ( userPage > 0  ) {
+    if ( userPage < 1 )     {    userPage = 1;  }
+    if ( userPage > pages ) { userPage = pages; }
+    if ( userPage == 1 )    {     start = 0;    }
+    else { start = (userPage - 1) * per_page; }
+    window.location = url_bit + "&st=" + start;
   }
-</style>
- 
-<br />
-
-	    <script language='javascript' type='text/javascript'>
-    <!--
-    
-	function select_post(post_id) {
-
-	// Get the value of the hidden ID,
-	// Split up the PIDs
-
-	var selposts_value = document.getElementById("selected_posts").value;
-	var selected_posts = selposts_value.split("|");
-
-	// Add/remove and rebuild the hidden ID
-	// holder. simple. :)
-
-	var rebuild = '';
-	var existed = '';
-
-	for(x=0;x<selected_posts.length;x++) {
-		if(selected_posts[x] != post_id && selected_posts[x] !='') {
-			rebuild += selected_posts[x]+"|";
-		}
-		if(selected_posts[x] == post_id) {
-			existed = 1;
-		}
-	}
-
-	if(existed == '') rebuild += post_id+"|";
-	
-	document.getElementById("selected_posts").value = rebuild; 
-	
-    var total = rebuild.split("|").length-1;
-
-	document.getElementById("mod_posts_submit").value='With Selected ('+total+')';
-
-
-	}
-
-    function link_to_post(pid)
-    {
-    	temp = prompt( "Manually copy the direct link to this post below to store the link in your computer's clipboard", "https://weepingomens.jcink.net/index.php?showtopic=1182&view=findpost&p=" + pid );
-    	return false;
-    }
-    
-    function delete_post(theURL) {
-       if (confirm('Are you sure you want to delete this message?')) {
-          window.location.href=theURL;
-       }
-       else {
-          alert ('Ok, no action has been taken');
-       } 
-    }
-    
-    function PopUp(url, name, width,height,center,resize,scroll,posleft,postop) {
-    if (posleft != 0) { x = posleft }
-    if (postop  != 0) { y = postop  }
-
-    if (!scroll) { scroll = 1 }
-    if (!resize) { resize = 1 }
-
-    if ((parseInt (navigator.appVersion) >= 4 ) && (center)) {
-      X = (screen.width  - width ) / 2;
-      Y = (screen.height - height) / 2;
-    }
-    if (scroll != 0) { scroll = 1 }
-
-    var Win = window.open( url, name, 'width='+width+',height='+height+',top='+Y+',left='+X+',resizable='+resize+',scrollbars='+scroll+',location=no,directories=no,status=no,menubar=no,toolbar=no');
-	}
-	
-	function ShowHide(id1, id2) {
-	  if (id1 != '') expMenu(id1);
-	  if (id2 != '') expMenu(id2);
-	}
-	
-	function expMenu(id) {
-	  var itm = null;
-	  if (document.getElementById) {
-		itm = document.getElementById(id);
-	  } else if (document.all){
-		itm = document.all[id];
-	  } else if (document.layers){
-		itm = document.layers[id];
-	  }
-	
-	  if (!itm) {
-	   // do nothing
-	  }
-	  else if (itm.style) {
-		if (itm.style.display == "none") { itm.style.display = ""; }
-		else { itm.style.display = "none"; }
-	  }
-	  else { itm.visibility = "show"; }
-	}
-    //-->
-    </script>
-    
-<a name='top'></a>
-
-
-<table width="100%" cellpadding="0" cellspacing="0" border="0">
-<tr>
- <td align='left' width="20%" nowrap="nowrap"><span class='pagination'><span class='pagination_pagetxt'><a title="Jump to page..." href="javascript:multi_page_jump('https://weepingomens.jcink.net/index.php?showtopic=1182',11,6);">Pages:</a> (2)</span>&nbsp;<a href='https://weepingomens.jcink.net/index.php?showtopic=1182&amp;st=0' class='pagination_page'>1</a>&nbsp;<span class='pagination_current'><b>2</b></span>&nbsp;</span>&nbsp;<span class='goto-firstunread'>( <a href='https://weepingomens.jcink.net/index.php?act=ST&amp;f=33&amp;t=1182&amp;view=getnewpost'>Go to first unread post</a> )</span></td>
- <td align='right' width="80%"><a href='https://weepingomens.jcink.net/index.php?act=Post&amp;CODE=02&amp;f=33&amp;t=1182&amp;st=6'><div class='button-large'>Add Reply</div></a><a href='https://weepingomens.jcink.net/index.php?act=Post&amp;CODE=00&amp;f=33' title='Start a new topic'><div class='button-large'>New Topic</div></a><a href='https://weepingomens.jcink.net/index.php?act=Post&amp;CODE=10&amp;f=33'><div class='button-large'>New Poll</div></a></td>
-</tr>
-</table>
-<br />
-<div class="tableborder">
-    <div class='maintitle'><span class='topic-title-space'>&nbsp;</span><span class='topic-title'>phone templates</span><span class='topic-desc'>, [&lt;3]</span></div>
-	<!--{IBF.POLL}-->
-	<div align='right' class='postlinksbar'>
-	  <strong>	<a href="https://weepingomens.jcink.net/index.php?act=Post&amp;CODE=14&amp;f=33&amp;t=1182">Attach New Poll</a> &#124;&nbsp;<a href='https://weepingomens.jcink.net/index.php?act=Track&amp;f=33&amp;t=1182'>Track This Topic</a> | <a href='https://weepingomens.jcink.net/index.php?act=Forward&f=33&t=1182'>Email This Topic</a> | <a href='https://weepingomens.jcink.net/index.php?act=Print&client=printer&f=33&t=1182'>Print This Topic</a></strong>
-	</div>
-	<div class="post-row member-20 postid-10531 group-6">
-        <div class="user-name">
-	<div class="font-icon"></div>
-          <div class="threat-level threat-level-1">
-            <div class="threat-bar" style="width:1%"></div>
-          </div>
-          <div class="user-small-info group group-icon-6" title=" —"></div>
-          <a href="/index.php?act=Search&CODE=getalluser&mid=20&type=posts" class="user-small-info posts" title="view selkie's posts"></a>
-          <a href="/index.php?act=Search&CODE=getalluser&mid=20&type=topics" class="user-small-info threads" title="view selkie's threads"></a>
-          <a href="/index.php?act=Msg&CODE=04&MID=0" class="user-small-info messages" title="pm selkie"></a>
-          <div class="user-quote">a verb in perfect view.</div>
-          <a href="/index.php?showuser=20" class="user-profile">selkie</a>
-          <span class="user-position"></span>
-          <ul class="user-details">
-            <li class="ic"><em>aka</em> <span class="field">selkie</span></li>
-            <li class="ic"><em>pronouns</em> <span class="field">any ok</span></li>
-            <li class="ic"><em>age</em> <span class="field">22</span></li>
-            <li class="ic"><em>occupation</em> <span class="field">biblethump</span></li>
-            <li class="ic"><em>group</em> <span class="field"> —</span></li>
-            <li class="ooc"><em>limits</em> <span class="field">suicide & homophobia (fine with a content warning!)</span></li>
-            <li class="ooc"><em>age</em> <span class="field">23</span></li>
-            <li class="ooc"><em>pronouns</em> <span class="field">any ok</span></li>
-            <li class="ooc"><em>timezone</em> <span class="field">gmt-6 (cst)</span></li>
-            <li class="ooc"><em>contact via</em> <span class="field">selkie#4576</span></li>
-          </ul>
-
-        </div>
-        <div class="user-hover">
-          <div class="hover-background" style="background-image: url(https://i.ibb.co/3pk1pk9/image.png), url(https://files.jcink.net/uploads2/weepingomens/skin_stuff/default_hover.png);"></div>
-        </div>
-        <div class="relationship">
-          <div class="icon"><a href="https://weepingomens.jcink.net/index.php?showuser=2" title=""><div style="background-image: url();"></div></a></div>
-          <div class="line-1">i hope you die</div>
-          <div class="line-2">cel(kie)</div>
-        </div>
-        <div class="ooc-details">
-          <span>20 posts - 4380 points <span class="ic">- played by selkie (any ok)</span></span>
-          <div class="big-image" style="background-image: url(https://i.ibb.co/CmT2k5q/image.png);"></div>
-        </div>
-<script>
-if ( '—' !== '—' && `anton bloodline` !== `—` ) {
-	document.querySelector('.postid-10531 .user-position').textContent = "— of the anton bloodline";
-}
-
-// i can't pull 'avatar' in post row and i'm not overhauling the grid.
-avatarUrl = 'url(https://i.ibb.co/s2Tx41F/image.png)';
-
-// if no relationship icon or accent
-if ( '' === '' && '#D4AF37' === '' ) {
-	document.querySelector('.postid-10531 .relationship .icon').remove();
-}
-
-// if no relationship lines
-if ( `i hope you die` === `` && `cel(kie)` === `` ) {
-	document.querySelector('.postid-10531').classList.add('no-ship');
-	document.querySelector('.postid-10531 .relationship').remove();
-}
-</script>
-
-<div class="post-proper">
-          <div class="user-icon">
-            <div class="contain"><div class="img"></div>
-            <span>selkie</span></div>
-          </div>
-          <div class="permalink">Oct 14 2021, 11:58 PM - <a name='entry10531' href='https://weepingomens.jcink.net/index.php?showtopic=1182&amp;view=findpost&amp;p=10531'>PERMALINK</a> <a href="javascript:void(0);" onclick="SKIFS.quickEdit.edit('33','1182','10531')"><span class='button-small'>Edit</span></a> <a href='https://weepingomens.jcink.net/index.php?act=Post&amp;CODE=06&amp;f=33&amp;t=1182&amp;p=10531'><span class='button-small'>Quote</span></a> <a href="javascript:delete_post('https://weepingomens.jcink.net/index.php?act=Mod&amp;CODE=04&amp;f=33&amp;t=1182&amp;p=10531&amp;st=6&amp;auth_key=267c49d879fa4618a35b4f2d43cccc8b')"><span class='button-small'>Delete</span></a> <input type='checkbox' OnClick='select_post("10531");' value='0'></div>
-          <div class="post-container">
-<div id="pid_10531" style="margin-top:50px;"><!-- THE POST 10531 --><div class='postcolor'> <div class="omens-post-template omens-post-1"><div class="post-body"><b>NOTE</b>: a contact name must be included with all phone3 templates, and note that jcink tags ( @[user] ) cannot be used as a contact name.</div></div><div class="omens-phone-template omens-phone-3 omens-phone-text"> <div class="phone-power"></div> <div class="phone-contain"> <div class="phone-icons"> <span class="cp cp-phone"></span> <span class="cp cp-video"></span> </div> <div class="phone-background"></div> <tagged2>contact name</tagged2> <div class="phone-messages"> <div class="phone-scroll"> <br /><br /><msg>messages sent by your character are within msg tags<br /><br />line breaks will render in msg and received tags but won&#39;t elsewhere</msg><br /><br /><received>messages received by your character can, optionally, go within msg2 tags</received><br /><br /><received>add reactions by including a value within react tags within msg2<react>haha</react></received><br /><br /><msg>currently there is support for heart, haha, thumbsup, thumbsdown, exclamation, question</msg><br /><br /> </div> <div class="phone-deco"><span class="cp cp-microphone phone-deco1"></span> <div class="phone-deco2"><span class="cp cp-paper-clip-o phone-deco3"></span><span class="phone-deco4">Enter your message...</span><span class="cp cp-chat-bubble phone-deco5"></span></div> </div> </div> </div> </div><!--c1--><table border='0' align='center' width='95%' cellpadding='3' cellspacing='1' id='CODE-WRAP'><tr><td><b>CODE</b> </td></tr><tr><td id='CODE'><!--ec1-->&#91;phone3=contact name&#93;<br /><br />&#91;msg&#93;messages sent by your character are within msg tags<br /><br />line breaks will render in msg and received tags but won&#39;t elsewhere&#91;/msg&#93;<br /><br />&#91;msg2&#93;messages received by your character can, optionally, go within msg2 tags&#91;/msg2&#93;<br /><br />&#91;msg2&#93;add reactions by including a value within react tags within msg2&#91;react&#93;haha&#91;/react&#93;&#91;/msg2&#93;<br /><br />&#91;msg&#93;currently there is support for heart, haha, thumbsup, thumbsdown, exclamation, question&#91;/msg&#93;<br /><br />&#91;/phone3&#93;<!--c2--></td></tr></table><!--ec2--> </div><!-- THE POST --></div>
-          </div>
-        </div>
-</div>
-<script>
-if ( '#df6885' !== '' ) { 
-	document.querySelector('.postid-10531').style.setProperty('--custom', '#df6885');
-} 
-
-if ( '#D4AF37' !== '' ) { 
-	document.querySelector('.postid-10531').style.setProperty('--relationshipAccent', '#D4AF37');
-} 
-if ( '' !== '' ) { 
-	document.querySelector('.postid-10531 .relationship .icon div').style.backgroundImage = "url('')";
-} 
-
-if ( 'game-icon' !== '' ) { 
-	document.querySelector('.postid-10531 .font-icon').classList.add("game-icon");
-} 
-
-if ( 'fire-bomb' !== '' ) { 
-	document.querySelector('.postid-10531 .font-icon').classList.add("game-icon-fire-bomb");
-} 
-
-// if no relationship name ...
-if ( '' === '' ) { 
-	document.querySelector('.postid-10531 .relationship .icon a').removeAttribute('title');
-} 
-
-/* i can't pull 'avatar' in post row and i'm not overhauling the grid. */
-document.querySelector('.postid-10531 .user-icon .img').style.backgroundImage = avatarUrl;
-if ( avatarUrl === 'url()' ) {
-	document.querySelector('.postid-10531').classList.add("no-avatar");
-}
-</script>
-<script>
-// FIELD_# -> POST TEMPLATE SCRIPTING (POST ROW)
-
-currentPost = document.querySelector('#pid_10531');
-
-postImages = [
-	image200By400 = { 
-		imageType: 'post-image-1', DOMTarget: currentPost.querySelectorAll('.post-image-1'),
-		imageSrc: `https://i.ibb.co/yfjwbYT/image.png`, override: currentPost.querySelector('.post-image-1-override') 
-	},
-	image500By150 = { 
-		imageType: 'post-image-2', DOMTarget: currentPost.querySelectorAll('.post-image-2'),
-		imageSrc: `https://i.ibb.co/F46JHGc/image.png`, override: currentPost.querySelector('.post-image-2-override') 
-	},
-	imageSquare = { 
-		imageType: 'squareImage', DOMTarget: currentPost.querySelectorAll('.post-icon'),
-		imageSrc: `https://i.ibb.co/YfYs4gZ/image.png`, override: currentPost.querySelector('.post-icon-override')
-	},
-	imagePhoneBackground = { 
-		imageType: 'phoneBackground', DOMTarget: currentPost.querySelectorAll('.phone-background'),
-		imageSrc: `https://i.ibb.co/9W0n97z/image.png`, override: currentPost.querySelector('.phone-background-override')
-	},
-];
-
-postLyrics = [
-	lyricOne = {
-		lyricType: 'lyricOne', DOMTarget: currentPost.querySelectorAll('.lyric-1'),
-		lyricSrc: `lyric line one styles like this`, override: currentPost.querySelector('.lyric-1-override')
-	},
-	lyricTwo = {
-		lyricType: 'lyricTwo', DOMTarget: currentPost.querySelectorAll('.lyric-2'),
-		lyricSrc: `while lyric line two styles like this`, override: currentPost.querySelector('.lyric-2-override')
-	},
-];
-
-postImages.forEach(insertImage);
-postLyrics.forEach(insertLyrics);
-
-// phone-specific scripting
-
-phoneTwoIcon = currentPost.querySelector('.omens-phone-2.omens-phone-text msg:last-of-type');
-phoneThreeIcon = currentPost.querySelector('.omens-phone-3.omens-phone-text msg:first-of-type');
-phoneFourIcon = currentPost.querySelector('.omens-phone-4.omens-phone-text msg:first-of-type');
-phoneIcon = 'https://i.ibb.co/b5mP5dH/image.png';
-
-if ( currentPost.querySelector('.phone-icon-override') ) {
-phoneIcon = currentPost.querySelector('.phone-icon-override').textContent;
-};
-
-postPhoneIconInsertion();
-
-if ( topicDescription.includes('[<3]') && currentPost.querySelector('.omens-phone-template') && '#D4AF37' !== '' ) {
-	for (let i=0; i < currentPost.querySelectorAll('received').length; i++) {
-		currentPost.querySelectorAll('received')[i].setAttribute('style', 'background:#D4AF37; color:#222;');
-	}
-};
-</script><div class="post-row member-20 postid-10532 group-6">
-        <div class="user-name">
-	<div class="font-icon"></div>
-          <div class="threat-level threat-level-1">
-            <div class="threat-bar" style="width:1%"></div>
-          </div>
-          <div class="user-small-info group group-icon-6" title=" —"></div>
-          <a href="/index.php?act=Search&CODE=getalluser&mid=20&type=posts" class="user-small-info posts" title="view selkie's posts"></a>
-          <a href="/index.php?act=Search&CODE=getalluser&mid=20&type=topics" class="user-small-info threads" title="view selkie's threads"></a>
-          <a href="/index.php?act=Msg&CODE=04&MID=0" class="user-small-info messages" title="pm selkie"></a>
-          <div class="user-quote">a verb in perfect view.</div>
-          <a href="/index.php?showuser=20" class="user-profile">selkie</a>
-          <span class="user-position"></span>
-          <ul class="user-details">
-            <li class="ic"><em>aka</em> <span class="field">selkie</span></li>
-            <li class="ic"><em>pronouns</em> <span class="field">any ok</span></li>
-            <li class="ic"><em>age</em> <span class="field">22</span></li>
-            <li class="ic"><em>occupation</em> <span class="field">biblethump</span></li>
-            <li class="ic"><em>group</em> <span class="field"> —</span></li>
-            <li class="ooc"><em>limits</em> <span class="field">suicide & homophobia (fine with a content warning!)</span></li>
-            <li class="ooc"><em>age</em> <span class="field">23</span></li>
-            <li class="ooc"><em>pronouns</em> <span class="field">any ok</span></li>
-            <li class="ooc"><em>timezone</em> <span class="field">gmt-6 (cst)</span></li>
-            <li class="ooc"><em>contact via</em> <span class="field">selkie#4576</span></li>
-          </ul>
-
-        </div>
-        <div class="user-hover">
-          <div class="hover-background" style="background-image: url(https://i.ibb.co/3pk1pk9/image.png), url(https://files.jcink.net/uploads2/weepingomens/skin_stuff/default_hover.png);"></div>
-        </div>
-        <div class="relationship">
-          <div class="icon"><a href="https://weepingomens.jcink.net/index.php?showuser=2" title=""><div style="background-image: url();"></div></a></div>
-          <div class="line-1">i hope you die</div>
-          <div class="line-2">cel(kie)</div>
-        </div>
-        <div class="ooc-details">
-          <span>20 posts - 4380 points <span class="ic">- played by selkie (any ok)</span></span>
-          <div class="big-image" style="background-image: url(https://i.ibb.co/CmT2k5q/image.png);"></div>
-        </div>
-<script>
-if ( '—' !== '—' && `anton bloodline` !== `—` ) {
-	document.querySelector('.postid-10531 .user-position').textContent = "— of the anton bloodline";
-}
-
-// i can't pull 'avatar' in post row and i'm not overhauling the grid.
-avatarUrl = 'url(https://i.ibb.co/s2Tx41F/image.png)';
-
-// if no relationship icon or accent
-if ( '' === '' && '#D4AF37' === '' ) {
-	document.querySelector('.postid-10531 .relationship .icon').remove();
-}
-
-// if no relationship lines
-if ( `i hope you die` === `` && `cel(kie)` === `` ) {
-	document.querySelector('.postid-10531').classList.add('no-ship');
-	document.querySelector('.postid-10531 .relationship').remove();
-}
-</script>
-
-<div class="post-proper">
-          <div class="user-icon">
-            <div class="contain"><div class="img"></div>
-            <span>selkie</span></div>
-          </div>
-          <div class="permalink">Oct 14 2021, 11:59 PM - <a name='entry10532' href='https://weepingomens.jcink.net/index.php?showtopic=1182&amp;view=findpost&amp;p=10532'>PERMALINK</a> <a href="javascript:void(0);" onclick="SKIFS.quickEdit.edit('33','1182','10532')"><span class='button-small'>Edit</span></a> <a href='https://weepingomens.jcink.net/index.php?act=Post&amp;CODE=06&amp;f=33&amp;t=1182&amp;p=10532'><span class='button-small'>Quote</span></a> <a href="javascript:delete_post('https://weepingomens.jcink.net/index.php?act=Mod&amp;CODE=04&amp;f=33&amp;t=1182&amp;p=10532&amp;st=6&amp;auth_key=267c49d879fa4618a35b4f2d43cccc8b')"><span class='button-small'>Delete</span></a> <input type='checkbox' OnClick='select_post("10532");' value='0'></div>
-          <div class="post-container">
-<div id="pid_10532" style="margin-top:50px;"><!-- THE POST 10532 --><div class='postcolor'> <div class="omens-phone-template omens-phone-3 omens-phone-call"> <div class="phone-power"></div> <div class="phone-contain"> <div class="phone-background"></div> <div class="phone-callscreen"> <div class="phone-icon"></div> <tagged2>contact name</tagged2> <speech1> <speech2>dialogue here.<br /><br />note that all line breaks<br /><br />will register here. </speech2> </speech1> </div>  </div> </div><!--c1--><table border='0' align='center' width='95%' cellpadding='3' cellspacing='1' id='CODE-WRAP'><tr><td><b>CODE</b> </td></tr><tr><td id='CODE'><!--ec1-->&#91;phone3call=contact name&#93;dialogue here.<br /><br />note that all line breaks<br /><br />will register here.&#91;/phone3call&#93;<!--c2--></td></tr></table><!--ec2--> </div><!-- THE POST --></div>
-          </div>
-        </div>
-</div>
-<script>
-if ( '#df6885' !== '' ) { 
-	document.querySelector('.postid-10532').style.setProperty('--custom', '#df6885');
-} 
-
-if ( '#D4AF37' !== '' ) { 
-	document.querySelector('.postid-10532').style.setProperty('--relationshipAccent', '#D4AF37');
-} 
-if ( '' !== '' ) { 
-	document.querySelector('.postid-10532 .relationship .icon div').style.backgroundImage = "url('')";
-} 
-
-if ( 'game-icon' !== '' ) { 
-	document.querySelector('.postid-10532 .font-icon').classList.add("game-icon");
-} 
-
-if ( 'fire-bomb' !== '' ) { 
-	document.querySelector('.postid-10532 .font-icon').classList.add("game-icon-fire-bomb");
-} 
-
-// if no relationship name ...
-if ( '' === '' ) { 
-	document.querySelector('.postid-10532 .relationship .icon a').removeAttribute('title');
-} 
-
-/* i can't pull 'avatar' in post row and i'm not overhauling the grid. */
-document.querySelector('.postid-10532 .user-icon .img').style.backgroundImage = avatarUrl;
-if ( avatarUrl === 'url()' ) {
-	document.querySelector('.postid-10532').classList.add("no-avatar");
-}
-</script>
-<script>
-// FIELD_# -> POST TEMPLATE SCRIPTING (POST ROW)
-
-currentPost = document.querySelector('#pid_10532');
-
-postImages = [
-	image200By400 = { 
-		imageType: 'post-image-1', DOMTarget: currentPost.querySelectorAll('.post-image-1'),
-		imageSrc: `https://i.ibb.co/yfjwbYT/image.png`, override: currentPost.querySelector('.post-image-1-override') 
-	},
-	image500By150 = { 
-		imageType: 'post-image-2', DOMTarget: currentPost.querySelectorAll('.post-image-2'),
-		imageSrc: `https://i.ibb.co/F46JHGc/image.png`, override: currentPost.querySelector('.post-image-2-override') 
-	},
-	imageSquare = { 
-		imageType: 'squareImage', DOMTarget: currentPost.querySelectorAll('.post-icon'),
-		imageSrc: `https://i.ibb.co/YfYs4gZ/image.png`, override: currentPost.querySelector('.post-icon-override')
-	},
-	imagePhoneBackground = { 
-		imageType: 'phoneBackground', DOMTarget: currentPost.querySelectorAll('.phone-background'),
-		imageSrc: `https://i.ibb.co/9W0n97z/image.png`, override: currentPost.querySelector('.phone-background-override')
-	},
-];
-
-postLyrics = [
-	lyricOne = {
-		lyricType: 'lyricOne', DOMTarget: currentPost.querySelectorAll('.lyric-1'),
-		lyricSrc: `lyric line one styles like this`, override: currentPost.querySelector('.lyric-1-override')
-	},
-	lyricTwo = {
-		lyricType: 'lyricTwo', DOMTarget: currentPost.querySelectorAll('.lyric-2'),
-		lyricSrc: `while lyric line two styles like this`, override: currentPost.querySelector('.lyric-2-override')
-	},
-];
-
-postImages.forEach(insertImage);
-postLyrics.forEach(insertLyrics);
-
-// phone-specific scripting
-
-phoneTwoIcon = currentPost.querySelector('.omens-phone-2.omens-phone-text msg:last-of-type');
-phoneThreeIcon = currentPost.querySelector('.omens-phone-3.omens-phone-text msg:first-of-type');
-phoneFourIcon = currentPost.querySelector('.omens-phone-4.omens-phone-text msg:first-of-type');
-phoneIcon = 'https://i.ibb.co/b5mP5dH/image.png';
-
-if ( currentPost.querySelector('.phone-icon-override') ) {
-phoneIcon = currentPost.querySelector('.phone-icon-override').textContent;
-};
-
-postPhoneIconInsertion();
-
-if ( topicDescription.includes('[<3]') && currentPost.querySelector('.omens-phone-template') && '#D4AF37' !== '' ) {
-	for (let i=0; i < currentPost.querySelectorAll('received').length; i++) {
-		currentPost.querySelectorAll('received')[i].setAttribute('style', 'background:#D4AF37; color:#222;');
-	}
-};
-</script><div class="post-row member-20 postid-10533 group-6">
-        <div class="user-name">
-	<div class="font-icon"></div>
-          <div class="threat-level threat-level-1">
-            <div class="threat-bar" style="width:1%"></div>
-          </div>
-          <div class="user-small-info group group-icon-6" title=" —"></div>
-          <a href="/index.php?act=Search&CODE=getalluser&mid=20&type=posts" class="user-small-info posts" title="view selkie's posts"></a>
-          <a href="/index.php?act=Search&CODE=getalluser&mid=20&type=topics" class="user-small-info threads" title="view selkie's threads"></a>
-          <a href="/index.php?act=Msg&CODE=04&MID=0" class="user-small-info messages" title="pm selkie"></a>
-          <div class="user-quote">a verb in perfect view.</div>
-          <a href="/index.php?showuser=20" class="user-profile">selkie</a>
-          <span class="user-position"></span>
-          <ul class="user-details">
-            <li class="ic"><em>aka</em> <span class="field">selkie</span></li>
-            <li class="ic"><em>pronouns</em> <span class="field">any ok</span></li>
-            <li class="ic"><em>age</em> <span class="field">22</span></li>
-            <li class="ic"><em>occupation</em> <span class="field">biblethump</span></li>
-            <li class="ic"><em>group</em> <span class="field"> —</span></li>
-            <li class="ooc"><em>limits</em> <span class="field">suicide & homophobia (fine with a content warning!)</span></li>
-            <li class="ooc"><em>age</em> <span class="field">23</span></li>
-            <li class="ooc"><em>pronouns</em> <span class="field">any ok</span></li>
-            <li class="ooc"><em>timezone</em> <span class="field">gmt-6 (cst)</span></li>
-            <li class="ooc"><em>contact via</em> <span class="field">selkie#4576</span></li>
-          </ul>
-
-        </div>
-        <div class="user-hover">
-          <div class="hover-background" style="background-image: url(https://i.ibb.co/3pk1pk9/image.png), url(https://files.jcink.net/uploads2/weepingomens/skin_stuff/default_hover.png);"></div>
-        </div>
-        <div class="relationship">
-          <div class="icon"><a href="https://weepingomens.jcink.net/index.php?showuser=2" title=""><div style="background-image: url();"></div></a></div>
-          <div class="line-1">i hope you die</div>
-          <div class="line-2">cel(kie)</div>
-        </div>
-        <div class="ooc-details">
-          <span>20 posts - 4380 points <span class="ic">- played by selkie (any ok)</span></span>
-          <div class="big-image" style="background-image: url(https://i.ibb.co/CmT2k5q/image.png);"></div>
-        </div>
-<script>
-if ( '—' !== '—' && `anton bloodline` !== `—` ) {
-	document.querySelector('.postid-10531 .user-position').textContent = "— of the anton bloodline";
-}
-
-// i can't pull 'avatar' in post row and i'm not overhauling the grid.
-avatarUrl = 'url(https://i.ibb.co/s2Tx41F/image.png)';
-
-// if no relationship icon or accent
-if ( '' === '' && '#D4AF37' === '' ) {
-	document.querySelector('.postid-10531 .relationship .icon').remove();
-}
-
-// if no relationship lines
-if ( `i hope you die` === `` && `cel(kie)` === `` ) {
-	document.querySelector('.postid-10531').classList.add('no-ship');
-	document.querySelector('.postid-10531 .relationship').remove();
-}
-</script>
-
-<div class="post-proper">
-          <div class="user-icon">
-            <div class="contain"><div class="img"></div>
-            <span>selkie</span></div>
-          </div>
-          <div class="permalink">Oct 14 2021, 11:59 PM - <a name='entry10533' href='https://weepingomens.jcink.net/index.php?showtopic=1182&amp;view=findpost&amp;p=10533'>PERMALINK</a> <a href="javascript:void(0);" onclick="SKIFS.quickEdit.edit('33','1182','10533')"><span class='button-small'>Edit</span></a> <a href='https://weepingomens.jcink.net/index.php?act=Post&amp;CODE=06&amp;f=33&amp;t=1182&amp;p=10533'><span class='button-small'>Quote</span></a> <a href="javascript:delete_post('https://weepingomens.jcink.net/index.php?act=Mod&amp;CODE=04&amp;f=33&amp;t=1182&amp;p=10533&amp;st=6&amp;auth_key=267c49d879fa4618a35b4f2d43cccc8b')"><span class='button-small'>Delete</span></a> <input type='checkbox' OnClick='select_post("10533");' value='0'></div>
-          <div class="post-container">
-<div id="pid_10533" style="margin-top:50px;"><!-- THE POST 10533 --><div class='postcolor'> <div class="omens-post-template omens-post-1"><div class="post-body"><b>NOTE</b>: a value for time can be omitted by using the [phone4b], [phone4bcall], and [phone4bdial] templates.</div></div><div class="omens-phone-template omens-phone-4 omens-phone-text"> <div class="phone-deco phone-deco1"> <div class="phone-speaker"> <div></div> </div> </div> <div class="phone-contain"> <div class="phone-background"></div> <div class="phone-input"> <div class="phone-banner"> <span class="phone-time">0:00pm</span> <i class="fas fa-signal"></i> <i class="fas fa-wifi"></i> <i class="fas fa-microphone-slash"></i> </div> <br /><br /><tagged><img src='https://i.ibb.co/xFG6dnc/image.png' border='0' alt='user posted image' />contact and optional icon</tagged><br /><br /><msg>messages sent by your character are within msg tags<br /><br />line breaks will render in msg and received tags but won&#39;t elsewhere</msg><br /><br /><received>messages received by your character can, optionally, go within msg2 tags</received><br /><br /><received>add reactions by including a value within react tags within msg2<react>haha</react></received><br /><br /><msg>currently there is support for heart, haha, thumbsup, thumbsdown, exclamation, question</msg><br /><br /> </div> <div class="phone-messagebar">ENTER YOUR MESSAGE <i class="fas fa-paper-plane"></i></div> </div> <div class="phone-deco phone-deco2"> </div> <div class="phone-l-buttons"> <div class="button-1"></div> <div class="button-2"></div> <div class="button-3"></div> </div> </div><!--c1--><table border='0' align='center' width='95%' cellpadding='3' cellspacing='1' id='CODE-WRAP'><tr><td><b>CODE</b> </td></tr><tr><td id='CODE'><!--ec1-->&#91;phone4=0&#58;00pm&#93;<br /><br />&#91;tag&#93;contact and optional icon&#91;/tag&#93;<br /><br />&#91;msg&#93;messages sent by your character are within msg tags<br /><br />line breaks will render in msg and received tags but won&#39;t elsewhere&#91;/msg&#93;<br /><br />&#91;msg2&#93;messages received by your character can, optionally, go within msg2 tags&#91;/msg2&#93;<br /><br />&#91;msg2&#93;add reactions by including a value within react tags within msg2&#91;react&#93;haha&#91;/react&#93;&#91;/msg2&#93;<br /><br />&#91;msg&#93;currently there is support for heart, haha, thumbsup, thumbsdown, exclamation, question&#91;/msg&#93;<br /><br />&#91;/phone4&#93;<!--c2--></td></tr></table><!--ec2--> </div><!-- THE POST --></div>
-          </div>
-        </div>
-</div>
-<script>
-if ( '#df6885' !== '' ) { 
-	document.querySelector('.postid-10533').style.setProperty('--custom', '#df6885');
-} 
-
-if ( '#D4AF37' !== '' ) { 
-	document.querySelector('.postid-10533').style.setProperty('--relationshipAccent', '#D4AF37');
-} 
-if ( '' !== '' ) { 
-	document.querySelector('.postid-10533 .relationship .icon div').style.backgroundImage = "url('')";
-} 
-
-if ( 'game-icon' !== '' ) { 
-	document.querySelector('.postid-10533 .font-icon').classList.add("game-icon");
-} 
-
-if ( 'fire-bomb' !== '' ) { 
-	document.querySelector('.postid-10533 .font-icon').classList.add("game-icon-fire-bomb");
-} 
-
-// if no relationship name ...
-if ( '' === '' ) { 
-	document.querySelector('.postid-10533 .relationship .icon a').removeAttribute('title');
-} 
-
-/* i can't pull 'avatar' in post row and i'm not overhauling the grid. */
-document.querySelector('.postid-10533 .user-icon .img').style.backgroundImage = avatarUrl;
-if ( avatarUrl === 'url()' ) {
-	document.querySelector('.postid-10533').classList.add("no-avatar");
-}
-</script>
-<script>
-// FIELD_# -> POST TEMPLATE SCRIPTING (POST ROW)
-
-currentPost = document.querySelector('#pid_10533');
-
-postImages = [
-	image200By400 = { 
-		imageType: 'post-image-1', DOMTarget: currentPost.querySelectorAll('.post-image-1'),
-		imageSrc: `https://i.ibb.co/yfjwbYT/image.png`, override: currentPost.querySelector('.post-image-1-override') 
-	},
-	image500By150 = { 
-		imageType: 'post-image-2', DOMTarget: currentPost.querySelectorAll('.post-image-2'),
-		imageSrc: `https://i.ibb.co/F46JHGc/image.png`, override: currentPost.querySelector('.post-image-2-override') 
-	},
-	imageSquare = { 
-		imageType: 'squareImage', DOMTarget: currentPost.querySelectorAll('.post-icon'),
-		imageSrc: `https://i.ibb.co/YfYs4gZ/image.png`, override: currentPost.querySelector('.post-icon-override')
-	},
-	imagePhoneBackground = { 
-		imageType: 'phoneBackground', DOMTarget: currentPost.querySelectorAll('.phone-background'),
-		imageSrc: `https://i.ibb.co/9W0n97z/image.png`, override: currentPost.querySelector('.phone-background-override')
-	},
-];
-
-postLyrics = [
-	lyricOne = {
-		lyricType: 'lyricOne', DOMTarget: currentPost.querySelectorAll('.lyric-1'),
-		lyricSrc: `lyric line one styles like this`, override: currentPost.querySelector('.lyric-1-override')
-	},
-	lyricTwo = {
-		lyricType: 'lyricTwo', DOMTarget: currentPost.querySelectorAll('.lyric-2'),
-		lyricSrc: `while lyric line two styles like this`, override: currentPost.querySelector('.lyric-2-override')
-	},
-];
-
-postImages.forEach(insertImage);
-postLyrics.forEach(insertLyrics);
-
-// phone-specific scripting
-
-phoneTwoIcon = currentPost.querySelector('.omens-phone-2.omens-phone-text msg:last-of-type');
-phoneThreeIcon = currentPost.querySelector('.omens-phone-3.omens-phone-text msg:first-of-type');
-phoneFourIcon = currentPost.querySelector('.omens-phone-4.omens-phone-text msg:first-of-type');
-phoneIcon = 'https://i.ibb.co/b5mP5dH/image.png';
-
-if ( currentPost.querySelector('.phone-icon-override') ) {
-phoneIcon = currentPost.querySelector('.phone-icon-override').textContent;
-};
-
-postPhoneIconInsertion();
-
-if ( topicDescription.includes('[<3]') && currentPost.querySelector('.omens-phone-template') && '#D4AF37' !== '' ) {
-	for (let i=0; i < currentPost.querySelectorAll('received').length; i++) {
-		currentPost.querySelectorAll('received')[i].setAttribute('style', 'background:#D4AF37; color:#222;');
-	}
-};
-</script><div class="post-row member-20 postid-10534 group-6">
-        <div class="user-name">
-	<div class="font-icon"></div>
-          <div class="threat-level threat-level-1">
-            <div class="threat-bar" style="width:1%"></div>
-          </div>
-          <div class="user-small-info group group-icon-6" title=" —"></div>
-          <a href="/index.php?act=Search&CODE=getalluser&mid=20&type=posts" class="user-small-info posts" title="view selkie's posts"></a>
-          <a href="/index.php?act=Search&CODE=getalluser&mid=20&type=topics" class="user-small-info threads" title="view selkie's threads"></a>
-          <a href="/index.php?act=Msg&CODE=04&MID=0" class="user-small-info messages" title="pm selkie"></a>
-          <div class="user-quote">a verb in perfect view.</div>
-          <a href="/index.php?showuser=20" class="user-profile">selkie</a>
-          <span class="user-position"></span>
-          <ul class="user-details">
-            <li class="ic"><em>aka</em> <span class="field">selkie</span></li>
-            <li class="ic"><em>pronouns</em> <span class="field">any ok</span></li>
-            <li class="ic"><em>age</em> <span class="field">22</span></li>
-            <li class="ic"><em>occupation</em> <span class="field">biblethump</span></li>
-            <li class="ic"><em>group</em> <span class="field"> —</span></li>
-            <li class="ooc"><em>limits</em> <span class="field">suicide & homophobia (fine with a content warning!)</span></li>
-            <li class="ooc"><em>age</em> <span class="field">23</span></li>
-            <li class="ooc"><em>pronouns</em> <span class="field">any ok</span></li>
-            <li class="ooc"><em>timezone</em> <span class="field">gmt-6 (cst)</span></li>
-            <li class="ooc"><em>contact via</em> <span class="field">selkie#4576</span></li>
-          </ul>
-
-        </div>
-        <div class="user-hover">
-          <div class="hover-background" style="background-image: url(https://i.ibb.co/3pk1pk9/image.png), url(https://files.jcink.net/uploads2/weepingomens/skin_stuff/default_hover.png);"></div>
-        </div>
-        <div class="relationship">
-          <div class="icon"><a href="https://weepingomens.jcink.net/index.php?showuser=2" title=""><div style="background-image: url();"></div></a></div>
-          <div class="line-1">i hope you die</div>
-          <div class="line-2">cel(kie)</div>
-        </div>
-        <div class="ooc-details">
-          <span>20 posts - 4380 points <span class="ic">- played by selkie (any ok)</span></span>
-          <div class="big-image" style="background-image: url(https://i.ibb.co/CmT2k5q/image.png);"></div>
-        </div>
-<script>
-if ( '—' !== '—' && `anton bloodline` !== `—` ) {
-	document.querySelector('.postid-10531 .user-position').textContent = "— of the anton bloodline";
-}
-
-// i can't pull 'avatar' in post row and i'm not overhauling the grid.
-avatarUrl = 'url(https://i.ibb.co/s2Tx41F/image.png)';
-
-// if no relationship icon or accent
-if ( '' === '' && '#D4AF37' === '' ) {
-	document.querySelector('.postid-10531 .relationship .icon').remove();
-}
-
-// if no relationship lines
-if ( `i hope you die` === `` && `cel(kie)` === `` ) {
-	document.querySelector('.postid-10531').classList.add('no-ship');
-	document.querySelector('.postid-10531 .relationship').remove();
-}
-</script>
-
-<div class="post-proper">
-          <div class="user-icon">
-            <div class="contain"><div class="img"></div>
-            <span>selkie</span></div>
-          </div>
-          <div class="permalink">Oct 14 2021, 11:59 PM - <a name='entry10534' href='https://weepingomens.jcink.net/index.php?showtopic=1182&amp;view=findpost&amp;p=10534'>PERMALINK</a> <a href="javascript:void(0);" onclick="SKIFS.quickEdit.edit('33','1182','10534')"><span class='button-small'>Edit</span></a> <a href='https://weepingomens.jcink.net/index.php?act=Post&amp;CODE=06&amp;f=33&amp;t=1182&amp;p=10534'><span class='button-small'>Quote</span></a> <a href="javascript:delete_post('https://weepingomens.jcink.net/index.php?act=Mod&amp;CODE=04&amp;f=33&amp;t=1182&amp;p=10534&amp;st=6&amp;auth_key=267c49d879fa4618a35b4f2d43cccc8b')"><span class='button-small'>Delete</span></a> <input type='checkbox' OnClick='select_post("10534");' value='0'></div>
-          <div class="post-container">
-<div id="pid_10534" style="margin-top:50px;"><!-- THE POST 10534 --><div class='postcolor'> <div class="omens-phone-template omens-phone-4 omens-phone-call"> <div class="phone-deco phone-deco1"> <div class="phone-speaker"> <div></div> </div> </div> <div class="phone-contain"> <div class="phone-background"></div> <div class="phone-input"> <div class="phone-banner"> <span class="phone-time">0:00pm</span> <i class="fas fa-signal"></i> <i class="fas fa-wifi"></i> <i class="fas fa-microphone-slash"></i> </div> <div class="phone-callscreen"> <div class="phone-icon"></div> <br /><br /><tagged>contact name</tagged><br /><br /><speech>dialogue goes here.</speech><br /><br /> </div> </div> </div> <div class="phone-deco phone-deco2"> </div> <div class="phone-l-buttons"> <div class="button-1"></div> <div class="button-2"></div> <div class="button-3"></div> </div> </div><!--c1--><table border='0' align='center' width='95%' cellpadding='3' cellspacing='1' id='CODE-WRAP'><tr><td><b>CODE</b> </td></tr><tr><td id='CODE'><!--ec1-->&#91;phone4call=0&#58;00pm&#93;<br /><br />&#91;tag&#93;contact name&#91;/tag&#93;<br /><br />&#91;speech&#93;dialogue goes here.&#91;/speech&#93;<br /><br />&#91;/phone4call&#93;<!--c2--></td></tr></table><!--ec2--> </div><!-- THE POST --></div>
-          </div>
-        </div>
-</div>
-<script>
-if ( '#df6885' !== '' ) { 
-	document.querySelector('.postid-10534').style.setProperty('--custom', '#df6885');
-} 
-
-if ( '#D4AF37' !== '' ) { 
-	document.querySelector('.postid-10534').style.setProperty('--relationshipAccent', '#D4AF37');
-} 
-if ( '' !== '' ) { 
-	document.querySelector('.postid-10534 .relationship .icon div').style.backgroundImage = "url('')";
-} 
-
-if ( 'game-icon' !== '' ) { 
-	document.querySelector('.postid-10534 .font-icon').classList.add("game-icon");
-} 
-
-if ( 'fire-bomb' !== '' ) { 
-	document.querySelector('.postid-10534 .font-icon').classList.add("game-icon-fire-bomb");
-} 
-
-// if no relationship name ...
-if ( '' === '' ) { 
-	document.querySelector('.postid-10534 .relationship .icon a').removeAttribute('title');
-} 
-
-/* i can't pull 'avatar' in post row and i'm not overhauling the grid. */
-document.querySelector('.postid-10534 .user-icon .img').style.backgroundImage = avatarUrl;
-if ( avatarUrl === 'url()' ) {
-	document.querySelector('.postid-10534').classList.add("no-avatar");
-}
-</script>
-<script>
-// FIELD_# -> POST TEMPLATE SCRIPTING (POST ROW)
-
-currentPost = document.querySelector('#pid_10534');
-
-postImages = [
-	image200By400 = { 
-		imageType: 'post-image-1', DOMTarget: currentPost.querySelectorAll('.post-image-1'),
-		imageSrc: `https://i.ibb.co/yfjwbYT/image.png`, override: currentPost.querySelector('.post-image-1-override') 
-	},
-	image500By150 = { 
-		imageType: 'post-image-2', DOMTarget: currentPost.querySelectorAll('.post-image-2'),
-		imageSrc: `https://i.ibb.co/F46JHGc/image.png`, override: currentPost.querySelector('.post-image-2-override') 
-	},
-	imageSquare = { 
-		imageType: 'squareImage', DOMTarget: currentPost.querySelectorAll('.post-icon'),
-		imageSrc: `https://i.ibb.co/YfYs4gZ/image.png`, override: currentPost.querySelector('.post-icon-override')
-	},
-	imagePhoneBackground = { 
-		imageType: 'phoneBackground', DOMTarget: currentPost.querySelectorAll('.phone-background'),
-		imageSrc: `https://i.ibb.co/9W0n97z/image.png`, override: currentPost.querySelector('.phone-background-override')
-	},
-];
-
-postLyrics = [
-	lyricOne = {
-		lyricType: 'lyricOne', DOMTarget: currentPost.querySelectorAll('.lyric-1'),
-		lyricSrc: `lyric line one styles like this`, override: currentPost.querySelector('.lyric-1-override')
-	},
-	lyricTwo = {
-		lyricType: 'lyricTwo', DOMTarget: currentPost.querySelectorAll('.lyric-2'),
-		lyricSrc: `while lyric line two styles like this`, override: currentPost.querySelector('.lyric-2-override')
-	},
-];
-
-postImages.forEach(insertImage);
-postLyrics.forEach(insertLyrics);
-
-// phone-specific scripting
-
-phoneTwoIcon = currentPost.querySelector('.omens-phone-2.omens-phone-text msg:last-of-type');
-phoneThreeIcon = currentPost.querySelector('.omens-phone-3.omens-phone-text msg:first-of-type');
-phoneFourIcon = currentPost.querySelector('.omens-phone-4.omens-phone-text msg:first-of-type');
-phoneIcon = 'https://i.ibb.co/b5mP5dH/image.png';
-
-if ( currentPost.querySelector('.phone-icon-override') ) {
-phoneIcon = currentPost.querySelector('.phone-icon-override').textContent;
-};
-
-postPhoneIconInsertion();
-
-if ( topicDescription.includes('[<3]') && currentPost.querySelector('.omens-phone-template') && '#D4AF37' !== '' ) {
-	for (let i=0; i < currentPost.querySelectorAll('received').length; i++) {
-		currentPost.querySelectorAll('received')[i].setAttribute('style', 'background:#D4AF37; color:#222;');
-	}
-};
-</script><div class="post-row member-20 postid-10535 group-6">
-        <div class="user-name">
-	<div class="font-icon"></div>
-          <div class="threat-level threat-level-1">
-            <div class="threat-bar" style="width:1%"></div>
-          </div>
-          <div class="user-small-info group group-icon-6" title=" —"></div>
-          <a href="/index.php?act=Search&CODE=getalluser&mid=20&type=posts" class="user-small-info posts" title="view selkie's posts"></a>
-          <a href="/index.php?act=Search&CODE=getalluser&mid=20&type=topics" class="user-small-info threads" title="view selkie's threads"></a>
-          <a href="/index.php?act=Msg&CODE=04&MID=0" class="user-small-info messages" title="pm selkie"></a>
-          <div class="user-quote">a verb in perfect view.</div>
-          <a href="/index.php?showuser=20" class="user-profile">selkie</a>
-          <span class="user-position"></span>
-          <ul class="user-details">
-            <li class="ic"><em>aka</em> <span class="field">selkie</span></li>
-            <li class="ic"><em>pronouns</em> <span class="field">any ok</span></li>
-            <li class="ic"><em>age</em> <span class="field">22</span></li>
-            <li class="ic"><em>occupation</em> <span class="field">biblethump</span></li>
-            <li class="ic"><em>group</em> <span class="field"> —</span></li>
-            <li class="ooc"><em>limits</em> <span class="field">suicide & homophobia (fine with a content warning!)</span></li>
-            <li class="ooc"><em>age</em> <span class="field">23</span></li>
-            <li class="ooc"><em>pronouns</em> <span class="field">any ok</span></li>
-            <li class="ooc"><em>timezone</em> <span class="field">gmt-6 (cst)</span></li>
-            <li class="ooc"><em>contact via</em> <span class="field">selkie#4576</span></li>
-          </ul>
-
-        </div>
-        <div class="user-hover">
-          <div class="hover-background" style="background-image: url(https://i.ibb.co/3pk1pk9/image.png), url(https://files.jcink.net/uploads2/weepingomens/skin_stuff/default_hover.png);"></div>
-        </div>
-        <div class="relationship">
-          <div class="icon"><a href="https://weepingomens.jcink.net/index.php?showuser=2" title=""><div style="background-image: url();"></div></a></div>
-          <div class="line-1">i hope you die</div>
-          <div class="line-2">cel(kie)</div>
-        </div>
-        <div class="ooc-details">
-          <span>20 posts - 4380 points <span class="ic">- played by selkie (any ok)</span></span>
-          <div class="big-image" style="background-image: url(https://i.ibb.co/CmT2k5q/image.png);"></div>
-        </div>
-<script>
-if ( '—' !== '—' && `anton bloodline` !== `—` ) {
-	document.querySelector('.postid-10531 .user-position').textContent = "— of the anton bloodline";
-}
-
-// i can't pull 'avatar' in post row and i'm not overhauling the grid.
-avatarUrl = 'url(https://i.ibb.co/s2Tx41F/image.png)';
-
-// if no relationship icon or accent
-if ( '' === '' && '#D4AF37' === '' ) {
-	document.querySelector('.postid-10531 .relationship .icon').remove();
-}
-
-// if no relationship lines
-if ( `i hope you die` === `` && `cel(kie)` === `` ) {
-	document.querySelector('.postid-10531').classList.add('no-ship');
-	document.querySelector('.postid-10531 .relationship').remove();
-}
-</script>
-
-<div class="post-proper">
-          <div class="user-icon">
-            <div class="contain"><div class="img"></div>
-            <span>selkie</span></div>
-          </div>
-          <div class="permalink">Oct 14 2021, 11:59 PM - <a name='entry10535' href='https://weepingomens.jcink.net/index.php?showtopic=1182&amp;view=findpost&amp;p=10535'>PERMALINK</a> <a href="javascript:void(0);" onclick="SKIFS.quickEdit.edit('33','1182','10535')"><span class='button-small'>Edit</span></a> <a href='https://weepingomens.jcink.net/index.php?act=Post&amp;CODE=06&amp;f=33&amp;t=1182&amp;p=10535'><span class='button-small'>Quote</span></a> <a href="javascript:delete_post('https://weepingomens.jcink.net/index.php?act=Mod&amp;CODE=04&amp;f=33&amp;t=1182&amp;p=10535&amp;st=6&amp;auth_key=267c49d879fa4618a35b4f2d43cccc8b')"><span class='button-small'>Delete</span></a> <input type='checkbox' OnClick='select_post("10535");' value='0'></div>
-          <div class="post-container">
-<div id="pid_10535" style="margin-top:50px;"><!-- THE POST 10535 --><div class='postcolor'> <div class="omens-phone-template omens-phone-4 omens-phone-dial"> <div class="phone-deco phone-deco1"> <div class="phone-speaker"> <div></div> </div> </div> <div class="phone-contain"> <div class="phone-background"></div> <div class="phone-input"> <div class="phone-banner"> <span class="phone-time">0:00pm</span> <i class="fas fa-signal"></i> <i class="fas fa-wifi"></i> <i class="fas fa-microphone-slash"></i> </div> <tagged2><br /><br /><tagged>name</tagged><br /><br /></tagged2> <div class="phone-keypad"> <div>1</div> <div>2</div> <div>3</div> <div>4</div> <div>5</div> <div>6</div> <div>7</div> <div>8</div> <div>9</div> <div class="keypad-0">0</div> </div> </div> </div> <div class="phone-deco phone-deco2"> </div> <div class="phone-l-buttons"> <div class="button-1"></div> <div class="button-2"></div> <div class="button-3"></div> </div> </div><!--c1--><table border='0' align='center' width='95%' cellpadding='3' cellspacing='1' id='CODE-WRAP'><tr><td><b>CODE</b> </td></tr><tr><td id='CODE'><!--ec1-->&#91;phone4dial=0&#58;00pm&#93;<br /><br />&#91;tag&#93;name&#91;/tag&#93;<br /><br />&#91;/phone4dial&#93;<!--c2--></td></tr></table><!--ec2--> </div><!-- THE POST --></div>
-          </div>
-        </div>
-</div>
-<script>
-if ( '#df6885' !== '' ) { 
-	document.querySelector('.postid-10535').style.setProperty('--custom', '#df6885');
-} 
-
-if ( '#D4AF37' !== '' ) { 
-	document.querySelector('.postid-10535').style.setProperty('--relationshipAccent', '#D4AF37');
-} 
-if ( '' !== '' ) { 
-	document.querySelector('.postid-10535 .relationship .icon div').style.backgroundImage = "url('')";
-} 
-
-if ( 'game-icon' !== '' ) { 
-	document.querySelector('.postid-10535 .font-icon').classList.add("game-icon");
-} 
-
-if ( 'fire-bomb' !== '' ) { 
-	document.querySelector('.postid-10535 .font-icon').classList.add("game-icon-fire-bomb");
-} 
-
-// if no relationship name ...
-if ( '' === '' ) { 
-	document.querySelector('.postid-10535 .relationship .icon a').removeAttribute('title');
-} 
-
-/* i can't pull 'avatar' in post row and i'm not overhauling the grid. */
-document.querySelector('.postid-10535 .user-icon .img').style.backgroundImage = avatarUrl;
-if ( avatarUrl === 'url()' ) {
-	document.querySelector('.postid-10535').classList.add("no-avatar");
-}
-</script>
-<script>
-// FIELD_# -> POST TEMPLATE SCRIPTING (POST ROW)
-
-currentPost = document.querySelector('#pid_10535');
-
-postImages = [
-	image200By400 = { 
-		imageType: 'post-image-1', DOMTarget: currentPost.querySelectorAll('.post-image-1'),
-		imageSrc: `https://i.ibb.co/yfjwbYT/image.png`, override: currentPost.querySelector('.post-image-1-override') 
-	},
-	image500By150 = { 
-		imageType: 'post-image-2', DOMTarget: currentPost.querySelectorAll('.post-image-2'),
-		imageSrc: `https://i.ibb.co/F46JHGc/image.png`, override: currentPost.querySelector('.post-image-2-override') 
-	},
-	imageSquare = { 
-		imageType: 'squareImage', DOMTarget: currentPost.querySelectorAll('.post-icon'),
-		imageSrc: `https://i.ibb.co/YfYs4gZ/image.png`, override: currentPost.querySelector('.post-icon-override')
-	},
-	imagePhoneBackground = { 
-		imageType: 'phoneBackground', DOMTarget: currentPost.querySelectorAll('.phone-background'),
-		imageSrc: `https://i.ibb.co/9W0n97z/image.png`, override: currentPost.querySelector('.phone-background-override')
-	},
-];
-
-postLyrics = [
-	lyricOne = {
-		lyricType: 'lyricOne', DOMTarget: currentPost.querySelectorAll('.lyric-1'),
-		lyricSrc: `lyric line one styles like this`, override: currentPost.querySelector('.lyric-1-override')
-	},
-	lyricTwo = {
-		lyricType: 'lyricTwo', DOMTarget: currentPost.querySelectorAll('.lyric-2'),
-		lyricSrc: `while lyric line two styles like this`, override: currentPost.querySelector('.lyric-2-override')
-	},
-];
-
-postImages.forEach(insertImage);
-postLyrics.forEach(insertLyrics);
-
-// phone-specific scripting
-
-phoneTwoIcon = currentPost.querySelector('.omens-phone-2.omens-phone-text msg:last-of-type');
-phoneThreeIcon = currentPost.querySelector('.omens-phone-3.omens-phone-text msg:first-of-type');
-phoneFourIcon = currentPost.querySelector('.omens-phone-4.omens-phone-text msg:first-of-type');
-phoneIcon = 'https://i.ibb.co/b5mP5dH/image.png';
-
-if ( currentPost.querySelector('.phone-icon-override') ) {
-phoneIcon = currentPost.querySelector('.phone-icon-override').textContent;
-};
-
-postPhoneIconInsertion();
-
-if ( topicDescription.includes('[<3]') && currentPost.querySelector('.omens-phone-template') && '#D4AF37' !== '' ) {
-	for (let i=0; i < currentPost.querySelectorAll('received').length; i++) {
-		currentPost.querySelectorAll('received')[i].setAttribute('style', 'background:#D4AF37; color:#222;');
-	}
-};
-</script>      
-      <!--IBF.TOPIC_ACTIVE-->
-      <div class="activeuserstrip" align="center"><!--SOCIAL_BOOKMARKS--> &laquo; <a href='https://weepingomens.jcink.net/index.php?showtopic=1182&amp;view=old'>Next Oldest</a> &#0124; <strong><a href='https://weepingomens.jcink.net/index.php?showforum=33'>Testing Grounds</a></strong> &#0124; <a href='https://weepingomens.jcink.net/index.php?showtopic=1182&amp;view=new'>Next Newest</a> &raquo;</div>
-
-	  <!-- Ad Removal / Premium Board -->
-	  
-</div>
- 
-<br />
-<table width="100%" cellpadding="0" cellspacing="0" border="0">
-<tr>
- <td align='left' width="20%" nowrap="nowrap"><a href="javascript:$('#topic_open').toggle();void(0);" title="Open Topic Options"><div class='button-large'>Topic Options</div></a><span class='pagination'><span class='pagination_pagetxt'><a title="Jump to page..." href="javascript:multi_page_jump('https://weepingomens.jcink.net/index.php?showtopic=1182',11,6);">Pages:</a> (2)</span>&nbsp;<a href='https://weepingomens.jcink.net/index.php?showtopic=1182&amp;st=0' class='pagination_page'>1</a>&nbsp;<span class='pagination_current'><b>2</b></span>&nbsp;</span></td>
- <td align='right' width="80%"><a href='https://weepingomens.jcink.net/index.php?act=Post&amp;CODE=02&amp;f=33&amp;t=1182&amp;st=6'><div class='button-large'>Add Reply</div></a><!--IBF.QUICK_REPLY_CLOSED--><a href='https://weepingomens.jcink.net/index.php?act=Post&amp;CODE=00&amp;f=33' title='Start a new topic'><div class='button-large'>New Topic</div></a><a href='https://weepingomens.jcink.net/index.php?act=Post&amp;CODE=10&amp;f=33'><div class='button-large'>New Poll</div></a></td>
-</tr>
-</table>
-<!--IBF.QUICK_REPLY_OPEN-->
-<div id='topic_open' style='display:none;z-index:2;'>
+  }
+  
+  Collapse="<img alt='Collapse' title='Collapse' src='https://files.jcink.net/themes/default/cat-collapse.png' />"
+  Expand="<img alt='Expand' title='Expand' src='https://files.jcink.net/themes/default/cat-expand.png' />"
+  
+  
+  
+  //-->
+  </script>
+  
+  <!--IBF.BANNER-->
+  <div id="logostrip">
+    <a href="https://weepingomens.jcink.net/index.php?" title="Board Home"><img width="207" height="57" src="style_images/1/spacer.gif"><!-- You can insert a logo image here in place of the white spacer --></a>
+  </div>
+  <!-- IE6/Win TABLE FIX -->
+  <table width="100%" cellspacing="6" id="submenu">
+  <tbody><tr>
+   <td><a href="index.php">Home</a><!--IBF.RULES--></td>
+  
+   <td align="right">
+  
+   <img src="https://files.jcink.net/style_images/1/atb_help.gif" border="0" alt="">&nbsp;<a href="https://weepingomens.jcink.net/index.php?act=Help">Help</a>&nbsp; &nbsp;&nbsp;<img src="https://files.jcink.net/style_images/1/atb_search.gif" border="0" alt="">&nbsp;<a href="https://weepingomens.jcink.net/index.php?act=Search&amp;f=33">Search</a>&nbsp; &nbsp;&nbsp;<img src="https://files.jcink.net/style_images/1/atb_members.gif" border="0" alt="">&nbsp;<a href="https://weepingomens.jcink.net/index.php?act=Members">Members</a>&nbsp; &nbsp;&nbsp;<img src="https://files.jcink.net/style_images/1/atb_calendar.gif" border="0" alt="">&nbsp;<a href="https://weepingomens.jcink.net/index.php?act=calendar">Calendar</a>&nbsp; &nbsp;&nbsp; <img src="https://files.jcink.net/style_images/1/shop.png" border="0" alt="">&nbsp;<a href="?act=store">Shop</a>&nbsp; &nbsp;&nbsp;<img src="https://files.jcink.net/style_images/1/atb_shoutbox.gif" border="0">&nbsp;<a href="https://weepingomens.jcink.net/index.php?&amp;act=Shoutbox">Shoutbox</a>
+  
+     <!--IBF.CHATLINK-->
+     <!--IBF.TSLLINK--> 
+   </td>
+  
+  
+  </tr>
+  </tbody></table>
+  
+  <div align="center">
+  
+  <!-- Ad Removal / Premium Board -->
+  
+  </div>
+  
+  
+  <span id="sub_bar" style="display:none;"> · <span id="subaccounts_menu">
+  <form action="https://weepingomens.jcink.net/index.php?&amp;act=Login&amp;CODE=01&amp;CookieDate=1" name="subswitch" method="POST">
+  <input type="hidden" name="auth_key" value="267c49d879fa4618a35b4f2d43cccc8b">
+  <input type="hidden" name="UserName" value="subacct">
+  <input type="hidden" name="PassWord" value="subacct">
+  <input type="hidden" name="referer" value="showtopic=69">
+  <select class="forminput" name="sub_id" onchange="this.form.submit()">
+  <option value="------------" selected="selected">Switch Account</option>
+  <option value="25">&nbsp;&nbsp;» ATTIE BELMONT </option><option value="40">&nbsp;&nbsp;» CASSANDRA CASSIDY </option><option value="116">&nbsp;&nbsp;» JACK ROSENBACH </option><option value="105">&nbsp;&nbsp;» JULIET SANTORO </option><option value="271">&nbsp;&nbsp;» LOTTIE WINTERBOURNE </option><option value="690">&nbsp;&nbsp;» ROMAN MARTINEZ </option><option value="635">&nbsp;&nbsp;» annabelle rosenbach </option><option value="265">&nbsp;&nbsp;» celkie is a prison </option><option value="95">&nbsp;&nbsp;» fuckhands mcmike </option>
+  </select>
+  </form>
+  </span></span>
+  <table width="100%" id="userlinks" cellspacing="6">
+     <tbody><tr>
+      <td><strong>Logged in as:  <a href="https://weepingomens.jcink.net/index.php?showuser=20" id="logged-in-as">selkie</a></strong> ( <a href="https://weepingomens.jcink.net/index.php?act=Login&amp;CODE=03&amp;key=267c49d879fa4618a35b4f2d43cccc8b" id="log-out">Log Out</a><span id="subacct_link"> · <a href="javascript:void(0);" onclick="document.getElementById('subacct_link').innerHTML=document.getElementById('sub_bar').innerHTML;">Switch Account</a></span>&nbsp;· <b><a href="https://weepingomens.jcink.net/admin.php" id="admin-link" target="_blank">Admin CP</a></b> · <b><a href="https://weepingomens.jcink.net/index.php?act=modcp" id="modcp-link">Mod CP</a></b>   )</td>
+      <td align="right">
+        <b><a href="https://weepingomens.jcink.net/index.php?act=UserCP&amp;CODE=00" title="Edit my settings, such as signature, avatar and more..." id="my-controls">My Controls</a></b> · <a href="https://weepingomens.jcink.net/index.php?act=Msg&amp;CODE=01" id="x-new-messages">0 New Messages</a>
+        · <a href="https://weepingomens.jcink.net/index.php?act=Search&amp;CODE=getnew" id="view-new-posts">View New Posts</a> · <a href="javascript:load_alerts();" title="Alerts" class="alerts-indicator alerts-new" id="alerts-indicator"><strong>Alerts (1)</strong></a> 
+      
+     <div id="recent-alerts" style="display: none;">
     <div class="tableborder">
-	  <div class='maintitle'>&nbsp;<a href="javascript:$('#topic_open').toggle();void(0);">Close Topic Options</a></div>
-	  <div class='tablepad'>
-	   	   <b><a href="https://weepingomens.jcink.net/index.php?act=Post&amp;CODE=14&amp;f=33&amp;t=1182">Attach new poll</a></b>
-	   <br />
-	   <span class='desc'>Add on a poll to this existing topic.</span>
-	   <br /><br />
-	   <b><a href='https://weepingomens.jcink.net/index.php?act=Track&amp;f=33&amp;t=1182'>Track This Topic</a></b>
-	   <br />
-	   <span class='desc'>Receive email notification when a reply has been made to this topic and you are not active on the board.</span>
-	   <br /><br />
-	   <b><a href='https://weepingomens.jcink.net/index.php?act=Track&amp;f=33&amp;type=forum'>Subscribe to this forum</a></b>
-	   <br />
-	   <span class='desc'>Receive email notification when a new topic is posted in this forum and you are not active on the board.</span>
-	   <br /><br />
-	   <b><a href='https://weepingomens.jcink.net/index.php?act=Print&amp;client=choose&amp;f=33&amp;t=1182'>Download / Print this Topic</a></b>
-	   <br />
-	   <span class='desc'>Download this topic in different formats or view a printer friendly version.</span>
-	 </div>
-   </div>
-</div>
-<br />
-
-		<div class="bar" style="padding: 5px;">
-		<div style="float: right; text-align: right;">
-	 		<form name="mod_post_options" method="post" action="https://weepingomens.jcink.net/index.php?act=Mod&CODE=indvp&f=33&t=1182" onsubmit="return checkselected();">
-	 			<input type="hidden" value="" id='selected_posts' name="selected_posts" />
-				<input type="hidden" name="act" value="Mod" />
-				<input type="hidden" name="auth_key" value="267c49d879fa4618a35b4f2d43cccc8b" />
-	 			<input type="hidden" name="st" value="6" />
-
-	 			<select class="forminput" name="tact">
-	 				<option value="delete">Delete Posts</option>
-	 				<option value="split">Split Posts</option>
-	 				<option value="approve">Set Visible (Approve Post)</option>
-	 				<option value="unapprove">Set Invisible (Unapprove Post)</option>
-	 			</select>
-	 			<input type="submit" name="go" id="mod_posts_submit" value="With Selected (0)" class="forminput" />
-	 		</form>
-	 	</div>
-	<div>
-	<form method="POST" style="display:inline" name='modform' action='https://weepingomens.jcink.net/index.php?'>
-	<input type='hidden' name='t' value='1182' />
-	<input type='hidden' name='f' value='33' />
-	<input type='hidden' name='st' value='6' />
-	<input type='hidden' name='auth_key' value='267c49d879fa4618a35b4f2d43cccc8b' />
-	<input type='hidden' name='act' value='Mod' />
-	<select name='CODE' class='forminput'>
-	<option value='-1' style='color:black'>Moderation Options</option>
-	<option value='35'>Pin as Announcement</option><option value='36'>Unpin as Announcement</option><option value='02'>Move this topic</option><option value='00'>Close this topic</option><option value='03'>Delete this topic</option><option value='05'>Edit Topic Title</option><option value='16'>Unpin this Topic</option><option value='30'>Unsubscribe all from topic</option><option value='60'>Merge Topic</option><option value='50'>Mass Split Topic</option><option value='90'>View Topic History (Admin Option)</option>
-	</select>&nbsp;<input type='submit' value='Go' class='forminput' /></form>     
-</div>
-	 </div>
-
-<br />
-<div align='right'><form onsubmit="if(document.jumpmenu.f.value == -1){return false;}" action='https://weepingomens.jcink.net/index.php?act=SF' method='get' name='jumpmenu'>
-			             <input type='hidden' name='act' value='SF' />
-<input type='hidden' name='s' value='' />
-			             <select name='f' onchange="if(this.options[this.selectedIndex].value != -1){ document.jumpmenu.submit() }" class='forminput'>
-			             <optgroup label="Site Jump">
-			              <option value='sj_home'>Forum Home</option>
-			              <option value='sj_search'>Search</option>
-			              <option value='sj_help'>Help</option>
-			             </optgroup>
-			             <optgroup label="Forum Jump"><option value='-1'>The Beginning</option>
-<option value="7">&nbsp;&nbsp;- Residential Records </option><!--fx:7-->
-<option value="1">&nbsp;&nbsp;- The Brochure </option><!--fx:1-->
-<option value="4">  ---- Staff Corner</option>
-<option value="3">&nbsp;&nbsp;- The Newspaper </option><!--fx:3-->
-<option value='-1'>Character Zone</option>
-<option value="23">&nbsp;&nbsp;- Phoenix Networks </option><!--fx:23-->
-<option value="5">&nbsp;&nbsp;- Trackers </option><!--fx:5-->
-<option value="21">  ---- Want Ads</option>
-<option value="6">  ---- Thread Trackers</option>
-<option value="20">  ---- Development</option>
-<option value="38">  ------ Cel</option>
-<option value="39">  ------ Lua</option>
-<option value="40">  ------ Rin</option>
-<option value="48">  ------ Rubes</option>
-<option value="51">  ------ Clover</option>
-<option value="53">  ------ Selkie</option>
-<option value="56">  ------ Fricky</option>
-<option value="67">  ------ Bentoma</option>
-<option value="71">  ------ Remi</option>
-<option value="72">  ------ Lissa</option>
-<option value="73">  ------ Mae</option>
-<option value="75">  ------ Graves</option>
-<option value="77">  ------ Bec</option>
-<option value="33" selected="selected">  ---- Testing Grounds</option>
-<option value="17">&nbsp;&nbsp;- Communications </option><!--fx:17-->
-<option value="18">&nbsp;&nbsp;- Mobile </option><!--fx:18-->
-<option value='-1'>City Center</option>
-<option value="8">&nbsp;&nbsp;- Union Avenue </option><!--fx:8-->
-<option value="34">  ---- Runway</option>
-<option value="44">  ---- City Hall</option>
-<option value="59">  ---- Ferdia H.Q.</option>
-<option value="9">&nbsp;&nbsp;- Starlight Lane </option><!--fx:9-->
-<option value="16">  ---- The Gilded Angel</option>
-<option value="10">&nbsp;&nbsp;- Cherry Strip </option><!--fx:10-->
-<option value='-1'>Downtown</option>
-<option value="12">&nbsp;&nbsp;- Plaza Route </option><!--fx:12-->
-<option value="65">  ---- The Plaza Smoke Shop</option>
-<option value="13">&nbsp;&nbsp;- Crestview Boulevard </option><!--fx:13-->
-<option value="57">  ---- THE COVEN</option>
-<option value="76">  ---- Free Lives Charity</option>
-<option value="27">&nbsp;&nbsp;- Red Tail Gardens </option><!--fx:27-->
-<option value='-1'>Residential</option>
-<option value="26">&nbsp;&nbsp;- Nightingale District </option><!--fx:26-->
-<option value="36">  ---- Public Library</option>
-<option value="37">  ---- SL Museum of the Occult</option>
-<option value="41">  ---- St. Andrew&#39;s Cathedral</option>
-<option value="14">&nbsp;&nbsp;- Haven Circle </option><!--fx:14-->
-<option value="35">  ---- SL Police Department</option>
-<option value="42">  ---- Saint Anthony&#39;s Hospital</option>
-<option value="22">&nbsp;&nbsp;- Maple Groove Grounds </option><!--fx:22-->
-<option value='-1'>Outskirts</option>
-<option value="11">&nbsp;&nbsp;- Apostle Row </option><!--fx:11-->
-<option value="24">&nbsp;&nbsp;- Cedar Passage </option><!--fx:24-->
-<option value="25">  ---- Lobos Cave</option>
-<option value="70">  ---- Goldfang Cache</option>
-<option value='-1'>Outside San Llorona</option>
-<option value="43">&nbsp;&nbsp;- Outside San Llorona </option><!--fx:43-->
-<option value="74">  ---- The Glass Room</option>
-<option value="66">&nbsp;&nbsp;- Alternate Universes </option><!--fx:66-->
-<option value='-1'>Extras</option>
-<option value="2">&nbsp;&nbsp;- Archival </option><!--fx:2-->
-<option value="15">  ---- Completed Threads.</option>
-<option value="28">  ---- Inactive Threads</option>
-<option value="29">  ---- Other</option>
-<option value="45">  ------ Staff Trash Corner</option>
-<option value="46">  -------- Blight</option>
-<option value="47">  -------- Spanky</option>
-<option value="49">  -------- Dijit</option>
-<option value="50">  -------- Liekos</option>
-<option value="30">&nbsp;&nbsp;- Ads &amp; Affs. </option><!--fx:30-->
-<option value="31">  ---- First Time</option>
-<option value="62">  ---- Accepted Ads/Link Back</option>
-<option value="32">  ------ Linking Back</option>
-</optgroup>
-</select>&nbsp;<input type='submit' value='Go' class='forminput' /></form><br /><br /><form action='https://weepingomens.jcink.net/index.php?' method='post' name='SearchForm'>
-<input type='hidden' name='act' value='Search' />
-<input type='hidden' name='CODE' value='01' />
-<input type='hidden' name='t' value='1182' />
-<input type='hidden' name='forums[]' value='33' />
-<input type='hidden' name='searchtopic' value='1' />
-<input type='hidden' name='result_type' value='posts' />
-<input type='hidden' name='search_in' value='posts' />
-<input type='hidden' name='sort_key' value='post_date' />
-<input type='hidden' name='sort_order' value='asc' />
-<input type='text' name='keywords' placeholder='Search this thread' size='30' maxlength='60' class='textinput' onfocus="this.value=''" />&nbsp;<input type='submit' value='Go' class='forminput' /></form>
-</div><br />
- 
-	<!-- Copyright Information -->
-
-<div align='center' class='tableborder'><div class='row4' style='font-size: 7.5pt; padding-top: 1px; padding-bottom: 1px; line-height: 8pt;'><div align='center' class='copyright'>Powered by <a href="https://www.invisionboard.com" target='_blank'>Invision Power Board</a> (<a href="http://jcink.com" target="_blank">Jcink.com </a> <a href="https://jcink.com" target="_blank">Forum Hosting</a>) &copy; 2022 &nbsp;<a href='https://www.invisionpower.com' target='_blank'>IPS, Inc.</a> <br />Page creation time: 1.0093 <!-- http://weepingomens.b1.jcink.com -->   &middot; <a href='index.php?act=privacy'>Privacy Policy</a></div></div></div> <script src='//files.jcink.net/html/quickedit/qe.js?v=1.01'></script><script type="text/javascript">SKIFS.quickEdit.construct()</script> 
- </main>
+      <div class="pformstrip"> Recent Alerts <div style="float: right;"><a href="javascript:document.getElementById('recent-alerts').style.display='none';void(0);">[x]</a></div></div>
+        <span id="recent-alerts-data"></span>
+        <div class="pformstrip" style="text-align: center;">
+          <a href="https://weepingomens.jcink.net/index.php?act=UserCP&amp;CODE=alerts" title="View All Alerts">View All Alerts</a> · <a href="javascript:read_alerts();" title="Mark All Read">Mark All Read</a>
+        </div>
+      </div>
+    </div>
+    
+      · <a href="javascript:window.open('index.php?showuser=20&amp;CODE=friends','Friends','width=620,height=460,resizable=yes,scrollbars=yes');void(0);" id="my-friends">My Friends</a><br>	  
+     </td>
+     </tr>
+    </tbody></table>
+    <script>
+  
+  function read_alerts() {
+    $('#recent-alerts').slideToggle('slow');
+    $.get( "index.php?recent_alerts=1&read=1", function( data ) {
+      $( "#recent_alerts_data" ).html( data );
+    });
+    $( ".alerts-indicator" ).html( "Alerts (0)");
+  }
+  
+  
+  function load_alerts() {
+  
+      alert_link = $('.alerts-indicator').position().left-350;
+      
+      $('#recent-alerts').css({
+        left: alert_link + "px",
+      });
+      
+      if($('#recent-alerts').is(':visible')) {
+        $('#recent-alerts').slideToggle('slow');
+      } else {
+        $.get( "index.php?recent_alerts=1", function( data ) {
+          $( "#recent-alerts-data" ).html( data );
+        });
+        $("#recent-alerts").slideToggle('slow');
+      }
+  }
+    
+  </script>
+  
+  <style>
+    #recent-alerts {
+    position: absolute; 
+    width:400px;
+    z-index: 999;
+    text-align: left;
+    }
+  </style>
+   
+  <br>
+  
+        <script language="javascript" type="text/javascript">
+      <!--
+      
+    function select_post(post_id) {
+  
+    // Get the value of the hidden ID,
+    // Split up the PIDs
+  
+    var selposts_value = document.getElementById("selected_posts").value;
+    var selected_posts = selposts_value.split("|");
+  
+    // Add/remove and rebuild the hidden ID
+    // holder. simple. :)
+  
+    var rebuild = '';
+    var existed = '';
+  
+    for(x=0;x<selected_posts.length;x++) {
+      if(selected_posts[x] != post_id && selected_posts[x] !='') {
+        rebuild += selected_posts[x]+"|";
+      }
+      if(selected_posts[x] == post_id) {
+        existed = 1;
+      }
+    }
+  
+    if(existed == '') rebuild += post_id+"|";
+    
+    document.getElementById("selected_posts").value = rebuild; 
+    
+      var total = rebuild.split("|").length-1;
+  
+    document.getElementById("mod_posts_submit").value='With Selected ('+total+')';
+  
+  
+    }
+  
+      function link_to_post(pid)
+      {
+        temp = prompt( "Manually copy the direct link to this post below to store the link in your computer's clipboard", "https://weepingomens.jcink.net/index.php?showtopic=69&view=findpost&p=" + pid );
+        return false;
+      }
+      
+      function delete_post(theURL) {
+         if (confirm('Are you sure you want to delete this message?')) {
+            window.location.href=theURL;
+         }
+         else {
+            alert ('Ok, no action has been taken');
+         } 
+      }
+      
+      function PopUp(url, name, width,height,center,resize,scroll,posleft,postop) {
+      if (posleft != 0) { x = posleft }
+      if (postop  != 0) { y = postop  }
+  
+      if (!scroll) { scroll = 1 }
+      if (!resize) { resize = 1 }
+  
+      if ((parseInt (navigator.appVersion) >= 4 ) && (center)) {
+        X = (screen.width  - width ) / 2;
+        Y = (screen.height - height) / 2;
+      }
+      if (scroll != 0) { scroll = 1 }
+  
+      var Win = window.open( url, name, 'width='+width+',height='+height+',top='+Y+',left='+X+',resizable='+resize+',scrollbars='+scroll+',location=no,directories=no,status=no,menubar=no,toolbar=no');
+    }
+    
+    function ShowHide(id1, id2) {
+      if (id1 != '') expMenu(id1);
+      if (id2 != '') expMenu(id2);
+    }
+    
+    function expMenu(id) {
+      var itm = null;
+      if (document.getElementById) {
+      itm = document.getElementById(id);
+      } else if (document.all){
+      itm = document.all[id];
+      } else if (document.layers){
+      itm = document.layers[id];
+      }
+    
+      if (!itm) {
+       // do nothing
+      }
+      else if (itm.style) {
+      if (itm.style.display == "none") { itm.style.display = ""; }
+      else { itm.style.display = "none"; }
+      }
+      else { itm.visibility = "show"; }
+    }
+      //-->
+      </script>
+      
+  <a name="top"></a>
+  
+  
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tbody><tr>
+   <td align="left" width="20%" nowrap="nowrap"><span class="pagination"><span class="pagination_pagetxt"><a title="Jump to page..." href="javascript:multi_page_jump('https://weepingomens.jcink.net/index.php?showtopic=69',20,6);" class="">Pages:</a> (4)</span>&nbsp;<span class="pagination_current"><b>1</b></span>&nbsp;<a href="https://weepingomens.jcink.net/index.php?showtopic=69&amp;st=6" class="pagination_page">2</a>&nbsp;<a href="https://weepingomens.jcink.net/index.php?showtopic=69&amp;st=12" class="pagination_page">3</a>&nbsp;...&nbsp;<a href="https://weepingomens.jcink.net/index.php?showtopic=69&amp;st=18" title="Page: 4" class="pagination_last">Last »</a></span>&nbsp;<span class="goto-firstunread">( <a href="https://weepingomens.jcink.net/index.php?act=ST&amp;f=33&amp;t=69&amp;view=getnewpost">Go to first unread post</a> )</span></td>
+   <td align="right" width="80%"><a href="https://weepingomens.jcink.net/index.php?act=Post&amp;CODE=02&amp;f=33&amp;t=69"><div class="button-large closed">Closed</div></a><a href="https://weepingomens.jcink.net/index.php?act=Post&amp;CODE=00&amp;f=33" title="Start a new topic"><div class="button-large">New Topic</div></a><a href="https://weepingomens.jcink.net/index.php?act=Post&amp;CODE=10&amp;f=33"><div class="button-large">New Poll</div></a></td>
+  </tr>
+  </tbody></table>
+  <br>
+  <div class="tableborder">
+      <div class="maintitle"><span class="topic-title-space">&nbsp;</span><span class="topic-title">POSTING TEMPLATES</span><span class="topic-desc"></span></div>
+    <!--{IBF.POLL}-->
+    <div align="right" class="postlinksbar">
+      <strong><!--{IBF.START_NEW_POLL}--><a href="https://weepingomens.jcink.net/index.php?act=Track&amp;f=33&amp;t=69">Track This Topic</a> | <a href="https://weepingomens.jcink.net/index.php?act=Forward&amp;f=33&amp;t=69">Email This Topic</a> | <a href="https://weepingomens.jcink.net/index.php?act=Print&amp;client=printer&amp;f=33&amp;t=69">Print This Topic</a></strong>
+    </div>
+    <div class="post-row member-20 postid-103 group-6" style="--custom:#df6885; --relationshipAccent:#D4AF37;">
+          <div class="user-name">
+    <div class="font-icon game-icon game-icon-fire-bomb"></div>
+            <div class="threat-level threat-level-1">
+              <div class="threat-bar" style="width:1%"></div>
+            </div>
+            <div class="user-small-info group group-icon-6" title=" —"></div>
+            <a href="/index.php?act=Search&amp;CODE=getalluser&amp;mid=20&amp;type=posts" class="user-small-info posts" title="view selkie's posts"></a>
+            <a href="/index.php?act=Search&amp;CODE=getalluser&amp;mid=20&amp;type=topics" class="user-small-info threads" title="view selkie's threads"></a>
+            <a href="/index.php?act=Msg&amp;CODE=04&amp;MID=0" class="user-small-info messages" title="pm selkie"></a>
+            <div class="user-quote">a verb in perfect view.</div>
+            <a href="/index.php?showuser=20" class="user-profile">selkie</a>
+            <span class="user-position"></span>
+            <ul class="user-details">
+              <li class="ic"><em>aka</em> <span class="field">selkie</span></li>
+              <li class="ic"><em>pronouns</em> <span class="field">any ok</span></li>
+              <li class="ic"><em>age</em> <span class="field">22</span></li>
+              <li class="ic"><em>occupation</em> <span class="field">biblethump</span></li>
+              <li class="ic"><em>group</em> <span class="field"> —</span></li>
+              <li class="ooc"><em>limits</em> <span class="field">suicide &amp; homophobia (fine with a content warning!)</span></li>
+              <li class="ooc"><em>age</em> <span class="field">23</span></li>
+              <li class="ooc"><em>pronouns</em> <span class="field">any ok</span></li>
+              <li class="ooc"><em>timezone</em> <span class="field">gmt-6 (cst)</span></li>
+              <li class="ooc"><em>contact via</em> <span class="field">selkie#4576</span></li>
+            </ul>
+  
+          </div>
+          <div class="user-hover">
+            <div class="hover-background" style="background-image: url(https://i.ibb.co/3pk1pk9/image.png), url(https://files.jcink.net/uploads2/weepingomens/skin_stuff/default_hover.png);"></div>
+          </div>
+          <div class="relationship">
+            <div class="icon"><a href="https://weepingomens.jcink.net/index.php?showuser=2"><div style="background-image: url();"></div></a></div>
+            <div class="line-1">i hope you die</div>
+            <div class="line-2">cel(kie)</div>
+          </div>
+          <div class="ooc-details">
+            <span>20 posts - 4380 points <span class="ic">- played by selkie (any ok)</span></span>
+            <div class="big-image" style="background-image: url(https://i.ibb.co/CmT2k5q/image.png);"></div>
+          </div>
+  <script>
+  if ( '—' !== '—' && `—` !== `—` ) {
+    document.querySelector('.postid-103 .user-position').textContent = "— of the —";
+  }
+  
+  // i can't pull 'avatar' in post row and i'm not overhauling the grid.
+  avatarUrl = 'url(https://i.ibb.co/s2Tx41F/image.png)';
+  
+  // if no relationship icon or accent
+  if ( '' === '' && '#D4AF37' === '' ) {
+    document.querySelector('.postid-103 .relationship .icon').remove();
+  }
+  
+  // if no relationship lines
+  if ( `i hope you die` === `` && `cel(kie)` === `` ) {
+    document.querySelector('.postid-103').classList.add('no-ship');
+    document.querySelector('.postid-103 .relationship').remove();
+  }
+  </script>
+  
+  <div class="post-proper">
+            <div class="user-icon">
+              <div class="contain"><div class="img" style="background-image: url(&quot;https://i.ibb.co/s2Tx41F/image.png&quot;);"></div>
+              <span>selkie</span></div>
+            </div>
+            <div class="permalink">Dec 2 2020, 06:51 PM - <a name="entry103" href="https://weepingomens.jcink.net/index.php?showtopic=69&amp;view=findpost&amp;p=103">PERMALINK</a> <a href="javascript:void(0);" onclick="SKIFS.quickEdit.edit('33','69','103')"><span class="button-small">Edit</span></a> <a href="https://weepingomens.jcink.net/index.php?act=Post&amp;CODE=06&amp;f=33&amp;t=69&amp;p=103"><span class="button-small">Quote</span></a>  </div>
+            <div class="post-container">
+  <div id="pid_103" style="margin-top:50px;"><!-- THE POST 103 --><div class="postcolor"> <div class="omens-post-template omens-post-1"><div class="post-icon"><img src="https://i.ibb.co/YfYs4gZ/image.png"></div><div class="lyric-1">lyric line one styles like this</div><div class="lyric-2">while lyric line two styles like this</div><div class="post-body">The post bbcode formats like this. Let's take a second to explain a bit about how Weeping Omens' posting template setup works. Everything you see here -- both lines of lyrics and an icon -- are all hosted in the user control panel as a custom profile field. When you fill these fields out, they will then insert into your chosen bbcode, like so. If you leave those fields blank, however, they remove from the without breaking it. Some templates fare a little better under the minimalist approach than others, but feel free to mix and match to your heart's content!<br><br>You additionally can set lyrics and images per-post using BBCodes. Put replacement lyrics in [lyric1] and [lyric2] bbcodes, respectively, within your post. Square icons can be replaced using [squareimage]. Replacing the larger images is a teensy bit different -- you'll use [image#]image_url[/image#] tags, where the '#' corresponds to the post template you're currently using. If you're using post2, enter image2, if you're using post3, enter image3, and so on. Images can also be removed from the post entirely by entering 'x' within the respective bbcode. Similarly, lyric lines can be removed by entering '<i>deletelyric</i>' within their respective bbcodes.<br><br>You can technically put these bbcodes anywhere within your post template and have them work properly, but I'd recommend putting them either at the very end or the very beginning, outside of the [post] proper, to make it look nice. Note that <b>they temporarily won't display properly using quick edit</b> -- a refresh will fix this.<br><br>The image above is <b>the square image</b> and is <b>100x100px</b>. <b>This is a bold tag.</b> <span>[*c] tags will color text without bolding it.</span> <i>Lorem ipsum dolor sit amet</i>, consectetur adipiscing elit. Sed ut leo nulla. Curabitur porta metus id dictum pellentesque. Vivamus vitae interdum tortor. Vivamus vel mauris egestas, interdum ipsum sit amet, gravida enim. Vivamus a libero ante. Nam imperdiet neque eu mi interdum, ac pulvinar quam mollis. Etiam egestas fringilla dolor, vel aliquet augue varius a. Mauris suscipit luctus lectus vitae venenatis. Sed quis diam ac sapien lobortis vehicula nec blandit nulla. Duis ligula mauris, viverra id velit vitae, vestibulum tincidunt enim. Suspendisse potenti. Donec eget lorem ut tellus pharetra interdum a gravida est. Nunc vel magna at ex fringilla scelerisque mattis et felis. Fusce consequat ex sed est vestibulum, at malesuada est pretium.<br><br>Suspendisse ornare luctus elit sit amet porttitor. Duis vitae quam quis elit tempus viverra vel at nisi. Curabitur libero ipsum, fringilla ut posuere vitae, tempor eget eros. In efficitur diam id urna auctor euismod. Nulla vulputate mi at cursus convallis. Ut et sem nec sem convallis rhoncus fringilla ut nisl. Aliquam justo nulla, vulputate at mauris vel, commodo pulvinar mauris. Integer porta nisi vel risus suscipit dapibus. Vestibulum vehicula, magna pulvinar pretium convallis, dolor ligula egestas orci, auctor lacinia elit libero et leo. Quisque lectus orci, pellentesque id pulvinar suscipit, malesuada vitae nibh.<br><br>Sed efficitur, erat in finibus finibus, odio nunc luctus tellus, ac posuere enim felis nec elit. Mauris neque magna, malesuada in laoreet quis, gravida sit amet libero. Sed et risus sed ex mattis pulvinar. Cras semper id ipsum sed tempor. Sed lacinia lectus eu. <tagged><a href="index.php?showuser=6" rel="nofollow" alt="profile link" class="user-tagged mgroup-6">ADMIN</a></tagged></div></div><br><!--c1--><table border="0" align="center" width="95%" cellpadding="0" cellspacing="1" id="CODE-WRAP" class="nicole-code"><tbody><tr><td><div class="code-top"><div class="code-title">Code <span class="code-toggle" style="display: none;">• toggle height</span></div> <div class="code-highlight">click here to highlight code</div></div></td></tr><tr><td id="CODE"><div class="code-scroll"><!--ec1-->[post]and that's literally it.[tag] @[tag] [/tag][/post]<!--c2--></div></td></tr></tbody></table><!--ec2--> </div><!-- THE POST --></div>
+            </div>
+          </div>
+  </div>
+  <script>
+  if ( '#df6885' !== '' ) { 
+    document.querySelector('.postid-103').style.setProperty('--custom', '#df6885');
+  } 
+  
+  if ( '#D4AF37' !== '' ) { 
+    document.querySelector('.postid-103').style.setProperty('--relationshipAccent', '#D4AF37');
+  } 
+  if ( '' !== '' ) { 
+    document.querySelector('.postid-103 .relationship .icon div').style.backgroundImage = "url('')";
+  } 
+  
+  if ( 'game-icon' !== '' ) { 
+    document.querySelector('.postid-103 .font-icon').classList.add("game-icon");
+  } 
+  
+  if ( 'fire-bomb' !== '' ) { 
+    document.querySelector('.postid-103 .font-icon').classList.add("game-icon-fire-bomb");
+  } 
+  
+  // if no relationship name ...
+  if ( '' === '' ) { 
+    document.querySelector('.postid-103 .relationship .icon a').removeAttribute('title');
+  } 
+  
+  /* i can't pull 'avatar' in post row and i'm not overhauling the grid. */
+  document.querySelector('.postid-103 .user-icon .img').style.backgroundImage = avatarUrl;
+  if ( avatarUrl === 'url()' ) {
+    document.querySelector('.postid-103').classList.add("no-avatar");
+  }
+  </script>
+  <script>
+  // FIELD_# -> POST TEMPLATE SCRIPTING (POST ROW)
+  
+  currentPost = document.querySelector('#pid_103');
+  
+  postImages = [
+    image200By400 = { 
+      imageType: 'post-image-1', DOMTarget: currentPost.querySelectorAll('.post-image-1'),
+      imageSrc: `https://i.ibb.co/yfjwbYT/image.png`, override: currentPost.querySelector('.post-image-1-override') 
+    },
+    image500By150 = { 
+      imageType: 'post-image-2', DOMTarget: currentPost.querySelectorAll('.post-image-2'),
+      imageSrc: `https://i.ibb.co/F46JHGc/image.png`, override: currentPost.querySelector('.post-image-2-override') 
+    },
+    imageSquare = { 
+      imageType: 'squareImage', DOMTarget: currentPost.querySelectorAll('.post-icon'),
+      imageSrc: `https://i.ibb.co/YfYs4gZ/image.png`, override: currentPost.querySelector('.post-icon-override')
+    },
+    imagePhoneBackground = { 
+      imageType: 'phoneBackground', DOMTarget: currentPost.querySelectorAll('.phone-background'),
+      imageSrc: `https://i.ibb.co/9W0n97z/image.png`, override: currentPost.querySelector('.phone-background-override')
+    },
+  ];
+  
+  postLyrics = [
+    lyricOne = {
+      lyricType: 'lyricOne', DOMTarget: currentPost.querySelectorAll('.lyric-1'),
+      lyricSrc: `lyric line one styles like this`, override: currentPost.querySelector('.lyric-1-override')
+    },
+    lyricTwo = {
+      lyricType: 'lyricTwo', DOMTarget: currentPost.querySelectorAll('.lyric-2'),
+      lyricSrc: `while lyric line two styles like this`, override: currentPost.querySelector('.lyric-2-override')
+    },
+  ];
+  
+  
+  // phone-specific scripting
+  
+  phoneTwoIcon = currentPost.querySelector('.omens-phone-2.omens-phone-text msg:last-of-type');
+  phoneThreeIcon = currentPost.querySelector('.omens-phone-3.omens-phone-text msg:first-of-type');
+  phoneFourIcon = currentPost.querySelector('.omens-phone-4.omens-phone-text msg:first-of-type');
+  phoneIcon = 'https://i.ibb.co/b5mP5dH/image.png';
+  
+  if ( currentPost.querySelector('.phone-icon-override') ) {
+  phoneIcon = currentPost.querySelector('.phone-icon-override').textContent;
+  };
+  
+  postPhoneIconInsertion();
+  
+  if ( topicDescription.includes('[<3]') && currentPost.querySelector('.omens-phone-template') && '#D4AF37' !== '' ) {
+    for (let i=0; i < currentPost.querySelectorAll('received').length; i++) {
+      currentPost.querySelectorAll('received')[i].setAttribute('style', 'background:#D4AF37; color:#222;');
+    }
+  };
+  </script><div class="post-row member-20 postid-125 group-6" style="--custom:#df6885; --relationshipAccent:#D4AF37;">
+          <div class="user-name">
+    <div class="font-icon game-icon game-icon-fire-bomb"></div>
+            <div class="threat-level threat-level-1">
+              <div class="threat-bar" style="width:1%"></div>
+            </div>
+            <div class="user-small-info group group-icon-6" title=" —"></div>
+            <a href="/index.php?act=Search&amp;CODE=getalluser&amp;mid=20&amp;type=posts" class="user-small-info posts" title="view selkie's posts"></a>
+            <a href="/index.php?act=Search&amp;CODE=getalluser&amp;mid=20&amp;type=topics" class="user-small-info threads" title="view selkie's threads"></a>
+            <a href="/index.php?act=Msg&amp;CODE=04&amp;MID=0" class="user-small-info messages" title="pm selkie"></a>
+            <div class="user-quote">a verb in perfect view.</div>
+            <a href="/index.php?showuser=20" class="user-profile">selkie</a>
+            <span class="user-position"></span>
+            <ul class="user-details">
+              <li class="ic"><em>aka</em> <span class="field">selkie</span></li>
+              <li class="ic"><em>pronouns</em> <span class="field">any ok</span></li>
+              <li class="ic"><em>age</em> <span class="field">22</span></li>
+              <li class="ic"><em>occupation</em> <span class="field">biblethump</span></li>
+              <li class="ic"><em>group</em> <span class="field"> —</span></li>
+              <li class="ooc"><em>limits</em> <span class="field">suicide &amp; homophobia (fine with a content warning!)</span></li>
+              <li class="ooc"><em>age</em> <span class="field">23</span></li>
+              <li class="ooc"><em>pronouns</em> <span class="field">any ok</span></li>
+              <li class="ooc"><em>timezone</em> <span class="field">gmt-6 (cst)</span></li>
+              <li class="ooc"><em>contact via</em> <span class="field">selkie#4576</span></li>
+            </ul>
+  
+          </div>
+          <div class="user-hover">
+            <div class="hover-background" style="background-image: url(https://i.ibb.co/3pk1pk9/image.png), url(https://files.jcink.net/uploads2/weepingomens/skin_stuff/default_hover.png);"></div>
+          </div>
+          <div class="relationship">
+            <div class="icon"><a href="https://weepingomens.jcink.net/index.php?showuser=2"><div style="background-image: url();"></div></a></div>
+            <div class="line-1">i hope you die</div>
+            <div class="line-2">cel(kie)</div>
+          </div>
+          <div class="ooc-details">
+            <span>20 posts - 4380 points <span class="ic">- played by selkie (any ok)</span></span>
+            <div class="big-image" style="background-image: url(https://i.ibb.co/CmT2k5q/image.png);"></div>
+          </div>
+  <script>
+  if ( '—' !== '—' && `—` !== `—` ) {
+    document.querySelector('.postid-103 .user-position').textContent = "— of the —";
+  }
+  
+  // i can't pull 'avatar' in post row and i'm not overhauling the grid.
+  avatarUrl = 'url(https://i.ibb.co/s2Tx41F/image.png)';
+  
+  // if no relationship icon or accent
+  if ( '' === '' && '#D4AF37' === '' ) {
+    document.querySelector('.postid-103 .relationship .icon').remove();
+  }
+  
+  // if no relationship lines
+  if ( `i hope you die` === `` && `cel(kie)` === `` ) {
+    document.querySelector('.postid-103').classList.add('no-ship');
+    document.querySelector('.postid-103 .relationship').remove();
+  }
+  </script>
+  
+  <div class="post-proper">
+            <div class="user-icon">
+              <div class="contain"><div class="img" style="background-image: url(&quot;https://i.ibb.co/s2Tx41F/image.png&quot;);"></div>
+              <span>selkie</span></div>
+            </div>
+            <div class="permalink">Dec 3 2020, 05:02 PM - <a name="entry125" href="https://weepingomens.jcink.net/index.php?showtopic=69&amp;view=findpost&amp;p=125">PERMALINK</a> <a href="javascript:void(0);" onclick="SKIFS.quickEdit.edit('33','69','125')"><span class="button-small">Edit</span></a> <a href="https://weepingomens.jcink.net/index.php?act=Post&amp;CODE=06&amp;f=33&amp;t=69&amp;p=125"><span class="button-small">Quote</span></a> <a href="javascript:delete_post('https://weepingomens.jcink.net/index.php?act=Mod&amp;CODE=04&amp;f=33&amp;t=69&amp;p=125&amp;st=&amp;auth_key=267c49d879fa4618a35b4f2d43cccc8b')"><span class="button-small">Delete</span></a> <input type="checkbox" onclick="select_post(&quot;125&quot;);" value="0"></div>
+            <div class="post-container">
+  <div id="pid_125" style="margin-top:50px;"><!-- THE POST 125 --><div class="postcolor"> <div class="omens-post-template omens-post-2"><div class="post-image-2"><img src="https://i.ibb.co/F46JHGc/image.png"><div class="lyric-1">lyric line one styles like this</div><div class="lyric-2">while lyric line two styles like this</div></div><div class="post-body"><div class="post-icon-override"><img src="https://files.jcink.net/uploads2/weepingomens/skin_stuff/50x50_placeholder.png"></div>The post2 bbcode formats like this. The image above is <b>posting image #2</b> and is <b>500x150px</b>, and is automatically overlaid with the set custom user accent. <b>This is a bold tag.</b> <span>This is a c tag.</span> <u>Yes, I'm retconning in a u tag for this template because why not.</u> <i>Lorem ipsum dolor sit amet</i>, consectetur adipiscing elit. Sed ut leo nulla. Curabitur porta metus id dictum pellentesque. Vivamus vitae interdum tortor. Vivamus vel mauris egestas, interdum ipsum sit amet, gravida enim. Vivamus a libero ante. Nam imperdiet neque eu mi interdum, ac pulvinar quam mollis. Etiam egestas fringilla dolor, vel aliquet augue varius a. Mauris suscipit luctus lectus vitae venenatis. Sed quis diam ac sapien lobortis vehicula nec blandit nulla. Duis ligula mauris, viverra id velit vitae, vestibulum tincidunt enim. Suspendisse potenti. Donec eget lorem ut tellus pharetra interdum a gravida est. Nunc vel magna at ex fringilla scelerisque mattis et felis. Fusce consequat ex sed est vestibulum, at malesuada est pretium.<br><br>Suspendisse ornare luctus elit sit amet porttitor. Duis vitae quam quis elit tempus viverra vel at nisi. Curabitur libero ipsum, fringilla ut posuere vitae, tempor eget eros. In efficitur diam id urna auctor euismod. Nulla vulputate mi at cursus convallis. Ut et sem nec sem convallis rhoncus fringilla ut nisl. Aliquam justo nulla, vulputate at mauris vel, commodo pulvinar mauris. Integer porta nisi vel risus suscipit dapibus. Vestibulum vehicula, magna pulvinar pretium convallis, dolor ligula egestas orci, auctor lacinia elit libero et leo. Quisque lectus orci, pellentesque id pulvinar suscipit, malesuada vitae nibh.<br><br>Sed efficitur, erat in finibus finibus, odio nunc luctus tellus, ac posuere enim felis nec elit. Mauris neque magna, malesuada in laoreet quis, gravida sit amet libero. Sed et risus sed ex mattis pulvinar. Cras semper id ipsum sed tempor. Sed lacinia lectus eu.<tagged><a href="index.php?showuser=6" rel="nofollow" alt="profile link" class="user-tagged mgroup-6">ADMIN</a></tagged></div></div><br><!--c1--><table border="0" align="center" width="95%" cellpadding="0" cellspacing="1" id="CODE-WRAP" class="nicole-code"><tbody><tr><td><div class="code-top"><div class="code-title">Code <span class="code-toggle" style="display: none;">• toggle height</span></div> <div class="code-highlight">click here to highlight code</div></div></td></tr><tr><td id="CODE"><div class="code-scroll"><!--ec1-->[post2]Write your post here.[tag] @[tag] [/tag][/post2]<!--c2--></div></td></tr></tbody></table><!--ec2--> </div><!-- THE POST --></div>
+            </div>
+          </div>
+  </div>
+  <script>
+  if ( '#df6885' !== '' ) { 
+    document.querySelector('.postid-125').style.setProperty('--custom', '#df6885');
+  } 
+  
+  if ( '#D4AF37' !== '' ) { 
+    document.querySelector('.postid-125').style.setProperty('--relationshipAccent', '#D4AF37');
+  } 
+  if ( '' !== '' ) { 
+    document.querySelector('.postid-125 .relationship .icon div').style.backgroundImage = "url('')";
+  } 
+  
+  if ( 'game-icon' !== '' ) { 
+    document.querySelector('.postid-125 .font-icon').classList.add("game-icon");
+  } 
+  
+  if ( 'fire-bomb' !== '' ) { 
+    document.querySelector('.postid-125 .font-icon').classList.add("game-icon-fire-bomb");
+  } 
+  
+  // if no relationship name ...
+  if ( '' === '' ) { 
+    document.querySelector('.postid-125 .relationship .icon a').removeAttribute('title');
+  } 
+  
+  /* i can't pull 'avatar' in post row and i'm not overhauling the grid. */
+  document.querySelector('.postid-125 .user-icon .img').style.backgroundImage = avatarUrl;
+  if ( avatarUrl === 'url()' ) {
+    document.querySelector('.postid-125').classList.add("no-avatar");
+  }
+  </script>
+  <script>
+  // FIELD_# -> POST TEMPLATE SCRIPTING (POST ROW)
+  
+  currentPost = document.querySelector('#pid_125');
+  
+  postImages = [
+    image200By400 = { 
+      imageType: 'post-image-1', DOMTarget: currentPost.querySelectorAll('.post-image-1'),
+      imageSrc: `https://i.ibb.co/yfjwbYT/image.png`, override: currentPost.querySelector('.post-image-1-override') 
+    },
+    image500By150 = { 
+      imageType: 'post-image-2', DOMTarget: currentPost.querySelectorAll('.post-image-2'),
+      imageSrc: `https://i.ibb.co/F46JHGc/image.png`, override: currentPost.querySelector('.post-image-2-override') 
+    },
+    imageSquare = { 
+      imageType: 'squareImage', DOMTarget: currentPost.querySelectorAll('.post-icon'),
+      imageSrc: `https://i.ibb.co/YfYs4gZ/image.png`, override: currentPost.querySelector('.post-icon-override')
+    },
+    imagePhoneBackground = { 
+      imageType: 'phoneBackground', DOMTarget: currentPost.querySelectorAll('.phone-background'),
+      imageSrc: `https://i.ibb.co/9W0n97z/image.png`, override: currentPost.querySelector('.phone-background-override')
+    },
+  ];
+  
+  postLyrics = [
+    lyricOne = {
+      lyricType: 'lyricOne', DOMTarget: currentPost.querySelectorAll('.lyric-1'),
+      lyricSrc: `lyric line one styles like this`, override: currentPost.querySelector('.lyric-1-override')
+    },
+    lyricTwo = {
+      lyricType: 'lyricTwo', DOMTarget: currentPost.querySelectorAll('.lyric-2'),
+      lyricSrc: `while lyric line two styles like this`, override: currentPost.querySelector('.lyric-2-override')
+    },
+  ];
+  
+  
+  // phone-specific scripting
+  
+  phoneTwoIcon = currentPost.querySelector('.omens-phone-2.omens-phone-text msg:last-of-type');
+  phoneThreeIcon = currentPost.querySelector('.omens-phone-3.omens-phone-text msg:first-of-type');
+  phoneFourIcon = currentPost.querySelector('.omens-phone-4.omens-phone-text msg:first-of-type');
+  phoneIcon = 'https://i.ibb.co/b5mP5dH/image.png';
+  
+  if ( currentPost.querySelector('.phone-icon-override') ) {
+  phoneIcon = currentPost.querySelector('.phone-icon-override').textContent;
+  };
+  
+  postPhoneIconInsertion();
+  
+  if ( topicDescription.includes('[<3]') && currentPost.querySelector('.omens-phone-template') && '#D4AF37' !== '' ) {
+    for (let i=0; i < currentPost.querySelectorAll('received').length; i++) {
+      currentPost.querySelectorAll('received')[i].setAttribute('style', 'background:#D4AF37; color:#222;');
+    }
+  };
+  </script><div class="post-row member-20 postid-2331 group-6" style="--custom:#df6885; --relationshipAccent:#D4AF37;">
+          <div class="user-name">
+    <div class="font-icon game-icon game-icon-fire-bomb"></div>
+            <div class="threat-level threat-level-1">
+              <div class="threat-bar" style="width:1%"></div>
+            </div>
+            <div class="user-small-info group group-icon-6" title=" —"></div>
+            <a href="/index.php?act=Search&amp;CODE=getalluser&amp;mid=20&amp;type=posts" class="user-small-info posts" title="view selkie's posts"></a>
+            <a href="/index.php?act=Search&amp;CODE=getalluser&amp;mid=20&amp;type=topics" class="user-small-info threads" title="view selkie's threads"></a>
+            <a href="/index.php?act=Msg&amp;CODE=04&amp;MID=0" class="user-small-info messages" title="pm selkie"></a>
+            <div class="user-quote">a verb in perfect view.</div>
+            <a href="/index.php?showuser=20" class="user-profile">selkie</a>
+            <span class="user-position"></span>
+            <ul class="user-details">
+              <li class="ic"><em>aka</em> <span class="field">selkie</span></li>
+              <li class="ic"><em>pronouns</em> <span class="field">any ok</span></li>
+              <li class="ic"><em>age</em> <span class="field">22</span></li>
+              <li class="ic"><em>occupation</em> <span class="field">biblethump</span></li>
+              <li class="ic"><em>group</em> <span class="field"> —</span></li>
+              <li class="ooc"><em>limits</em> <span class="field">suicide &amp; homophobia (fine with a content warning!)</span></li>
+              <li class="ooc"><em>age</em> <span class="field">23</span></li>
+              <li class="ooc"><em>pronouns</em> <span class="field">any ok</span></li>
+              <li class="ooc"><em>timezone</em> <span class="field">gmt-6 (cst)</span></li>
+              <li class="ooc"><em>contact via</em> <span class="field">selkie#4576</span></li>
+            </ul>
+  
+          </div>
+          <div class="user-hover">
+            <div class="hover-background" style="background-image: url(https://i.ibb.co/3pk1pk9/image.png), url(https://files.jcink.net/uploads2/weepingomens/skin_stuff/default_hover.png);"></div>
+          </div>
+          <div class="relationship">
+            <div class="icon"><a href="https://weepingomens.jcink.net/index.php?showuser=2"><div style="background-image: url();"></div></a></div>
+            <div class="line-1">i hope you die</div>
+            <div class="line-2">cel(kie)</div>
+          </div>
+          <div class="ooc-details">
+            <span>20 posts - 4380 points <span class="ic">- played by selkie (any ok)</span></span>
+            <div class="big-image" style="background-image: url(https://i.ibb.co/CmT2k5q/image.png);"></div>
+          </div>
+  <script>
+  if ( '—' !== '—' && `—` !== `—` ) {
+    document.querySelector('.postid-103 .user-position').textContent = "— of the —";
+  }
+  
+  // i can't pull 'avatar' in post row and i'm not overhauling the grid.
+  avatarUrl = 'url(https://i.ibb.co/s2Tx41F/image.png)';
+  
+  // if no relationship icon or accent
+  if ( '' === '' && '#D4AF37' === '' ) {
+    document.querySelector('.postid-103 .relationship .icon').remove();
+  }
+  
+  // if no relationship lines
+  if ( `i hope you die` === `` && `cel(kie)` === `` ) {
+    document.querySelector('.postid-103').classList.add('no-ship');
+    document.querySelector('.postid-103 .relationship').remove();
+  }
+  </script>
+  
+  <div class="post-proper">
+            <div class="user-icon">
+              <div class="contain"><div class="img" style="background-image: url(&quot;https://i.ibb.co/s2Tx41F/image.png&quot;);"></div>
+              <span>selkie</span></div>
+            </div>
+            <div class="permalink">Feb 8 2021, 02:28 AM - <a name="entry2331" href="https://weepingomens.jcink.net/index.php?showtopic=69&amp;view=findpost&amp;p=2331">PERMALINK</a> <a href="javascript:void(0);" onclick="SKIFS.quickEdit.edit('33','69','2331')"><span class="button-small">Edit</span></a> <a href="https://weepingomens.jcink.net/index.php?act=Post&amp;CODE=06&amp;f=33&amp;t=69&amp;p=2331"><span class="button-small">Quote</span></a> <a href="javascript:delete_post('https://weepingomens.jcink.net/index.php?act=Mod&amp;CODE=04&amp;f=33&amp;t=69&amp;p=2331&amp;st=&amp;auth_key=267c49d879fa4618a35b4f2d43cccc8b')"><span class="button-small">Delete</span></a> <input type="checkbox" onclick="select_post(&quot;2331&quot;);" value="0"></div>
+            <div class="post-container">
+  <div id="pid_2331" style="margin-top:50px;"><!-- THE POST 2331 --><div class="postcolor"> <div class="omens-post-template omens-post-3"><div class="lyric-1">lyric line one styles like this</div><div class="post-image-1"><img src="https://i.ibb.co/yfjwbYT/image.png"></div><div class="post-body">The post3 bbcode formats like this. The image used is <b>posting image #1</b> which is <b>200x400px</b>. <b>This is a bold tag</b>. <span>This is a c tag</span>. <i>Lorem ipsum dolor sit amet</i>, consectetur adipiscing elit. Sed ut leo nulla. Curabitur porta metus id dictum pellentesque. Vivamus vitae interdum tortor. Vivamus vel mauris egestas, interdum ipsum sit amet, gravida enim. Vivamus a libero ante. Nam imperdiet neque eu mi interdum, ac pulvinar quam mollis. Etiam egestas fringilla dolor, vel aliquet augue varius a. Mauris suscipit luctus lectus vitae venenatis. Sed quis diam ac sapien lobortis vehicula nec blandit nulla. Duis ligula mauris, viverra id velit vitae, vestibulum tincidunt enim. Suspendisse potenti. Donec eget lorem ut tellus pharetra interdum a gravida est. Nunc vel magna at ex fringilla scelerisque mattis et felis. Fusce consequat ex sed est vestibulum, at malesuada est pretium.<br><br>Suspendisse ornare luctus elit sit amet porttitor. Duis vitae quam quis elit tempus viverra vel at nisi. Curabitur libero ipsum, fringilla ut posuere vitae, tempor eget eros. In efficitur diam id urna auctor euismod. Nulla vulputate mi at cursus convallis. Ut et sem nec sem convallis rhoncus fringilla ut nisl. Aliquam justo nulla, vulputate at mauris vel, commodo pulvinar mauris. Integer porta nisi vel risus suscipit dapibus. Vestibulum vehicula, magna pulvinar pretium convallis, dolor ligula egestas orci, auctor lacinia elit libero et leo. Quisque lectus orci, pellentesque id pulvinar suscipit, malesuada vitae nibh.<br><br>Sed efficitur, erat in finibus finibus, odio nunc luctus tellus, ac posuere enim felis nec elit. Mauris neque magna, malesuada in laoreet quis, gravida sit amet libero. Sed et risus sed ex mattis pulvinar. Cras semper id ipsum sed tempor. Sed lacinia lectus eu.<tagged><a href="index.php?showuser=6" rel="nofollow" alt="profile link" class="user-tagged mgroup-6">ADMIN</a></tagged></div><div class="lyric-2">while lyric line two styles like this</div></div><!--c1--><table border="0" align="center" width="95%" cellpadding="0" cellspacing="1" id="CODE-WRAP" class="nicole-code"><tbody><tr><td><div class="code-top"><div class="code-title">Code <span class="code-toggle" style="display: none;">• toggle height</span></div> <div class="code-highlight">click here to highlight code</div></div></td></tr><tr><td id="CODE"><div class="code-scroll"><!--ec1-->[post3]Write your post here. [tag] @[tag] [/tag][/post3]<!--c2--></div></td></tr></tbody></table><!--ec2--> </div><!-- THE POST --></div>
+            </div>
+          </div>
+  </div>
+  <script>
+  if ( '#df6885' !== '' ) { 
+    document.querySelector('.postid-2331').style.setProperty('--custom', '#df6885');
+  } 
+  
+  if ( '#D4AF37' !== '' ) { 
+    document.querySelector('.postid-2331').style.setProperty('--relationshipAccent', '#D4AF37');
+  } 
+  if ( '' !== '' ) { 
+    document.querySelector('.postid-2331 .relationship .icon div').style.backgroundImage = "url('')";
+  } 
+  
+  if ( 'game-icon' !== '' ) { 
+    document.querySelector('.postid-2331 .font-icon').classList.add("game-icon");
+  } 
+  
+  if ( 'fire-bomb' !== '' ) { 
+    document.querySelector('.postid-2331 .font-icon').classList.add("game-icon-fire-bomb");
+  } 
+  
+  // if no relationship name ...
+  if ( '' === '' ) { 
+    document.querySelector('.postid-2331 .relationship .icon a').removeAttribute('title');
+  } 
+  
+  /* i can't pull 'avatar' in post row and i'm not overhauling the grid. */
+  document.querySelector('.postid-2331 .user-icon .img').style.backgroundImage = avatarUrl;
+  if ( avatarUrl === 'url()' ) {
+    document.querySelector('.postid-2331').classList.add("no-avatar");
+  }
+  </script>
+  <script>
+  // FIELD_# -> POST TEMPLATE SCRIPTING (POST ROW)
+  
+  currentPost = document.querySelector('#pid_2331');
+  
+  postImages = [
+    image200By400 = { 
+      imageType: 'post-image-1', DOMTarget: currentPost.querySelectorAll('.post-image-1'),
+      imageSrc: `https://i.ibb.co/yfjwbYT/image.png`, override: currentPost.querySelector('.post-image-1-override') 
+    },
+    image500By150 = { 
+      imageType: 'post-image-2', DOMTarget: currentPost.querySelectorAll('.post-image-2'),
+      imageSrc: `https://i.ibb.co/F46JHGc/image.png`, override: currentPost.querySelector('.post-image-2-override') 
+    },
+    imageSquare = { 
+      imageType: 'squareImage', DOMTarget: currentPost.querySelectorAll('.post-icon'),
+      imageSrc: `https://i.ibb.co/YfYs4gZ/image.png`, override: currentPost.querySelector('.post-icon-override')
+    },
+    imagePhoneBackground = { 
+      imageType: 'phoneBackground', DOMTarget: currentPost.querySelectorAll('.phone-background'),
+      imageSrc: `https://i.ibb.co/9W0n97z/image.png`, override: currentPost.querySelector('.phone-background-override')
+    },
+  ];
+  
+  postLyrics = [
+    lyricOne = {
+      lyricType: 'lyricOne', DOMTarget: currentPost.querySelectorAll('.lyric-1'),
+      lyricSrc: `lyric line one styles like this`, override: currentPost.querySelector('.lyric-1-override')
+    },
+    lyricTwo = {
+      lyricType: 'lyricTwo', DOMTarget: currentPost.querySelectorAll('.lyric-2'),
+      lyricSrc: `while lyric line two styles like this`, override: currentPost.querySelector('.lyric-2-override')
+    },
+  ];
+  
+  
+  // phone-specific scripting
+  
+  phoneTwoIcon = currentPost.querySelector('.omens-phone-2.omens-phone-text msg:last-of-type');
+  phoneThreeIcon = currentPost.querySelector('.omens-phone-3.omens-phone-text msg:first-of-type');
+  phoneFourIcon = currentPost.querySelector('.omens-phone-4.omens-phone-text msg:first-of-type');
+  phoneIcon = 'https://i.ibb.co/b5mP5dH/image.png';
+  
+  if ( currentPost.querySelector('.phone-icon-override') ) {
+  phoneIcon = currentPost.querySelector('.phone-icon-override').textContent;
+  };
+  
+  postPhoneIconInsertion();
+  
+  if ( topicDescription.includes('[<3]') && currentPost.querySelector('.omens-phone-template') && '#D4AF37' !== '' ) {
+    for (let i=0; i < currentPost.querySelectorAll('received').length; i++) {
+      currentPost.querySelectorAll('received')[i].setAttribute('style', 'background:#D4AF37; color:#222;');
+    }
+  };
+  </script><div class="post-row member-20 postid-2332 group-6" style="--custom:#df6885; --relationshipAccent:#D4AF37;">
+          <div class="user-name">
+    <div class="font-icon game-icon game-icon-fire-bomb"></div>
+            <div class="threat-level threat-level-1">
+              <div class="threat-bar" style="width:1%"></div>
+            </div>
+            <div class="user-small-info group group-icon-6" title=" —"></div>
+            <a href="/index.php?act=Search&amp;CODE=getalluser&amp;mid=20&amp;type=posts" class="user-small-info posts" title="view selkie's posts"></a>
+            <a href="/index.php?act=Search&amp;CODE=getalluser&amp;mid=20&amp;type=topics" class="user-small-info threads" title="view selkie's threads"></a>
+            <a href="/index.php?act=Msg&amp;CODE=04&amp;MID=0" class="user-small-info messages" title="pm selkie"></a>
+            <div class="user-quote">a verb in perfect view.</div>
+            <a href="/index.php?showuser=20" class="user-profile">selkie</a>
+            <span class="user-position"></span>
+            <ul class="user-details">
+              <li class="ic"><em>aka</em> <span class="field">selkie</span></li>
+              <li class="ic"><em>pronouns</em> <span class="field">any ok</span></li>
+              <li class="ic"><em>age</em> <span class="field">22</span></li>
+              <li class="ic"><em>occupation</em> <span class="field">biblethump</span></li>
+              <li class="ic"><em>group</em> <span class="field"> —</span></li>
+              <li class="ooc"><em>limits</em> <span class="field">suicide &amp; homophobia (fine with a content warning!)</span></li>
+              <li class="ooc"><em>age</em> <span class="field">23</span></li>
+              <li class="ooc"><em>pronouns</em> <span class="field">any ok</span></li>
+              <li class="ooc"><em>timezone</em> <span class="field">gmt-6 (cst)</span></li>
+              <li class="ooc"><em>contact via</em> <span class="field">selkie#4576</span></li>
+            </ul>
+  
+          </div>
+          <div class="user-hover">
+            <div class="hover-background" style="background-image: url(https://i.ibb.co/3pk1pk9/image.png), url(https://files.jcink.net/uploads2/weepingomens/skin_stuff/default_hover.png);"></div>
+          </div>
+          <div class="relationship">
+            <div class="icon"><a href="https://weepingomens.jcink.net/index.php?showuser=2"><div style="background-image: url();"></div></a></div>
+            <div class="line-1">i hope you die</div>
+            <div class="line-2">cel(kie)</div>
+          </div>
+          <div class="ooc-details">
+            <span>20 posts - 4380 points <span class="ic">- played by selkie (any ok)</span></span>
+            <div class="big-image" style="background-image: url(https://i.ibb.co/CmT2k5q/image.png);"></div>
+          </div>
+  <script>
+  if ( '—' !== '—' && `—` !== `—` ) {
+    document.querySelector('.postid-103 .user-position').textContent = "— of the —";
+  }
+  
+  // i can't pull 'avatar' in post row and i'm not overhauling the grid.
+  avatarUrl = 'url(https://i.ibb.co/s2Tx41F/image.png)';
+  
+  // if no relationship icon or accent
+  if ( '' === '' && '#D4AF37' === '' ) {
+    document.querySelector('.postid-103 .relationship .icon').remove();
+  }
+  
+  // if no relationship lines
+  if ( `i hope you die` === `` && `cel(kie)` === `` ) {
+    document.querySelector('.postid-103').classList.add('no-ship');
+    document.querySelector('.postid-103 .relationship').remove();
+  }
+  </script>
+  
+  <div class="post-proper">
+            <div class="user-icon">
+              <div class="contain"><div class="img" style="background-image: url(&quot;https://i.ibb.co/s2Tx41F/image.png&quot;);"></div>
+              <span>selkie</span></div>
+            </div>
+            <div class="permalink">Feb 8 2021, 02:31 AM - <a name="entry2332" href="https://weepingomens.jcink.net/index.php?showtopic=69&amp;view=findpost&amp;p=2332">PERMALINK</a> <a href="javascript:void(0);" onclick="SKIFS.quickEdit.edit('33','69','2332')"><span class="button-small">Edit</span></a> <a href="https://weepingomens.jcink.net/index.php?act=Post&amp;CODE=06&amp;f=33&amp;t=69&amp;p=2332"><span class="button-small">Quote</span></a> <a href="javascript:delete_post('https://weepingomens.jcink.net/index.php?act=Mod&amp;CODE=04&amp;f=33&amp;t=69&amp;p=2332&amp;st=&amp;auth_key=267c49d879fa4618a35b4f2d43cccc8b')"><span class="button-small">Delete</span></a> <input type="checkbox" onclick="select_post(&quot;2332&quot;);" value="0"></div>
+            <div class="post-container">
+  <div id="pid_2332" style="margin-top:50px;"><!-- THE POST 2332 --><div class="postcolor"> <div class="omens-post-template lua-post-1-bg"><div class="lua-post-1-whole"><div class="post-image-2"><img src="https://i.ibb.co/F46JHGc/image.png"></div><div class="lua-post-1-body">The post4 bbcode formats like this and was designed by Lua! The image used is <b>posting image #2</b> and is <b>429x150px</b>. Larger images will scale down or crop appropriately. No lyric lines are present within this template. <b>This is a bold tag.</b> <span>This is a c tag.</span> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut leo nulla. Curabitur porta metus id dictum pellentesque. Vivamus vitae interdum tortor. Vivamus vel mauris egestas, interdum ipsum sit amet, gravida enim. Vivamus a libero ante. Nam imperdiet neque eu mi interdum, ac pulvinar quam mollis. Etiam egestas fringilla dolor, vel aliquet augue varius a. Mauris suscipit luctus lectus vitae venenatis. Sed quis diam ac sapien lobortis vehicula nec blandit nulla. Duis ligula mauris, viverra id velit vitae, vestibulum tincidunt enim. Suspendisse potenti. Donec eget lorem ut tellus pharetra interdum a gravida est. Nunc vel magna at ex fringilla scelerisque mattis et felis. Fusce consequat ex sed est vestibulum, at malesuada est pretium.<br><br>Suspendisse ornare luctus elit sit amet porttitor. Duis vitae quam quis elit tempus viverra vel at nisi. Curabitur libero ipsum, fringilla ut posuere vitae, tempor eget eros. In efficitur diam id urna auctor euismod. Nulla vulputate mi at cursus convallis. Ut et sem nec sem convallis rhoncus fringilla ut nisl. Aliquam justo nulla, vulputate at mauris vel, commodo pulvinar mauris. Integer porta nisi vel risus suscipit dapibus. Vestibulum vehicula, magna pulvinar pretium convallis, dolor ligula egestas orci, auctor lacinia elit libero et leo. Quisque lectus orci, pellentesque id pulvinar suscipit, malesuada vitae nibh.<br><br>Sed efficitur, erat in finibus finibus, odio nunc luctus tellus, ac posuere enim felis nec elit. Mauris neque magna, malesuada in laoreet quis, gravida sit amet libero. Sed et risus sed ex mattis pulvinar. Cras semper id ipsum sed tempor. Sed lacinia lectus eu.<tagged><a href="index.php?showuser=6" rel="nofollow" alt="profile link" class="user-tagged mgroup-6">ADMIN</a></tagged></div></div></div><br><!--c1--><table border="0" align="center" width="95%" cellpadding="0" cellspacing="1" id="CODE-WRAP" class="nicole-code"><tbody><tr><td><div class="code-top"><div class="code-title">Code <span class="code-toggle" style="display: none;">• toggle height</span></div> <div class="code-highlight">click here to highlight code</div></div></td></tr><tr><td id="CODE"><div class="code-scroll"><!--ec1-->[post4]Write your post here. [tag] @[tag] [/tag] [/post4]<!--c2--></div></td></tr></tbody></table><!--ec2--> </div><!-- THE POST --></div>
+            </div>
+          </div>
+  </div>
+  <script>
+  if ( '#df6885' !== '' ) { 
+    document.querySelector('.postid-2332').style.setProperty('--custom', '#df6885');
+  } 
+  
+  if ( '#D4AF37' !== '' ) { 
+    document.querySelector('.postid-2332').style.setProperty('--relationshipAccent', '#D4AF37');
+  } 
+  if ( '' !== '' ) { 
+    document.querySelector('.postid-2332 .relationship .icon div').style.backgroundImage = "url('')";
+  } 
+  
+  if ( 'game-icon' !== '' ) { 
+    document.querySelector('.postid-2332 .font-icon').classList.add("game-icon");
+  } 
+  
+  if ( 'fire-bomb' !== '' ) { 
+    document.querySelector('.postid-2332 .font-icon').classList.add("game-icon-fire-bomb");
+  } 
+  
+  // if no relationship name ...
+  if ( '' === '' ) { 
+    document.querySelector('.postid-2332 .relationship .icon a').removeAttribute('title');
+  } 
+  
+  /* i can't pull 'avatar' in post row and i'm not overhauling the grid. */
+  document.querySelector('.postid-2332 .user-icon .img').style.backgroundImage = avatarUrl;
+  if ( avatarUrl === 'url()' ) {
+    document.querySelector('.postid-2332').classList.add("no-avatar");
+  }
+  </script>
+  <script>
+  // FIELD_# -> POST TEMPLATE SCRIPTING (POST ROW)
+  
+  currentPost = document.querySelector('#pid_2332');
+  
+  postImages = [
+    image200By400 = { 
+      imageType: 'post-image-1', DOMTarget: currentPost.querySelectorAll('.post-image-1'),
+      imageSrc: `https://i.ibb.co/yfjwbYT/image.png`, override: currentPost.querySelector('.post-image-1-override') 
+    },
+    image500By150 = { 
+      imageType: 'post-image-2', DOMTarget: currentPost.querySelectorAll('.post-image-2'),
+      imageSrc: `https://i.ibb.co/F46JHGc/image.png`, override: currentPost.querySelector('.post-image-2-override') 
+    },
+    imageSquare = { 
+      imageType: 'squareImage', DOMTarget: currentPost.querySelectorAll('.post-icon'),
+      imageSrc: `https://i.ibb.co/YfYs4gZ/image.png`, override: currentPost.querySelector('.post-icon-override')
+    },
+    imagePhoneBackground = { 
+      imageType: 'phoneBackground', DOMTarget: currentPost.querySelectorAll('.phone-background'),
+      imageSrc: `https://i.ibb.co/9W0n97z/image.png`, override: currentPost.querySelector('.phone-background-override')
+    },
+  ];
+  
+  postLyrics = [
+    lyricOne = {
+      lyricType: 'lyricOne', DOMTarget: currentPost.querySelectorAll('.lyric-1'),
+      lyricSrc: `lyric line one styles like this`, override: currentPost.querySelector('.lyric-1-override')
+    },
+    lyricTwo = {
+      lyricType: 'lyricTwo', DOMTarget: currentPost.querySelectorAll('.lyric-2'),
+      lyricSrc: `while lyric line two styles like this`, override: currentPost.querySelector('.lyric-2-override')
+    },
+  ];
+  
+  
+  // phone-specific scripting
+  
+  phoneTwoIcon = currentPost.querySelector('.omens-phone-2.omens-phone-text msg:last-of-type');
+  phoneThreeIcon = currentPost.querySelector('.omens-phone-3.omens-phone-text msg:first-of-type');
+  phoneFourIcon = currentPost.querySelector('.omens-phone-4.omens-phone-text msg:first-of-type');
+  phoneIcon = 'https://i.ibb.co/b5mP5dH/image.png';
+  
+  if ( currentPost.querySelector('.phone-icon-override') ) {
+  phoneIcon = currentPost.querySelector('.phone-icon-override').textContent;
+  };
+  
+  postPhoneIconInsertion();
+  
+  if ( topicDescription.includes('[<3]') && currentPost.querySelector('.omens-phone-template') && '#D4AF37' !== '' ) {
+    for (let i=0; i < currentPost.querySelectorAll('received').length; i++) {
+      currentPost.querySelectorAll('received')[i].setAttribute('style', 'background:#D4AF37; color:#222;');
+    }
+  };
+  </script><div class="post-row member-20 postid-2333 group-6" style="--custom:#df6885; --relationshipAccent:#D4AF37;">
+          <div class="user-name">
+    <div class="font-icon game-icon game-icon-fire-bomb"></div>
+            <div class="threat-level threat-level-1">
+              <div class="threat-bar" style="width:1%"></div>
+            </div>
+            <div class="user-small-info group group-icon-6" title=" —"></div>
+            <a href="/index.php?act=Search&amp;CODE=getalluser&amp;mid=20&amp;type=posts" class="user-small-info posts" title="view selkie's posts"></a>
+            <a href="/index.php?act=Search&amp;CODE=getalluser&amp;mid=20&amp;type=topics" class="user-small-info threads" title="view selkie's threads"></a>
+            <a href="/index.php?act=Msg&amp;CODE=04&amp;MID=0" class="user-small-info messages" title="pm selkie"></a>
+            <div class="user-quote">a verb in perfect view.</div>
+            <a href="/index.php?showuser=20" class="user-profile">selkie</a>
+            <span class="user-position"></span>
+            <ul class="user-details">
+              <li class="ic"><em>aka</em> <span class="field">selkie</span></li>
+              <li class="ic"><em>pronouns</em> <span class="field">any ok</span></li>
+              <li class="ic"><em>age</em> <span class="field">22</span></li>
+              <li class="ic"><em>occupation</em> <span class="field">biblethump</span></li>
+              <li class="ic"><em>group</em> <span class="field"> —</span></li>
+              <li class="ooc"><em>limits</em> <span class="field">suicide &amp; homophobia (fine with a content warning!)</span></li>
+              <li class="ooc"><em>age</em> <span class="field">23</span></li>
+              <li class="ooc"><em>pronouns</em> <span class="field">any ok</span></li>
+              <li class="ooc"><em>timezone</em> <span class="field">gmt-6 (cst)</span></li>
+              <li class="ooc"><em>contact via</em> <span class="field">selkie#4576</span></li>
+            </ul>
+  
+          </div>
+          <div class="user-hover">
+            <div class="hover-background" style="background-image: url(https://i.ibb.co/3pk1pk9/image.png), url(https://files.jcink.net/uploads2/weepingomens/skin_stuff/default_hover.png);"></div>
+          </div>
+          <div class="relationship">
+            <div class="icon"><a href="https://weepingomens.jcink.net/index.php?showuser=2"><div style="background-image: url();"></div></a></div>
+            <div class="line-1">i hope you die</div>
+            <div class="line-2">cel(kie)</div>
+          </div>
+          <div class="ooc-details">
+            <span>20 posts - 4380 points <span class="ic">- played by selkie (any ok)</span></span>
+            <div class="big-image" style="background-image: url(https://i.ibb.co/CmT2k5q/image.png);"></div>
+          </div>
+  <script>
+  if ( '—' !== '—' && `—` !== `—` ) {
+    document.querySelector('.postid-103 .user-position').textContent = "— of the —";
+  }
+  
+  // i can't pull 'avatar' in post row and i'm not overhauling the grid.
+  avatarUrl = 'url(https://i.ibb.co/s2Tx41F/image.png)';
+  
+  // if no relationship icon or accent
+  if ( '' === '' && '#D4AF37' === '' ) {
+    document.querySelector('.postid-103 .relationship .icon').remove();
+  }
+  
+  // if no relationship lines
+  if ( `i hope you die` === `` && `cel(kie)` === `` ) {
+    document.querySelector('.postid-103').classList.add('no-ship');
+    document.querySelector('.postid-103 .relationship').remove();
+  }
+  </script>
+  
+  <div class="post-proper">
+            <div class="user-icon">
+              <div class="contain"><div class="img" style="background-image: url(&quot;https://i.ibb.co/s2Tx41F/image.png&quot;);"></div>
+              <span>selkie</span></div>
+            </div>
+            <div class="permalink">Feb 8 2021, 02:33 AM - <a name="entry2333" href="https://weepingomens.jcink.net/index.php?showtopic=69&amp;view=findpost&amp;p=2333">PERMALINK</a> <a href="javascript:void(0);" onclick="SKIFS.quickEdit.edit('33','69','2333')"><span class="button-small">Edit</span></a> <a href="https://weepingomens.jcink.net/index.php?act=Post&amp;CODE=06&amp;f=33&amp;t=69&amp;p=2333"><span class="button-small">Quote</span></a> <a href="javascript:delete_post('https://weepingomens.jcink.net/index.php?act=Mod&amp;CODE=04&amp;f=33&amp;t=69&amp;p=2333&amp;st=&amp;auth_key=267c49d879fa4618a35b4f2d43cccc8b')"><span class="button-small">Delete</span></a> <input type="checkbox" onclick="select_post(&quot;2333&quot;);" value="0"></div>
+            <div class="post-container">
+  <div id="pid_2333" style="margin-top:50px;"><!-- THE POST 2333 --><div class="postcolor"> <div id="lua-post-2-1" class="omens-post-template"><div class="post-image-1"><img src="https://i.ibb.co/yfjwbYT/image.png"></div><div class="lua-post-2-1body">The post5 bbcode formats like this and was designed by Lua! The image used is <b>posting image #1</b> and is <b>200x400px</b>. <censor class="omenscensorshowcontent">No lyric lines are present within this template</censor>. <b>This is a bold tag</b>. <span>This is a c tag</span>. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut leo nulla. Curabitur porta metus id dictum pellentesque. Vivamus vitae interdum tortor. Vivamus vel mauris egestas, interdum ipsum sit amet, gravida enim. Vivamus a libero ante. Nam imperdiet neque eu mi interdum, ac pulvinar quam mollis. Etiam egestas fringilla dolor, vel aliquet augue varius a. Mauris suscipit luctus lectus vitae venenatis. Sed quis diam ac sapien lobortis vehicula nec blandit nulla. Duis ligula mauris, viverra id velit vitae, vestibulum tincidunt enim. Suspendisse potenti. Donec eget lorem ut tellus pharetra interdum a gravida est. Nunc vel magna at ex fringilla scelerisque mattis et felis. Fusce consequat ex sed est vestibulum, at malesuada est pretium.<br><br>Suspendisse ornare luctus elit sit amet porttitor. Duis vitae quam quis elit tempus viverra vel at nisi. Curabitur libero ipsum, fringilla ut posuere vitae, tempor eget eros. In efficitur diam id urna auctor euismod. Nulla vulputate mi at cursus convallis. Ut et sem nec sem convallis rhoncus fringilla ut nisl. Aliquam justo nulla, vulputate at mauris vel, commodo pulvinar mauris. Integer porta nisi vel risus suscipit dapibus. Vestibulum vehicula, magna pulvinar pretium convallis, dolor ligula egestas orci, auctor lacinia elit libero et leo. Quisque lectus orci, pellentesque id pulvinar suscipit, malesuada vitae nibh.<br><br>Sed efficitur, erat in finibus finibus, odio nunc luctus tellus, ac posuere enim felis nec elit. Mauris neque magna, malesuada in laoreet quis, gravida sit amet libero. Sed et risus sed ex mattis pulvinar. Cras semper id ipsum sed tempor. Sed lacinia lectus eu. <tagged><a href="index.php?showuser=6" rel="nofollow" alt="profile link" class="user-tagged mgroup-6">LUA</a></tagged></div></div><!--c1--><table border="0" align="center" width="95%" cellpadding="0" cellspacing="1" id="CODE-WRAP" class="nicole-code"><tbody><tr><td><div class="code-top"><div class="code-title">Code <span class="code-toggle" style="display: none;">• toggle height</span></div> <div class="code-highlight">click here to highlight code</div></div></td></tr><tr><td id="CODE"><div class="code-scroll"><!--ec1-->[post5]Write your post here. [tag] @[tag] [/tag] [/post5]<!--c2--></div></td></tr></tbody></table><!--ec2--> </div><!-- THE POST --></div>
+            </div>
+          </div>
+  </div>
+  <script>
+  if ( '#df6885' !== '' ) { 
+    document.querySelector('.postid-2333').style.setProperty('--custom', '#df6885');
+  } 
+  
+  if ( '#D4AF37' !== '' ) { 
+    document.querySelector('.postid-2333').style.setProperty('--relationshipAccent', '#D4AF37');
+  } 
+  if ( '' !== '' ) { 
+    document.querySelector('.postid-2333 .relationship .icon div').style.backgroundImage = "url('')";
+  } 
+  
+  if ( 'game-icon' !== '' ) { 
+    document.querySelector('.postid-2333 .font-icon').classList.add("game-icon");
+  } 
+  
+  if ( 'fire-bomb' !== '' ) { 
+    document.querySelector('.postid-2333 .font-icon').classList.add("game-icon-fire-bomb");
+  } 
+  
+  // if no relationship name ...
+  if ( '' === '' ) { 
+    document.querySelector('.postid-2333 .relationship .icon a').removeAttribute('title');
+  } 
+  
+  /* i can't pull 'avatar' in post row and i'm not overhauling the grid. */
+  document.querySelector('.postid-2333 .user-icon .img').style.backgroundImage = avatarUrl;
+  if ( avatarUrl === 'url()' ) {
+    document.querySelector('.postid-2333').classList.add("no-avatar");
+  }
+  </script>
+  <script>
+  // FIELD_# -> POST TEMPLATE SCRIPTING (POST ROW)
+  
+  currentPost = document.querySelector('#pid_2333');
+  
+  postImages = [
+    image200By400 = { 
+      imageType: 'post-image-1', DOMTarget: currentPost.querySelectorAll('.post-image-1'),
+      imageSrc: `https://i.ibb.co/yfjwbYT/image.png`, override: currentPost.querySelector('.post-image-1-override') 
+    },
+    image500By150 = { 
+      imageType: 'post-image-2', DOMTarget: currentPost.querySelectorAll('.post-image-2'),
+      imageSrc: `https://i.ibb.co/F46JHGc/image.png`, override: currentPost.querySelector('.post-image-2-override') 
+    },
+    imageSquare = { 
+      imageType: 'squareImage', DOMTarget: currentPost.querySelectorAll('.post-icon'),
+      imageSrc: `https://i.ibb.co/YfYs4gZ/image.png`, override: currentPost.querySelector('.post-icon-override')
+    },
+    imagePhoneBackground = { 
+      imageType: 'phoneBackground', DOMTarget: currentPost.querySelectorAll('.phone-background'),
+      imageSrc: `https://i.ibb.co/9W0n97z/image.png`, override: currentPost.querySelector('.phone-background-override')
+    },
+  ];
+  
+  postLyrics = [
+    lyricOne = {
+      lyricType: 'lyricOne', DOMTarget: currentPost.querySelectorAll('.lyric-1'),
+      lyricSrc: `lyric line one styles like this`, override: currentPost.querySelector('.lyric-1-override')
+    },
+    lyricTwo = {
+      lyricType: 'lyricTwo', DOMTarget: currentPost.querySelectorAll('.lyric-2'),
+      lyricSrc: `while lyric line two styles like this`, override: currentPost.querySelector('.lyric-2-override')
+    },
+  ];
+  
+  
+  // phone-specific scripting
+  
+  phoneTwoIcon = currentPost.querySelector('.omens-phone-2.omens-phone-text msg:last-of-type');
+  phoneThreeIcon = currentPost.querySelector('.omens-phone-3.omens-phone-text msg:first-of-type');
+  phoneFourIcon = currentPost.querySelector('.omens-phone-4.omens-phone-text msg:first-of-type');
+  phoneIcon = 'https://i.ibb.co/b5mP5dH/image.png';
+  
+  if ( currentPost.querySelector('.phone-icon-override') ) {
+  phoneIcon = currentPost.querySelector('.phone-icon-override').textContent;
+  };
+  
+  postPhoneIconInsertion();
+  
+  if ( topicDescription.includes('[<3]') && currentPost.querySelector('.omens-phone-template') && '#D4AF37' !== '' ) {
+    for (let i=0; i < currentPost.querySelectorAll('received').length; i++) {
+      currentPost.querySelectorAll('received')[i].setAttribute('style', 'background:#D4AF37; color:#222;');
+    }
+  };
+  </script><div class="post-row member-20 postid-4950 group-6" style="--custom:#df6885; --relationshipAccent:#D4AF37;">
+          <div class="user-name">
+    <div class="font-icon game-icon game-icon-fire-bomb"></div>
+            <div class="threat-level threat-level-1">
+              <div class="threat-bar" style="width:1%"></div>
+            </div>
+            <div class="user-small-info group group-icon-6" title=" —"></div>
+            <a href="/index.php?act=Search&amp;CODE=getalluser&amp;mid=20&amp;type=posts" class="user-small-info posts" title="view selkie's posts"></a>
+            <a href="/index.php?act=Search&amp;CODE=getalluser&amp;mid=20&amp;type=topics" class="user-small-info threads" title="view selkie's threads"></a>
+            <a href="/index.php?act=Msg&amp;CODE=04&amp;MID=0" class="user-small-info messages" title="pm selkie"></a>
+            <div class="user-quote">a verb in perfect view.</div>
+            <a href="/index.php?showuser=20" class="user-profile">selkie</a>
+            <span class="user-position"></span>
+            <ul class="user-details">
+              <li class="ic"><em>aka</em> <span class="field">selkie</span></li>
+              <li class="ic"><em>pronouns</em> <span class="field">any ok</span></li>
+              <li class="ic"><em>age</em> <span class="field">22</span></li>
+              <li class="ic"><em>occupation</em> <span class="field">biblethump</span></li>
+              <li class="ic"><em>group</em> <span class="field"> —</span></li>
+              <li class="ooc"><em>limits</em> <span class="field">suicide &amp; homophobia (fine with a content warning!)</span></li>
+              <li class="ooc"><em>age</em> <span class="field">23</span></li>
+              <li class="ooc"><em>pronouns</em> <span class="field">any ok</span></li>
+              <li class="ooc"><em>timezone</em> <span class="field">gmt-6 (cst)</span></li>
+              <li class="ooc"><em>contact via</em> <span class="field">selkie#4576</span></li>
+            </ul>
+  
+          </div>
+          <div class="user-hover">
+            <div class="hover-background" style="background-image: url(https://i.ibb.co/3pk1pk9/image.png), url(https://files.jcink.net/uploads2/weepingomens/skin_stuff/default_hover.png);"></div>
+          </div>
+          <div class="relationship">
+            <div class="icon"><a href="https://weepingomens.jcink.net/index.php?showuser=2"><div style="background-image: url();"></div></a></div>
+            <div class="line-1">i hope you die</div>
+            <div class="line-2">cel(kie)</div>
+          </div>
+          <div class="ooc-details">
+            <span>20 posts - 4380 points <span class="ic">- played by selkie (any ok)</span></span>
+            <div class="big-image" style="background-image: url(https://i.ibb.co/CmT2k5q/image.png);"></div>
+          </div>
+  <script>
+  if ( '—' !== '—' && `—` !== `—` ) {
+    document.querySelector('.postid-103 .user-position').textContent = "— of the —";
+  }
+  
+  // i can't pull 'avatar' in post row and i'm not overhauling the grid.
+  avatarUrl = 'url(https://i.ibb.co/s2Tx41F/image.png)';
+  
+  // if no relationship icon or accent
+  if ( '' === '' && '#D4AF37' === '' ) {
+    document.querySelector('.postid-103 .relationship .icon').remove();
+  }
+  
+  // if no relationship lines
+  if ( `i hope you die` === `` && `cel(kie)` === `` ) {
+    document.querySelector('.postid-103').classList.add('no-ship');
+    document.querySelector('.postid-103 .relationship').remove();
+  }
+  </script>
+  
+  <div class="post-proper">
+            <div class="user-icon">
+              <div class="contain"><div class="img" style="background-image: url(&quot;https://i.ibb.co/s2Tx41F/image.png&quot;);"></div>
+              <span>selkie</span></div>
+            </div>
+            <div class="permalink">May 7 2021, 10:12 PM - <a name="entry4950" href="https://weepingomens.jcink.net/index.php?showtopic=69&amp;view=findpost&amp;p=4950">PERMALINK</a> <a href="javascript:void(0);" onclick="SKIFS.quickEdit.edit('33','69','4950')"><span class="button-small">Edit</span></a> <a href="https://weepingomens.jcink.net/index.php?act=Post&amp;CODE=06&amp;f=33&amp;t=69&amp;p=4950"><span class="button-small">Quote</span></a> <a href="javascript:delete_post('https://weepingomens.jcink.net/index.php?act=Mod&amp;CODE=04&amp;f=33&amp;t=69&amp;p=4950&amp;st=&amp;auth_key=267c49d879fa4618a35b4f2d43cccc8b')"><span class="button-small">Delete</span></a> <input type="checkbox" onclick="select_post(&quot;4950&quot;);" value="0"></div>
+            <div class="post-container">
+  <div id="pid_4950" style="margin-top:50px;"><!-- THE POST 4950 --><div class="postcolor"> <div class="omens-post-template omens-post-6"><div class="post-lyrics"><div class="lyric-flexbox"><div class="lyric-1">lyric line one styles like this</div><div class="lyric-2">while lyric line two styles like this</div></div><div class="post-icon"><img src="https://i.ibb.co/YfYs4gZ/image.png"></div></div><div class="post-image"><div class="post-image-1"><img src="https://i.ibb.co/yfjwbYT/image.png"></div><div class="post-image-1"><img src="https://i.ibb.co/yfjwbYT/image.png"></div></div><div class="post-body">The post6 bbcode formats like this. The images used are pulled from <b>posting image #1</b> and is <b>200x400px</b>. Note that, if you're setting the 200x400 image on a per-post basis with BBCode, you'll have to include the [image6] BBCode <b>twice</b> for it to display properly. <b>This is a bold tag.</b> <span>This is a c tag.</span> <u>U tags format like this.</u> <i>Lorem ipsum dolor sit amet</i>, consectetur adipiscing elit. Sed ut leo nulla. Curabitur porta metus id dictum pellentesque. Vivamus vitae interdum tortor. Vivamus vel mauris egestas, interdum ipsum sit amet, gravida enim. Vivamus a libero ante. Nam imperdiet neque eu mi interdum, ac pulvinar quam mollis. Etiam egestas fringilla dolor, vel aliquet augue varius a. Mauris suscipit luctus lectus vitae venenatis. Sed quis diam ac sapien lobortis vehicula nec blandit nulla. Duis ligula mauris, viverra id velit vitae, vestibulum tincidunt enim. Suspendisse potenti. Donec eget lorem ut tellus pharetra interdum a gravida est. Nunc vel magna at ex fringilla scelerisque mattis et felis. Fusce consequat ex sed est vestibulum, at malesuada est pretium.<br><br>Suspendisse ornare luctus elit sit amet porttitor. Duis vitae quam quis elit tempus viverra vel at nisi. Curabitur libero ipsum, fringilla ut posuere vitae, tempor eget eros. In efficitur diam id urna auctor euismod. Nulla vulputate mi at cursus convallis. Ut et sem nec sem convallis rhoncus fringilla ut nisl. Aliquam justo nulla, vulputate at mauris vel, commodo pulvinar mauris. Integer porta nisi vel risus suscipit dapibus. Vestibulum vehicula, magna pulvinar pretium convallis, dolor ligula egestas orci, auctor lacinia elit libero et leo. Quisque lectus orci, pellentesque id pulvinar suscipit, malesuada vitae nibh.<br><br>Sed efficitur, erat in finibus finibus, odio nunc luctus tellus, ac posuere enim felis nec elit. Mauris neque magna, malesuada in laoreet quis, gravida sit amet libero. Sed et risus sed ex mattis pulvinar. Cras semper id ipsum sed tempor. Sed lacinia lectus eu. <tagged><a href="index.php?showuser=20" rel="nofollow" alt="profile link" class="user-tagged mgroup-12">selkie</a><a href="index.php?showuser=20" rel="nofollow" alt="profile link" class="user-tagged mgroup-12">selkie</a></tagged></div></div><!--c1--><table border="0" align="center" width="95%" cellpadding="0" cellspacing="1" id="CODE-WRAP" class="nicole-code"><tbody><tr><td><div class="code-top"><div class="code-title">Code <span class="code-toggle" style="display: none;">• toggle height</span></div> <div class="code-highlight">click here to highlight code</div></div></td></tr><tr><td id="CODE"><div class="code-scroll"><!--ec1-->[post6]Write your post here. [tag] @[tag] [/tag] [/post6]<!--c2--></div></td></tr></tbody></table><!--ec2--> </div><!-- THE POST --></div>
+            </div>
+          </div>
+  </div>
+  <script>
+  if ( '#df6885' !== '' ) { 
+    document.querySelector('.postid-4950').style.setProperty('--custom', '#df6885');
+  } 
+  
+  if ( '#D4AF37' !== '' ) { 
+    document.querySelector('.postid-4950').style.setProperty('--relationshipAccent', '#D4AF37');
+  } 
+  if ( '' !== '' ) { 
+    document.querySelector('.postid-4950 .relationship .icon div').style.backgroundImage = "url('')";
+  } 
+  
+  if ( 'game-icon' !== '' ) { 
+    document.querySelector('.postid-4950 .font-icon').classList.add("game-icon");
+  } 
+  
+  if ( 'fire-bomb' !== '' ) { 
+    document.querySelector('.postid-4950 .font-icon').classList.add("game-icon-fire-bomb");
+  } 
+  
+  // if no relationship name ...
+  if ( '' === '' ) { 
+    document.querySelector('.postid-4950 .relationship .icon a').removeAttribute('title');
+  } 
+  
+  /* i can't pull 'avatar' in post row and i'm not overhauling the grid. */
+  document.querySelector('.postid-4950 .user-icon .img').style.backgroundImage = avatarUrl;
+  if ( avatarUrl === 'url()' ) {
+    document.querySelector('.postid-4950').classList.add("no-avatar");
+  }
+  </script>
+  <script>
+  // FIELD_# -> POST TEMPLATE SCRIPTING (POST ROW)
+  
+  currentPost = document.querySelector('#pid_4950');
+  
+  postImages = [
+    image200By400 = { 
+      imageType: 'post-image-1', DOMTarget: currentPost.querySelectorAll('.post-image-1'),
+      imageSrc: `https://i.ibb.co/yfjwbYT/image.png`, override: currentPost.querySelector('.post-image-1-override') 
+    },
+    image500By150 = { 
+      imageType: 'post-image-2', DOMTarget: currentPost.querySelectorAll('.post-image-2'),
+      imageSrc: `https://i.ibb.co/F46JHGc/image.png`, override: currentPost.querySelector('.post-image-2-override') 
+    },
+    imageSquare = { 
+      imageType: 'squareImage', DOMTarget: currentPost.querySelectorAll('.post-icon'),
+      imageSrc: `https://i.ibb.co/YfYs4gZ/image.png`, override: currentPost.querySelector('.post-icon-override')
+    },
+    imagePhoneBackground = { 
+      imageType: 'phoneBackground', DOMTarget: currentPost.querySelectorAll('.phone-background'),
+      imageSrc: `https://i.ibb.co/9W0n97z/image.png`, override: currentPost.querySelector('.phone-background-override')
+    },
+  ];
+  
+  postLyrics = [
+    lyricOne = {
+      lyricType: 'lyricOne', DOMTarget: currentPost.querySelectorAll('.lyric-1'),
+      lyricSrc: `lyric line one styles like this`, override: currentPost.querySelector('.lyric-1-override')
+    },
+    lyricTwo = {
+      lyricType: 'lyricTwo', DOMTarget: currentPost.querySelectorAll('.lyric-2'),
+      lyricSrc: `while lyric line two styles like this`, override: currentPost.querySelector('.lyric-2-override')
+    },
+  ];
+  
+  
+  // phone-specific scripting
+  
+  phoneTwoIcon = currentPost.querySelector('.omens-phone-2.omens-phone-text msg:last-of-type');
+  phoneThreeIcon = currentPost.querySelector('.omens-phone-3.omens-phone-text msg:first-of-type');
+  phoneFourIcon = currentPost.querySelector('.omens-phone-4.omens-phone-text msg:first-of-type');
+  phoneIcon = 'https://i.ibb.co/b5mP5dH/image.png';
+  
+  if ( currentPost.querySelector('.phone-icon-override') ) {
+  phoneIcon = currentPost.querySelector('.phone-icon-override').textContent;
+  };
+  
+  postPhoneIconInsertion();
+  
+  if ( topicDescription.includes('[<3]') && currentPost.querySelector('.omens-phone-template') && '#D4AF37' !== '' ) {
+    for (let i=0; i < currentPost.querySelectorAll('received').length; i++) {
+      currentPost.querySelectorAll('received')[i].setAttribute('style', 'background:#D4AF37; color:#222;');
+    }
+  };
+  </script>      
+        <!--IBF.TOPIC_ACTIVE-->
+        <div class="activeuserstrip" align="center"><!--SOCIAL_BOOKMARKS--> « <a href="https://weepingomens.jcink.net/index.php?showtopic=69&amp;view=old">Next Oldest</a> | <strong><a href="https://weepingomens.jcink.net/index.php?showforum=33">Testing Grounds</a></strong> | <a href="https://weepingomens.jcink.net/index.php?showtopic=69&amp;view=new">Next Newest</a> »</div>
+  
+      <!-- Ad Removal / Premium Board -->
+      
+  </div>
+   
+  <br>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tbody><tr>
+   <td align="left" width="20%" nowrap="nowrap"><a href="javascript:$('#topic_open').toggle();void(0);" title="Open Topic Options" class=""><div class="button-large">Topic Options</div></a><span class="pagination"><span class="pagination_pagetxt"><a title="Jump to page..." href="javascript:multi_page_jump('https://weepingomens.jcink.net/index.php?showtopic=69',20,6);">Pages:</a> (4)</span>&nbsp;<span class="pagination_current"><b>1</b></span>&nbsp;<a href="https://weepingomens.jcink.net/index.php?showtopic=69&amp;st=6" class="pagination_page">2</a>&nbsp;<a href="https://weepingomens.jcink.net/index.php?showtopic=69&amp;st=12" class="pagination_page">3</a>&nbsp;...&nbsp;<a href="https://weepingomens.jcink.net/index.php?showtopic=69&amp;st=18" title="Page: 4" class="pagination_last">Last »</a></span></td>
+   <td align="right" width="80%"><a href="https://weepingomens.jcink.net/index.php?act=Post&amp;CODE=02&amp;f=33&amp;t=69"><div class="button-large closed">Closed</div></a><!--IBF.QUICK_REPLY_CLOSED--><a href="https://weepingomens.jcink.net/index.php?act=Post&amp;CODE=00&amp;f=33" title="Start a new topic"><div class="button-large">New Topic</div></a><a href="https://weepingomens.jcink.net/index.php?act=Post&amp;CODE=10&amp;f=33"><div class="button-large">New Poll</div></a></td>
+  </tr>
+  </tbody></table>
+  <!--IBF.QUICK_REPLY_OPEN-->
+  <div id="topic_open" style="display:none;z-index:2;">
+      <div class="tableborder">
+      <div class="maintitle">&nbsp;<a href="javascript:$('#topic_open').toggle();void(0);">Close Topic Options</a></div>
+      <div class="tablepad">
+       
+       <b><a href="https://weepingomens.jcink.net/index.php?act=Track&amp;f=33&amp;t=69">Track This Topic</a></b>
+       <br>
+       <span class="desc">Receive email notification when a reply has been made to this topic and you are not active on the board.</span>
+       <br><br>
+       <b><a href="https://weepingomens.jcink.net/index.php?act=Track&amp;f=33&amp;type=forum">Subscribe to this forum</a></b>
+       <br>
+       <span class="desc">Receive email notification when a new topic is posted in this forum and you are not active on the board.</span>
+       <br><br>
+       <b><a href="https://weepingomens.jcink.net/index.php?act=Print&amp;client=choose&amp;f=33&amp;t=69">Download / Print this Topic</a></b>
+       <br>
+       <span class="desc">Download this topic in different formats or view a printer friendly version.</span>
+     </div>
+     </div>
+  </div>
+  <br>
+  
+      <div class="bar" style="padding: 5px;">
+      <div style="float: right; text-align: right;">
+         <form name="mod_post_options" method="post" action="https://weepingomens.jcink.net/index.php?act=Mod&amp;CODE=indvp&amp;f=33&amp;t=69" onsubmit="return checkselected();">
+           <input type="hidden" value="" id="selected_posts" name="selected_posts">
+          <input type="hidden" name="act" value="Mod">
+          <input type="hidden" name="auth_key" value="267c49d879fa4618a35b4f2d43cccc8b">
+           <input type="hidden" name="st" value="">
+  
+           <select class="forminput" name="tact">
+             <option value="delete">Delete Posts</option>
+             <option value="split">Split Posts</option>
+             <option value="approve">Set Visible (Approve Post)</option>
+             <option value="unapprove">Set Invisible (Unapprove Post)</option>
+           </select>
+           <input type="submit" name="go" id="mod_posts_submit" value="With Selected (0)" class="forminput">
+         </form>
+       </div>
+    <div>
+    <form method="POST" style="display:inline" name="modform" action="https://weepingomens.jcink.net/index.php?">
+    <input type="hidden" name="t" value="69">
+    <input type="hidden" name="f" value="33">
+    <input type="hidden" name="st" value="">
+    <input type="hidden" name="auth_key" value="267c49d879fa4618a35b4f2d43cccc8b">
+    <input type="hidden" name="act" value="Mod">
+    <select name="CODE" class="forminput">
+    <option value="-1" style="color:black">Moderation Options</option>
+    <option value="35">Pin as Announcement</option><option value="36">Unpin as Announcement</option><option value="02">Move this topic</option><option value="01">Open this topic</option><option value="03">Delete this topic</option><option value="05">Edit Topic Title</option><option value="16">Unpin this Topic</option><option value="30">Unsubscribe all from topic</option><option value="60">Merge Topic</option><option value="50">Mass Split Topic</option><option value="90">View Topic History (Admin Option)</option>
+    </select>&nbsp;<input type="submit" value="Go" class="forminput"></form>     
+  </div>
+     </div>
+  
+  <br>
+  <div align="right"><form onsubmit="if(document.jumpmenu.f.value == -1){return false;}" action="https://weepingomens.jcink.net/index.php?act=SF" method="get" name="jumpmenu">
+                     <input type="hidden" name="act" value="SF">
+  <input type="hidden" name="s" value="">
+                     <select name="f" onchange="if(this.options[this.selectedIndex].value != -1){ document.jumpmenu.submit() }" class="forminput">
+                     <optgroup label="Site Jump">
+                      <option value="sj_home">Forum Home</option>
+                      <option value="sj_search">Search</option>
+                      <option value="sj_help">Help</option>
+                     </optgroup>
+                     <optgroup label="Forum Jump"><option value="-1">The Beginning</option>
+  <option value="7">&nbsp;&nbsp;- Residential Records </option><!--fx:7-->
+  <option value="1">&nbsp;&nbsp;- The Brochure </option><!--fx:1-->
+  <option value="4">  ---- Staff Corner</option>
+  <option value="3">&nbsp;&nbsp;- The Newspaper </option><!--fx:3-->
+  <option value="-1">Character Zone</option>
+  <option value="23">&nbsp;&nbsp;- Phoenix Networks </option><!--fx:23-->
+  <option value="5">&nbsp;&nbsp;- Trackers </option><!--fx:5-->
+  <option value="21">  ---- Want Ads</option>
+  <option value="6">  ---- Thread Trackers</option>
+  <option value="20">  ---- Development</option>
+  <option value="38">  ------ Cel</option>
+  <option value="39">  ------ Lua</option>
+  <option value="40">  ------ Rin</option>
+  <option value="48">  ------ Rubes</option>
+  <option value="51">  ------ Clover</option>
+  <option value="53">  ------ Selkie</option>
+  <option value="56">  ------ Fricky</option>
+  <option value="67">  ------ Bentoma</option>
+  <option value="71">  ------ Remi</option>
+  <option value="72">  ------ Lissa</option>
+  <option value="73">  ------ Mae</option>
+  <option value="75">  ------ Graves</option>
+  <option value="77">  ------ Bec</option>
+  <option value="33" selected="selected">  ---- Testing Grounds</option>
+  <option value="17">&nbsp;&nbsp;- Communications </option><!--fx:17-->
+  <option value="18">&nbsp;&nbsp;- Mobile </option><!--fx:18-->
+  <option value="-1">City Center</option>
+  <option value="8">&nbsp;&nbsp;- Union Avenue </option><!--fx:8-->
+  <option value="34">  ---- Runway</option>
+  <option value="44">  ---- City Hall</option>
+  <option value="59">  ---- Ferdia H.Q.</option>
+  <option value="9">&nbsp;&nbsp;- Starlight Lane </option><!--fx:9-->
+  <option value="16">  ---- The Gilded Angel</option>
+  <option value="10">&nbsp;&nbsp;- Cherry Strip </option><!--fx:10-->
+  <option value="-1">Downtown</option>
+  <option value="12">&nbsp;&nbsp;- Plaza Route </option><!--fx:12-->
+  <option value="65">  ---- The Plaza Smoke Shop</option>
+  <option value="13">&nbsp;&nbsp;- Crestview Boulevard </option><!--fx:13-->
+  <option value="57">  ---- THE COVEN</option>
+  <option value="76">  ---- Free Lives Charity</option>
+  <option value="27">&nbsp;&nbsp;- Red Tail Gardens </option><!--fx:27-->
+  <option value="-1">Residential</option>
+  <option value="26">&nbsp;&nbsp;- Nightingale District </option><!--fx:26-->
+  <option value="36">  ---- Public Library</option>
+  <option value="37">  ---- SL Museum of the Occult</option>
+  <option value="41">  ---- St. Andrew's Cathedral</option>
+  <option value="14">&nbsp;&nbsp;- Haven Circle </option><!--fx:14-->
+  <option value="35">  ---- SL Police Department</option>
+  <option value="42">  ---- Saint Anthony's Hospital</option>
+  <option value="22">&nbsp;&nbsp;- Maple Groove Grounds </option><!--fx:22-->
+  <option value="-1">Outskirts</option>
+  <option value="11">&nbsp;&nbsp;- Apostle Row </option><!--fx:11-->
+  <option value="24">&nbsp;&nbsp;- Cedar Passage </option><!--fx:24-->
+  <option value="25">  ---- Lobos Cave</option>
+  <option value="70">  ---- Goldfang Cache</option>
+  <option value="-1">Outside San Llorona</option>
+  <option value="43">&nbsp;&nbsp;- Outside San Llorona </option><!--fx:43-->
+  <option value="74">  ---- The Glass Room</option>
+  <option value="66">&nbsp;&nbsp;- Alternate Universes </option><!--fx:66-->
+  <option value="-1">Extras</option>
+  <option value="2">&nbsp;&nbsp;- Archival </option><!--fx:2-->
+  <option value="15">  ---- Completed Threads.</option>
+  <option value="28">  ---- Inactive Threads</option>
+  <option value="29">  ---- Other</option>
+  <option value="45">  ------ Staff Trash Corner</option>
+  <option value="46">  -------- Blight</option>
+  <option value="47">  -------- Spanky</option>
+  <option value="49">  -------- Dijit</option>
+  <option value="50">  -------- Liekos</option>
+  <option value="30">&nbsp;&nbsp;- Ads &amp; Affs. </option><!--fx:30-->
+  <option value="31">  ---- First Time</option>
+  <option value="62">  ---- Accepted Ads/Link Back</option>
+  <option value="32">  ------ Linking Back</option>
+  </optgroup>
+  </select>&nbsp;<input type="submit" value="Go" class="forminput"></form><br><br><form action="https://weepingomens.jcink.net/index.php?" method="post" name="SearchForm">
+  <input type="hidden" name="act" value="Search">
+  <input type="hidden" name="CODE" value="01">
+  <input type="hidden" name="t" value="69">
+  <input type="hidden" name="forums[]" value="33">
+  <input type="hidden" name="searchtopic" value="1">
+  <input type="hidden" name="result_type" value="posts">
+  <input type="hidden" name="search_in" value="posts">
+  <input type="hidden" name="sort_key" value="post_date">
+  <input type="hidden" name="sort_order" value="asc">
+  <input type="text" name="keywords" placeholder="Search this thread" size="30" maxlength="60" class="textinput" onfocus="this.value=''">&nbsp;<input type="submit" value="Go" class="forminput"></form>
+  </div><br>
+   
+    <!-- Copyright Information -->
+  
+  <div align="center" class="tableborder"><div class="row4" style="font-size: 7.5pt; padding-top: 1px; padding-bottom: 1px; line-height: 8pt;"><div align="center" class="copyright">Powered by <a href="https://www.invisionboard.com" target="_blank">Invision Power Board</a> (<a href="http://jcink.com" target="_blank">Jcink.com </a> <a href="https://jcink.com" target="_blank">Forum Hosting</a>) © 2022 &nbsp;<a href="https://www.invisionpower.com" target="_blank">IPS, Inc.</a> <br>Page creation time: 0.0159 <!-- http://weepingomens.b1.jcink.com -->   · <a href="index.php?act=privacy">Privacy Policy</a></div></div></div> <script src="//files.jcink.net/html/quickedit/qe.js?v=1.01"></script><script type="text/javascript">SKIFS.quickEdit.construct()</script><style type="text/css">.quick-edit { border: 0px solid #000000; padding: 4px }.quick-edit textarea { width: 99%; padding: 5px; }.quick-edit .editor { margin-bottom: 3px; }.quick-edit .right-buttons input { width: 30px }.quick-edit .save { font-weight: bold }.quick-edit .full { margin-left: 20px }</style> 
+   </main>
   <aside id="omens-sidebar">
     <div id="first-sidebar" class="sidebar-container">
       <div class="sidebar-group group-1">
