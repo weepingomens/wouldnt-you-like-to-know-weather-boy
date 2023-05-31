@@ -7213,21 +7213,15 @@ a.user-small-info:hover:before {
 /* START [POST4] TEMPLATE */
 
 .lua-post-1-bg {
-  width: 433px;
+  width: 500px;
   margin: auto;
-  border: var(--postcolor);
+  border: 2px solid var(--postcolor);
   --postcolor: var(--custom);
 }
 
 .lua-post-1-bg .post-image-2, .lua-post-1-bg .post-image-2-override {
-  border: 2px solid var(--postcolor);
-  border-bottom: hidden;
-  border-width: 2px 2px 1px;
-  background-color: transparent;
-  width: 429px;
+  width: 500px;
   height: 150px;
-  float: top;
-  top: 50px;
   overflow: hidden;
 }
 
@@ -7239,38 +7233,20 @@ a.user-small-info:hover:before {
 }
 
 .lua-post-1-body {
-  width: 380px;
-  height: auto;
-  padding-top: 15px;
-  padding-right: 24px;
-  padding-left: 25px;
-  padding-bottom: 15px;
+  padding: 25px;
   background-color: #444;
   background-blend-mode: color-burn;
   background-image: url(https://i.ibb.co/f063gLW/grungewall50-1.png);
-  border-right: solid;
-  border-left: solid;
-  border-bottom: solid;
-  border-top: hidden;
-  border-color: var(--postcolor);
-  border-width: 2px;
-  font-family: roboto;
-  font-size: 13px;
-  color: #eee;
-  text-align: justify;
-  line-height: 18px;
-  overflow: auto;
 }
 
 .lua-post-1-body b {
-  color: var(--postcolor);
-  font-family: roboto;
-  font-size: 15px;
-  font-weight: 900;
+  color: var(--custom);
+  font-size: 1.2rem;
+  line-height:100%;
 }
 
 .lua-post-1-body span {
-  color: var(--postcolor);
+  color: var(--custom);
 }
 
 .lua-post-1-body tagged {
@@ -7279,11 +7255,8 @@ a.user-small-info:hover:before {
 }
 
 .lua-post-1-body tagged a {
-  font-size: 15px;
-  font-family: roboto;
   font-weight: 700;
   font-style: italic;
-  color: var(--postcolor);
 }
 
 /* END [POST4] TEMPLATE */
