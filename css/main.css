@@ -6806,8 +6806,7 @@ a.user-small-info:hover:before {
   text-align: right;
   word-spacing: 100vw;
   z-index: 2;
-  position: absolute;
-  top: 23px;
+  order: 2;
 }
 
 .omens-phone-4.omens-phone-call .phone-contain .phone-input tagged img {
@@ -6861,17 +6860,16 @@ a.user-small-info:hover:before {
 
 .omens-phone-4.omens-phone-call .phone-callscreen speech {
   display: block;
-  width: calc(100% - 40px);
+  max-width: calc(100% - 40px);
   background: rgba(0, 0, 0, 33%);
   border: 10px solid transparent;
   backdrop-filter: blur(2px);
   font: 400 0.8rem 'open sans', sans-serif;
   border-radius: 10px;
-  max-height: 75px;
+  max-height: 85px;
   overflow: auto;
   overflow-x: hidden;
   text-align: center;
-  margin-bottom: 10px;
 }
 
 .omens-phone-4.omens-phone-call .phone-callscreen speech::-webkit-scrollbar {
