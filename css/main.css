@@ -6999,6 +6999,113 @@ a.user-small-info:hover:before {
 }
 
 /* END [POST1] TEMPLATE */
+/* START [POST2] TEMPLATE */
+.omens-post-2 {
+  margin: 25px 60px;
+  background: #222;
+  padding: 25px;
+}
+
+.omens-post-2 .post-image-2, .omens-post-2 .post-image-2-override {
+  width: 500px;
+  height: 150px;
+  display: grid;
+  place-items: center;
+  place-content: center;
+  text-align: center;
+  position: relative;
+  background: var(--custom);
+  border: 10px solid #333;
+  outline: 5px solid #444;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+
+.omens-post-2 .post-image-2 img, .omens-post-2 .post-image-2-override img {
+  filter: grayscale(100%);
+  position: absolute;
+  opacity: 100%;
+  mix-blend-mode: darken;
+}
+
+.omens-post-2 .lyric-1, .omens-post-2 .lyric-1-override {
+  font: 700 48px/100% crimson text;
+  letter-spacing: -2px;
+  color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+.omens-post-2 .lyric-2, .omens-post-2 .lyric-2-override {
+  font: 900 10px roboto;
+  text-transform: uppercase;
+  position: relative;
+  z-index: 1;
+  color: #fff;
+  letter-spacing: 2px;
+}
+
+.omens-post-2 .post-body {
+  border-right: 5px solid var(--custom);
+  margin: -5px -5px -5px -5px;
+  text-align: justify;
+  padding: 25px 25px;
+  background: #1a1a1a;
+  font: 400 13px/17px roboto, arial, sans-serif;
+  color: #aaa;
+  min-height: 75px;
+}
+
+.omens-post-2 .post-body b {
+  font: 900 14px/17px roboto;
+  color: var(--custom);
+}
+
+.omens-post-2 .post-body b i, .omens-post-2 .post-body span i {
+  color: var(--custom);
+}
+
+.omens-post-2 .post-body span {
+  color: var(--custom);
+}
+
+.omens-post-2 .post-body i {
+  color: #ccc;
+}
+
+.omens-post-2 .post-body .post-icon, .omens-post-2 .post-body .post-icon-override {
+  width: 50px;
+  height: 50px;
+  float: right;
+  border: 7px solid #333;
+  outline: 3px solid #444;
+  margin: 6px 6px 10px 20px;
+}
+
+.omens-post-2 .post-body .post-icon img, .omens-post-2 .post-body .post-icon-override img {
+  width: 50px;
+  height: 50px;
+  filter: grayscale(100%);
+}
+
+.omens-post-2 .post-body tagged {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 0px 10px;
+  margin-top: 25px;
+}
+
+.omens-post-2 .post-body tagged a {
+  padding: 5px 10px;
+  background: var(--custom);
+  font: 800 10px roboto;
+  border-radius: 5px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #111;
+}
+
+/* END [POST2] TEMPLATE */
 /* END [POST] TEMPLATES */
 /* END ALL POST TEMPLATES */
 /* BEGIN MAIN PROFILE */
