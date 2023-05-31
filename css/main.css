@@ -7061,6 +7061,7 @@ a.user-small-info:hover:before {
 
 .omens-post-2 .post-body span {
   color: var(--custom);
+  font-weight: 500;
 }
 
 .omens-post-2 .post-body i {
@@ -7179,6 +7180,7 @@ a.user-small-info:hover:before {
 
 .omens-post-3 .post-body span {
   color: var(--custom);
+  letter-spacing: .05rem;
 }
 
 .omens-post-3 .post-body i {
@@ -7248,6 +7250,8 @@ a.user-small-info:hover:before {
 
 .lua-post-1-body span {
   color: var(--custom);
+  font-weight: 600;
+  letter-spacing: .03rem;
 }
 
 .lua-post-1-body tagged {
