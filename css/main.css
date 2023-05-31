@@ -6918,7 +6918,6 @@ a.user-small-info:hover:before {
   width: 50ch;
   margin: 0 auto;
   background: rgba(255,255,255,2%);
-  border-left: 2px solid rgba(255, 255, 255, 3%);
 }
 
 .omens-post-1 .post-icon, .omens-post-1 .post-icon-override {
