@@ -8300,8 +8300,7 @@ a.user-small-info:hover:before {
 /* START [POST12] TEMPLATE */
 
 .omens-post-12 {
-  margin: 40px;
-  background-image: url(https://i.ibb.co/j4zSdj5/light-spots2.png);
+  background-image: url(../src/img/dot-background-white-5-opacity.png);
   display: grid;
   grid: min-content auto / min-content auto;
   grid-template-areas:
@@ -8319,7 +8318,7 @@ a.user-small-info:hover:before {
   grid-area: post-14-image;
   position: absolute;
   right: -250px;
-  top: 30px;
+  align-self:center;
   outline: 5px solid #222;
   outline-offset: 15px;
   margin: 5px 15px 5px 0px;
@@ -8338,36 +8337,29 @@ a.user-small-info:hover:before {
   flex-flow: column nowrap;
   place-items: start;
   place-content: start;
-  height: 530px;
+  gap:10px;
+  width:355px;
 }
 
 .omens-post-12 .lyric-1 {
   grid-area: post-14-lyric-1;
-  width: 250px;
-  font: 800 20px 'montserrat';
+  font: 900 1.5rem/100% 'Playfair Display', serif;
   text-align: center;
   text-transform: uppercase;
   color: var(--custom);
-  margin: -5px 0px 5px 5px;
   z-index: 1;
   border-top: 1px solid #fff;
   padding-top: 5px;
-  position: relative;
-  top: -30px;
 }
 
 .omens-post-12 .lyric-2 {
-  width: 250px;
-  font: 400 20px 'montserrat';
+  font: 400 1.5rem/100% 'Playfair Display', serif;
   text-align: center;
   text-transform: uppercase;
   color: #fff;
   position: relative;
   top: 0px;
-  padding-left: 10px;
-  padding-top: 10px;
   padding-bottom: 5px;
-  margin: 0px 0px -20px -0px;
   z-index: 1;
   border-bottom: solid 1px var(--custom);
 }
@@ -8376,18 +8368,12 @@ a.user-small-info:hover:before {
   grid-area: post-14-body;
   border: 15px solid #202020;
   border-radius: 3px;
-  width: 250px;
-  height: 550px;
+  width: calc(100% - 40px);
+  height: 450px;
   background: #202020;
-  font: 400 13px/18px roboto, arial, sans-serif;
-  text-align: justify;
-  color: #aaa;
   overflow: auto;
   z-index: 1;
-  margin-top: -30px;
-  margin-left: -15px;
   padding-right: 10px;
-  padding-left: 10px;
   position: relative;
 }
 
@@ -8408,17 +8394,9 @@ a.user-small-info:hover:before {
   font-weight: 800;
 }
 
-.omens-post-12 .post-body b i,
-.omens-post-12 .post-body u i,
-.omens-post-12 .post-body span i {
-  color: revert;
-  font-weight: revert;
-}
-
 .omens-post-12 .post-body i {
-  font: 500 12px/18px roboto;
   font-style: italic;
-  color: #ddd;
+  color: #eee;
 }
 
 .omens-post-12 .post-body span {
@@ -8430,6 +8408,8 @@ a.user-small-info:hover:before {
   background: var(--custom);
   color: #222;
   padding: 0px 3px;
+  box-decoration-break: clone;
+  -webkit-box-direction-break: clone;
 }
 
 .omens-post-12 .post-body tagged {
