@@ -7060,6 +7060,7 @@ a.user-small-info:hover:before {
   padding: 25px;
   min-height: 75px;
   width: 470px;
+  background: rgba(0,0,0,12%);
 }
 
 .omens-post-2 .post-body b {
