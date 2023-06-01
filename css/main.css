@@ -931,8 +931,13 @@ textarea {
 }
 
 .tableborder .maintitle .linkthru {
-  line-height:0;
+  text-transform:lowercase;
   font:italic 900 3rem 'playfair display', serif;
+}
+
+.tableborder .maintitle .small {
+  font: var(--small-header);
+  letter-spacing: .2rem;
 }
 
 .post1 .lyric-1-override,
