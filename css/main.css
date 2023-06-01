@@ -2249,7 +2249,7 @@ input[type="submit"] {
 #omens-main #ucpmenu br,
 #omens-main #board-message br,
 #omens-main #omens-page-brochure br,
-#omens-main .post1 {
+#omens-main .post1 br {
   display: block;
 }
 
