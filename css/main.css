@@ -9104,6 +9104,198 @@ a.user-small-info:hover:before {
 }
 
 /* END [POST16] TEMPLATE */
+/* START [POST17] TEMPLATE */
+
+.omens-post-17 {
+  margin: 50px auto;
+  width: 500px;
+  padding: 50px;
+  background-color: #1e1e1e;
+  border-radius: 10px;
+  text-align: justify;
+  position: relative;
+}
+
+.omens-post-17 .post-image-2,
+.omens-post-17 .post-image-2-override {
+  background-color: #222;
+  height: 150px;
+  width: 500px;
+  overflow: hidden;
+  position: relative;
+  outline: 1px solid var(--custom);
+  outline-offset: 10px;
+  margin-bottom: 35px;
+}
+
+.omens-post-17 .post-image-2 img,
+.omens-post-17 .post-image-2-override img {
+  width: 500px;
+  mix-blend-mode: lighten;
+  filter: grayscale(100%) contrast(55%) brightness(55%);
+  transition: 0.5s;
+}
+
+.omens-post-17:hover .post-image-2 img {
+  filter: grayscale(0%) contrast(100%) brightness(75%);
+  transition: 0.5s;
+}
+
+.omens-post-17 .lyric-wrap {
+  /* position: absolute; */
+  z-index: 2;
+  /* text-align: center; */
+  /* width: 520px; */
+}
+
+.omens-post-17 .lyric-2,
+.omens-post-17 .lyric-2-override {
+  /* position: absolute; */
+  /* left: -10px; */
+  /* top: -5px; */
+  font: 300 10px poppins;
+  text-transform: uppercase;
+  line-height: 10px;
+  letter-spacing: 2px;
+  background-color: #191919;
+  outline: 1px solid var(--custom);
+  transition: 0.7s;
+  padding: 10px 12px 10px 10px;
+  position: relative;
+  margin-left: -10px;
+  margin-top: -5px;
+  display: inline-block;
+}
+
+.omens-post-17 .lyric-1,
+.omens-post-17 .lyric-1-override {
+  position: absolute;
+  top: 0;
+  width: 500px;
+  height: 150px;
+  font: 800 25px montserrat;
+  text-transform: uppercase;
+  line-height: 20px;
+  letter-spacing: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #afafaf;
+  text-shadow: 2px 1px 0px rgba(30, 30, 30, 1);
+  filter: blur(0px);
+  opacity: 1;
+  transition: 0.9s;
+  text-align: center;
+}
+
+.omens-post-17:hover .lyric-2,
+.omens-post-17:hover .lyric-2-override {
+  background-color: var(--custom);
+  color: #222;
+  transition: 0.5s;
+}
+
+.omens-post-17:hover .lyric-1,
+.omens-post-17:hover .lyric-1-override {
+  filter: blur(10px);
+  opacity: 0;
+  transition: 0.9s;
+}
+
+.omens-post-17 .post-image-2+.lyric-2,
+.omens-post-17 .post-image-2-override+.lyric-2-override,
+.omens-post-17 .post-image-2-override+.lyric-2,
+.omens-post-17 .post-image-2+.lyric-2-override, {
+  position: relative;
+  top: -35px;
+}
+
+.omens-post-17 .post-body {
+  padding-right: 30px;
+  line-height: 24px;
+  font-size: 13px;
+  letter-spacing: 0.1px;
+  text-align: justify;
+  position: relative;
+  /* top: 50px; */
+  /* left: 15px; */
+  border-right: solid 10px var(--custom);
+  width: 450px;
+  min-height: 100px;
+  font-family: roboto, sans-serif;
+}
+
+.omens-post-17 .post-icon,
+.omens-post-17 .post-icon-override {
+  width: 60px;
+  height: 60px;
+  margin: 17px 30px 5px 10px;
+  float: left;
+  outline: 1px solid var(--custom);
+  outline-offset: 10px;
+  background: #111;
+}
+
+.omens-post-17 .post-icon img,
+.omens-post-17 .post-icon-override img {
+  width: 60px;
+  height: 60px;
+  mix-blend-mode: lighten;
+  filter: grayscale(100%) contrast(75%) brightness(55%);
+  transition: 0.5s;
+}
+
+.omens-post-17:hover .post-icon img,
+.omens-post-17:hover .post-icon-override img {
+  filter: grayscale(0%) contrast(75%) brightness(100%);
+  transition: 0.5s;
+}
+
+.omens-post-17 .post-body u {
+  text-decoration-color: var(--custom);
+  text-underline-offset: 6px;
+}
+
+.omens-post-17 .post-body b {
+  color: var(--custom);
+  font: 600 15px/18px 'eczar', serif;
+  letter-spacing: 0.5px;
+}
+
+.omens-post-17 .post-body tagged {
+  background-color: #222;
+  outline: 1px solid var(--custom);
+  color: #afafaf;
+  outline-offset: 5px;
+  box-shadow: 12px -24px 0px -23px rgb(30 30 30 / 80%);
+  padding: 10px 25px;
+  line-height: 10px;
+  display: flex;
+  gap: 10px;
+  max-width: fit-content;
+  font: 300 12px poppins;
+  line-height: 13px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-top: 25px;
+}
+
+.omens-post-17 .post-body tagged a {
+  text-decoration: none;
+  color: var(--custom);
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  text-transform: lowercase;
+  font: 700 15px 'Crimson Text';
+  line-height: 0px;
+}
+
+.omens-post-17 .post-body tagged:before {
+  content: "written for";
+}
+
+/* END [POST17] TEMPLATE */
 /* END [POST] TEMPLATES */
 /* END ALL POST TEMPLATES */
 /* BEGIN MAIN PROFILE */
