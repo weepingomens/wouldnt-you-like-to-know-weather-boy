@@ -925,6 +925,16 @@ textarea {
   width:fit-content;
 }
 
+.tableborder .maintitle {
+  line-height:0;
+}
+
+.tableborder .maintitle .linkthru {
+  line-height:0;
+  font:italic 900 3rem 'playfair display', serif;
+}
+
+
 /* END JCINK STYLING */
 
 body {
