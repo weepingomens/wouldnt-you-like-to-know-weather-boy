@@ -9305,14 +9305,11 @@ a.user-small-info:hover:before {
 .omens-post-18 .post-lyrics .post-image-2-override img {
   display: block;
   position: absolute;
-  top: 0px;
   right: 0px;
   width: 100%;
-  height: 100%;
-  filter: blur(3px) grayscale(1);
-  transform: scale(1.5) scaleX(-1);
-  opacity: 25%;
-  mix-blend-mode: exclusion;
+  opacity: 7%;
+  filter: grayscale(1) blur(5px);
+  transform: scale(1.5);
 }
 
 .omens-post-18 .lyric-1,
