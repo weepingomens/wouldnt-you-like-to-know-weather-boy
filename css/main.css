@@ -6910,6 +6910,10 @@ a.user-small-info:hover:before {
   color: inherit !important;
 }
 
+.omens-post-template .post-body b span, .omens-post-template .post-body b i {
+  font-weight:inherit!important;
+}
+
 .omens-post-template .post-body b {
   text-decoration: underline;
   text-decoration-style: solid;
