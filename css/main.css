@@ -7884,8 +7884,9 @@ a.user-small-info:hover:before {
 }
 
 .omens-post-9 .lyric-2, .omens-post-9 .lyric-2-override {
-  font:900 1.2rem/1 'open sans',sans-serif;
-  text-transform: uppercase;
+  font: var(--med-header);
+  line-height: 1;
+  text-transform: lowercase;
   color: var(--background);
   border-left: 5px solid #eee;
   padding-left: 25px;
