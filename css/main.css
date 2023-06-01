@@ -7986,7 +7986,6 @@ a.user-small-info:hover:before {
     'post-10-post post-10-post post-10-bigimg';
   place-items: start;
   place-content: start;
-  background: rgba(0,0,0,10%);
   padding: 25px;
   border-radius: 5px;
   position: relative;
@@ -7998,7 +7997,8 @@ a.user-small-info:hover:before {
   width: 100%;
   height: 100%;
   background: url(../src/img/dot-background-white.png);
-  opacity:5%;
+  opacity: 4%;
+  background-attachment: fixed;
   border-radius: 10px;
   overflow: hidden;
   pointer-events: none;
@@ -8007,7 +8007,7 @@ a.user-small-info:hover:before {
 .omens-post-10 .post-image-1, .omens-post-10 .post-image-1-override {
   grid-area: post-10-bigimg;
   position: sticky;
-  top: 10px;
+  top: 105px;
   z-index: 1;
   margin-left: 10px;
 }
@@ -8015,7 +8015,7 @@ a.user-small-info:hover:before {
 .omens-post-10 .post-image-1 img, .omens-post-10 .post-image-1-override img {
   display: block;
   padding: 5px;
-  background: #333;
+  background: rgba(255,255,255,5%);
   border: 15px solid var(--custom);
 }
 
@@ -8026,7 +8026,7 @@ a.user-small-info:hover:before {
   overflow: hidden;
   float: left;
   background: var(--custom);
-  border: 5px solid #2f2f2f;
+  border: 5px solid var(--background);
   margin: 10px 25px 10px 10px;
   outline: 10px solid var(--custom);
 }
@@ -8039,8 +8039,8 @@ a.user-small-info:hover:before {
 
 .omens-post-10 .lyric-1, .omens-post-10 .lyric-1-override {
   grid-area: post-10-lyric1;
-  font: 800 35px/100% montserrat;
-  text-transform: uppercase;
+  font: italic 900 2.5rem/1 'playfair display', serif;
+  text-transform: lowercase;
   color: var(--custom);
   margin-right: 10px;
   margin-bottom: 10px;
@@ -8049,13 +8049,12 @@ a.user-small-info:hover:before {
 
 .omens-post-10 .lyric-2, .omens-post-10 .lyric-2-override {
   grid-area: post-10-lyric2;
-  background: var(--custom);
-  font: 800 15px/100% montserrat;
+  font: var(--small-header);
   text-transform: uppercase;
-  color: #191919;
-  padding: 10px;
   min-width: 320px;
-  text-align: center;
+  text-align: left;
+  color:rgba(255,255,255,33%);
+  letter-spacing:.1rem;
   z-index: 1;
   margin-bottom: 10px;
 }
@@ -8063,10 +8062,6 @@ a.user-small-info:hover:before {
 .omens-post-10 .post-body {
   grid-area: post-10-post;
   padding: 25px;
-  background: #222;
-  font: 400 13px/18px roboto, arial, sans-serif;
-  text-align: justify;
-  color: #aaa;
   border-left: 10px solid var(--custom);
   z-index: 1;
   min-height: 345px;
@@ -8074,31 +8069,30 @@ a.user-small-info:hover:before {
 }
 
 .omens-post-10 .post-body b {
-  font: 700 16px/18px montserrat;
+  font-size:1.1rem;
+  line-height:1.6rem;
   color: var(--custom);
 }
 
 .omens-post-10 .post-body span {
   color: var(--custom);
-}
-
-.omens-post-10 .post-body b i, .omens-post-10 .post-body b u, .omens-post-10 .post-body span i, .omens-post-10 .post-body u i {
-  color: revert;
-  font: revert;
+  font-weight:500;
 }
 
 .omens-post-10 .post-body i {
-  font: italic 500 13px/18px montserrat;
+  letter-spacing:.05rem;
   color: #eee;
 }
 
 .omens-post-10 .post-body u {
-  background: #151515;
-  padding: 2px 5px;
+  background: rgba(0,0,0,25%);
+  padding: 0 5px;
   border-bottom: 2px solid var(--custom);
   text-decoration: none;
-  color: #777;
+  color:rgba(255,255,255,66%);
   font-weight: 500;
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
 }
 
 .omens-post-10 .post-body tagged {
@@ -8111,11 +8105,11 @@ a.user-small-info:hover:before {
 
 .omens-post-10 .post-body tagged a {
   background: var(--custom);
-  font: 800 15px/100% montserrat;
+  font-weight:700;
   text-transform: uppercase;
-  color: #222;
-  letter-spacing: .5px;
-  padding: 10px;
+  color: var(--background);
+  letter-spacing: 0.1rem;
+  padding: 5px;
 }
 
 /* END [POST10] TEMPLATE */
