@@ -7981,14 +7981,13 @@ a.user-small-info:hover:before {
 
 .omens-post-10 {
   display: grid;
-  margin: 25px;
   grid: min-content min-content min-content / min-content auto min-content;
   grid-template-areas: 'post-10-icon post-10-lyric1 post-10-bigimg'
     'post-10-icon post-10-lyric2 post-10-bigimg'
     'post-10-post post-10-post post-10-bigimg';
   place-items: start;
   place-content: start;
-  background: #191919;
+  background: rgba(0,0,0,10%);
   padding: 25px;
   border-radius: 5px;
   position: relative;
@@ -7999,8 +7998,8 @@ a.user-small-info:hover:before {
   position: absolute;
   width: 100%;
   height: 100%;
-  background: url(../src/img/grid-5px-gap.png);
-  filter:invert(1);
+  background: url(../src/img/dot-background-white.png);
+  opacity:5%;
   border-radius: 10px;
   overflow: hidden;
   pointer-events: none;
