@@ -8555,6 +8555,286 @@ a.user-small-info:hover:before {
 }
 
 /* END [POST12] TEMPLATE */
+/* START [POST13] TEMPLATE */
+
+.omens-post-13 {
+  position: relative;
+  width: 500px;
+  height: auto;
+  background: #212121;
+  margin: 0 auto;
+  border-radius: 3px;
+}
+
+.omens-post-13 .post-image-2 {
+  position: relative;
+  height: 150px;
+  width: 500px;
+  background: var(--custom);
+  border-bottom: 15px solid var(--custom);
+}
+
+.omens-post-13 .post-image-2 img {
+  display: block;
+  filter: grayscale(100%)brightness(115%);
+  mix-blend-mode: soft-light;
+}
+
+.omens-post-13 .post-icon {
+  border: 10px solid var(--custom);
+  shape-outside: 100%;
+  border-radius: 100px;
+  top: -150px;
+  right: -370px;
+  position: relative;
+  z-index: 2;
+  height: 100px;
+  width: 100px;
+}
+
+.omens-post-13 .post-icon img {
+  height: 100px;
+  width: 100px;
+  border-radius: 100px;
+  filter: brightness(125%);
+}
+
+.omens-post-13 .lyric-1 {
+  display: block;
+  position: relative;
+  top: -130px;
+  right: -20px;
+  padding: 10px;
+  width: 320px;
+  margin-top: -30px;
+  margin-right: 100px;
+  font: 700 26px/100% 'Roboto';
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 1px;
+  color: #fff;
+  z-index: 1;
+  opacity: 1;
+  border-top: 2px solid white;
+  mix-blend-mode: overlay;
+}
+
+.omens-post-13 .lyric-2 {
+  display: block;
+  position: relative;
+  top: -160px;
+  right: -20px;
+  padding: 10px;
+  width: 320px;
+  font: 700 10px/100% 'Roboto';
+  border-bottom: 2px solid white;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 1px;
+  color: #fff;
+  z-index: 1;
+  opacity: 1;
+}
+
+.omens-post-13 .post-body {
+  border-top: 15px solid #333;
+  position: relative;
+  padding-top: 20px;
+  padding-right: 50px;
+  padding-left: 50px;
+  padding-bottom: 20px;
+  width: 400px;
+  height: auto;
+  margin-top: -120px;
+  color: #999;
+  font: 13px 'Roboto', arial, sans-serif;
+  line-height: 20px;
+  text-align: justify;
+}
+
+.omens-post-13 .post-body b {
+  color: var(--custom);
+  font-weight: 800;
+}
+
+.omens-post-13 .post-body b i,
+.omens-post-13 .post-body u i,
+.omens-post-13 .post-body span i {
+  color: revert;
+  font-weight: revert;
+}
+
+.omens-post-13 .post-body i {
+  font: 500 12px/18px montserrat;
+  font-style: italic;
+  color: #ddd;
+}
+
+.omens-post-13 .post-body c {
+  color: var(--custom);
+}
+
+.omens-post-13 .post-body span {
+  color: var(--custom);
+}
+
+.omens-post-13 .post-body u {
+  text-decoration: none;
+  background: var(--custom);
+  color: #222;
+  padding: 0px 3px;
+}
+
+.omens-post-13 .post-body tagged {
+  gap: 10px;
+  font: italic 300 15px/100% 'Roboto';
+  text-transform: uppercase;
+  color: #ddd;
+  height: 25px;
+  width: 500;
+  margin-top: 30px;
+  margin-left: -10px;
+  background-color: var(--custom);
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  gap: 0px 10px;
+}
+
+.omens-post-13 .post-body tagged a {
+  float: center;
+  padding: 5px;
+  color: #fff;
+  ;
+}
+
+.omens-post-13 .post-body a {
+  text-decoration: none;
+  color: white;
+}
+
+.omens-post-13-2 {
+  width: 530px;
+  margin: auto;
+  background: #222;
+  padding: 50px;
+  display: grid;
+  place-items: center;
+  place-content: start;
+  position: relative;
+  border-radius: 5px;
+}
+
+.omens-post-13-2 .post-image-2 {
+  width: 500px;
+  height: 150px;
+  border: 10px solid #262626;
+  outline: 5px solid #333;
+  margin: 20px auto;
+  background: var(--custom);
+}
+
+.omens-post-13-2 .post-icon {
+  width: 100px;
+  height: 100px;
+  float: right;
+  margin: 0 0 10px 25px;
+  background: #1c1c1c;
+  border: 10px solid #262626;
+  outline: 5px solid #333;
+}
+
+.omens-post-13-2 .post-icon img {
+  width: 100px;
+  height: 100px;
+}
+
+.omens-post-13-2 .post-body {
+  color: #aaa;
+  padding-top: 15px;
+  width: 100%;
+  text-align: justify;
+  font: 300 14px/140% "roboto";
+  letter-spacing: .5px;
+  border-left: 5px solid #333;
+  padding-left: 15px;
+}
+
+.omens-post-13-2 .post-body b {
+  font: 700 15px/18px roboto;
+  letter-spacing: 0;
+  color: var(--custom);
+}
+
+.omens-post-13-2 .post-body b i,
+.omens-post-13-2 .post-body b u,
+.omens-post-13-2 .post-body b i u,
+.omens-post-13-2 .post-body b u i,
+.omens-post-13-2 .post-body i u,
+.omens-post-13-2 .post-body u i {
+  color: revert;
+}
+
+.omens-post-13-2 .post-body i {
+  color: #eee;
+  font-weight: 300;
+}
+
+.omens-post-13-2 .post-body u {
+  color: #666;
+  font-weight: 600;
+  text-decoration: none;
+  border-bottom: 1px solid var(--custom);
+}
+
+.omens-post-13-2 .post-body tagged:before {
+  content: "written for ";
+  font: 500 10px montserrat;
+  color: #555;
+  text-transform: uppercase;
+}
+
+.omens-post-13-2 .post-body tagged {
+  font: 500 11px/100% "montserrat";
+  color: #555;
+  float: right;
+}
+
+.omens-post-13-2 .post-body tagged a {
+  font: 700 10px montserrat;
+  text-transform: uppercase;
+  color: #555;
+  text-decoration: none;
+  margin: 15px;
+  transition: .5s;
+}
+
+.omens-post-13-2 .post-body tagged a:hover {
+  color: var(--custom);
+  text-shadow: 2px 0 30px #fff;
+}
+
+.omens-post-13-2 .lyric-1 {
+  font: 800 25px/100% playfair display;
+  text-transform: uppercase;
+  color: var(--custom);
+  text-align: center;
+  padding-bottom: 5px;
+}
+
+.omens-post-13-2 .lyric-2 {
+  width: 80%;
+  font: 700 10px roboto;
+  text-transform: lowercase;
+  color: #aaa;
+  background: #282828;
+  padding: 5px;
+  border-radius: 5px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+/* END [POST13] TEMPLATE */
 /* END [POST] TEMPLATES */
 /* END ALL POST TEMPLATES */
 /* BEGIN MAIN PROFILE */
