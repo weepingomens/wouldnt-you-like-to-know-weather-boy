@@ -7052,7 +7052,7 @@ a.user-small-info:hover:before {
 
 .omens-post-2 .lyric-2, .omens-post-2 .lyric-2-override {
   font: var(--small-header);
-  letter-spacing:.1rem;
+  letter-spacing:.3rem;
   text-transform: uppercase;
   position: relative;
   z-index: 1;
