@@ -8700,13 +8700,13 @@ a.user-small-info:hover:before {
 
 .omens-post-14 {
   border-radius: 3px;
-  width: 410px;
+  width:min-content;
   height: 550px;
-  margin: 20px auto;
+  margin: auto;
   position: relative;
   display: flex;
   background-size: cover;
-  background-image: url('https://i.ibb.co/HNPFgw5/a-U0-KSA-4.png');
+  background-image: url('../src/img/post-14-bg.png');
   background-position: center;
   color: #dfdfdf;
   outline: 1px solid #888;
@@ -8714,7 +8714,6 @@ a.user-small-info:hover:before {
 }
 
 .omens-post-14 .post-body {
-  width: 430px;
   border: 1px solid rgba(var(--custom), 0.5);
   position: relative;
   padding: 25px;
@@ -8723,16 +8722,12 @@ a.user-small-info:hover:before {
 .omens-post-14 .post-text {
   border-radius: 3px;
   box-sizing: border-box;
-  width: 350px;
+  width: 50ch;
   height: 330px;
-  font: 300 13px 'roboto', arial, sans-serif;
-  text-align: justify;
-  padding: 20px;
-  padding-bottom: 20px;
-  padding-top: 10px;
+  border:20px solid transparent;
+  padding-right:5px;
   position: relative;
-  right: -5px;
-  background-color: #333;
+  background-color: rgba(255,255,255,10%);
   z-index: 20;
   overflow: auto;
 }
@@ -8758,8 +8753,9 @@ a.user-small-info:hover:before {
 }
 
 .omens-post-14 .post-text b {
-  font: 300 15px roboto;
+  font-weight:400;
   color: var(--custom);
+  text-decoration-thickness:.05rem;
 }
 
 .omens-post-14 .post-text i {
@@ -8775,10 +8771,8 @@ a.user-small-info:hover:before {
   border-bottom: 1px solid var(--custom);
   background: #2f2f2f;
   color: #888;
-}
-
-.omens-post-14 .post-text u i, .omens-post-14 .post-text span i, .omens-post-14 .post-text b i {
-  color: revert;
+  box-decoration-break:clone;
+  -webkit-box-decoration-break:clone;
 }
 
 .omens-post-14 .post-text tagged {
@@ -8787,7 +8781,7 @@ a.user-small-info:hover:before {
   place-content: flex-end;
   padding-top: 10px;
   padding-bottom: 10px;
-  font: italic 300 15px/100% montserrat;
+  font:italic 300 1rem 'open sans', sans-serif;
   color: #ddd;
   text-align: center;
 }
@@ -8824,7 +8818,7 @@ a.user-small-info:hover:before {
   right: -5px;
   width: 250px;
   color: var(--custom);
-  font: 400 20px 'montserrat';
+  font: 900 1.5rem/100% 'Playfair Display', serif;
   text-transform: uppercase;
 }
 
@@ -8836,7 +8830,8 @@ a.user-small-info:hover:before {
   width: 200px;
   padding: 5px;
   border-radius: 5px;
-  font: 100 11px 'montserrat';
+  font: var(--small-header);
+  font-weight:400;
   color: #fff;
   background: var(--custom);
   text-align: center;
