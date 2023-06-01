@@ -8978,9 +8978,9 @@ a.user-small-info:hover:before {
 /* START [POST16] TEMPLATE */
 
 .omens-post-16 {
-  width: 510px;
+  width: min-content;
   height: auto;
-  background: #222;
+  background: rgba(255,255,255,3%);
   margin: 0 auto;
   padding-top: 30px;
   padding-right: 30px;
@@ -8989,21 +8989,11 @@ a.user-small-info:hover:before {
   padding-bottom: 70px;
 }
 
-.omens-post-16 .post-border {
-  width: 512px;
-  border: 1px solid #ccc;
-  margin: auto;
-  background: #e4e4e4;
-  padding: 15px;
-  border-radius: 3px;
-}
-
 .omens-post-16 .lyric-1 {
   position: relative;
   top: 5px;
-  padding-top: 20px;
   padding-left: 20px;
-  font: 700 23px/100% 'Roboto';
+  font: 700 1.6rem/1 'open sans',sans-serif;
   text-transform: uppercase;
   text-align: right;
   color: var(--custom);
@@ -9011,14 +9001,14 @@ a.user-small-info:hover:before {
 
 .omens-post-16 .lyric-2 {
   position: relative;
-  top: -5px;
+  top: -25px;
   width: 370px;
   padding-top: 5px;
   padding-bottom: 20px;
-  font: 100 12px 'Montserrat';
+  font: var(--small-header);
   text-transform: uppercase;
   text-align: right;
-  color: #999;
+  color: rgba(255,255,255,25%);
 }
 
 .omens-post-16 .post-image-2 {
@@ -9069,25 +9059,16 @@ a.user-small-info:hover:before {
   text-align: justify;
   margin-left: -10px;
   margin-top: -55px;
-  font: 200 13px/15px Montserrat, arial, sans-serif;
-  color: #fff;
 }
 
 .omens-post-16 .post-body b {
   color: var(--custom);
   font-weight: 800;
-  font-size: 15px;
-}
-
-.omens-post-16 .post-body b i,
-.omens-post-16 .post-body u i,
-.omens-post-16 .post-body span i {
-  color: revert;
-  font-weight: revert;
+  line-height:1.6rem;
+  font-size:1.1rem;
 }
 
 .omens-post-16 .post-body i {
-  font: 500 12px/18px roboto;
   font-style: italic;
   color: #ddd;
 }
@@ -9101,11 +9082,13 @@ a.user-small-info:hover:before {
   background: #7c7c7c;
   color: #fff;
   padding: 0px 3px;
+  box-decoration-break:clone;
+  -webkit-box-decoration-break:clone;
 }
 
 .omens-post-16 .post-body tagged {
   gap: 10px;
-  font: 300 15px/100% 'Montserrat';
+  font: italic 300 1.2rem/1.6 'open sans', sans-serif;
   color: #ddd;
   padding: 50px;
   text-align: center;
