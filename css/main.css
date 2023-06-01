@@ -8738,12 +8738,13 @@ a.user-small-info:hover:before {
 }
 
 .omens-post-14 .post-text::-webkit-scrollbar-thumb {
-  background: #000000;
+  background: rgba(0,0,0,50%);
+  transition:.25s;
   border-radius: 0px;
 }
 
 .omens-post-14 .post-text::-webkit-scrollbar-thumb:hover {
-  background: #B3AFB300;
+  background: rgba(0,0,0,75%);
 }
 
 .omens-post-14 .post-text::-webkit-scrollbar-track {
