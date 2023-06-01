@@ -8839,6 +8839,142 @@ a.user-small-info:hover:before {
 }
 
 /* END [POST14] TEMPLATE */
+/* START [POST15] TEMPLATE */
+
+.omens-post-15 {
+  position: relative;
+  margin: 0 auto;
+  background:rgba(255,255,255,2%);
+  padding:20px;
+  border-radius: 5px;
+}
+
+.omens-post-15 .post-image-1 {
+  position: absolute;
+  width: 200px;
+  height: 400px;
+  right: -390px;
+  top: -20px;
+  position: relative;
+  border: 15px solid var(--custom);
+  outline: 10px solid #fff;
+  outline-offset: -25px;
+  margin: 10px 15px 5px 0px;
+  background: var(--custom);
+}
+
+.omens-post-15 .post-image-1 img {
+  filter: grayscale(100%)brightness(120%);
+  mix-blend-mode: soft-light;
+  max-width: 100%;
+}
+
+.omens-post-15 .lyric-1 {
+  font:italic 300 1.5rem/100% 'open sans', serif;
+  letter-spacing: .1rem;
+  padding: 0 7px 7px;
+  text-transform: uppercase;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+  position: relative;
+  padding-bottom: 5px;
+  border-bottom: 5px solid var(--custom);
+  line-height: 35px;
+  color: var(--custom);
+}
+
+.omens-post-15 .lyric-2 {
+  font: var(--small-header);
+  margin:0 -20px;
+  letter-spacing: .2rem;
+  background: var(--custom);
+  padding: 7px;
+  text-transform: uppercase;
+  color: #fff;
+  text-align: center;
+  position: relative;
+  top: -30px;
+  z-index: 1;
+  justify-self: center;
+}
+
+.omens-post-15 .post-body {
+  width: 340px;
+  height: 430px;
+  overflow: auto;
+  position: relative;
+  top: -40px;
+  padding-left: 10px;
+  padding-right: 20px;
+  margin-top: -440px;
+}
+
+.omens-post-15 .post-body::-webkit-scrollbar {
+  width: 13px;
+}
+
+.omens-post-15 .post-body::-webkit-scrollbar-thumb {
+  border: 5px solid #2f2f2f;
+  background: var(--custom);
+}
+
+.omens-post-15 .post-body::-webkit-scrollbar-track {
+  background: #2f2f2f;
+}
+
+.omens-post-15 .post-body b {
+  color: var(--custom);
+  font: italic 400 1rem/1.6rem 'open sans',sans-serif;
+}
+
+.omens-post-15 .post-body i {
+  font: italic 500 1rem/1.6rem 'open sans',sans-serif;
+  font-style: italic;
+  color: #ddd;
+}
+
+.omens-post-15 .post-body span {
+  color: var(--custom);
+  font-weight:500;
+}
+
+.omens-post-15 .post-body u {
+  text-decoration: none;
+  background: var(--custom);
+  color: var(--background);
+  padding: 0px 3px;
+  box-decoration-break:clone;
+  -webkit-box-decoration-break:clone;
+}
+
+.omens-post-15 .post-body tagged {
+  margin-top:10px;
+  display:flex;
+  flex-flow:row wrap;
+  justify-content:flex-end;
+  gap: 10px;
+  font-weight:500;
+  text-transform: uppercase;
+  color: #ddd;
+  height: 25px;
+}
+
+.omens-post-15 .post-body tagged a {
+  background-color: var(--custom);
+  border-radius: 1px;
+  float: right;
+  padding: 5px;
+  color: #fff;
+  ;
+}
+
+.omens-post-15 .post-body a {
+  text-decoration: none;
+  color: white;
+}
+
+/* END [POST15] TEMPLATE */
 /* END [POST] TEMPLATES */
 /* END ALL POST TEMPLATES */
 /* BEGIN MAIN PROFILE */
