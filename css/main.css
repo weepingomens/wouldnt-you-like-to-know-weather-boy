@@ -8127,6 +8127,179 @@ a.user-small-info:hover:before {
 }
 
 /* END [POST10] TEMPLATE */
+/* START [POST11] TEMPLATE */
+
+.omens-post-11 {
+  margin: 30px;
+  padding: 25px;
+  background: #1f1f1f;
+  position: relative;
+  display: grid;
+  grid-template-areas: "post-11-image post-11-body";
+}
+
+.omens-post-11 .post-image, .omens-post-11 .post-image-override {
+  grid-area: post-11-image;
+}
+
+.omens-post-11 .post-image-1:nth-of-type(even), .omens-post-11 .post-image-1-override:nth-of-type(even) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 160px;
+  height: 360px;
+  transform: scale(1.45);
+  transform-origin: top left;
+  background: var(--custom);
+  overflow: hidden;
+}
+
+.omens-post-11 .post-image-1:nth-of-type(even) img, .omens-post-11 .post-image-1-override:nth-of-type(even) img {
+  display: block;
+  mix-blend-mode: multiply;
+  filter: blur(2px);
+  transform: scale(1.05);
+}
+
+.omens-post-11 .post-image-1:nth-of-type(odd), .omens-post-11 .post-image-1-override:nth-of-type(odd) {
+  position: relative;
+  z-index: 1;
+  border: 10px solid #1f1f1f;
+  margin-top: 25px;
+  margin-left: 25px;
+}
+
+.omens-post-11 .post-image-1:nth-of-type(odd) img, .omens-post-11 .post-image-1-override:nth-of-type(odd) img {
+  display: block;
+}
+
+.omens-post-11 .post-contain {
+  grid-area: post-11-body;
+  display: flex;
+  flex-flow: column nowrap;
+  place-items: center;
+  place-content: space-between;
+  position: relative;
+  height: 472px;
+}
+
+.omens-post-11 .post-contain:after {
+  content: "";
+  width: 300px;
+  height: 75px;
+  background: var(--custom);
+  position: absolute;
+  bottom: -25px;
+  right: -25px;
+  clip-path: polygon(100% 0, 0% 100%, 100% 100%);
+}
+
+.omens-post-11 .post-body {
+  font: 400 13px/18px roboto, arial, sans-serif;
+  color: #aaa;
+  text-align: justify;
+  height: 400px;
+  overflow: auto;
+  padding-right: 10px;
+}
+
+.omens-post-11 .post-body::-webkit-scrollbar {
+  width: 11px;
+}
+
+.omens-post-11 .post-body::-webkit-scrollbar-thumb {
+  border: 5px solid #2f2f2f;
+  background: var(--custom);
+}
+
+.omens-post-11 .post-body::-webkit-scrollbar-track {
+  background: #2f2f2f;
+}
+
+.omens-post-11 .post-body b {
+  font: 300 17px/18px roboto;
+  color: var(--custom);
+}
+
+.omens-post-11 .post-body i {
+  color: #eee;
+}
+
+.omens-post-11 .post-body span {
+  color: var(--custom);
+}
+
+.omens-post-11 .post-body u {
+  text-decoration: none;
+  border-bottom: 1px solid var(--custom);
+  background: #2f2f2f;
+  color: #888;
+}
+
+.omens-post-11 .post-body u i,
+.omens-post-11 .post-body span i,
+.omens-post-11 .post-body b i {
+  color: revert;
+}
+
+.omens-post-11 .post-body tagged {
+  display: flex;
+  flex-flow: row wrap;
+  place-content: flex-end;
+  gap: 5px;
+  font: italic 300 15px/100% montserrat;
+  color: #ddd;
+  text-align: center;
+}
+
+.omens-post-11 .post-body tagged a {
+  display: inline-block;
+  padding: 5px;
+  background: var(--custom);
+  color: #eee;
+  text-decoration: none;
+}
+
+.omens-post-11 .lyric-1, .omens-post-11 .lyric-1-override {
+  font: italic 300 25px/110% montserrat;
+  width: 75%;
+  text-transform: lowercase;
+  text-align: center;
+  color: var(--custom);
+  position: relative;
+  z-index: 1;
+}
+
+.omens-post-11 .lyric-2, .omens-post-11 .lyric-2-override {
+  font: 900 7px/100% roboto;
+  letter-spacing: 1px;
+  background: #252525;
+  padding: 7px;
+  text-transform: uppercase;
+  color: #888;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+  justify-self: center;
+}
+
+.omens-post-11 .post-icon, .omens-post-11 .post-icon-override {
+  width: 75px;
+  height: 75px;
+  border: 5px solid #eee;
+  outline: 10px solid var(--custom);
+  margin: 10px 10px 10px 20px;
+  float: right;
+  background: var(--custom);
+}
+
+.omens-post-11 .post-icon img, .omens-post-11 .post-icon-override img {
+  width: 75px;
+  height: 75px;
+  mix-blend-mode: darken;
+}
+
+/* END [POST11] TEMPLATE */
 /* END [POST] TEMPLATES */
 /* END ALL POST TEMPLATES */
 /* BEGIN MAIN PROFILE */
