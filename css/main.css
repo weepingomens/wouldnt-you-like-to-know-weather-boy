@@ -917,6 +917,10 @@ textarea {
   margin: 50px;
 }
 
+.post1 {
+  --custom:var(--main-accent);
+}
+
 .post1 .omens-post-template {
   width:100%;
 }
