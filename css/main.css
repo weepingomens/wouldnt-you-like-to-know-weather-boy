@@ -922,7 +922,7 @@ textarea {
 }
 
 .post1 .omens-post-template {
-  width:100%;
+  width:fit-content;
 }
 
 /* END JCINK STYLING */
