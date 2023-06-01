@@ -927,6 +927,7 @@ textarea {
 
 .tableborder .maintitle {
   line-height:0;
+  text-transform:lowercase;
 }
 
 .tableborder .maintitle .linkthru {
@@ -934,6 +935,13 @@ textarea {
   font:italic 900 3rem 'playfair display', serif;
 }
 
+.post1 .lyric-1-override,
+.post1 .lyric-2-override,
+.post1 .post-image-2-override,
+.post1 .post-image-1-override,
+.post1 .post-icon-override {
+  display:none;
+}
 
 /* END JCINK STYLING */
 
