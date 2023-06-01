@@ -9107,18 +9107,17 @@ a.user-small-info:hover:before {
 /* START [POST17] TEMPLATE */
 
 .omens-post-17 {
-  margin: 50px auto;
+  margin: auto;
   width: 500px;
   padding: 50px;
-  background-color: #1e1e1e;
+  background-color: rgba(255,255,255,2%);
   border-radius: 10px;
-  text-align: justify;
   position: relative;
 }
 
 .omens-post-17 .post-image-2,
 .omens-post-17 .post-image-2-override {
-  background-color: #222;
+  background-color: var(--background);
   height: 150px;
   width: 500px;
   overflow: hidden;
@@ -9142,22 +9141,16 @@ a.user-small-info:hover:before {
 }
 
 .omens-post-17 .lyric-wrap {
-  /* position: absolute; */
   z-index: 2;
-  /* text-align: center; */
-  /* width: 520px; */
 }
 
 .omens-post-17 .lyric-2,
 .omens-post-17 .lyric-2-override {
-  /* position: absolute; */
-  /* left: -10px; */
-  /* top: -5px; */
-  font: 300 10px poppins;
+  font: var(--small-header);
   text-transform: uppercase;
-  line-height: 10px;
-  letter-spacing: 2px;
-  background-color: #191919;
+  line-height: 1;
+  letter-spacing: .2rem;
+  background-color: var(--background);
   outline: 1px solid var(--custom);
   transition: 0.7s;
   padding: 10px 12px 10px 10px;
@@ -9171,12 +9164,12 @@ a.user-small-info:hover:before {
 .omens-post-17 .lyric-1-override {
   position: absolute;
   top: 0;
-  width: 500px;
+  width: calc(500px - 40px);
+  padding:0 20px;
   height: 150px;
-  font: 800 25px montserrat;
+  font: 800 1.6rem/1 'montserrat', serif;
   text-transform: uppercase;
-  line-height: 20px;
-  letter-spacing: 2px;
+  letter-spacing: .1rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -9202,38 +9195,33 @@ a.user-small-info:hover:before {
   transition: 0.9s;
 }
 
-.omens-post-17 .post-image-2+.lyric-2,
-.omens-post-17 .post-image-2-override+.lyric-2-override,
-.omens-post-17 .post-image-2-override+.lyric-2,
-.omens-post-17 .post-image-2+.lyric-2-override, {
+.omens-post-17 .post-image-2+ .lyric-2,
+.omens-post-17 .post-image-2-override+ .lyric-2-override,
+.omens-post-17 .post-image-2-override+ .lyric-2,
+.omens-post-17 .post-image-2+.lyric-2-override {
   position: relative;
   top: -35px;
 }
 
 .omens-post-17 .post-body {
   padding-right: 30px;
-  line-height: 24px;
-  font-size: 13px;
-  letter-spacing: 0.1px;
-  text-align: justify;
+  letter-spacing:.025rem;
+  line-height:1.8rem;
   position: relative;
-  /* top: 50px; */
-  /* left: 15px; */
   border-right: solid 10px var(--custom);
   width: 450px;
   min-height: 100px;
-  font-family: roboto, sans-serif;
 }
 
 .omens-post-17 .post-icon,
 .omens-post-17 .post-icon-override {
   width: 60px;
   height: 60px;
-  margin: 17px 30px 5px 10px;
+  margin: 17px 40px 35px 10px;
   float: left;
   outline: 1px solid var(--custom);
   outline-offset: 10px;
-  background: #111;
+  background: var(--background);
 }
 
 .omens-post-17 .post-icon img,
@@ -9253,31 +9241,32 @@ a.user-small-info:hover:before {
 
 .omens-post-17 .post-body u {
   text-decoration-color: var(--custom);
-  text-underline-offset: 6px;
+  text-underline-offset: .4rem;
 }
 
 .omens-post-17 .post-body b {
   color: var(--custom);
-  font: 600 15px/18px 'eczar', serif;
-  letter-spacing: 0.5px;
+  font-family:'eczar',serif;
+  font-weight:700;
+  letter-spacing: .025rem;
 }
 
 .omens-post-17 .post-body tagged {
-  background-color: #222;
+  background-color: rgba(255,255,255,2%);
   outline: 1px solid var(--custom);
-  color: #afafaf;
   outline-offset: 5px;
   box-shadow: 12px -24px 0px -23px rgb(30 30 30 / 80%);
   padding: 10px 25px;
-  line-height: 10px;
   display: flex;
   gap: 10px;
   max-width: fit-content;
-  font: 300 12px poppins;
-  line-height: 13px;
+  font: var(--small-header);
+  line-height: 1;
+  letter-spacing: .1rem;
   text-transform: uppercase;
-  letter-spacing: 0.5px;
-  margin-top: 25px;
+  margin-top: 31px;
+  position: relative;
+  top: -6px;
 }
 
 .omens-post-17 .post-body tagged a {
@@ -9287,7 +9276,8 @@ a.user-small-info:hover:before {
   gap: 10px;
   align-items: center;
   text-transform: lowercase;
-  font: 700 15px 'Crimson Text';
+  font-family: 'eczar',serif;
+  font-size:1rem;
   line-height: 0px;
 }
 
