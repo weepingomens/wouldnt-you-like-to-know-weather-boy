@@ -9340,6 +9340,7 @@ a.user-small-info:hover:before {
 .omens-post-18 .lyric-2,
 .omens-post-18 .lyric-2-override {
   font: var(--small-header);
+  letter-spacing:.1rem;
   text-transform: uppercase;
   display: flex;
   align-items: center;
