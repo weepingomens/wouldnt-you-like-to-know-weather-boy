@@ -7048,7 +7048,7 @@ a.user-small-info:hover:before {
 
 .omens-post-2 .lyric-2, .omens-post-2 .lyric-2-override {
   font: var(--small-header);
-  letter-spacing:.1rem;
+  letter-spacing: .3rem;
   text-transform: uppercase;
   position: relative;
   z-index: 1;
@@ -7065,11 +7065,11 @@ a.user-small-info:hover:before {
 
 .omens-post-2 .post-body b {
   color: var(--custom);
+  font-weight: 500;
 }
 
 .omens-post-2 .post-body span {
   color: var(--custom);
-  font-weight: 500;
 }
 
 .omens-post-2 .post-body i {
