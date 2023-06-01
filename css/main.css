@@ -6909,6 +6909,14 @@ a.user-small-info:hover:before {
 .omens-post-template .post-body b i, .omens-post-template .post-body span i {
   color: inherit !important;
 }
+
+.omens-post-template .post-body b {
+  text-decoration: underline;
+  text-decoration-style: solid;
+  text-underline-offset: 0.2rem;
+  text-decoration-color: rgba(255, 255, 255, 5%);
+  text-decoration-thickness: 0.1rem;
+}
 /* END UNIVERSAL [POST] STYLING */
 /* START [POST1] TEMPLATE */
 
