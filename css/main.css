@@ -5032,7 +5032,11 @@ a.user-small-info:hover:before {
 #omens-main .post-row .omens-phone-template msg br,
 #omens-main .post-row .omens-phone-template received br,
 #omens-main .post-row .omens-phone-template speech br,
-#omens-main .post-row .omens-phone-template speech2 br {
+#omens-main .post-row .omens-phone-template speech2 br,
+#omens-main .post1 .omens-phone-template msg br,
+#omens-main .post1 .omens-phone-template received br,
+#omens-main .post1 .omens-phone-template speech br,
+#omens-main .post1 .omens-phone-template speech2 br {
   display: block;
 }
 
