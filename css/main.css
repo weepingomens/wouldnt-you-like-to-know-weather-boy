@@ -7050,7 +7050,6 @@ a.user-small-info:hover:before {
 .omens-post-2 .post-body {
   border-right: 5px solid var(--custom);
   padding: 25px;
-  background: rgba(0,0,0,15%);
   min-height: 75px;
   width: 470px;
 }
@@ -7790,6 +7789,10 @@ a.user-small-info:hover:before {
 
 .omens-post-8 .post-body b {
   color: var(--custom);
+  font-family: 'eczar',serif;
+  font-weight: 700;
+  font-size: 1.2rem;
+  line-height: 1.6rem;
 }
 
 .omens-post-8 .post-body span {
