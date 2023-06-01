@@ -9487,6 +9487,7 @@ padding: 25px;
 .omens-post-19 {
   width:min-content;
   margin:auto;
+  border-bottom: 10px solid var(--custom);
 }
 
 .omens-post-19 .post-image-2,
