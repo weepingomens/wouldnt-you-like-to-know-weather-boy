@@ -5024,7 +5024,8 @@ a.user-small-info:hover:before {
   image-rendering: -webkit-optimize-contrast;
 }
 
-#omens-main .post-row .omens-phone-template br {
+#omens-main .post-row .omens-phone-template br,
+#omens-main .post1 .omens-phone-template br {
   display: none;
 }
 
