@@ -8975,6 +8975,152 @@ a.user-small-info:hover:before {
 }
 
 /* END [POST15] TEMPLATE */
+/* START [POST16] TEMPLATE */
+
+.omens-post-16 {
+  width: 510px;
+  height: auto;
+  background: #222;
+  margin: 0 auto;
+  padding-top: 30px;
+  padding-right: 30px;
+  padding-left: 30px;
+  border-radius: 3px;
+  padding-bottom: 70px;
+}
+
+.omens-post-16 .post-border {
+  width: 512px;
+  border: 1px solid #ccc;
+  margin: auto;
+  background: #e4e4e4;
+  padding: 15px;
+  border-radius: 3px;
+}
+
+.omens-post-16 .lyric-1 {
+  position: relative;
+  top: 5px;
+  padding-top: 20px;
+  padding-left: 20px;
+  font: 700 23px/100% 'Roboto';
+  text-transform: uppercase;
+  text-align: right;
+  color: var(--custom);
+}
+
+.omens-post-16 .lyric-2 {
+  position: relative;
+  top: -5px;
+  width: 370px;
+  padding-top: 5px;
+  padding-bottom: 20px;
+  font: 100 12px 'Montserrat';
+  text-transform: uppercase;
+  text-align: right;
+  color: #999;
+}
+
+.omens-post-16 .post-image-2 {
+  width: 500px;
+  height: 150px;
+  background-color: var(--custom);
+  border-radius: 2px;
+  padding: 3px;
+  overflow: hidden;
+}
+
+.omens-post-16 .post-image-2 img {
+  filter: grayscale(50%);
+  mix-blend-mode: soft-light;
+}
+
+.omens-post-16 .post-image-2-override img {
+  filter: grayscale(50%);
+  mix-blend-mode: lighten;
+}
+
+.omens-post-16 .post-icon {
+  float: right;
+  width: 100px;
+  height: 100px;
+  padding: -50px;
+  border: solid 5px var(--custom);
+  border-radius: 100%;
+  background: var(--custom);
+  shape-outside: circle(100px);
+  position: relative;
+  margin-left: 25px;
+  margin-top: 15px;
+}
+
+.omens-post-16 .post-icon img {
+  display: block;
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  filter: grayscale(50%);
+  mix-blend-mode: hard-light;
+}
+
+.omens-post-16 .post-body {
+  border-left: 10px solid var(--custom);
+  padding: 20px;
+  text-align: justify;
+  margin-left: -10px;
+  margin-top: -55px;
+  font: 200 13px/15px Montserrat, arial, sans-serif;
+  color: #fff;
+}
+
+.omens-post-16 .post-body b {
+  color: var(--custom);
+  font-weight: 800;
+  font-size: 15px;
+}
+
+.omens-post-16 .post-body b i,
+.omens-post-16 .post-body u i,
+.omens-post-16 .post-body span i {
+  color: revert;
+  font-weight: revert;
+}
+
+.omens-post-16 .post-body i {
+  font: 500 12px/18px roboto;
+  font-style: italic;
+  color: #ddd;
+}
+
+.omens-post-16 .post-body span {
+  color: var(--custom);
+}
+
+.omens-post-16 .post-body u {
+  text-decoration: none;
+  background: #7c7c7c;
+  color: #fff;
+  padding: 0px 3px;
+}
+
+.omens-post-16 .post-body tagged {
+  gap: 10px;
+  font: 300 15px/100% 'Montserrat';
+  color: #ddd;
+  padding: 50px;
+  text-align: center;
+  float: right;
+}
+
+.omens-post-16 .post-body tagged a {
+  padding: 5px;
+  border-radius: 3px;
+  background: var(--custom);
+  color: #eee;
+  text-decoration: none;
+}
+
+/* END [POST16] TEMPLATE */
 /* END [POST] TEMPLATES */
 /* END ALL POST TEMPLATES */
 /* BEGIN MAIN PROFILE */
