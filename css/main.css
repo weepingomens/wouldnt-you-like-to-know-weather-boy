@@ -932,6 +932,7 @@ textarea {
 
 .tableborder .maintitle .linkthru {
   text-transform:lowercase;
+  letter-spacing:0;
   font:italic 900 3rem 'playfair display', serif;
 }
 
