@@ -4308,7 +4308,7 @@ a.user-small-info:hover:before {
   padding-bottom: 50px;
 }
 
-#omens-main .post-row .omens-development-1 br {
+#omens-main .omens-development-1 br {
   display: none;
 }
 
@@ -4401,8 +4401,8 @@ a.user-small-info:hover:before {
   color: #eee;
 }
 
-#omens-main .post-row .omens-development-1 quotebox br,
-#omens-main .post-row .omens-development-1 lyrics br {
+#omens-main .omens-development-1 quotebox br,
+#omens-main .omens-development-1 lyrics br {
   display: block;
 }
 
@@ -4475,7 +4475,7 @@ a.user-small-info:hover:before {
   border-width: 0 2px;
 }
 
-#omens-main .post-row .omens-development-1 drabble br {
+#omens-main .omens-development-1 drabble br {
   display: block;
 }
 
