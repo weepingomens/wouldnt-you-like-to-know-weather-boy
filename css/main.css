@@ -5189,6 +5189,7 @@ a.user-small-info:hover:before {
   overflow: auto;
   text-align: center;
   position: relative;
+  min-height: calc(100% - 80px);
 }
 
 .omens-phone1-phone-messages msg, .omens-phone1-phone-messages received {
