@@ -9286,6 +9286,199 @@ a.user-small-info:hover:before {
 }
 
 /* END [POST17] TEMPLATE */
+/* START [POST18] TEMPLATE */
+
+.omens-post-18 {
+  background: #222;
+  margin: 25px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.omens-post-18 .post-lyrics {
+  background: var(--custom);
+  padding: 50px;
+  position: relative;
+  overflow: hidden;
+}
+
+.omens-post-18 .post-lyrics .post-image-2 img,
+.omens-post-18 .post-lyrics .post-image-2-override img {
+  display: block;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 100%;
+  height: 100%;
+  filter: blur(3px) grayscale(1);
+  transform: scale(1.5) scaleX(-1);
+  opacity: 25%;
+  mix-blend-mode: exclusion;
+}
+
+.omens-post-18 .lyric-1,
+.omens-post-18 .lyric-1-override,
+.omens-post-18 .lyric-2,
+.omens-post-18 .lyric-2-override,
+.omens-post-18 .post-icon img,
+.omens-post-18 .post-icon-override img,
+.omens-post-18 .post-images .post-image-2,
+.omens-post-18 .post-images .post-image-2-override {
+  position: relative;
+  z-index: 1;
+}
+
+.omens-post-18 .lyric-1,
+.omens-post-18 .lyric-1-override {
+  font: 700 40px/90% poppins, sans-serif;
+  text-transform: uppercase;
+  color: #222;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.omens-post-18 .lyric-2,
+.omens-post-18 .lyric-2-override {
+  font: 700 10px montserrat, sans-serif;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  color: #eee;
+}
+
+.omens-post-18 .lyric-2:before,
+.omens-post-18 .lyric-2-override:before {
+  content: '';
+  flex-grow: 1;
+  height: 2px;
+  background: #eee;
+  opacity: 10%;
+  margin-right: 10px;
+}
+
+
+.omens-post-18 .post-icon,
+.omens-post-18 .post-icon-override {
+  display: flex;
+  background: #282828;
+  padding: 35px;
+  position: relative;
+  width: min-content;
+  overflow: hidden;
+}
+
+.omens-post-18 .post-icon img,
+.omens-post-18 .post-icon-override img {
+  display: block;
+  width: 50px;
+  height: 50px;
+  border: 10px solid var(--custom);
+  background: #eee;
+  padding: 5px;
+  position: relative;
+  z-index: 1;
+}
+
+.omens-post-18 .post-images .post-image-2,
+.omens-post-18 .post-images .post-image-2-override {
+  width: calc(500px - 30px);
+  height: 150px;
+  overflow: hidden;
+  filter: grayscale(1);
+}
+
+.omens-post-18 .post-images .post-image-2 img,
+.omens-post-18 .post-images .post-image-2-override img {
+  height: 150px;
+}
+
+.omens-post-18 .post-images {
+  display: flex;
+  background: #282828;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.omens-post-18 .post-images:after {
+  content: "";
+  position: absolute;
+  bottom: -380px;
+  right: 0;
+  width: 950px;
+  height: 1000px;
+  background: url(https://i.ibb.co/Hx43c2Z/pnghut-new-york-city-cities-skylines-clip-art-news.png);
+  filter: grayscale(100%) contrast(150%) invert(1);
+  opacity: 3%;
+  pointer-events: none;
+}
+
+
+.omens-post-18 .post-body {
+  background: #222;
+  font: 400 13px/18px roboto, arial, sans-serif;
+  padding: 25px;
+  text-align: justify;
+  color: #ccc;
+  position: relative;
+  overflow: hidden;
+  border-radius: 5px;
+  border-top: 5px solid #282828;
+  border-bottom: 5px solid #282828;
+}
+
+.omens-post-18 .post-body b {
+  font: 500 14px/18px poppins, arial, sans-serif;
+  color: var(--custom);
+}
+
+.omens-post-18 .post-body i {
+  color: #fff;
+}
+
+.omens-post-18 .post-body span {
+  color: var(--custom);
+  font-family: poppins;
+}
+
+.omens-post-18 .post-body u {
+  text-decoration: none;
+  max-height: 18px;
+  background: var(--custom);
+  padding: 1px 5px;
+  border-radius: 3px;
+  color: #222;
+  font-weight: 500;
+}
+
+.omens-post-18 .post-body tagged {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 5px;
+  justify-content: flex-end;
+  position: absolute;
+  bottom: -9px;
+  right: -2px;
+}
+
+.omens-post-18 .post-body tagged a {
+  font: 700 20px poppins;
+  text-transform: uppercase;
+  color: #282828;
+  transition: .25s;
+}
+
+.omens-post-18 .post-body tagged a:hover {
+  color: #444;
+  transition: .25s;
+}
+
+.omens-post-18 .post-body-contain {
+  background: #1e1e1e;
+  padding: 25px;
+}
+
+/* END [POST18] TEMPLATE */
 /* END [POST] TEMPLATES */
 /* END ALL POST TEMPLATES */
 /* BEGIN MAIN PROFILE */
