@@ -7977,6 +7977,151 @@ a.user-small-info:hover:before {
 }
 
 /* END [POST9] TEMPLATE */
+/* START [POST10] TEMPLATE */
+
+.omens-post-10 {
+  display: grid;
+  margin: 25px;
+  grid: min-content min-content min-content / min-content auto min-content;
+  grid-template-areas: 'post-10-icon post-10-lyric1 post-10-bigimg'
+    'post-10-icon post-10-lyric2 post-10-bigimg'
+    'post-10-post post-10-post post-10-bigimg';
+  place-items: start;
+  place-content: start;
+  background: #191919;
+  padding: 25px;
+  border-radius: 5px;
+  position: relative;
+}
+
+.omens-post-10::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: url(https://i.ibb.co/88JBFFY/grid-5px-gap.png);
+  filter: invert(1);
+  border-radius: 10px;
+  overflow: hidden;
+  opacity: 5%;
+  pointer-events: none;
+}
+
+.omens-post-10 .post-image-1, .omens-post-10 .post-image-1-override {
+  grid-area: post-10-bigimg;
+  position: sticky;
+  top: 10px;
+  z-index: 1;
+  margin-left: 10px;
+}
+
+.omens-post-10 .post-image-1 img, .omens-post-10 .post-image-1-override img {
+  display: block;
+  padding: 5px;
+  background: #333;
+  border: 15px solid var(--custom);
+}
+
+.omens-post-10 .post-icon, .omens-post-10 .post-icon-override {
+  grid-area: post-10-icon;
+  width: 50px;
+  height: 50px;
+  overflow: hidden;
+  float: left;
+  background: var(--custom);
+  border: 5px solid #2f2f2f;
+  margin: 10px 25px 10px 10px;
+  outline: 10px solid var(--custom);
+}
+
+.omens-post-10 .post-icon img, .omens-post-10 .post-icon-override img {
+  display: block;
+  width: 50px;
+  filter: grayscale(100%);
+}
+
+.omens-post-10 .lyric-1, .omens-post-10 .lyric-1-override {
+  grid-area: post-10-lyric1;
+  font: 800 35px/100% montserrat;
+  text-transform: uppercase;
+  color: var(--custom);
+  margin-right: 10px;
+  margin-bottom: 10px;
+  z-index: 1;
+}
+
+.omens-post-10 .lyric-2, .omens-post-10 .lyric-2-override {
+  grid-area: post-10-lyric2;
+  background: var(--custom);
+  font: 800 15px/100% montserrat;
+  text-transform: uppercase;
+  color: #191919;
+  padding: 10px;
+  min-width: 320px;
+  text-align: center;
+  z-index: 1;
+  margin-bottom: 10px;
+}
+
+.omens-post-10 .post-body {
+  grid-area: post-10-post;
+  padding: 25px;
+  background: #222;
+  font: 400 13px/18px roboto, arial, sans-serif;
+  text-align: justify;
+  color: #aaa;
+  border-left: 10px solid var(--custom);
+  z-index: 1;
+  min-height: 345px;
+  min-width: 280px;
+}
+
+.omens-post-10 .post-body b {
+  font: 700 16px/18px montserrat;
+  color: var(--custom);
+}
+
+.omens-post-10 .post-body span {
+  color: var(--custom);
+}
+
+.omens-post-10 .post-body b i, .omens-post-10 .post-body b u, .omens-post-10 .post-body span i, .omens-post-10 .post-body u i {
+  color: revert;
+  font: revert;
+}
+
+.omens-post-10 .post-body i {
+  font: italic 500 13px/18px montserrat;
+  color: #eee;
+}
+
+.omens-post-10 .post-body u {
+  background: #151515;
+  padding: 2px 5px;
+  border-bottom: 2px solid var(--custom);
+  text-decoration: none;
+  color: #777;
+  font-weight: 500;
+}
+
+.omens-post-10 .post-body tagged {
+  display: flex;
+  gap: 5px;
+  flex-flow: row wrap;
+  margin-top: 25px;
+  text-align: center;
+}
+
+.omens-post-10 .post-body tagged a {
+  background: var(--custom);
+  font: 800 15px/100% montserrat;
+  text-transform: uppercase;
+  color: #222;
+  letter-spacing: .5px;
+  padding: 10px;
+}
+
+/* END [POST10] TEMPLATE */
 /* END [POST] TEMPLATES */
 /* END ALL POST TEMPLATES */
 /* BEGIN MAIN PROFILE */
