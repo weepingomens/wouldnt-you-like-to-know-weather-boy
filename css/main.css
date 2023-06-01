@@ -939,6 +939,7 @@ textarea {
 .tableborder .maintitle .small {
   font: var(--small-header);
   letter-spacing: .2rem;
+  text-transform:uppercase;
 }
 
 .post1 .lyric-1-override,
