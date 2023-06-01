@@ -6958,7 +6958,7 @@ a.user-small-info:hover:before {
 .omens-post-1 .lyric-2, .omens-post-1 .lyric-2-override {
   font: var(--small-header);
   text-transform: uppercase;
-  color:rgba(255,255,255,15%);
+  color:rgba(255,255,255,75%);
   letter-spacing: 0.2rem;
   text-align: left;
   margin-bottom: 5px;
