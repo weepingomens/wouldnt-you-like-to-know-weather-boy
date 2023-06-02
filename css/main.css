@@ -504,6 +504,11 @@ textarea {
   justify-content: center;
 }
 
+.tableborder .maintitle.topic-header {
+  line-height:1;
+  text-transform:uppercase;
+}
+
 .button-large {
   display: inline-block;
   font-family: 'Playfair Display', serif;
