@@ -3744,6 +3744,13 @@ a.user-small-info:hover:before {
   height: 10px;
 }
 
+.post-row .mod-checkbox {
+  flex-grow: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
 .post-row .post-container {
   grid-area: post-row-post-body;
   max-width: 100%;
