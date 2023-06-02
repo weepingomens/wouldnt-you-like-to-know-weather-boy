@@ -10173,7 +10173,7 @@ padding: 25px;
 }
 
 #main-profile section.content i {
-  color: #777;
+  color: var(--italic);
 }
 
 #main-profile section.content u {
