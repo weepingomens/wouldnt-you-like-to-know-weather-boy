@@ -7979,10 +7979,11 @@ a.user-small-info:hover:before {
 }
 
 .omens-post-9 .post-body b {
-  font-weight:500;
-  font-size:1.1rem;
-  line-height:1.6rem;
   color: var(--custom);
+  font-weight: 500;
+  font-size: 1.2rem;
+  line-height: 1.6rem;
+  letter-spacing: -0.01em;
 }
 
 .omens-post-9 .post-body span {
