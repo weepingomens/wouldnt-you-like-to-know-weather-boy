@@ -9840,6 +9840,16 @@ padding: 25px;
 /* END [POST] TEMPLATES */
 /* START ALL ARCADE TEMPLATES */
 /* END FMK TEMPLATE */
+
+#omens-main .post-row .fmk br {
+  display:none;
+}
+
+#omens-main .post-row .fmk .fmk-answer br {
+  display:block;
+}
+
+
 /* END ALL ARCADE TEMPLATES */
 /* START FMK TEMPLATE */
 /* END ALL POST TEMPLATES */
