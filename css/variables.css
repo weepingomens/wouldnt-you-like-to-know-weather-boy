@@ -37,15 +37,19 @@
 
 .group-staff,
 .group-6,
-.mgroup-6 {
+.mgroup-6,
+.group-4,
+.mgroup-4 {
   --group: var(--staff);
 }
 
-a.mgroup-6 {
+a.mgroup-6,
+a.mgroup-4 {
   color:var(--staff);
 }
 
-.group-icon-6:before {
+.group-icon-6:before,
+.group-icon-4:before {
   font-family: "game-icons";
   content: "\E15A";
 }
