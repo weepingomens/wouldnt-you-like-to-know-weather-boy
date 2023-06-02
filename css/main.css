@@ -7223,8 +7223,6 @@ a.user-small-info:hover:before {
   overflow: auto;
   max-height: 360px;
   min-width: 280px;
-  font-size:.9rem;
-  line-height:1.5rem;
 }
 
 .omens-post-3 .post-body b {
