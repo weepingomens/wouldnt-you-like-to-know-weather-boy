@@ -9606,7 +9606,7 @@ padding: 25px;
 }
 
 .omens-post-19 .post-body i {
-  color: #fff;
+  color: var(--italic);
   letter-spacing: .05rem;
 }
 
@@ -9763,7 +9763,7 @@ padding: 25px;
 }
 
 .omens-post-20 .post-body i {
-  color: #eee;
+  color: var(--italic);
 }
 
 .omens-post-20 .post-body span {
