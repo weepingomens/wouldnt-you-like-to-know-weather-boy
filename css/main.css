@@ -7685,7 +7685,7 @@ a.user-small-info:hover:before {
 }
 
 .omens-post-7 .post-body i {
-  color: #eee;
+  color: var(--italic);
 }
 
 .omens-post-7 span {
