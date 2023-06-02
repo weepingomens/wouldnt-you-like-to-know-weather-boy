@@ -9860,7 +9860,8 @@ padding: 25px;
   display:block;
 }
 
-.fmk {
+.fmk,
+.fmk1 {
   display:grid;
   grid:2rem auto / min-content auto;
   grid-template-areas:"fmk-icon fmk-ask"
@@ -9870,13 +9871,15 @@ padding: 25px;
   gap: 10px 25px;
 }
 
-.fmk-ask {
+.fmk-ask,
+.fmk-ask1 {
   grid-area:fmk-ask;
   font:var(--med-header);
   color:var(--custom);
 }
 
-.fmk-answer {
+.fmk-answer,
+.fmk-answer1 {
   grid-area: fmk-answer;
   width: 25ch;
   padding: 0 10px;
@@ -9884,7 +9887,8 @@ padding: 25px;
   align-self:start;
 }
 
-.fmk .post-icon {
+.fmk .post-icon,
+.fmk-img1 {
   grid-area:fmk-icon;
   padding:25px;
   border-radius:100%;
@@ -9892,7 +9896,8 @@ padding: 25px;
   border-right-color:var(--custom);
 }
 
-.fmk .post-icon img {
+.fmk .post-icon img,
+.fmk-img1 img {
   width:75px;
   border-radius:100%;
 }
