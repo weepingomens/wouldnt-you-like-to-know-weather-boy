@@ -8269,7 +8269,7 @@ a.user-small-info:hover:before {
 }
 
 .omens-post-11 .post-body i {
-  color: #eee;
+  color: var(--italic);
 }
 
 .omens-post-11 .post-body span {
