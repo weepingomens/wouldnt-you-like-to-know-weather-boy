@@ -7009,8 +7009,10 @@ a.user-small-info:hover:before {
 
 .omens-post-1 .post-body b {
   color: var(--custom);
+  font-weight: 600;
   font-size: 1.2rem;
-  line-height:100%;
+  line-height: 1.6rem;
+  letter-spacing: -0.01em;
 }
 
 .omens-post-1 .post-body span {
