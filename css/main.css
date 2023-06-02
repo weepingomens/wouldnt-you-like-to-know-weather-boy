@@ -624,6 +624,7 @@ textarea {
   color: #1c1c1c;
   letter-spacing: 0.2rem;
   border-radius: 5px;
+  text-transform:uppercase;
 }
 
 .postlinksbar {
