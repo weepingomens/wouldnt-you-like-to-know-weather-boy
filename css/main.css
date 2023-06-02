@@ -8143,7 +8143,7 @@ a.user-small-info:hover:before {
 
 .omens-post-10 .post-body i {
   letter-spacing:.05rem;
-  color: #eee;
+  color: var(--italic);
 }
 
 .omens-post-10 .post-body u {
