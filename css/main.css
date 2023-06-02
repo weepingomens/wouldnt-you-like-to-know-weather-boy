@@ -9849,6 +9849,42 @@ padding: 25px;
   display:block;
 }
 
+.fmk {
+  display:grid;
+  grid:2rem auto / min-content auto;
+  grid-template-areas:"fmk-icon fmk-ask"
+  "fmk-icon fmk-answer";
+  justify-content: center;
+  align-items: center;
+  gap: 10px 25px;
+}
+
+.fmk-ask {
+  grid-area:fmk-ask;
+  font:var(--med-header);
+  color:var(--custom);
+}
+
+.fmk-answer {
+  grid-area: fmk-answer;
+  width: 25ch;
+  padding: 0 10px;
+  border-left: var(--default-border);
+  align-self:start;
+}
+
+.fmk .post-icon {
+  grid-area:fmk-icon;
+  padding:25px;
+  border-radius:100%;
+  border:var(--default-border);
+  border-right-color:var(--custom);
+}
+
+.fmk .post-icon img {
+  width:75px;
+  border-radius:100%;
+}
 
 /* END ALL ARCADE TEMPLATES */
 /* START FMK TEMPLATE */
