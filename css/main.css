@@ -7836,7 +7836,6 @@ a.user-small-info:hover:before {
 .omens-post-8 .post-body {
   grid-area: post-8-body;
   padding: 25px;
-  background: rgba(255,255,255,2%);
 }
 
 .omens-post-8 .post-body > div:first-of-type {
@@ -7858,7 +7857,7 @@ a.user-small-info:hover:before {
 }
 
 .omens-post-8 .post-body i {
-  color: #eee;
+  color: var(--italic);
 }
 
 .omens-post-8 .post-body u {
