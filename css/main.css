@@ -3584,7 +3584,7 @@ header.communications:before {
   align-items: center;
   justify-content: center;
   margin-top: 10px;
-  border-top: 2px solid rgba(255, 255, 255, 3%);
+  border-top: var(--default-border);
   padding-top: 20px;
   color: #aaa;
 }
@@ -3615,7 +3615,7 @@ header.communications:before {
   z-index: 1;
   width: 50px;
   height: 50px;
-  border: 2px solid rgba(255, 255, 255, 3%);
+  border: var(--default-border);
   background: #1c1c1c;
   display: flex;
   align-items: center;
@@ -3697,7 +3697,7 @@ a.user-small-info:hover:before {
 
 .post-row .post-proper {
   grid-area: post-row-post;
-  border: 2px solid rgba(255, 255, 255, 3%);
+  border: var(--default-border);
   border-top: 0;
   display: grid;
   grid: min-content min-content / auto min-content;
@@ -3708,7 +3708,7 @@ a.user-small-info:hover:before {
 
 .post-row .user-icon {
   grid-area: post-row-user-icon;
-  border-left: 2px solid rgba(255, 255, 255, 3%);
+  border-left: var(--default-border);
 }
 
 .post-row .user-icon span {
@@ -3745,7 +3745,7 @@ a.user-small-info:hover:before {
   font: 700 0.6rem "open sans", sans-serif;
   text-transform: uppercase;
   padding: 10px;
-  border-bottom: 2px solid rgba(255, 255, 255, 3%);
+  border-bottom: var(--default-border);
   display: flex;
   align-items: center;
   gap: 5px;
@@ -3824,7 +3824,7 @@ a.user-small-info:hover:before {
   justify-content: center;
   text-align: center;
   flex-flow: column nowrap;
-  border: 2px solid rgba(255, 255, 255, 3%);
+  border: var(--default-border);
   padding: 10px;
   border-top: 0;
   gap: 10px;
@@ -4055,7 +4055,7 @@ a.user-small-info:hover:before {
 .staff-template blockquote {
   margin: 50px 0;
   padding: 25px;
-  border: 2px solid rgba(255, 255, 255, 3%);
+  border: var(--default-border);
 }
 
 .staff-template .simple-tabs__content ul.long-list {
@@ -4228,7 +4228,7 @@ a.user-small-info:hover:before {
   grid-area: want-desc;
   width: 50ch;
   margin: 25px auto 0;
-  border: 2px solid rgba(255, 255, 255, 3%);
+  border: var(--default-border);
   padding: 50px;
 }
 
@@ -4246,7 +4246,7 @@ a.user-small-info:hover:before {
   width: 100px;
   height: 100px;
   grid-area: want-image;
-  border: 2px solid rgba(255, 255, 255, 3%);
+  border: var(--default-border);
   padding: 25px;
   border-right-color: var(--custom);
   border-radius: 100%;
@@ -4278,7 +4278,7 @@ a.user-small-info:hover:before {
     "multi-1-img multi-1-details"
     "multi-1-desc multi-1-desc";
   gap: 0 25px;
-  border-bottom: 2px solid rgba(255, 255, 255, 3%);
+  border-bottom: var(--default-border);
   padding-bottom: 25px;
   width: calc(100% - 100px);
   margin: 0 50px;
@@ -4320,7 +4320,7 @@ a.user-small-info:hover:before {
   width: calc(100% - 50px);
   margin-top: 25px;
   text-align: left;
-  border: 2px solid rgba(255, 255, 255, 3%);
+  border: var(--default-border);
   padding: 25px;
 }
 
@@ -4423,7 +4423,7 @@ a.user-small-info:hover:before {
 
 .omens-development-1 lyrics {
   text-align: left;
-  border: 2px solid rgba(255, 255, 255, 3%);
+  border: var(--default-border);
   padding: 25px;
   width: calc(100% - 50px);
   margin: 50px 50px 0;
@@ -4502,7 +4502,7 @@ a.user-small-info:hover:before {
 /* START DEV DRABBLE TEMPLATE */
 .omens-development-1 drabble {
   margin: 50px 50px 0;
-  border: 2px solid rgba(255, 255, 255, 3%);
+  border: var(--default-border);
   padding: 0 25px;
   border-width: 0 2px;
   font-size: 1rem;
@@ -4732,7 +4732,7 @@ a.user-small-info:hover:before {
 
 .omens-insta-2 .insta-desc {
   margin: 50px auto;
-  border: 2px solid rgba(255, 255, 255, 3%);
+  border: var(--default-border);
   padding: 25px;
 }
 
@@ -4803,7 +4803,7 @@ a.user-small-info:hover:before {
 
 .omens-insta-2 .insta-comment span {
   grid-area: insta-1-comment-comment;
-  border: 2px solid rgba(255, 255, 255, 3%);
+  border: var(--default-border);
   padding: 10px;
 }
 
@@ -4956,7 +4956,7 @@ a.user-small-info:hover:before {
 }
 
 .omens-twit-1 .twit-contain .tweet {
-  border: 2px solid rgba(255, 255, 255, 3%);
+  border: var(--default-border);
   position: relative;
   border-width: 0 0 0 2px;
   padding: 0 0 0 25px;
@@ -5043,7 +5043,7 @@ a.user-small-info:hover:before {
 
 .omens-twit-2 .tweet {
   padding: 0 25px;
-  border: 2px solid rgba(255, 255, 255, 3%);
+  border: var(--default-border);
   position: relative;
   z-index: 1;
   border-width: 0 0 0 2px;
@@ -7021,7 +7021,7 @@ a.user-small-info:hover:before {
   height: 75px;
   padding: 10px;
   image-rendering: -webkit-optimize-contrast;
-  border: 2px solid rgba(255, 255, 255, 3%);
+  border: var(--default-border);
 }
 
 .omens-post-1 .lyric-1, .omens-post-1 .lyric-1-override {
@@ -9998,7 +9998,7 @@ a.user-small-info:hover:before {
   align-items: center;
   justify-content: center;
   justify-items: center;
-  border: 2px solid rgba(255, 255, 255, 3%);
+  border: var(--default-border);
 }
 
 #main-profile section.basics .hover {
@@ -10007,7 +10007,7 @@ a.user-small-info:hover:before {
   height: 400px;
   background-size: contain;
   padding: 10px;
-  border: 2px solid rgba(255, 255, 255, 3%);
+  border: var(--default-border);
   border-width: 0 0 0 2px;
   flex-shrink: 0;
 }
@@ -10033,7 +10033,7 @@ a.user-small-info:hover:before {
   margin: 0 50px 10px;
   padding-bottom: 10px;
   border-top: 0;
-  border-bottom: 2px solid rgba(255, 255, 255, 3%);
+  border-bottom: var(--default-border);
 }
 
 .post-row .ooc,
@@ -10108,7 +10108,7 @@ a.user-small-info:hover:before {
 
 #main-profile .relationship {
   grid-area: mp-basics-ship;
-  border: 2px solid rgba(255, 255, 255, 3%);
+  border: var(--default-border);
   border-width: 2px 0 0 2px;
   width: calc(100% - 22px);
 }
@@ -10132,7 +10132,7 @@ a.user-small-info:hover:before {
 /* START MAIN PROFILE CONTENT */
 
 #main-profile section.content {
-  border: 2px solid rgba(255, 255, 255, 3%);
+  border: var(--default-border);
   border-width: 0 0 2px;
   padding: 25px;
   width: calc(100% - 50px);
@@ -10146,7 +10146,7 @@ a.user-small-info:hover:before {
 }
 
 #main-profile .simple-tabs__list-item>span {
-  border: 2px solid rgba(255, 255, 255, 3%);
+  border: var(--default-border);
   width: 50px;
   height: 50px;
   display: flex;
@@ -10282,7 +10282,7 @@ a.user-small-info:hover:before {
 #main-profile section.content blockquote {
   margin: 25px 0;
   padding: 25px;
-  border: 2px solid rgba(255, 255, 255, 3%);
+  border: var(--default-border);
 }
 
 #omens-page-brochure cw,
