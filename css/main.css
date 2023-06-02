@@ -9478,7 +9478,7 @@ a.user-small-info:hover:before {
 }
 
 .omens-post-18 .post-body i {
-  color: #fff;
+  color: var(--italic);
 }
 
 .omens-post-18 .post-body span {
@@ -10173,7 +10173,7 @@ padding: 25px;
 }
 
 #main-profile section.content i {
-  color: #777;
+  color: var(--italic);
 }
 
 #main-profile section.content u {
