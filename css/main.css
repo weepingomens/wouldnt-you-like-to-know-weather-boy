@@ -9474,6 +9474,7 @@ a.user-small-info:hover:before {
   font-size:1.1rem;
   line-height:1.6rem;
   color: var(--custom);
+  letter-spacing: -0.01em;
 }
 
 .omens-post-18 .post-body i {
