@@ -9814,7 +9814,7 @@ padding: 25px;
 .omens-post-20 .lyric-2,
 .omens-post-20 .lyric-2-override {
   font: 900 2rem/100% 'Playfair Display', serif;
-  color: #ccc;
+  color: rgba(255,255,255,22%);
   position: relative;
   z-index: 1;
   text-transform: uppercase;
