@@ -4367,7 +4367,7 @@ a.user-small-info:hover:before {
 /* START DEVELOPMENT QUOTE TEMPLATE */
 .omens-development-1 quotebox {
   font: italic 700 2rem 'playfair display', serif;
-  padding: 50px;
+  padding: 50px 50px 0;
   text-transform: lowercase;
 }
 
@@ -4380,6 +4380,7 @@ a.user-small-info:hover:before {
   letter-spacing: 0.2rem;
   text-transform: uppercase;
   height: 100%;
+  padding-top:50px;
 }
 
 /* END DEVELOPMENT QUOTE TEMPLATE */
