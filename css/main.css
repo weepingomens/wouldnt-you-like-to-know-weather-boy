@@ -3846,6 +3846,9 @@ a.user-small-info:hover:before {
   pointer-events: none;
 }
 
+.post-row .edit {
+  display:none;
+}
 /* END POST ROW */
 /* START ALL POST TEMPLATES (SCREAMS) */
 /* START SITE STORE TEMPLATE */
