@@ -310,6 +310,10 @@ textarea {
   }
 }
 
+.disable-custom-accents {
+  --custom:var(--main-accent)!important;
+}
+
 /*
 @keyframes rainbow-demo {
   0% {
