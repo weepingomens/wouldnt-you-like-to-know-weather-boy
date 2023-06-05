@@ -2298,7 +2298,8 @@ input[type="submit"] {
 #omens-main #board-message br,
 #omens-main #omens-page-brochure br,
 #omens-main .post1 br,
-#omens-main #active-topics br {
+#omens-main #active-topics br,
+#omens-mian #post-preview br {
   display: block;
 }
 
