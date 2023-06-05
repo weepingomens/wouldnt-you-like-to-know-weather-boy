@@ -9344,6 +9344,7 @@ a.user-small-info:hover:before {
   box-shadow: 12px -24px 0px -23px rgb(30 30 30 / 80%);
   padding: 10px 25px;
   display: flex;
+  flex-wrap: wrap;
   gap: 10px;
   max-width: fit-content;
   font: var(--small-header);
