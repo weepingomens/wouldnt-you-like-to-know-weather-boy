@@ -850,6 +850,10 @@ textarea {
   display: grid;
 }
 
+#ucpcontent form[name=mutliact] tr {
+  display:initial;
+}
+
 #ucpcontent .forminput,
 #omens-body #ucpcontent input[type="text"] {
   width: calc(100% - 50px);
