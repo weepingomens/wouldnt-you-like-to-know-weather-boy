@@ -504,7 +504,10 @@ textarea {
   justify-content: center;
 }
 
-.tableborder .maintitle.topic-header {
+.tableborder .maintitle.topic-header,
+#active-topics .maintitle,
+#modcp-menu .maintitle,
+#modcp-content .maintitle {
   line-height: 1;
   text-transform: uppercase;
 }
