@@ -310,7 +310,9 @@ textarea {
   }
 }
 
-.disable-custom-accents {
+.disable-custom-accents,
+.disable-custom-accents .post-row,
+.disable-custom-accents #main-profile {
   --custom:var(--main-accent)!important;
 }
 
