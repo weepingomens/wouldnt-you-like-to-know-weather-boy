@@ -511,7 +511,8 @@ textarea {
 .tableborder .maintitle.topic-header,
 #active-topics .maintitle,
 #modcp-menu .maintitle,
-#modcp-content .maintitle {
+#modcp-content .maintitle,
+#board-message .maintitle {
   line-height: 1;
   text-transform: uppercase;
 }
