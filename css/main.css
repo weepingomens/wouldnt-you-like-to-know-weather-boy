@@ -11108,7 +11108,8 @@ body.light  {
 }
 
 .light #main-profile .simple-tabs__list-item>span,
-.light #main-profile .archive .head {
+.light #main-profile .archive .head,
+.light #ucpcontent .pformleft label {
   color:var(--basic-text);
 }
 
@@ -11129,6 +11130,22 @@ body.light  {
 
 .light .omens-post-template .post-body b {
   text-decoration-color:var(--border);
+}
+
+.light #ucpcontent .forminput,
+.light #omens-body #ucpcontent input[type="text"] {
+  background: rgba(255, 255, 255, 10%);
+  color: var(--basic-text);
+}
+
+.light #HeaderRequired, 
+.light #HeaderOptional {
+  color:var(--basic-text);
+  text-decoration-color: rgba(0, 0, 0, 10%);
+}
+
+.light .pformstrip.ProfileHeader {
+  color: rgba(255, 255, 255, 33%);
 }
 
 /* END LIGHT MODE */
