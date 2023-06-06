@@ -10993,7 +10993,8 @@ body {
   color:var(--border);
 }
 
-.light .comm-forum .comm-link span {
+.light .comm-forum .comm-link span,
+.light #omens-footer .now-online .online-list b {
   color:var(--basic-text-lighter);
 }
 
@@ -11004,6 +11005,10 @@ body {
 .light #omens-footer .online-today,
 .light #omens-footer .online-today a span {
   color: rgba(0,0,0,25%);
+}
+
+.light #omens-body:before {
+  background:rgba(0,0,0,3%);
 }
 
 /* END LIGHT MODE */
