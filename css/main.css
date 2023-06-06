@@ -11011,6 +11011,10 @@ body.light  {
   opacity:10%;
 }
 
+.light .topic-header.maintitle:after {
+  opacity: 10%;
+}
+
 .light #omens-footer .footer-links a i {
   color:rgba(255,255,255,15%);
 }
