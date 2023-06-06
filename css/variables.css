@@ -13,18 +13,19 @@
   --main-accent-rgb: var(--mainAccentR), var(--mainAccentG), var(--mainAccentB);
   --main-gradient: linear-gradient(110deg, #df6885, #df6868);
   --background:#1c1c1c;
-  --border:rgba(255, 255, 255, 3%);
 
   --category-header: #2a2a2a;
   --italic:#777;
 
   --small-header: 700 0.6rem 'open sans', sans-serif;
   --med-header: italic 900 2rem 'playfair display', serif;
-
-  --default-border: 2px solid var(--border);
-
   --forum-8: url(../src/img/LLORONA_8.png);
   --forum-9: url(../src/img/LLORONA_9.png);
+}
+
+body {
+  --border:rgba(255, 255, 255, 3%);
+  --default-border: 2px solid var(--border);
 }
 
 .forum-8 .forum-image:before {
