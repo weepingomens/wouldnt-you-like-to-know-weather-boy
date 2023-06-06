@@ -4425,6 +4425,10 @@ a.user-small-info:hover:before {
   padding-top: 50px;
 }
 
+.omens-development-1.omens-development-1-playlist cite {
+  padding-top:0;
+}
+
 /* END DEVELOPMENT QUOTE TEMPLATE */
 /* START DEVELOPMENT LYRIC TEMPLATE */
 
