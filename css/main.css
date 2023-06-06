@@ -11093,6 +11093,11 @@ body.light  {
   border-bottom: var(--default-border);
 }
 
+.light .forminput, .light .codebuttons {
+  background:#ccc;
+  color:var(--basic-text);
+}
+
 /* END LIGHT MODE */
 /*
 #omens-main .omens-category {
