@@ -11159,6 +11159,10 @@ body.light  {
 .light .code-scroll {
   background: rgba(255, 255, 255, 10%);
 }
+
+.light #main-profile section.content werewolf:after, .light #main-profile section.content vampire:after, .light #main-profile section.content hunter:after {
+  color:rgba(0, 0, 0, 3%);
+}
 /* END LIGHT MODE */
 /*
 #omens-main .omens-category {
