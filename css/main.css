@@ -11214,7 +11214,9 @@ body.light  {
   background: rgba(0, 0, 0, 5%);
 }
 
-.light .omens-phone-3 .phone-contain .phone-messages {
+.light .omens-phone-3 .phone-contain .phone-messages,
+.light .omens-phone-3 .phone-contain .phone-callscreen speech1,
+.light .omens-phone-3 .phone-contain .phone-callscreen speech1:after {
   background:#ddd;
 }
 
