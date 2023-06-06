@@ -11090,7 +11090,8 @@ body.light  {
   color:var(--basic-text-lighter);
 }
 
-.light .user-small-info:before a.user-small-info:before {
+.light .user-small-info:before,
+.light a.user-small-info:before {
   color: rgba(var(--main-accent-rgb), .7);
 }
 
