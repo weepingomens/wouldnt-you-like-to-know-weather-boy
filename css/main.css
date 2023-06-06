@@ -10960,6 +10960,7 @@ a.user-small-info:hover:before {
   --basic-text:#222;
   --basic-text-lighter:#888;
   --border:rgba(0,0,0,7%);
+  --default-border:2px solid var(--border);
 }
 .light #omens-body #omens-sidebar {
   background:#ccc;
