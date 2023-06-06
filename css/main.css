@@ -10977,7 +10977,8 @@ body.light  {
 .light #omens-body #omens-sidebar .sidebar-group a,
 .light .brochure-desc,
 .light .subforum-list .subforums a:hover,
-.light .forum-info .forum-desc {
+.light .forum-info .forum-desc,
+.light .topic-container .topic-desc {
   color:var(--basic-text);
 }
 
