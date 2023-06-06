@@ -11041,7 +11041,8 @@ a.user-small-info:hover:before {
 .light #omens-page-brochure cw,
 .light #omens-page-brochure cw-toggle,
 .light #main-profile section.content cw,
-.light #main-profile section.content cw-toggle {
+.light #main-profile section.content cw-toggle,
+.light #main-profile section.content h3 {
   color: rgba(0, 0, 0, 50%);
 }
 
