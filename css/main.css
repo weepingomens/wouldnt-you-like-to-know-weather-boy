@@ -11078,8 +11078,14 @@ body.light  {
   color:rgba(0, 0, 0, 33%);
 }
 
-.light #main-profile .simple-tabs__list-item>span {
+.light #main-profile .simple-tabs__list-item>span,
+.light #main-profile .archive .head {
   color:var(--basic-text);
+}
+
+.light #main-profile .archive .head,
+.light #main-profile .tracker-item {
+  border-bottom: var(--default-border);
 }
 
 /* END LIGHT MODE */
