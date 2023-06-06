@@ -11070,6 +11070,18 @@ body.light  {
   color:var(--basic-text-lighter);
 }
 
+.light .light #main-profile section.content acedia:after, .light #main-profile section.content avaricia:after, .light #main-profile section.content gula:after, .light #main-profile section.content invidia:after, .light #main-profile section.content ira:after, .light #main-profile section.content luxuria:after, .light #main-profile section.content superbia:after {
+  filter:none;
+}
+
+.light #main-profile section.content acedia h1:after, .light #main-profile section.content avaricia h1:after, .light #main-profile section.content gula h1:after, .light #main-profile section.content invidia h1:after, .light #main-profile section.content ira h1:after, .light #main-profile section.content luxuria h1:after, .light #main-profile section.content superbia h1:after {
+  color:rgba(0, 0, 0, 33%);
+}
+
+.light #main-profile .simple-tabs__list-item>span {
+  color:var(--basic-text);
+}
+
 /* END LIGHT MODE */
 /*
 #omens-main .omens-category {
