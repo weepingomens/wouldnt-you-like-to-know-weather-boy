@@ -11202,7 +11202,14 @@ body.light  {
 .light .omens-phone-3:before,
 .light .omens-phone-3 .phone-power,
 .light .omens-phone-3 .phone-contain .phone-messages msg,
-.light .omens-phone-3 .phone-contain .phone-deco .phone-deco2 {
+.light .omens-phone-3 .phone-contain .phone-deco .phone-deco2,
+.light .omens-phone-4,
+.light .omens-phone-4 .phone-deco1 .phone-speaker:before,
+.light .omens-phone-4 .phone-deco1 .phone-speaker div,
+.light .omens-phone-4 .phone-deco1 .phone-speaker:after,
+.light .omens-phone-4 .phone-deco2:after,
+.light .omens-phone-4 .phone-l-buttons div,
+.light .omens-phone-4 .phone-l-buttons:after {
   background: rgba(255, 255, 255, 20%);
 }
 
