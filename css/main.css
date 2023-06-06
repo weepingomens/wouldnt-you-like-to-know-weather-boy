@@ -10964,6 +10964,7 @@ body.light  {
   --default-border:2px solid var(--border);
   --bg:#bbb;
   --italic: #555;
+  --white-text:rgba(255, 255, 255, 33%);
 }
 .light #omens-body #omens-sidebar {
   background:#ccc;
@@ -11034,7 +11035,8 @@ body.light  {
 .light .post-row .post-container .staff-template h4,
 .light .staff-template .countdown_row,
 .light .post-row .post-container .staff-template h1,
-.light .staff-template h3 {
+.light .staff-template h3,
+.light .light .omens-development-1 lyrics {
   color:var(--basic-text-lighter);
 }
 
@@ -11167,6 +11169,18 @@ body.light  {
 .light .select-destination.category-3 .board-quicklink {
   color:var(--basic-text);
 }
+
+.light .omens-development-1.omens-development-1-playlist h1,
+.light .omens-development-1.omens-development-1-playlist song cite,
+.light .code-title {
+  color:var(--white-text);
+}
+
+.light .omens-development-1 drabble i,
+.light .omens-development-1 drabble u {
+  color:var(--italic);
+}
+
 /* END LIGHT MODE */
 /*
 #omens-main .omens-category {
