@@ -11021,7 +11021,8 @@ a.user-small-info:hover:before {
   color:var(--basic-text-lighter);
 }
 
-.light #main-profile .threat-level:after {
+.light #main-profile .threat-level:after,
+.light #main-profile section.content .header {
   color: rgba(0,0,0,10%);
 }
 
@@ -11031,6 +11032,17 @@ a.user-small-info:hover:before {
 
 .light .user-small-info {
   background:var(--bg);
+}
+
+.light #main-profile section.content u {
+  color:#999;
+}
+
+.light #omens-page-brochure cw,
+.light #omens-page-brochure cw-toggle,
+.light #main-profile section.content cw,
+.light #main-profile section.content cw-toggle {
+  color: rgba(0, 0, 0, 50%);
 }
 
 /* END LIGHT MODE */
