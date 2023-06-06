@@ -10950,7 +10950,7 @@ a.user-small-info:hover:before {
 /* END MAIN PROFILE TRACKER */
 /* END MAIN PROFILE */
 /* START LIGHT MODE */
-body {
+.light body {
   background: url(../src/img/light-background.png);
   color: #111;
   margin: 0;
