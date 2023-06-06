@@ -11205,6 +11205,14 @@ body.light  {
   background: rgba(0, 0, 0, 5%);
 }
 
+.light .post-row .user-name .font-icon:before {
+  color: rgba(0, 0, 0, 3%);
+}
+
+.light .threat-level:before {
+  background:#ccc;
+}
+
 /* END LIGHT MODE */
 /*
 #omens-main .omens-category {
