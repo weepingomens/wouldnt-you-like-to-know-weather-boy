@@ -7065,8 +7065,7 @@ a.user-small-info:hover:before {
   letter-spacing: .05rem;
 }
 
-.omens-post-1 .post-body i,
-.omens-post-1 .post-body u {
+.omens-post-1 .post-body i {
   color: var(--italic);
 }
 
