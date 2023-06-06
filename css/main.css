@@ -10979,7 +10979,10 @@ body.light  {
 .light .subforum-list .subforums a:hover,
 .light .forum-info .forum-desc,
 .light .topic-container .topic-desc,
-.light .staff-template h2 {
+.light .staff-template h2,
+.light .staff-template .code-title,
+.light .staff-template .countdown_amount,
+.light .staff-template .countdown_section {
   color:var(--basic-text);
 }
 
