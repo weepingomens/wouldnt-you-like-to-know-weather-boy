@@ -11061,6 +11061,10 @@ body.light  {
   color: rgba(0, 0, 0, 50%);
 }
 
+.light .user-small-info:before {
+  color:var(--basic-text-lighter);
+}
+
 /* END LIGHT MODE */
 /*
 #omens-main .omens-category {
