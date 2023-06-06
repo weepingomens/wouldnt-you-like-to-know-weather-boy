@@ -3773,6 +3773,7 @@ a.user-small-info:hover:before {
 .post-row .post-container {
   grid-area: post-row-post-body;
   max-width: 100%;
+  word-break:break-word;
 }
 
 .post-row .post-container .postcolor {
