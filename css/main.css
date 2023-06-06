@@ -11120,6 +11120,10 @@ body.light  {
   color:var(--basic-text);
 }
 
+.light .omens-post-template .post-body b {
+  text-decoration-color:var(--border);
+}
+
 /* END LIGHT MODE */
 /*
 #omens-main .omens-category {
