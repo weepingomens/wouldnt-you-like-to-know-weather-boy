@@ -10949,6 +10949,16 @@ a.user-small-info:hover:before {
 
 /* END MAIN PROFILE TRACKER */
 /* END MAIN PROFILE */
+/* START LIGHT MODE */
+body {
+  background: url(../src/img/background-light.png);
+  color: #111;
+  margin: 0;
+  background-attachment: fixed;
+  font: 400 1rem/1.6 'open sans', sans-serif;
+  --category-header:#333;
+}
+/* END LIGHT MODE */
 /*
 #omens-main .omens-category {
   display: flex;
