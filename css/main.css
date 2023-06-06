@@ -10987,13 +10987,26 @@ body {
   background:var(--border);
 }
 
-.light .board-quicklink-container:before {
+.light .board-quicklink-container:before,
+.light #omens-footer .city-records,
+.light header.communications,
+.light #omens-footer .now-online em {
   color:var(--border);
 }
 
 .light .comm-forum .comm-link span {
   color:var(--basic-text-lighter);
 }
+
+.light .footer-jenshin img {
+  filter: grayscale(100%) contrast(33%) brightness(125%);
+}
+
+.light #omens-footer .online-today,
+.light #omens-footer .online-today a span {
+  color: rgba(0,0,0,25%);
+}
+
 /* END LIGHT MODE */
 /*
 #omens-main .omens-category {
