@@ -10992,6 +10992,7 @@ body.light  {
 
 .light .brochure-side,
 .light .character-links a:before,
+.light .forum-info .forum-name:after,
 .light .forum-info .forum-name:after {
   background:var(--border);
 }
@@ -11092,7 +11093,7 @@ body.light  {
 }
 
 .light #main-profile .simple-tabs__list-item>span,
-.light #main-profile .archive .head, {
+.light #main-profile .archive .head {
   color:var(--basic-text);
 }
 
