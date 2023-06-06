@@ -11158,7 +11158,8 @@ body.light  {
 }
 
 .light .staff-template b,
-.light .staff-template strong {
+.light .staff-template strong,
+.light .post-row .post-container .omens-wanted-1 .want-basics b {
   color:var(--basic-text);
   text-decoration-color:var(--border);
 }
@@ -11176,7 +11177,8 @@ body.light  {
 }
 
 .light .omens-development-1.omens-development-1-playlist h1,
-.light .code-title {
+.light .code-title,
+.light .post-row .post-container .omens-wanted-1 h1 {
   color:var(--white-text);
 }
 
