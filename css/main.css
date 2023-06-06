@@ -3848,6 +3848,7 @@ a.user-small-info:hover:before {
 .relationship .line-2 {
   font: 700 0.6rem/100% "open sans", sans-serif;
   text-transform: uppercase;
+  max-width:90%;
 }
 
 .relationship .icon {
