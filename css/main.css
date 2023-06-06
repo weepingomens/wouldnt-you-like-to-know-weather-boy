@@ -11197,7 +11197,12 @@ body.light  {
 .light .omens-phone1-speaker:after,
 .light .omens-phone1-phone:after,
 .light .omens-phone1-phone:before,
-.light .omens-phone1-phone:after {
+.light .omens-phone1-phone:after,
+.light .omens-phone-3,
+.light .omens-phone-3:before,
+.light .omens-phone-3 .phone-power,
+.light .omens-phone-3 .phone-contain .phone-messages msg,
+.light .omens-phone-3 .phone-contain .phone-deco .phone-deco2 {
   background: rgba(255, 255, 255, 20%);
 }
 
@@ -11207,6 +11212,19 @@ body.light  {
 
 .light .omens-phone1-phone2 {
   background: rgba(0, 0, 0, 5%);
+}
+
+.light .omens-phone-3 .phone-contain .phone-messages {
+  background:#ddd;
+}
+
+.light .omens-phone-3 .phone-contain .phone-messages .phone-scroll::-webkit-scrollbar-thumb, .light .omens-phone-3 .phone-contain .phone-callscreen speech2::-webkit-scrollbar-thumb {
+  background:#eee;
+  border-color:#ddd;
+}
+
+.light .omens-phone-3 .phone-contain .phone-messages .phone-scroll::-webkit-scrollbar-track, .light .omens-phone-3 .phone-contain .phone-callscreen speech2::-webkit-scrollbar-track {
+  background:#ddd;
 }
 
 .light .post-row .user-name .font-icon:before {
