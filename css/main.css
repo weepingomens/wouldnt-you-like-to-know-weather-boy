@@ -10961,6 +10961,7 @@ a.user-small-info:hover:before {
   --basic-text-lighter:#888;
   --border:rgba(0,0,0,7%);
   --default-border:2px solid var(--border);
+  --bg:#bbb;
 }
 .light #omens-body #omens-sidebar {
   background:#ccc;
@@ -11010,6 +11011,26 @@ a.user-small-info:hover:before {
 
 .light #omens-body:before {
   background:rgba(0,0,0,3%);
+}
+
+.light .user-details {
+  color:var(--basic-text);
+}
+
+.light #main-profile .user-quote {
+  color:var(--basic-text-lighter);
+}
+
+.light #main-profile .threat-level:after {
+  color: rgba(0,0,0,10%);
+}
+
+.light .relationship .icon {
+  color:var(--bg);
+}
+
+.light .user-small-info {
+  background:var(--bg);
 }
 
 /* END LIGHT MODE */
