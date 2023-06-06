@@ -10957,6 +10957,32 @@ body {
   background-attachment: fixed;
   font: 400 1rem/1.6 'open sans', sans-serif;
   --category-header:#333;
+  --basic-text:#333;
+  --basic-text-hover:#999;
+  --border:rgba(0,0,0,5%);
+}
+.light #omens-body #omens-sidebar {
+  background:#eee;
+}
+.light #omens-body #omens-sidebar::after {
+  filter:grayscale(100%);
+}
+.light #omens-body #omens-sidebar .sidebar-group a,
+.light .brochure-desc {
+  color:var(--basic-text);
+}
+
+.light #omens-body #omens-sidebar .sidebar-group a:hover {
+  color:var(--basic-text-hover);
+}
+
+.light #omens-body #omens-sidebar .sidebar-group h1 div,
+.light .brochure-desc {
+  border-color:var(--border);
+}
+
+.light .brochure-side {
+  background:var(--border);
 }
 /* END LIGHT MODE */
 /*
