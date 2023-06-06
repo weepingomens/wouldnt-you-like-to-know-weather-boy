@@ -11070,6 +11070,10 @@ body.light  {
   color:var(--basic-text-lighter);
 }
 
+.light .user-small-info:before a.user-small-info:before {
+  color: rgba(var(--main-accent-rgb), .7);
+}
+
 .light .light #main-profile section.content acedia:after, .light #main-profile section.content avaricia:after, .light #main-profile section.content gula:after, .light #main-profile section.content invidia:after, .light #main-profile section.content ira:after, .light #main-profile section.content luxuria:after, .light #main-profile section.content superbia:after {
   filter:none;
 }
