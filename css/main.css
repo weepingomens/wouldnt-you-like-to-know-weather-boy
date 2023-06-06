@@ -10993,7 +10993,8 @@ body.light  {
 .light .brochure-side,
 .light .character-links a:before,
 .light .forum-info .forum-name:after,
-.light .forum-info .forum-name:after {
+.light .forum-info .forum-name:after,
+.light .topic-container .topic-title:after {
   background:var(--border);
 }
 
