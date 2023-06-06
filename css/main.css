@@ -10970,6 +10970,9 @@ body.light  {
 .light #omens-body #omens-sidebar::after {
   filter:grayscale(100%);
 }
+.light #omens-body #omens-sidebar #sidebar-toggle {
+  mix-blend-mode:color-burn;
+}
 .light #omens-body #omens-sidebar .sidebar-group a,
 .light .brochure-desc {
   color:var(--basic-text);
