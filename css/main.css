@@ -11043,7 +11043,7 @@ body.light  {
 }
 
 .light .relationship .icon {
-  background:var(--bg);
+  border-color:var(--bg);
 }
 
 .light .user-small-info {
