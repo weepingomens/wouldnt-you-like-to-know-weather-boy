@@ -11024,7 +11024,9 @@ body.light  {
 }
 
 .light .comm-forum .comm-link span,
-.light #omens-footer .now-online .online-list b {
+.light #omens-footer .now-online .online-list b,
+.light .forum-statistics,
+.light .user-quote {
   color:var(--basic-text-lighter);
 }
 
@@ -11052,7 +11054,7 @@ body.light  {
   color:var(--basic-text-lighter);
 }
 
-.light #main-profile .threat-level:after,
+.light .threat-level:after,
 .light #main-profile section.content .header {
   color: rgba(0,0,0,10%);
 }
