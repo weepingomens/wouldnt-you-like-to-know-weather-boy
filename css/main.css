@@ -10978,7 +10978,8 @@ body.light  {
 .light .brochure-desc,
 .light .subforum-list .subforums a:hover,
 .light .forum-info .forum-desc,
-.light .topic-container .topic-desc {
+.light .topic-container .topic-desc,
+.light .staff-template h2 {
   color:var(--basic-text);
 }
 
@@ -11028,7 +11029,9 @@ body.light  {
 .light .forum-statistics,
 .light .user-quote,
 .light .post-row .post-container .staff-template h4,
-.light .staff-template .countdown_row {
+.light .staff-template .countdown_row,
+.light .post-row .post-container .staff-template h1,
+.light .staff-template h3 {
   color:var(--basic-text-lighter);
 }
 
@@ -11111,7 +11114,8 @@ body.light  {
 
 .light #main-profile .archive .head,
 .light #main-profile .tracker-item,
-.light .forum-info .last-poster-topic a {
+.light .forum-info .last-poster-topic a,
+.light .staff-template h2 {
   border-bottom: var(--default-border);
 }
 
@@ -11144,6 +11148,15 @@ body.light  {
   color: rgba(255, 255, 255, 33%);
 }
 
+.light .staff-template b,
+.light .staff-template strong {
+  color:var(--basic-text);
+  text-decoration-color:var(--border);
+}
+
+.light .code-scroll {
+  background: rgba(255, 255, 255, 10%);
+}
 /* END LIGHT MODE */
 /*
 #omens-main .omens-category {
