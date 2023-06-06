@@ -10994,6 +10994,19 @@ a.user-small-info:hover:before {
   color:var(--border);
 }
 
+.light .wanted-deco,
+.light header.communications:before {
+  opacity:10%;
+}
+
+.light #omens-footer .footer-links a i {
+  color:rgba(255,255,255,15%);
+}
+
+.light .extras-container .affiliate:after {
+  opacity:5%;
+}
+
 .light .comm-forum .comm-link span,
 .light #omens-footer .now-online .online-list b {
   color:var(--basic-text-lighter);
