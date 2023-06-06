@@ -11201,6 +11201,10 @@ body.light  {
   background: rgba(255, 255, 255, 20%);
 }
 
+.light .omens-phone1-phonecall img {
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 7%);
+}
+
 .light .omens-phone1-phone2 {
   background: rgba(0, 0, 0, 5%);
 }
