@@ -11081,7 +11081,9 @@ body.light  {
   border-color:var(--bg);
 }
 
-.light .user-small-info {
+.light .user-small-info,
+.light .omens-phone-2 .phone-contain .phone-deco,
+.light .omens-phone-2 {
   background:var(--bg);
 }
 
