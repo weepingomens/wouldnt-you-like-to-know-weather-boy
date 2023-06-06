@@ -10961,6 +10961,7 @@ body.light  {
   --border:rgba(0,0,0,7%);
   --default-border:2px solid var(--border);
   --bg:#bbb;
+  --italic: #555;
 }
 .light #omens-body #omens-sidebar {
   background:#ccc;
@@ -11042,7 +11043,7 @@ body.light  {
 }
 
 .light .relationship .icon {
-  color:var(--bg);
+  background:var(--bg);
 }
 
 .light .user-small-info {
@@ -11050,7 +11051,7 @@ body.light  {
 }
 
 .light #main-profile section.content u {
-  color:#999;
+  color:#333;
 }
 
 .light #omens-page-brochure cw,
