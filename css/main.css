@@ -11026,7 +11026,9 @@ body.light  {
 .light .comm-forum .comm-link span,
 .light #omens-footer .now-online .online-list b,
 .light .forum-statistics,
-.light .user-quote {
+.light .user-quote,
+.light .post-row .post-container .staff-template h4,
+.light .staff-template .countdown_row {
   color:var(--basic-text-lighter);
 }
 
