@@ -6126,7 +6126,7 @@ a.user-small-info:hover:before {
   width: 30px;
   height: 15px;
   clip-path: polygon(50% 100%, 0 0, 100% 0);
-  bottom: -15px;
+  bottom: -14px;
 }
 
 .omens-phone-3.omens-phone-text .phone-contain .phone-background:after,
