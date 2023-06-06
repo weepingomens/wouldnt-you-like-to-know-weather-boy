@@ -2447,10 +2447,6 @@ header.category:after {
   text-transform: lowercase;
 }
 
-.latest-announcement a:hover {
-  cursor: crosshair;
-}
-
 .announcement-flavor {
   font-family: 'montserrat', sans-serif;
   font-style: normal;
