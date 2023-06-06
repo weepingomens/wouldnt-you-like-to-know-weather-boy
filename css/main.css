@@ -11209,7 +11209,9 @@ body.light  {
 .light .omens-phone-4 .phone-deco1 .phone-speaker:after,
 .light .omens-phone-4 .phone-deco2:after,
 .light .omens-phone-4 .phone-l-buttons div,
-.light .omens-phone-4 .phone-l-buttons:after {
+.light .omens-phone-4 .phone-l-buttons:after,
+.light .omens-phone-4.omens-phone-text .phone-contain .phone-input tagged,
+.light .omens-phone-4.omens-phone-text .phone-contain .phone-input msg {
   background: rgba(255, 255, 255, 20%);
 }
 
