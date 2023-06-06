@@ -1345,6 +1345,10 @@ input[type="submit"] {
   color: #aaa;
 }
 
+#omens-body #light-toggle:hover {
+  cursor:crosshair;
+}
+
 #omens-body #omens-header {
   grid-area: omens-header;
   width: 1175px;
