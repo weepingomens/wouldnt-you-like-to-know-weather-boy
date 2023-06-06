@@ -11163,6 +11163,10 @@ body.light  {
 .light #main-profile section.content werewolf:after, .light #main-profile section.content vampire:after, .light #main-profile section.content hunter:after {
   color:rgba(0, 0, 0, 3%);
 }
+
+.light .select-destination.category-3 .board-quicklink {
+  color:var(--basic-text);
+}
 /* END LIGHT MODE */
 /*
 #omens-main .omens-category {
