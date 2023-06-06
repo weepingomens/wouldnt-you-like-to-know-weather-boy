@@ -11054,6 +11054,10 @@ body.light  {
   color:#333;
 }
 
+.light #main-profile section.content .simple-tabs__content ul li:before {
+  color: rgba(0, 0, 0, 25%);
+}
+
 .light #omens-page-brochure cw,
 .light #omens-page-brochure cw-toggle,
 .light #main-profile section.content cw,
