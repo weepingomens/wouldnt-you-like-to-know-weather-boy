@@ -64,7 +64,7 @@
 #CharacterBreakdown {
     display:flex;
     gap:25px;
-    margin-bottom:25px;
+    justify-content: space-evenly;
 } 
 
 #CharacterBreakdown .group {
@@ -75,12 +75,28 @@
     align-items: center;
     justify-items: center;
     position: relative;
-    padding:25px 0;
+    padding:25px;
 }
 
 #CharacterBreakdown .group em {
     font:800 1.875rem/100% 'Playfair Display', serif;
     color: rgba(255, 255, 255, 25%);
+}
+
+#CharacterBreakdown .group.Vampires em {
+    color:var(--vampire)
+}
+
+#CharacterBreakdown .group.Witches em {
+    color:var(--witch)
+}
+
+#CharacterBreakdown .group.Werewolves em {
+    color:var(--werewolf)
+}
+
+#CharacterBreakdown .group.Humans em {
+    color:var(--human)
 }
 
 #CharacterBreakdown .group:before {
