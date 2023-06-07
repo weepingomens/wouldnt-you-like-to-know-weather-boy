@@ -10997,7 +10997,11 @@ body.light  {
 .light .omens-post-8 .post-body tagged a,
 .light .omens-post-9 .lyric-2,
 .light .omens-post-9 .lyric-2-override,
-.light .omens-post-9 .post-body tagged a {
+.light .omens-post-9 .post-body tagged a,
+.light .omens-post-10 .lyric-2, 
+.light .omens-post-10 .lyric-2-override,
+.light .omens-post-10 .post-body u,
+.light .omens-post-10 .post-body tagged a {
   color:var(--basic-text);
 }
 
@@ -11232,7 +11236,8 @@ body.light  {
 .light .omens-phone-4 .phone-l-buttons:after,
 .light .omens-phone-4.omens-phone-text .phone-contain .phone-input tagged,
 .light .omens-phone-4.omens-phone-call .phone-contain .phone-input tagged,
-.light .omens-phone-4.omens-phone-dial .phone-contain .phone-input tagged2 {
+.light .omens-phone-4.omens-phone-dial .phone-contain .phone-input tagged2,
+.light .omens-post-10 .post-body u {
   background: rgba(255, 255, 255, 20%);
 }
 
@@ -11319,6 +11324,11 @@ body.light  {
 
 .light .omens-post-8 .post-icon-contain {
   background:rgba(0,0,0,75%);
+}
+
+.light .omens-post-10::before {
+  background: url(../src/img/dot-background-black.png);
+    opacity: 7%;
 }
 /* END LIGHT MODE */
 /*
