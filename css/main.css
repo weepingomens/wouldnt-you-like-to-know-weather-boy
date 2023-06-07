@@ -1034,7 +1034,7 @@ input[type="submit"] {
 
 #omens-body input[type="text"] {
   text-transform: none;
-  font: 700 0.6rem 'open sans', sans-serif;
+  font: 500 1rem/1 'open sans', sans-serif;
 }
 
 #omens-body input[type="submit"] {
