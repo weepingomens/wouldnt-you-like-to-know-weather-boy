@@ -593,7 +593,7 @@ textarea {
 
 .forminput, .codebuttons {
   padding: 5px;
-  font: 700 0.6rem 'open sans', sans-serif;
+  font: var(--small-header);
   background: #262626;
   border: 0;
   text-transform: uppercase;
@@ -618,7 +618,7 @@ textarea {
   padding: 10px;
   text-transform: uppercase;
   color: #aaa;
-  font: 700 0.6rem 'open sans', sans-serif;
+  font: var(--small-header);
 }
 
 .topic-title-space {
@@ -634,7 +634,7 @@ textarea {
 .maintitle .topic-desc {
   display: inline-block;
   letter-spacing: 0;
-  font: 700 0.6rem 'open sans', sans-serif;
+  font: var(--small-header);
   padding: 0 25px;
   color: #1c1c1c;
   letter-spacing: 0.2rem;
@@ -708,7 +708,7 @@ textarea {
 }
 
 #posting-form .pformstrip {
-  font: 700 0.6rem 'open sans', sans-serif;
+  font: var(--small-header);
   text-transform: uppercase;
   padding: 10px;
 }
@@ -1026,7 +1026,7 @@ input[type="submit"] {
   margin: 0;
   background: #444;
   border: 0;
-  font: 700 0.6rem 'open sans', sans-serif;
+  font: var(--small-header);
   padding: 7px;
   border-radius: 5px;
   color: #aaa;
@@ -3559,7 +3559,7 @@ header.communications:before {
 }
 
 .user-position {
-  font: 700 0.6rem 'open sans', sans-serif;
+  font: var(--small-header);
   text-transform: uppercase;
 }
 
@@ -3788,7 +3788,7 @@ a.user-small-info:hover:before {
 }
 
 .post-row .ooc-details span {
-  font: 700 0.6rem 'open sans', sans-serif;
+  font: var(--small-header);
   color: #1c1c1c;
   letter-spacing: 0.2rem;
   text-transform: uppercase;
@@ -4090,7 +4090,7 @@ a.user-small-info:hover:before {
 .staff-template .countdown_row {
   margin: 0;
   padding: 0;
-  font: 700 0.6rem 'open sans', sans-serif;
+  font: var(--small-header);
   color: rgba(255, 255, 255, 20%);
   letter-spacing: 0.2rem;
   text-transform: uppercase;
@@ -4180,7 +4180,7 @@ a.user-small-info:hover:before {
 }
 
 .omens-wanted-1 .want-title span {
-  font: 700 0.6rem 'open sans', sans-serif;
+  font: var(--small-header);
   color: #1c1c1c;
   letter-spacing: 0.2rem;
   text-transform: uppercase;
@@ -4306,7 +4306,7 @@ a.user-small-info:hover:before {
   grid-area: multi-1-details;
   text-transform: uppercase;
   align-self: start;
-  font: 700 0.6rem 'open sans', sans-serif;
+  font: var(--small-header);
 }
 
 .omens-wanted-1-multi .want-character .want-char-desc {
@@ -4372,7 +4372,7 @@ a.user-small-info:hover:before {
 }
 
 .omens-development-1 header span {
-  font: 700 0.6rem 'open sans', sans-serif;
+  font: var(--small-header);
   color: #1c1c1c;
   letter-spacing: 0.2rem;
   text-transform: uppercase;
@@ -4400,7 +4400,7 @@ a.user-small-info:hover:before {
 }
 
 .omens-development-1 cite {
-  font: 700 0.6rem 'open sans', sans-serif;
+  font: var(--small-header);
   letter-spacing: 0.2rem;
   text-transform: uppercase;
   height: 100%;
@@ -4618,7 +4618,7 @@ a.user-small-info:hover:before {
 }
 
 .omens-insta-1 .insta-title .insta-list span {
-  font: 700 0.6rem 'open sans', sans-serif;
+  font: var(--small-header);
   color: #1c1c1c;
   letter-spacing: 0.2rem;
   text-transform: uppercase;
@@ -4665,7 +4665,7 @@ a.user-small-info:hover:before {
   height: 100%;
   background: var(--custom);
   mix-blend-mode: multiply;
-  font: 700 0.6rem 'open sans', sans-serif;
+  font: var(--small-header);
   text-transform: uppercase;
   color: #1c1c1c;
   letter-spacing: 0.2rem;
@@ -4736,7 +4736,7 @@ a.user-small-info:hover:before {
 
 .omens-insta-2 #insta-tags {
   display: flex;
-  font: 700 0.6rem 'open sans', sans-serif;
+  font: var(--small-header);
   text-transform: uppercase;
   letter-spacing: 0.2rem;
   gap: 10px;
@@ -4789,7 +4789,7 @@ a.user-small-info:hover:before {
 
 .omens-insta-2 .insta-comment h1 span {
   display: block;
-  font: 700 0.6rem 'open sans', sans-serif;
+  font: var(--small-header);
   text-transform: uppercase;
   letter-spacing: 0.2rem;
   border: 0;
@@ -4811,7 +4811,7 @@ a.user-small-info:hover:before {
   background: var(--custom);
   color: #1c1c1c;
   position: absolute;
-  font: 700 0.6rem 'open sans', sans-serif;
+  font: var(--small-header);
   text-transform: uppercase;
   letter-spacing: 0.2rem;
   right: 15px;
@@ -4904,7 +4904,7 @@ a.user-small-info:hover:before {
 
 .omens-twit-1 .twit-username {
   grid-area: twit-1-user;
-  font: 700 0.6rem 'open sans', sans-serif;
+  font: var(--small-header);
   color: #1c1c1c;
   letter-spacing: 0.2rem;
   text-transform: uppercase;
@@ -4927,7 +4927,7 @@ a.user-small-info:hover:before {
 }
 
 .omens-twit-1 .twit-follow span {
-  font: 700 0.6rem 'open sans', sans-serif;
+  font: var(--small-header);
   color: #1c1c1c;
   letter-spacing: 0.2rem;
   text-transform: uppercase;
@@ -4970,7 +4970,7 @@ a.user-small-info:hover:before {
 
 .omens-twit-1 .twit-contain .tweet b span {
   color: rgba(255, 255, 255, 25%);
-  font: 700 0.6rem 'open sans', sans-serif;
+  font: var(--small-header);
   letter-spacing: 0.2rem;
   text-transform: uppercase;
 }
@@ -5020,7 +5020,7 @@ a.user-small-info:hover:before {
 
 .omens-twit-2 b span {
   color: rgba(255, 255, 255, 25%);
-  font: 700 0.6rem 'open sans', sans-serif;
+  font: var(--small-header);
   letter-spacing: 0.2rem;
   text-transform: uppercase;
 }
@@ -5224,7 +5224,7 @@ a.user-small-info:hover:before {
   width: calc(100% - 20px);
   padding: 5px 10px;
   background: rgba(0, 0, 0, 33%);
-  font: 700 0.6rem 'open sans', sans-serif;
+  font: var(--small-header);
   letter-spacing: 0.2rem;
   text-transform: uppercase;
   gap: 10px;
@@ -5235,7 +5235,7 @@ a.user-small-info:hover:before {
   width: calc(100% - 40px);
   padding: 10px 20px;
   background: var(--custom);
-  font: 700 0.6rem 'open sans', sans-serif;
+  font: var(--small-header);
   color: #1c1c1c;
   letter-spacing: 0.2rem;
   text-transform: uppercase;
@@ -5500,7 +5500,7 @@ a.user-small-info:hover:before {
 .omens-phone1-phonecall tagged:before {
   content: 'outgoing call to';
   letter-spacing: 0.2rem;
-  font: 700 0.6rem 'open sans', sans-serif;
+  font: var(--small-header);
   text-transform: uppercase;
   color: rgba(255, 255, 255, 20%);
 }
@@ -5638,7 +5638,7 @@ a.user-small-info:hover:before {
   color: rgba(255, 255, 255, 80%);
   gap: 5px;
   padding: 5px 10px;
-  font: 700 0.6rem 'open sans', sans-serif;
+  font: var(--small-header);
   letter-spacing: 0.05rem;
   text-transform: uppercase;
   z-index: 1;
@@ -5801,7 +5801,7 @@ a.user-small-info:hover:before {
   color: rgba(255, 255, 255, 80%);
   align-self: flex-start;
   border: 2px solid rgba(255, 255, 255, 80%);
-  font: 700 0.6rem 'open sans', sans-serif;
+  font: var(--small-header);
   text-transform: uppercase;
   height: 14px;
   display: grid;
@@ -5853,7 +5853,7 @@ a.user-small-info:hover:before {
   display: block;
   content: "now calling...";
   letter-spacing: 0.2rem;
-  font: 700 0.6rem 'open sans', sans-serif;
+  font: var(--small-header);
   text-transform: uppercase;
   letter-spacing: 0.2rem;
   color: rgba(255, 255, 255, 50%);
@@ -6068,7 +6068,7 @@ a.user-small-info:hover:before {
   position: absolute;
   top: -20px;
   letter-spacing: 0.2rem;
-  font: 700 0.6rem 'open sans', sans-serif;
+  font: var(--small-header);
   text-transform: uppercase;
 }
 
@@ -9957,7 +9957,7 @@ a.user-small-info:hover:before {
 }
 
 #main-profile section.header span {
-  font: 700 0.6rem 'open sans', sans-serif;
+  font: var(--small-header);
   color: #1c1c1c;
   letter-spacing: 0.2rem;
   text-transform: uppercase;
@@ -10226,7 +10226,7 @@ a.user-small-info:hover:before {
 #main-profile section.content h3 {
   margin: 0;
   padding: 0;
-  font: 700 0.6rem 'open sans', sans-serif;
+  font: var(--small-header);
   color: rgba(255, 255, 255, 20%);
   letter-spacing: 0.2rem;
   text-transform: uppercase;
@@ -10413,7 +10413,7 @@ a.user-small-info:hover:before {
 #main-profile section.content luxuria h1:after,
 #main-profile section.content superbia h1:after {
   margin: 10px 0 5px;
-  font: 700 0.6rem 'open sans', sans-serif;
+  font: var(--small-header);
   color: rgba(255, 255, 255, 33%);
   letter-spacing: 0.1rem;
   text-transform: uppercase;
@@ -10508,7 +10508,7 @@ a.user-small-info:hover:before {
 #main-profile section.content werewolf h4 {
   margin: 0;
   padding: 0;
-  font: 700 0.6rem 'open sans', sans-serif;
+  font: var(--small-header);
   color: rgba(255, 255, 255, 20%);
   letter-spacing: 0.2rem;
   text-transform: uppercase;
@@ -10587,7 +10587,7 @@ a.user-small-info:hover:before {
 #main-profile section.content .simple-tabs__content ul li {
   text-transform: uppercase;
   font-weight: 500;
-  font: 700 0.6rem 'open sans', sans-serif;
+  font: var(--small-header);
 }
 
 #main-profile section.content .simple-tabs__content ul li:before {
@@ -10762,7 +10762,7 @@ a.user-small-info:hover:before {
 
 #main-profile section.ooc-info li,
 #main-profile section.ooc-info a {
-  font: 700 0.6rem 'open sans', sans-serif;
+  font: var(--small-header);
   color: #1c1c1c;
   letter-spacing: 0.2rem;
   text-transform: uppercase;
@@ -10836,7 +10836,7 @@ a.user-small-info:hover:before {
 #main-profile section.content .tracker-desc,
 #main-profile section.content .tracker-lastpost,
 #main-profile section.content .tracker-lastpost b {
-  font: 700 0.6rem 'open sans', sans-serif;
+  font: var(--small-header);
   text-transform: uppercase;
   color: #555;
   letter-spacing: .025em;
