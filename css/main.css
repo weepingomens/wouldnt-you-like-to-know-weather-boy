@@ -11004,7 +11004,10 @@ body.light  {
 .light .omens-post-10 .post-body tagged a,
 .light .omens-post-11 .post-body u,
 .light .omens-post-12-2 .post-body i,
-.light .omens-post-12-2 .lyric-post .lyric-2 {
+.light .omens-post-12-2 .lyric-post .lyric-2,
+.light .omens-post-13 .post-body i,
+.light .omens-post-14,
+.light .omens-post-14 .post-text i {
   color:var(--basic-text);
 }
 
@@ -11332,7 +11335,8 @@ body.light  {
 .light .omens-post-12-2 .lyric-post .lyric-1 { 
   border-color:var(--basic-text);
 }
-.light .omens-post-12-2 .post-image-1 {
+.light .omens-post-12-2 .post-image-1,
+.light .omens-post-14 {
   outline-color:var(--basic-text);
 }
 .light .omens-post-8 .post-icon-contain {
@@ -11356,6 +11360,15 @@ body.light  {
 
 .light .omens-post-12-2 .lyric-post .post-body {
   background: #c5c5c5;
+}
+
+.light .omens-post-13 .post-body {
+  border-color:var(--white-text);
+}
+
+.light .omens-post-14 .post-text,
+.light .omens-post-14 .post-text u {
+  background-color:var(--bg);
 }
 /* END LIGHT MODE */
 /*
