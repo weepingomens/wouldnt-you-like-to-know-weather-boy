@@ -64,6 +64,7 @@
 #CharacterBreakdown {
     display:flex;
     gap:25px;
+    margin-bottom:25px;
 } 
 
 #CharacterBreakdown .group {
