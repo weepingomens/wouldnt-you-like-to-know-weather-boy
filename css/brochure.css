@@ -29,3 +29,8 @@
 .light .color-werewolf {
     --group:var(--werewolf);
 }
+
+.light #omens-page-brochure code {
+    background: var(--white-text);
+    color: var(--basic-text);
+}
