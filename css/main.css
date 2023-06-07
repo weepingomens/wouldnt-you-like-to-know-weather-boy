@@ -11023,7 +11023,8 @@ body.light  {
 .light .omens-post-8 .lyric-2, 
 .light .omens-post-8 .lyric-2-override,
 .light .omens-post-6 .post-lyrics .lyric-2,
-.light .omens-post-6 .post-lyrics .lyric-2-override {
+.light .omens-post-6 .post-lyrics .lyric-2-override,
+.light .darkrow2 {
   color:var(--basic-text);
 }
 
