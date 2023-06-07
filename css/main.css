@@ -10994,7 +10994,10 @@ body.light  {
 .light .omens-post-8 .lyric-1,
 .light .omens-post-8 .lyric-1-override,
 .light .omens-post-8 .post-body u,
-.light .omens-post-8 .post-body tagged a {
+.light .omens-post-8 .post-body tagged a,
+.light .omens-post-9 .lyric-2,
+.light .omens-post-9 .lyric-2-override,
+.light .omens-post-9 .post-body tagged a {
   color:var(--basic-text);
 }
 
