@@ -11010,11 +11010,14 @@ body.light  {
 .light .omens-post-14 .post-text i,
 .light .omens-post-15 .lyric-2,
 .light .omens-post-15 .post-body i,
-.light .omens-post-16 .lyric-2 {
+.light .omens-post-16 .lyric-2,
+.light .omens-post-18 .post-body u {
   color:var(--basic-text);
 }
 
-.light .omens-post-7 .post-lyrics {
+.light .omens-post-7 .post-lyrics,
+.light .omens-post-18 .post-icon,
+.light .omens-post-18 .post-icon-override {
   background:var(--basic-text);
 }
 
@@ -11042,7 +11045,8 @@ body.light  {
 .light .board-quicklink-container:before,
 .light #omens-footer .city-records,
 .light header.communications,
-.light #omens-footer .now-online em {
+.light #omens-footer .now-online em,
+.light .omens-post-18 .post-body tagged a {
   color:var(--border);
 }
 
@@ -11077,7 +11081,8 @@ body.light  {
 .light .omens-development-1.omens-development-1-playlist song cite,
 .light .omens-phone1-phonecall tagged:before,
 .light .pagination_current,
-.light .omens-post-16 .post-body i {
+.light .omens-post-16 .post-body i,
+.light .omens-post-18 .post-body i {
   color:var(--basic-text-lighter);
 }
 
@@ -11386,6 +11391,11 @@ body.light  {
 .light .omens-post-17 .post-icon img,
 .light .omens-post-17 .post-icon-override img {
   mix-blend-mode: luminosity;
+}
+
+.light .omens-post-18 .post-body {
+  border: 5px solid rgba(255, 255, 255, 20%);
+  background: rgba(255, 255, 255, 7%);
 }
 /* END LIGHT MODE */
 /*
