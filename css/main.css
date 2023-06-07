@@ -11031,7 +11031,9 @@ body.light  {
   opacity: 10%;
 }
 
-.light #omens-footer .footer-links a i {
+.light #omens-footer .footer-links a i,
+.light .topic-container.pinned:before,
+.light .topic-container.announcement:before {
   color:rgba(255,255,255,15%);
 }
 
@@ -11260,11 +11262,6 @@ body.light  {
 
 .light .threat-level:before {
   background:#ccc;
-}
-
-.light .topic-container.pinned:before,
-.light .topic-container.announcement:before {
-  color: rgba(0, 0, 0, 5%);
 }
 
 /* END LIGHT MODE */
