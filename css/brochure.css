@@ -43,11 +43,20 @@
 .light .faceclaim-list-item, 
 .light .canon-list-item,
 .light .claims-table-item,
-.light #claims-table-headers {
+.light #claims-table-headers,
+.light #omens-page-brochure {
     border-color:var(--border);
 }
 
 .light .faceclaim-list-item a span,
 .light .canon-list-item a span {
     color:var(--group);
+}
+
+.light .brochure-sidebar-h1 {
+    color:var(--border);
+}
+
+.sidebar-tabs:hover {
+    cursor:crosshair;
 }
