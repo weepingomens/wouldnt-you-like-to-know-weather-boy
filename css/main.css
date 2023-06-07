@@ -3404,7 +3404,7 @@ header.communications:before {
     font-style: italic;
     font-weight: 800;
     font-size: 1.5rem;
-    line-height: 100%;
+    line-height: 2rem;
 }
 
 #recents a:hover strong {
