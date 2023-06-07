@@ -2568,7 +2568,7 @@ header.category:after {
   font-family: 'Playfair Display';
   font-style: normal;
   font-weight: 900;
-  font-size: 64px;
+  font-size: 4rem;
   line-height: 80%;
   display: flex;
   align-items: center;
@@ -2607,7 +2607,7 @@ header.category:after {
   font-family: 'Playfair Display';
   font-style: italic;
   font-weight: 700;
-  font-size: 48px;
+  font-size: 3rem;
   line-height: 100%;
   display: flex;
   align-items: center;
@@ -2642,7 +2642,7 @@ header.communications {
   font-family: 'Playfair Display', serif;
   font-style: normal;
   font-weight: 800;
-  font-size: 96px;
+  font-size: 6rem;
   line-height: 100%;
   color: #151515;
   letter-spacing: -0.1em;
@@ -2753,7 +2753,7 @@ header.communications:before {
   font-family: 'Playfair Display', serif;
   font-style: italic;
   font-weight: 800;
-  font-size: 96px;
+  font-size: 6rem;
   line-height: 60%;
 }
 
@@ -2892,7 +2892,7 @@ header.communications:before {
   font-family: 'Playfair Display', sans-serif;
   font-style: italic;
   font-weight: 900;
-  font-size: 64px;
+  font-size: 4rem;
   line-height: 75%;
   max-width: min-content;
   opacity: 70%;
@@ -3012,7 +3012,7 @@ header.communications:before {
   font-family: 'Playfair Display', serif;
   font-style: italic;
   font-weight: 700;
-  font-size: 48px;
+  font-size: 3rem;
   line-height: 70%;
   color: rgba(var(--main-accent-rgb), .5);
   text-align: center;
