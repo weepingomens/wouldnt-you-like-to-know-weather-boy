@@ -3258,9 +3258,7 @@ header.communications:before {
 
 
 #omens-footer .now-online .online-list b {
-  font-style: normal;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 300;
+  font:400 2rem/1 'open sans',sans-serif;
   color: #bbb;
 }
 
