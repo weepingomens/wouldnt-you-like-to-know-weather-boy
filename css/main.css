@@ -10144,7 +10144,6 @@ grid-template-areas:
   justify-content: center;
   justify-items: center;
   border: var(--default-border);
-  border-width: 0 2px;
 }
 
 #main-profile section.basics .hover {
