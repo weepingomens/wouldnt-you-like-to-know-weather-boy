@@ -12,7 +12,7 @@
   --main-accent: #aaa;
   --main-accent-rgb: var(--mainAccentR), var(--mainAccentG), var(--mainAccentB);
   --main-gradient: linear-gradient(110deg, #df6885, #df6868);
-  --background:#1c1c1c;
+  --bg:#1c1c1c;
 
   --category-header: #2a2a2a;
   --italic:#777;
