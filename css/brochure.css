@@ -70,6 +70,7 @@
     display:grid;
     gap:5px;
     font:var(--small-header);
+    text-transform: uppercase;
 }
 
 #CharacterBreakdown .group em {
