@@ -11156,7 +11156,8 @@ body.light  {
 .light #posting-form #enter-your-post textarea,
 .light .quick-edit textarea,
 .light #qr_open textarea, 
-.light #ucpcontent textarea {
+.light #ucpcontent textarea,
+.light #main-profile section.content .spells span {
   color:var(--basic-text);
 }
 
