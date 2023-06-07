@@ -966,6 +966,8 @@ textarea {
   display: none;
 }
 
+#logostrip, #submenu, #userlinks, .newstext { display:none; }
+
 /* END JCINK STYLING */
 
 body {
@@ -984,6 +986,25 @@ body a {
   text-decoration: none;
   color: var(--main-accent);
 
+}
+
+#s-m-t-tooltip {
+  width:initial;
+  position:absolute;
+  max-width:300px;
+  z-index:9999999;
+  margin:10px;
+  padding:10px;
+  background:#111;
+  -moz-border-radius:3px;
+  -webkit-border-radius:3px;
+  border-radius:3px;
+  /* font */
+  color:#fff;
+    font: 700 10px open sans,sans-serif;
+    line-height: 170%;
+  text-align:justify;
+  text-transform:uppercase;
 }
 
 [type="checkbox"], [type="radio"] {
@@ -2510,6 +2531,7 @@ header.category:after {
   text-align: right;
   letter-spacing: 0.1em;
   color: rgba(0, 0, 0, 15%);
+  margin:100px 0;
 }
 
 .character-container {
@@ -3340,6 +3362,106 @@ header.communications:before {
   color: rgba(255, 255, 255, 3%);
   z-index: -1;
   transform: rotate(6deg);
+}
+
+#recents {
+	display: flex;
+	width: 70%;
+	overflow: auto;
+	margin:25px 0;
+	gap:10px;
+}
+
+#recents p {
+	margin:0;
+	display:none;
+}
+
+.holdrec { 
+    font-size: 0;
+    display: flex;
+    flex-flow: column nowrap;
+    flex-shrink: 0;
+    width: 200px;
+    justify-content: flex-end;
+    margin: 5px 0;
+	margin-bottom:5px;
+}
+
+#recents a strong {
+    text-transform: lowercase;
+    color: var(--main-accent);
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    letter-spacing: -0.05em;
+    transition: .25s;
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 100%;
+}
+
+#recents a:hover strong {
+	    color: #444;
+	transition:.25s;
+}
+
+#recents a { 
+font: 700 10px/100% 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    color: #444;
+	transition:.25s;
+} 
+
+#recents a:hover {
+	color:rgba(var(--main-accent-rgb),.66);
+	transition:.25s;
+}
+
+.cbox { 
+    background: #222;
+    padding: 25px;
+    border-radius: 5px;
+    width: 40%;
+    box-sizing: border-box;
+}
+
+.discord-embed {
+    position: absolute;
+    width: 57%;
+    background: #333;
+    z-index:999;
+    top: 580px;
+    right: 0;
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.affiliates {
+width:100%;
+box-sizing: border-box;
+padding:25px;
+display:flex;
+flex-flow:row wrap;
+gap:10px;
+justify-content:center;
+}
+
+.affiliates a {
+	filter:grayscale(1) contrast(.66);
+	transform:scale(1);
+	transition:.25s;
+}
+
+
+.affiliates a:hover {
+	filter:grayscale(0) contrast(1);
+	transform:scale(1);
+	transition:.25s;
 }
 
 /* END BOARD STATISTICS */
