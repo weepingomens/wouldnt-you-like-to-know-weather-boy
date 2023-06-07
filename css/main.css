@@ -11021,7 +11021,9 @@ body.light  {
 .light .omens-post-20 .lyric-2, 
 .light .omens-post-20 .lyric-2-override,
 .light .omens-post-8 .lyric-2, 
-.light .omens-post-8 .lyric-2-override {
+.light .omens-post-8 .lyric-2-override,
+.light .omens-post-6 .post-lyrics .lyric-2,
+.light .omens-post-6 .post-lyrics .lyric-2-override {
   color:var(--basic-text);
 }
 
@@ -11266,7 +11268,9 @@ body.light  {
 .light .omens-phone-4.omens-phone-call .phone-contain .phone-input tagged,
 .light .omens-phone-4.omens-phone-dial .phone-contain .phone-input tagged2,
 .light .omens-post-10 .post-body u,
-.light .omens-post-19 tagged a {
+.light .omens-post-19 tagged a,
+.light .light .omens-post-2,
+.light .omens-post-6 .post-body {
   background: rgba(255, 255, 255, 20%);
 }
 
@@ -11319,11 +11323,6 @@ body.light  {
 .light .omens-post-1 .lyric-2, 
 .light .omens-post-1 .lyric-2-override {
   color:var(--basic-text);
-}
-
-.light .omens-post-2,
-.light .omens-post-6 .post-body {
-  background:rgba(0,0,0,5%);
 }
 
 .light .omens-post-2 .post-body {
