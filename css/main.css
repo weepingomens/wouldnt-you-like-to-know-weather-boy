@@ -11302,6 +11302,11 @@ body.light  {
   background: #eee;
   color: var(--basic-text);
 }
+.light .omens-post-7 .post-lyrics .post-icon, 
+.light .omens-post-7 .post-lyrics .post-icon-override {
+  outline-color:#333;
+  border-color:var(--basic-text);
+}
 /* END LIGHT MODE */
 /*
 #omens-main .omens-category {
