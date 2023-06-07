@@ -10990,7 +10990,11 @@ body.light  {
 .light .omens-post-2 .post-body tagged a,
 .light .omens-post-6 .post-lyrics .lyric-1,
 .light .omens-post-6 .post-lyrics .lyric-1-override,
-.light .omens-post-6 .post-body i {
+.light .omens-post-6 .post-body i,
+.light .omens-post-8 .lyric-1,
+.light .omens-post-8 .lyric-1-override,
+.light .omens-post-8 .post-body u,
+.light .omens-post-8 .post-body tagged a {
   color:var(--basic-text);
 }
 
@@ -11308,6 +11312,10 @@ body.light  {
 .light .omens-post-7 .post-lyrics .post-icon-override {
   outline-color:#333;
   border-color:var(--basic-text);
+}
+
+.light .omens-post-8 .post-icon-contain {
+  background:rgba(0,0,0,75%);
 }
 /* END LIGHT MODE */
 /*
