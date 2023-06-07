@@ -28,6 +28,17 @@ body {
   --default-border: 2px solid var(--border);
 }
 
+body.light  {
+  --category-header:#222;
+  --basic-text:#222;
+  --basic-text-lighter:#888;
+  --border:rgba(0,0,0,7%);
+  --default-border:2px solid var(--border);
+  --bg:#bbb;
+  --italic: #555;
+  --white-text:rgba(255, 255, 255, 33%);
+}
+
 .forum-8 .forum-image:before {
   background-image: var(--forum-8);
 }

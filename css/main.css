@@ -10962,14 +10962,6 @@ body.light  {
   margin: 0;
   background-attachment: fixed;
   font: 400 1rem/1.6 'open sans', sans-serif;
-  --category-header:#222;
-  --basic-text:#222;
-  --basic-text-lighter:#888;
-  --border:rgba(0,0,0,7%);
-  --default-border:2px solid var(--border);
-  --bg:#bbb;
-  --italic: #555;
-  --white-text:rgba(255, 255, 255, 33%);
 }
 .light #omens-body #omens-sidebar {
   background:#ccc;
