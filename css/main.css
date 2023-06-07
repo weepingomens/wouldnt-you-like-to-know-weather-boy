@@ -11405,7 +11405,7 @@ body.light  {
 }
 
 .light .omens-post-18 .post-body {
-  border: 5px solid rgba(255, 255, 255, 20%);
+  border-color: rgba(255, 255, 255, 20%);
   background: rgba(255, 255, 255, 7%);
 }
 
