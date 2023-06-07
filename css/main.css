@@ -11051,7 +11051,8 @@ body.light  {
 .light .staff-template h3,
 .light .omens-development-1 lyrics,
 .light .omens-development-1.omens-development-1-playlist song cite,
-.light .omens-phone1-phonecall tagged:before {
+.light .omens-phone1-phonecall tagged:before,
+.light .pagination_current {
   color:var(--basic-text-lighter);
 }
 
