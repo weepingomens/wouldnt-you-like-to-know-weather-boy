@@ -2446,19 +2446,14 @@ header.category:after {
 }
 
 .announcement-flavor {
-  font-family: 'montserrat', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 10px;
-  letter-spacing: 2px;
+  font: 700 0.6rem/1 'open sans', sans-serif;
+  letter-spacing: .2rem;
   text-transform: uppercase;
   color: #ececec;
 }
 
 .announcement-flavor a {
   color: #111;
-  font-weight: 800;
-  letter-spacing: 2px;
 }
 
 .board-quicklink-container {
@@ -2762,11 +2757,7 @@ header.communications:before {
 }
 
 .comm-forum .comm-link span {
-  font-family: 'Montserrat', sans-serif;
-  font-style: normal;
-  font-weight: 800;
-  font-size: 10px;
-  line-height: 100%;
+  font: 700 0.6rem/1 'open sans', sans-serif;
   color: #3C3C3C;
   position: relative;
   top: 55px;
@@ -2952,7 +2943,8 @@ header.communications:before {
 }
 
 .forum-info .last-poster-topic a {
-  font: 700 10px 'montserrat', sans-serif;
+  font: 700 0.6rem/1 'open sans', sans-serif;
+  letter-spacing: .05rem;
   color: rgba(var(--main-accent-rgb), .7);
   border-bottom: 2px solid rgb(37, 37, 37);
   padding: 0px 0px 3px;
