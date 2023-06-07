@@ -3429,13 +3429,13 @@ line-height: 1;
     background: #222;
     padding: 25px;
     border-radius: 5px;
-    width: 40%;
+    width: min-content;
     box-sizing: border-box;
     float:left;
 }
 
 .discord-embed {
-  width: 59%;
+  width: max-content;
   background: #333;
   z-index: 999;
   box-sizing: border-box;
