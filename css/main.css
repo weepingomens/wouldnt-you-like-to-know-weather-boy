@@ -4367,7 +4367,7 @@ a.user-small-info:hover:before {
 }
 
 .omens-development-1 header b {
-  font: italic 900 2rem 'playfair display', serif;
+  font: var(--med-header);
   color: #1c1c1c;
 }
 
@@ -4604,7 +4604,7 @@ a.user-small-info:hover:before {
   text-align: left;
   color: #1c1c1c;
   letter-spacing: 0;
-  font: italic 900 2rem 'playfair display', serif;
+  font: var(--med-header);
   text-transform: lowercase;
 }
 
@@ -4692,7 +4692,7 @@ a.user-small-info:hover:before {
   padding: 50px;
   position: relative;
   justify-items: start;
-  font: italic 900 2rem 'playfair display', serif;
+  font: var(--med-header);
   color: #1c1c1c;
 }
 
@@ -4889,7 +4889,7 @@ a.user-small-info:hover:before {
 .post-row .post-container .omens-twit-1 h1 {
   margin: 0px;
   grid-area: twit-1-display;
-  font: italic 900 2rem 'playfair display', serif;
+  font: var(--med-header);
   text-transform: lowercase;
   letter-spacing: 0;
   color: #1c1c1c;
@@ -5008,7 +5008,7 @@ a.user-small-info:hover:before {
 
 .omens-twit-2 b {
   display: block;
-  font: italic 900 2rem 'playfair display', serif;
+  font: var(--med-header);
   color: var(--custom);
   margin-bottom: 10px;
   display: flex;
@@ -5493,7 +5493,7 @@ a.user-small-info:hover:before {
   top: 25px;
   display: grid;
   text-align: center;
-  font: italic 900 2rem 'playfair display', serif;
+  font: var(--med-header);
   place-items: center;
 }
 
