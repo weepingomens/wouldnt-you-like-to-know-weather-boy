@@ -154,7 +154,7 @@ a.mgroup-7 {
 .group-3,
 .mgroup-3 {
   --group: var(--pending);
-  --main-accent-rgb:rgb(170,170,170);
+/*  --main-accent-rgb:rgb(170,170,170); */
 }
 
 a.mgroup-3 {
