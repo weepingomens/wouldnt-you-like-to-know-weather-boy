@@ -2183,6 +2183,7 @@ input[type="submit"] {
   justify-content: center;
   font: 700 0.6rem/1 'open sans', sans-serif;
   letter-spacing: .05rem;
+  text-transform:uppercase;
 }
 
 #omens-body #omens-sidebar .sidebar-group h1 div {
