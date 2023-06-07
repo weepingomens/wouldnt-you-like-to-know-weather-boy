@@ -10991,7 +10991,8 @@ body.light  {
 .light .staff-template .countdown_section,
 .light .omens-phone-4.omens-phone-text .phone-contain .phone-input tagged,
 .light .omens-phone-4.omens-phone-call .phone-contain .phone-input tagged,
-.light .omens-phone-4.omens-phone-dial .phone-contain .phone-input tagged2 {
+.light .omens-phone-4.omens-phone-dial .phone-contain .phone-input tagged2,
+.light .omens-phone-4 .phone-input tagged:before {
   color:var(--basic-text);
 }
 
