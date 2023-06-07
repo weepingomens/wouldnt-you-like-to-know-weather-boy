@@ -3071,7 +3071,7 @@ header.communications:before {
   font-family: 'Playfair Display', serif;
   font-style: normal;
   font-weight: 900;
-  font-size: 48px;
+  font-size: 3rem;
   line-height: 80%;
   letter-spacing: -0.05em;
   color: #BBBBBB;
@@ -3191,7 +3191,7 @@ header.communications:before {
   font-family: 'Playfair Display', serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 96px;
+  font-size: 6rem;
   line-height: 100%;
   letter-spacing: -0.05em;
   color: #151515;
@@ -3225,7 +3225,7 @@ header.communications:before {
   font-family: 'Playfair Display', serif;
   font-style: normal;
   font-weight: 900;
-  font-size: 96px;
+  font-size: 6rem;
   line-height: 70%;
   letter-spacing: -0.1em;
   color: #202020;
@@ -3237,7 +3237,7 @@ header.communications:before {
   font-family: 'Playfair Display', serif;
   font-style: italic;
   font-weight: 700;
-  font-size: 36px;
+  font-size: 2.25rem;
   line-height: 100%;
   color: #4B4B4B;
   width: 45%;
@@ -3267,7 +3267,7 @@ header.communications:before {
   font-family: 'Playfair Display', serif;
   font-style: italic;
   font-weight: 800;
-  font-size: 32px;
+  font-size: 2rem;
   line-height: 100%;
   color: #333;
   text-align: right;
@@ -3318,7 +3318,7 @@ header.communications:before {
   font-family: 'Playfair Display', serif;
   font-style: italic;
   font-weight: 800;
-  font-size: 32px;
+  font-size: 2rem;
   line-height: 100%;
   color: var(--main-accent);
   display: flex;
@@ -3360,7 +3360,7 @@ header.communications:before {
   font-family: 'Playfair Display';
   font-style: italic;
   font-weight: 700;
-  font-size: 36px;
+  font-size: 2.25rem;
   line-height: 140%;
   color: rgba(var(--main-accent-rgb), .7);
   position: relative;
@@ -3531,12 +3531,12 @@ header.communications:before {
 .threat-level:after {
   content: 'THREAT LEVEL';
   position: absolute;
-  font: 700 64px/100% 'playfair display', serif;
+  font: 700 4rem/100% 'playfair display', serif;
   color: rgba(255, 255, 255, 10%);
 }
 
 .post-row a.user-profile {
-  font: 700 48px 'playfair display', serif;
+  font: 700 3rem 'playfair display', serif;
   text-transform: uppercase;
   text-align: center;
   letter-spacing: -.075em;
@@ -3552,7 +3552,7 @@ header.communications:before {
 }
 
 .user-quote {
-  font: italic 700 24px "playfair display", serif;
+  font: italic 700 1.5rem "playfair display", serif;
   text-transform: lowercase;
   color: #aaa;
   text-align: center;
@@ -3764,7 +3764,7 @@ a.user-small-info:hover:before {
 .post-row .post-container h1 {
   margin: 0;
   padding: 0;
-  font: 800 70px/100% 'Playfair Display', serif;
+  font: 800 4.375rem/100% 'Playfair Display', serif;
   text-transform: uppercase;
   letter-spacing: 0.33em;
   display: flex;
@@ -3824,7 +3824,7 @@ a.user-small-info:hover:before {
 }
 
 .relationship .line-1 {
-  font: italic 700 24px/100% "playfair display", serif;
+  font: italic 700 1.5rem/100% "playfair display", serif;
   text-transform: lowercase;
 }
 
@@ -3959,14 +3959,14 @@ a.user-small-info:hover:before {
 }
 
 .staff-template .simple-tabs__list-item>span {
-  font: italic 800 32px/100% 'Playfair Display', serif;
+  font: italic 800 2rem/100% 'Playfair Display', serif;
   text-transform: lowercase;
   color: rgba(var(--main-accent-rgb), .5);
   transition: .25s;
 }
 
 .staff-template.small-tabs .simple-tabs__list-item>span {
-  font: italic 800 18px/100% 'Playfair Display', serif;
+  font: italic 800 1.125rem/100% 'Playfair Display', serif;
 }
 
 .staff-template .simple-tabs__content {
@@ -4018,7 +4018,7 @@ a.user-small-info:hover:before {
 .staff-template h2 {
   margin: 0;
   text-align: center;
-  font: italic 800 48px/100% 'Playfair Display', serif;
+  font: italic 800 3rem/100% 'Playfair Display', serif;
   letter-spacing: -0.05em;
   color: #eee;
   border-bottom: 2px solid rgba(255, 255, 255, 5%);
@@ -4030,7 +4030,7 @@ a.user-small-info:hover:before {
 .staff-template h3 {
   margin: 25px 0;
   text-align: center;
-  font: 800 25px/100% 'Playfair Display', serif;
+  font: 800 1.5rem/100% 'Playfair Display', serif;
   text-transform: uppercase;
   color: rgba(255, 255, 255, 25%);
 }
@@ -4081,7 +4081,7 @@ a.user-small-info:hover:before {
 }
 
 .post-row .post-container .staff-template h1 {
-  font: 800 60px/100% 'Playfair Display', serif;
+  font: 800 3.75/100% 'Playfair Display', serif;
   letter-spacing: 0.01em;
   color: rgba(255, 255, 255, 15%);
 }
