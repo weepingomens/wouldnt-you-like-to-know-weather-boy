@@ -68,10 +68,14 @@
 } 
 
 #CharacterBreakdown .group {
-    display:grid;
-    gap:5px;
-    font:var(--small-header);
+    display: grid;
+    gap: 5px;
+    font: var(--small-header);
     text-transform: uppercase;
+    align-items: center;
+    justify-items: center;
+    position: relative;
+    padding:25px 0;
 }
 
 #CharacterBreakdown .group em {
@@ -79,7 +83,30 @@
     color: rgba(255, 255, 255, 25%);
 }
 
+#CharacterBreakdown .group:before {
+    position: absolute;
+    font-size: 5rem;
+    color: var(--border);
+    font-weight: 400;
+    pointer-events:none;
+}
+
+#CharacterBreakdown .group.Vampires:before {
+    font-family: "game-icons";
+    content: "\E0E2";
+}
+
+#CharacterBreakdown .group.Witches:before {
+    font-family: "game-icons";
+    content: "\E08E";
+}
+
+#CharacterBreakdown .group.Werewolves:before {
+    font-family: "game-icons";
+    content: "\E3F9";
+}
+
 #CharacterBreakdown .group.Humans:before {
     font-family: "game-icons";
-    content: "\E909";  
+    content: "\E909";
 }
