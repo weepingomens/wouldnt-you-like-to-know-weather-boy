@@ -11007,7 +11007,9 @@ body.light  {
 .light .omens-post-12-2 .lyric-post .lyric-2,
 .light .omens-post-13 .post-body i,
 .light .omens-post-14,
-.light .omens-post-14 .post-text i {
+.light .omens-post-14 .post-text i,
+.light .omens-post-15 .lyric-2,
+.light .omens-post-15 .post-body i {
   color:var(--basic-text);
 }
 
@@ -11263,7 +11265,8 @@ body.light  {
 
 .light .omens-phone-3 .phone-contain .phone-messages .phone-scroll::-webkit-scrollbar-thumb,
 .light .omens-phone-4.omens-phone-text .phone-contain .phone-input::-webkit-scrollbar-thumb,
-.light .omens-post-11 .post-body::-webkit-scrollbar-thumb {
+.light .omens-post-11 .post-body::-webkit-scrollbar-thumb,
+.light .omens-post-15 .post-body::-webkit-scrollbar-thumb {
   background:#eee;
   border-color:#ddd;
 }
@@ -11272,7 +11275,8 @@ body.light  {
 .light .omens-phone-3 .phone-contain .phone-callscreen speech2::-webkit-scrollbar-track,
 .light .omens-phone-4.omens-phone-text .phone-contain .phone-input::-webkit-scrollbar-track,
 .light .omens-post-11 .post-body::-webkit-scrollbar-track,
-.light .omens-post-12-2 .post-body::-webkit-scrollbar-track {
+.light .omens-post-12-2 .post-body::-webkit-scrollbar-track,
+.light .omens-post-15 .post-body::-webkit-scrollbar-track {
   background:#ddd;
 }
 
