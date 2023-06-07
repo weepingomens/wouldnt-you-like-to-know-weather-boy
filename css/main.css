@@ -11413,6 +11413,12 @@ body.light  {
   filter: grayscale(100%) contrast(150%);
   opacity: 2%;
 }
+
+.light .omens-post-19 tagged a:hover,
+.light .omens-post-20 .post-body tagged a:hover,
+.light .omens-post-18 .post-body tagged a:hover {
+  color:var(--group);
+}
 /* END LIGHT MODE */
 /*
 #omens-main .omens-category {
