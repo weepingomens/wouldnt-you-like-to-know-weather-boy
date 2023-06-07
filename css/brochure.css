@@ -78,8 +78,7 @@
     color: rgba(255, 255, 255, 25%);
 }
 
-#CharacterBreakdown .group.humans:before {
+#CharacterBreakdown .group.Humans:before {
     font-family: "game-icons";
-    content: "\E909";
-  }
-  
+    content: "\E909";  
+}
