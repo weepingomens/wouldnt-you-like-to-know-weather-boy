@@ -11009,7 +11009,8 @@ body.light  {
 .light .omens-post-14,
 .light .omens-post-14 .post-text i,
 .light .omens-post-15 .lyric-2,
-.light .omens-post-15 .post-body i {
+.light .omens-post-15 .post-body i,
+.light .omens-post-16 .lyric-2, {
   color:var(--basic-text);
 }
 
@@ -11075,7 +11076,8 @@ body.light  {
 .light .omens-development-1 lyrics,
 .light .omens-development-1.omens-development-1-playlist song cite,
 .light .omens-phone1-phonecall tagged:before,
-.light .pagination_current {
+.light .pagination_current,
+.light .omens-post-16 .post-body i {
   color:var(--basic-text-lighter);
 }
 
@@ -11373,6 +11375,10 @@ body.light  {
 .light .omens-post-14 .post-text,
 .light .omens-post-14 .post-text u {
   background-color:var(--bg);
+}
+
+.light .omens-post-16 .post-body u {
+  color:var(--bg);
 }
 /* END LIGHT MODE */
 /*
