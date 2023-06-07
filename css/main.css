@@ -11151,7 +11151,11 @@ body.light  {
 .light .omens-post-8 .lyric-2-override,
 .light .omens-post-6 .post-lyrics .lyric-2,
 .light .omens-post-6 .post-lyrics .lyric-2-override,
-.light .darkrow2 {
+.light .darkrow2,
+.light #posting-form #enter-your-post textarea,
+.light .quick-edit textarea,
+.light #qr_open textarea, 
+.light #ucpcontent textarea, {
   color:var(--basic-text);
 }
 
