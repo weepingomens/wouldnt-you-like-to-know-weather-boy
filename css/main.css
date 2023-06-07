@@ -10992,6 +10992,10 @@ body.light  {
   color:var(--basic-text);
 }
 
+.light .omens-post-7 .post-lyrics {
+  background:var(--basic-text);
+}
+
 .light .post1 {
   --custom:var(--basic-text);
 }
@@ -11289,6 +11293,15 @@ body.light  {
     background-blend-mode: multiply;
 }
 
+.light .omens-post-7 .post-lyrics .lyric-2, 
+.light .omens-post-7 .post-lyrics .lyric-2-override {
+  color: #eee;
+}
+.light .omens-post-7 .post-lyrics .lyric-1, 
+.light .omens-post-7 .post-lyrics .lyric-1-override {
+  background: #eee;
+  color: var(--basic-text);
+}
 /* END LIGHT MODE */
 /*
 #omens-main .omens-category {
