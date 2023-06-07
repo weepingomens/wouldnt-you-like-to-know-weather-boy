@@ -627,7 +627,7 @@ textarea {
 
 .maintitle .topic-title {
   text-transform: lowercase;
-  font: italic 900 48px/120% 'playfair display', serif;
+  font: italic 900 3rem/120% 'playfair display', serif;
   letter-spacing: 0;
 }
 
@@ -671,7 +671,7 @@ textarea {
 #posting-form .maintitle {
   display: revert;
   text-transform: lowercase;
-  font: italic 900 48px/100% 'playfair display', serif;
+  font: italic 900 3rem/100% 'playfair display', serif;
   letter-spacing: 0;
 }
 
@@ -839,7 +839,7 @@ textarea {
 
 #ucpcontent .maintitle,
 #ucpmenu .maintitle {
-  font: italic 900 48px 'playfair display', serif;
+  font: italic 900 3rem 'playfair display', serif;
   color: #1c1c1c;
   text-transform: lowercase;
   letter-spacing: 0;
