@@ -11010,7 +11010,7 @@ body.light  {
 .light .omens-post-14 .post-text i,
 .light .omens-post-15 .lyric-2,
 .light .omens-post-15 .post-body i,
-.light .omens-post-16 .lyric-2, {
+.light .omens-post-16 .lyric-2 {
   color:var(--basic-text);
 }
 
@@ -11379,6 +11379,13 @@ body.light  {
 
 .light .omens-post-16 .post-body u {
   color:var(--bg);
+}
+
+.light .omens-post-17 .post-image-2 img,
+.light .omens-post-17 .post-image-2-override img,
+.light .omens-post-17 .post-icon img,
+.light .omens-post-17 .post-icon-override img {
+  mix-blend-mode: luminosity;
 }
 /* END LIGHT MODE */
 /*
