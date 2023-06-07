@@ -11157,7 +11157,9 @@ body.light  {
 .light .quick-edit textarea,
 .light #qr_open textarea, 
 .light #ucpcontent textarea,
-.light #main-profile section.content .spells span {
+.light #main-profile section.content .spells span,
+.light #omens-body #posting-form #topic-title input,
+.light #omens-body #posting-form #topic-desc input {
   color:var(--basic-text);
 }
 
