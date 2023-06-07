@@ -3431,18 +3431,18 @@ line-height: 1;
     border-radius: 5px;
     width: 40%;
     box-sizing: border-box;
+    float:left;
 }
 
 .discord-embed {
-    position: absolute;
-    width: 57%;
-    background: #333;
-    z-index:999;
-    top: 580px;
-    right: 0;
-    box-sizing: border-box;
-    padding: 10px;
-    border-radius: 5px;
+  width: 59%;
+  background: #333;
+  z-index: 999;
+  box-sizing: border-box;
+  padding: 10px;
+  border-radius: 5px;
+  float: right;
+  position: relative;
 }
 
 .affiliates {
