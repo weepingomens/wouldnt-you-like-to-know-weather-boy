@@ -1108,9 +1108,8 @@ input[type="submit"] {
   display: flex;
   flex-flow: row wrap;
   gap: 5px;
-  font: 700 10px/70% montserrat;
-  letter-spacing: -1px;
-  letter-spacing: 0px;
+  font: 700 .625rem/1 'montserrat',sans-serif;
+  letter-spacing: 0;
   text-transform: uppercase;
   place-items: center;
   color: #888;
@@ -1201,7 +1200,7 @@ input[type="submit"] {
 }
 
 #omens-body #omens-top #current-user .user-name {
-  font: 700 10px/100% montserrat;
+  font: 700 .625rem/1 'montserrat',sans-serif;
   text-transform: uppercase;
   color: #999;
   text-align: right;
