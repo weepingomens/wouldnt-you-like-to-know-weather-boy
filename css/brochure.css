@@ -60,3 +60,19 @@
 .sidebar-tabs:hover {
     cursor:crosshair;
 }
+
+#CharacterBreakdown {
+    display:flex;
+    gap:25px;
+} 
+
+#CharacterBreakdown .group {
+    display:grid;
+    gap:5px;
+    font:var(--small-header);
+}
+
+#CharacterBreakdown .group em {
+    font:800 1.875rem/100% 'Playfair Display', serif;
+    color: rgba(255, 255, 255, 25%);
+}
