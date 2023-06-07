@@ -11236,12 +11236,15 @@ body.light  {
   background:#ddd;
 }
 
-.light .omens-phone-3 .phone-contain .phone-messages .phone-scroll::-webkit-scrollbar-thumb, .light .omens-phone-3 .phone-contain .phone-callscreen speech2::-webkit-scrollbar-thumb {
+.light .omens-phone-3 .phone-contain .phone-messages .phone-scroll::-webkit-scrollbar-thumb,
+.light .omens-phone-4.omens-phone-text .phone-contain .phone-input::-webkit-scrollbar-thumb {
   background:#eee;
   border-color:#ddd;
 }
 
-.light .omens-phone-3 .phone-contain .phone-messages .phone-scroll::-webkit-scrollbar-track, .light .omens-phone-3 .phone-contain .phone-callscreen speech2::-webkit-scrollbar-track {
+.light .omens-phone-3 .phone-contain .phone-messages .phone-scroll::-webkit-scrollbar-track,
+.light .omens-phone-3 .phone-contain .phone-callscreen speech2::-webkit-scrollbar-track,
+.light .omens-phone-4.omens-phone-text .phone-contain .phone-input::-webkit-scrollbar-track {
   background:#ddd;
 }
 
