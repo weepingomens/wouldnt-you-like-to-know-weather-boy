@@ -6,7 +6,7 @@
   --npc: #51A1C4;
   --rip: #6B6C72;
   --staff: #e3b550;
-  --member: #e2cab8;
+  --member: #94af83;
   --pending: #aaa;
   --archived: #666;
   --main-accent: #aaa;
@@ -37,6 +37,15 @@ body.light  {
   --bg:#bbb;
   --italic: #555;
   --white-text:rgba(255, 255, 255, 33%);
+  --staff: #bd8b1d;
+  --human: #39936c;
+  /* leave witch, vamp as-is */
+  --member: #698b54;
+  --werewolf: #7b7e45;
+  --pending: #777;
+  --archived: #333; 
+  --npc: #327999;
+  --rip:#4f5260;
 }
 
 .forum-8 .forum-image:before {
