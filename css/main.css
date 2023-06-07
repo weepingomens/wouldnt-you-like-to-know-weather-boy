@@ -10988,7 +10988,10 @@ body.light  {
 .light .staff-template h2,
 .light .staff-template .code-title,
 .light .staff-template .countdown_amount,
-.light .staff-template .countdown_section {
+.light .staff-template .countdown_section,
+.light .omens-phone-4.omens-phone-text .phone-contain .phone-input tagged,
+.light .omens-phone-4.omens-phone-call .phone-contain .phone-input tagged,
+.light .omens-phone-4.omens-phone-dial .phone-contain .phone-input tagged2 {
   color:var(--basic-text);
 }
 
@@ -11210,7 +11213,9 @@ body.light  {
 .light .omens-phone-4 .phone-deco2:after,
 .light .omens-phone-4 .phone-l-buttons div,
 .light .omens-phone-4 .phone-l-buttons:after,
-.light .omens-phone-4.omens-phone-text .phone-contain .phone-input tagged {
+.light .omens-phone-4.omens-phone-text .phone-contain .phone-input tagged,
+.light .omens-phone-4.omens-phone-call .phone-contain .phone-input tagged,
+.light .omens-phone-4.omens-phone-dial .phone-contain .phone-input tagged2 {
   background: rgba(255, 255, 255, 20%);
 }
 
@@ -11237,7 +11242,8 @@ body.light  {
   background:#ddd;
 }
 
-.light .omens-phone-4.omens-phone-text .phone-contain .phone-input msg {
+.light .omens-phone-4.omens-phone-text .phone-contain .phone-input msg,
+.omens-phone-4.omens-phone-call .phone-callscreen speech {
   background: rgba(255, 255, 255, 50%);
   color:var(--basic-text);
 }
