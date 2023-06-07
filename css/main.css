@@ -886,7 +886,7 @@ textarea {
 }
 
 .pformstrip.ProfileHeader {
-  font: 800 25px/100% 'Playfair Display', serif;
+  font: 800 1.5rem/100% 'Playfair Display', serif;
   text-transform: uppercase;
   color: rgba(255, 255, 255, 20%);
   width: 500px;
@@ -894,7 +894,7 @@ textarea {
 
 #HeaderRequired,
 #HeaderOptional {
-  font: italic 800 48px/100% 'Playfair Display', serif;
+  font: italic 800 3rem/100% 'Playfair Display', serif;
   letter-spacing: -0.05em;
   color: #eee;
   text-decoration: underline;
@@ -2207,7 +2207,7 @@ input[type="submit"] {
 }
 
 #omens-body #omens-sidebar .sidebar-group a b {
-  font: 700 13px playfair display;
+  font: 700 .8rem/1 'playfair display',serif;
   margin-right: 5px;
   color: var(--main-accent);
   animation: 30s linear infinite rainbow-demo3;
@@ -2230,7 +2230,7 @@ input[type="submit"] {
   position: absolute;
   bottom: -3px;
   left: 3px;
-  font: 900 66px/80% playfair display;
+  font: 900 4.5rem/.8 'playfair display',serif;
   letter-spacing: -1px;
   transition: 0.25s;
   animation: 30s linear infinite rainbow-demo3;
@@ -2329,7 +2329,7 @@ header.category:after {
   font-family: 'Playfair Display', sans-serif;
   font-style: normal;
   font-weight: 900;
-  font-size: 64px;
+  font-size: 4rem;
   line-height: 100%;
   display: flex;
   align-items: center;
@@ -2390,7 +2390,7 @@ header.category:after {
   font-family: 'Playfair Display', serif;
   font-style: normal;
   font-weight: 900;
-  font-size: 64px;
+  font-size: 4rem;
   line-height: 75%;
   text-align: right;
 }
@@ -2439,7 +2439,7 @@ header.category:after {
   font-family: 'Playfair Display', serif;
   font-style: normal;
   font-weight: 900;
-  font-size: 48px;
+  font-size: 3rem;
   line-height: 100%;
   text-align: right;
   color: #131313;
@@ -2471,7 +2471,7 @@ header.category:after {
   font-family: 'Playfair Display', serif;
   font-style: italic;
   font-weight: 800;
-  font-size: 32px;
+  font-size: 2rem;
   line-height: 100%;
   color: rgba(var(--main-accent-rgb), .7);
   position: relative;
@@ -2491,8 +2491,8 @@ header.category:after {
   font-family: 'Playfair Display';
   font-style: normal;
   font-weight: 900;
-  font-size: 96px;
-  line-height: 75px;
+  font-size: 6rem;
+  line-height: .75;
   text-align: left;
   letter-spacing: 0.1em;
   color: rgba(0, 0, 0, 15%);
@@ -2505,8 +2505,8 @@ header.category:after {
   font-family: 'Playfair Display';
   font-style: normal;
   font-weight: 900;
-  font-size: 96px;
-  line-height: 75px;
+  font-size: 6rem;
+  line-height: .75;
   text-align: right;
   letter-spacing: 0.1em;
   color: rgba(0, 0, 0, 15%);
