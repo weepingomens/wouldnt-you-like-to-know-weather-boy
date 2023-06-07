@@ -454,7 +454,7 @@ textarea {
   font-family: 'Playfair Display', serif;
   font-style: normal;
   font-weight: 800;
-  font-size: 70px;
+  font-size: 5rem;
   line-height: 100%;
   color: #1c1c1c;
   letter-spacing: -0.1em;
@@ -524,7 +524,7 @@ textarea {
   font-family: 'Playfair Display', serif;
   font-style: italic;
   font-weight: 800;
-  font-size: 32px;
+  font-size: 2rem;
   line-height: 100%;
   color: rgba(var(--main-accent-rgb), .7);
   position: relative;
@@ -547,13 +547,13 @@ textarea {
 
 .pagination_current {
   color: rgba(255, 255, 255, 10%);
-  font: italic 800 32px/100% 'playfair display', serif;
+  font: italic 800 2rem/100% 'playfair display', serif;
 }
 
 .pagination_page {
   color: rgba(var(--main-accent-rgb), .7);
   transition: .25s;
-  font: italic 800 32px/100% 'playfair display', serif;
+  font: italic 800 2rem/100% 'playfair display', serif;
 }
 
 .pagination_page:hover {
@@ -568,7 +568,7 @@ textarea {
 .pagination_pagetxt a {
   color: rgba(var(--main-accent-rgb), .7);
   text-transform: lowercase;
-  font: italic 800 32px/100% 'playfair display', serif;
+  font: italic 800 2rem/100% 'playfair display', serif;
   transition: .25s;
 }
 
@@ -579,7 +579,7 @@ textarea {
 
 .pagination_first,
 .pagination_last {
-  font: italic 800 32px/100% 'playfair display', serif;
+  font: italic 800 2rem/100% 'playfair display', serif;
   text-transform: lowercase;
   color: rgba(var(--main-accent-rgb), .7);
   transition: .25s;
