@@ -11280,6 +11280,13 @@ body.light  {
   background: rgba(255, 255, 255, 15%);
 }
 
+.light .lua-post-1-body,
+.light #lua-post-2-1 {
+  background-image: url(../src/img/post-4-bg-light.png);
+  background-color: #ddd;
+    background-blend-mode: multiply;
+}
+
 /* END LIGHT MODE */
 /*
 #omens-main .omens-category {
