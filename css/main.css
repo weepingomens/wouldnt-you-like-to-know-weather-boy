@@ -11426,6 +11426,11 @@ body.light  {
 .light .omens-post-18 .post-body tagged a:hover {
   color:var(--group);
 }
+
+.light #omens-body input {
+  background: #ccc;
+  color: var(--basic-text);
+}
 /* END LIGHT MODE */
 /*
 #omens-main .omens-category {
