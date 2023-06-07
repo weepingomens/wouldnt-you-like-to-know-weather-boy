@@ -11262,6 +11262,11 @@ body.light  {
   background:#ccc;
 }
 
+.light .topic-container.pinned:before,
+.light .topic-container.announcement:before {
+  color: rgba(0, 0, 0, 5%);
+}
+
 /* END LIGHT MODE */
 /*
 #omens-main .omens-category {
