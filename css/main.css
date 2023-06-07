@@ -10986,7 +10986,8 @@ body.light  {
 .light .omens-phone-4.omens-phone-dial .phone-contain .phone-input tagged2,
 .light .omens-phone-4.omens-phone-text .phone-contain .phone-input tagged:before,
 .light .omens-phone-4.omens-phone-call .phone-contain .phone-input tagged:before,
-.light .omens-phone-4.omens-phone-dial .phone-contain .phone-input tagged2:before {
+.light .omens-phone-4.omens-phone-dial .phone-contain .phone-input tagged2:before,
+.light .omens-post-2 .post-body tagged a {
   color:var(--basic-text);
 }
 
@@ -11265,6 +11266,14 @@ body.light  {
 .light .omens-post-1 .lyric-2, 
 .light .omens-post-1 .lyric-2-override {
   color:var(--basic-text);
+}
+
+.light .omens-post-2 {
+  background:rgba(0,0,0,5%);
+}
+
+.light .omens-post-2 .post-body {
+  background: rgba(255, 255, 255, 10%);
 }
 
 /* END LIGHT MODE */
