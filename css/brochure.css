@@ -42,7 +42,8 @@
 
 .light .faceclaim-list-item, 
 .light .canon-list-item,
-.light .claims-table-item {
+.light .claims-table-item,
+.light #claims-table-headers {
     border-color:var(--border);
 }
 
