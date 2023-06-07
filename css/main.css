@@ -11019,11 +11019,14 @@ body.light  {
 .light .omens-post-19 .post-body u,
 .light .omens-post-19 tagged a,
 .light .omens-post-20 .lyric-2, 
-.light .omens-post-20 .lyric-2-override {
+.light .omens-post-20 .lyric-2-override,
+.light .omens-post-8 .lyric-2, 
+.light .omens-post-8 .lyric-2-override {
   color:var(--basic-text);
 }
 
 .light .omens-post-7 .post-lyrics,
+.light .omens-post-9 .post-icon-contain,
 .light .omens-post-18 .post-icon,
 .light .omens-post-18 .post-icon-override {
   background:var(--basic-text);
