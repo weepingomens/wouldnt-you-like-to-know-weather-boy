@@ -3468,6 +3468,10 @@ justify-content:center;
 	transition:.25s;
 }
 
+.affiliates.new {
+  padding-bottom:0;
+}
+
 /* END BOARD STATISTICS */
 /* START TOPIC ROW */
 .topic-container {
