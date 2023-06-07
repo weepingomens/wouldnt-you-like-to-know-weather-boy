@@ -2374,7 +2374,7 @@ header.category:after {
   letter-spacing: 0.05em;
   font-style: normal;
   font-weight: 500;
-  font-size: 13px;
+  font-size: .8rem;
   line-height: 150%;
   padding-left: 25px;
   margin: 0 25px 25px 25px;
@@ -2830,7 +2830,7 @@ header.communications:before {
 }
 
 .forum-statistics {
-  font: 700 10px 'open sans', sans-serif;
+  font: var(--small-header);
   line-height: 150%;
   text-align: right;
   color: #333;
@@ -2918,7 +2918,7 @@ header.communications:before {
   font-family: 'Open Sans', serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 13px;
+  font-size: .8rem;
   line-height: 150%;
   border-left: 2px solid var(--category-header);
   letter-spacing: 0.05em;
@@ -2938,7 +2938,7 @@ header.communications:before {
 }
 
 .forum-info .last-poster-topic {
-  font: 700 10px 'open sans', sans-serif;
+  font: var(--small-header);
   color: #666;
   margin-top: 10px;
 }
@@ -2971,7 +2971,7 @@ header.communications:before {
 
 .subforum-list .subforums a {
   text-transform: uppercase;
-  font: 700 10px/70% open sans;
+  font: var(--small-header);
   color: #888;
   padding: 0px 0px 3px;
   transition: .25s;
@@ -3423,13 +3423,13 @@ header.communications:before {
   padding: 10px;
   border-radius: 5px;
   text-transform: uppercase;
-  font: 700 10px/70% 'open sans', sans-serif;
+  font: 700 0.6rem/.7 'open sans', sans-serif;
   color: #888;
 }
 
 .topic-container .topic-details {
   grid-area: topic-list-details;
-  font: 700 10px 'open sans', sans-serif;
+  font: var(--small-header);
   color: #666;
 }
 
