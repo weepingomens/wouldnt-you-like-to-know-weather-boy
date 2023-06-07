@@ -1,4 +1,15 @@
-.brochure-page-1 h3 {
+.light .brochure-page-1 h3 {
     color:var(--basic-text);
-    text-decoration-color:var(--basic-text-lighter);
+    text-decoration-color: var(--white-text);
+}
+
+.light .brochure-page-1 h2,
+.light .page-2-content h1,
+.light .page-2-scroll,
+.light .sidebar-tabs {
+    color: var(--basic-text);
+}
+
+.light .sidebar-tabs:hover {
+    color:var(--basic-text-lighter);
 }
