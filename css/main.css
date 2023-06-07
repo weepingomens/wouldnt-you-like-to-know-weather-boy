@@ -10988,6 +10988,8 @@ body.light  {
 .light .omens-phone-4.omens-phone-call .phone-contain .phone-input tagged:before,
 .light .omens-phone-4.omens-phone-dial .phone-contain .phone-input tagged2:before,
 .light .omens-post-2 .post-body tagged a,
+.light .omens-post-6 .post-lyrics .lyric-1,
+.light .omens-post-6 .post-lyrics .lyric-1-override,
 .light .omens-post-6 .post-body i {
   color:var(--basic-text);
 }
