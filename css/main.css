@@ -10987,7 +10987,8 @@ body.light  {
 .light .omens-phone-4.omens-phone-text .phone-contain .phone-input tagged:before,
 .light .omens-phone-4.omens-phone-call .phone-contain .phone-input tagged:before,
 .light .omens-phone-4.omens-phone-dial .phone-contain .phone-input tagged2:before,
-.light .omens-post-2 .post-body tagged a {
+.light .omens-post-2 .post-body tagged a,
+.light .omens-post-6 .post-body i {
   color:var(--basic-text);
 }
 
@@ -11268,7 +11269,8 @@ body.light  {
   color:var(--basic-text);
 }
 
-.light .omens-post-2 {
+.light .omens-post-2,
+.light .omens-post-6 .post-body {
   background:rgba(0,0,0,5%);
 }
 
