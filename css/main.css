@@ -11002,7 +11002,9 @@ body.light  {
 .light .omens-post-10 .lyric-2-override,
 .light .omens-post-10 .post-body u,
 .light .omens-post-10 .post-body tagged a,
-.light .omens-post-11 .post-body u {
+.light .omens-post-11 .post-body u,
+.light .omens-post-12-2 .post-body i,
+.light .omens-post-12-2 .lyric-post .lyric-2 {
   color:var(--basic-text);
 }
 
@@ -11266,7 +11268,8 @@ body.light  {
 .light .omens-phone-3 .phone-contain .phone-messages .phone-scroll::-webkit-scrollbar-track,
 .light .omens-phone-3 .phone-contain .phone-callscreen speech2::-webkit-scrollbar-track,
 .light .omens-phone-4.omens-phone-text .phone-contain .phone-input::-webkit-scrollbar-track,
-.light .omens-post-11 .post-body::-webkit-scrollbar-track {
+.light .omens-post-11 .post-body::-webkit-scrollbar-track,
+.light .omens-post-12-2 .post-body::-webkit-scrollbar-track {
   background:#ddd;
 }
 
@@ -11325,8 +11328,12 @@ body.light  {
   border-color:var(--basic-text);
 }
 .light .omens-post-11 .post-icon, 
-.light .omens-post-11 .post-icon-override { 
+.light .omens-post-11 .post-icon-override,
+.light .omens-post-12-2 .lyric-post .lyric-1 { 
   border-color:var(--basic-text);
+}
+.light .omens-post-12-2 .post-image-1 {
+  outline-color:var(--basic-text);
 }
 .light .omens-post-8 .post-icon-contain {
   background:rgba(0,0,0,75%);
@@ -11341,6 +11348,14 @@ body.light  {
 .light .omens-post-11 .lyric-2-override {
   background: #aaa;
   color:var(--basic-text);
+}
+
+.light .omens-post-12-2 {
+  background:url(../src/img/dot-background-black-5-opacity.png);
+}
+
+.light .omens-post-12-2 .lyric-post .post-body {
+  background: #c5c5c5;
 }
 /* END LIGHT MODE */
 /*
