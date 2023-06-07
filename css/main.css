@@ -10998,6 +10998,10 @@ body.light  {
   color:var(--basic-text);
 }
 
+.light .post1 {
+  --custom:var(--basic-text);
+}
+
 .light #omens-body #omens-sidebar .sidebar-group a:hover {
   color:var(--basic-text-lighter);
 }
