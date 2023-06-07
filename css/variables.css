@@ -100,8 +100,7 @@ a.mgroup-9 {
   color:var(--vampire);
 }
 
-.group-icon-9:before,
-#CharacterBreakdown .group.vampires:before {
+.group-icon-9:before {
   font-family: "game-icons";
   content: "\E0E2";
 }
@@ -116,8 +115,7 @@ a.mgroup-14 {
   color:var(--werewolf);
 }
 
-.group-icon-14:before,
-#CharacterBreakdown .group.werewolves:before {
+.group-icon-14:before {
   font-family: "game-icons";
   content: "\E3F9";
 }
@@ -132,8 +130,7 @@ a.mgroup-8 {
   color:var(--witch);
 }
 
-.group-icon-8:before,
-#CharacterBreakdown .group.witches:before {
+.group-icon-8:before {
   font-family: "game-icons";
   content: "\E08E";
 }
@@ -148,8 +145,7 @@ a.mgroup-7 {
   color:var(--human);
 }
 
-.group-icon-7:before,
-#CharacterBreakdown .group.humans:before {
+.group-icon-7:before {
   font-family: "game-icons";
   content: "\E909";
 }
