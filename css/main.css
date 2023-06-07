@@ -1108,8 +1108,8 @@ input[type="submit"] {
   display: flex;
   flex-flow: row wrap;
   gap: 5px;
-  font: 700 .625rem/1 'montserrat',sans-serif;
-  letter-spacing: 0;
+  font: 700 0.6rem/1 'open sans', sans-serif;
+  letter-spacing: .025rem;
   text-transform: uppercase;
   place-items: center;
   color: #888;
@@ -1200,7 +1200,8 @@ input[type="submit"] {
 }
 
 #omens-body #omens-top #current-user .user-name {
-  font: 700 .625rem/1 'montserrat',sans-serif;
+  font: 700 0.6rem/1 'open sans', sans-serif;
+  letter-spacing: .025rem;
   text-transform: uppercase;
   color: #999;
   text-align: right;
@@ -2177,13 +2178,11 @@ input[type="submit"] {
 
 #omens-body #omens-sidebar .sidebar-group h1 {
   margin: 10px 0;
-  font: 700 10px montserrat;
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
-  color: var(--main-accent);
   animation: 30s linear infinite rainbow-demo3;
   display: flex;
   justify-content: center;
+  font: 700 0.6rem/1 'open sans', sans-serif;
+  letter-spacing: .05rem;
 }
 
 #omens-body #omens-sidebar .sidebar-group h1 div {
