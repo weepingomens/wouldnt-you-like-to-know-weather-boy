@@ -11,7 +11,8 @@
 .light .brochure-page-3,
 .light .brochure-page-1 b,
 .light .faceclaim-list-item .faceclaim,
-.light .canon-list-item .faction {
+.light .canon-list-item .faction,
+.light #claims-table-headers div {
     color: var(--basic-text);
 }
 
@@ -40,6 +41,7 @@
 }
 
 .light .faceclaim-list-item, 
-.light .canon-list-item {
+.light .canon-list-item,
+.light .claims-table-item {
     border-color:var(--border);
 }
