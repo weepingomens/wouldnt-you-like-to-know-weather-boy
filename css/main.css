@@ -11458,6 +11458,10 @@ body.light  {
   color:var(--basic-text);
 }
 
+.light .omens-post-2 {
+  background: rgba(0, 0, 0, 3%);
+}
+
 .light .omens-post-2 .post-body {
   background: rgba(255, 255, 255, 10%);
 }
