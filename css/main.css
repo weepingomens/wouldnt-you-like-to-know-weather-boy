@@ -11011,7 +11011,15 @@ body.light  {
 .light .omens-post-15 .lyric-2,
 .light .omens-post-15 .post-body i,
 .light .omens-post-16 .lyric-2,
-.light .omens-post-18 .post-body u {
+.light .omens-post-18 .post-body u,
+.light .light .omens-post-19 .post-image-2 .lyric-1,
+.light .omens-post-19 .post-image-2-override .lyric-1,
+.light .omens-post-19 .post-image-2 .lyric-1-override,
+.light .omens-post-19 .post-image-2-override .lyric-1-override,
+.light .omens-post-19 .post-body u,
+.light .omens-post-19 tagged a,
+.light .omens-post-20 .lyric-2, 
+.light .omens-post-20 .lyric-2-override {
   color:var(--basic-text);
 }
 
@@ -11082,7 +11090,9 @@ body.light  {
 .light .omens-phone1-phonecall tagged:before,
 .light .pagination_current,
 .light .omens-post-16 .post-body i,
-.light .omens-post-18 .post-body i {
+.light .omens-post-18 .post-body i,
+.light .omens-post-20 .post-body u,
+.light .omens-post-20 .post-body tagged a {
   color:var(--basic-text-lighter);
 }
 
@@ -11252,7 +11262,8 @@ body.light  {
 .light .omens-phone-4.omens-phone-text .phone-contain .phone-input tagged,
 .light .omens-phone-4.omens-phone-call .phone-contain .phone-input tagged,
 .light .omens-phone-4.omens-phone-dial .phone-contain .phone-input tagged2,
-.light .omens-post-10 .post-body u {
+.light .omens-post-10 .post-body u,
+.light .omens-post-19 tagged a {
   background: rgba(255, 255, 255, 20%);
 }
 
@@ -11396,6 +11407,11 @@ body.light  {
 .light .omens-post-18 .post-body {
   border: 5px solid rgba(255, 255, 255, 20%);
   background: rgba(255, 255, 255, 7%);
+}
+
+.light .omens-post-20 .post-body:after {
+  filter: grayscale(100%) contrast(150%);
+  opacity: 2%;
 }
 /* END LIGHT MODE */
 /*
