@@ -12,13 +12,13 @@
 .light .brochure-page-1 b,
 .light .faceclaim-list-item .faceclaim,
 .light .canon-list-item .faction,
+.light .faceclaim-list-item span,
 .light #claims-table-headers div {
     color: var(--basic-text);
 }
 
 .light .sidebar-tabs:hover,
 .light .page-2-scroll .witch-alignment h4,
-.light .faceclaim-list-item span,
 .light .canon-list-item span {
     color:var(--basic-text-lighter);
 }
@@ -44,4 +44,9 @@
 .light .canon-list-item,
 .light .claims-table-item {
     border-color:var(--border);
+}
+
+.light .faceclaim-list-item a span,
+.light .canon-list-item a span {
+    color:var(--group);
 }
