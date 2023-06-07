@@ -11262,6 +11262,11 @@ body.light  {
   background:#ccc;
 }
 
+.light .omens-post-1 .lyric-2, 
+.light .omens-post-1 .lyric-2-override {
+  color:var(--basic-text);
+}
+
 /* END LIGHT MODE */
 /*
 #omens-main .omens-category {
