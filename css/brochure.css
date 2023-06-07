@@ -1,0 +1,4 @@
+.brochure-page-1 h3 {
+    color:var(--basic-text);
+    text-decoration-color:var(--basic-text-lighter);
+}
