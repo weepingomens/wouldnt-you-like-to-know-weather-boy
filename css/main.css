@@ -4108,7 +4108,7 @@ a.user-small-info:hover:before {
 }
 
 .staff-template .countdown_amount {
-  font: italic 800 48px/1.5 'playfair display', serif;
+  font: italic 800 3rem/1.5 'playfair display', serif;
   color: rgba(255, 255, 255, 75%);
 }
 
@@ -4175,7 +4175,7 @@ a.user-small-info:hover:before {
 
 .omens-wanted-1 .want-title {
   grid-area: want-title;
-  font: italic 900 48px 'playfair display', serif;
+  font: italic 900 3rem 'playfair display', serif;
   color: #1c1c1c;
 }
 
@@ -4204,7 +4204,7 @@ a.user-small-info:hover:before {
 }
 
 .post-row .post-container .omens-wanted-1 h1 {
-  font: 800 25px/100% 'Playfair Display', serif;
+  font: 800 1.5rem/100% 'Playfair Display', serif;
   color: rgba(255, 255, 255, 25%);
   letter-spacing: 0;
   justify-content: start;
@@ -9952,7 +9952,7 @@ a.user-small-info:hover:before {
 #main-profile section.header h1 {
   margin: 0;
   padding: 0;
-  font: italic 900 48px 'playfair display', serif;
+  font: italic 900 3rem 'playfair display', serif;
   color: #1c1c1c;
 }
 
@@ -10191,7 +10191,7 @@ a.user-small-info:hover:before {
 
 #main-profile section.content .header {
   display: block;
-  font: 800 70px/100% 'Playfair Display', serif;
+  font: 800 4.375rem/100% 'Playfair Display', serif;
   text-transform: uppercase;
   letter-spacing: .01em;
   color: rgba(255, 255, 255, 5%);
@@ -10199,7 +10199,7 @@ a.user-small-info:hover:before {
 }
 
 #main-profile section.content h1 {
-  font: italic 900 48px 'playfair display', serif;
+  font: italic 900 3rem 'playfair display', serif;
   text-transform: lowercase;
   color: var(--custom);
   margin: 0;
@@ -10210,7 +10210,7 @@ a.user-small-info:hover:before {
 #main-profile section.content werewolf h3 {
   margin: 0;
   padding: 0;
-  font: 800 30px/100% 'Playfair Display', serif;
+  font: 800 1.875rem/100% 'Playfair Display', serif;
   text-transform: uppercase;
   color: rgba(255, 255, 255, 25%);
 }
@@ -10299,14 +10299,14 @@ a.user-small-info:hover:before {
 #main-profile section.content cw:before,
 #main-profile section.content cw-toggle:before {
   content: "this biography contains";
-  font: 800 24px/100% 'Playfair Display', serif;
+  font: 800 1.5rem/100% 'Playfair Display', serif;
   text-transform: uppercase;
   color: rgba(255, 255, 255, 50%);
 }
 
 #omens-page-brochure cw-toggle:after,
 #main-profile section.content cw-toggle:after {
-  font: italic 800 32px/100% 'Playfair Display', serif;
+  font: italic 800 2rem/100% 'Playfair Display', serif;
   text-transform: lowercase;
   color: rgba(255, 255, 255, 25%);
   transition: .25s;
@@ -10657,7 +10657,7 @@ a.user-small-info:hover:before {
 }
 
 #main-profile section.content .quicklinks a {
-  font: italic 800 32px/100% 'Playfair Display', serif;
+  font: italic 800 2rem/100% 'Playfair Display', serif;
   text-transform: lowercase;
   color: rgba(var(--main-accent-rgb), .5);
   transition: .25s;
@@ -10701,7 +10701,7 @@ a.user-small-info:hover:before {
 #main-profile section.content .art-credits em,
 #main-profile section.content .spells em {
   display: block;
-  font: 800 30px/100% 'Playfair Display', serif;
+  font: 800 1.875rem/100% 'Playfair Display', serif;
   text-transform: uppercase;
   color: rgba(255, 255, 255, 25%);
 }
@@ -10814,14 +10814,14 @@ a.user-small-info:hover:before {
 }
 
 #main-profile section.content .tracker-item a {
-  font: italic 800 32px/100% 'Playfair Display', serif;
+  font: italic 800 2rem/100% 'Playfair Display', serif;
   color: rgba(var(--main-accent-rgb), .5);
   text-transform: lowercase;
   transition: .25s;
 }
 
 #main-profile section.content .tracker-item a:hover {
-  font: italic 800 32px/100% 'Playfair Display', serif;
+  font: italic 800 2rem/100% 'Playfair Display', serif;
   color: rgba(var(--main-accent-rgb), 1);
   text-transform: lowercase;
   transition: .25s;
@@ -10829,7 +10829,7 @@ a.user-small-info:hover:before {
 
 #main-profile section.content #commwrap .tracker-item a,
 #main-profile section.content #altwrap .tracker-item a {
-  font: 800 24px/70% 'Playfair Display', serif;
+  font: 800 1.5rem/70% 'Playfair Display', serif;
   text-transform: uppercase;
 }
 
@@ -10898,7 +10898,7 @@ a.user-small-info:hover:before {
   display: block;
   margin: 0;
   text-align: center;
-  font: italic 800 48px/100% 'Playfair Display', serif;
+  font: italic 800 3rem/100% 'Playfair Display', serif;
   letter-spacing: -0.05em;
   color: #eee;
   border-bottom: 2px solid rgba(255, 255, 255, 5%);
