@@ -10992,7 +10992,9 @@ body.light  {
 .light .omens-phone-4.omens-phone-text .phone-contain .phone-input tagged,
 .light .omens-phone-4.omens-phone-call .phone-contain .phone-input tagged,
 .light .omens-phone-4.omens-phone-dial .phone-contain .phone-input tagged2,
-.light .omens-phone-4 .phone-input tagged:before {
+.light .omens-phone-4.omens-phone-text .phone-contain .phone-input tagged:before,
+.light .omens-phone-4.omens-phone-call .phone-contain .phone-input tagged:before,
+.light .omens-phone-4.omens-phone-dial .phone-contain .phone-input tagged2:before {
   color:var(--basic-text);
 }
 
