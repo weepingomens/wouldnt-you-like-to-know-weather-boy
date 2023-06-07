@@ -11101,7 +11101,7 @@ body.light  {
 }
 .light #omens-body #omens-sidebar .sidebar-group a,
 .light .brochure-desc,
-.light .subforum-list .subforums a:hover,
+.light .subforum-list .subforums a,
 .light .forum-info .forum-desc,
 .light .topic-container .topic-desc,
 .light .staff-template h2,
@@ -11225,7 +11225,8 @@ body.light  {
 .light .omens-post-16 .post-body i,
 .light .omens-post-18 .post-body i,
 .light .omens-post-20 .post-body u,
-.light .omens-post-20 .post-body tagged a {
+.light .omens-post-20 .post-body tagged a,
+.light .light .subforum-list .subforums a:hover {
   color:var(--basic-text-lighter);
 }
 
