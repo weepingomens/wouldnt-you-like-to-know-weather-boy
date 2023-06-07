@@ -77,3 +77,9 @@
     font:800 1.875rem/100% 'Playfair Display', serif;
     color: rgba(255, 255, 255, 25%);
 }
+
+#CharacterBreakdown .group.humans:before {
+    font-family: "game-icons";
+    content: "\E909";
+  }
+  
