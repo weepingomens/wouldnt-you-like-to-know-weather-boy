@@ -11261,7 +11261,8 @@ body.light  {
   color:var(--basic-text);
 }
 
-.light .post-row .user-name .font-icon:before {
+.light .post-row .user-name .font-icon:before,
+.light #main-profile .font-icon:before {
   color: rgba(0, 0, 0, 3%);
 }
 
