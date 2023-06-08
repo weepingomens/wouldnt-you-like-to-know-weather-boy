@@ -971,6 +971,15 @@ textarea {
 .wrapmini { display: none; }
 
 /* END JCINK STYLING */
+/* START MOBILE STYLING */
+#mobile-menu {
+  height:100vh;
+}
+.touch-nav {
+  font: italic 900 2rem 'playfair display', serif;
+  text-transform: lowercase;
+}
+/* END MOBILE STYLING */
 
 body {
   background: url(../src/img/background.png);
