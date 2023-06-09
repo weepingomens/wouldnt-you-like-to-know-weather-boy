@@ -1,0 +1,494 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>
+    <% TITLE %>
+  </title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+
+  <link rel="manifest" href="/">
+  <link rel="apple-touch-icon" href="/">
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/variables.css">
+  <link rel="stylesheet" href="css/main.css">
+
+  <meta name="theme-color" content="#222">
+
+  <link rel="stylesheet" href="https://nagoshiashumari.github.io/Rpg-Awesome/stylesheets/rpg-awesome.min.css">
+  <link href="https://files.jcink.net/uploads2/weepingomens/skin_stuff/cuppaccicons.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+  <link href="https://files.jcink.net/uploads2/weepingomens/skin_stuff/game_icons.css" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+</head>
+
+<body id="omens-body" class="user-groupid-" style="--main-accent:#967cbb;">
+  <nav id="omens-top">
+    <div id="elevator-buttons">
+      <div id="elevator-up" title="scroll to top"><i class="cp cp-chevron-up"></i></div>
+      <div id="elevator-down" title="scroll to bottom"><i class="cp cp-chevron-down"></i></div>
+    </div>
+    <div id="navstrip" align="left">&nbsp;<a href="https://weepingomens.jcink.net/index.php?act=idx">WEEPING OMENS</a>
+      <div style="display: inline-block;margin: 10px 0px;"></div><a
+        href="https://weepingomens.jcink.net/index.php?act=SC&amp;c=6">Character Zone</a>
+      <div style="display: inline-block;margin: 10px 0px;"></div><a
+        href="https://weepingomens.jcink.net/index.php?showforum=33">Testing Grounds</a>
+      <div style="display: inline-block;margin: 10px 0px;"></div><a
+        href="https://weepingomens.jcink.net/index.php?showtopic=324">pay no attention to that man behind the
+        curtain</a>
+    </div>
+    <div id="current-user" title="click to switch accounts">
+      <div class="user-name">hi there,<b>selkie</b></div>
+      <div class="user-avi"><img src="https://i.ibb.co/MkP6wq0/image.png"></div>
+      <span id="subaccounts_menu">
+        <form action="https://weepingomens.jcink.net/index.php?&amp;act=Login&amp;CODE=01&amp;CookieDate=1"
+          name="subswitch" method="POST">
+          <input type="hidden" name="auth_key" value="authkey">
+          <input type="hidden" name="UserName" value="subacct">
+          <input type="hidden" name="PassWord" value="subacct">
+          <input type="hidden" name="referer" value="">
+          <select class="forminput" name="sub_id" onchange="this.form.submit()">
+            <option value="------------" selected="selected">Switch Account</option>
+            <option value="25">&nbsp;&nbsp;» ATLAS JEONG </option>
+            <option value="40">&nbsp;&nbsp;» CASSANDRA CASSIDY </option>
+            <option value="116">&nbsp;&nbsp;» JACKI ROSENBACH </option>
+            <option value="105">&nbsp;&nbsp;» JULIET SANTORO </option>
+            <option value="271">&nbsp;&nbsp;» LOTTIE WINTERBOURNE </option>
+            <option value="265">&nbsp;&nbsp;» celkie is a prison </option>
+            <option value="95">&nbsp;&nbsp;» fuckhands mcmike </option>
+          </select>
+        </form>
+      </span>
+    </div>
+    <div class="user-links">
+      <a href="#" title="toggle light mode" id="light-toggle"><i class="ra  ra-light-bulb"></i></a>
+      <a href="#" title="messages" class="hasalerts-1">
+        <div class="alert-animation">!</div>
+        <i class="ra ra-scroll-unfurled"></i>
+      </a>
+      <a href="#" title="alerts" class="hasalerts-1">
+        <div class="alert-animation">!</div>
+        <i class="ra ra-small-fire"></i>
+      </a>
+      <a href="#" title="view <!-- |name| -->'s profile"><i class="cp cp-fingerprint"></i></a>
+      <a href="#" title="access usercp"><i class="ra ra-repair"></i></a>
+      <a href="#" title="logout" id="logout"><i class="ra ra-key"></i></a>
+    </div>
+    <div id="login-register">
+      <a href="#" class="login-register-button">login</a>
+      <a href="#" class="login-register-button">register</a>
+      <div class="login-register-shortcut">
+        <form style="display:inline" action="index.php?act=Login&amp;CODE=01" method="post">
+          <input type="hidden" value="1" name="CookieDate">
+          <div align="center"><input type="text" class="forminput" size="11" name="UserName" onfocus="this.value=''"
+              value="USERNAME"> <input type="password" class="forminput" size="11" name="PassWord"
+              onfocus="this.value=''" value="password">
+            <input type="submit" class="forminput" style="margin-top: 2px;" value="go">
+          </div>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <header id="omens-header">
+    <div class="omens-header-inner">
+      <div id="moon-deco"></div>
+      <div id="moon-deco2"></div>
+      <svg id="moon" class="moon omens-logo-moon" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+        <path class="moonback" d="m100,0 a20,20 0 1,1 0,150 a20,20 0 1,1 0,-150"></path>
+        <path class="moon" d="m100,0 a4.970833822246341,20 0 1,0 0,150 a20,20 0 1,0 0,-150"></path>
+      </svg>
+
+      <a id="h-intro" class="h-nav-link h-nav-intro nav-button">
+        I.
+      </a>
+      <a id="h-updates" class="h-nav-link h-nav-updates nav-button">
+        II.
+      </a>
+      <a id="h-staff" class="h-nav-link h-nav-staff nav-button">
+        III.
+      </a>
+      <a id="h-credits" class="h-nav-link h-nav-credit nav-button">
+        IV.
+      </a>
+      <div class="h-logo"><span>WEEPING<br>OMENS</span>
+        <div>an animanga urban fantasy rp</div>
+      </div>
+      <div id="h-blurb">
+        <div class="blurb-shape"></div>In the grand coastal city of <b>San Llorona</b> there hides a dark secret: the supernatural has merged with humanity, living among them in hiding. Myths, fairytales, and folklore take on a new form as vampires, witches, and werewolves bury their true natures, hunted down by an underground society determined to eradicate the supernatural at all costs. As San Llorona stands on the precipice of this ancient conflict between monsters and humans, the occult and the divine, only its citizens can shape what becomes of the city and its people...Or break the very foundations in which it stands.
+      </div>
+      <div id="h-image">
+        <div class="image-proper"></div>
+        <div class="image-mask"></div>
+        <div class="image-deco"></div>
+      </div>
+      <div id="h-updates-contain">
+        <h1>new updates</h1>
+        <div class="h-updates-blurb"><b>june 9</b>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eu erat consectetur, efficitur ante nec, hendrerit ipsum. Etiam sed sodales elit, et scelerisque turpis. Praesent mollis enim ligula, eget efficitur sem mollis vel. Maecenas arcu mauris, tempus in placerat ut, semper facilisis justo. Vivamus iaculis justo faucibus eros pellentesque, a hendrerit est tempus. Vivamus mauris ipsum, consectetur sit amet mattis sed, ullamcorper eu est. Suspendisse quis dui ante. Ut lacinia in ligula eu ultrices. Cras ultricies auctor ipsum ornare pretium. Quisque non mauris sit amet ex tempor placerat a eu nisl. Vivamus eu dolor ut leo facilisis suscipit. Aenean congue ligula risus, sit amet cursus ipsum consectetur vitae. Duis semper quam eros, sed malesuada urna cursus ac. Ut in semper ligula. In ut velit id nisi vulputate tempus sed non ipsum. Nunc rutrum suscipit aliquam. Donec laoreet, mauris ac dapibus pretium, metus lacus rutrum ipsum, nec aliquam quam nunc non.</div>
+      </div>
+      <div id="h-staffcensus-contain">
+        <div class="h-census">
+          <h1>san llorona census</h1>
+          <h2>000 total</h2>
+          <div class="h-census-list">
+            <div class="census-humans"><b>000</b> <span>humans</span><i class="ra ra-daggers"></i></div>
+            <div class="census-witches"><b>000</b> <span>witches</span><i class="ra ra-fairy-wand"></i></div>
+            <div class="census-werewolves"><b>000</b> <span>werewolves</span><i class="ra  ra-pawprint"></i></div>
+            <div class="census-vampires"><b>000</b> <span>vampires</span><i class="ra  ra-dragon-wing"></i></div>
+          </div>
+        </div>
+        <div class="h-staff">
+          <h1>meet<br>our<br>show<br>runners</h1>
+          <div class="staffer"><b>cel.</b><span>staff</span><img src="https://i.ibb.co/hchZpfJ/yanfei-cropped.png"></div>
+          <div class="staffer"><b>lua.</b><span>staff</span><img src="https://i.ibb.co/fFymJkd/ganyu-cropped.png"></div>
+          <div class="staffer"><b>ruby.</b><span>staff</span><img src="https://i.ibb.co/gJcQtFP/barbara-cropped.png"></div>
+          <div class="staffer"><b>selkie.</b><span><s>arsonist</s><br>coder</span><img src="https://i.ibb.co/0XX9WWn/rosaria-cropped.png"></div>
+        </div>
+      </div>
+      <div id="h-credits-contain">
+        <div class="h-credits-deco1"><i class="ra ra-queen-crown"></i></div>
+        <div id="credits-proper">The original concept of Weeping Omens and its premise, lore, and setting were created by and are property of <b>Rin</b> and <b>Cel</b>, in inclusion to the current staff team. The site skin and site templates have been created by Selkie and Lua for exclusive use on Weeping Omens and may not be used and/or sold without express permission. The scripting and behavior for the moon in our logo is <a href="#">Copyright © 2012, Regents of the University of California, all rights reserved.</a> Vectors used are attributed to vecteezy where applicable. The scripting controlling the sidebar and light mode toggle was created by and is attributed to elli. The code area script was created by and is attributed to Nicole/Thunderstruck of Caution to The Wind. Our discord widget was created by titan embeds. All art used in the skin is attributed to their respective creators and is purely used non commercially. If your work is used here and you would like it taken down, please contact selkieee@gmail.com. あなたの作品がここで使用され、それを取り下げたいなら、selkieee@gmail.comに連絡してください。All characters and writing belong entirely to their creators. Theft or plagiarism will not be tolerated.</div>
+        <div class="credits-bubbles">
+          <div class="bubble-1">a a a a</div>
+          <div class="bubble-2">art by MIHOYO</div>
+          <div class="bubble-3">inspired by #dup</div>
+          <div class="bubble-4">skinned by selkie</div>
+        </div>
+      </div>
+      <div id="header-ouija"></div>
+    </div>
+    <div id="h-left-shape">
+      <img src="https://i.ibb.co/6wybkVd/omens2banner-5.png">
+    </div>
+    <div class="h-right-shape">
+    </div>
+  </header>
+  <main id="omens-main">
+    <% BOARD HEADER %>
+      <header class="category" id="cat-1">
+        <div class="category-title">the beginning</div>
+      </header>
+      <section class="brochure-container omens-forum-3 omens-category-1">
+        <div class="brochure-side">
+          <img alt="" src="src/img/Character_Lisa_Portrait.webp">
+        </div>
+        <div class="brochure-link-desc">
+          <a href="#" class="brochure-link link-hover">enter the brochure</a>
+          <div class="brochure-desc">Welcome to Weeping Omens! All basic information, such as rules, plot, and so forth
+            can be found here. Please make sure to read all necessary information as you prepare an account!</div>
+
+          <img alt="" src="src/img/Character_Lisa_Full_Wish.webp" class="newspaper-image-deco">
+        </div>
+        <div class="newspaper">
+          <div class="latest-announcement"><a href="#">happy anniversary, wo!</a></div>
+          <span class="announcement-flavor">our latest annoucement / <a href="#">view our newspaper</a></span>
+        </div>
+      </section>
+      <div class="board-quicklink-container residential-records">
+        <a href="#" class="board-quicklink">claims list</a>
+        <a href="#" class="board-quicklink">member directory</a>
+        <a href="#" class="board-quicklink">ping the team</a>
+        <a href="#" class="board-quicklink">site store</a>
+        <a href="#" class="board-quicklink">site templates</a>
+      </div>
+      <header class="category" id="cat-2">
+        <div class="category-title">character zone</div>
+      </header>
+      <section class="character-container">
+        <img alt="" src="src/img/wanted-deco.png" class="wanted-deco">
+        <div class="wanted-ads">
+          <img alt="" src="src/img/Character_Dainsleif_Portrait.webp">
+          <a href="#">VIEW WANT ADS</a>
+        </div>
+        <div class="character-links">
+          <a class="link-hover" href="#">trackers</a>
+          <a class="link-hover" href="#">development</a>
+          <a class="link-hover" href="#">arcade</a>
+          <a class="link-hover" href="#">testing</a>
+        </div>
+      </section>
+      <header class="communications">COMMUNICATIONS</header>
+      <section class="comm-container">
+        <article class="comm-forum forum-18">
+          <div class="comm-deco-contain">
+            <div class="comm-deco"></div>
+            <div class="last-poster" style="background-image:url(https://i.ibb.co/bWjYwPP/42b.png)"></div>
+          </div>
+          <div class="comm-link">
+            <a href="#" class="link-hover">mobile</a>
+            <span>000 THREADS + 000 POSTS</span>
+          </div>
+        </article>
+        <article class="comm-forum forum-23">
+          <div class="comm-deco-contain">
+            <div class="comm-deco">
+            </div>
+            <div class="last-poster" style="background-image:url(https://i.ibb.co/551mSL5/4.png)"></div>
+          </div>
+          <div class="comm-link">
+            <a href="#" class="link-hover">phoenix<br>networks</a>
+            <span>000 THREADS + 000 POSTS</span>
+          </div>
+        </article>
+      </section>
+      <header class="category" id="cat-3">
+        <div class="category-title">san llorona</div>
+      </header>
+      <div class="board-quicklink-container select-destination">
+        <a class="board-quicklink" id="city-center">city center</a>
+        <a class="board-quicklink" id="down-town">down town</a>
+        <a class="board-quicklink" id="residential-district">residential district</a>
+        <a class="board-quicklink" id="city-outskirts">city outskirts</a>
+        <a class="board-quicklink" id="outside-llorona">outside<br>the city</a>
+      </div>
+      <section class="llorona-container cat-3">
+        <div class="forum-row forum-8">
+          <div class="forum-deco">
+            <div class="forum-image"></div>
+            <div class="forum-statistics">000 POSTS<br>000 THREADS<br>000 TOTAL</div>
+            <div class="forum-poster">
+              <div class="last-poster" style="background-image:url(https://i.ibb.co/HPtVdwL/300x300.png);"></div>
+            </div>
+          </div>
+          <div class="forum-info">
+            <div class="forum-name"><a href="#">union avenue</a></div>
+            <div class="forum-desc">The business district. Men and women in suits parade throughout the streets and
+              crosswalks of <em>Union Avenue</em>, as buildings that rival the sky itself towers over the city. All of
+              these symbols of wealth and power. There are plenty of offices and stores located within.
+            </div>
+            <div class="last-poster-topic"><a href="#">FIRST LASTNAME</a> POSTED IN <a href="#">LOREM IPSUM DOLOR SIT
+                AMET</a></div>
+          </div>
+          <div class="subforum-list">
+            <span class="subforums"> <a class="tooltip" href="https://weepingomens.jcink.net/index.php?showforum=34"
+                title="Owned by a fashion mogul within the city, Runway houses a variety of brands and fashion-related offices such as magazines, modeling, designing, and so forth. Known to be the pinnacle of fashion within the state."
+                tooltip="Owned by a fashion mogul within the city, Runway houses a variety of brands and fashion-related offices such as magazines, modeling, designing, and so forth. Known to be the pinnacle of fashion within the state.">Runway</a>
+              <a class="tooltip" href="https://weepingomens.jcink.net/index.php?showforum=44" title="" tooltip="">City
+                Hall</a>
+              <a class="tooltip" href="https://weepingomens.jcink.net/index.php?showforum=59"
+                title="This building acts as a headquarters for the Ferdia conglomerate, and many of their companies offices are stationed here. "
+                tooltip="This building acts as a headquarters for the Ferdia conglomerate, and many of their companies offices are stationed here. ">Ferdia
+                H.Q.</a></span>
+          </div>
+        </div>
+        <div class="forum-row forum-9">
+          <div class="forum-deco">
+            <div class="forum-image"></div>
+            <div class="forum-statistics">000 POSTS<br>000 THREADS<br>000 TOTAL</div>
+            <div class="forum-poster">
+              <div class="last-poster" style="background-image:url(https://i.ibb.co/ThnGn6C/14.png);"></div>
+            </div>
+          </div>
+          <div class="forum-info">
+            <div class="forum-name"><a href="#">starlight lane</a></div>
+            <div class="forum-desc">Named for its penthouses that offer a fine view of the night sky, <em>Starlight
+                Lane</em> is a luxurious area for the wealthy and privileged. Various name brand stores can be seen
+              along the district alongside homes sold for millions. The finest the city has to offer.
+            </div>
+            <div class="last-poster-topic"><a href="#">FIRST LASTNAME</a> POSTED IN <a href="#">LOREM IPSUM DOLOR SIT
+                AMET</a></div>
+          </div>
+          <div class="subforum-list">
+            <span class="subforums"> <a class="tooltip" href="https://weepingomens.jcink.net/index.php?showforum=16"
+                title="A glamorous four-star hotel and casino for the elite of the city, The Gilded Angel offers a fantastic view of San Llorona and a renown casino to gamble your heart away."
+                tooltip="A glamorous four-star hotel and casino for the elite of the city, The Gilded Angel offers a fantastic view of San Llorona and a renown casino to gamble your heart away.">The
+                Gilded Angel</a></span>
+          </div>
+        </div>
+        <div class="forum-row forum-10">
+          <div class="forum-deco">
+            <div class="forum-image"></div>
+            <div class="forum-statistics">000 POSTS<br>000 THREADS<br>000 TOTAL</div>
+            <div class="forum-poster">
+              <div class="last-poster" style="background-image:url(https://i.ibb.co/tDBH413/300x300.png);"></div>
+            </div>
+          </div>
+          <div class="forum-info">
+            <div class="forum-name"><a href="#">cherry strip</a></div>
+            <div class="forum-desc">
+              The nightlife strip, which also serves as a red light district for city's elite. <em>Cherry Strip</em>
+              offers the finest in nightlife entertainment, and debauchery if one looks to right direction. Bars are
+              abundant within this district, alongside clubs, strip clubs, and the works.
+            </div>
+            <div class="last-poster-topic"><a href="#">FIRST LASTNAME</a> POSTED IN <a href="#">LOREM IPSUM DOLOR SIT
+                AMET</a></div>
+          </div>
+          <div class="subforum-list">
+          </div>
+        </div>
+      </section>
+      <header class="category" id="cat-4">
+        <div class="category-title">extras</div>
+      </header>
+      <section class="extras-container cat-4">
+        <div class="first-link"><a href="#">first link</a></div>
+        <div class="affiliate">
+          <div class="affiliate-text">AFFILIATE<br>WITH US</div>
+          <a href="#">
+            <div class="affiliate-box">
+              <img alt="" src="src/img/Character_Yae_Miko_Portrait.webp">
+            </div>
+          </a>
+        </div>
+        <div class="link-back"><a href="#">link back</a></div>
+        <div class="archives"><a href="#">access<br>archives</a></div>
+      </section>
+      <footer id="omens-footer">
+        <div class="city-records">CITY RECORDS</div>
+        <div class="welcome-user">welcome, first lastname</div>
+        <div class="board-totals">
+          <div class="posts"><em>17202</em> posts</div>
+          <div class="points"><em>1239540</em> points</div>
+          <div class="members"><em>538</em> members</div>
+          <div class="established"><em>DEC 2020</em> est.</div>
+        </div>
+        <div class="footer-jenshin"><img alt="" src="src/img/Character_Yelan_Portrait.webp"></div>
+        <div class="now-online">
+          <div class="online-list"><a href="https://weepingomens.jcink.net/index.php?showuser=2"><span
+                class="group-staff">Cel</span></a>,
+            <a href="https://weepingomens.jcink.net/index.php?showuser=536"><span class="group-vampire">Rin
+                Sakurai</span></a>, and <b>000</b> guests
+          </div>
+          <em>NOW<br>ONLINE</em>
+        </div>
+        <div class="online-today"><a href="https://weepingomens.jcink.net/index.php?showuser=545"><span
+              class="group-member">Mae</span></a>,
+          <a href="https://weepingomens.jcink.net/index.php?showuser=457"><span class="group-member">sakura</span></a>,
+          <a href="https://weepingomens.jcink.net/index.php?showuser=2"><span class="group-staff">Cel</span></a>,
+          <a href="https://weepingomens.jcink.net/index.php?showuser=6"><span class="group-staff">LUA</span></a>,
+          <a href="https://weepingomens.jcink.net/index.php?showuser=26"><span class="group-staff">Rubes</span></a>,
+          <a href="https://weepingomens.jcink.net/index.php?showuser=20"><span class="group-coder">selkie</span></a>,
+          <a href="https://weepingomens.jcink.net/index.php?showuser=388"><span class="group-human">Izsak
+              Levay</span></a>,
+          <a href="https://weepingomens.jcink.net/index.php?showuser=25"><span class="group-werewolf">ATTIE
+              BELMONT</span></a>,
+          <a href="https://weepingomens.jcink.net/index.php?showuser=116"><span class="group-werewolf">JACKI
+              ROSENBACH</span></a>,
+          <a href="https://weepingomens.jcink.net/index.php?showuser=40"><span class="group-witch">CASSANDRA
+              CASSIDY</span></a>,
+          <a href="https://weepingomens.jcink.net/index.php?showuser=371"><span class="group-witch">Eirlys
+              Lindberg</span></a>,
+          <a href="https://weepingomens.jcink.net/index.php?showuser=403"><span class="group-witch">Sabine
+              Hathorne</span></a>,
+          <a href="https://weepingomens.jcink.net/index.php?showuser=142"><span class="group-witch">VAL
+              GARNIER</span></a>,
+          <a href="https://weepingomens.jcink.net/index.php?showuser=39"><span class="group-vampire">Iain
+              Darlington</span></a>,
+          <a href="https://weepingomens.jcink.net/index.php?showuser=105"><span class="group-vampire">JULIET
+              SANTORO</span></a>,
+          <a href="https://weepingomens.jcink.net/index.php?showuser=536"><span class="group-vampire">Rin
+              Sakurai</span></a>,
+          <a href="https://weepingomens.jcink.net/index.php?showuser=430"><span class="group-pending">Alistair
+              Dane</span></a>,
+          <a href="https://weepingomens.jcink.net/index.php?showuser=95"><span class="group-pending">fuckhands
+              mcmike</span></a>
+        </div>
+        <div class="footer-links">
+          <a href="#" class="active-topics">active<br>topics<i class="game-icon game-icon-campfire"></i></a>
+          <a href="#" class="active-topics">online<br>list<i class="game-icon game-icon-arrow-cursor"></i></a>
+          <a href="#" class="active-topics">member<br>list<i class="game-icon game-icon-backup"></i></a>
+          <a href="#" class="active-topics">top<br>posters<i class="game-icon game-icon-laurel-crown"></i></a>
+        </div>
+      </footer>
+      <% COPYRIGHT %>
+  </main>
+  <aside id="omens-sidebar">
+    <div id="first-sidebar" class="sidebar-container">
+      <div class="sidebar-group group-1">
+        <h1>
+          <div>must reads</div>
+        </h1>
+        <a href="#" class="sidebar-link"><b>i.</b> premise and guidelines</a>
+        <a href="#" class="sidebar-link"><b>ii.</b> site lore and timeline</a>
+        <a href="#" class="sidebar-link"><b>iii.</b> getting started</a>
+      </div>
+      <div class="sidebar-group group-2">
+        <h1>
+          <div>character creation</div>
+        </h1>
+        <a href="#" class="sidebar-link"><b>iv.</b>member directory</a>
+        <a href="#" class="sidebar-link"><b>v.</b>claims compendium</a>
+        <a href="#" class="sidebar-link"><b>vi.</b>canonical factions</a>
+        <a href="#" class="sidebar-link"><b>vii.</b>the grimoire</a>
+        <a href="#" class="sidebar-link"><b>viii.</b>want ads</a>
+        <a href="#" class="sidebar-link"><b>ix.</b>site store</a>
+      </div>
+      <div class="sidebar-group group-3">
+        <h1>
+          <div>advertising</div>
+        </h1>
+        <a href="#" class="sidebar-link"><b>x.</b>first link</a>
+        <a href="#" class="sidebar-link"><b>xi.</b>link back</a>
+        <a href="#" class="sidebar-link"><b>xii.</b>affiliate</a>
+      </div>
+      <div class="sidebar-group group-4">
+        <h1>
+          <div>quicklinks</div>
+        </h1>
+        <a href="#" class="sidebar-link"><b>x.</b>thread tracker</a>
+        <a href="#" class="sidebar-link"><b>xi.</b>development</a>
+        <a href="#" class="sidebar-link"><b>xii.</b>testing grounds</a>
+        <a href="#" class="sidebar-link"><b>xiii.</b>custom link 01</a>
+        <a href="#" class="sidebar-link"><b>xiv.</b>custom link 02</a>
+        <a href="#" class="sidebar-link"><b>xv.</b>custom link 03</a>
+      </div>
+
+    </div>
+    <div id="second-sidebar" class="sidebar-container">
+      <div class="sidebar-group group-5">
+        <h1>
+          <div>useful links</div>
+        </h1>
+        <a href="#" class="sidebar-link isadmin-1"><b>o.</b>admin cp</a>
+        <a href="#" class="sidebar-link ismod-1"><b>o.</b>mod cp</a>
+        <a href="#" class="sidebar-link ismod-1 staff-corner"><b>o.</b>staff corner</a>
+        <a href="#" class="sidebar-link"><b>i.</b>site templates</a>
+        <a href="#" class="sidebar-link"><b>ii.</b>site store</a>
+        <a href="#" class="sidebar-link"><b>iii.</b>claims compendium</a>
+        <a href="#" class="sidebar-link"><b>iv.</b>canonical factions</a>
+        <a href="#" class="sidebar-link"><b>v.</b>want ads</a>
+        <a href="#" class="sidebar-link"><b>vi.</b>forum games</a>
+      </div>
+      <div class="sidebar-group group-4">
+        <h1>
+          <div>quicklinks</div>
+        </h1>
+        <a href="#" class="sidebar-link"><b>xiii.</b>thread tracker</a>
+        <a href="#" class="sidebar-link"><b>xiv.</b>development</a>
+        <a href="#" class="sidebar-link"><b>xv.</b>testing grounds</a>
+        <a href="#" class="sidebar-link"><b>viii.</b>your want ads</a>
+        <a href="#" class="sidebar-link"><b>viii.</b>your slides</a>
+        <a href="#" class="sidebar-link"><b>xvi.</b>custom link 01</a>
+        <a href="#" class="sidebar-link"><b>xvii.</b>custom link 02</a>
+        <a href="#" class="sidebar-link"><b>xviii.</b>custom link 03</a>
+      </div>
+    </div>
+    <div id="sidebar-toggle">toggle<br>view</div>
+  </aside>
+  <script src="https://kit.fontawesome.com/717db72a92.js" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="src/js/main.js"></script>
+
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+  <script>
+    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async></script>
+</body>
+
+</html>
