@@ -2170,7 +2170,7 @@ input[type="submit"] {
   background: url(../src/img/dot-background-white-5-opacity.png);
   background-attachment:fixed;
   overflow: hidden;
-
+  display:grid;
 }
 
 #omens-header .left-shape {
@@ -2255,6 +2255,37 @@ input[type="submit"] {
   float: left;
   height: 500px;
   width: 130px;
+}
+
+#omens-header .logo-moon {
+  position:absolute;
+  right:200px;
+  width:150px;
+  height:150px;
+  align-self:center;
+  z-index:1;
+}
+
+#omens-header .logo-moon path.moonback {
+  fill:var(--bg);
+}
+
+#omens-header .logo-moon path.moon {
+  fill:var(--main-accent);
+}
+
+#omens-header .moon-deco {
+  position: absolute;
+  width: 220px;
+  height: 213px;
+  background: url(../src/img/header-sigil.png);
+  background-size: contain;
+  filter: invert(50%);
+  opacity: 25%;
+  pointer-events: none;
+  right: 163px;
+  align-self: center;
+  margin-top: -15px;
 }
 /* END HEADER */
 
