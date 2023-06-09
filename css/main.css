@@ -1374,6 +1374,7 @@ input[type="submit"] {
   cursor:crosshair;
 }
 
+/* 
 #omens-body #omens-header {
   grid-area: omens-header;
   width: 1175px;
@@ -1506,7 +1507,7 @@ input[type="submit"] {
   background: #fc5296;
   position: absolute;
   top: -45px;
-  /* left: -250px; */
+  left: -250px;
   z-index: 1;
 }
 
@@ -2157,6 +2158,8 @@ input[type="submit"] {
   filter: grayscale(100%) blur(0px) invert(1);
   opacity: 7%;
 }
+
+*/
 
 #omens-body #omens-sidebar {
   grid-area: omens-sidebar;
