@@ -2215,6 +2215,27 @@ input[type="submit"] {
     mix-blend-mode: color;
     opacity: 75%;
 }
+
+#omens-header #logo {
+  position:absolute;
+  top:0;
+  right:0;
+  display:grid;
+  gap:5px;
+}
+
+#omens-header #logo em {
+  font: 400 5rem/80% 'urban jungle',sans-serif;
+  color:#eee;
+  -webkit-text-stroke: .1rem #eee;
+}
+
+#omens-header #logo span {
+  font:var(--small-header);
+  text-transform:uppercase;
+  color:var(--bg);
+  background:rgba(var(--main-accent-rgb), .7);
+}
 /* END HEADER */
 
 #omens-body #omens-sidebar {
