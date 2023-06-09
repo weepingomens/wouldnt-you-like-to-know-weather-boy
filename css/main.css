@@ -2171,6 +2171,16 @@ input[type="submit"] {
   background-attachment:fixed;
 
 }
+
+#omens-header .left-shape {
+  width:33%;
+  height:100%;
+  position:absolute;
+  background:red;
+  top:0;
+  left:0;
+  clip-path: polygon(0 0, 80% 0%, 100% 100%, 0% 100%);
+}
 /* END HEADER */
 
 #omens-body #omens-sidebar {
