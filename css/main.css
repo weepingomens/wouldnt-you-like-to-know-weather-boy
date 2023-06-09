@@ -2274,7 +2274,7 @@ input[type="submit"] {
   fill:var(--main-accent);
 }
 
-#omens-header .moon-deco {
+#omens-header .sigil {
   position: absolute;
   width: 220px;
   height: 213px;
