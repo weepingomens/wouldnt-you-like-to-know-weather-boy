@@ -971,28 +971,7 @@ textarea {
 .wrapmini { display: none; }
 
 /* END JCINK STYLING */
-/* START MOBILE STYLING */
-body#mobile {
-  --main-accent: #ddd;
-}
-#mobile-menu {
-  height:100vh;
-}
-.touch-nav {
-  font: italic 900 2rem 'playfair display', serif;
-  text-transform: lowercase;
-}
 
-.touch-nav a {
-  color:var(--main-accent);
-}
-
-body#mobile .maintitle {
-  font: 700 0.6rem/2 'open sans', sans-serif;
-  text-transform: uppercase;
-  letter-spacing: .2rem;
-}
-/* END MOBILE STYLING */
 
 body {
   background: url(../src/img/background.png);
