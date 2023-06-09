@@ -2240,6 +2240,22 @@ input[type="submit"] {
   border-radius: 5px;
   margin-top: 15px;
 }
+
+#omens-header #intro {
+  position: absolute;
+  width: 42ch;
+  top: 142px;
+  left: 430px;
+  font-weight:500;
+}
+
+#omens-header #intro:before {
+  content: '';
+  shape-outside: url(../src/img/lisa-cutout.webp);
+  float: left;
+  height: 500px;
+  width: 130px;
+}
 /* END HEADER */
 
 #omens-body #omens-sidebar {
