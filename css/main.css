@@ -2174,7 +2174,7 @@ input[type="submit"] {
 }
 
 #omens-header .left-shape {
-  width:25%;
+  width:15%;
   height:100%;
   position:absolute;
   background:var(--main-accent);
@@ -2201,7 +2201,7 @@ input[type="submit"] {
   position:absolute;
   z-index:1;
   top: -25px;
-  left: 110px;
+  left: 10px;
   pointer-events:none;
 }
 
@@ -2218,8 +2218,8 @@ input[type="submit"] {
 
 #omens-header #logo {
   position: absolute;
-  top: 10px;
-  left: 510px;
+  top: 25px;
+  left: 413px;
   display: grid;
   justify-items: start;
 }
@@ -2245,7 +2245,7 @@ input[type="submit"] {
   position: absolute;
   width: 42ch;
   top: 215px;
-  left: 440px;
+  left: 340px;
   font-weight:500;
 }
 
