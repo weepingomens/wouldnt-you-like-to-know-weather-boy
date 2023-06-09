@@ -2167,15 +2167,9 @@ input[type="submit"] {
   width:100%;
   height:750px;
   position:relative;
-}
-#omens-body #omens-header:before {
-  content: "";
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  background: url(https://i.ibb.co/zfqbhgy/aaaaaa.png);
-  opacity: 5%;
-  filter: invert(1);
+  background: url(../src/img/dot-background-white-5-opacity.png);
+  background-attachment:fixed;
+
 }
 /* END HEADER */
 
