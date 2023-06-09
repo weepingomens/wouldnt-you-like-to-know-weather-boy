@@ -2276,16 +2276,28 @@ input[type="submit"] {
 
 #omens-header .sigil {
   position: absolute;
-  width: 220px;
-  height: 213px;
+  right: 161px;
+  align-self: center;
+  width: 227px;
+  height: 220px;
   background: url(../src/img/header-sigil.png);
-  background-size: contain;
   filter: invert(50%);
+  background-size: cover;
   opacity: 25%;
   pointer-events: none;
-  right: 163px;
+}
+
+#omens-header .skull {
+  position: absolute;
+  margin-bottom: -540px;
+  right: -8px;
   align-self: center;
-  margin-top: -15px;
+  width: 560px;
+  height: 800px;
+  background: url(../src/img/header-skull.png);
+  filter: invert(50%);
+  background-size: cover;
+  opacity: 5%;
 }
 /* END HEADER */
 
