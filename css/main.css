@@ -2188,7 +2188,7 @@ input[type="submit"] {
     position: absolute;
     transform: scale(1.5);
     transform-origin: top;
-    filter: blur(5px);
+    filter: blur(5px) invert(1);
     mix-blend-mode: multiply;
     opacity: 50%;
 }
@@ -2200,8 +2200,9 @@ input[type="submit"] {
   background:url(../src/img/lisa-blank.webp);
   position:absolute;
   z-index:1;
-  top: -50px;
+  top: -25px;
   left: 110px;
+  pointer-events:none;
 }
 
 #omens-header #lisa:after {
@@ -2212,16 +2213,15 @@ input[type="submit"] {
   background:var(--main-accent);
   -webkit-mask-image: url(https://raw.githubusercontent.com/weepingomens/webp/main/lisa-hat.webp);
     mask-image: url(https://raw.githubusercontent.com/weepingomens/webp/main/lisa-hat.webp);
-    mix-blend-mode: color;
-    opacity: 75%;
+    mix-blend-mode: overlay;
 }
 
 #omens-header #logo {
-  position:absolute;
-  top:0;
-  right:0;
-  display:grid;
-  gap:5px;
+  position: absolute;
+  top: 10px;
+  left: 510px;
+  display: grid;
+  justify-items: start;
 }
 
 #omens-header #logo em {
@@ -2231,10 +2231,14 @@ input[type="submit"] {
 }
 
 #omens-header #logo span {
-  font:var(--small-header);
-  text-transform:uppercase;
-  color:var(--bg);
-  background:rgba(var(--main-accent-rgb), .7);
+  font: var(--small-header);
+  text-transform: uppercase;
+  color: var(--bg);
+  background: rgba(var(--main-accent-rgb), 1);
+  letter-spacing: .1rem;
+  padding: 7px 10px;
+  border-radius: 5px;
+  margin-top: 15px;
 }
 /* END HEADER */
 
