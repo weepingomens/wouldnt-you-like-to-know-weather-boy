@@ -2452,6 +2452,27 @@ input[type="submit"] {
   column-gap: 50px;
   text-align: justify;
 }
+
+#omens-header #weather { 
+  position: absolute;
+  top: 30px;
+  right: 780px;
+  width: 235px;
+  height: 170px;
+  opacity:0;
+  transition:.5s;
+}
+
+#omens-header #weather .font-icon {
+  font-size: 175px;
+  color: rgba(255,255,255,5%);
+  position:absolute;
+}
+
+#omens-header.updates #weather {
+  opacity:1;
+  transition:.5s;
+}
 /* END HEADER */
 
 #omens-body #omens-sidebar {
