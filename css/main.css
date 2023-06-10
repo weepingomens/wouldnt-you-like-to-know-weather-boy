@@ -2317,10 +2317,26 @@ input[type="submit"] {
   border:var(--default-border);
   position:absolute;
   margin-top:-57px;
+  transition:.25s;
 }
 
 #omens-header .nav-buttons a.intro {
   margin-top:-250px;
+}
+
+#omens-header .nav-buttons a.updates {
+  margin-left: 185px;
+  margin-top: -160px;
+}
+
+#omens-header .nav-buttons a.staff-team {
+  margin-left: 185px;
+  margin-top: 50px;
+}
+
+
+#omens-header .nav-buttons a.credits {
+  margin-top:150px;
 }
 /* END HEADER */
 
