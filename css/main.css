@@ -2344,6 +2344,21 @@ input[type="submit"] {
 #omens-header .nav-buttons a.credits {
   margin-top:150px;
 }
+
+#omens-header .ouija {
+  position: absolute;
+  width: 238px;
+}
+
+#omens-header .ouija img {
+  width:100%;
+  filter: contrast(50%) brightness(33%);
+}
+
+#omens-header.intro .ouija {
+  right: 157px;
+  top: -29px;
+}
 /* END HEADER */
 
 #omens-body #omens-sidebar {
