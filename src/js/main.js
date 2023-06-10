@@ -40,12 +40,23 @@ $('censor').toggleClass('omenscensorshowcontent omenscensorhidecontent');
   }); 
 });
 
+let omensHeader = document.querySelector('#omens-header');
+let headerIntro = document.querySelector('#omens-header a.intro');
+let headerUpdates = document.querySelector('#omens-header a.updates');
 
+headerIntro.addEventListener("click", () => {
+  omensHeader.setAttribute("class", "");
+  omensHeader.classList.add('intro');
+});
 
+headerUpdates.addEventListener("click", () => {
+  omensHeader.setAttribute("class", "");
+  omensHeader.classList.add('updates');
+});
 
 /*
 FOR THE LOVE OF GOD, REDO THIS SCRIPTING
-*/
+
 $(function() {
   $("#header-ouija, #moon-deco, #h-image, #h-blurb, #h-left-shape, #h-updates-contain, #h-staffcensus-contain, #h-credits-contain").removeClass();
   $("#header-ouija").addClass("intro");
@@ -86,7 +97,7 @@ $("#h-updates").click(function toggleUpdates() {
   $("#h-left-shape").addClass("updates");
   $("#h-updates-contain").addClass("updates");
 });
-
+*/
 // scroll bottom, scroll top
 
 $("#elevator-up").click(function() {
