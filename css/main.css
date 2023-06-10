@@ -2461,6 +2461,10 @@ input[type="submit"] {
   height: 170px;
   opacity:0;
   transition:.5s;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  flex-direction: column;
 }
 
 #omens-header #weather .font-icon {
