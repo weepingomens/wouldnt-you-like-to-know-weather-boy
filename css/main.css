@@ -2257,6 +2257,17 @@ input[type="submit"] {
   width: 130px;
 }
 
+#omens-header #intro em {
+  color: #fff;
+  font-style: normal;
+  font-weight: 700;
+  text-decoration: underline;
+  text-decoration-thickness: 0.1rem;
+  text-decoration-style: dotted;
+  text-underline-offset: 0.25rem;
+  text-decoration-color: rgba(255,255,255,20%);
+}
+
 #omens-header .logo-moon {
   position:absolute;
   right:200px;
