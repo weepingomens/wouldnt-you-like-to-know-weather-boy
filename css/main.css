@@ -2316,6 +2316,11 @@ input[type="submit"] {
   border-radius:100%;
   border:var(--default-border);
   position:absolute;
+  margin-top:-57px;
+}
+
+#omens-header .nav-buttons a.intro {
+  margin-top:-250px;
 }
 /* END HEADER */
 
