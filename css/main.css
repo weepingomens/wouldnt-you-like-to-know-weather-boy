@@ -2247,6 +2247,17 @@ input[type="submit"] {
   top: 215px;
   left: 340px;
   font-weight:500;
+  margin-left:50px;
+  opacity:0;
+  pointer-events:none;
+  transition:.25s;
+}
+
+#omens-header.intro #intro {
+  margin-left:0;
+  opacity:1;
+  pointer-events:auto;
+  transition:.25s;
 }
 
 #omens-header #intro:before {
