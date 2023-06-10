@@ -2299,6 +2299,24 @@ input[type="submit"] {
   background-size: cover;
   opacity: 5%;
 }
+
+#omens-header .nav-buttons {
+  position: absolute;
+  align-self: center;
+  right: 315px;
+  font:700 .7rem/100% 'open sans', sans-serif;
+}
+
+#omens-header .nav-buttons a {
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  width:75px;
+  height:75px;
+  border-radius:100%;
+  border:var(--default-border);
+  position:absolute;
+}
 /* END HEADER */
 
 #omens-body #omens-sidebar {
