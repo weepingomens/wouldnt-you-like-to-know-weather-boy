@@ -2320,6 +2320,12 @@ input[type="submit"] {
   transition:.25s;
 }
 
+#omens-header .nav-buttons a:hover {
+  border-color:var(--main-accent);
+  transition:.25s;
+  cursor:crosshair;
+}
+
 #omens-header .nav-buttons a.intro {
   margin-top:-250px;
 }
