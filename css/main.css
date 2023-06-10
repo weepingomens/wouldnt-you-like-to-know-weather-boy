@@ -2370,6 +2370,7 @@ input[type="submit"] {
 #omens-header .ouija {
   position: absolute;
   width: 238px;
+  transition:.5s;
 }
 
 #omens-header .ouija img {
@@ -2380,6 +2381,13 @@ input[type="submit"] {
 #omens-header.intro .ouija {
   right: 157px;
   top: -29px;
+  transform: rotate(0deg);
+}
+
+#omens-header.updates .ouija {
+  right: -64px;
+  top: 81px;
+  transform: rotate(56deg);
 }
 /* END HEADER */
 
