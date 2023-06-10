@@ -2418,18 +2418,25 @@ input[type="submit"] {
   opacity:0;
   pointer-events:none;
   transition:.5s;
+}
+
+#omens-header.updates #updates {
+  opacity: 1;
+  pointer-events: auto;
+  transition: .5s;
+  position: absolute;
+  top: 250px;
+  left: 225px;
+  width: 500px;
+}
+
+#omens-header.updates #updates .content {
   -webkit-column-count: 2;
   -webkit-column-gap: 50px;
   -webkit-column-rule: solid 2px #2f2f2f;
   column-count: 2;
   column-rule: solid 2px #2f2f2f;
   column-gap: 50px;
-}
-
-#omens-header.updates #updates {
-  opacity:1;
-  pointer-events:auto;
-  transition:.5s;
 }
 /* END HEADER */
 
