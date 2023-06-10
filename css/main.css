@@ -2187,8 +2187,8 @@ input[type="submit"] {
   display: block;
     position: absolute;
     transform: scale(1.5);
-    transform-origin: top;
-    filter: blur(5px) invert(1);
+    transform-origin: top right;
+    filter: blur(5px);
     mix-blend-mode: multiply;
     opacity: 50%;
     transition:.5s;
@@ -2216,6 +2216,8 @@ input[type="submit"] {
 
 #omens-header.intro #lisa {
   opacity:1;
+  transition:.25s;
+  transition-delay:.5s;
 }
 
 #omens-header.updates #lisa {
@@ -2276,6 +2278,7 @@ input[type="submit"] {
   opacity:1;
   pointer-events:auto;
   transition:.25s;
+  transition-delay:.5s;
 }
 
 #omens-header #intro:before {
@@ -2418,6 +2421,11 @@ input[type="submit"] {
 
 #omens-header #updates {
   opacity:0;
+  position: absolute;
+  top: 230px;
+  left: 225px;
+  width: 525px;
+  transform: scale(.8);
   pointer-events:none;
   transition:.5s;
 }
@@ -2425,14 +2433,11 @@ input[type="submit"] {
 #omens-header.updates #updates {
   opacity: 1;
   pointer-events: auto;
+  transform: scale(1);
   transition: .5s;
-  position: absolute;
-  top: 250px;
-  left: 225px;
-  width: 525px;
 }
 
-#omens-header.updates #updates h1 {
+#omens-header #updates h1 {
   margin:0;
   font:700 4rem/1 'playfair display',serif;
   letter-spacing:-.33rem;
@@ -2440,7 +2445,7 @@ input[type="submit"] {
   margin-bottom:25px;
 }
 
-#omens-header.updates #updates .newest-update {
+#omens-header #updates .newest-update {
   max-height: 360px;
   overflow: auto;
   padding-bottom: 10px;
@@ -2460,6 +2465,7 @@ input[type="submit"] {
   width: 235px;
   height: 170px;
   opacity:0;
+  transform:translateY(-50px);
   transition:.5s;
   display:flex;
   align-items:center;
@@ -2493,7 +2499,9 @@ input[type="submit"] {
 
 #omens-header.updates #weather {
   opacity:1;
+  transform:translateY(0);
   transition:.5s;
+  transition-delay:.5s;
 }
 /* END HEADER */
 
