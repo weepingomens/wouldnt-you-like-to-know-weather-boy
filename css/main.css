@@ -2203,6 +2203,12 @@ input[type="submit"] {
   top: -25px;
   left: 10px;
   pointer-events:none;
+  margin:0;
+  transition:.25s;
+}
+
+#omens-header.intro #lisa {
+  opacity:1;
 }
 
 #omens-header #lisa:after {
