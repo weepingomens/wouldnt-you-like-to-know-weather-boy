@@ -2465,6 +2465,8 @@ input[type="submit"] {
   align-items:center;
   justify-content:center;
   flex-direction: column;
+  text-align: center;
+    gap: 5px;
 }
 
 #omens-header #weather .font-icon {
@@ -2473,6 +2475,20 @@ input[type="submit"] {
   -webkit-text-fill-color: transparent;
     -webkit-text-stroke: 3px rgba(255,255,255,5%);
   position:absolute;
+  pointer-events:none;
+}
+
+#omens-header #weather em {
+  font:700 2rem/1 'playfair display',serif;
+  color:#eee;
+}
+
+#omens-header #weather span {
+  font:var(--small-header);
+  text-transform:uppercase;
+  letter-spacing:.1rem;
+  line-height:2;
+  color:rgba(255,255,255,33%);
 }
 
 #omens-header.updates #weather {
