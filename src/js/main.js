@@ -43,6 +43,7 @@ $('censor').toggleClass('omenscensorshowcontent omenscensorhidecontent');
 let omensHeader = document.querySelector('#omens-header');
 let headerIntro = document.querySelector('#omens-header a.intro');
 let headerUpdates = document.querySelector('#omens-header a.updates');
+let headerStaff = document.querySelector('#omens-header a.staff-team');
 
 headerIntro.addEventListener("click", () => {
   omensHeader.setAttribute("class", "");
@@ -52,6 +53,11 @@ headerIntro.addEventListener("click", () => {
 headerUpdates.addEventListener("click", () => {
   omensHeader.setAttribute("class", "");
   omensHeader.classList.add('updates');
+});
+
+headerStaff.addEventListener("click", () => {
+  omensHeader.setAttribute("class", "");
+  omensHeader.classList.add('staff');
 });
 
 /*
