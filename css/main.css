@@ -2225,6 +2225,13 @@ input[type="submit"] {
   opacity:0;
 }
 
+#omens-header.staff #lisa {
+  transform:scale(1.5);
+  filter:blur(2px);
+  opacity:0;
+  transition:.5s;
+}
+
 #omens-header #lisa:after {
   content:'';
   position:absolute;
