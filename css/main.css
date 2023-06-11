@@ -2544,9 +2544,11 @@ input[type="submit"] {
   left: 200px;
   top: 50px;
   width: 575px;
-  height: 575px;
+  height: 650px;
   align-items: stretch;
   justify-items: stretch;
+  justify-content: center;
+  align-content: center;
 }
 
 #omens-header #staff h1 {
