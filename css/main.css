@@ -2535,6 +2535,16 @@ input[type="submit"] {
   transition:.5s;
   transition-delay:.5s;
 }
+
+#omens-header #staff {
+  position:absolute;
+}
+
+#omens-header #staff h1 {
+  margin:0;
+  font:900 5rem/1 'playfair display',serif;
+  text-transform:uppercase;
+}
 /* END HEADER */
 
 #omens-body #omens-sidebar {
