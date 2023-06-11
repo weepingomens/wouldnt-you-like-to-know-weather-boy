@@ -2255,6 +2255,14 @@ input[type="submit"] {
   left: 413px;
   display: grid;
   justify-items: start;
+  transform:0;
+  transition:.5s;
+}
+
+#omens-header.staff #logo {
+  transform:translateX(50px);
+  opacity:0;
+  transition:.5s;
 }
 
 #omens-header #logo em {
