@@ -2200,6 +2200,12 @@ input[type="submit"] {
   opacity:33%;
   transition:.5s;
 }
+
+#omens-header.staff .left-shape img {
+  opacity:3%;
+  transition:.5s;
+}
+
 #omens-header #lisa {
   display:block;
   width: 650px;
@@ -2355,6 +2361,11 @@ input[type="submit"] {
 
 #omens-header.updates .skull {
   transform:translateY(-50px);
+  transition:.5s;
+}
+
+#omens-header.staff .skull {
+  transform:translateY(-100px);
   transition:.5s;
 }
 
