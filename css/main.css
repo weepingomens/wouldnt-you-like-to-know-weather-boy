@@ -2365,6 +2365,7 @@ input[type="submit"] {
   background-size: cover;
   opacity: 5%;
   transition:.5s;
+  pointer-events:none;
 }
 
 #omens-header.updates .skull {
