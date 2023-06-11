@@ -2543,23 +2543,33 @@ input[type="submit"] {
   grid: 250px 250px / 250px 250px;
   gap: 50px;
   left: 200px;
-  top: 50px;
+  top: 0;
   width: 575px;
-  height: 650px;
+  height: 750px;
   align-items: stretch;
   justify-items: stretch;
   justify-content: center;
   align-content: center;
+  transform: translateY(50px);
+  opacity: 0;
+  transition: .5s;
+}
+
+#omens-header.staff #staff {
+  transform:translateY(0);
+  opacity:1;
+  transition:.5s;
+  transition-delay:.5s;
 }
 
 #omens-header #staff h1 {
   margin: 0;
-  font: 900 5rem/.75 'playfair display',serif;
+  font: 900 10rem/.75 'playfair display',serif;
   text-transform: uppercase;
   position: absolute;
-  bottom: -125px;
-  left: -30px;
-  color: rgba(255,255,255,3%);
+  bottom: 0px;
+  left: -50px;
+  color: rgba(255,255,255,2%);
 }
 
 #omens-header #staff a.staff-member {
