@@ -2544,6 +2544,7 @@ input[type="submit"] {
   margin:0;
   font:900 5rem/1 'playfair display',serif;
   text-transform:uppercase;
+  position:absolute;
 }
 /* END HEADER */
 
