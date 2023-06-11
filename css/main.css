@@ -2419,6 +2419,12 @@ input[type="submit"] {
   transform: rotate(56deg);
 }
 
+#omens-header.staff .ouija {
+  right: -64px;
+  top: 340px;
+  transform: rotate(125deg);
+}
+
 #omens-header #updates {
   opacity:0;
   position: absolute;
