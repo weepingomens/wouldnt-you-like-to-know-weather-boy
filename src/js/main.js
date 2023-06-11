@@ -44,6 +44,7 @@ let omensHeader = document.querySelector('#omens-header');
 let headerIntro = document.querySelector('#omens-header a.intro');
 let headerUpdates = document.querySelector('#omens-header a.updates');
 let headerStaff = document.querySelector('#omens-header a.staff-team');
+let headerCredits = document.querySelector('#omens-header a.credits');
 
 headerIntro.addEventListener("click", () => {
   omensHeader.setAttribute("class", "");
@@ -60,6 +61,10 @@ headerStaff.addEventListener("click", () => {
   omensHeader.classList.add('staff');
 });
 
+headerCredits.addEventListener("click", () => {
+  omensHeader.setAttribute("class", "");
+  omensHeader.classList.add('credits');
+});
 /*
 FOR THE LOVE OF GOD, REDO THIS SCRIPTING
 
