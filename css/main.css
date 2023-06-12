@@ -2206,6 +2206,10 @@ input[type="submit"] {
   transition:.5s;
 }
 
+#omens-header.credits .left-shape {
+  z-index:2;
+}
+
 #omens-header #lisa {
   display:block;
   width: 650px;
@@ -2670,6 +2674,7 @@ input[type="submit"] {
   transform:scale(1.1);
   opacity:0;
   transition:.5s;
+  pointer-events:none;
 }
 
 #omens-header.credits #credits {
@@ -2677,6 +2682,7 @@ input[type="submit"] {
   opacity:1;
   transition:.5s;
   transition-delay:.75s;
+  pointer-events:auto;
 }
 
 #omens-header #credit-bubbles {
@@ -2723,6 +2729,7 @@ input[type="submit"] {
   margin-left:-50px;
   opacity:0;
   transition:.5s;
+  z-index:3;
 }
 
 #omens-header.credits #credit-bubbles,
