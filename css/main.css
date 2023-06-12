@@ -2266,8 +2266,6 @@ input[type="submit"] {
   position: absolute;
   top: 25px;
   left: 413px;
-  display: grid;
-  justify-items: start;
   transform:0;
   transition:.5s;
 }
@@ -2276,6 +2274,11 @@ input[type="submit"] {
   transform:translateX(50px);
   opacity:0;
   transition:.5s;
+}
+
+#omens-header #logo a {
+  display: grid;
+  justify-items: start;
 }
 
 #omens-header #logo em {
