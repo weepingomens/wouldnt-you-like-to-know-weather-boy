@@ -11739,6 +11739,11 @@ body.light {
   font: 400 1rem/1.6 'open sans', sans-serif;
 }
 
+.light #omens-header #logo em {
+  color: var(--basic-text);
+  -webkit-text-stroke: 0.2rem var(--basic-text);
+}
+
 .light #omens-body #omens-sidebar {
   background: #ccc;
 }
@@ -11751,6 +11756,12 @@ body.light {
   mix-blend-mode: color-burn;
 }
 
+.light #omens-header #logo span,
+.light #omens-header #intro em,
+.light #omens-header #updates .newest-update em,
+.light #omens-header #updates .newest-update b, 
+.light #omens-header #credits em,
+.light #omens-header #credits b,
 .light #omens-body #omens-sidebar .sidebar-group a,
 .light .brochure-desc,
 .light .subforum-list .subforums a,
