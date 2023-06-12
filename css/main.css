@@ -2763,6 +2763,39 @@ input[type="submit"] {
   transition-delay: 1.25s;
 }
 
+@keyframes omens-lightning {
+  0% {
+    opacity: 0;
+  }
+
+  90% {
+    opacity: 0;
+  }
+
+  91% {
+    opacity: 5%;
+  }
+
+  93% {
+    opacity: 0;
+  }
+
+  94% {
+    opacity: 5%;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+#omens-header #lightning {
+  position: absolute;
+  right: -50px;
+  pointer-events:none;
+  opacity:0;
+  animation: 25s omens-lightning normal forwards;
+}
 /* END HEADER */
 
 #omens-body #omens-sidebar {
