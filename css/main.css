@@ -7790,6 +7790,10 @@ a.user-small-info:hover:before {
   text-decoration-thickness: 0.1rem;
 }
 
+.omens-post-template img {
+  max-width:100%;
+}
+
 /* END UNIVERSAL [POST] STYLING */
 /* START [POST1] TEMPLATE */
 
