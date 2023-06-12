@@ -1383,6 +1383,7 @@ input[type="submit"] {
 #omens-body #light-toggle:hover,
 #omens-body #header-toggle:hover {
   cursor: crosshair;
+  color:var(--main-accent);
 }
 
 #omens-body #header-toggle {
