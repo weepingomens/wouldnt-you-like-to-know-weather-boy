@@ -2232,11 +2232,19 @@ input[type="submit"] {
 }
 
 #omens-header.staff #lisa {
-  transform:scale(1.5);
-  filter:blur(2px);
+  margin-left:-100px;
   opacity:0;
   transition:.5s;
 }
+
+#omens-header.credits #lisa {
+  filter: grayscale(100%) blur(0px) invert(1);
+  transform: scale(1.5);
+  opacity:7%;
+  transition:.75s;
+  transform-origin:left;
+}
+
 
 #omens-header #lisa:after {
   content:'';
@@ -2378,6 +2386,11 @@ input[type="submit"] {
   transition:.5s;
 }
 
+#omens-header.credits .skull {
+  transform:translateY(-200px);
+  transition:.5s;
+}
+
 #omens-header .nav-buttons {
   position: absolute;
   align-self: center;
@@ -2450,6 +2463,12 @@ input[type="submit"] {
   right: -64px;
   top: 340px;
   transform: rotate(125deg);
+}
+
+#omens-header.credits .ouija {
+  right: 156px;
+  top: 459px;
+  transform: rotate(180deg);
 }
 
 #omens-header #updates {
@@ -2553,6 +2572,7 @@ input[type="submit"] {
   transform: translateY(50px);
   opacity: 0;
   transition: .5s;
+  pointer-events:none;
 }
 
 #omens-header.staff #staff {
@@ -2560,6 +2580,7 @@ input[type="submit"] {
   opacity:1;
   transition:.5s;
   transition-delay:.5s;
+  pointer-events:auto;
 }
 
 #omens-header #staff h1 {
