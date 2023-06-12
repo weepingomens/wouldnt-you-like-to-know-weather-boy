@@ -11744,6 +11744,11 @@ body.light {
   -webkit-text-stroke: 0.2rem var(--basic-text);
 }
 
+.light #omens-header #weather .font-icon {
+  color: var(--border);
+  -webkit-text-stroke: 3px var(--border);
+}
+
 .light #omens-body #omens-sidebar {
   background: #ccc;
 }
@@ -11762,7 +11767,9 @@ body.light {
 .light #omens-header #updates .newest-update b, 
 .light #omens-header #credits em,
 .light #omens-header #credits b,
+.light #omens-header #staff a.staff-member,
 .light #omens-body #omens-sidebar .sidebar-group a,
+.light #omens-header #weather em,
 .light .brochure-desc,
 .light .subforum-list .subforums a,
 .light .forum-info .forum-desc,
@@ -11853,6 +11860,7 @@ body.light {
   background: var(--border);
 }
 
+.light #omens-header #staff h1,
 .light .board-quicklink-container:before,
 .light #omens-footer .city-records,
 .light header.communications,
