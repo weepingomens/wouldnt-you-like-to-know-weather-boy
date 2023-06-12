@@ -2320,7 +2320,9 @@ input[type="submit"] {
 
 #omens-header #intro em,
 #omens-header #updates .newest-update em,
-#omens-header #updates .newest-update b {
+#omens-header #updates .newest-update b,
+#omens-header #credits em,
+#omens-header #credits b {
   color: #fff;
   font-style: normal;
   font-weight: 700;
@@ -2655,6 +2657,37 @@ input[type="submit"] {
   column-rule: var(--default-border);
   column-gap: 50px;
   text-align: justify;
+  width: 525px;
+  position: absolute;
+  column-count: 2;
+  top: 230px;
+  left: 225px;
+  font-size: .9rem;
+  font-weight: 600;
+}
+
+#omens-header #credit-bubbles {
+  position: absolute;
+  display: flex;
+  left: 110px;
+  top: 62px;
+  z-index: 1;
+}
+
+#omens-header #credit-bubbles div {
+  font: 700 0.6rem/1 'open sans',sans-serif;
+  text-transform: uppercase;
+  word-spacing: 100vw;
+  text-align: center;
+  width: 50px;
+  height: 50px;
+  padding: 5px;
+  background: #eee;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+  color: var(--bg);
 }
 /* END HEADER */
 
