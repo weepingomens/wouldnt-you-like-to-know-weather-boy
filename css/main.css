@@ -989,7 +989,7 @@ body.sidebar-storage-true #omens-body #omens-sidebar #first-sidebar {
   margin-left: -250px;
 }
 
-body.hide-header #omens-header {
+body#omens-body.hide-header #omens-header {
   display: none;
 }
 
