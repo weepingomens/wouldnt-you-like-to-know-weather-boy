@@ -11765,6 +11765,14 @@ body.light {
   background: #333;
 }
 
+.light #omens-header .skull {
+  filter:invert(0);
+}
+
+.light #omens-header .ouija {
+  filter: invert(85%);
+}
+
 .light #omens-header #logo span,
 .light #omens-header #intro em,
 .light #omens-header #updates .newest-update em,
