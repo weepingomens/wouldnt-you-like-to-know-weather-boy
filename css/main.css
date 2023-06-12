@@ -313,7 +313,7 @@ textarea {
 .disable-custom-accents,
 .disable-custom-accents .post-row,
 .disable-custom-accents #main-profile {
-  --custom:var(--main-accent)!important;
+  --custom: var(--main-accent) !important;
 }
 
 /*
@@ -851,7 +851,7 @@ textarea {
 }
 
 #ucpcontent form[name=mutliact] tr {
-  display:initial;
+  display: initial;
 }
 
 #ucpcontent .forminput,
@@ -966,9 +966,13 @@ textarea {
   display: none;
 }
 
-#logostrip, #submenu, #userlinks, .newstext { display:none; }
+#logostrip, #submenu, #userlinks, .newstext {
+  display: none;
+}
 
-.wrapmini { display: none; }
+.wrapmini {
+  display: none;
+}
 
 /* END JCINK STYLING */
 
@@ -991,25 +995,27 @@ body a {
 }
 
 #s-m-t-tooltip {
-  width:initial;
-  position:absolute;
-  max-width:300px;
-  z-index:9999999;
-  margin:10px;
-  padding:10px;
-  background:#111;
-  -moz-border-radius:3px;
-  -webkit-border-radius:3px;
-  border-radius:3px;
+  width: initial;
+  position: absolute;
+  max-width: 300px;
+  z-index: 9999999;
+  margin: 10px;
+  padding: 10px;
+  background: #111;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
   /* font */
-  color:#fff;
-    font: 700 10px open sans,sans-serif;
-    line-height: 170%;
-  text-align:justify;
-  text-transform:uppercase;
+  color: #fff;
+  font: 700 10px open sans, sans-serif;
+  line-height: 170%;
+  text-align: justify;
+  text-transform: uppercase;
 }
 
-.cp {font-family:'cappuccicons'!important;}
+.cp {
+  font-family: 'cappuccicons' !important;
+}
 
 [type="checkbox"], [type="radio"] {
   filter: grayscale(1);
@@ -1236,7 +1242,7 @@ input[type="submit"] {
 }
 
 #omens-body #omens-top #current-user .user-name b {
-  font: 800 1.1rem/.7 'playfair display',serif;
+  font: 800 1.1rem/.7 'playfair display', serif;
   letter-spacing: 0px;
   text-transform: lowercase;
   color: var(--main-accent);
@@ -1371,7 +1377,7 @@ input[type="submit"] {
 }
 
 #omens-body #light-toggle:hover {
-  cursor:crosshair;
+  cursor: crosshair;
 }
 
 /* 
@@ -2164,116 +2170,116 @@ input[type="submit"] {
 /* START HEADER */
 #omens-body #omens-header {
   grid-area: omens-header;
-  width:100%;
-  height:750px;
-  position:relative;
+  width: 100%;
+  height: 750px;
+  position: relative;
   background: url(../src/img/dot-background-white-5-opacity.png);
-  background-attachment:fixed;
+  background-attachment: fixed;
   overflow: hidden;
-  display:grid;
+  display: grid;
 }
 
 #omens-header .left-shape {
-  width:15%;
-  height:100%;
-  position:absolute;
-  background:var(--main-accent);
-  top:0;
-  left:0;
+  width: 15%;
+  height: 100%;
+  position: absolute;
+  background: var(--main-accent);
+  top: 0;
+  left: 0;
   clip-path: polygon(0 0, 80% 0%, 100% 100%, 0% 100%);
 }
 
 #omens-header .left-shape img {
   display: block;
-    position: absolute;
-    transform: scale(1.5);
-    transform-origin: top right;
-    filter: blur(5px);
-    mix-blend-mode: multiply;
-    opacity: 50%;
-    transition:.5s;
+  position: absolute;
+  transform: scale(1.5);
+  transform-origin: top right;
+  filter: blur(5px);
+  mix-blend-mode: multiply;
+  opacity: 50%;
+  transition: .5s;
 }
 
 #omens-header.updates .left-shape img {
-  transform:scale(1) translateX(-150px) translateY(-50px);
-  filter:blur(0);
-  opacity:33%;
-  transition:.5s;
+  transform: scale(1) translateX(-150px) translateY(-50px);
+  filter: blur(0);
+  opacity: 33%;
+  transition: .5s;
 }
 
 #omens-header.staff .left-shape img {
-  opacity:3%;
-  transition:.5s;
+  opacity: 3%;
+  transition: .5s;
 }
 
 #omens-header.credits .left-shape {
-  z-index:2;
+  z-index: 2;
 }
 
 #omens-header #lisa {
-  display:block;
+  display: block;
   width: 650px;
   height: 1389px;
-  background:url(../src/img/lisa-blank.webp);
-  position:absolute;
-  z-index:1;
+  background: url(../src/img/lisa-blank.webp);
+  position: absolute;
+  z-index: 1;
   top: -25px;
   left: 10px;
-  pointer-events:none;
-  margin:0;
-  transition:.5s;
+  pointer-events: none;
+  margin: 0;
+  transition: .5s;
 }
 
 #omens-header.intro #lisa {
-  opacity:1;
-  transition:.5s;
-  transition-delay:.5s;
+  opacity: 1;
+  transition: .5s;
+  transition-delay: .5s;
 }
 
 #omens-header.updates #lisa {
-  margin-left:-100px;
-  opacity:0;
-  transition:.5s;
+  margin-left: -100px;
+  opacity: 0;
+  transition: .5s;
 }
 
 #omens-header.staff #lisa {
-  margin-left:-100px;
-  opacity:0;
-  transition:.5s;
+  margin-left: -100px;
+  opacity: 0;
+  transition: .5s;
 }
 
 #omens-header.credits #lisa {
   filter: grayscale(100%) blur(0px) invert(1);
   transform: scale(1.5);
-  opacity:7%;
-  transition:.75s;
-  transform-origin:left;
+  opacity: 7%;
+  transition: .75s;
+  transform-origin: left;
 }
 
 
 #omens-header #lisa:after {
-  content:'';
-  position:absolute;
-  width:100%;
-  height:100%;
-  background:var(--main-accent);
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: var(--main-accent);
   -webkit-mask-image: url(https://raw.githubusercontent.com/weepingomens/webp/main/lisa-hat.webp);
-    mask-image: url(https://raw.githubusercontent.com/weepingomens/webp/main/lisa-hat.webp);
-    mix-blend-mode: overlay;
+  mask-image: url(https://raw.githubusercontent.com/weepingomens/webp/main/lisa-hat.webp);
+  mix-blend-mode: overlay;
 }
 
 #omens-header #logo {
   position: absolute;
   top: 25px;
   left: 413px;
-  transform:0;
-  transition:.5s;
+  transform: 0;
+  transition: .5s;
 }
 
 #omens-header.staff #logo {
-  transform:translateX(50px);
-  opacity:0;
-  transition:.5s;
+  transform: translateX(50px);
+  opacity: 0;
+  transition: .5s;
 }
 
 #omens-header #logo a {
@@ -2282,8 +2288,8 @@ input[type="submit"] {
 }
 
 #omens-header #logo em {
-  font: 400 5rem/80% 'urban jungle',sans-serif;
-  color:#eee;
+  font: 400 5rem/80% 'urban jungle', sans-serif;
+  color: #eee;
   -webkit-text-stroke: .1rem #eee;
 }
 
@@ -2303,19 +2309,19 @@ input[type="submit"] {
   width: 43ch;
   top: 215px;
   left: 340px;
-  font-weight:500;
-  margin-left:50px;
-  opacity:0;
-  pointer-events:none;
-  transition:.25s;
+  font-weight: 500;
+  margin-left: 50px;
+  opacity: 0;
+  pointer-events: none;
+  transition: .25s;
 }
 
 #omens-header.intro #intro {
-  margin-left:0;
-  opacity:1;
-  pointer-events:auto;
-  transition:.5s;
-  transition-delay:.75s;
+  margin-left: 0;
+  opacity: 1;
+  pointer-events: auto;
+  transition: .5s;
+  transition-delay: .75s;
 }
 
 #omens-header #intro:before {
@@ -2338,24 +2344,24 @@ input[type="submit"] {
   text-decoration-thickness: 0.1rem;
   text-decoration-style: dotted;
   text-underline-offset: 0.25rem;
-  text-decoration-color: rgba(255,255,255,20%);
+  text-decoration-color: rgba(255, 255, 255, 20%);
 }
 
 #omens-header .logo-moon {
-  position:absolute;
-  right:200px;
-  width:150px;
-  height:150px;
-  align-self:center;
-  z-index:1;
+  position: absolute;
+  right: 200px;
+  width: 150px;
+  height: 150px;
+  align-self: center;
+  z-index: 1;
 }
 
 #omens-header .logo-moon path.moonback {
-  fill:var(--bg);
+  fill: var(--bg);
 }
 
 #omens-header .logo-moon path.moon {
-  fill:var(--main-accent);
+  fill: var(--main-accent);
 }
 
 #omens-header .sigil {
@@ -2382,53 +2388,53 @@ input[type="submit"] {
   filter: invert(50%);
   background-size: cover;
   opacity: 5%;
-  transition:.5s;
-  pointer-events:none;
+  transition: .5s;
+  pointer-events: none;
 }
 
 #omens-header.updates .skull {
-  transform:translateY(-50px);
-  transition:.5s;
+  transform: translateY(-50px);
+  transition: .5s;
 }
 
 #omens-header.staff .skull {
-  transform:translateY(-100px);
-  transition:.5s;
+  transform: translateY(-100px);
+  transition: .5s;
 }
 
 #omens-header.credits .skull {
-  transform:translateY(-200px);
-  transition:.5s;
+  transform: translateY(-200px);
+  transition: .5s;
 }
 
 #omens-header .nav-buttons {
   position: absolute;
   align-self: center;
   right: 315px;
-  font:700 .7rem/100% 'open sans', sans-serif;
+  font: 700 .7rem/100% 'open sans', sans-serif;
 }
 
 #omens-header .nav-buttons a {
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  width:75px;
-  height:75px;
-  border-radius:100%;
-  border:var(--default-border);
-  position:absolute;
-  margin-top:-57px;
-  transition:.25s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 75px;
+  height: 75px;
+  border-radius: 100%;
+  border: var(--default-border);
+  position: absolute;
+  margin-top: -57px;
+  transition: .25s;
 }
 
 #omens-header .nav-buttons a:hover {
-  border-color:var(--main-accent);
-  transition:.25s;
-  cursor:crosshair;
+  border-color: var(--main-accent);
+  transition: .25s;
+  cursor: crosshair;
 }
 
 #omens-header .nav-buttons a.intro {
-  margin-top:-250px;
+  margin-top: -250px;
 }
 
 #omens-header .nav-buttons a.updates {
@@ -2443,17 +2449,17 @@ input[type="submit"] {
 
 
 #omens-header .nav-buttons a.credits {
-  margin-top:150px;
+  margin-top: 150px;
 }
 
 #omens-header .ouija {
   position: absolute;
   width: 238px;
-  transition:.5s;
+  transition: .5s;
 }
 
 #omens-header .ouija img {
-  width:100%;
+  width: 100%;
   filter: contrast(50%) brightness(33%);
 }
 
@@ -2482,14 +2488,14 @@ input[type="submit"] {
 }
 
 #omens-header #updates {
-  opacity:0;
+  opacity: 0;
   position: absolute;
   top: 230px;
   left: 225px;
   width: 525px;
   transform: scale(.8);
-  pointer-events:none;
-  transition:.5s;
+  pointer-events: none;
+  transition: .5s;
 }
 
 #omens-header.updates #updates {
@@ -2500,11 +2506,11 @@ input[type="submit"] {
 }
 
 #omens-header #updates h1 {
-  margin:0;
-  font:700 4rem/1 'playfair display',serif;
-  letter-spacing:-.33rem;
-  text-align:center;
-  margin-bottom:25px;
+  margin: 0;
+  font: 700 4rem/1 'playfair display', serif;
+  letter-spacing: -.33rem;
+  text-align: center;
+  margin-bottom: 25px;
 }
 
 #omens-header #updates .newest-update {
@@ -2520,50 +2526,50 @@ input[type="submit"] {
   text-align: justify;
 }
 
-#omens-header #weather { 
+#omens-header #weather {
   position: absolute;
   top: 30px;
   right: 780px;
   width: 235px;
   height: 170px;
-  opacity:0;
-  transform:translateY(-50px);
-  transition:.5s;
-  display:flex;
-  align-items:center;
-  justify-content:center;
+  opacity: 0;
+  transform: translateY(-50px);
+  transition: .5s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   flex-direction: column;
   text-align: center;
-    gap: 5px;
+  gap: 5px;
 }
 
 #omens-header #weather .font-icon {
   font-size: 175px;
-  color: rgba(255,255,255,5%);
+  color: rgba(255, 255, 255, 5%);
   -webkit-text-fill-color: transparent;
-    -webkit-text-stroke: 3px rgba(255,255,255,5%);
-  position:absolute;
-  pointer-events:none;
+  -webkit-text-stroke: 3px rgba(255, 255, 255, 5%);
+  position: absolute;
+  pointer-events: none;
 }
 
 #omens-header #weather em {
-  font:700 2rem/1 'playfair display',serif;
-  color:#eee;
+  font: 700 2rem/1 'playfair display', serif;
+  color: #eee;
 }
 
 #omens-header #weather span {
-  font:var(--small-header);
-  text-transform:uppercase;
-  letter-spacing:.1rem;
-  line-height:2;
-  color:rgba(255,255,255,33%);
+  font: var(--small-header);
+  text-transform: uppercase;
+  letter-spacing: .1rem;
+  line-height: 2;
+  color: rgba(255, 255, 255, 33%);
 }
 
 #omens-header.updates #weather {
-  opacity:1;
-  transform:translateY(0);
-  transition:.5s;
-  transition-delay:.5s;
+  opacity: 1;
+  transform: translateY(0);
+  transition: .5s;
+  transition-delay: .5s;
 }
 
 #omens-header #staff {
@@ -2582,71 +2588,71 @@ input[type="submit"] {
   transform: translateY(50px);
   opacity: 0;
   transition: .5s;
-  pointer-events:none;
+  pointer-events: none;
 }
 
 #omens-header.staff #staff {
-  transform:translateY(0);
-  opacity:1;
-  transition:.5s;
-  transition-delay:.5s;
-  pointer-events:auto;
+  transform: translateY(0);
+  opacity: 1;
+  transition: .5s;
+  transition-delay: .5s;
+  pointer-events: auto;
 }
 
 #omens-header #staff h1 {
   margin: 0;
-  font: 900 10rem/.75 'playfair display',serif;
+  font: 900 10rem/.75 'playfair display', serif;
   text-transform: uppercase;
   position: absolute;
   bottom: 0px;
   left: -50px;
-  color: rgba(255,255,255,2%);
+  color: rgba(255, 255, 255, 2%);
 }
 
 #omens-header #staff a.staff-member {
-  color:#eee;
-  display:flex;
-  flex-flow:column nowrap;
-  align-items:center;
+  color: #eee;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
   justify-content: center;
-  position:relative;
-  width:100%;
-  height:100%;
-  border-radius:100%;
-  overflow:hidden;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  overflow: hidden;
 }
 
 #omens-header #staff .staff-member em {
-  font:italic 700 2rem/1 'playfair display',serif;
-  position:relative;
-  transition:.25s;
+  font: italic 700 2rem/1 'playfair display', serif;
+  position: relative;
+  transition: .25s;
 }
 
 #omens-header #staff .staff-member:hover span {
-  transition:.25s;
-  letter-spacing:.2rem;
+  transition: .25s;
+  letter-spacing: .2rem;
 }
 
 #omens-header #staff .staff-member span {
-  font:var(--small-header);
-  text-transform:uppercase;
-  position:relative;
-  transition:.25s;
+  font: var(--small-header);
+  text-transform: uppercase;
+  position: relative;
+  transition: .25s;
 }
 
 #omens-header #staff .staff-member img {
-  position:absolute;
-  width:100%;
+  position: absolute;
+  width: 100%;
   filter: grayscale(0) contrast(33%) blur(0px) brightness(66%);
   opacity: 33%;
-  transition:.25s;
+  transition: .25s;
 }
 
 #omens-header #staff .staff-member:hover img {
   filter: grayscale(0) contrast(33%) blur(4px) brightness(75%);
-  transform:scale(1.1);
-  opacity:66%;
-  transition:.25s;
+  transform: scale(1.1);
+  opacity: 66%;
+  transition: .25s;
 }
 
 #omens-header #credit-crown {
@@ -2659,7 +2665,7 @@ input[type="submit"] {
   -webkit-text-fill-color: var(--bg);
   -webkit-text-stroke: 3px #333;
   z-index: 1;
-  pointer-events:none;
+  pointer-events: none;
 }
 
 #omens-header #credits {
@@ -2674,18 +2680,18 @@ input[type="submit"] {
   font-size: 1rem;
   line-height: 1.4;
   font-weight: 500;
-  transform:scale(1.1);
-  opacity:0;
-  transition:.5s;
-  pointer-events:none;
+  transform: scale(1.1);
+  opacity: 0;
+  transition: .5s;
+  pointer-events: none;
 }
 
 #omens-header.credits #credits {
-  transform:scale(1);
-  opacity:1;
-  transition:.5s;
-  transition-delay:.75s;
-  pointer-events:auto;
+  transform: scale(1);
+  opacity: 1;
+  transition: .5s;
+  transition-delay: .75s;
+  pointer-events: auto;
 }
 
 #omens-header #credit-bubbles {
@@ -2697,7 +2703,7 @@ input[type="submit"] {
 }
 
 #omens-header #credit-bubbles div {
-  font: 700 0.6rem/1 'open sans',sans-serif;
+  font: 700 0.6rem/1 'open sans', sans-serif;
   text-transform: uppercase;
   text-align: center;
   width: 50px;
@@ -2729,19 +2735,20 @@ input[type="submit"] {
 
 #omens-header #credit-bubbles,
 #omens-header #credit-crown {
-  margin-left:-50px;
-  opacity:0;
-  transition:.5s;
-  z-index:3;
+  margin-left: -50px;
+  opacity: 0;
+  transition: .5s;
+  z-index: 3;
 }
 
 #omens-header.credits #credit-bubbles,
 #omens-header.credits #credit-crown {
-  margin-left:0;
-  opacity:1;
-  transition:.5s;
-  transition-delay:1.25s;
+  margin-left: 0;
+  opacity: 1;
+  transition: .5s;
+  transition-delay: 1.25s;
 }
+
 /* END HEADER */
 
 #omens-body #omens-sidebar {
@@ -2794,7 +2801,7 @@ input[type="submit"] {
   justify-content: center;
   font: 700 0.6rem/1 'open sans', sans-serif;
   letter-spacing: .05rem;
-  text-transform:uppercase;
+  text-transform: uppercase;
 }
 
 #omens-body #omens-sidebar .sidebar-group h1 div {
@@ -2818,7 +2825,7 @@ input[type="submit"] {
 }
 
 #omens-body #omens-sidebar .sidebar-group a b {
-  font: 700 .8rem/1 'playfair display',serif;
+  font: 700 .8rem/1 'playfair display', serif;
   margin-right: 5px;
   color: var(--main-accent);
   animation: 30s linear infinite rainbow-demo3;
@@ -2841,7 +2848,7 @@ input[type="submit"] {
   position: absolute;
   bottom: -3px;
   left: 3px;
-  font: 900 4.5rem/.8 'playfair display',serif;
+  font: 900 4.5rem/.8 'playfair display', serif;
   letter-spacing: -1px;
   transition: 0.25s;
   animation: 30s linear infinite rainbow-demo3;
@@ -3121,7 +3128,7 @@ header.category:after {
   text-align: right;
   letter-spacing: 0.1em;
   color: rgba(0, 0, 0, 15%);
-  margin:100px 0;
+  margin: 100px 0;
 }
 
 .character-container {
@@ -3872,7 +3879,7 @@ header.communications:before {
 
 
 #omens-footer .now-online .online-list b {
-  font:400 2rem/1 'open sans',sans-serif;
+  font: 400 2rem/1 'open sans', sans-serif;
   color: #bbb;
 }
 
@@ -3899,7 +3906,7 @@ header.communications:before {
 }
 
 #omens-footer .board-totals em {
-  font: 400 2rem/1 'open sans',sans-serif;
+  font: 400 2rem/1 'open sans', sans-serif;
   color: #aaa;
 }
 
@@ -3955,70 +3962,70 @@ header.communications:before {
 }
 
 #recents {
-	display: flex;
-	width: 70%;
-	overflow: auto;
-	margin:25px 0;
-	gap:10px;
+  display: flex;
+  width: 70%;
+  overflow: auto;
+  margin: 25px 0;
+  gap: 10px;
 }
 
 #recents p {
-	margin:0;
-	display:none;
+  margin: 0;
+  display: none;
 }
 
-.holdrec { 
-    font-size: 0;
-    display: flex;
-    flex-flow: column nowrap;
-    flex-shrink: 0;
-    width: 200px;
-    justify-content: flex-end;
-    margin: 5px 0;
-	margin-bottom:5px;
+.holdrec {
+  font-size: 0;
+  display: flex;
+  flex-flow: column nowrap;
+  flex-shrink: 0;
+  width: 200px;
+  justify-content: flex-end;
+  margin: 5px 0;
+  margin-bottom: 5px;
 }
 
 #recents a strong {
-    text-transform: lowercase;
-    color: var(--main-accent);
-    display: -webkit-box;
-    -webkit-line-clamp: 2;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-    letter-spacing: -0.05em;
-    transition: .25s;
-    font-family: 'Playfair Display', serif;
-    font-style: italic;
-    font-weight: 800;
-    font-size: 1.5rem;
-    line-height: 2rem;
+  text-transform: lowercase;
+  color: var(--main-accent);
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  letter-spacing: -0.05em;
+  transition: .25s;
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  font-weight: 800;
+  font-size: 1.5rem;
+  line-height: 2rem;
 }
 
 #recents a:hover strong {
-	    color: #444;
-	transition:.25s;
+  color: #444;
+  transition: .25s;
 }
 
-#recents a { 
-font: var(--small-header);
-line-height: 1;
-    text-transform: uppercase;
-    color: #444;
-	transition:.25s;
-} 
+#recents a {
+  font: var(--small-header);
+  line-height: 1;
+  text-transform: uppercase;
+  color: #444;
+  transition: .25s;
+}
 
 #recents a:hover {
-	color:rgba(var(--main-accent-rgb),1);
-	transition:.25s;
+  color: rgba(var(--main-accent-rgb), 1);
+  transition: .25s;
 }
 
-.cbox { 
-    background: #222;
-    padding: 25px;
-    border-radius: 5px;
-    width: min-content;
-    box-sizing: border-box;
-    float:left;
+.cbox {
+  background: #222;
+  padding: 25px;
+  border-radius: 5px;
+  width: min-content;
+  box-sizing: border-box;
+  float: left;
 }
 
 .discord-embed {
@@ -4033,30 +4040,30 @@ line-height: 1;
 }
 
 .affiliates {
-width:100%;
-box-sizing: border-box;
-padding:25px;
-display:flex;
-flex-flow:row wrap;
-gap:10px;
-justify-content:center;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 25px;
+  display: flex;
+  flex-flow: row wrap;
+  gap: 10px;
+  justify-content: center;
 }
 
 .affiliates a {
-	filter:grayscale(1) contrast(.66);
-	transform:scale(1);
-	transition:.25s;
+  filter: grayscale(1) contrast(.66);
+  transform: scale(1);
+  transition: .25s;
 }
 
 
 .affiliates a:hover {
-	filter:grayscale(0) contrast(1);
-	transform:scale(1);
-	transition:.25s;
+  filter: grayscale(0) contrast(1);
+  transform: scale(1);
+  transition: .25s;
 }
 
 .affiliates.new {
-  padding-top:0;
+  padding-top: 0;
 }
 
 /* END BOARD STATISTICS */
@@ -4336,7 +4343,7 @@ justify-content:center;
 .user-small-info:before {
   font-family: "game-icons";
   font-size: 2.5rem;
-  line-height:1;
+  line-height: 1;
   color: rgba(255, 255, 255, 15%);
 }
 
@@ -4473,7 +4480,7 @@ a.user-small-info:hover:before {
 .post-row .post-container {
   grid-area: post-row-post-body;
   max-width: 100%;
-  word-break:break-word;
+  word-break: break-word;
 }
 
 .post-row .post-container .postcolor {
@@ -4550,7 +4557,7 @@ a.user-small-info:hover:before {
 .relationship .line-2 {
   font: 700 0.6rem/100% "open sans", sans-serif;
   text-transform: uppercase;
-  max-width:90%;
+  max-width: 90%;
 }
 
 .relationship .icon {
@@ -4579,27 +4586,29 @@ a.user-small-info:hover:before {
   display: none;
 }
 
-.post-row .user-name .threat-level.threat-level- { display:none; }
+.post-row .user-name .threat-level.threat-level- {
+  display: none;
+}
 
 .post-row .ooc {
-	display:none;
+  display: none;
 }
 
 .post-row.group-6 .ic,
 .post-row.group-10 .ic {
-	display:none;
+  display: none;
 }
 
-.post-row.no-ship { 
-grid-template-areas:
-        "post-row-user-hover post-row-user-name"
-        "post-row-user-hover post-row-ooc"
-        "post-row-post post-row-post"
-        "post-row-user-footer post-row-user-footer";
+.post-row.no-ship {
+  grid-template-areas:
+    "post-row-user-hover post-row-user-name"
+    "post-row-user-hover post-row-ooc"
+    "post-row-post post-row-post"
+    "post-row-user-footer post-row-user-footer";
 }
 
 .post-row.no-avatar .user-icon .img {
-	height:0;
+  height: 0;
 }
 
 /* END POST ROW */
@@ -5146,7 +5155,7 @@ grid-template-areas:
 }
 
 .omens-development-1.omens-development-1-playlist cite {
-  padding-top:0;
+  padding-top: 0;
 }
 
 /* END DEVELOPMENT QUOTE TEMPLATE */
@@ -9226,7 +9235,7 @@ grid-template-areas:
 
 .omens-post-12 .post-body tagged {
   gap: 10px;
-  font: 300 15px/100% 'Montserrat',sans-serif;
+  font: 300 15px/100% 'Montserrat', sans-serif;
   color: #ddd;
   margin-top: 10px;
   text-align: center;
@@ -11675,22 +11684,26 @@ grid-template-areas:
 /* END MAIN PROFILE TRACKER */
 /* END MAIN PROFILE */
 /* START LIGHT MODE */
-body.light  {
+body.light {
   background: url(../src/img/light-background.png);
   color: #111;
   margin: 0;
   background-attachment: fixed;
   font: 400 1rem/1.6 'open sans', sans-serif;
 }
+
 .light #omens-body #omens-sidebar {
-  background:#ccc;
+  background: #ccc;
 }
+
 .light #omens-body #omens-sidebar::after {
-  filter:grayscale(100%);
+  filter: grayscale(100%);
 }
+
 .light #omens-body #omens-sidebar #sidebar-toggle {
-  mix-blend-mode:color-burn;
+  mix-blend-mode: color-burn;
 }
+
 .light #omens-body #omens-sidebar .sidebar-group a,
 .light .brochure-desc,
 .light .subforum-list .subforums a,
@@ -11717,7 +11730,7 @@ body.light  {
 .light .omens-post-9 .lyric-2,
 .light .omens-post-9 .lyric-2-override,
 .light .omens-post-9 .post-body tagged a,
-.light .omens-post-10 .lyric-2, 
+.light .omens-post-10 .lyric-2,
 .light .omens-post-10 .lyric-2-override,
 .light .omens-post-10 .post-body u,
 .light .omens-post-10 .post-body tagged a,
@@ -11737,41 +11750,41 @@ body.light  {
 .light .omens-post-19 .post-image-2-override .lyric-1-override,
 .light .omens-post-19 .post-body u,
 .light .omens-post-19 tagged a,
-.light .omens-post-20 .lyric-2, 
+.light .omens-post-20 .lyric-2,
 .light .omens-post-20 .lyric-2-override,
-.light .omens-post-8 .lyric-2, 
+.light .omens-post-8 .lyric-2,
 .light .omens-post-8 .lyric-2-override,
 .light .omens-post-6 .post-lyrics .lyric-2,
 .light .omens-post-6 .post-lyrics .lyric-2-override,
 .light .darkrow2,
 .light #posting-form #enter-your-post textarea,
 .light .quick-edit textarea,
-.light #qr_open textarea, 
+.light #qr_open textarea,
 .light #ucpcontent textarea,
 .light #main-profile section.content .spells span,
 .light #omens-body #posting-form #topic-title input,
 .light #omens-body #posting-form #topic-desc input {
-  color:var(--basic-text);
+  color: var(--basic-text);
 }
 
 .light .omens-post-7 .post-lyrics,
 .light .omens-post-9 .post-icon-contain,
 .light .omens-post-18 .post-icon,
 .light .omens-post-18 .post-icon-override {
-  background:var(--basic-text);
+  background: var(--basic-text);
 }
 
 .light .post1 {
-  --custom:var(--basic-text);
+  --custom: var(--basic-text);
 }
 
 .light #omens-body #omens-sidebar .sidebar-group a:hover {
-  color:var(--basic-text-lighter);
+  color: var(--basic-text-lighter);
 }
 
 .light #omens-body #omens-sidebar .sidebar-group h1 div,
 .light .brochure-desc {
-  border-color:var(--border);
+  border-color: var(--border);
 }
 
 .light .brochure-side,
@@ -11779,7 +11792,7 @@ body.light  {
 .light .forum-info .forum-name:after,
 .light .forum-info .forum-name:after,
 .light .topic-container .topic-title:after {
-  background:var(--border);
+  background: var(--border);
 }
 
 .light .board-quicklink-container:before,
@@ -11787,12 +11800,12 @@ body.light  {
 .light header.communications,
 .light #omens-footer .now-online em,
 .light .omens-post-18 .post-body tagged a {
-  color:var(--border);
+  color: var(--border);
 }
 
 .light .wanted-deco,
 .light header.communications:before {
-  opacity:10%;
+  opacity: 10%;
 }
 
 .light .topic-header.maintitle:after {
@@ -11802,11 +11815,11 @@ body.light  {
 .light #omens-footer .footer-links a i,
 .light .topic-container.pinned:before,
 .light .topic-container.announcement:before {
-  color:rgba(255,255,255,15%);
+  color: rgba(255, 255, 255, 15%);
 }
 
 .light .extras-container .affiliate:after {
-  opacity:5%;
+  opacity: 5%;
 }
 
 .light .comm-forum .comm-link span,
@@ -11826,7 +11839,7 @@ body.light  {
 .light .omens-post-20 .post-body u,
 .light .omens-post-20 .post-body tagged a,
 .light .light .subforum-list .subforums a:hover {
-  color:var(--basic-text-lighter);
+  color: var(--basic-text-lighter);
 }
 
 .light .footer-jenshin img {
@@ -11835,42 +11848,43 @@ body.light  {
 
 .light #omens-footer .online-today,
 .light #omens-footer .online-today a span {
-  color: rgba(0,0,0,25%);
+  color: rgba(0, 0, 0, 25%);
 }
+
 .light #omens-footer .online-today a:hover span {
-  color:var(--group);
+  color: var(--group);
 }
 
 .light #omens-body:before {
-  background:rgba(0,0,0,3%);
+  background: rgba(0, 0, 0, 3%);
 }
 
 .light .user-details {
-  color:var(--basic-text);
+  color: var(--basic-text);
 }
 
 .light #main-profile .user-quote {
-  color:var(--basic-text-lighter);
+  color: var(--basic-text-lighter);
 }
 
 .light .threat-level:after,
 .light #main-profile section.content .header {
-  color: rgba(0,0,0,10%);
+  color: rgba(0, 0, 0, 10%);
 }
 
 .light .relationship .icon,
 .light .forum-poster {
-  border-color:var(--bg);
+  border-color: var(--bg);
 }
 
 .light .user-small-info,
 .light .omens-phone-2 .phone-contain .phone-deco,
 .light .omens-phone-2 {
-  background:var(--bg);
+  background: var(--bg);
 }
 
 .light #main-profile section.content u {
-  color:#333;
+  color: #333;
 }
 
 .light #main-profile section.content .simple-tabs__content ul li:before {
@@ -11886,7 +11900,7 @@ body.light  {
 }
 
 .light .user-small-info:before {
-  color:var(--basic-text-lighter);
+  color: var(--basic-text-lighter);
 }
 
 .light a.user-small-info:before {
@@ -11894,17 +11908,17 @@ body.light  {
 }
 
 .light .light #main-profile section.content acedia:after, .light #main-profile section.content avaricia:after, .light #main-profile section.content gula:after, .light #main-profile section.content invidia:after, .light #main-profile section.content ira:after, .light #main-profile section.content luxuria:after, .light #main-profile section.content superbia:after {
-  filter:none;
+  filter: none;
 }
 
 .light #main-profile section.content acedia h1:after, .light #main-profile section.content avaricia h1:after, .light #main-profile section.content gula h1:after, .light #main-profile section.content invidia h1:after, .light #main-profile section.content ira h1:after, .light #main-profile section.content luxuria h1:after, .light #main-profile section.content superbia h1:after {
-  color:rgba(0, 0, 0, 33%);
+  color: rgba(0, 0, 0, 33%);
 }
 
 .light #main-profile .simple-tabs__list-item>span,
 .light #main-profile .archive .head,
 .light #ucpcontent .pformleft label {
-  color:var(--basic-text);
+  color: var(--basic-text);
 }
 
 .light #main-profile .archive .head,
@@ -11919,12 +11933,12 @@ body.light  {
 }
 
 .light .forminput, .light .codebuttons {
-  background:#ccc;
-  color:var(--basic-text);
+  background: #ccc;
+  color: var(--basic-text);
 }
 
 .light .omens-post-template .post-body b {
-  text-decoration-color:var(--border);
+  text-decoration-color: var(--border);
 }
 
 .light #ucpcontent .forminput,
@@ -11933,9 +11947,9 @@ body.light  {
   color: var(--basic-text);
 }
 
-.light #HeaderRequired, 
+.light #HeaderRequired,
 .light #HeaderOptional {
-  color:var(--basic-text);
+  color: var(--basic-text);
   text-decoration-color: rgba(0, 0, 0, 10%);
 }
 
@@ -11946,8 +11960,8 @@ body.light  {
 .light .staff-template b,
 .light .staff-template strong,
 .light .post-row .post-container .omens-wanted-1 .want-basics b {
-  color:var(--basic-text);
-  text-decoration-color:var(--border);
+  color: var(--basic-text);
+  text-decoration-color: var(--border);
 }
 
 .light .code-scroll {
@@ -11955,23 +11969,23 @@ body.light  {
 }
 
 .light #main-profile section.content werewolf:after, .light #main-profile section.content vampire:after, .light #main-profile section.content hunter:after {
-  color:rgba(0, 0, 0, 3%);
+  color: rgba(0, 0, 0, 3%);
 }
 
 .light .select-destination.category-3 .board-quicklink {
-  color:var(--basic-text);
+  color: var(--basic-text);
 }
 
 .light .omens-development-1.omens-development-1-playlist h1,
 .light .code-title,
 .light .post-row .post-container .omens-wanted-1 h1,
 .light .omens-phone1-phone-deco {
-  color:var(--white-text);
+  color: var(--white-text);
 }
 
 .light .omens-development-1 drabble i,
 .light .omens-development-1 drabble u {
-  color:var(--italic);
+  color: var(--italic);
 }
 
 .light .omens-phone1-phone,
@@ -12013,15 +12027,15 @@ body.light  {
 .light .omens-phone-3 .phone-contain .phone-messages,
 .light .omens-phone-3 .phone-contain .phone-callscreen speech1,
 .light .omens-phone-3 .phone-contain .phone-callscreen speech1:after {
-  background:#ddd;
+  background: #ddd;
 }
 
 .light .omens-phone-3 .phone-contain .phone-messages .phone-scroll::-webkit-scrollbar-thumb,
 .light .omens-phone-4.omens-phone-text .phone-contain .phone-input::-webkit-scrollbar-thumb,
 .light .omens-post-11 .post-body::-webkit-scrollbar-thumb,
 .light .omens-post-15 .post-body::-webkit-scrollbar-thumb {
-  background:#eee;
-  border-color:#ddd;
+  background: #eee;
+  border-color: #ddd;
 }
 
 .light .omens-phone-3 .phone-contain .phone-messages .phone-scroll::-webkit-scrollbar-track,
@@ -12030,13 +12044,13 @@ body.light  {
 .light .omens-post-11 .post-body::-webkit-scrollbar-track,
 .light .omens-post-12-2 .post-body::-webkit-scrollbar-track,
 .light .omens-post-15 .post-body::-webkit-scrollbar-track {
-  background:#ddd;
+  background: #ddd;
 }
 
 .light .omens-phone-4.omens-phone-text .phone-contain .phone-input msg,
 .omens-phone-4.omens-phone-call .phone-callscreen speech {
   background: rgba(255, 255, 255, 50%);
-  color:var(--basic-text);
+  color: var(--basic-text);
 }
 
 .light .post-row .user-name .font-icon:before,
@@ -12045,12 +12059,12 @@ body.light  {
 }
 
 .light .threat-level:before {
-  background:#ccc;
+  background: #ccc;
 }
 
-.light .omens-post-1 .lyric-2, 
+.light .omens-post-1 .lyric-2,
 .light .omens-post-1 .lyric-2-override {
-  color:var(--basic-text);
+  color: var(--basic-text);
 }
 
 .light .omens-post-2 {
@@ -12069,53 +12083,58 @@ body.light  {
 .light #lua-post-2-1 {
   background-image: url(../src/img/post-4-bg-light.png);
   background-color: #ddd;
-    background-blend-mode: multiply;
+  background-blend-mode: multiply;
 }
 
-.light .omens-post-7 .post-lyrics .lyric-2, 
+.light .omens-post-7 .post-lyrics .lyric-2,
 .light .omens-post-7 .post-lyrics .lyric-2-override {
   color: #eee;
 }
-.light .omens-post-7 .post-lyrics .lyric-1, 
+
+.light .omens-post-7 .post-lyrics .lyric-1,
 .light .omens-post-7 .post-lyrics .lyric-1-override {
   background: #eee;
   color: var(--basic-text);
 }
-.light .omens-post-7 .post-lyrics .post-icon, 
+
+.light .omens-post-7 .post-lyrics .post-icon,
 .light .omens-post-7 .post-lyrics .post-icon-override {
-  outline-color:#333;
-  border-color:var(--basic-text);
+  outline-color: #333;
+  border-color: var(--basic-text);
 }
-.light .omens-post-11 .post-icon, 
+
+.light .omens-post-11 .post-icon,
 .light .omens-post-11 .post-icon-override,
-.light .omens-post-12-2 .lyric-post .lyric-1 { 
-  border-color:var(--basic-text);
+.light .omens-post-12-2 .lyric-post .lyric-1 {
+  border-color: var(--basic-text);
 }
+
 .light .omens-post-12-2 .post-image-1,
 .light .omens-post-14 {
-  outline-color:var(--basic-text);
+  outline-color: var(--basic-text);
 }
+
 .light .omens-post-8 .post-icon-contain {
-  background:rgba(0,0,0,75%);
+  background: rgba(0, 0, 0, 75%);
 }
 
 .light .omens-post-9 .post-body {
-  background:rgba(255,255,255,5%);
+  background: rgba(255, 255, 255, 5%);
 }
 
 .light .omens-post-10::before {
   background: url(../src/img/dot-background-black.png);
-    opacity: 7%;
+  opacity: 7%;
 }
 
 .light .omens-post-11 .lyric-2,
 .light .omens-post-11 .lyric-2-override {
   background: #aaa;
-  color:var(--basic-text);
+  color: var(--basic-text);
 }
 
 .light .omens-post-12-2 {
-  background:url(../src/img/dot-background-black-5-opacity.png);
+  background: url(../src/img/dot-background-black-5-opacity.png);
 }
 
 .light .omens-post-12-2 .lyric-post .post-body {
@@ -12123,16 +12142,16 @@ body.light  {
 }
 
 .light .omens-post-13 .post-body {
-  border-color:var(--white-text);
+  border-color: var(--white-text);
 }
 
 .light .omens-post-14 .post-text,
 .light .omens-post-14 .post-text u {
-  background-color:var(--bg);
+  background-color: var(--bg);
 }
 
 .light .omens-post-16 .post-body u {
-  color:var(--bg);
+  color: var(--bg);
 }
 
 .light .omens-post-17 .post-image-2 img,
@@ -12155,13 +12174,14 @@ body.light  {
 .light .omens-post-19 tagged a:hover,
 .light .omens-post-20 .post-body tagged a:hover,
 .light .omens-post-18 .post-body tagged a:hover {
-  color:var(--group);
+  color: var(--group);
 }
 
 .light #omens-body input {
   background: #ccc;
   color: var(--basic-text);
 }
+
 /* END LIGHT MODE */
 /*
 #omens-main .omens-category {
