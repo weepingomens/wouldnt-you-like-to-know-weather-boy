@@ -11761,6 +11761,10 @@ body.light {
   mix-blend-mode: color-burn;
 }
 
+.light #omens-header #credit-bubbles div {
+  background: #333;
+}
+
 .light #omens-header #logo span,
 .light #omens-header #intro em,
 .light #omens-header #updates .newest-update em,
