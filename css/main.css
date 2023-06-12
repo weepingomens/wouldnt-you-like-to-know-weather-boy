@@ -2638,6 +2638,24 @@ input[type="submit"] {
   opacity:66%;
   transition:.25s;
 }
+
+#omens-header #credit-crown {
+  position: absolute;
+  font-size: 18rem;
+  transform: rotate(-10deg);
+  top: -60px;
+  left: 130px;
+  color: #eee;
+  -webkit-text-fill-color: var(--bg);
+  -webkit-text-stroke: 3px #333;
+  z-index: 1;
+}
+
+#omens-header #credits {
+  column-rule: var(--default-border);
+  column-gap: 50px;
+  text-align: justify;
+}
 /* END HEADER */
 
 #omens-body #omens-sidebar {
