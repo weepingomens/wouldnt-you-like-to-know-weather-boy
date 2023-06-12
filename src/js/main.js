@@ -259,3 +259,38 @@ if (sidebarIsOpen) {
  *       other conditions, before doing any actual toggling.
  */
 $toggleButton.on('click', toggleSidebar);
+
+// toggle header (variant of elli's light mode)
+// elli if you're reading this ily
+
+$(function() {
+
+  // Toggleable light mode
+  (function toggleHeader() {
+
+    var $toggleButton = $('#header-toggle');
+    var $header = $('body');
+
+    // Set up a function to be used by the click event on $toggleButton
+    function togglehideheader() {
+
+      // Check if body does not have the `light` class
+      if (!$header.hasClass('hide-header')) {
+
+        // If it doesn't, it should when this button is clicked, so add it
+        $header.addClass('hide-header');
+        localStorage.setItem('hideheader', 'true');
+
+      } else {
+        $header.removeClass('hide-header');
+        localStorage.removeItem('hideheader');
+
+      }
+
+    }
+
+    $toggleButton.on('click', togglehideheader);
+
+  })();
+
+});
