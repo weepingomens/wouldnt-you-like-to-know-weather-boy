@@ -1384,12 +1384,14 @@ input[type="submit"] {
 #omens-body #header-toggle:hover {
   cursor: crosshair;
   color:var(--main-accent);
+  transition:.25s;
 }
 
 #omens-body #header-toggle {
   margin-left: 15px;
   font-size: 1.2rem;
   color: #555;
+  transition:.25s;
 }
 
 /* 
