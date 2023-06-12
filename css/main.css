@@ -2662,8 +2662,9 @@ input[type="submit"] {
   column-count: 2;
   top: 230px;
   left: 225px;
-  font-size: .9rem;
-  font-weight: 600;
+  font-size: 1rem;
+  line-height: 1.4;
+  font-weight: 500;
 }
 
 #omens-header #credit-bubbles {
@@ -2701,8 +2702,8 @@ input[type="submit"] {
 }
 
 #omens-header #credit-bubbles .four {
-  margin-left: 225px;
-  margin-top: -25px;
+  margin-left: 228px;
+  margin-top: -23px;
 }
 /* END HEADER */
 
