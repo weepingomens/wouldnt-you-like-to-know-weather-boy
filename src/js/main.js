@@ -119,8 +119,6 @@ $("#elevator-down").click(function() {
 $('html, body').scrollTop($(document).height());
 });
 
-// jerry rig time
-
 var $toggleButton = $("#sidebar-toggle");
 var $pushSelectors = $("#first-sidebar, #second-sidebar");
 // Set up an empty global variable to store the state later
