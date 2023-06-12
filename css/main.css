@@ -2217,18 +2217,19 @@ input[type="submit"] {
   left: 10px;
   pointer-events:none;
   margin:0;
-  transition:.25s;
+  transition:.5s;
 }
 
 #omens-header.intro #lisa {
   opacity:1;
-  transition:.25s;
+  transition:.5s;
   transition-delay:.5s;
 }
 
 #omens-header.updates #lisa {
   margin-left:-100px;
   opacity:0;
+  transition:.5s;
 }
 
 #omens-header.staff #lisa {
@@ -2306,8 +2307,8 @@ input[type="submit"] {
   margin-left:0;
   opacity:1;
   pointer-events:auto;
-  transition:.25s;
-  transition-delay:.5s;
+  transition:.5s;
+  transition-delay:.75s;
 }
 
 #omens-header #intro:before {
@@ -2643,14 +2644,15 @@ input[type="submit"] {
 
 #omens-header #credit-crown {
   position: absolute;
-  font-size: 18rem;
+  font-size: 16rem;
   transform: rotate(-10deg);
-  top: -60px;
+  top: -70px;
   left: 130px;
   color: #eee;
   -webkit-text-fill-color: var(--bg);
   -webkit-text-stroke: 3px #333;
   z-index: 1;
+  pointer-events:none;
 }
 
 #omens-header #credits {
@@ -2665,13 +2667,23 @@ input[type="submit"] {
   font-size: 1rem;
   line-height: 1.4;
   font-weight: 500;
+  transform:scale(1.1);
+  opacity:0;
+  transition:.5s;
+}
+
+#omens-header.credits #credits {
+  transform:scale(1);
+  opacity:1;
+  transition:.5s;
+  transition-delay:.75s;
 }
 
 #omens-header #credit-bubbles {
   position: absolute;
   display: flex;
-  left: 110px;
-  top: 62px;
+  left: 105px;
+  top: 33px;
   z-index: 1;
 }
 
@@ -2692,18 +2704,33 @@ input[type="submit"] {
 }
 
 #omens-header #credit-bubbles .two {
-  margin-left: 77px;
-  margin-top: -20px;
+  margin-left: 71px;
+  margin-top: -19px;
 }
 
 #omens-header #credit-bubbles .three {
-  margin-left: 156px;
-  margin-top: -27px;
+  margin-left: 140px;
+  margin-top: -26px;
 }
 
 #omens-header #credit-bubbles .four {
-  margin-left: 228px;
+  margin-left: 210px;
   margin-top: -23px;
+}
+
+#omens-header #credit-bubbles,
+#omens-header #credit-crown {
+  margin-left:-50px;
+  opacity:0;
+  transition:.5s;
+}
+
+#omens-header.credits #credit-bubbles,
+#omens-header.credits #credit-crown {
+  margin-left:0;
+  opacity:1;
+  transition:.5s;
+  transition-delay:1.25s;
 }
 /* END HEADER */
 
