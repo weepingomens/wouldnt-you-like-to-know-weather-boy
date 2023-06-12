@@ -1380,8 +1380,15 @@ input[type="submit"] {
   color: #aaa;
 }
 
-#omens-body #light-toggle:hover {
+#omens-body #light-toggle:hover,
+#omens-body #header-toggle:hover {
   cursor: crosshair;
+}
+
+#omens-body #header-toggle {
+  margin-left: 15px;
+  font-size: 1.2rem;
+  color: #555;
 }
 
 /* 
