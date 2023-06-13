@@ -2958,6 +2958,7 @@ input[type="submit"] {
   width: 825px;
   padding: 50px 50px 0 50px;
   position: relative;
+  overflow:hidden;
 }
 
 #omens-main .post-row br,
