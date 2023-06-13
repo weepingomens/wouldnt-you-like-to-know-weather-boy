@@ -2971,7 +2971,8 @@ input[type="submit"] {
 #omens-main .post1 br,
 #omens-main #active-topics br,
 #omens-main #post-preview br,
-#omens-main .forum-statistics br {
+#omens-main .forum-statistics br,
+#omens-main .board-quicklink br {
   display: block;
 }
 
