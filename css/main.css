@@ -173,20 +173,6 @@ textarea {
     Modify as content requires.
     ========================================================================== */
 
-@media only screen and (max-width: 1650px) {
-  .footer-jenshin {
-    width:450px;
-  }
-}
-
-@media only screen and (max-width:450px) {
-  #s-m-t-tooltip { display:none!important }
-  #omens-body #omens-sidebar .sidebar-group a {
-    font: 700 1rem/3 'open sans', sans-serif;
-  }
-
-}
-
 @media print,
 (-webkit-min-device-pixel-ratio: 1.25),
 (min-resolution: 1.25dppx),
@@ -12302,166 +12288,20 @@ body.light {
 }
 
 /* END LIGHT MODE */
-/*
-#omens-main .omens-category {
-  display: flex;
-  flex-flow: column nowrap;
-  place-items: flex-start;
-  gap: 10px;
-  margin: -50px -50px 0 -50px;
-  padding: 50px;
-  position: relative;
+
+/* START @MEDIA QUERIES */
+
+@media only screen and (max-width: 1650px) {
+  .footer-jenshin {
+    width:450px;
+  }
 }
 
-#omens-main .omens-category .category-title {
-  font: 700 60px/80% playfair display;
-  text-transform: lowercase;
-  letter-spacing: -3px;
-  animation: 30s linear infinite rainbow-demo3;
-  mix-blend-mode: color-dodge;
-  opacity: 66%;
-}
-#omens-main #cat-1.omens-category .category-desc {
-  padding: 7px;
-  background: rgba(0, 0, 0, 10%);
-  font: 700 10px open sans;
-  text-transform: uppercase;
-  color: #aaa;
+@media only screen and (max-width:450px) {
+  #s-m-t-tooltip { display:none!important }
+  #omens-body #omens-sidebar .sidebar-group a {
+    font: 700 1rem/3 'open sans', sans-serif;
+  }
 }
 
-#omens-main #cat-1.omens-category .category-desc:before {
-  content: "start your journey";
-}
-
-#omens-main #cat-1.omens-category {
-  display: none;
-}
-
-#omens-brochure {
-  overflow: hidden;
-  display: flex;
-  flex-flow: row nowrap;
-  position: relative;
-  height: 500px;
-  width: 100%;
-  justify-content: flex-end;
-  background: #222;
-}
-
-#omens-brochure #brochure-image {
-  width: 300px;
-  height: 500px;
-  background: #2f2f2f;
-  position: relative;
-  overflow: hidden;
-  opacity: 100%;
-}
-
-#omens-brochure #brochure-title {
-  font: 900 66px/70% playfair display;
-  text-align: right;
-  margin-right: -50px;
-  margin-top: 50px;
-  position: relative;
-  z-index: 1;
-  letter-spacing: -3px;
-  transition: 0.25s;
-}
-
-#omens-brochure #brochure-title a {
-  animation: 30s linear infinite rainbow-demo3;
-  cursor: crosshair;
-  opacity: 75%;
-  transition: 0.25s;
-}
-
-#omens-brochure #brochure-title a:hover {
-  opacity: 100%;
-  transition: 0.25s;
-}
-
-#omens-brochure #brochure-image img {
-  width: 800px;
-  position: absolute;
-  right: -450px;
-  top: -299px;
-  filter: grayscale(1) contrast(100%);
-  mix-blend-mode: luminosity;
-  opacity: 3%;
-}
-
-#omens-brochure #brochure-desc {
-  font: 400 12px/180% open sans;
-  position: absolute;
-  width: 185px;
-  top: 165px;
-  right: 325px;
-  text-align: right;
-  color: #eee;
-}
-
-#omens-brochure #omens-news {
-  position: absolute;
-  padding: 25px;
-  bottom: 0;
-  left: 0;
-  width: 475px;
-  background: rgba(0, 0, 0, 8%);
-  overflow: hidden;
-  display: flex;
-  flex-flow: column nowrap;
-  justify-content: center;
-}
-
-#omens-brochure #omens-news .board-title {
-  font: 800 30px/100% playfair display;
-  animation: 30s linear infinite rainbow-demo3;
-  opacity: 66%;
-  margin-bottom: -10px;
-  position: relative;
-  z-index: 1;
-}
-
-#omens-brochure #omens-news .board-desc {
-  color: #888;
-  text-align: justify;
-  font: 700 10px open sans;
-  text-transform: uppercase;
-  position: relative;
-  padding: 10px;
-  backdrop-filter: blur(3px);
-  background: rgba(0, 0, 0, 10%);
-  width: 66%;
-}
-
-#omens-brochure #omens-news .board-poster-img {
-  width: 100px;
-  height: 100px;
-  position: absolute;
-  border-radius: 100%;
-  overflow: hidden;
-  background: #242424;
-  padding: 30px;
-  border: 3px dashed #2a2a2a;
-}
-
-#omens-brochure #omens-news .board-poster-img img {
-  display: block;
-  width: 100%;
-  height: 100%;
-  filter: grayscale(1);
-  opacity: 10%;
-  border-radius: 100%;
-}
-
-#omens-brochure #omens-news .board-topic {
-  font: 700 10px/100% open sans;
-  text-transform: uppercase;
-}
-
-#omens-brochure #omens-news .board-poster {
-  font: 700 10px open sans;
-  text-transform: uppercase;
-  color: #aaa;
-}
-*/
+/* END @MEDIA QUERIES */
