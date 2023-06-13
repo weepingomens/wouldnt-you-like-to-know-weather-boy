@@ -19,8 +19,19 @@
 
   --small-header: 700 0.6rem 'open sans', sans-serif;
   --med-header: italic 900 2rem 'playfair display', serif;
+
   --forum-8: url(../src/img/LLORONA_8.png);
   --forum-9: url(../src/img/LLORONA_9.png);
+  --forum-10: url(../src/img/LLORONA_10.png);
+  --forum-11: url(../src/img/LLORONA_11.png);
+  --forum-12: url(../src/img/LLORONA_12.png);
+  --forum-13: url(../src/img/LLORONA_13.png);
+  --forum-14: url(../src/img/LLORONA_14.png);
+  --forum-22: url(../src/img/LLORONA_22.png);
+  --forum-24: url(../src/img/LLORONA_24.png);
+  --forum-26: url(../src/img/LLORONA_26.png);
+  --forum-27: url(../src/img/LLORONA_27.png);
+  --forum-43: url(../src/img/LLORONA_43.png);
 }
 
 body {
