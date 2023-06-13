@@ -12384,5 +12384,8 @@ body.light {
   ::-webkit-scrollbar-track {
     background:#333;
   }
+  .light::-webkit-scrollbar-track {
+    background:#ccc;
+  }
 }
 /* END @MEDIA QUERIES */
