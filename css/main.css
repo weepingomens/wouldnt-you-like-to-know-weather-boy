@@ -4586,7 +4586,7 @@ a.user-small-info:hover:before {
 }
 
 .post-row .ooc-details .big-image.no-big-image {
-  background-image:url(../src/img/city-background.png);
+  background-image:url(../src/img/city-background.png)!important;
 }
 
 .post-row .relationship {
