@@ -11086,10 +11086,8 @@ a.user-small-info:hover:before {
   border: var(--default-border);
 }
 
-#omens-page-brochure cw,
-#omens-page-brochure cw-toggle,
-#main-profile section.content cw,
-#main-profile section.content cw-toggle {
+cw,
+cw-toggle {
   display: grid;
   font-size: .75rem;
   font-weight: 500;
@@ -11097,18 +11095,16 @@ a.user-small-info:hover:before {
   color: rgba(255, 255, 255, 33%);
 }
 
-#omens-page-brochure cw:before,
-#omens-page-brochure cw-toggle:before,
-#main-profile section.content cw:before,
-#main-profile section.content cw-toggle:before {
+cw:before,
+cw-toggle:before {
   content: "this biography contains";
   font: 800 1.5rem/100% 'Playfair Display', serif;
   text-transform: uppercase;
   color: rgba(255, 255, 255, 50%);
 }
 
-#omens-page-brochure cw-toggle:after,
-#main-profile section.content cw-toggle:after {
+cw-toggle:after,
+cw-toggle:after {
   font: italic 800 2rem/100% 'Playfair Display', serif;
   text-transform: lowercase;
   color: rgba(255, 255, 255, 25%);
@@ -11116,25 +11112,25 @@ a.user-small-info:hover:before {
   pointer-events: auto;
 }
 
-#omens-page-brochure cw-toggle:hover:after,
-#main-profile section.content cw-toggle:hover:after {
+cw-toggle:hover:after,
+cw-toggle:hover:after {
   cursor: crosshair;
   color: rgba(var(--main-accent-rgb), .9);
   transition: .25s;
 }
 
-#omens-page-brochure cw-toggle.omensbuttonhidecontent:after,
-#main-profile section.content cw-toggle.omensbuttonhidecontent:after {
+cw-toggle.omensbuttonhidecontent:after,
+cw-toggle.omensbuttonhidecontent:after {
   content: 'click to hide sensitive content';
 }
 
-#omens-page-brochure cw-toggle.omensbuttonshowcontent:after,
-#main-profile section.content cw-toggle.omensbuttonshowcontent:after {
+cw-toggle.omensbuttonshowcontent:after,
+cw-toggle.omensbuttonshowcontent:after {
   content: 'click to show sensitive content';
 }
 
-#omens-page-brochure censor.omenscensorhidecontent,
-#main-profile section.content censor.omenscensorhidecontent {
+censor.omenscensorhidecontent,
+censor.omenscensorhidecontent {
   color: transparent;
   background: #111;
 }
