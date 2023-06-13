@@ -3892,6 +3892,10 @@ header.communications:before {
   background-image: var(--forum-43);
 }
 
+.forum-66 .forum-image:before {
+  background-image: var(--forum-66);
+}
+
 /* END FORUM ROWS */
 /* START BOARD STATISTICS */
 
