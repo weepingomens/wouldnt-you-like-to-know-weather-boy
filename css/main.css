@@ -11472,8 +11472,7 @@ a.user-small-info:hover:before {
   color: rgba(var(--main-accent-rgb), 1);
 }
 
-#main-profile section.content .art-credits,
-#main-profile section.content .spells {
+#main-profile section.content .subheader {
   text-transform: uppercase;
   position: relative;
   display: flex;
