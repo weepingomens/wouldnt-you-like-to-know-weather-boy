@@ -1184,10 +1184,6 @@ input[type="submit"] {
   color: #222;
 }
 
-.user-groupid-2 #omens-body #omens-top #navstrip a:first-child {
-  animation: 30s linear infinite rainbow-demo;
-}
-
 #omens-body #omens-top #navstrip a:first-child:hover {
   opacity: 75%;
 }
