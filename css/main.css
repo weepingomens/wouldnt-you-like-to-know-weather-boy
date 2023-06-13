@@ -11502,8 +11502,7 @@ a.user-small-info:hover:before {
   display: flex;
 }
 
-#main-profile section.content .art-credits em,
-#main-profile section.content .spells em {
+#main-profile section.content .subheader em {
   display: block;
   font: 800 1.875rem/100% 'Playfair Display', serif;
   text-transform: uppercase;
