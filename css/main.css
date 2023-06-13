@@ -2289,6 +2289,10 @@ input[type="submit"] {
   mix-blend-mode: overlay;
 }
 
+.user-groupid-2 #omens-header #lisa:after {
+  animation: 30s linear infinite rainbow-demo;
+}
+
 #omens-header #logo {
   position: absolute;
   top: 25px;
