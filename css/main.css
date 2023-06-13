@@ -11741,7 +11741,7 @@ a.user-small-info:hover:before {
 .awards-contain {
   display: flex;
   flex-flow: row wrap;
-  gap: 10px;
+  gap: 5px;
 }
 
 .awards-contain img {
