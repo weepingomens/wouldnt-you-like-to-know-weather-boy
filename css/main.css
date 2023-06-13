@@ -181,7 +181,7 @@ textarea {
 
 @media only screen and (max-width:450px) {
   #s-m-t-tooltip { display:none!important }
-  
+
 }
 
 @media print,
@@ -1096,18 +1096,18 @@ input[type="submit"] {
 }
 
 #omens-body {
-  position: relative;
-  margin: auto;
-  width: min-content;
-  display: grid;
-  grid: min-content min-content min-content min-content / 250px auto min-content;
-  place-items: start;
-  place-content: start;
-  grid-template-areas:
-    "omens-top omens-top omens-top"
-    "omens-header omens-header omens-navi"
-    "omens-sidebar omens-main omens-navi"
-    "omens-sidebar omens-main omens-navi";
+    position: relative;
+    margin: auto;
+    width: min-content;
+    display: grid;
+    grid: min-content min-content min-content min-content / 250px auto;
+    place-items: start;
+    place-content: start;
+    grid-template-areas:
+        "omens-top omens-top"
+        "omens-header omens-header"
+        "omens-sidebar omens-main"
+        "omens-sidebar omens-main";
 }
 
 #omens-body:before {
