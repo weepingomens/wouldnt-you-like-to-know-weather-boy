@@ -2811,7 +2811,7 @@ input[type="submit"] {
   grid-area: omens-sidebar;
   width: 250px;
   background: #1f1f1f;
-  height: calc(100vh - 78px);
+  height: calc((var(--vh, 1vh) * 100) - 78px);
   position: sticky;
   top: 78px;
   overflow: hidden;
