@@ -977,8 +977,8 @@ textarea {
 #modcp-content .maintitle,
 #modcp-menu .maintitle {
   font: var(--small-header);
-  letter-spacing: 0.2rem;
-  padding: 10px;
+  letter-spacing: 0.5rem;
+  text-align: center;
 }
 /* END JCINK STYLING */
 
