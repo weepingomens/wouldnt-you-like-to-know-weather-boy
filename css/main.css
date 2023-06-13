@@ -3491,10 +3491,9 @@ header.communications:before {
   background-size: cover;
   left: -0px;
   top: -0px;
-  opacity: 100%;
   filter: grayscale(1);
   mix-blend-mode: exclusion;
-  opacity: 25%;
+  opacity: 50%;
 }
 
 .forum-image:after {
