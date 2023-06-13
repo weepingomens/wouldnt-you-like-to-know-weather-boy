@@ -4664,6 +4664,11 @@ a.user-small-info:hover:before {
   height: 0;
 }
 
+.post-row cw:before,
+.post-row cw-toggle:before {
+  content: "this post contains";
+}
+
 /* END POST ROW */
 /* START ALL POST TEMPLATES (SCREAMS) */
 /* START SITE STORE TEMPLATE */
