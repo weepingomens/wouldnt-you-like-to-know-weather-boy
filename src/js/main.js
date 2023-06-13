@@ -24,8 +24,8 @@ document.querySelector(":root").style.setProperty('--mainAccentB', mainAccentB);
 
 
 // censor stuff
-let mainProfileCensorToggle = document.querySelector('cw-toggle');
-let mainProfileCensor = document.querySelectorAll('censor');
+let mainProfileCensorToggle = document.querySelector('#main-profile cw-toggle');
+let mainProfileCensor = document.querySelectorAll('#main-profile censor');
 document.querySelectorAll('censor').forEach(x=>x.classList.add('omenscensorshowcontent'));
 document.querySelectorAll('cw-toggle').forEach(x=>x.classList.add('omensbuttonhidecontent'));
 
