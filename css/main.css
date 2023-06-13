@@ -1182,7 +1182,6 @@ input[type="submit"] {
   color: #aaa;
   background: var(--main-accent);
   color: #222;
-  animation: 30s linear infinite rainbow-demo;
 }
 
 #omens-body #omens-top #navstrip a:first-child:hover {
@@ -1363,7 +1362,6 @@ input[type="submit"] {
   font: var(--small-header);
   text-transform: uppercase;
   background: var(--main-accent);
-  animation: 30s linear infinite rainbow-demo;
   color: #222;
   padding: 7px;
   border-radius: 5px;
