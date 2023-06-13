@@ -312,7 +312,7 @@ textarea {
   --custom: var(--main-accent) !important;
 }
 
-/*
+
 @keyframes rainbow-demo {
   0% {
     background: #ef3339;
@@ -438,8 +438,6 @@ textarea {
     color: #ef3339;
   }
 }
-
-*/
 
 /* START JCINK STYLING */
 #recent-topics {
