@@ -4673,7 +4673,8 @@ a.user-small-info:hover:before {
   content: "this post contains";
 }
 
-.post-row.group-2 .user-small-info {
+.post-row.group-2 .user-small-info,
+.post-row.group-2 .ooc-details span {
   display:none;
 }
 
