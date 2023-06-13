@@ -1240,7 +1240,7 @@ input[type="submit"] {
   mix-blend-mode: lighten;
 }
 
-#omens-body #omens-top #current-user .user-name-contain {
+#omens-body #omens-top #current-user .user-name {
   font: 700 0.6rem/1 'open sans', sans-serif;
   letter-spacing: .025rem;
   text-transform: uppercase;
@@ -1251,7 +1251,7 @@ input[type="submit"] {
   position: relative;
 }
 
-#omens-body #omens-top #current-user .user-name-contain b {
+#omens-body #omens-top #current-user .user-name b {
   font: 800 1.1rem/.7 'playfair display', serif;
   letter-spacing: 0px;
   text-transform: lowercase;
