@@ -975,6 +975,11 @@ textarea {
   letter-spacing: 0.5rem;
   text-align: center;
 }
+
+.maintitle.register {
+  font: italic 900 3rem/120% 'playfair display', serif;
+    letter-spacing: 0;
+}
 /* END JCINK STYLING */
 
 
