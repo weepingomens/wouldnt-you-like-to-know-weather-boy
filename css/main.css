@@ -181,6 +181,9 @@ textarea {
 
 @media only screen and (max-width:450px) {
   #s-m-t-tooltip { display:none!important }
+  #omens-body #omens-sidebar .sidebar-group a {
+    font: 700 1rem/3 'open sans', sans-serif;
+  }
 
 }
 
