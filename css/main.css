@@ -12301,4 +12301,10 @@ body.light {
   #s-m-t-tooltip { display:none!important }
 }
 
+@media only screen and (max-width:1175px) {
+  header.communications:before {
+    width:525px;
+  }
+}
+
 /* END @MEDIA QUERIES */
