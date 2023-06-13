@@ -3506,7 +3506,7 @@ header.communications:before {
   transform: rotate(135deg);
   left: -150px;
   top: -200px;
-  opacity: 5%;
+  opacity: 3%;
 }
 
 .forum-statistics {
