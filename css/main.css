@@ -974,6 +974,12 @@ textarea {
   display: none;
 }
 
+#modcp-content .maintitle,
+#modcp-menu .maintitle {
+  font: var(--small-header);
+  letter-spacing: 0.2rem;
+  padding: 10px;
+}
 /* END JCINK STYLING */
 
 
