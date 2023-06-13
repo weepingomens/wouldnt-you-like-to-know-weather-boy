@@ -1381,6 +1381,12 @@ input[type="submit"] {
   color: #aaa;
 }
 
+#omens-body #omens-top #login-register .login-register-shortcut input[type="text"],
+#omens-body #omens-top #login-register .login-register-shortcut input[type="password"] {
+  text-transform: none;
+  font: 500 0.9rem/1 'open sans',sans-serif;
+}
+
 #omens-body #light-toggle:hover,
 #omens-body #header-toggle:hover {
   cursor: crosshair;
