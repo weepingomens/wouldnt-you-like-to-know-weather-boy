@@ -3160,7 +3160,7 @@ header.category:after {
 }
 
 .select-destination.category-3 .board-quicklink.active {
-  color: rgba(var(--main-accent-rgb), 1);
+  color: #ccc;
   transition: .25s;
 }
 
@@ -12089,7 +12089,7 @@ body.light {
   color: rgba(0, 0, 0, 3%);
 }
 
-.light .select-destination.category-3 .board-quicklink {
+.light .select-destination.category-3 .board-quicklink.active {
   color: var(--basic-text);
 }
 
