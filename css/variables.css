@@ -9,7 +9,7 @@
   --member: #94af83;
   --pending: #aaa;
   --archived: #666;
-  --guest:#eef2f3;
+  --guest:#aaaaaa;
   --main-accent: #aaa;
   --main-accent-rgb: var(--mainAccentR), var(--mainAccentG), var(--mainAccentB);
   --main-gradient: linear-gradient(110deg, #df6885, #df6868);
