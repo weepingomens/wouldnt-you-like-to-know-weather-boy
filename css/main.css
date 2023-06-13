@@ -2395,6 +2395,10 @@ input[type="submit"] {
   fill: var(--main-accent);
 }
 
+.user-groupid-2 #omens-header .logo-moon path.moon {
+  animation: 30s linear infinite rainbow-demo2;
+}
+
 #omens-header .sigil {
   position: absolute;
   right: 161px;
