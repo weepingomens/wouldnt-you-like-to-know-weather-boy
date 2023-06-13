@@ -1240,7 +1240,7 @@ input[type="submit"] {
   mix-blend-mode: lighten;
 }
 
-#omens-body #omens-top #current-user .user-name {
+#omens-body #omens-top #current-user .user-name-contain {
   font: 700 0.6rem/1 'open sans', sans-serif;
   letter-spacing: .025rem;
   text-transform: uppercase;
@@ -1251,7 +1251,7 @@ input[type="submit"] {
   position: relative;
 }
 
-#omens-body #omens-top #current-user .user-name b {
+#omens-body #omens-top #current-user .user-name-contain b {
   font: 800 1.1rem/.7 'playfair display', serif;
   letter-spacing: 0px;
   text-transform: lowercase;
@@ -4230,7 +4230,7 @@ header.communications:before {
   margin: -50px 0 50px 0;
   grid: min-content min-content min-content min-content / 224px auto;
   grid-template-areas:
-    "post-row-user-hover post-row-user-name"
+    "post-row-user-hover post-row-user-name-contain"
     "post-row-ship post-row-ooc"
     "post-row-post post-row-post"
     "post-row-user-footer post-row-user-footer";
@@ -4243,7 +4243,7 @@ header.communications:before {
   margin-top: 50px;
 }
 
-.post-row:not(.post-row ~ .post-row) .user-name {
+.post-row:not(.post-row ~ .post-row) .user-name-contain {
   border-width: 2px 2px 0 0;
 }
 
@@ -4256,8 +4256,8 @@ header.communications:before {
   border-bottom: 0;
 }
  */
-.post-row .user-name {
-  grid-area: post-row-user-name;
+.post-row .user-name-contain {
+  grid-area: post-row-user-name-contain;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -4268,12 +4268,12 @@ header.communications:before {
   position: relative;
 }
 
-.post-row .user-name .font-icon {
+.post-row .user-name-contain .font-icon {
   position: absolute;
   pointer-events: none;
 }
 
-.post-row .user-name .font-icon:before {
+.post-row .user-name-contain .font-icon:before {
   pointer-events: none;
   font-size: 300px;
   color: rgba(255, 255, 255, 2%);
@@ -4639,7 +4639,7 @@ a.user-small-info:hover:before {
   display: none;
 }
 
-.post-row .user-name .threat-level.threat-level- {
+.post-row .user-name-contain .threat-level.threat-level- {
   display: none;
 }
 
@@ -4654,7 +4654,7 @@ a.user-small-info:hover:before {
 
 .post-row.no-ship {
   grid-template-areas:
-    "post-row-user-hover post-row-user-name"
+    "post-row-user-hover post-row-user-name-contain"
     "post-row-user-hover post-row-ooc"
     "post-row-post post-row-post"
     "post-row-user-footer post-row-user-footer";
@@ -12151,7 +12151,7 @@ body.light {
   color: var(--basic-text);
 }
 
-.light .post-row .user-name .font-icon:before,
+.light .post-row .user-name-contain .font-icon:before,
 .light #main-profile .font-icon:before {
   color: rgba(0, 0, 0, 3%);
 }
