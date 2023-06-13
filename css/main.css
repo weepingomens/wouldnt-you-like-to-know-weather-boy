@@ -12363,6 +12363,7 @@ body.light {
   #s-m-t-tooltip { display:none!important }
   #omens-body #omens-sidebar .sidebar-group a {
     line-height:4;
+    font-size:.8rem;
   }
 }
 
