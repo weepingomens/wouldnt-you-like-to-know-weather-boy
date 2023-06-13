@@ -12373,4 +12373,15 @@ body.light {
   }
 }
 
+@media only screen and (min-width:500px) {
+  ::-webkit-scrollbar {
+    width:17px;
+  }
+  ::-webkit-scrollbar-thumb {
+    background:var(--main-accent);
+  }
+  ::-webkit-scrollbar-track {
+    background:#333;
+  }
+}
 /* END @MEDIA QUERIES */
