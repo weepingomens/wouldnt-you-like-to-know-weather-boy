@@ -4673,6 +4673,10 @@ a.user-small-info:hover:before {
   content: "this post contains";
 }
 
+.post-row.group-2 .user-small-info {
+  display:none;
+}
+
 /* END POST ROW */
 /* START ALL POST TEMPLATES (SCREAMS) */
 /* START SITE STORE TEMPLATE */
