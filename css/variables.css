@@ -58,6 +58,7 @@ body.light  {
   --archived: #333; 
   --npc: #327999;
   --rip:#4f5260;
+  --guest:#aaaaaa;
 }
 
 .group-staff,
@@ -165,9 +166,7 @@ a.mgroup-7 {
 }
 
 .user-groupid-2 {
-  --main-accentR:170;
-  --main-accentG:170;
-  --main-accentB:170;
+  --group:var(--guest);
 }
 
 a.mgroup-3 {
