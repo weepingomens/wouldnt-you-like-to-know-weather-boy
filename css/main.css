@@ -174,7 +174,9 @@ textarea {
     ========================================================================== */
 
 @media only screen and (max-width: 1650px) {
-  /* Style adjustments for viewports that meet the condition */
+  .footer-jenshin {
+    width:450px;
+  }
 }
 
 @media print,
@@ -3849,7 +3851,7 @@ header.communications:before {
   height: 700px;
   overflow: hidden;
   position: absolute;
-  z-index: 999;
+  z-index: 9;
   top: -75px;
   left: 425px;
   pointer-events: none;
