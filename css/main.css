@@ -2329,6 +2329,10 @@ input[type="submit"] {
   margin-top: 15px;
 }
 
+.user-groupid-2 #omens-header #logo span {
+  animation: 30s linear infinite rainbow-demo;
+}
+
 #omens-header #intro {
   position: absolute;
   width: 43ch;
