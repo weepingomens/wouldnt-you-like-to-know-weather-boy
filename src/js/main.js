@@ -34,9 +34,9 @@ function censorToggle(cwButtonElement, censorElement) {
 	censorElement.forEach(x=>x.classList.toggle('omensbuttonhidecontent'));
 };
 $(function(){
-  $('cw-toggle').click(function() {
+  $('#main-profile cw-toggle').click(function() {
 $(this).toggleClass('omensbuttonhidecontent omensbuttonshowcontent');
-$('censor').toggleClass('omenscensorshowcontent omenscensorhidecontent');
+$('#main-profile censor').toggleClass('omenscensorshowcontent omenscensorhidecontent');
   }); 
 });
 
