@@ -652,7 +652,8 @@ textarea {
   color: #aaa;
 }
 
-.activeuserstrip b {
+.activeuserstrip b,
+.activeuserstrip strong {
   font-weight: 700;
 }
 
