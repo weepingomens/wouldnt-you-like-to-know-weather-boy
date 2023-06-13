@@ -2856,7 +2856,6 @@ input[type="submit"] {
 
 #omens-body #omens-sidebar .sidebar-group h1 {
   margin: 10px 0;
-  animation: 30s linear infinite rainbow-demo3;
   display: flex;
   justify-content: center;
   font: 700 0.6rem/1 'open sans', sans-serif;
@@ -2888,7 +2887,6 @@ input[type="submit"] {
   font: 700 .8rem/1 'playfair display', serif;
   margin-right: 5px;
   color: var(--main-accent);
-  animation: 30s linear infinite rainbow-demo3;
   text-transform: lowercase;
 }
 
@@ -2909,9 +2907,8 @@ input[type="submit"] {
   bottom: -3px;
   left: 3px;
   font: 900 4.5rem/.8 'playfair display', serif;
-  letter-spacing: -1px;
+  letter-spacing: -.1rem;
   transition: 0.25s;
-  animation: 30s linear infinite rainbow-demo3;
   mix-blend-mode: color-dodge;
   opacity: 33%;
 }
