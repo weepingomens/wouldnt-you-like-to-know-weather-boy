@@ -2992,7 +2992,8 @@ input[type="submit"] {
 #omens-main #active-topics br,
 #omens-main #post-preview br,
 #omens-main .forum-statistics br,
-#omens-main .board-quicklink br {
+#omens-main .board-quicklink br,
+#omens-main .tablepad br {
   display: block;
 }
 
