@@ -4585,6 +4585,10 @@ a.user-small-info:hover:before {
   top: 0;
 }
 
+.post-row .ooc-details .big-image.no-big-image {
+  background-image:url(../src/img/city-background.png);
+}
+
 .post-row .relationship {
   grid-area: post-row-ship;
 }
