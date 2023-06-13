@@ -164,6 +164,12 @@ a.mgroup-7 {
 /*  --main-accent-rgb:rgb(170,170,170); */
 }
 
+.user-groupid-2 {
+  --main-accent-R:170;
+  --main-accent-G:170;
+  --main-accent-B:170;
+}
+
 a.mgroup-3 {
   color:var(--pending);
 }
