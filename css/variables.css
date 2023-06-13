@@ -59,54 +59,6 @@ body.light  {
   --rip:#4f5260;
 }
 
-.forum-8 .forum-image:before {
-  background-image: var(--forum-8);
-}
-
-.forum-9 .forum-image:before {
-  background-image: var(--forum-9);
-}
-
-.forum-10 .forum-image:before {
-  background-image: var(--forum-10);
-}
-
-.forum-11 .forum-image:before {
-  background-image: var(--forum-11);
-}
-
-.forum-12 .forum-image:before {
-  background-image: var(--forum-12);
-}
-
-.forum-13 .forum-image:before {
-  background-image: var(--forum-13);
-}
-
-.forum-14 .forum-image:before {
-  background-image: var(--forum-14);
-}
-
-.forum-22 .forum-image:before {
-  background-image: var(--forum-22);
-}
-
-.forum-24 .forum-image:before {
-  background-image: var(--forum-24);
-}
-
-.forum-26 .forum-image:before {
-  background-image: var(--forum-26);
-}
-
-.forum-27 .forum-image:before {
-  background-image: var(--forum-27);
-}
-
-.forum-43 .forum-image:before {
-  background-image: var(--forum-43);
-}
-
 .group-staff,
 .group-6,
 .mgroup-6,
