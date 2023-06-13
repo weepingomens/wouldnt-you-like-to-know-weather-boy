@@ -11739,6 +11739,18 @@ a.user-small-info:hover:before {
 }
 
 /* END MAIN PROFILE TRACKER */
+/* START MAIN PROFILE AWARDS */
+.awards-contain {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 10px;
+}
+
+.awards-contain img {
+  width: 50px;
+  height: fit-content;
+}
+/* END MAIN PROFILE AWARDS */
 /* END MAIN PROFILE */
 /* START LIGHT MODE */
 body.light {
