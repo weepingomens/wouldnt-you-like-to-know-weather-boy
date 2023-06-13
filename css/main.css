@@ -2749,6 +2749,10 @@ input[type="submit"] {
   position: absolute;
 }
 
+.user-groupid-2 #omens-header #credit-bubbles div {
+  animation: 30s linear infinite rainbow-demo;
+}
+
 #omens-header #credit-bubbles .two {
   margin-left: 71px;
   margin-top: -19px;
