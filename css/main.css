@@ -3153,6 +3153,17 @@ header.category:after {
   cursor: pointer;
 }
 
+.select-destination.category-3 .board-quicklink:hover {
+  cursor:crosshair;
+  color: rgba(var(--main-accent-rgb), 1);
+  transition: .25s;
+}
+
+.select-destination.category-3 .board-quicklink.active {
+  color: rgba(var(--main-accent-rgb), 1);
+  transition: .25s;
+}
+
 .board-quicklink-container.residential-records:before {
   content: 'RESIDENTIAL RECORDS';
   position: absolute;
