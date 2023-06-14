@@ -167,10 +167,13 @@ a.mgroup-7 {
 .mgroup-2,
 .group-pending,
 .group-3,
-.mgroup-3,
-.user-groupid-3 {
+.mgroup-3 {
   --group: var(--pending);
 /*  --main-accent-rgb:rgb(170,170,170); */
+}
+
+.user-groupid-3 {
+  --group:var(--guest);
 }
 
 .user-groupid-2 {
