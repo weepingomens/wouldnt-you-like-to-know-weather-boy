@@ -7912,7 +7912,7 @@ a.user-small-info:hover:before {
   text-decoration-thickness: 0.1rem;
 }
 
-.omens-post-template img {
+.omens-post-template .post-body img {
   max-width:100%;
 }
 
