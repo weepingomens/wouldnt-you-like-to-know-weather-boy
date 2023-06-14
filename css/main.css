@@ -958,7 +958,7 @@ textarea {
 .post1 .post-image-2-override,
 .post1 .post-image-1-override,
 .post1 .post-icon-override {
-  display: none;
+  display: none!important;
 }
 
 #logostrip, #submenu, #userlinks, .newstext {
