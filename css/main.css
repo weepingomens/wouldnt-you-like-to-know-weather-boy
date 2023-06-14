@@ -1151,6 +1151,11 @@ input[type="submit"] {
   font-size: 1.2rem;
   color: #555;
   transition: .25s;
+  display:none;
+}
+
+.user-groupid-2 #omens-body #omens-top #guest-light-toggle {
+  display:block;
 }
 
 #omens-body #omens-top #guest-light-toggle:hover {
