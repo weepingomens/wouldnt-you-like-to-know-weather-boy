@@ -4754,6 +4754,7 @@ a.user-small-info:hover:before {
 }
 
 .post-row.no-ship {
+  grid: min-content 75px min-content min-content / 224px auto;
   grid-template-areas:
     "post-row-user-hover post-row-user-name-contain"
     "post-row-user-hover post-row-ooc"
