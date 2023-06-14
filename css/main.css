@@ -1256,7 +1256,6 @@ input[type="submit"] {
   letter-spacing: 0px;
   text-transform: lowercase;
   color: var(--main-accent);
-  animation: 30s linear infinite rainbow-demo3;
   margin-top: 3px;
 }
 
