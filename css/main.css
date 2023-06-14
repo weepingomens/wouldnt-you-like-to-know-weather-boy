@@ -4785,7 +4785,10 @@ a.user-small-info:hover:before {
   margin-bottom:50px;
 }
 
-.miniprofile-override {
+.miniprofile-override,
+.custom-override,
+.quote-override,
+.npc-override {
   display:none;
 }
 
