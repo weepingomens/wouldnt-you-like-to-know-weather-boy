@@ -48,17 +48,18 @@ body.light  {
   --border:rgba(0,0,0,7%);
   --default-border:2px solid var(--border);
   --bg:#bbb;
-  --italic: #555;
+  --italic: #555555;
   --white-text:rgba(255, 255, 255, 33%);
   --staff: #bd8b1d;
   --human: #39936c;
   /* leave witch, vamp as-is */
   --member: #698b54;
   --werewolf: #7b7e45;
-  --pending: #777;
-  --archived: #333; 
+  --pending: #777777;
+  --archived: #333333; 
   --npc: #327999;
   --rip:#4f5260;
+  --guest:#5e6b75;
 }
 
 .group-staff,
