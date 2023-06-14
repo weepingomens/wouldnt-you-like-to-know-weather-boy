@@ -4784,6 +4784,16 @@ a.user-small-info:hover:before {
   display:none;
 }
 
+.post-row.no-ship .relationship {
+  display:none;
+}
+
+.post-row.npc .user-position,
+.post-row.npc ul.user-details,
+.post-row.npc .user-quote {
+  display:none;
+}
+
 /* END POST ROW */
 /* START ALL POST TEMPLATES (SCREAMS) */
 /* START SITE STORE TEMPLATE */
