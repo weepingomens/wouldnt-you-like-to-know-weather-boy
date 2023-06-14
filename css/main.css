@@ -3778,7 +3778,7 @@ header.communications:before {
   letter-spacing: -0.05em;
   color: #BBBBBB;
   opacity: 75%;
-  mix-blend-mode: exclusion;
+  mix-blend-mode: color-burn;
   transition: .25s;
   pointer-events: none;
 }
