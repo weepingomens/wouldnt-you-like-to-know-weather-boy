@@ -4775,6 +4775,11 @@ a.user-small-info:hover:before {
   display:none;
 }
 
+.post-row cw, 
+.post-row cw-toggle {
+  margin-bottom:50px;
+}
+
 /* END POST ROW */
 /* START ALL POST TEMPLATES (SCREAMS) */
 /* START SITE STORE TEMPLATE */
