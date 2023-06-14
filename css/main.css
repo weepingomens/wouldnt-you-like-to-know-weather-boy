@@ -4811,6 +4811,10 @@ a.user-small-info:hover:before {
   content: "\E157"!important;
 }
 
+.post-row.npc .user-icon .img {
+  height:0;
+}
+
 /* END POST ROW */
 /* START ALL POST TEMPLATES (SCREAMS) */
 /* START SITE STORE TEMPLATE */
