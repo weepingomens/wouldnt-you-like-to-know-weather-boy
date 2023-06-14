@@ -7,10 +7,10 @@
   --rip: #6B6C72;
   --staff: #e3b550;
   --member: #94af83;
-  --pending: #aaa;
-  --archived: #666;
+  --pending: #aaaaaa;
+  --archived: #666666;
   --guest:#8e9eab;
-  --main-accent: #aaa;
+  --main-accent: #aaaaaa;
   --main-accent-rgb: var(--mainAccentR), var(--mainAccentG), var(--mainAccentB);
   --main-gradient: linear-gradient(110deg, #df6885, #df6868);
   --bg:#1c1c1c;
