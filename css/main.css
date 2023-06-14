@@ -1073,7 +1073,8 @@ input[type="submit"] {
   color: #aaa;
 }
 
-#omens-body input[type="text"] {
+#omens-body input[type="text"],
+#omens-body input[type="password"] {
   text-transform: none;
   font: 500 1rem/1 'open sans', sans-serif;
 }
