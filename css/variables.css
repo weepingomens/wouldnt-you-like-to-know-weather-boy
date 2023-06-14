@@ -74,6 +74,11 @@ a.mgroup-4 {
   color:var(--staff);
 }
 
+.user-groupid-4,
+.user-groupid-6 {
+  --group:var(--staff);
+}
+
 .group-icon-6:before,
 .group-icon-4:before {
   font-family: "game-icons";
