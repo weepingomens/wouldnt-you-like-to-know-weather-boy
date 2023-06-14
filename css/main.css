@@ -1146,6 +1146,18 @@ input[type="submit"] {
   cursor: crosshair;
 }
 
+#omens-body #omens-top .guest-lightmode {
+  margin-left: 15px;
+  font-size: 1.2rem;
+  color: #555;
+  transition: .25s;
+}
+
+#omens-body #omens-top .guest-lightmode:hover {
+  color:var(--main-accent);
+  transition:.25s;
+}
+
 #omens-body #omens-top #navstrip {
   display: flex;
   flex-flow: row wrap;
