@@ -3375,13 +3375,13 @@ header.communications {
 header.communications:before {
   content: '';
   position: absolute;
-  width: 585px;
+  width: 525px;
   height: 815px;
   background: url(../src/img/1b.png);
   background-size: cover;
   opacity: 3%;
   transform: rotate(30deg);
-  top: -250px;
+  top: -275px;
   left: 180px;
   z-index: -1;
 }
