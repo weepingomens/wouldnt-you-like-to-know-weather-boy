@@ -1161,6 +1161,7 @@ input[type="submit"] {
 #omens-body #omens-top #guest-light-toggle:hover {
   color:var(--main-accent);
   transition:.25s;
+  cursor:crosshair;
 }
 
 #omens-body #omens-top #navstrip {
