@@ -4780,6 +4780,10 @@ a.user-small-info:hover:before {
   margin-bottom:50px;
 }
 
+.miniprofile-override {
+  display:none;
+}
+
 /* END POST ROW */
 /* START ALL POST TEMPLATES (SCREAMS) */
 /* START SITE STORE TEMPLATE */
