@@ -4791,7 +4791,8 @@ a.user-small-info:hover:before {
 
 .post-row.npc .user-position,
 .post-row.npc ul.user-details,
-.post-row.npc .threat-level {
+.post-row.npc .threat-level,
+.post-row.npc .user-small-info {
   display:none;
 }
 
