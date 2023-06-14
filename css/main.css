@@ -1236,7 +1236,7 @@ input[type="submit"] {
   display: block;
   width: 50px;
   height: 50px;
-  mix-blend-mode: lighten;
+  mix-blend-mode: luminosity;
 }
 
 #omens-body #omens-top #current-user .user-name {
