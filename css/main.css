@@ -4801,6 +4801,14 @@ a.user-small-info:hover:before {
   display:none;
 }
 
+.post-row.npc .user-name-contain .font-icon {
+  transform: rotate(10deg);
+}
+
+.post-row.npc .user-name-contain .font-icon:before {
+  content: "\E157"!important;
+}
+
 /* END POST ROW */
 /* START ALL POST TEMPLATES (SCREAMS) */
 /* START SITE STORE TEMPLATE */
