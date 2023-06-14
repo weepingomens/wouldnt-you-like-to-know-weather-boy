@@ -11967,7 +11967,8 @@ body.light {
 .light #ucpcontent textarea,
 .light #main-profile section.content .spells span,
 .light #omens-body #posting-form #topic-title input,
-.light #omens-body #posting-form #topic-desc input {
+.light #omens-body #posting-form #topic-desc input,
+.light #omens-header #credit-bubbles div {
   color: var(--basic-text);
 }
 
