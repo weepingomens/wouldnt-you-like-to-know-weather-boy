@@ -10822,6 +10822,85 @@ a.user-small-info:hover:before {
 }
 
 /* END [POST20] TEMPLATE */
+/* START [POST21] TEMPLATE */
+
+.omens-post-21 {
+  padding:50px;
+  width:min-content;
+  margin:auto;
+  border:var(--default-border);
+  position:relative;
+}
+
+.omens-post-21 .post-images {
+  width:500px;
+  height:150px;
+  overflow:hidden;
+  position:relative;
+}
+
+.omens-post-21 .post-image-2 {
+  width:500px;
+  height:150px;
+  position:relative;
+  overflow:hidden;
+}
+
+.omens-post-21 .post-image-2 img {
+  pointer-events:none;
+  filter:grayscale(1);
+}
+
+.omens-post-21 .lyric-1 {
+  font: italic 700 1.5rem/100% "playfair display", serif;
+  width:10ch;
+  height:140px;
+  display:flex;
+  align-items: flex-end;
+  padding:0 10px 10px 0;
+  position:absolute;
+  z-index:1;
+  right:50px;
+  top:50px;
+  color:#fff;
+  text-align:right;
+}
+
+
+/*
+.omens-post-21 .post-image-2:after {
+  content:'';
+  width:200px;
+  height:200px;
+  position:absolute;
+  transform:rotate(45deg);
+  background:var(--custom);
+  mix-blend-mode:darken;
+  right:-10px;
+  bottom:-50px;
+}
+*/
+
+.omens-post-21 .post-icon {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  z-index:1;
+  transform: rotate(45deg);
+  background:var(--custom);
+  overflow:hidden;
+  right:-10px;
+}
+
+.omens-post-21 .post-icon img {
+  width:100%;
+  display:block;
+  filter:grayscale(1) blur(2px);
+  transform:scale(1.2);
+  mix-blend-mode: darken;
+}
+
+/* END [POST21] TEMPLATE */
 /* END [POST] TEMPLATES */
 /* START ALL ARCADE TEMPLATES */
 /* END FMK TEMPLATE */
