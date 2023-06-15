@@ -10825,11 +10825,10 @@ a.user-small-info:hover:before {
 /* START [POST21] TEMPLATE */
 
 .omens-post-21 {
-  padding:50px;
   width:min-content;
   margin:auto;
-  border:var(--default-border);
   position:relative;
+  border-bottom: 10px solid var(--custom);
 }
 
 .omens-post-21 .post-images {
@@ -10853,17 +10852,17 @@ a.user-small-info:hover:before {
 
 .omens-post-21 .lyric-1 {
   font: italic 700 1.5rem/100% "playfair display", serif;
-  width:10ch;
-  height:140px;
-  display:flex;
+  width: 10ch;
+  height: 140px;
+  display: flex;
   align-items: flex-end;
-  padding:0 10px 10px 0;
-  position:absolute;
-  z-index:1;
-  right:50px;
-  top:50px;
-  color:#fff;
-  text-align:right;
+  padding: 0 10px 10px 0;
+  position: absolute;
+  z-index: 1;
+  right: 0;
+  top: 0;
+  color: #fff;
+  text-align: right;
 }
 
 
@@ -10900,6 +10899,70 @@ a.user-small-info:hover:before {
   mix-blend-mode: darken;
 }
 
+.omens-post-21 .post-body-contain {
+  display:flex;
+  margin:25px;
+}
+
+.omens-post-21 .lyric-2 {
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  text-transform: uppercase;
+  font: var(--small-header);
+  font-weight: 700;
+  font-family: 'montserrat', sans-serif;
+  letter-spacing: .1rem;
+  align-self: flex-start;
+  position: sticky;
+  top: 100px;
+  opacity:50%;
+}
+
+.omens-post-21 .post-body {
+  flex-grow: 1;
+  padding: 0 25px;
+  border: var(--default-border);
+  border-width: 0 0 0 2px;
+}
+
+.omens-post-21 .post-body b {
+  font-weight:500;
+  line-height:1.6;
+  font-size:1.1rem;
+  color:var(--custom);
+}
+
+.omens-post-21 .post-body i {
+  color:var(--italic);
+  letter-spacing:.033rem;
+}
+
+.omens-post-21 .post-body u {
+  text-decoration-thickness: 0.1rem;
+  text-underline-offset: 0.3rem;
+  text-decoration-color: var(--custom);
+  font-weight: 600;
+}
+
+.omens-post-21 .post-body tagged {
+  display:flex;
+  flex-flow:row wrap;
+  gap:10px;
+  justify-content:flex-start;
+  margin-top:10px;
+}
+
+.omens-post-21 .post-body tagged a {
+  font: italic 700 1.5rem/100% "playfair display", serif;
+  color:var(--group);
+  filter:grayscale(100%);
+  transition:.25s;
+}
+
+.omens-post-21 .post-body tagged a:hover {
+  filter: grayscale(0%);
+  transition:.25s;
+}
 /* END [POST21] TEMPLATE */
 /* END [POST] TEMPLATES */
 /* START ALL ARCADE TEMPLATES */
