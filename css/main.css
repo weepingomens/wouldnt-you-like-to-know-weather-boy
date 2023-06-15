@@ -10925,7 +10925,7 @@ a.user-small-info:hover:before {
 .omens-post-21 .post-body u {
   text-decoration-thickness: 0.1rem;
   text-underline-offset: 0.3rem;
-  text-decoration-color: var(--custom);
+  text-decoration-color: var(--border);
   font-weight: 600;
 }
 
