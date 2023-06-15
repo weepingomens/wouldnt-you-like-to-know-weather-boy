@@ -10955,7 +10955,7 @@ a.user-small-info:hover:before {
 .omens-post-21 .post-body tagged {
   display:flex;
   flex-flow:row wrap;
-  gap:10px;
+  gap:25px;
   justify-content:flex-start;
   margin-top:10px;
 }
