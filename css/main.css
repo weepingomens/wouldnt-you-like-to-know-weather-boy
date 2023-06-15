@@ -10887,6 +10887,7 @@ a.user-small-info:hover:before {
   filter:grayscale(1) blur(4px);
   transform:scale(1.2);
   mix-blend-mode: darken;
+  opacity: 50%;
 }
 
 .omens-post-21 .post-body-contain {
