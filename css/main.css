@@ -10865,21 +10865,6 @@ a.user-small-info:hover:before {
   text-align: right;
 }
 
-
-/*
-.omens-post-21 .post-image-2:after {
-  content:'';
-  width:200px;
-  height:200px;
-  position:absolute;
-  transform:rotate(45deg);
-  background:var(--custom);
-  mix-blend-mode:darken;
-  right:-10px;
-  bottom:-50px;
-}
-*/
-
 .omens-post-21 .post-icon {
   width: 200px;
   height: 200px;
@@ -10894,7 +10879,7 @@ a.user-small-info:hover:before {
 .omens-post-21 .post-icon img {
   width:100%;
   display:block;
-  filter:grayscale(1) blur(2px);
+  filter:grayscale(1) blur(4px);
   transform:scale(1.2);
   mix-blend-mode: darken;
 }
