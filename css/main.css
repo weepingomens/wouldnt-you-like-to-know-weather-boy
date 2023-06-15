@@ -10944,6 +10944,14 @@ a.user-small-info:hover:before {
   font-weight: 600;
 }
 
+.omens-post-21 .post-body span {
+  font-weight: 600;
+  line-height: 1.6;
+  font-size: 1rem;
+  color: var(--custom);
+  letter-spacing: .033rem;
+}
+
 .omens-post-21 .post-body tagged {
   display:flex;
   flex-flow:row wrap;
