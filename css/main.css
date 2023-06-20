@@ -10523,7 +10523,7 @@ a.user-small-info:hover:before {
   position: relative;
   overflow: hidden;
   background: var(--custom);
-  max-width: 100%;
+  width:520px;
   height: 125px;
   display: flex;
   align-items: center;
