@@ -4600,8 +4600,9 @@ a.user-small-info:hover:before {
   height: 50px;
   background-size: cover;
   display: block;
-  filter: grayscale(1);
   margin: 5px;
+  background-color: var(--custom);
+  background-blend-mode: darken;
 }
 
 .post-row .user-icon .contain {
