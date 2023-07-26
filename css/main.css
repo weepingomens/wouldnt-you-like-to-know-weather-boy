@@ -4376,7 +4376,8 @@ header.communications:before {
 
 .post-row .user-name-contain .font-icon:before {
   pointer-events: none;
-  font-size: 300px;
+  font-size: 350px;
+  line-height: 100%;
   color: rgba(255, 255, 255, 2%);
 }
 
