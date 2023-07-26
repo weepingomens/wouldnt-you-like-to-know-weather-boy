@@ -4611,7 +4611,7 @@ a.user-small-info:hover:before {
   display: block;
   margin: 5px;
   background-color: var(--custom);
-  background-blend-mode: darken;
+  background-blend-mode: luminosity;
 }
 
 .post-row .user-icon .contain {
