@@ -4494,7 +4494,7 @@ header.communications:before {
   border-radius: 100%;
 }
 
-.post-row .user-small-info a {
+.post-row a.user-small-info {
   color:var(--custom);
 }
 
