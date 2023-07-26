@@ -4501,7 +4501,7 @@ header.communications:before {
 }
 
 .post-row a.user-small-info:hover:before,
-.post-row a.user-profile {
+.post-row a.user-profile:hover {
   color:var(--custom);
   opacity:70%;
   transition: .25s;
