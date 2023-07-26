@@ -4499,6 +4499,12 @@ header.communications:before {
   color:var(--custom);
 }
 
+.post-row a.user-small-info:hover:before {
+  color:var(--custom);
+  opacity:70%;
+  transition: .25s;
+}
+
 .user-small-info:before {
   font-family: "game-icons";
   font-size: 2.5rem;
