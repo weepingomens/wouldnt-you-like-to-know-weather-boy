@@ -4494,6 +4494,10 @@ header.communications:before {
   border-radius: 100%;
 }
 
+.post-row .user-small-info a {
+  color:var(--custom);
+}
+
 .user-small-info:before {
   font-family: "game-icons";
   font-size: 2.5rem;
