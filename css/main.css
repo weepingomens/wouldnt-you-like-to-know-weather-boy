@@ -3961,6 +3961,10 @@ header.communications:before {
   transition: .25s;
 }
 
+.fast-travel em {
+  color: #666;
+}
+
 /* END FORUM ROWS */
 /* START BOARD STATISTICS */
 
