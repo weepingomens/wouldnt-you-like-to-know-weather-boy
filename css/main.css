@@ -11370,7 +11370,7 @@ a.user-small-info:hover:before {
   margin: 0;
   padding: 0;
   font: var(--small-header);
-  color: rgba(255, 255, 255, 20%);
+  color: rgba(255, 255, 255, 33%);
   letter-spacing: 0.2rem;
   text-transform: uppercase;
 }
