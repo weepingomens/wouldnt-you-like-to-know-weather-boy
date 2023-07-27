@@ -3939,10 +3939,11 @@ header.communications:before {
   text-transform: uppercase;
   flex-flow:row wrap;
   margin-top: -50px;
-  margin-bottom: 50px;
+  margin-bottom: 25px;
   gap: 10px;
   position: relative;
     line-height: 200%;
+    align-items: center;
 }
 
 .fast-travel a {
