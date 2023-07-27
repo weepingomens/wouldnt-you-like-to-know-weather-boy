@@ -10371,9 +10371,9 @@ a.user-small-info:hover:before {
 /* START [POST18] TEMPLATE */
 
 .omens-post-18 {
-  margin: 25px;
   border-radius: 5px;
   overflow: hidden;
+  padding: 5px;
 }
 
 .omens-post-18 .post-lyrics {
@@ -10460,7 +10460,7 @@ a.user-small-info:hover:before {
 
 .omens-post-18 .post-images .post-image-2,
 .omens-post-18 .post-images .post-image-2-override {
-  width: calc(500px - 30px);
+  width: 500px;
   height: 150px;
   overflow: hidden;
   filter: grayscale(1);
@@ -10474,7 +10474,7 @@ a.user-small-info:hover:before {
 .omens-post-18 .post-images {
   display: flex;
   background: rgba(255, 255, 255, 1%);
-  justify-content: center;
+  justify-content: space-between;
   position: relative;
   overflow: hidden;
 }
