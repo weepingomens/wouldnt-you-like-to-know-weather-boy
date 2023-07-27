@@ -4652,8 +4652,6 @@ a.user-small-info:hover:before {
   background-size: cover;
   display: block;
   margin: 5px;
-  background-color: var(--custom);
-  background-blend-mode: luminosity;
 }
 
 .post-row .user-icon .contain {
