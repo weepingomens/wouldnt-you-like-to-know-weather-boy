@@ -3936,9 +3936,10 @@ header.communications:before {
 
 .fast-travel {
   font: var(--small-header);
-    text-transform: uppercase;
-    margin-top: -50px;
-    gap:10px;
+  text-transform: uppercase;
+  margin-top: -50px;
+  gap: 10px;
+  position: relative;
 }
 
 .fast-travel a {
