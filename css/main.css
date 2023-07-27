@@ -3938,10 +3938,10 @@ header.communications:before {
   font: var(--small-header);
   text-transform: uppercase;
   margin-top: -50px;
-  margin-bottom: 25px;
+  margin-bottom: 50px;
   gap: 10px;
   position: relative;
-  align-items: center;
+    line-height: 200%;
 }
 
 .fast-travel a {
@@ -3964,10 +3964,6 @@ header.communications:before {
 .fast-travel em {
   color: #666;
   font-style:normal;
-}
-
-.select-destination.fast-travel.category-3 {
-  display:block;
 }
 
 /* END FORUM ROWS */
