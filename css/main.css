@@ -3941,16 +3941,19 @@ header.communications:before {
   margin-bottom: 25px;
   gap: 10px;
   position: relative;
+  align-items: center;
 }
 
 .fast-travel a {
   font: 700 0.6rem/1 'open sans', sans-serif;
     letter-spacing: .05rem;
     color: rgba(var(--main-accent-rgb), .7);
-    border-bottom: 2px solid rgb(37, 37, 37);
-    padding: 0px 0px 3px;
     transition: .25s;
     text-transform: uppercase;
+    text-decoration: underline;
+    text-decoration-thickness: 5px;
+    text-decoration-color: rgb(37, 37, 37);
+    text-underline-offset: 3px;
 }
 
 .fast-travel a:hover {
