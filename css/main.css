@@ -8006,7 +8006,6 @@ a.user-small-info:hover:before {
 
 .omens-post-1 {
   padding: 50px;
-  width: 50ch;
   margin: 0 auto;
   border: var(--default-border);
 }
@@ -8041,7 +8040,7 @@ a.user-small-info:hover:before {
   color: rgba(255, 255, 255, 75%);
   letter-spacing: 0.2rem;
   text-align: left;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
 }
 
 .omens-post-1 .post-body b {
