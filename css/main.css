@@ -3951,9 +3951,9 @@ header.communications:before {
     transition: .25s;
     text-transform: uppercase;
     text-decoration: underline;
-    text-decoration-thickness: 5px;
+    text-decoration-thickness: 2px;
     text-decoration-color: rgb(37, 37, 37);
-    text-underline-offset: 3px;
+    text-underline-offset: 4px;
 }
 
 .fast-travel a:hover {
