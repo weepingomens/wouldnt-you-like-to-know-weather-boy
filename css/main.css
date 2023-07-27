@@ -3966,6 +3966,10 @@ header.communications:before {
   font-style:normal;
 }
 
+.select-destination.fast-travel.category-3 {
+  display:block;
+}
+
 /* END FORUM ROWS */
 /* START BOARD STATISTICS */
 
