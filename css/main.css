@@ -3938,6 +3938,7 @@ header.communications:before {
   font: var(--small-header);
   text-transform: uppercase;
   margin-top: -50px;
+  margin-bottom: 25px;
   gap: 10px;
   position: relative;
 }
