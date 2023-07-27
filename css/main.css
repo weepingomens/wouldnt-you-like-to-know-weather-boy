@@ -3937,6 +3937,7 @@ header.communications:before {
 .fast-travel {
   font: var(--small-header);
   text-transform: uppercase;
+  flex-flow:row wrap;
   margin-top: -50px;
   margin-bottom: 50px;
   gap: 10px;
