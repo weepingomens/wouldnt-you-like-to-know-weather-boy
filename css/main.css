@@ -10561,7 +10561,6 @@ a.user-small-info:hover:before {
 /* START [POST19] TEMPLATE */
 
 .omens-post-19 {
-  width: min-content;
   margin: auto;
   border-bottom: 10px solid var(--custom);
 }
@@ -10571,7 +10570,6 @@ a.user-small-info:hover:before {
   position: relative;
   overflow: hidden;
   background: var(--custom);
-  width:520px;
   height: 125px;
   display: flex;
   align-items: center;
@@ -10582,7 +10580,7 @@ a.user-small-info:hover:before {
 .omens-post-19 .post-image-2-override img {
   display: block;
   position: absolute;
-  filter: grayscale(100%);
+  filter: grayscale(100%) blur(3px);
   opacity: 7%;
   pointer-events: none;
 }
