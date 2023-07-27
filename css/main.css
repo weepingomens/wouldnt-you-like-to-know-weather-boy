@@ -8791,8 +8791,7 @@ a.user-small-info:hover:before {
   flex-flow: row wrap;
   place-items: stretch start;
   place-content: start;
-  width: 620px;
-  margin: auto;
+  width: 100%;
   border-bottom: 10px solid var(--custom);
 }
 
