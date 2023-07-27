@@ -4642,7 +4642,7 @@ a.user-small-info:hover:before {
 }
 
 .post-row .user-icon span a {
-  color: #bbbbbb;
+  color: var(--custom);
     letter-spacing: .05rem;
 }
 
