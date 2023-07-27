@@ -3169,7 +3169,7 @@ header.category:after {
   display: flex;
   height: 150px;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   position: relative;
   margin: 25px 0;
