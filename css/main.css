@@ -4490,7 +4490,7 @@ header.communications:before {
   justify-content: center;
   margin-top: 10px;
   border-top: var(--default-border);
-  padding-top: 20px;
+  padding-top: 10px;
   color: #aaa;
 }
 
