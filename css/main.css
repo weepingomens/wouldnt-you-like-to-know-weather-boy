@@ -4474,6 +4474,7 @@ header.communications:before {
 .user-position {
   font: var(--small-header);
   text-transform: uppercase;
+  margin: 5px 0;
 }
 
 .user-details {
