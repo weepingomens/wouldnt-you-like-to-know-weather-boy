@@ -3043,7 +3043,7 @@ header.category:after {
   align-items: center;
   text-align: center;
   color: var(--category-header);
-  margin: 25px;
+  margin: 0 25px 25px;
   text-transform: lowercase;
 }
 
