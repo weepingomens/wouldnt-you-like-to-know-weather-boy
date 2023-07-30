@@ -12638,6 +12638,15 @@ body.light {
     line-height:4;
     font-size:.8rem;
   }
+
+  #main-profile .simple-tabs__content {
+    width: 50ch;
+    margin: auto;
+  }
+
+  #main-profile .simple-tabs__list {
+    align-self:flex-start;
+  }
 }
 
 @media only screen and (min-width:500px) {
