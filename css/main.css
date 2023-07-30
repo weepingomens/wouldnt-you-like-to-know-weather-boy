@@ -11239,7 +11239,7 @@ a.user-small-info:hover:before {
 
 #main-profile .threat-level {
   position: relative;
-  bottom: 0;
+  bottom: 25px;
   margin-bottom: 10px;
 }
 
