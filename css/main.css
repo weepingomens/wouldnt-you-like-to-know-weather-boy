@@ -887,6 +887,10 @@ textarea {
   width: 500px;
 }
 
+#ucpcontent tr.ProfileSubHeader {
+  width: auto;
+}
+
 .pformstrip.ProfileHeader {
   font: italic 800 3rem/100% 'Playfair Display', serif;
   letter-spacing: -0.05em;
