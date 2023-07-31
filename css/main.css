@@ -904,6 +904,10 @@ textarea {
   width: 500px;
 }
 
+#ucpcontent #HeaderOptional {
+  display:none;
+}
+
 #ucpcontent #autofill {
   background: var(--main-accent);
   font: 700 0.6rem/100% 'open sans', sans-serif;
