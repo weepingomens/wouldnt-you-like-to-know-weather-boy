@@ -880,15 +880,14 @@ textarea {
   display: none;
 }
 
-.pformstrip.ProfileHeader {
+.pformstrip.ProfileSubHeader {
   font: 800 1.5rem/100% 'Playfair Display', serif;
   text-transform: uppercase;
   color: rgba(255, 255, 255, 20%);
   width: 500px;
 }
 
-#HeaderRequired,
-#HeaderOptional {
+.pformstrip.ProfileHeader {
   font: italic 800 3rem/100% 'Playfair Display', serif;
   letter-spacing: -0.05em;
   color: #eee;
@@ -12383,8 +12382,7 @@ body.light {
   color: var(--basic-text);
 }
 
-.light #HeaderRequired,
-.light #HeaderOptional {
+.light .pformstrip.ProfileHeader {
   color: var(--basic-text);
   text-decoration-color: rgba(0, 0, 0, 10%);
 }
