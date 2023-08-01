@@ -1197,7 +1197,7 @@ input[type="submit"] {
   padding: 10px;
   border-radius: 5px;
   transition: 0.5s;
-  max-width: 225px;
+  max-width: 210px;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
