@@ -911,7 +911,11 @@ textarea {
 .user-groupid-6 #HeaderCHARACTERINFORMATION,
 .user-groupid-6 #FieldsCHARACTERINFORMATION,
 .user-groupid-10 #HeaderCHARACTERINFORMATION,
-.user-groupid-10 #FieldsCHARACTERINFORMATION {
+.user-groupid-10 #FieldsCHARACTERINFORMATION, 
+.user-groupid-6 #field_21, 
+.user-groupid-10 #field_21, 
+.user-groupid-6 #field_22, 
+.user-groupid-10 #field_22 {
   display:none;
 }
 
