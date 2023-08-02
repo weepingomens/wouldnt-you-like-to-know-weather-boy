@@ -908,6 +908,13 @@ textarea {
   display:none;
 }
 
+.user-groupid-6 #HeaderCHARACTERINFORMATION,
+.user-groupid-6 #FieldsCHARACTERINFORMATION,
+.user-groupid-10 #HeaderCHARACTERINFORMATION,
+.user-groupid-10 #FieldsCHARACTERINFORMATION {
+  display:none;
+}
+
 #ucpcontent #autofill {
   background: var(--main-accent);
   font: 700 0.6rem/100% 'open sans', sans-serif;
