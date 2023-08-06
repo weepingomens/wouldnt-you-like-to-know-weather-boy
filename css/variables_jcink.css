@@ -1,0 +1,239 @@
+:root {
+  --werewolf: #a3a948;
+  --vampire: #e4394e;
+  --witch: #9f6fec;
+  --human: #55ba8e;
+  --npc: #51A1C4;
+  --rip: #6B6C72;
+  --staff: #e3b550;
+  --member: #94af83;
+  --pending: #aaaaaa;
+  --archived: #666666;
+  --guest:#8e9eab;
+  --main-accent: #aaaaaa;
+  --main-accent-rgb: var(--mainAccentR), var(--mainAccentG), var(--mainAccentB);
+  --main-gradient: linear-gradient(110deg, #df6885, #df6868);
+  --bg:#1c1c1c;
+
+  --category-header: #2a2a2a;
+  --italic:#777;
+
+  --small-header: 700 0.6rem 'open sans', sans-serif;
+  --med-header: italic 900 2rem 'playfair display', serif;
+
+  --forum-8: url(https://files.jcink.net/uploads2/weepingomens/skin_v2_stuff/LLORONA_8.png);
+  --forum-9: url(https://files.jcink.net/uploads2/weepingomens/skin_v2_stuff/LLORONA_9.png);
+  --forum-10: url(https://files.jcink.net/uploads2/weepingomens/skin_v2_stuff/LLORONA_10.png);
+  --forum-11: url(https://files.jcink.net/uploads2/weepingomens/skin_v2_stuff/LLORONA_11.png);
+  --forum-12: url(https://files.jcink.net/uploads2/weepingomens/skin_v2_stuff/LLORONA_12.png);
+  --forum-13: url(https://files.jcink.net/uploads2/weepingomens/skin_v2_stuff/LLORONA_13.png);
+  --forum-14: url(https://files.jcink.net/uploads2/weepingomens/skin_v2_stuff/LLORONA_14.png);
+  --forum-22: url(https://files.jcink.net/uploads2/weepingomens/skin_v2_stuff/LLORONA_22.png);
+  --forum-24: url(https://files.jcink.net/uploads2/weepingomens/skin_v2_stuff/LLORONA_24.png);
+  --forum-26: url(https://files.jcink.net/uploads2/weepingomens/skin_v2_stuff/LLORONA_26.png);
+  --forum-27: url(https://files.jcink.net/uploads2/weepingomens/skin_v2_stuff/LLORONA_27.png);
+  --forum-43: url(https://files.jcink.net/uploads2/weepingomens/skin_v2_stuff/LLORONA_43.png);
+  --forum-66: url(https://files.jcink.net/uploads2/weepingomens/skin_v2_stuff/LLORONA_66.png);
+}
+
+body {
+  --border:rgba(255, 255, 255, 3%);
+  --default-border: 2px solid var(--border);
+}
+
+body.light  {
+  --category-header:#222;
+  --basic-text:#222;
+  --basic-text-lighter:#888;
+  --border:rgba(0,0,0,7%);
+  --default-border:2px solid var(--border);
+  --bg:#bbb;
+  --italic: #555555;
+  --white-text:rgba(255, 255, 255, 33%);
+  --staff: #bd8b1d;
+  --human: #39936c;
+  /* leave witch, vamp as-is */
+  --member: #698b54;
+  --werewolf: #7b7e45;
+  --pending: #777777;
+  --archived: #333333; 
+  --npc: #327999;
+  --rip:#4f5260;
+  --guest:#5e6b75;
+}
+
+.group-staff,
+.group-6,
+.mgroup-6,
+.group-4,
+.mgroup-4,
+.user-groupid-4,
+.user-groupid-6 {
+  --group: var(--staff);
+}
+
+a.mgroup-6,
+a.mgroup-4 {
+  color:var(--staff);
+}
+
+.group-icon-6:before,
+.group-icon-4:before {
+  font-family: "game-icons";
+  content: "\E15A";
+}
+
+.group-member,
+.group-10,
+.mgroup-10,
+.user-groupid-10 {
+  --group: var(--member);
+}
+
+a.mgroup-10 {
+  color:var(--member);
+}
+
+.group-icon-10:before {
+  font-family: "game-icons";
+  content: "\E159";
+}
+
+.group-vampire,
+.group-9,
+.mgroup-9,
+.user-groupid-9 {
+  --group: var(--vampire);
+}
+
+a.mgroup-9 {
+  color:var(--vampire);
+}
+
+.group-icon-9:before {
+  font-family: "game-icons";
+  content: "\E0E2";
+}
+
+.group-werewolf,
+.group-14,
+.mgroup-14,
+.user-groupid-14 {
+  --group: var(--werewolf);
+}
+
+a.mgroup-14 {
+  color:var(--werewolf);
+}
+
+.group-icon-14:before {
+  font-family: "game-icons";
+  content: "\E3F9";
+}
+
+.group-witch,
+.group-8,
+.mgroup-8,
+.user-groupid-8 {
+  --group: var(--witch);
+}
+
+a.mgroup-8 {
+  color:var(--witch);
+}
+
+.group-icon-8:before {
+  font-family: "game-icons";
+  content: "\E08E";
+}
+
+.group-human,
+.group-7,
+.mgroup-7,
+.user-groupid-7 {
+  --group: var(--human);
+}
+
+a.mgroup-7 {
+  color:var(--human);
+}
+
+.group-icon-7:before {
+  font-family: "game-icons";
+  content: "\E909";
+}
+
+.group-guest,
+.group-2,
+.mgroup-2,
+.group-pending,
+.group-3,
+.mgroup-3 {
+  --group: var(--pending);
+/*  --main-accent-rgb:rgb(170,170,170); */
+}
+
+.user-groupid-3 {
+  --group:var(--guest);
+}
+
+.user-groupid-2 {
+  --group:var(--guest);
+}
+
+a.mgroup-3 {
+  color:var(--pending);
+}
+
+.group-icon-3:before {
+  font-family: "game-icons";
+  content: "\E75A";
+}
+
+.group-npc,
+.group-20,
+.mgroup-20,
+.user-groupid-20 {
+  --group: var(--npc);
+}
+
+a.mgroup-20 {
+  color:var(--npc);
+}
+
+.group-icon-20:before {
+  font-family: "game-icons";
+  content: "\E157";
+}
+
+.group-rip,
+.group-19,
+.mgroup-19,
+.user-groupid-19 {
+  --group: var(--rip);
+}
+
+a.mgroup-19 {
+  color:var(--rip);
+}
+
+.group-icon-19:before {
+  font-family: "game-icons";
+  content: "\E54E";
+}
+
+.group-archived,
+.group-15,
+.mgroup-15,
+.user-groupid-15 {
+  --group: var(--archived);
+}
+
+a.mgroup-15 {
+  color:var(--archived);
+}
+
+.group-icon-15:before {
+  font-family: "game-icons";
+  content: "\EC65";
+}
