@@ -2322,8 +2322,8 @@ input[type="submit"] {
   width: 100%;
   height: 100%;
   background: var(--main-accent);
-  -webkit-mask-image: url(https://files.jcink.net/uploads2/weepingomens/skin_v2_stuff/lisa_hat.webp);
-  mask-image: url(https://files.jcink.net/uploads2/weepingomens/skin_v2_stuff/lisa_hat.webp);
+  -webkit-mask-image: url(https://weepingomens.github.io/wouldnt-you-like-to-know-weather-boy/src/img/lisa-hat.webp); /* fix ur shit john */
+  mask-image: url(https://weepingomens.github.io/wouldnt-you-like-to-know-weather-boy/src/img/lisa-hat.webp);
   mix-blend-mode: overlay;
 }
 
@@ -2393,7 +2393,7 @@ input[type="submit"] {
 
 #omens-header #intro:before {
   content: '';
-  shape-outside: url(https://files.jcink.net/uploads2/weepingomens/skin_v2_stuff/lisa_cutout.webp);
+  shape-outside: url(https://weepingomens.github.io/wouldnt-you-like-to-know-weather-boy/src/img/lisa-cutout.webp);
   float: left;
   height: 500px;
   width: 130px;
