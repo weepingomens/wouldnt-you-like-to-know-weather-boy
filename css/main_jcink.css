@@ -942,6 +942,15 @@ textarea {
   font: 600 0.8rem/2 'open sans', sans-serif;
 }
 
+#ucpcontent #field_88 {
+    display:none;
+}
+
+.user-groupid-6 #ucpcontent #field_88,
+.user-groupid-10 #ucpcontent #field_88 {
+    display: grid;
+}
+
 .quick-edit {
   margin: 50px;
 }
