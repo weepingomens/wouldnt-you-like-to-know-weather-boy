@@ -963,11 +963,6 @@ textarea {
   width: fit-content;
 }
 
-.tableborder .maintitle {
-  line-height: 0;
-  text-transform: lowercase;
-}
-
 .tableborder .maintitle .linkthru {
   text-transform: lowercase;
   letter-spacing: 0;
