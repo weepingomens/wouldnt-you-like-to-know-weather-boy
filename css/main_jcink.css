@@ -845,6 +845,10 @@ textarea {
   display: grid;
 }
 
+#ucpcontent.store-stop tr {
+  display:table-row;
+}
+
 #ucpcontent form[name=mutliact] tr {
   display: initial;
 }
