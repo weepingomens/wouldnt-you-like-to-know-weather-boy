@@ -967,6 +967,7 @@ textarea {
   text-transform: lowercase;
   letter-spacing: 0;
   font: italic 900 3rem 'playfair display', serif;
+  margin-top: -80px;
 }
 
 .tableborder .maintitle .small {
