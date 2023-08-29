@@ -12687,9 +12687,6 @@ body.light {
   ::-webkit-scrollbar-thumb {
     background:var(--main-accent);
   }
-  .user-groupid-2 ::-webkit-scrollbar-thumb {
-    background:var(--guest);
-  }
   ::-webkit-scrollbar-track {
     background:#333;
   }
