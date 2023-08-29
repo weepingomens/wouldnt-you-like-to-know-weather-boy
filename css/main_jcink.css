@@ -1431,7 +1431,7 @@ input[type="submit"] {
 #omens-body #omens-top #login-register .login-register-shortcut input[type="text"],
 #omens-body #omens-top #login-register .login-register-shortcut input[type="password"] {
   text-transform: none;
-  font: 500 0.9rem/1 'open sans',sans-serif;
+  font: var(--small-header);
 }
 
 #omens-body #light-toggle:hover,
