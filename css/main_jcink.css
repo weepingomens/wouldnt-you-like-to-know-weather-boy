@@ -12648,6 +12648,10 @@ body.light {
   color: var(--basic-text);
 }
 
+.light .fast-travel a {
+  text-decoration-color: var(--border);
+}
+
 /* END LIGHT MODE */
 
 /* START @MEDIA QUERIES */
