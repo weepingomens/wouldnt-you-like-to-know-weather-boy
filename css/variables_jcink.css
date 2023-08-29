@@ -181,6 +181,31 @@ a.mgroup-7 {
   --group:var(--guest);
 }
 
+.user-groupid-2 body {
+  --main-accent: var(--group);
+  --mainAccentR: 142;
+  --mainAccentG: 158;
+  --mainAccentB: 171;
+  --main-accent-rgb: var(--mainAccentR), var(--mainAccentG), var(--mainAccentB);
+  --group: var(--guest);
+}
+
+@media only screen and (min-width: 500px) {
+.user-groupid-2 ::-webkit-scrollbar-thumb {
+background: var(--guest);
+}
+}
+
+.user-groupid-2 body.light {
+--guest: #4f748f;
+  --main-accent: var(--group);
+  --mainAccentR: 79;
+  --mainAccentG: 116;
+  --mainAccentB: 143;
+  --main-accent-rgb: var(--mainAccentR), var(--mainAccentG), var(--mainAccentB);
+  --group: var(--guest);
+}
+
 a.mgroup-3 {
   color:var(--pending);
 }
