@@ -4831,7 +4831,8 @@ a.user-small-info:hover:before {
 }
 
 .post-row.group-6 .ic,
-.post-row.group-10 .ic {
+.post-row.group-10 .ic,
+.post-row.group-21 .ic {
   display: none;
 }
 
