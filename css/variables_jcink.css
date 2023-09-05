@@ -6,6 +6,7 @@
   --npc: #51A1C4;
   --rip: #6B6C72;
   --staff: #e3b550;
+  --volunteer: #eece88;
   --member: #94af83;
   --pending: #aaaaaa;
   --archived: #666666;
@@ -51,6 +52,7 @@ body.light  {
   --italic: #555555;
   --white-text:rgba(255, 255, 255, 33%);
   --staff: #bd8b1d;
+  --volunteer: #a78130;
   --human: #39936c;
   /* leave witch, vamp as-is */
   --member: #698b54;
@@ -81,6 +83,22 @@ a.mgroup-4 {
 .group-icon-4:before {
   font-family: "game-icons";
   content: "\E15A";
+}
+
+.group-volunteer,
+.group-21,
+.mgroup-21,
+.user-groupid-21 {
+  --group: var(--volunteer);
+}
+
+a.mgroup-21 {
+  color:var(--volunteer);
+}
+
+.group-icon-21:before {
+  font-family: "game-icons";
+  content: "\E15B";
 }
 
 .group-member,
