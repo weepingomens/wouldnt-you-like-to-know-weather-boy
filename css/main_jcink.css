@@ -11213,6 +11213,7 @@ a.user-small-info:hover:before {
 
 .post-row.group-6 .ic,
 .post-row.group-10 .ic,
+.post-row.group-21 .ic,
 .post-row.group-4 .user-position,
 #main-profile.group-6 .ic,
 #main-profile.group-6 section.content,
@@ -11221,28 +11222,38 @@ a.user-small-info:hover:before {
 #main-profile.group-10 .ic,
 #main-profile.group-10 section.content,
 #main-profile.group-10 .threat-level,
-#main-profile.group-10 section.ooc-info ul {
+#main-profile.group-10 section.ooc-info ul,
+#main-profile.group-21 .ic,
+#main-profile.group-21 section.content,
+#main-profile.group-21 .threat-level,
+#main-profile.group-21 section.ooc-info ul {
   display: none;
 }
 
 #main-profile.group-6 section.content.ooc,
-#main-profile.group-10 section.content.ooc {
+#main-profile.group-10 section.content.ooc,
+#main-profile.group-21 section.content.ooc {
   display: initial;
 }
 
 .post-row.group-6 .ooc,
 .post-row.group-10 .ooc,
+.post-row.group-21 .ooc,
 #main-profile.group-6 .ooc,
 #main-profile.group-10 .ooc,
+#main-profile.group-21 .ooc,
 #main-profile.group-6 section.ooc-info ul.ooc,
-#main-profile.group-10 section.ooc-info ul.ooc {
+#main-profile.group-10 section.ooc-info ul.ooc,
+#main-profile.group-21 section.ooc-info ul.ooc {
   display: flex;
 }
 
 .post-row.group-6 .ooc.subaccounts,
 .post-row.group-10 .ooc.subaccounts,
+.post-row.group-21 .ooc.subaccounts,
 #main-profile.group-6 .ooc.subaccounts,
-#main-profile.group-10 .ooc.subaccounts {
+#main-profile.group-10 .ooc.subaccounts,
+#main-profile.group-21 .ooc.subaccounts {
   display: flex;
   align-items: center;
 }
