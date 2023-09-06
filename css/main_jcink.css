@@ -9409,258 +9409,67 @@ a.user-small-info:hover:before {
 /* START [POST12] TEMPLATE */
 
 .omens-post-12 {
-  background-image: url(https://files.jcink.net/uploads2/weepingomens/skin_v2_stuff/dot_background_white_5_opacity.png);
-  display: grid;
-  grid: min-content auto / min-content auto;
-  grid-template-areas:
-    "post-14-image post-14-lyricpost"
-    "post-14-lyricpost post-14-image";
-  place-items: start;
-  place-content: start;
-  position: relative;
-  padding: 25px;
-  border-radius: 5px;
-  overflow: hidden;
-}
-
-.omens-post-12 .post-image-1 {
-  grid-area: post-14-image;
-  position: absolute;
-  right: -250px;
-  align-self: center;
-  outline: 5px solid #222;
-  outline-offset: 15px;
-  margin: 5px 15px 5px 0px;
-  background: var(--custom);
-}
-
-.omens-post-12 .post-image-1 img {
-  filter: grayscale(100%);
-  mix-blend-mode: hard-light;
-  transition: 0.7s;
-}
-
-.omens-post-12 .post-contain {
-  grid-area: post-14-lyricpost;
-  display: flex;
-  flex-flow: column nowrap;
-  place-items: start;
-  place-content: start;
-  gap: 10px;
-  width: 355px;
-}
-
-.omens-post-12 .lyric-1 {
-  grid-area: post-14-lyric-1;
-  font: 900 1.5rem/100% 'Playfair Display', serif;
-  text-align: center;
-  text-transform: uppercase;
-  color: var(--custom);
-  z-index: 1;
-  border-top: 1px solid #fff;
-  padding-top: 5px;
-}
-
-.omens-post-12 .lyric-2 {
-  font: 400 1.5rem/100% 'Playfair Display', serif;
-  text-align: center;
-  text-transform: uppercase;
-  color: #fff;
-  position: relative;
-  top: 0px;
-  padding-bottom: 5px;
-  z-index: 1;
-  border-bottom: solid 1px var(--custom);
-}
-
-.omens-post-12 .post-body {
-  grid-area: post-14-body;
-  border: 15px solid #202020;
-  border-radius: 3px;
-  width: calc(100% - 40px);
-  height: 450px;
-  background: #202020;
-  overflow: auto;
-  z-index: 1;
-  padding-right: 10px;
-  position: relative;
-}
-
-.omens-post-12 .post-body::-webkit-scrollbar {
-  width: 3px;
-}
-
-.omens-post-12 .post-body::-webkit-scrollbar-thumb {
-  background: var(--custom);
-}
-
-.omens-post-12 .post-body::-webkit-scrollbar-track {
-  background: #202020;
-}
-
-.omens-post-12 .post-body b {
-  color: var(--custom);
-  font-weight: 800;
-}
-
-.omens-post-12 .post-body i {
-  font-style: italic;
-  color: #eee;
-}
-
-.omens-post-12 .post-body span {
-  color: var(--custom);
-}
-
-.omens-post-12 .post-body u {
-  text-decoration: none;
-  background: var(--custom);
-  color: #222;
-  padding: 0px 3px;
-  box-decoration-break: clone;
-  -webkit-box-direction-break: clone;
-}
-
-.omens-post-12 .post-body tagged {
-  gap: 10px;
-  font: 300 15px/100% 'Montserrat', sans-serif;
-  color: #ddd;
-  margin-top: 10px;
-  text-align: center;
-  float: right;
-}
-
-.omens-post-12 .post-body tagged a {
-  padding: 2px;
-  background: var(--custom);
-  color: #eee;
-  text-decoration: none;
-}
-
-.omens-post-12-2 {
-  background-image: url(https://files.jcink.net/uploads2/weepingomens/skin_v2_stuff/dot_background_white_5_opacity.png);
-  display: grid;
-  grid: min-content auto / auto min-content;
-  grid-template-areas:
-    "lyric-post post-image-1"
-    "lyric-post post-image-1";
-  place-items: start;
-  place-content: start;
-  position: relative;
-  padding: 25px;
-  border-radius: 5px;
+  padding: 50px;
+  margin: 0 auto;
+  border: var(--default-border);
 }
 
 .omens-post-12-2 .post-image-1 {
-  width: 200px;
-  height: 400px;
-  position: absolute;
-  right: 30px;
-  align-self: center;
-  outline: 5px solid #222;
-  outline-offset: 15px;
-  margin: 5px 15px 5px 0px;
-  background: var(--custom);
+  display:none;
 }
 
-.omens-post-12-2 .post-image-1 img {
-  width: 200px;
-  height: 400px;
-  mix-blend-mode: hard-light;
-  filter: grayscale(100%);
-}
-
-.omens-post-12-2 .lyric-post {
-  grid-area: post-12-lyricpost;
-  height: auto;
-  display: flex;
-  flex-flow: column nowrap;
-  width: 369px;
-  gap: 10px;
-}
-
-.omens-post-12-2 .lyric-post .lyric-1 {
-  font: 900 1.5rem/100% 'Playfair Display', serif;
-  text-transform: uppercase;
-  color: var(--custom);
-  z-index: 1;
-  width: 100%;
-  text-align: center;
-  border-top: 3px solid #efefef;
-  padding-top: 10px;
-}
-
-.omens-post-12-2 .lyric-post .post-body {
-  border: 15px solid transparent;
-  width: calc(100% - 55px);
-  height: 450px;
-  background: #202020;
-  overflow: auto;
-  z-index: 1;
-  padding-right: 15px;
-}
-
-.omens-post-12-2 .post-body::-webkit-scrollbar {
-  width: 3px;
-}
-
-.omens-post-12-2 .post-body::-webkit-scrollbar-thumb {
-  background: var(--custom);
-}
-
-.omens-post-12-2 .post-body::-webkit-scrollbar-track {
-  background: #202020;
+.omens-post-12-2 .lyric-post .lyric-1,
+.omens-post-12-2 .lyric-post .lyric-2 {
+  display:none;
 }
 
 .omens-post-12-2 .post-body b {
   color: var(--custom);
-  font-weight: 100;
-  font-size: 1.1rem;
+  font-weight: 600;
+  font-size: 1.2rem;
+  line-height: 1.6rem;
+  letter-spacing: -0.01em;
 }
 
 .omens-post-12-2 .post-body i {
   font-style: italic;
-  letter-spacing: .05rem;
-  color: #efefef;
+  color: var(--italic);
 }
 
 .omens-post-12-2 .post-body span {
   color: var(--custom);
+  font-weight: 400;
+  letter-spacing: .05rem;
 }
 
 .omens-post-12-2 .post-body u {
-  text-decoration: none;
-  background: var(--custom);
-  color: #222;
-  padding: 0px 3px;
-  box-decoration-break: clone;
-  -webkit-box-decoration-break: clone;
+  text-decoration-color: var(--custom);
+  text-decoration-thickness: 0.1rem;
+  text-underline-offset: 0.2rem;
+  font-weight: 500;
 }
 
 .omens-post-12-2 .post-body tagged {
-  gap: 10px;
-  font: 300 1.1rem/1 'montserrat', sans-serif;
-  color: #ddd;
-  margin-top: 10px;
-  text-align: center;
-  float: right;
+  display: flex;
+  place-content: center;
+  width: 100%;
+  flex-wrap: wrap;
+  gap: 10px 25px;
+  margin-top: 25px;
 }
 
 .omens-post-12-2 .post-body tagged a {
-  padding: 2px;
-  background: var(--custom);
-  color: #eee;
-  text-decoration: none;
+  font: var(--small-header);
+  letter-spacing: .05rem;
+  display: block;
   text-transform: uppercase;
+  text-decoration: none;
 }
 
-.omens-post-12-2 .lyric-post .lyric-2 {
-  font: 400 1.5rem/100% 'Playfair Display', serif;
-  text-align: center;
-  text-transform: uppercase;
-  color: #fff;
-  border-bottom: 3px solid var(--custom);
-  padding-bottom: 10px;
+.omens-post-12-2 .post-body tagged a:before {
+  content: "# ";
+  font-weight: 800;
+  color: revert;
 }
 
 /* END [POST12] TEMPLATE */
