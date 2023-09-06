@@ -9476,141 +9476,78 @@ a.user-small-info:hover:before {
 /* START [POST13] TEMPLATE */
 
 .omens-post-13 {
-  position: relative;
-  width: 500px;
-  height: auto;
+  padding: 50px;
   margin: 0 auto;
+  border: var(--default-border);
 }
 
 .omens-post-13 .post-image-2 {
-  position: relative;
-  height: 150px;
-  width: 500px;
-  background: var(--custom);
-  border-bottom: 15px solid var(--custom);
-}
-
-.omens-post-13 .post-image-2 img {
-  display: block;
-  filter: grayscale(100%) brightness(115%);
-  mix-blend-mode: soft-light;
+  display:none;
 }
 
 .omens-post-13 .post-icon {
-  border: 10px solid var(--custom);
-  shape-outside: 100%;
-  border-radius: 100px;
-  top: -150px;
-  right: -370px;
-  position: relative;
-  z-index: 2;
-  height: 100px;
-  width: 100px;
-}
-
-.omens-post-13 .post-icon img {
-  height: 100px;
-  width: 100px;
-  border-radius: 100px;
-  filter: brightness(125%);
+  display:none;
 }
 
 .omens-post-13 .lyric-1 {
-  display: block;
-  position: relative;
-  top: -130px;
-  right: -20px;
-  padding: 10px;
-  width: 320px;
-  margin-top: -30px;
-  margin-right: 100px;
-  font: 700 1.6rem/1 'open sans', sans-serif;
-  text-transform: uppercase;
-  text-align: center;
-  letter-spacing: .05rem;
-  color: #fff;
-  z-index: 1;
-  opacity: 1;
-  border-top: 2px solid white;
-  mix-blend-mode: overlay;
+  display:none;
 }
 
 .omens-post-13 .lyric-2 {
-  display: block;
-  position: relative;
-  top: -160px;
-  right: -20px;
-  padding: 10px;
-  width: 320px;
-  font: var(--small-header);
-  border-bottom: 2px solid white;
-  text-transform: uppercase;
-  text-align: center;
-  letter-spacing: .1rem;
-  color: #fff;
-  z-index: 1;
-  opacity: 1;
-}
-
-.omens-post-13 .post-body {
-  border-top: 15px solid #333;
-  background: rgba(255, 255, 255, 2%);
-  position: relative;
-  padding: 50px;
-  width: 400px;
-  height: auto;
-  margin-top: -120px;
+  display:none;
 }
 
 .omens-post-13 .post-body b {
   color: var(--custom);
-  font-weight: 800;
+  font-weight: 600;
+  font-size: 1.2rem;
+  line-height: 1.6rem;
+  letter-spacing: -0.01em;
 }
 
 .omens-post-13 .post-body i {
-  font-weight: 500;
-  font-family: 'montserrat', sans-serif;
-  font-style: italic;
-  color: #ddd;
+  color: var(--italic);
 }
 
 .omens-post-13 .post-body span {
   color: var(--custom);
+  font-weight: 400;
+  letter-spacing: .05rem;
 }
 
 .omens-post-13 .post-body u {
-  text-decoration: none;
-  background: var(--custom);
-  color: var(--bg);
-  padding: 0px 3px;
-  box-decoration-break: clone;
-  -webkit-box-decoration-break: clone;
+  text-decoration-color: var(--custom);
+  text-decoration-thickness: 0.1rem;
+  text-underline-offset: 0.2rem;
+  font-weight: 500;
 }
 
 .omens-post-13 .post-body tagged {
-  gap: 10px;
-  font-style: italic;
-  font-weight: 300;
-  line-height: 1;
-  text-transform: uppercase;
-  color: #ddd;
-  height: 25px;
-  margin: 50px -50px -50px;
-  background-color: var(--custom);
   display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
-  gap: 0px 10px;
+  place-content: center;
+  width: 100%;
+  flex-wrap: wrap;
+  gap: 10px 25px;
+  margin-top: 25px;
 }
 
 .omens-post-13 .post-body tagged a {
-  padding: 5px;
-  color: #fff;
+  font: var(--small-header);
+  letter-spacing: .05rem;
+  display: block;
+  text-transform: uppercase;
+  text-decoration: none;
 }
 
 .omens-post-13 .post-body a {
   text-decoration: none;
   color: white;
+}
+
+.omens-post-13 .post-body tagged a:before {
+  content: "# ";
+  font-weight: 800;
+  color: revert;
 }
 
 /* END [POST13] TEMPLATE */
