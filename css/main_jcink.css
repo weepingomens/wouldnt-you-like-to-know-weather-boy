@@ -9699,129 +9699,74 @@ a.user-small-info:hover:before {
 /* START [POST16] TEMPLATE */
 
 .omens-post-16 {
-  width: min-content;
-  height: auto;
-  background: rgba(255, 255, 255, 3%);
+  padding: 50px;
   margin: 0 auto;
-  padding-top: 30px;
-  padding-right: 30px;
-  padding-left: 30px;
-  border-radius: 3px;
-  padding-bottom: 70px;
+  border: var(--default-border);
 }
 
 .omens-post-16 .lyric-1 {
-  position: relative;
-  top: 5px;
-  padding-left: 20px;
-  font: 700 1.6rem/1 'open sans', sans-serif;
-  text-transform: uppercase;
-  text-align: right;
-  color: var(--custom);
+  display:none;
 }
 
 .omens-post-16 .lyric-2 {
-  position: relative;
-  top: -25px;
-  width: 370px;
-  padding-top: 5px;
-  padding-bottom: 20px;
-  font: var(--small-header);
-  text-transform: uppercase;
-  text-align: right;
-  color: rgba(255, 255, 255, 25%);
+  display:none;
 }
 
 .omens-post-16 .post-image-2 {
-  width: 500px;
-  height: 150px;
-  background-color: var(--custom);
-  border-radius: 2px;
-  padding: 3px;
-  overflow: hidden;
-}
-
-.omens-post-16 .post-image-2 img {
-  filter: grayscale(50%);
-  mix-blend-mode: soft-light;
-}
-
-.omens-post-16 .post-image-2-override img {
-  filter: grayscale(50%);
-  mix-blend-mode: lighten;
+  display:none;
 }
 
 .omens-post-16 .post-icon {
-  float: right;
-  width: 100px;
-  height: 100px;
-  padding: -50px;
-  border: solid 5px var(--custom);
-  border-radius: 100%;
-  background: var(--custom);
-  shape-outside: circle(100px);
-  position: relative;
-  margin-left: 25px;
-  margin-top: 15px;
-}
-
-.omens-post-16 .post-icon img {
-  display: block;
-  width: 100px;
-  height: 100px;
-  border-radius: 100%;
-  filter: grayscale(50%);
-  mix-blend-mode: hard-light;
-}
-
-.omens-post-16 .post-body {
-  border-left: 10px solid var(--custom);
-  padding: 20px;
-  text-align: justify;
-  margin-left: -10px;
-  margin-top: -55px;
+  display:none;
 }
 
 .omens-post-16 .post-body b {
   color: var(--custom);
-  font-weight: 800;
+  font-weight: 600;
+  font-size: 1.2rem;
   line-height: 1.6rem;
-  font-size: 1.1rem;
+  letter-spacing: -0.01em;
 }
 
 .omens-post-16 .post-body i {
   font-style: italic;
-  color: #ddd;
+  color: var(--italic);
 }
 
 .omens-post-16 .post-body span {
   color: var(--custom);
+  font-weight: 400;
+  letter-spacing: .05rem;
 }
 
 .omens-post-16 .post-body u {
-  text-decoration: none;
-  background: #7c7c7c;
-  color: #fff;
-  padding: 0px 3px;
-  box-decoration-break: clone;
-  -webkit-box-decoration-break: clone;
+  text-decoration-color: var(--custom);
+  text-decoration-thickness: 0.1rem;
+  text-underline-offset: 0.2rem;
+  font-weight: 500;
 }
 
 .omens-post-16 .post-body tagged {
-  gap: 10px;
-  font: italic 300 1.2rem/1.6 'open sans', sans-serif;
-  color: #ddd;
-  padding: 50px;
-  text-align: center;
-  float: right;
+  display: flex;
+  place-content: center;
+  width: 100%;
+  flex-wrap: wrap;
+  gap: 10px 25px;
+  margin-top: 25px;
 }
 
 .omens-post-16 .post-body tagged a {
-  padding: 5px;
-  border-radius: 3px;
-  background: var(--custom);
-  color: #eee;
+  font: var(--small-header);
+  letter-spacing: .05rem;
+  display: block;
+  text-transform: uppercase;
   text-decoration: none;
+}
+
+.omens-post-16 .post-body tagged a:before {
+  content: "# ";
+  font-weight: 800;
+  color: revert;
 }
 
 /* END [POST16] TEMPLATE */
