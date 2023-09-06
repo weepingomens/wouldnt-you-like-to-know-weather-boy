@@ -8384,6 +8384,12 @@ a.user-small-info:hover:before {
   text-decoration: none;
 }
 
+.lua-post-1-body tagged a:before {
+  content: "# ";
+  font-weight: 800;
+  color: revert;
+}
+
 /* END [POST4] TEMPLATE */
 /* START [POST5] TEMPLATE */
 #lua-post-2-1 {
@@ -8425,6 +8431,12 @@ a.user-small-info:hover:before {
   display: block;
   text-transform: uppercase;
   text-decoration: none;
+}
+
+.lua-post-2-1body tagged a:before {
+  content: "# ";
+  font-weight: 800;
+  color: revert;
 }
 
 /* END [POST5] TEMPLATE */
