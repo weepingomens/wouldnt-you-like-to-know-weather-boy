@@ -9539,11 +9539,6 @@ a.user-small-info:hover:before {
   text-decoration: none;
 }
 
-.omens-post-13 .post-body a {
-  text-decoration: none;
-  color: white;
-}
-
 .omens-post-13 .post-body tagged a:before {
   content: "# ";
   font-weight: 800;
