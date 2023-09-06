@@ -8337,16 +8337,13 @@ a.user-small-info:hover:before {
 /* START [POST4] TEMPLATE */
 
 .lua-post-1-bg {
-  width: 500px;
-  margin: auto;
-  border: 2px solid var(--postcolor);
-  --postcolor: var(--custom);
+  padding: 50px;
+  margin: 0 auto;
+  border: var(--default-border);
 }
 
 .lua-post-1-bg .post-image-2, .lua-post-1-bg .post-image-2-override {
-  width: 500px;
-  height: 150px;
-  overflow: hidden;
+  display:none;
 }
 
 .postbg .postwhole .postbody {
@@ -8356,33 +8353,35 @@ a.user-small-info:hover:before {
   color: #eee !important;
 }
 
-.lua-post-1-body {
-  padding: 25px;
-  background-color: #444;
-  background-blend-mode: color-burn;
-  background-image: url(https://i.ibb.co/f063gLW/grungewall50-1.png);
-}
-
 .lua-post-1-body b {
   color: var(--custom);
+  font-weight: 600;
   font-size: 1.2rem;
-  line-height: 100%;
+  line-height: 1.6rem;
+  letter-spacing: -0.01em;
 }
 
 .lua-post-1-body span {
   color: var(--custom);
-  font-weight: 600;
-  letter-spacing: .03rem;
+  font-weight: 400;
+  letter-spacing: .05rem;
 }
 
 .lua-post-1-body tagged {
-  display: block;
-  margin-top: 20px;
+  display: flex;
+  place-content: center;
+  width: 100%;
+  flex-wrap: wrap;
+  gap: 10px 25px;
+  margin-top: 25px;
 }
 
 .lua-post-1-body tagged a {
-  font-weight: 700;
-  font-style: italic;
+  font: var(--small-header);
+  letter-spacing: .05rem;
+  display: block;
+  text-transform: uppercase;
+  text-decoration: none;
 }
 
 /* END [POST4] TEMPLATE */
