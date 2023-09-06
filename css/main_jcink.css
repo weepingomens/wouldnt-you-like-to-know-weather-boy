@@ -9554,6 +9554,10 @@ a.user-small-info:hover:before {
   border: var(--default-border);
 }
 
+.omens-post-14 .post-body {
+  margin: -52px 0 -25px;
+}
+
 .omens-post-14 b {
   color: var(--custom);
   font-weight: 600;
