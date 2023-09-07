@@ -9789,12 +9789,7 @@ a.user-small-info:hover:before {
 
 .omens-post-17 .lyric-2,
 .omens-post-17 .lyric-2-override {
-  font: var(--small-header);
-  text-transform: uppercase;
-  color: rgba(255, 255, 255, 75%);
-  letter-spacing: 0.2rem;
-  text-align: left;
-  margin-bottom: 10px;
+  display:none;
 }
 
 .omens-post-17 .lyric-1,
@@ -9856,7 +9851,7 @@ a.user-small-info:hover:before {
   text-decoration: none;
 }
 
-.omens-post-17 .post-body tagged:before {
+.omens-post-17 .post-body tagged a:before {
   content: "# ";
   font-weight: 800;
   color: revert;
