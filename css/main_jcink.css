@@ -8334,7 +8334,7 @@ a.user-small-info:hover:before {
 }
 
 /* END [POST3] TEMPLATE */
-/* START [POST4] TEMPLATE */
+/* START LEGACY [POST4] TEMPLATE */
 
 .lua-post-1-bg {
   padding: 50px;
@@ -8389,6 +8389,9 @@ a.user-small-info:hover:before {
   font-weight: 800;
   color: revert;
 }
+
+/* END LEGACY [POST4] TEMPLATE */
+/* START [POST4] TEMPLATE */
 
 /* END [POST4] TEMPLATE */
 /* START [POST5] TEMPLATE */
