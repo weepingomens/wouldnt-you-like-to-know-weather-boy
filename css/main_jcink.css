@@ -8393,6 +8393,103 @@ a.user-small-info:hover:before {
 /* END LEGACY [POST4] TEMPLATE */
 /* START [POST4] TEMPLATE */
 
+.omens-post-4b {
+  border-color:var(--custom);
+  border-style:solid;
+  border-width:5px 0;
+  padding:25px;
+  margin:25px;
+  display:flex;
+}
+
+.omens-post-4b .post-sidebar {
+  margin-right:25px;
+  position:sticky;
+  top:100px;
+  align-self:flex-start;
+}
+
+.omens-post-4b .post-icon-contain {
+  border:var(--default-border);
+  padding:10px;
+  overflow:hidden;
+}
+
+.omens-post-4b .post-icon {
+  background:var(--custom);
+  overflow:hidden;
+}
+.omens-post-4b .post-icon img {
+  width:100px;
+  height:100px;
+  filter:grayscale(1);
+  mix-blend-mode:darken;
+}
+
+.omens-post-4b .lyric-1 {
+  font: italic 700 1.5rem/100% 'playfair display',serif;
+  margin: 5px 0;
+  text-align:center;
+}
+
+.omens-post-4b .lyric-2 {
+  font:var(--small-header);
+  letter-spacing:.05rem;
+  text-transform:uppercase;
+  opacity:33%;
+  text-align:center;
+}
+
+.omens-post-4b .font-icon {
+  font-size:1.5rem;
+  text-align:center;
+  opacity:5%;
+}
+
+.omens-post-4b .post-body {
+  border-left:2px solid var(--border);
+  padding-left:25px;
+}
+
+.omens-post-4b .post-body i {
+  color:var(--italic);
+}
+
+.omens-post-4b .post-body b {
+  text-decoration: none;
+  background: var(--custom);
+  padding: 0 5px;
+  border-radius: 2px;
+  color: var(--bg);
+  font-weight: 600;
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+}
+
+.omens-post-4b .post-body u {
+  text-decoration-color: var(--custom);
+    text-decoration-thickness: 0.1rem;
+    text-underline-offset: 0.3rem;
+}
+
+.omens-post-4b .post-body tagged {
+  display:flex;
+  flex-flow:row wrap;
+  gap:25px;
+  margin-top:5px;
+}
+
+.omens-post-4b .post-body tagged a {
+  font: italic 700 1.5rem/100% 'playfair display',serif;
+  filter:grayscale(0);
+  transition:.25s;
+}
+
+.omens-post-4b .post-body tagged a:hover {
+  filter:grayscale(100%);
+  transition:.25s;
+}
+
 /* END [POST4] TEMPLATE */
 /* START [POST5] TEMPLATE */
 #lua-post-2-1 {
