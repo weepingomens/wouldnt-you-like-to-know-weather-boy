@@ -9777,183 +9777,89 @@ a.user-small-info:hover:before {
 /* START [POST17] TEMPLATE */
 
 .omens-post-17 {
-  margin: auto;
-  width: 500px;
   padding: 50px;
-  background-color: rgba(255, 255, 255, 2%);
-  border-radius: 10px;
-  position: relative;
+  margin: 0 auto;
+  border: var(--default-border);
 }
 
 .omens-post-17 .post-image-2,
 .omens-post-17 .post-image-2-override {
-  background-color: var(--bg);
-  height: 150px;
-  width: 500px;
-  overflow: hidden;
-  position: relative;
-  outline: 1px solid var(--custom);
-  outline-offset: 10px;
-  margin-bottom: 35px;
-}
-
-.omens-post-17 .post-image-2 img,
-.omens-post-17 .post-image-2-override img {
-  width: 500px;
-  mix-blend-mode: lighten;
-  filter: grayscale(100%) contrast(55%) brightness(55%);
-  transition: 0.5s;
-}
-
-.omens-post-17:hover .post-image-2 img {
-  filter: grayscale(0%) contrast(100%) brightness(75%);
-  transition: 0.5s;
-}
-
-.omens-post-17 .lyric-wrap {
-  z-index: 2;
+  display:block;
 }
 
 .omens-post-17 .lyric-2,
 .omens-post-17 .lyric-2-override {
   font: var(--small-header);
   text-transform: uppercase;
-  line-height: 1;
-  letter-spacing: .2rem;
-  background-color: var(--bg);
-  outline: 1px solid var(--custom);
-  transition: 0.7s;
-  padding: 10px 12px 10px 10px;
-  position: relative;
-  margin-left: -10px;
-  margin-top: -5px;
-  display: inline-block;
+  color: rgba(255, 255, 255, 75%);
+  letter-spacing: 0.2rem;
+  text-align: left;
+  margin-bottom: 10px;
 }
 
 .omens-post-17 .lyric-1,
 .omens-post-17 .lyric-1-override {
-  position: absolute;
-  top: 0;
-  width: calc(500px - 40px);
-  padding: 0 20px;
-  height: 150px;
-  font: 800 1.6rem/1 'montserrat', sans-serif;
-  text-transform: uppercase;
-  letter-spacing: .1rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #afafaf;
-  text-shadow: 2px 1px 0px rgba(30, 30, 30, 1);
-  filter: blur(0px);
-  opacity: 1;
-  transition: 0.9s;
-  text-align: center;
-}
-
-.omens-post-17:hover .lyric-2,
-.omens-post-17:hover .lyric-2-override {
-  background-color: var(--custom);
-  color: #222;
-  transition: 0.5s;
-}
-
-.omens-post-17:hover .lyric-1,
-.omens-post-17:hover .lyric-1-override {
-  filter: blur(10px);
-  opacity: 0;
-  transition: 0.9s;
-}
-
-.omens-post-17 .post-image-2+.lyric-2,
-.omens-post-17 .post-image-2-override+.lyric-2-override,
-.omens-post-17 .post-image-2-override+.lyric-2,
-.omens-post-17 .post-image-2+.lyric-2-override {
-  position: relative;
-  top: -35px;
-}
-
-.omens-post-17 .post-body {
-  padding-right: 30px;
-  letter-spacing: .025rem;
-  line-height: 1.8rem;
-  position: relative;
-  border-right: solid 10px var(--custom);
-  width: 450px;
-  min-height: 100px;
+  font: var(--med-header);
+  line-height: 1;
+  color: var(--custom);
+  text-align: left;
+  margin-top: 5px;
 }
 
 .omens-post-17 .post-icon,
 .omens-post-17 .post-icon-override {
-  width: 60px;
-  height: 60px;
-  margin: 17px 40px 35px 10px;
-  float: left;
-  outline: 1px solid var(--custom);
-  outline-offset: 10px;
-  background: var(--bg);
+  display: block;
+  float: right;
+  margin-left: 25px;
+  margin-bottom: 10px;
 }
 
 .omens-post-17 .post-icon img,
 .omens-post-17 .post-icon-override img {
-  width: 60px;
-  height: 60px;
-  mix-blend-mode: lighten;
-  filter: grayscale(100%) contrast(75%) brightness(55%);
-  transition: 0.5s;
-}
-
-.omens-post-17:hover .post-icon img,
-.omens-post-17:hover .post-icon-override img {
-  filter: grayscale(0%) contrast(75%) brightness(100%);
-  transition: 0.5s;
+  display: block;
+  width: 75px;
+  height: 75px;
+  padding: 10px;
+  image-rendering: -webkit-optimize-contrast;
+  border: var(--default-border);
 }
 
 .omens-post-17 .post-body u {
   text-decoration-color: var(--custom);
-  text-underline-offset: .4rem;
+  text-decoration-thickness: 0.1rem;
+  text-underline-offset: 0.2rem;
+  font-weight: 500;
 }
 
 .omens-post-17 .post-body b {
   color: var(--custom);
-  font-family: 'eczar', serif;
-  font-weight: 700;
-  letter-spacing: .025rem;
+  font-weight: 600;
+  font-size: 1.2rem;
+  line-height: 1.6rem;
+  letter-spacing: -0.01em;
 }
 
 .omens-post-17 .post-body tagged {
-  background-color: rgba(255, 255, 255, 2%);
-  outline: 1px solid var(--custom);
-  outline-offset: 5px;
-  box-shadow: 12px -24px 0px -23px rgb(30 30 30 / 80%);
-  padding: 10px 25px;
   display: flex;
+  place-content: center;
+  width: 100%;
   flex-wrap: wrap;
-  gap: 10px;
-  max-width: fit-content;
-  font: var(--small-header);
-  line-height: 1;
-  letter-spacing: .1rem;
-  text-transform: uppercase;
-  margin-top: 31px;
-  position: relative;
-  top: -6px;
+  gap: 10px 25px;
+  margin-top: 25px;
 }
 
 .omens-post-17 .post-body tagged a {
+  font: var(--small-header);
+  letter-spacing: .05rem;
+  display: block;
+  text-transform: uppercase;
   text-decoration: none;
-  color: var(--custom);
-  display: flex;
-  gap: 10px;
-  align-items: center;
-  text-transform: lowercase;
-  font-family: 'eczar', serif;
-  font-size: 1rem;
-  line-height: 0px;
 }
 
 .omens-post-17 .post-body tagged:before {
-  content: "written for";
+  content: "# ";
+  font-weight: 800;
+  color: revert;
 }
 
 /* END [POST17] TEMPLATE */
