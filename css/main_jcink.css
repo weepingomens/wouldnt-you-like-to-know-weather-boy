@@ -8438,12 +8438,14 @@ a.user-small-info:hover:before {
   text-transform:uppercase;
   opacity:33%;
   text-align:center;
+  margin-top:10px;
 }
 
 .omens-post-4b .post-font-icon {
   font-size:1.5rem;
   text-align:center;
   opacity:5%;
+  margin-top:10px;
 }
 
 .omens-post-4b .post-body {
