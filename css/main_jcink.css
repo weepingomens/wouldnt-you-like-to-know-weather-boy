@@ -12231,6 +12231,10 @@ body.light {
   text-decoration-color: var(--border);
 }
 
+.light .post-row .user-icon span a {
+  color: #5a5a5a;
+}
+
 /* END LIGHT MODE */
 
 /* START @MEDIA QUERIES */
