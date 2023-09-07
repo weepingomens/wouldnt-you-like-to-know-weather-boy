@@ -9720,6 +9720,10 @@ a.user-small-info:hover:before {
   display:none;
 }
 
+.omens-post-16 .post-body {
+  margin: -22px 0;
+}
+
 .omens-post-16 .post-body b {
   color: var(--custom);
   font-weight: 600;
