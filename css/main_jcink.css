@@ -8400,10 +8400,11 @@ a.user-small-info:hover:before {
   padding:25px;
   margin:25px;
   display:flex;
+  flex-direction: row-reverse;
 }
 
 .omens-post-4b .post-sidebar {
-  margin-right:25px;
+  margin-left: 25px;
   position:sticky;
   top:100px;
   align-self:flex-start;
@@ -8449,8 +8450,8 @@ a.user-small-info:hover:before {
 }
 
 .omens-post-4b .post-body {
-  border-left:2px solid var(--border);
-  padding-left:25px;
+  border-right: 2px solid var(--border);
+  padding-right: 25px;
 }
 
 .omens-post-4b .post-body i {
