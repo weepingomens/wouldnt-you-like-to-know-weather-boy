@@ -8404,7 +8404,7 @@ a.user-small-info:hover:before {
 }
 
 .omens-post-4b .post-sidebar {
-  margin-left: 25px;
+  margin-left:25px;
   position:sticky;
   top:100px;
   align-self:flex-start;
@@ -8450,8 +8450,8 @@ a.user-small-info:hover:before {
 }
 
 .omens-post-4b .post-body {
-  border-right: 2px solid var(--border);
-  padding-right: 25px;
+  border-right:2px solid var(--border);
+  padding-right:25px;
 }
 
 .omens-post-4b .post-body i {
@@ -8494,7 +8494,7 @@ a.user-small-info:hover:before {
 }
 
 /* END [POST4] TEMPLATE */
-/* START [POST5] TEMPLATE */
+/* START LEGACY [POST5] TEMPLATE */
 #lua-post-2-1 {
   padding: 50px;
   margin: 0 auto;
@@ -8541,6 +8541,9 @@ a.user-small-info:hover:before {
   font-weight: 800;
   color: revert;
 }
+
+/* END LEGACY [POST5] TEMPLATE */
+/* START [POST5] TEMPLATE */
 
 /* END [POST5] TEMPLATE */
 /* START [POST6] TEMPLATE */
@@ -12230,10 +12233,6 @@ body.light {
 
 .light .fast-travel a {
   text-decoration-color: var(--border);
-}
-
-.light .post-row .user-icon span a {
-  color: #5a5a5a;
 }
 
 /* END LIGHT MODE */
