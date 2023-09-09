@@ -8572,7 +8572,6 @@ a.user-small-info:hover:before {
 
 .omens-post-5b .post-header .lyric-1 {
   font:var(--small-header);
-  font-style:italic;
   letter-spacing:.1rem;
   text-transform:uppercase; 
   max-width:90%;
@@ -8651,7 +8650,7 @@ a.user-small-info:hover:before {
   margin-bottom:-2rem;
   text-align:center;
   margin-top:25px;
-  color:var(--custom);
+  color:rgba(255,255,255,33%);
 }
 /* END [POST5] TEMPLATE */
 /* START [POST6] TEMPLATE */
