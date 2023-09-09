@@ -8552,7 +8552,6 @@ a.user-small-info:hover:before {
   background:var(--custom);
   overflow:hidden;
   position:relative;
-  min-height:100px;
   display:flex;
   flex-flow:column nowrap;
   justify-content:center;
@@ -8563,7 +8562,7 @@ a.user-small-info:hover:before {
 .omens-post-5b .post-header .post-image-2 {
   position:absolute;
   height:100%;
-  filter:blur(5px) grayscale(1) invert(1);
+  filter:blur(10px) grayscale(1) invert(1);
   mix-blend-mode:luminosity;
   opacity:10%;
   transform:scale(1.1);
