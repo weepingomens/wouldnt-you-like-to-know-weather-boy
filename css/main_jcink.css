@@ -9619,7 +9619,7 @@ a.user-small-info:hover:before {
 }
 
 /* END [POST11] TEMPLATE */
-/* START [POST12] TEMPLATE */
+/* START LEGACY [POST12] TEMPLATE */
 
 .omens-post-12-2 {
   padding: 50px;
@@ -9685,6 +9685,100 @@ a.user-small-info:hover:before {
   color: revert;
 }
 
+/* END LEGACY [POST12] TEMPLATE */
+/* START [POST12] TEMPLATE */
+
+.omens-post-12b {
+  margin:10px;
+  padding:0 0 0 25px;
+  border-left:5px solid var(--custom);
+}
+
+.omens-post-12b .post-image-contain {
+  width: 200px;
+  height: 400px;
+  background: var(--custom);
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: stretch;
+  float:left;
+  margin-right:15px;
+}
+
+.omens-post-12b .post-image-contain .post-image-1 {
+  position:absolute;
+  mix-blend-mode: exclusion;
+  opacity:50%;
+}
+
+.omens-post-12b .post-image-contain .post-lyrics {
+  border: 2px solid rgba(255,255,255,66%);
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  color:rgba(255,255,255,66%);
+  padding:10px;
+  position:relative;
+}
+
+.omens-post-12b .post-image-contain .post-lyrics .post-font-icon {
+  font-size:1rem;
+  line-height:1;
+}
+
+.omens-post-12b .post-image-contain .lyric-1 {
+  font:700 1.5rem/1 'playfair display',serif;
+}
+
+.omens-post-12b .post-image-contain .lyric-2 {
+  font:var(--small-header);
+  text-transform:uppercase;
+}
+
+
+.omens-post-12b .post-body b {
+  letter-spacing:0.033rem;
+  color:var(--custom);
+}
+
+.omens-post-12b .post-body i {
+  color:var(--italic);
+  text-decoration:underline;
+  text-decoration-color: rgba(255,255,255,66%);
+  text-underline-offset: .2rem;
+}
+
+.omens-post-12b .post-body u {
+  text-decoration:underline;
+  text-decoration-color: var(--custom);
+  text-decoration-thickness: 0.1rem;
+  text-underline-offset: .2rem;
+}
+
+.omens-post-12b .post-body tagged {
+  display:flex;
+  flex-flow:row wrap;
+  gap:10px;
+  margin-top:10px;
+  justify-content: flex-end;
+}
+
+.omens-post-12b .post-body tagged a {
+  font:var(--small-header);
+  letter-spacing:.05rem;
+  text-transform:uppercase;
+  padding:5px;
+  border: 2px solid rgba(255,255,255,66%);
+  color:rgba(255,255,255,66%);
+  transition:.25s;
+}
+
+.omens-post-12b .post-body tagged a:hover {
+  border-color:rgba(255,255,255,25%);
+  transition:.25s;
+}
 /* END [POST12] TEMPLATE */
 /* START [POST13] TEMPLATE */
 
