@@ -8429,6 +8429,7 @@ a.user-small-info:hover:before {
 
 .omens-post-4b .lyric-1 {
   font: italic 700 1.5rem/100% 'playfair display',serif;
+  text-transform: lowercase;
   margin: 5px 0;
   text-align:center;
 }
