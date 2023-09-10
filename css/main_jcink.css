@@ -9723,6 +9723,7 @@ a.user-small-info:hover:before {
   padding:10px;
   position:relative;
   width:100%;
+  gap:5px;
 }
 
 .omens-post-12b .post-image-contain .post-lyrics .post-font-icon {
@@ -9731,7 +9732,7 @@ a.user-small-info:hover:before {
 }
 
 .omens-post-12b .post-image-contain .lyric-1 {
-  font:700 1.5rem/1 'playfair display',serif;
+  font:italic 700 1.5rem/1 'playfair display',serif;
 }
 
 .omens-post-12b .post-image-contain .lyric-2 {
