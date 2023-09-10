@@ -9722,10 +9722,11 @@ a.user-small-info:hover:before {
   color:rgba(255,255,255,66%);
   padding:10px;
   position:relative;
+  width:100%;
 }
 
 .omens-post-12b .post-image-contain .post-lyrics .post-font-icon {
-  font-size:1rem;
+  font-size: 1.5rem;
   line-height:1;
 }
 
