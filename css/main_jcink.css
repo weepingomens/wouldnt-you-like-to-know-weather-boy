@@ -9877,7 +9877,7 @@ a.user-small-info:hover:before {
   height:calc(100% - 20px);
   position:absolute;
   background:var(--custom);
-  mix-blend-mode: multiply;
+  mix-blend-mode: screen;
   left:10px;
 }
 
