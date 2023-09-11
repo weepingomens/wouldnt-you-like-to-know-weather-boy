@@ -9783,7 +9783,7 @@ a.user-small-info:hover:before {
   transition:.25s;
 }
 /* END [POST12] TEMPLATE */
-/* START [POST13] TEMPLATE */
+/* START LEGACY [POST13] TEMPLATE */
 
 .omens-post-13 {
   padding: 50px;
@@ -9853,6 +9853,116 @@ a.user-small-info:hover:before {
   content: "# ";
   font-weight: 800;
   color: revert;
+}
+
+/* END LEGACY [POST13] TEMPLATE */
+/* START [POST13] TEMPLATE */
+
+.omens-post-13b {
+  width:min-content;
+  margin:auto;
+}
+
+.omens-post-13b .post-image-2 {
+  width:500px;
+  border:var(--default-border);
+  padding:10px;
+  margin-bottom:25px;
+  position:relative;
+}
+
+.omens-post-13b .post-image-2:after {
+  content:'';
+  width:calc(100% - 20px);
+  height:calc(100% - 20px);
+  position:absolute;
+  background:var(--custom);
+  mix-blend-mode: multiply;
+  left:10px;
+}
+
+.omens-post-13b .post-image-2 img {
+  border-radius:5px;
+  filter:grayscale(1);
+}
+
+.omens-post-13b .lyric-1 {
+  font:900 2rem/1 'playfair display',serif;
+  text-transform: uppercase;
+  margin-bottom:25px; 
+  color:rgba(255, 255, 255, 15%);
+}
+
+.omens-post-13b .lyric-2 {
+  font:900 2rem/1 'playfair display',serif;
+  text-transform: uppercase;
+  margin-top:25px; 
+  color:rgba(255, 255, 255, 15%);
+  text-align:right;
+}
+
+.omens-post-13b .post-body {
+  padding-left:25px;
+  border-left:var(--default-border);
+}
+
+.omens-post-13b .post-font-icon {
+  font-size:2rem;
+  line-height:1;
+  color:rgba(255, 255, 255, 10%);
+  text-align:center;
+  margin-top:25px;
+}
+
+.omens-post-13b .post-body .post-icon {
+  border:var(--default-border);
+  float:left;
+  padding:10px;
+  margin-bottom:5px;
+  margin-right:25px;
+}
+
+.omens-post-13b .post-body .post-icon img {
+  width:60px;
+  height:60px;
+  filter:grayscale(1);
+}
+
+.omens-post-13b .post-body b {
+  font-size:1.2rem;
+  line-height:1.6rem;
+  color:var(--custom);
+}
+
+.omens-post-13b .post-body i {
+  color:var(--italic);
+  letter-spacing:.033rem;
+}
+
+.omens-post-13b .post-body u {
+  text-decoration-color: rgba(255, 255, 255, 10%);
+  text-decoration-thickness: .1rem;
+  text-underline-offset: .33rem;
+  letter-spacing:.033rem;
+}
+
+.omens-post-13b .post-body tagged {
+  display:flex;
+  flex-flow:row wrap;
+  gap:10px;
+  margin-top:25px;
+}
+
+.omens-post-13b .post-body tagged a {
+  font:var(--small-header);
+  text-transform: uppercase;
+  letter-spacing:.05rem;
+  transition:.25s;
+}
+
+.omens-post-13b .post-body tagged a:hover {
+  opacity:66%;
+  transition:.25s;
 }
 
 /* END [POST13] TEMPLATE */
