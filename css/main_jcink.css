@@ -9708,9 +9708,10 @@ a.user-small-info:hover:before {
 }
 
 .omens-post-12b .post-image-contain .post-image-1 {
-  position:absolute;
+  position: absolute;
   mix-blend-mode: exclusion;
-  opacity:50%;
+  filter: grayscale(1);
+  opacity: 75%;
 }
 
 .omens-post-12b .post-image-contain .post-lyrics {
