@@ -9860,6 +9860,7 @@ a.user-small-info:hover:before {
 
 .omens-post-13b {
   width:min-content;
+  min-width:500px;
   margin:auto;
 }
 
