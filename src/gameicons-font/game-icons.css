@@ -1,8 +1,8 @@
 @font-face {
 	font-family: "game-icons";
-	src: url("game-icons.eot?817af6e52c83163eb30ece54d9f7d16d?#iefix") format("embedded-opentype"),
-url("game-icons.woff?817af6e52c83163eb30ece54d9f7d16d") format("woff"),
-url("game-icons.ttf?817af6e52c83163eb30ece54d9f7d16d") format("truetype");
+	src: url("https://files.jcink.net/uploads2/weepingomens/skin_v2_stuff/src/gameicons_font/game_icons.eot") format("embedded-opentype"),
+url("https://files.jcink.net/uploads2/weepingomens/skin_v2_stuff/src/gameicons_font/game_icons.woff") format("woff"),
+url("https://files.jcink.net/uploads2/weepingomens/skin_v2_stuff/src/gameicons_font/game_icons.ttf") format("truetype");
 }
 
 .game-icon {
