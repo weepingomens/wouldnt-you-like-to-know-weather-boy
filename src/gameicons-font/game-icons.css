@@ -1,8 +1,9 @@
 @font-face {
-	font-family: "game-icons";
-	src: url("https://files.jcink.net/uploads2/weepingomens/skin_v2_stuff/src/gameicons_font/game_icons.eot") format("embedded-opentype"),
+	font-family: 'game-icons';
+	src: url("https://files.jcink.net/uploads2/weepingomens/skin_v2_stuff/src/gameicons_font/game_icons.eot") format("eot"),
 url("https://files.jcink.net/uploads2/weepingomens/skin_v2_stuff/src/gameicons_font/game_icons.woff") format("woff"),
-url("https://files.jcink.net/uploads2/weepingomens/skin_v2_stuff/src/gameicons_font/game_icons.ttf") format("truetype");
+url("https://files.jcink.net/uploads2/weepingomens/skin_v2_stuff/src/gameicons_font/game_icons.ttf") format("truetype"),
+url('https://files.jcink.net/uploads2/weepingomens/skin_v2_stuff/src/gameicons_font/game_icons.svg') format('svg');
 }
 
 .game-icon {
@@ -10,7 +11,7 @@ url("https://files.jcink.net/uploads2/weepingomens/skin_v2_stuff/src/gameicons_f
 }
 
 .game-icon:before {
-	font-family: game-icons !important;
+	font-family: 'game-icons'!important;
 	font-style: normal;
 	font-weight: normal !important;
 	vertical-align: top;
