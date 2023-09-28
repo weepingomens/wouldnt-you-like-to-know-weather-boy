@@ -8016,6 +8016,7 @@ a.user-small-info:hover:before {
 
 .omens-post-template .post-body b span, .omens-post-template .post-body b i {
   font-weight: inherit !important;
+  font-size: inherit !important;
 }
 
 .omens-post-template .post-body b {
