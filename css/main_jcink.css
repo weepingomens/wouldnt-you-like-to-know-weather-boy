@@ -9967,7 +9967,7 @@ a.user-small-info:hover:before {
 }
 
 /* END [POST13] TEMPLATE */
-/* START [POST14] TEMPLATE */
+/* START LEGACY [POST14] TEMPLATE */
 
 .omens-post-14 {
   padding: 50px;
@@ -10042,6 +10042,9 @@ a.user-small-info:hover:before {
 .omens-post-14 .lyric-2 {
   display:none;
 }
+
+/* END LEGACY [POST14] TEMPLATE */
+/* START [POST14] TEMPLATE */
 
 /* END [POST14] TEMPLATE */
 /* START [POST15] TEMPLATE */
