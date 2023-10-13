@@ -9748,10 +9748,11 @@ a.user-small-info:hover:before {
 }
 
 .omens-post-12b .post-body i {
-  color:var(--italic);
-  text-decoration:underline;
+  color: rgba(255,255,255,66%);
+  text-decoration: underline;
   text-decoration-color: rgba(255,255,255,66%);
-  text-underline-offset: .2rem;
+  text-underline-offset: 0.2rem;
+  text-decoration-thickness: 0.1rem;
 }
 
 .omens-post-12b .post-body u {
