@@ -13304,6 +13304,14 @@ body.light {
 
 /* END LIGHT MODE */
 
+/* START EVENT STYLING */
+/* START HALLOWEEN 2023 */
+.post-row .user-name-contain .dread-level.threat-level.threat-level- {
+	display:flex;
+}
+/* END HALLOWEEN 2023 */
+/* END EVENT STYLING */
+
 /* START @MEDIA QUERIES */
 
 @media only screen and (max-width: 1650px) {
