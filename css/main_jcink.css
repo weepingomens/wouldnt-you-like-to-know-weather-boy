@@ -10582,6 +10582,7 @@ a.user-small-info:hover:before {
   border-top:5px solid var(--custom);
   border-bottom:5px solid var(--custom);
   padding:25px;
+  min-height:440px;
 }
 
 .omens-post-16b .post-image-1 img,
