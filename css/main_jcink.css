@@ -11588,14 +11588,16 @@ a.user-small-info:hover:before {
   padding: 0 25px;
 }
 
-.omens-post-22 .post-image-1 {
+.omens-post-22 .post-image-1,
+.omens-post-22 .post-image-1-override {
   width:400px;
   height:200px;
   position:absolute;
   pointer-events: none;
 }
 
-.omens-post-22 .post-image-1 img {
+.omens-post-22 .post-image-1 img,
+.omens-post-22 .post-image-1-override img {
     transform: rotate(90deg);
     transform-origin: top left;
     position:absolute;
