@@ -10694,16 +10694,16 @@ a.user-small-info:hover:before {
 }
 
 /* END [POST17] TEMPLATE */
-/* START [POST17C] TEMPLATE */
+/* START [POST17B] TEMPLATE */
 
-.omens-post-17c {
+.omens-post-17b {
   border:var(--default-border);
   padding:25px;
   margin:auto;
   width:500px;
 }
 
-.omens-post-17c .icon-lyric-contain {
+.omens-post-17b .icon-lyric-contain {
   display:flex;
   background:var(--custom);
   padding:25px;
@@ -10712,7 +10712,7 @@ a.user-small-info:hover:before {
   position:relative;
 }
 
-.omens-post-17c .icon-lyric-contain:after {
+.omens-post-17b .icon-lyric-contain:after {
   content: '';
     position: absolute;
     width: 100%;
@@ -10726,21 +10726,21 @@ a.user-small-info:hover:before {
     filter: grayscale(1);
 }
 
-.omens-post-17c .post-icon,
-.omens-post-17c .post-icon-override {
+.omens-post-17b .post-icon,
+.omens-post-17b .post-icon-override {
   border:5px solid var(--bg);
   margin-right:25px;
 }
 
-.omens-post-17c .post-icon img,
-.omens-post-17c .post-icon-override img {
+.omens-post-17b .post-icon img,
+.omens-post-17b .post-icon-override img {
   width:2rem;
   height:2rem;
   filter:grayscale(1);
 }
 
-.omens-post-17c .lyric-1,
-.omens-post-17c .lyric-1-override {
+.omens-post-17b .lyric-1,
+.omens-post-17b .lyric-1-override {
   font: var(--small-header);
   letter-spacing: .1rem;
   text-transform: uppercase;
@@ -10750,20 +10750,20 @@ a.user-small-info:hover:before {
   flex-grow:1;
 }
 
-.omens-post-17c .lyric-1:before,
-.omens-post-17c .lyric-1-override:before {
+.omens-post-17b .lyric-1:before,
+.omens-post-17b .lyric-1-override:before {
   content: '';
   flex-grow: 1;
   height: 2px;
   margin-right: 25px;
 }
 
-.omens-post-17c .image-lyric-contain {
+.omens-post-17b .image-lyric-contain {
   position:relative;
 }
 
-.omens-post-17c .lyric-2,
-.omens-post-17c .lyric-2-override {
+.omens-post-17b .lyric-2,
+.omens-post-17b .lyric-2-override {
   border:10px solid var(--bg);
   border-width:10px 10px 0 0;
   background:var(--custom);
@@ -10778,21 +10778,21 @@ a.user-small-info:hover:before {
   left:0;
 }
 
-.omens-post-17c .post-image-2,
-.omens-post-17c .post-image-2-override {
+.omens-post-17b .post-image-2,
+.omens-post-17b .post-image-2-override {
   width:500px;
   filter:grayscale(1);
 }
 
-.omens-post-17c .body-image-contain {
+.omens-post-17b .body-image-contain {
   display:flex;
   display: flex;
   flex-flow: row nowrap;
   margin-top:25px;
 }
 
-.omens-post-17c .body-image-contain .post-image-1,
-.omens-post-17c .body-image-contain .post-image-1-override {
+.omens-post-17b .body-image-contain .post-image-1,
+.omens-post-17b .body-image-contain .post-image-1-override {
   width:50px;
   overflow:hidden;
   flex-shrink:0;
@@ -10801,8 +10801,8 @@ a.user-small-info:hover:before {
   background:var(--custom);
 }
 
-.omens-post-17c .body-image-contain .post-image-1 img,
-.omens-post-17c .body-image-contain .post-image-1-override img {
+.omens-post-17b .body-image-contain .post-image-1 img,
+.omens-post-17b .body-image-contain .post-image-1-override img {
   height: 100%;
   width: auto;
   max-width: unset;
@@ -10812,32 +10812,32 @@ a.user-small-info:hover:before {
   pointer-events: none;
 }
 
-.omens-post-17c .post-body {
+.omens-post-17b .post-body {
   padding: 10px 0;
   border:var(--default-border);
   border-width:2px 0;
 }
 
-.omens-post-17c .post-font-icon,
-.omens-post-17c .post-font-icon-override {
+.omens-post-17b .post-font-icon,
+.omens-post-17b .post-font-icon-override {
   font-size:2rem;
   float:left;
   margin-right:10px;
   color:var(--border);
 }
 
-.omens-post-17c .post-body b {
+.omens-post-17b .post-body b {
   color:var(--custom);
   font-weight:600;
 }
 
-.omens-post-17c .post-body i {
+.omens-post-17b .post-body i {
   letter-spacing:.033rem;
   color:var(--italic);
   font-weight:500;
 }
 
-.omens-post-17c .post-body u {
+.omens-post-17b .post-body u {
   background:var(--custom);
   color:var(--bg);
   text-decoration: none;
@@ -10848,14 +10848,14 @@ a.user-small-info:hover:before {
   box-decoration-break:clone;
 }
 
-.omens-post-17c tagged {
+.omens-post-17b tagged {
   display:flex;
   flex-flow:row wrap;
   gap:10px;
   margin-top:5px;
 }
 
-.omens-post-17c tagged a {
+.omens-post-17b tagged a {
   background:var(--custom);
   padding:5px;
   font:var(--small-header);
@@ -10864,7 +10864,7 @@ a.user-small-info:hover:before {
   letter-spacing:.05rem;
 }
 
-/* END [POST17C] TEMPLATE */
+/* END [POST17B] TEMPLATE */
 /* START [POST18] TEMPLATE */
 
 .omens-post-18 {
