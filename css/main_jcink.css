@@ -13361,6 +13361,19 @@ body.light {
   content: 'DREAD LEVEL';
 }
 
+span.dice-roll { 
+  border: none;
+  border-left: 2px solid var(--custom);
+  background: var(--border);
+  padding: 10px;
+  color: unset;
+  line-height: 1;
+}
+
+span.dice-roll b {
+  display:none;
+}
+
 /* END HALLOWEEN 2023 */
 /* END EVENT STYLING */
 
