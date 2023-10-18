@@ -10821,6 +10821,7 @@ a.user-small-info:hover:before {
 .omens-post-17b .post-font-icon,
 .omens-post-17b .post-font-icon-override {
   font-size:2rem;
+  height:2rem;
   float:left;
   margin-right:10px;
   color:var(--border);
