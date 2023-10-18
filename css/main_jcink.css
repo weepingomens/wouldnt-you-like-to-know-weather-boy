@@ -10073,7 +10073,7 @@ a.user-small-info:hover:before {
   height: 400px;
   width:calc(100% - 270px);
   overflow: auto;
-  margin-left:10px;
+  margin-right:10px;
   flex-grow:1;
 }
 
