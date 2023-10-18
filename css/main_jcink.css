@@ -11569,6 +11569,7 @@ a.user-small-info:hover:before {
 .omens-post-22 .post-header-contain .lyric-1,
 .omens-post-22 .post-header-contain .lyric-1-override {
   font:var(--med-header);
+  line-height:1;
   color:var(--bg);
   text-align:center;
   position:relative;
@@ -11580,7 +11581,8 @@ a.user-small-info:hover:before {
   font: var(--small-header);
   color: var(--bg);
   text-transform: uppercase;
-  letter-spacing: .25rem;
+  letter-spacing: .1rem;
+  margin-top:5px;
   text-align: center;
   position: relative;
   padding: 0 25px;
