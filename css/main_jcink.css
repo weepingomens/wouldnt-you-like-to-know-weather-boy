@@ -10820,11 +10820,14 @@ a.user-small-info:hover:before {
 
 .omens-post-17b .post-font-icon,
 .omens-post-17b .post-font-icon-override {
-  font-size:2rem;
-  height:2rem;
-  float:left;
-  margin-right:10px;
-  color:var(--custom);
+  font-size: 2rem;
+  height: 3rem;
+  line-height: 2rem;
+  display: flex;
+  align-items: center;
+  float: left;
+  margin-right: 10px;
+  color: var(--custom);
 }
 
 .omens-post-17b .post-body b {
