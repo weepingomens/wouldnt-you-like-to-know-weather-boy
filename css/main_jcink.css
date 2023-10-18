@@ -10824,7 +10824,7 @@ a.user-small-info:hover:before {
   height:2rem;
   float:left;
   margin-right:10px;
-  color:var(--border);
+  color:var(--custom);
 }
 
 .omens-post-17b .post-body b {
