@@ -13368,6 +13368,7 @@ span.dice-roll {
   padding: 10px;
   color: unset!important;
   line-height: 1;
+  display: inline-block;
 }
 
 span.dice-roll b {
