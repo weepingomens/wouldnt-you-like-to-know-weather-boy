@@ -8566,7 +8566,8 @@ a.user-small-info:hover:before {
   padding:50px;
 }
 
-.omens-post-5b .post-header .post-image-2 {
+.omens-post-5b .post-header .post-image-2,
+.omens-post-5b .post-header .post-image-2-override {
   position:absolute;
   height:100%;
   filter:blur(10px) grayscale(1) invert(1);
@@ -8576,7 +8577,8 @@ a.user-small-info:hover:before {
   pointer-events:none;
 }
 
-.omens-post-5b .post-header .lyric-1 {
+.omens-post-5b .post-header .lyric-1,
+.omens-post-5b .post-header .lyric-1-override {
   font:var(--small-header);
   letter-spacing:.1rem;
   text-transform:uppercase; 
@@ -8584,7 +8586,8 @@ a.user-small-info:hover:before {
   position:relative;
 }
 
-.omens-post-5b .post-header .lyric-2 {
+.omens-post-5b .post-header .lyric-2,
+.omens-post-5b .post-header .lyric-2-override {
   font:900 3rem/1 'playfair display',serif;
   letter-spacing:.033rem;
   text-transform:uppercase;
@@ -8599,7 +8602,8 @@ a.user-small-info:hover:before {
   position:relative;
 }
 
-.omens-post-5b .post-body .post-icon {
+.omens-post-5b .post-body .post-icon,
+.omens-post-5b .post-body .post-icon-override {
   float:right;
   border:var(--default-border);
   padding:10px;
@@ -8608,7 +8612,8 @@ a.user-small-info:hover:before {
   pointer-events: none;
 }
 
-.omens-post-5b .post-body .post-icon img {
+.omens-post-5b .post-body .post-icon img,
+.omens-post-5b .post-body .post-icon-override img {
   width:50px;
   height:50px;
   filter:grayscale(100%);
@@ -8651,7 +8656,8 @@ a.user-small-info:hover:before {
   transition:.25s;
 }
 
-.omens-post-5b .post-font-icon {
+.omens-post-5b .post-font-icon,
+.omens-post-5b .post-font-icon-override {
   font-size:2rem;
   margin-bottom:-2rem;
   text-align:center;
