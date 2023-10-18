@@ -9719,7 +9719,8 @@ a.user-small-info:hover:before {
   margin-right:15px;
 }
 
-.omens-post-12b .post-image-contain .post-image-1 {
+.omens-post-12b .post-image-contain .post-image-1,
+.omens-post-12b .post-image-contain .post-image-1-override {
   position:absolute;
   mix-blend-mode: exclusion;
   opacity:50%;
@@ -9738,16 +9739,19 @@ a.user-small-info:hover:before {
   gap:5px;
 }
 
-.omens-post-12b .post-image-contain .post-lyrics .post-font-icon {
+.omens-post-12b .post-image-contain .post-lyrics .post-font-icon,
+.omens-post-12b .post-image-contain .post-lyrics .post-font-icon-override {
   font-size: 1.5rem;
   line-height:1;
 }
 
-.omens-post-12b .post-image-contain .lyric-1 {
+.omens-post-12b .post-image-contain .lyric-1,
+.omens-post-12b .post-image-contain .lyric-1-override {
   font:italic 700 1.5rem/1 'playfair display',serif;
 }
 
-.omens-post-12b .post-image-contain .lyric-2 {
+.omens-post-12b .post-image-contain .lyric-2,
+.omens-post-12b .post-image-contain .lyric-2-override {
   font:var(--small-header);
   text-transform:uppercase;
 }
