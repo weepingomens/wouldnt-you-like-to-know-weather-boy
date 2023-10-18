@@ -11573,12 +11573,13 @@ a.user-small-info:hover:before {
 
 .omens-post-22 .post-header-contain .lyric-2,
 .omens-post-22 .post-header-contain .lyric-2-override {
-  font:var(--small-header);
-  color:var(--bg);
+  font: var(--small-header);
+  color: var(--bg);
   text-transform: uppercase;
-  letter-spacing:.05rem;
-  position:relative;
-  padding:0 25px;
+  letter-spacing: .25rem;
+  text-align: center;
+  position: relative;
+  padding: 0 25px;
 }
 
 .omens-post-22 .post-image-1 {
