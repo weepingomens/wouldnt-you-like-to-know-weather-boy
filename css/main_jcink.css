@@ -13357,6 +13357,10 @@ body.light {
   display: flex;
 }
 
+.dread-level.threat-level:after {
+  content: 'DREAD LEVEL';
+}
+
 /* END HALLOWEEN 2023 */
 /* END EVENT STYLING */
 
