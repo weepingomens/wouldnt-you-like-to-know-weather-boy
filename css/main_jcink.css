@@ -8417,25 +8417,29 @@ a.user-small-info:hover:before {
   overflow:hidden;
 }
 
-.omens-post-4b .post-icon {
+.omens-post-4b .post-icon,
+.omens-post-4b .post-icon-override {
   background:var(--custom);
   overflow:hidden;
 }
-.omens-post-4b .post-icon img {
+.omens-post-4b .post-icon img,
+.omens-post-4b .post-icon-override img {
   width:100px;
   height:100px;
   filter:grayscale(1);
   mix-blend-mode:darken;
 }
 
-.omens-post-4b .lyric-1 {
+.omens-post-4b .lyric-1,
+.omens-post-4b .lyric-1-override {
   font: italic 700 1.5rem/100% 'playfair display',serif;
   text-transform: lowercase;
   margin: 5px 0;
   text-align:center;
 }
 
-.omens-post-4b .lyric-2 {
+.omens-post-4b .lyric-2,
+.omens-post-4b .lyric-2-override {
   font:var(--small-header);
   letter-spacing:.05rem;
   text-transform:uppercase;
@@ -8444,7 +8448,8 @@ a.user-small-info:hover:before {
   margin-top:10px;
 }
 
-.omens-post-4b .post-font-icon {
+.omens-post-4b .post-font-icon,
+.omens-post-4b .post-font-icon-override {
   font-size:1.5rem;
   text-align:center;
   opacity:5%;
