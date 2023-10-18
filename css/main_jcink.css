@@ -13362,11 +13362,11 @@ body.light {
 }
 
 span.dice-roll { 
-  border: none;
-  border-left: 2px solid var(--custom);
+  border: none!important;
+  border-left: 2px solid var(--custom)!important;
   background: var(--border);
   padding: 10px;
-  color: unset;
+  color: unset!important;
   line-height: 1;
 }
 
