@@ -10227,6 +10227,151 @@ a.user-small-info:hover:before {
 }
 
 /* END [POST15] TEMPLATE */
+/* START [POST15B] TEMPLATE */
+
+.omens-post-15b .post-image-2,
+.omens-post-15b .post-image-2-override {
+  width:100%;
+  height:150px;
+  background:var(--custom);
+  position:relative;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.omens-post-15b .post-image-2 img,
+.omens-post-15b .post-image-2-override img {
+  width:100%;
+  filter:grayscale(1) blur(3px);
+  transform:scale(1.1);
+  opacity: 25%;
+  mix-blend-mode:darken;
+  position:absolute;
+  pointer-events: none;
+}
+
+.omens-post-15b .post-font-icon {
+  position:absolute;
+  font-size:7rem;
+  width:12rem;
+  height:12rem;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  background:rgba(255,255,255,10%);
+  border-radius:100%;
+}
+
+.omens-post-15b .post-font-icon:before {
+  color:#fff;
+  mix-blend-mode: overlay;
+}
+
+.omens-post-15b .lyric-icon-contain {
+  display:flex;
+  justify-content: space-between;
+}
+
+.omens-post-15b .lyric-icon-contain .post-icon img,
+.omens-post-15b .lyric-icon-contain .post-icon-override img {
+  width:50px;
+  margin:10px;
+  filter:grayscale(1);
+  padding: 5px;
+  border: var(--default-border);
+}
+
+.omens-post-15b .lyric-1,
+.omens-post-15b .lyric-1-override,
+.omens-post-15b .lyric-2,
+.omens-post-15b .lyric-2-override {
+  font:var(--small-header);
+  text-transform:uppercase;
+  text-align: center;
+  letter-spacing:.2rem;
+  margin:0;
+  color:rgba(255,255,255,33%);
+  display:flex;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.omens-post-15b .lyric-1:before,
+.omens-post-15b .lyric-1:after,
+.omens-post-15b .lyric-1-override:before,
+.omens-post-15b .lyric-1-override:after,
+.omens-post-15b .lyric-2:before,
+.omens-post-15b .lyric-2:after,
+.omens-post-15b .lyric-2-override:before,
+.omens-post-15b .lyric-2-override:after  {
+  content: '';
+  flex-grow: 1;
+  height: 2px;
+  background: var(--border);
+}
+
+.omens-post-15b .lyric-1:before,
+.omens-post-15b .lyric-1-override:before,
+.omens-post-15b .lyric-2:before,
+.omens-post-15b .lyric-2-override:before {
+  margin-right:10px;
+}
+
+.omens-post-15b .lyric-1:after,
+.omens-post-15b .lyric-1-override:after,
+.omens-post-15b .lyric-2:after,
+.omens-post-15b .lyric-2-override:after {
+  margin-left:10px;
+}
+
+.omens-post-15b .post-body {
+  border: var(--default-border);
+  border-width: 0 2px;
+  border-left-color:var(--custom);
+  padding: 0 50px;
+  margin: 0 40px;
+}
+
+.omens-post-15b .post-body b {
+  font-weight: 500;
+  font-size: 1.2rem;
+  line-height: 1.6rem;
+  color: var(--custom);
+}
+
+.omens-post-15b .post-body i {
+  color:var(--italic);
+  letter-spacing:-0.02rem;
+}
+
+.omens-post-15b .post-body u {
+  text-decoration: none;
+  padding: 0 5px;
+  background:var(--border);
+  font-weight: 400;
+  color:rgba(255,255,255,50%);
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+}
+
+.omens-post-15b .post-body tagged {
+  display:flex;
+  flex-flow:row wrap;
+  gap:10px;
+  justify-content: flex-end;
+}
+
+.omens-post-15b .post-body tagged a {
+  padding: 5px;
+  background: var(--border);
+  font:var(--small-header);
+  text-transform:uppercase;
+  color:rgba(255,255,255,50%);
+  letter-spacing:.05rem;
+}
+/* END [POST15B] TEMPLATE */
 /* START [POST16] TEMPLATE */
 
 .omens-post-16 {
