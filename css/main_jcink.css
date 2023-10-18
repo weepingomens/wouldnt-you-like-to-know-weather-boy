@@ -10564,6 +10564,7 @@ a.user-small-info:hover:before {
   background: var(--bg);
     border: 15px solid var(--custom);
     padding:5px;
+    margin-bottom:10px;
 }
 
 .omens-post-16b .post-body b {
