@@ -4927,6 +4927,7 @@ a.user-small-info:hover:before {
 
 .post-row.npc .user-name-contain .font-icon:before {
   content: "\E157" !important;
+  font-family: "game-icons";
 }
 
 .post-row.npc .user-icon .img {
