@@ -10676,6 +10676,7 @@ a.user-small-info:hover:before {
   filter: grayscale(1);
   opacity: .5;
   transition: .25s;
+  text-transform: lowercase;
 }
 
 .omens-post-16b .post-body tagged a:hover {
