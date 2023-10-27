@@ -10887,6 +10887,7 @@ a.user-small-info:hover:before {
   mix-blend-mode: darken;
   opacity: 33%;
   pointer-events: none;
+  overflow:hidden;
 }
 
 .omens-post-17b .post-body {
